@@ -1,0 +1,80 @@
+<text>
+	<body>
+		<pb n="8"/>
+		
+		<div type="instruction">
+			<head>
+				<choice>
+					<orig>
+						<ab part="I">
+							Pattern Book
+						</ab>
+						<ab part="F">
+							or Illustrated Catalogue
+						</ab>
+					</orig>
+					<reg>
+						Pattern Book or Illustrated Catalogue
+					</reg>
+				</choice>
+			<head>
+			
+			<list>
+				<item>Account Book patterns
+					<graphic>
+						<desc>
+							X with dots in each vertex (in between line)
+						</desc>
+					</graphic>
+				</item>
+				<item>Solicitors "</item>
+				<item>Bookbinding "</item>
+				<item>Letterpress "</item>
+				<item>Lithographic "</item>
+				<item>Relief stamp "</item>
+				<item>Wedding Stationery "</item>
+				<item>Funeral " "</item>
+			</list>
+			
+			<p>
+				as to size of Proposed pattern book look how Chambers decreased their post folio Chambers Journal to Small
+				Imperial 800 a good precedent for Sizes of books
+			</p>
+			
+			<list>
+				<head>
+					Alphabetically arranged, a/c book Forms Solicitors
+				</head>
+				<item n="A">Letters Recieved Book</item>
+				<item n="AA">Order faint + date</item>
+				<item n="B">Day book faint + com headline</item>
+				<item n="C">Journal a <abbr>patt</abbr></item>
+				<item n="D">" B "</item>
+				<item n="E">Single Ledger</item>
+				<item n="F">double "</item>
+				<item n="G">Cash Book</item>
+				<item n="H">Bills payable</item>
+				<item n="I">" Receivable</item>
+				<item n="J">Order Book outward voucher</item>
+				<item n="K">Order Book outwards</item>
+				<item n="L">Ourchase Journal</item>
+				<item n="M">Purchase Ledger</item>
+				<item n="N">Cash Receipt Book</item>
+				<item n="O">Balance Book</item>
+				<item n="P">Private Ledger</item>
+				<item n="Q">Private Journal</item>
+				<item n="R">Goods Delivered A and B</item>
+				<item n="S">Brewers Delivery Book</item>
+				<item n="T">Faint + margin</item>
+			</list>
+
+			<note place="end">
+				<name>
+					PJO
+				</name>
+			</note>
+		</div>
+		<!-- [mark on inventory spreadsheet] -->
+	</body>
+</text>
+

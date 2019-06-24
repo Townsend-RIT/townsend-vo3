@@ -1,0 +1,39 @@
+<text>
+	<body>
+		<pb n="4"/>
+		
+		<div type="aphorism">
+			<p>
+				Let Probity rule all your transactions and Life
+				<date when="1890-10-15" place="end">Oct 15/90</date>
+			</p>
+		</div>
+		
+		<div type="imperative">
+			<p>
+				Have Monthly Balancings to see prospectively how things are every <num type="ordinal">20th</num> of the Month
+				<note place="below"><unclear reason="illegible">Hook it from M 7ox</unclear></note> I like and Quarterly Balancings
+				of every Book Debit and Credit that is what your own and is owing to you. say
+				<date when="--01-20">Jan 20</date>
+				<date when="--04-20">April 20</date>
+				<date when="--07-20">July 20</date>
+				<date when="--10-20">Oct 20</date>
+				Check every item with <mentioned>Day Book</mentioned> from the Order Book to be sure all is entered
+				<note place="margin">
+					<name xml:id="WT">
+						William Townsend
+					</name>
+				</note>
+				Orders in Safe - Cross every order in <mentioned>Day Book</mentioned> with Red tick before putting in Safe -
+				<gloss>the Red tick signifies there is an order in the Safe</gloss>
+				<date when="1891-04-24" place="end">April 24/91</date>
+			</p>
+		</div>
+		
+		<note place="bottom">
+			<date place="inline" when="1894-04">April/94</date> Mr Kingsford Wilson Jadrise Double Entry
+		</note>
+		<!-- [mark on inventory spreadsheet] -->
+	</body>
+</text>
+

@@ -1,0 +1,60 @@
+<text>
+	<body>
+		<pb n="21"/>
+		
+		<list rend="roman_numeral">
+			<head>
+				Rulings
+			</head>
+			<item n="i">Double Ledger</item>
+			<item n="ii">Single "</item>
+			<item n="iii">Single Cash with head line</item>
+			<item n="iv">Double "</item>
+			<item n="v">Journal</item>
+			<item n="vi">Day Book faint head + single cash</item>
+			<item n="vii">Order " faint + date and head</item>
+			<item n="viii">Faint <choice><orig>thro</orig><reg>through</reg></choice></item>
+			<item n="ix">Faint and date <choice><orig>thro</orig><reg>through</reg></choice></item>
+			<item n="x">Faint and Common <choice><orig>thro</orig><reg>through</reg></choice></item>
+			<item n="xi">Faint and double money <choice><orig>thro</orig><reg>through</reg></choice></item>
+			<item n="xii">Faint Long Folio <choice><orig>thro</orig><reg>through</reg></choice></item>
+			<item n="xiii">Faint and date " "</item>
+			<item n="xiv">Faint and Common " "</item>
+			<item n="xv">Faint and double money " "</item>
+		</list>
+		
+		<table rows="2" cols="8">
+			<row>
+				<cell role="label">faints</cell>
+				<cell role="label">faint + coin</cell>
+				<cell role="label">long <unclear reason="illegible">4te</unclear></cell>
+				<cell role="label">Single <abbr>Led</abbr></cell>
+				<cell role="label"><abbr>dble</abbr><abbr>Led</abbr></cell>
+				<cell role="label" xml:id="bracketStart">intricate</cell>
+				<cell role="label">very <unclear reason="illegible">urte cute</unclear>"</cell>
+				<cell role="label" xml:id="bracketEnd">very very <unclear reason="illegible">whice</unclear></cell>
+			</row>
+			<row>
+				<cell>1</cell>
+				<cell>2</cell>
+				<cell>2</cell>
+				<cell>2</cell>
+				<cell>3</cell>
+				<cell xml:id="bracketStart">4</cell>
+				<cell>5</cell>
+				<cell xml:id="bracketEnd">6</cell>
+			</row>
+			<note place="margin">
+				Lay over per ream
+			</note>
+			<note>
+				sheets per <name>Frank J.</name> per ream
+			</note>
+			<!-- [part of the table is annotated] -->
+			<note target="#bracketStart" targetEnd="#bracketEnd" rend="bracket">
+				printed
+			</note>
+		</table>
+	</body>
+</text>
+
