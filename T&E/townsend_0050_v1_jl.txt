@@ -1,0 +1,36 @@
+      <body>
+         <pb n="12" />
+         <head>Tin Cases _ Contents Nos
+         ”</head>
+         <div type="index">
+         <list type="index">
+            <item>Cutlery <add rend="pencil"><unclear reason="illegible">Crypt Crypt</unclear></add></item>
+            <item>Collieries <add rend="pencil">C <unclear reason="illegible">Crypt</unclear></add></item>
+            <item>Cammell Co</item>
+            <item>Lost Contracts <add rend="pencil">C</add></item>
+            <item>Bankers</item>
+            <item>Sheffield Cooporation Water depart<add rend="pencil">C</add></item>
+            <item>Roro of Sheffield 2 cases<add rend="pencil">C</add></item>
+            <item><add rend="pencil">X</add>Miscellaneous 2<add rend="pencil">C</add></item>
+            <item><add rend="pencil">X</add>Accountants<add rend="pencil">C</add></item>
+            <item>Files and Cost Books<add rend="pencil">Bad <unclear reason="illegible">dolt</unclear> booth C</add></item>
+            <item>Gas Company <add rend="pencil">C</add></item>
+            <item>Iron of Steel Cases <add rend="pencil">C</add></item>
+            <item><add rend="pencil">X</add>G &amp; <hi rend="flourish">L</hi>4 <add rend="pencil">C</add></item>
+            <item>Breweries</item>
+            <item>Limited Companies</item>
+            <item>Contracts</item>
+            <item><add rend="pencil">X</add>Stock orders</item>
+            <item>Abstracts</item>
+            <item>Journals</item>
+            <item>Townsends stock patterns</item>
+            <item>Mercantile</item>
+            <item>Lost Contracts <add rend="pencil">C</add></item>
+            <item>Type</item>
+            <item>Litho</item>
+            <item>Pattern Cards</item>
+            <item>Brewers Bottled Beer patterns</item>
+            <item>Lawyers</item>
+            <item>Water Works Sheffield <add rend="pencil">C PTO</add></item>
+         </list></div>
+      </body>

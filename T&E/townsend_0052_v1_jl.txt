@@ -1,0 +1,17 @@
+      <body>
+         <pb n="14" />
+         <head>Departmental price Bks
+            except <term>A/c book</term> + Binding
+            Traveller Bag</head>
+         <div type="list"><p>
+            <list rend="alpha">
+               <item>pattern Cards I</item>
+               <item>Binding II</item>
+               <item>Writings III</item>
+               <item>Printing IV</item>
+               <item>Litho V</item>
+               <item>Factored VI</item>
+               <item>Heavy VII</item>
+            </list>
+         </p></div>
+      </body>

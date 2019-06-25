@@ -1,0 +1,33 @@
+<text>
+    <body>
+        <pb n="9" />
+        <head>Solicitors patterns</head>
+        <div type="other"><p>
+            <list type="index">
+                <item>U Affidavit</item>
+                <item>V paint + date</item>
+                <item>W Abstract</item>
+                <item>X Judicature</item>
+                <item>Y Draft</item>
+                <item>Z Ledger / Balances</item>
+                <item>AA Quantities</item>
+                <item>BB Taxation Costs</item>
+                <item>CC Agency Cost</item>
+                <item>DD Bankruptcy Costs</item>
+                <item>EE Delivery Cost</item>
+                <item>FF Draft / Bill Paper</item>
+            </list>
+            Book Key to <term>Account Book</term> patterns
+            see Tin Case <num>1</num> to <num>499</num>
+            <term>Account Book</term> Patterns Kept in tin case
+            <num>1</num> to <num>499</num>
+        </p></div>
+        <div type="instruction"><p>
+            send binding invoices with discretion it
+            leads to them being paid if delayed perhaps <desc rend="underline">Never</desc>
+            send Monthly <term>A/cs</term> to all with discretion that
+            we can. very helpful to pay our monthly bills
+            and less work
+        </p></div>
+    </body>
+</text>
