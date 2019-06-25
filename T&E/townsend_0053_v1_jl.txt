@@ -1,0 +1,78 @@
+      <body>
+         <pb n="15" />
+         <div type="list">
+         <table>  
+         <head>Makers
+         <hi rend="underline">New Price Book</hi></head>
+            <row role="label">
+               <cell>No of
+               vols</cell>
+            </row>
+            <row role="data">
+               <cell role="data"><num>2</num></cell>
+               <cell role="data">Foolscap</cell>
+               <cell role="data"><num>1</num> to <num>2000</num></cell>
+            </row>
+            <row>
+               <cell role="data"><num>1</num></cell>
+               <cell role="data">Demy</cell>
+               <cell role="data"><num>2001</num> to <num>3000</num></cell>
+            </row>
+            <row>
+               <cell role="data"><num>1</num></cell>
+               <cell role="data">Medium</cell>
+               <cell role="data"><num>3001</num> to <num>4000</num></cell>
+            </row>
+            <row>
+               <cell role="data"><num>1</num></cell>
+               <cell role="data">Royal</cell>
+               <cell role="data"><num>4001</num> to <num>5000</num></cell>
+            </row>
+            <row>
+               <cell role="data"><num>1</num></cell>
+               <cell role="data">Super Royal</cell>
+               <cell role="data"><num>5001</num> to <num>6000</num></cell>
+            </row>
+            <row>
+               <cell role="data"><num>1</num></cell>
+               <cell role="data">Imperial</cell>
+               <cell role="data"><num>6001</num> to <hi rend="crossed"><num>6300</num></hi> <add rend="pencil"><num>7000</num></add></cell>
+            </row>
+            <row>
+               <cell role="data"><num>1</num></cell>
+               <cell role="data">Sheet + <unclear reason="illegible">Third Frap</unclear></cell>
+               <cell role="data"><num>7001</num> to <hi rend="crossed"><num>7500</num></hi> <add rend="pencil"><num>8000</num></add></cell>
+            </row>
+            <row>
+               <cell role="data">” + Hay ”</cell>
+               <cell role="data"><num>8001</num> to <hi rend="crossed"><num>8500</num></hi> <add rend="pencil"><num>9000</num></add></cell>
+            </row>
+            <row>
+               <cell role="data"><num>1</num></cell>
+               <cell role="data">Post</cell>
+               <cell role="data"><num>9001</num> to <hi rend="crossed"><num>9700</num></hi> <add rend="pencil"><num>10000</num></add></cell>
+            </row>
+            <row>
+               <cell role="data"><num>1</num></cell>
+               <cell role="data">Large Post</cell>
+               <cell role="data"><num>10001</num> to <hi rend="crossed"><num>10700</num></hi> <add rend="pencil"><num>11000</num></add></cell>
+            </row>
+          </table>
+            <p><hi rend="double_underline"><num>10</num> vols</hi> <add rend="pencil"><num>11001</num> to <num>12000</num></add></p>
+         </div>      <body>
+         <pb n="14" />
+         <head>Departmental price Bks
+            except <term>A/c book</term> + Binding
+            Traveller Bag</head>
+         <div type="list"><p>
+            <list rend="alpha">
+               <item>pattern Cards I</item>
+               <item>Binding II</item>
+               <item>Writings III</item>
+               <item>Printing IV</item>
+               <item>Litho V</item>
+               <item>Factored VI</item>
+               <item>Heavy VII</item>
+            </list>
+         </p></div>
+      </body>
