@@ -1,0 +1,63 @@
+<pb n="035" facs=""/>
+  <fw type="page_number" place="top">Y</fw>
+  <head>Latest on bookeeping</head>
+    <ab>
+      Stores for all sent up to the departments by Ticket and Store Keeper charge each department in his Journal. then every year balance stores and shew balance
+    </ab>
+  <head>
+    Re-arrangement of Office Work
+    <date when="1898-05-16">May 16/98</date>
+  </head>
+    <head>Bookeeper
+      <note place="underneath">
+        <persName>Freeman</persName>
+      </note>
+    </head>
+    <list xml:id="bookeeper_list" style="list-style-type: none;">
+      <item>Posting General Sales Ledgers</item>
+      <item>Accounts monthly-quaterly-all</item>
+      <item>Collecting vigilantly + well kept up</item>
+      <item>
+        Orders end in Calculation
+        <choice>
+          <abbr>bks</abbr>
+          <expan>books</expan>
+        </choice>
+        and Safed
+        <lb/>
+        <abbr>Wed</abbr><time when="10:00:00">10 am</time>list of doubtful <abbr>a/c</abbr> complaints + remarks
+        <!--[+ are silently regularized to 'and']-->
+      </item>
+      <item>
+        <emph style="font-weight: bold;">
+          Contents No of Tin Cases 12
+        </emph>
+      </item>
+    </list>
+    <head>
+      Assistant Bookeeper
+      <note place="underneath">
+        <persName>Thompson</persName>
+      </note>
+    </head>
+    <list>
+      <item>Cash + Cash book post</item>
+      <item><seg xml:id="035_analysis">Analysis</seg> Sheet</item>
+      <item><seg sameAs="#035_analysis">ditto</seg> Sales</item>
+      <item><seg sameAs="#035_analysis">ditto</seg> Purchases</item>
+      <item ref="#bookeeper_list">Trade Ledger</item>
+      <item>Accounts To pay departmental
+        <unclear reason="illegible">rations</unclear>
+      </item>
+      <item>Order Book</item>
+      <item>Time Wages pay</item>
+    </list>
+    <ab>
+      Master should keep his own Cash and fall over his own Ledgers <persName>WT</persName> <date when="1898-05-16">May 16/98</date>
+      <!--[how to handle WT initials]-->
+    </ab>
+    <list style="list-style-type: none">
+      <label>C Cammell C Lt complaint of Pads</label>
+      <item>163</item>
+
+    </list>
