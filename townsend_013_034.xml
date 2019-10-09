@@ -109,7 +109,7 @@
                     </choice> books, <num type="pageNum">161</num>, <num type="pageNum">27</num>
                     Collector <num type="pageNum">92</num>, <num type="pageNum">219</num>, <num type="pageNum">337</num>, <num type="pageNum">326</num>
                     Composition <num type="pageNum">252</num>
-                    Corporation Sheffield <num type="pageNum">337</num>
+                    <orgName>Corporation Sheffield</orgName> <num type="pageNum">337</num>
                     Country idea <num type="pageNum">220</num>
                     Children <num type="pageNum">258</num>
                     Charity <num type="pageNum">235</num>
@@ -166,7 +166,7 @@
                     Ends <num type="pageNum">181</num> <num type="pageNum">154</num> <num type="pageNum">37</num> <num type="pageNum">168</num>* *making of
                     Engine Ball <num type="pageNum">104</num>
                     Economies <num type="pageNum">179</num>
-                    <placeName>Ecclesall Workhouse</placeName>
+                    <placeName><name>Ecclesall</name> Workhouse</placeName>
                     Estimate form Cather binders <num type="pageNum">186</num>
                     Ends making by Women objected
                     to by <orgName>The Union</orgName> <num type="pageNum">167</num>
@@ -209,11 +209,36 @@
                 </ab>
                 <pb facs="0019.tif" />
                 <ab>
-                    <handShift medium="ink" />
+                    <handShift medium="ink" />Groom <num type="pageNum">343</num>
+                    Glue <num type="pageNum">115</num>
+                    Gas <num type="pageNum">200</num>, <num type="pageNum">344</num>
+                    Guardians application <num type="pageNum">274</num>
+                    GCL
+                    Gas Engine Ball <num type="pageNum">104</num> <num type="pageNum">344</num>
+                    Goods Delivery Books <num type="pageNum">10502</num>
+                    Guard Books <num type="pageNum">4701</num>
+                    Green Mr. Hs visit <num type="pageNum">227</num>
+                    Guards for Skeleton books <num type="pageNum">64</num>
+                    Good Friday <num type="pageNum">100</num>
+                    Gas Ledgers what has given way <num type="pageNum">161</num>
+                    Greens visits travelling <num type="pageNum">282</num>
+                    Green Vellum Price Books <num type="pageNum">15</num>.<num type="pageNum">16</num>.
+                    Good binders <num type="pageNum">193</num>
+                    <handShift medium="pencil" />Green <num type="pageNum">282</num>
                 </ab>
                 <pb facs="0020.tif" />
                 <ab>
-                    
+                    <handShift medium="ink" /><seg xml:id="0020_holiday">Holidays</seg> and <seg xml:id="0020_absence">Absence</seg> <num type="pageNum">98</num>
+                    <seg sameAs="#0020_holiday">ditto</seg> <seg sameAs="#0020_absence">ditto</seg> <num type="pageNum">99</num>
+                    Hour price p in departments <num type="pageNum">241</num>
+                    Hows the Ship Sailing <num type="pageNum">85</num>
+                    How to get a Balance <num type="pageNum">86</num>
+                    Hydraulic Press <num type="pageNum">69</num>
+                    Hours worked as far back as <date from="1837" to="1901">1837 to 1901</date> <num type="pageNum">191</num>
+                    Honest Charging <num type="pageNum">265</num>
+                    Horse Keep <num type="pageNum">87</num>
+                    Home Forwarding <num type="pageNum">188</num>
+                    H<unclear reason="handwriting">ar</unclear> on Comping or Compo<unclear reason="handwriting">ntion</unclear> <num type="pageNum">233</num>
                 </ab>
                 <pb facs="0021.tif" />
                 <ab>
