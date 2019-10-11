@@ -242,11 +242,66 @@
                 </ab>
                 <pb facs="0021.tif" />
                 <ab>
-                    
+                    Ink Morrel end board end paper <num type="pageNum">360</num>
+                    Index scale and stock <num type="pageNum">52</num>
+                    Index No of stock <num type="pageNum">23</num> <num type="pageNum">18</num>
+                    <choice>
+                        <orig>Indexs</orig>
+                        <reg>Indices</reg>
+                    </choice> fast how to treat <num type="pageNum">41</num>
+                    Indirect Charges <num type="pageNum">119</num>
+                    Insurance <num type="pageNum">211</num>
+                    <choice>
+                        <orig>Indexs</orig>
+                        <reg>Indices</reg>
+                    </choice> suitable for <num>7</num> to <num>1</num> quires <num type="pageNum">51</num>
+                    <choice>
+                        <orig>Indexs</orig>
+                        <reg>Indices</reg>
+                    </choice> calculation book 
+                    <choice>
+                        <abbr>Nº</abbr>
+                        <expan>Numero</expan>
+                    </choice> <num type="pageNum">1501</num>
+                    Journey <num type="pageNum">67</num> <!-- Townsend doesn't distinguish between capital Is and Js, so...is this
+                    something we should silently regularize? Which is what I guess I've already technically done? -->
+                    Journey 
+                    <choice>
+                        <abbr>WTs</abbr>
+                        <expan><persName>William Townsends</persName></expan>
+                    </choice> <num type="pageNum">323</num>
+                    <choice>
+                        <orig>Indexs</orig>
+                        <reg>Indices</reg>
+                    </choice> cost of <num type="pageNum">52</num>
+                    Ink Staffords <num type="pageNum">273</num>C
+                    Ink Stephens <num type="pageNum">273</num>C
+                    Invoice marking
+                    Index Key <num type="pageNum">1501</num>
+                    Jottings <num type="pageNum">206</num>
+                    Ideas  <num type="pageNum">111</num>
+                    <handShift medium="pencil" />Income <unclear reason="faded">Jax wearing</unclear>
+                    Jottings
+                    Work <unclear reason="handwriting">Menoper</unclear> <num type="pageNum">193</num>
                 </ab>
                 <pb facs="0022.tif" />
                 <ab>
-                    
+                    <handShift medium="ink" /><seg xml:id="0022_key_to_ac">Key to 
+                        <choice>
+                            <abbr>A/c</abbr>
+                            <expan>Accounting</expan>
+                        </choice></seg> <seg xml:id="0022_book_pattern">book pattern</seg> 
+                    <choice>
+                        <abbr>Nos</abbr>
+                        <expan>Numeros</expan>
+                    </choice> <num type="pageNum">17</num>
+                    <!-- because of the positioning of the second ditto, I opted not to include the Nos as part of the segment. It might
+                        need to be, though. -->
+                        <seg sameAs="#0022_key_to_ac">ditto</seg> <seg sameAs="#0022_book_pattern">ditto</seg> <num type="pageNum">60</num>
+                        <seg sameAs="#0022_key_to_ac">ditto</seg> <seg sameAs="#0022_book_pattern">ditto</seg> <num type="pageNum">59</num>
+                    <seg sameAs="#0022_key_to_ac">ditto</seg> Prosperity Punctuality <num type="pageNum">81</num>
+                    Keen Estimating <num type="pageNum">71</num>
+                    Key to index begin 1501 <num type="pageNum">23</num>
                 </ab>
                 <pb facs="0023.tif" />
                 <ab>
