@@ -144,3 +144,151 @@
     year 1902 arabic figure
   </note>
   <fw type="UNKNOWN" place="bottom">Y <lb/> Z</fw>
+
+<!--[Start of NUMBER 37]-->
+<pb n="037" facs=""/>
+  <fw type="page_number" place="top">1/2</fw>
+  <ab>
+	The Proudest view that can be taken of Man is to see him like some Fair Vessel proceeding steadily thro the Ocean of Time His Sails impelled by the Feelings and Passions of a well ordered Mind. His Irregular Motions controlled by the Ballast of a Sound Understanding while Judgement sits at the Helm with eyes fixed on the Compass of Religion and Reason
+	<date when="1890-12-07">Dec 7/90</date>
+  </ab>
+  <ab>
+	True quietness of Heart is got by resisting our passions not by obeying them
+  </ab>
+
+<!--[Start of NUMBER 38]-->
+<pb n="038" facs=""/>
+	<fw type="page_number" place="top">3/4</fw>
+	<ab>
+		Were Men indeed convinced that their health and comfort were so materially dependent upon the regulation of their own Minds, they would be more careful to strengthen them by Study, and Moderate them by reason, and Confirm them by Religion, and reduce them to an equanimity not easily disturbed by the Crosses and Accidents of Life.
+	<date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date>
+	</ab>
+	<ab>Tomorrow leads to te Town of Never</ab>
+	<ab>To deny self, to be meek, to be pure in heart to trust Gods Providence</ab>
+	<ab>
+		Love. Joy. Peace long suffering Kindness goodness faithfulness meekness 	temperance - can we say there is not a strong line of demarkation between those who bear such fruit and those who don't
+	</ab>
+	<note place="bottom">
+		and he that is eight days old shall be circumsised 
+		<ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
+		<hi rend="#flourish">Circumsised Cardinal Number 8</hi>
+	</note>
+
+<!--[Start of NUMBER 39]-->
+<pb n="039" facs=""/>
+	<fw type="page_number" place="top">1</fw>
+	<head>
+		Routine of Work And duty
+	</head>
+	<note place="left margin">
+		One good head is better than a great many Hands
+	</note>
+	<ab>
+		I advise rising at 6am Summer and Winter, <lb/>
+		Prayers Bath and Shave up to 7 <lb/>
+		Breakfast from 7.15 to 7.45 including H.C. <lb/>
+		Carriage 7.45 to 8 arrive Surrey St <lb/>
+		In Workshops at 8 prompt seeing to work until 1pm from 1 to 2 dinner in private room Hot one day Cold next leave Surrey St at 7om by Carriage this to apply to Mon Tues Wed Thur Fri - Saturday each alternately a holiday. 
+	</ab>
+	<table rows="6" cols="4">
+		<row>
+			<cell>M</cell>
+			<cell xml:id="039_8to1">8 to 1</cell>
+			<cell xml:id="039_2to7">2 to 7</cell>
+			<cell>10</cell>
+		</row>
+		
+		<row>
+			<cell>T</cell>
+			<cell sameAs="#039_8to1">ditto</cell>
+			<cell sameAs="#039_2to7">ditto</cell>
+			<cell>10</cell>
+		</row>
+		
+		<row>
+			<cell>W</cell>
+			<cell sameAs="#039_8to1">ditto</cell>
+			<cell sameAs="#039_2to7">ditto</cell>
+			<cell>10</cell>
+		</row>
+		
+		<row>
+			<cell>Th</cell>
+			<cell sameAs="#039_8to1">ditto</cell>
+			<cell sameAs="#039_2to7">ditto</cell>
+			<cell>10</cell>
+		</row>
+		
+		<row>
+			<cell>F</cell>
+			<cell sameAs="#039_8to1">ditto</cell>
+			<cell sameAs="#039_2to7">ditto</cell>
+			<cell>10</cell>
+		</row>
+		
+		<row>
+			<cell>S</cell>
+			<cell cols="3">
+				Summer <seg xml:id="039_holiday">holiday</seg> alternate <seg xml:id="039_saturday">Saturdays</seg> <lb/>
+				Senior <seg sameAs="#039_holiday">ditto</seg> each <seg sameAs="#039_saturday">ditto</seg>
+			</cell>
+		</row>
+	</table>
+	
+<!--[Start of NUMBER 40]-->
+<pb n="040" facs=""/>
+	<fw type="page_number" place="top">2</fw>
+	<ab>
+		In Business - I think if Health will permit it is a very good thing to be in the workshops at 2pm to see all at their work doing it correctly and properly
+	</ab>
+	<ab>
+		Saturdays I think the time for the one who takes duty might be 8 to 3 short Cold Lunch making 57 hours whish is more than the workmen make, to make up for this the following week he has but 50 hours to make and which with probable over minutes will bring the working Masters hours to an average of 54 hours weekly as at present worked in Shops
+		<date when="1890-06-17">June <num type="ordinal">17th</num> 1890</date>
+	</ab>
+	<figure>
+		<figDesc>
+			A shop layout with annotations of objects in the room
+		</figDesc>
+		<graphic url=""/>
+		<trailer>
+			Master in front room having eye on shop cutomers Travellers offices and well seeing to telephone customers with runs up and down stairs
+			<date when="1891-06-08">June 8/91</date>
+		</trailer>
+		<note>
+			Never allow any one to be in and out - Shop neglected
+		</note>
+	</figure>
+
+<!--[Start of NUMBER 41]-->
+<pb n="041" facs=""/>
+	<fw type="page_number" place="top">3</fw>
+	<head place="top opposite">
+		Bookeeping <hi style="text-decoration: underline; text-decoration-style: double;">Double</hi> Entry
+	</head>
+	<ab>
+		Have "Day Book" very carefully added and analysed every Month
+	</ab>
+	<ab>
+		Every Quarter strike a Balance with the Quarters Sale showing
+	</ab>
+	<table rows="1" cols="3">
+		<row>
+			<cell>
+				Cash <lb/>
+				as <lb/>
+				<hi style="text-decoration: underline;">Bank</hi> Book
+			</cell>
+			<cell>
+				Abatements <lb/>
+				as <lb/>
+				<hi style="text-decoration: underline;">"Masters"</hi> initials
+			</cell>
+			<cell>
+				Not Paid <lb/>
+				as <lb/>
+				Written list + <hi style="text-decoration: underline;">why</hi>
+			</cell>
+		</row>
+	</table>
+	<!--[unfinished page 41]-->
+	
