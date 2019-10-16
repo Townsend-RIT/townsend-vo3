@@ -26,7 +26,7 @@
       </choice>
       and Safed
       <lb/>
-      <abbr>Wed</abbr><time when="10:00:00">10 am</time>list of doubtful <abbr>a/c</abbr> complaints + remarks
+      <abbr>Wed</abbr>10am list of doubtful <abbr>a/c</abbr> complaints + remarks
       <!--[+ are silently regularized to 'and']-->
     </item>
     <item>
@@ -43,9 +43,9 @@
   </head>
   <list>
     <item>Cash + Cash book post</item>
-    <item><seg xml:id="035_analysis">Analysis</seg> Sheet</item>
-    <item><seg sameAs="#035_analysis">ditto</seg> Sales</item>
-    <item><seg sameAs="#035_analysis">ditto</seg> Purchases</item>
+    <item><seg xml:id="analysis_0035">Analysis</seg> Sheet</item>
+    <item><seg sameAs="#analysis_0035">ditto</seg> Sales</item>
+    <item><seg sameAs="#analysis_0035">ditto</seg> Purchases</item>
     <item ref="#bookeeper_list">Trade Ledger</item>
     <item>Accounts To pay departmental
       <unclear reason="illegible">rations</unclear>
@@ -193,44 +193,44 @@
 	<table rows="6" cols="4">
 		<row>
 			<cell>M</cell>
-			<cell xml:id="039_8to1">8 to 1</cell>
-			<cell xml:id="039_2to7">2 to 7</cell>
+			<cell xml:id="8to1_0039">8 to 1</cell>
+			<cell xml:id="2to7_0039">2 to 7</cell>
 			<cell>10</cell>
 		</row>
 		
 		<row>
 			<cell>T</cell>
-			<cell sameAs="#039_8to1">ditto</cell>
-			<cell sameAs="#039_2to7">ditto</cell>
+			<cell sameAs="#8to1_0039">ditto</cell>
+			<cell sameAs="#2to7_0039">ditto</cell>
 			<cell>10</cell>
 		</row>
 		
 		<row>
 			<cell>W</cell>
-			<cell sameAs="#039_8to1">ditto</cell>
-			<cell sameAs="#039_2to7">ditto</cell>
+			<cell sameAs="#8to1_0039">ditto</cell>
+			<cell sameAs="#2to7_0039">ditto</cell>
 			<cell>10</cell>
 		</row>
 		
 		<row>
 			<cell>Th</cell>
-			<cell sameAs="#039_8to1">ditto</cell>
-			<cell sameAs="#039_2to7">ditto</cell>
+			<cell sameAs="#8to1_0039">ditto</cell>
+			<cell sameAs="#2to7_0039">ditto</cell>
 			<cell>10</cell>
 		</row>
 		
 		<row>
 			<cell>F</cell>
-			<cell sameAs="#039_8to1">ditto</cell>
-			<cell sameAs="#039_2to7">ditto</cell>
+			<cell sameAs="#8to1_0039">ditto</cell>
+			<cell sameAs="#2to7_0039">ditto</cell>
 			<cell>10</cell>
 		</row>
 		
 		<row>
 			<cell>S</cell>
 			<cell cols="3">
-				Summer <seg xml:id="039_holiday">holiday</seg> alternate <seg xml:id="039_saturday">Saturdays</seg> <lb/>
-				Senior <seg sameAs="#039_holiday">ditto</seg> each <seg sameAs="#039_saturday">ditto</seg>
+				Summer <seg xml:id="holiday_0039">holiday</seg> alternate <seg xml:id="saturday_0039">Saturdays</seg> <lb/>
+				Senior <seg sameAs="#holiday_0039">ditto</seg> each <seg sameAs="#saturday_0039">ditto</seg>
 			</cell>
 		</row>
 	</table>
