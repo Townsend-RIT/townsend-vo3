@@ -1,3 +1,4 @@
+<!--[Start of NUMBER 35]-->
 <pb n="035" facs=""/>
   <fw type="page_number" place="top">Y</fw>
   <head>Latest on bookeeping</head>
@@ -8,56 +9,138 @@
     Re-arrangement of Office Work
     <date when="1898-05-16">May 16/98</date>
   </head>
-    <head>Bookeeper
-      <note place="underneath">
-        <persName>Freeman</persName>
-      </note>
-    </head>
-    <list xml:id="bookeeper_list" style="list-style-type: none;">
-      <item>Posting General Sales Ledgers</item>
-      <item>Accounts monthly-quaterly-all</item>
-      <item>Collecting vigilantly + well kept up</item>
-      <item>
-        Orders end in Calculation
-        <choice>
-          <abbr>bks</abbr>
-          <expan>books</expan>
-        </choice>
-        and Safed
-        <lb/>
-        <abbr>Wed</abbr><time when="10:00:00">10 am</time>list of doubtful <abbr>a/c</abbr> complaints + remarks
-        <!--[+ are silently regularized to 'and']-->
-      </item>
-      <item>
-        <emph style="font-weight: bold;">
-          Contents No of Tin Cases 12
-        </emph>
-      </item>
-    </list>
-    <head>
-      Assistant Bookeeper
-      <note place="underneath">
-        <persName>Thompson</persName>
-      </note>
-    </head>
-    <list>
-      <item>Cash + Cash book post</item>
-      <item><seg xml:id="035_analysis">Analysis</seg> Sheet</item>
-      <item><seg sameAs="#035_analysis">ditto</seg> Sales</item>
-      <item><seg sameAs="#035_analysis">ditto</seg> Purchases</item>
-      <item ref="#bookeeper_list">Trade Ledger</item>
-      <item>Accounts To pay departmental
-        <unclear reason="illegible">rations</unclear>
-      </item>
-      <item>Order Book</item>
-      <item>Time Wages pay</item>
-    </list>
-    <ab>
-      Master should keep his own Cash and fall over his own Ledgers <persName>WT</persName> <date when="1898-05-16">May 16/98</date>
-      <!--[how to handle WT initials]-->
-    </ab>
-    <list style="list-style-type: none">
-      <label>C Cammell C Lt complaint of Pads</label>
-      <item>163</item>
+  <head>Bookeeper
+    <note place="underneath">
+      <persName>Freeman</persName>
+    </note>
+  </head>
+  <list xml:id="bookeeper_list" style="list-style-type: none;">
+    <item>Posting General Sales Ledgers</item>
+    <item>Accounts monthly-quaterly-all</item>
+    <item>Collecting vigilantly + well kept up</item>
+    <item>
+      Orders end in Calculation
+      <choice>
+        <abbr>bks</abbr>
+        <expan>books</expan>
+      </choice>
+      and Safed
+      <lb/>
+      <abbr>Wed</abbr><time when="10:00:00">10 am</time>list of doubtful <abbr>a/c</abbr> complaints + remarks
+      <!--[+ are silently regularized to 'and']-->
+    </item>
+    <item>
+      <emph style="font-weight: bold;">
+        Contents No of Tin Cases 12
+      </emph>
+    </item>
+  </list>
+  <head>
+    Assistant Bookeeper
+    <note place="underneath">
+      <persName>Thompson</persName>
+    </note>
+  </head>
+  <list>
+    <item>Cash + Cash book post</item>
+    <item><seg xml:id="035_analysis">Analysis</seg> Sheet</item>
+    <item><seg sameAs="#035_analysis">ditto</seg> Sales</item>
+    <item><seg sameAs="#035_analysis">ditto</seg> Purchases</item>
+    <item ref="#bookeeper_list">Trade Ledger</item>
+    <item>Accounts To pay departmental
+      <unclear reason="illegible">rations</unclear>
+    </item>
+    <item>Order Book</item>
+    <item>Time Wages pay</item>
+  </list>
+  <ab>
+    Master should keep his own Cash and fall over his own Ledgers <persName>WT</persName> <date when="1898-05-16">May 16/98</date>
+    <!--[how to handle WT initials]-->
+  </ab>
+  <list style="list-style-type: none">
+    <label>C Cammell C Lt complaint of Pads</label>
+    <item>163</item>
 
-    </list>
+    <label>Cash Book idea "1898"</label>
+    <item>94</item>
+
+    <label>Cupboards</label>
+    <item>187</item>
+
+    <label>Coallieries</label>
+    <item>287, 282</item>
+
+    <label>Customers to call ore</label>
+    <item>286</item>
+
+    <label>Cart Celebrated Printers</label>
+    <item>142</item>
+
+    <label>Christmas</label>
+    <item>100</item>
+
+    <label>Carnage Sutton 12</label>
+    <item>353</item>
+
+    <label>Clerks payment M Fox</label>
+    <item>111</item>
+
+    <label>Confidential</label>
+    <item>261</item>
+
+    <label>Calculation books</label>
+    <item>196</item>
+  </list>
+
+<!--[Start of NUMBER 36]-->
+<pb n="036" facs=""/>
+  <fw type="page_number" place="top">1/4</fw>
+  <figure>
+    <head>Legal Notices</head>
+    <figDesc>
+      A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.
+    </figDesc>
+    <graphic url=""/>
+  </figure>
+  <ab>
+    see Calculation book
+    <lb/>
+    8348 written by <persName>W.J.</persName>
+    <lb/>
+    <q>
+      Where there is no conflict <lb/>
+      There can be no conquest <lb/>
+      Where there is no conquest <lb/>
+      There is no crown
+    </q>
+  </ab>
+  <ab>
+    To Customers, we can make in cheaper made papers if desired, but the one we have estimated for stands very eminent <lb/>
+    (another pay) eminent <lb/>
+    (another pay) very well <lb/>
+    (another pay) failrly well <lb/>
+    (another pay) uncertainty
+  </ab>
+  <note place="right">
+    <handShift medium="pencil"/>
+      <unclear reason="illegible">Jalleypoint</unclear> here. do yourself what you can get others to do
+    <!--[get this handShift attribute looked at again.]-->
+    <handShift medium="clear">
+  </note>
+  <list style="list-style-type: none">
+    <head>Cash book divisions</head>
+    <item>Paper warehouse</item>
+    <item>Ruling</item>
+    <item>Account book making</item>
+    <item>binding</item>
+    <item>pattern cards</item>
+    <item>Style</item>
+    <item>Litho</item>
+    <item>Sales Shop</item>
+    <item>Boxes</item>
+  </list>
+  <note place="bottom">
+    MDCCCCII roman numerals <lb/>
+    year 1902 arabic figure
+  </note>
+  <fw type="UNKNOWN" place="bottom">Y <lb/> Z</fw>
