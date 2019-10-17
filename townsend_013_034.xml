@@ -21,9 +21,12 @@
             <divGen type="toc"/>
             <div type="index"> <!-- There isn't actually an "index" value for div @type. -->
                 <!-- There aren't any actual corner <fw>s here...but there are the index tabs. Should we encode those? If so...mamma mia. -->
-                <pb facs="0013.tif" /> <!-- We...we never actually talked about how we want linking in the index to work... -->
-                <ab>
-                    Ash Wednesady <num type="pageNum">337</num>
+                <pb facs="0013.tif" n="0013" /> <!-- We...we never actually talked about how we want linking in the index to work... -->
+                <!-- ADD LISTS AND BREAK ABS BY LETTERS -->
+                <list type="index">
+                    <label>Ash Wednesady</label>
+                    <item><num type="pageNum">337</num></item>
+                    
                     Accounts Gone Going or likely <num type="pageNum">267</num>
                     Account Book Making <num type="pageNum">116</num>, <num type="pageNum">30</num>, <num type="pageNum">62</num>.
                     Almanacs giving 
@@ -55,8 +58,11 @@
                     Account book routine <num type="pageNum">168</num>, <num type="pageNum">9</num>
                     Apprentice value <num type="pageNum">69</num>
                     <handShift medium="pencil" />Advances
-                </ab>
+                </list>
+                
+                
                 <pb facs="0014.tif" />
+                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">A B </fw>
                 <ab>
                     Binders good <date when="1909-12">Dec 1909</date> <num type="pageNum">193</num>
                     Bookeeping <num type="pageNum">93</num>, <num type="pageNum">105</num>, <num type="pageNum">10 3</num>, Y <!-- Check to see if that's 103 or 10 and 3 -->
@@ -80,8 +86,7 @@
                     Bad Collecting <num type="pageNum">220</num>
                     Blocks laying out <num type="pageNum">50</num>
                     Bad Sewing <num type="pageNum">91</num>
-                    <placeName>Bingham</placeName> Fund <num type="pageNum">209</num> <!-- Oh jeez, how are we going to know if an organization was named after a place,
-                    a person, or both? Since a lot of places were named after people. -->
+                    <name>Bingham</name> Fund <num type="pageNum">209</num> 
                     <orgName><placeName>Brighton</placeName> Free Library</orgName> <num type="pageNum">269</num>B
                     Bustridge paper mell <num type="pageNum">315</num> <num type="pageNum">229</num>
                     Broken slip <num type="pageNum">63</num>, <num type="pageNum">64</num>, <num type="pageNum">182</num>, <num type="pageNum">185</num>
@@ -115,11 +120,8 @@
                     Charity <num type="pageNum">235</num>
                     Customers <num type="pageNum">163</num>
                     Copying books <num type="pageNum">34</num> <num type="pageNum">97</num>
-                    <seg xml:id="0015_capacity">Capacity</seg> printing <seg xml:id="0015_office">office</seg> <num type="pageNum">245</num> <!-- The example given in Jacob's ditto explantion
-                    is of something within a table: specifically, a cell. There wasn't an example for just a free word. So I decided to just use <seg>. Also, I can't even do this at all, because
-                    "0015_capacity" and "0015_office" aren't valid XML names, and when I try looking this up, I get jack. Are we going to have to make a list of every single xml:id we're planning
-                    on using? Because that's...going to get really nasty, really quickly. -->
-                    <seg sameAs="#0015_capacity">ditto</seg> Litho <seg sameAs="#0015_office">ditto</seg>
+                    <seg xml:id="capacity_0015">Capacity</seg> printing <seg xml:id="office_0015">office</seg> <num type="pageNum">245</num> 
+                    <seg sameAs="#capacity_0015">ditto</seg> Litho <seg sameAs="#office_0015">ditto</seg>
                     Clerk of the Works <num type="pageNum">55</num>
                 </ab>
                 <ab style="writing mode: vertical-lr; text-orientation: sideways-left">
@@ -228,8 +230,8 @@
                 </ab>
                 <pb facs="0020.tif" />
                 <ab>
-                    <handShift medium="ink" /><seg xml:id="0020_holiday">Holidays</seg> and <seg xml:id="0020_absence">Absence</seg> <num type="pageNum">98</num>
-                    <seg sameAs="#0020_holiday">ditto</seg> <seg sameAs="#0020_absence">ditto</seg> <num type="pageNum">99</num>
+                    <handShift medium="ink" /><seg xml:id="holiday_0020">Holidays</seg> and <seg xml:id="absence_0020">Absence</seg> <num type="pageNum">98</num>
+                    <seg sameAs="#holiday_0020">ditto</seg> <seg sameAs="#absence_0020">ditto</seg> <num type="pageNum">99</num>
                     Hour price p in departments <num type="pageNum">241</num>
                     Hows the Ship Sailing <num type="pageNum">85</num>
                     How to get a Balance <num type="pageNum">86</num>
@@ -263,8 +265,7 @@
                         <abbr>Nº</abbr>
                         <expan>Numero</expan>
                     </choice> <num type="pageNum">1501</num>
-                    Journey <num type="pageNum">67</num> <!-- Townsend doesn't distinguish between capital Is and Js, so...is this
-                    something we should silently regularize? Which is what I guess I've already technically done? -->
+                    Journey <num type="pageNum">67</num> 
                     Journey 
                     <choice>
                         <abbr>WTs</abbr>
@@ -286,20 +287,18 @@
                 </ab>
                 <pb facs="0022.tif" />
                 <ab>
-                    <handShift medium="ink" /><seg xml:id="0022_key_to_ac">Key to 
+                    <handShift medium="ink" /><seg xml:id="key_to_ac_0022">Key to 
                         <choice>
                             <abbr>A/c</abbr>
                             <expan>Accounting</expan>
-                        </choice></seg> <seg xml:id="0022_book_pattern">book pattern</seg> 
+                        </choice></seg> <seg xml:id="book_pattern_0022">book pattern</seg> 
                     <choice>
                         <abbr>Nos</abbr>
                         <expan>Numeros</expan>
                     </choice> <num type="pageNum">17</num>
-                    <!-- because of the positioning of the second ditto, I opted not to include the Nos as part of the segment. It might
-                        need to be, though. -->
-                        <seg sameAs="#0022_key_to_ac">ditto</seg> <seg sameAs="#0022_book_pattern">ditto</seg> <num type="pageNum">60</num>
-                        <seg sameAs="#0022_key_to_ac">ditto</seg> <seg sameAs="#0022_book_pattern">ditto</seg> <num type="pageNum">59</num>
-                    <seg sameAs="#0022_key_to_ac">ditto</seg> Prosperity Punctuality <num type="pageNum">81</num>
+                    <seg sameAs="#key_to_ac_0022">ditto</seg> <seg sameAs="#book_pattern_0022">ditto</seg> <num type="pageNum">60</num>
+                    <seg sameAs="#key_to_ac_0022">ditto</seg> <seg sameAs="#book_pattern_0022">ditto</seg> <num type="pageNum">59</num>
+                    <seg sameAs="#key_to_ac_0022">ditto</seg> Prosperity Punctuality <num type="pageNum">81</num>
                     Keen Estimating <num type="pageNum">71</num>
                     Key to index begin 1501 <num type="pageNum">23</num>
                 </ab>
