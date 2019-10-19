@@ -317,9 +317,12 @@
                 </list>
                 
                 <pb facs="0023.tif" />
-                <ab>
-                    
-                </ab>
+                <list type="index-l">
+                    <item></item>
+                </list>
+                <list type="index-m">
+                    <item></item>
+                </list>
                 
                 <pb facs="0024.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">L M</fw>
