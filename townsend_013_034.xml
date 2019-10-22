@@ -318,72 +318,119 @@
                 
                 <pb facs="0023.tif" />
                 <list type="index-l">
-                    <item></item>
+                    <label>Letters denoting Departments</label><item><num type="pageNum">288</num></item>
+                    <label>Litho Capacity</label><item><num type="pageNum">237</num></item>
+                    <label>Letters Stamping of</label><item><num type="pageNum">53</num></item>
+                    <label>Letter Press Capacity</label><item><num type="pageNum">245</num></item>
+                    <label>Label on end paper at:</label><item>beginning</item>
+                    <label>Lease</label><item><num type="pageNum">388</num></item>
+                    <label>Leather</label><item><num type="pageNum">113</num></item>
+                    <label>Law its disasters in engaging</label><item><num type="pageNum">209</num></item>
+                    <label>Laying paper out</label><item><num type="pageNum">40</num> <num type="pageNum">193</num></item>
+                    <label>Letters for 
+                    <choice>
+                        <abbr>A/c</abbr>
+                        <expan>Accounting</expan>
+                    </choice> books</label><item><num type="pageNum">51</num></item>
+                    <label>Locks Book</label><item><num type="pageNum">212</num></item>
+                    <label><placeName>London</placeName> printing charges</label><item><num type="pageNum">252</num></item>
+                    <label></label><item><num type="pageNum">353</num></item>
+                    <label>Lettering Tree Library piece</label><item><num type="pageNum">269</num></item>
+                    <label>Litho machine</label><item><num type="pageNum">69</num></item>
+                    <label>Lining 
+                    <choice>
+                        <abbr>A/c</abbr>
+                        <expan>Accounting</expan>
+                    </choice> books</label><item><num type="pageNum">182</num></item>
+                    <label>Lettering Tree Library</label><item><num type="pageNum">269</num></item>
+                    <label>Lettering 
+                    <choice>
+                        <abbr>A/c</abbr>
+                        <expan>Accounting</expan>
+                    </choice> books</label><item><num type="pageNum">273</num>E</item>
+                    <label>Litho blunder</label><item><num type="pageNum">261</num></item>
+                    <label>Lost Money on Endeavours for Trade</label><item><num type="pageNum">280</num></item>
+                    <label><seg xml:id="lowestoft_0023">Lo<unclear reason="handwriting">w</unclear>estoft</seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
+                    <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Collector</label><item><num type="pageNum">92</num></item>
+                    <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Manitola wheat</label><item><num type="pageNum">114</num></item>
+                    <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> excellence of</label><item><num type="pageNum">204</num></item>
+                    <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Management</label><item><num type="pageNum">203</num></item>
+                    <label>Lithotype</label><item><num type="pageNum">70</num></item>
                 </list>
                 <list type="index-m">
-                    <item></item>
+                    <label>Man a new <unclear reason="handwriting">one</unclear> coming from a distance</label><item><num type="pageNum">173</num></item>
+                    <label>Motor Carrier</label><item><num type="pageNum">353</num></item>
                 </list>
                 
                 <pb facs="0024.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">L M</fw>
-                <ab>
-                    
-                </ab>
+                <list type="index-m">
+                    <item></item>
+                </list>
                 
                 <pb facs="0025.tif" />
-                <ab>
-                    
-                </ab>
+                <list type="index-n">
+                    <item></item>
+                </list>
                 
                 <pb facs="0026.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">N O</fw>
-                <ab>
-                    
-                </ab>
+                <list type="index-o">
+                    <item></item>
+                </list>
                 
                 <pb facs="0027.tif" />
-                <ab>
-                    
-                </ab>
+                <list type="index-p">
+                    <item></item>
+                </list>
                 
                 <pb facs="0028.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">P Q</fw>
-                <ab>
-                    
-                </ab>
+                <list type="index-q">
+                    <item></item>
+                </list>
+                <list type="index-p">
+                    <item></item>
+                </list>
                 
                 <pb facs="0029.tif" />
-                <ab>
-                    
-                </ab>
+                <list type="index-r">
+                    <item></item>
+                </list>
                 
                 <pb facs="0030.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">R S</fw>
-                <ab>
-                    
-                </ab>
+                <list type="index-s">
+                    <item></item>
+                </list>
                 
                 <pb facs="0031.tif" />
-                <ab>
-                    
-                </ab>
+                <list type="index-t">
+                    <item></item>
+                </list>
                 
                 <pb facs="0032.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">T V</fw>
-                <ab>
-                    
-                </ab>
+                <list type="index-uv">
+                    <item></item>
+                </list>
+                <list type="index-t">
+                    <item></item>
+                </list>
                 
                 <pb facs="0033.tif" />
-                <ab>
-                    
-                </ab>
+                <list type="index-w">
+                    <item></item>
+                </list>
                 
                 <pb facs="0034.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">W X</fw>
-                <ab>
-                    
-                </ab>
+                <list type="index-w">
+                    <item></item>
+                </list>
+                <list type="index-s">
+                    <item></item>
+                </list>
             </div>
         </front>
         <body>
