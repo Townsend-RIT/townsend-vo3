@@ -370,11 +370,15 @@
                     <label>Millboard Order</label><item><num type="pageNum">121</num></item>
                     <label>Man</label><item><num type="pageNum"><num type="fraction" value="0.5">1/2</num></num></item>
                     <label>Mind</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
-                    <label><persName>Marshalls</persName> letter on a/c books</label><item><num type="pageNum">357</num></item>
+                    <label><persName>Marshalls</persName> letter on 
+                    <choice>
+                        <abbr>a/c</abbr>
+                        <expan>accounting</expan>
+                    </choice> books</label><item><num type="pageNum">357</num></item>
                     <label>Millboard Lu<unclear reason="handwriting">mnon</unclear></label><item><num type="pageNum">340</num></item>
                     <label>Management</label><item><num type="pageNum">221</num>. <num type="pageNum">283</num>. <num type="pageNum">203</num>. <num type="pageNum">219</num></item>
                     <label>Millboard list applica<unclear reason="handwriting">bil</unclear> of thickness</label><item>End of this book</item>
-                    <label>Masters Union</label><item><num type="pageNum">276</num></item>
+                    <label><orgName>Masters Union</orgName></label><item><num type="pageNum">276</num></item>
                     <label>Masters Meeting (WJT)</label><item><num type="pageNum">82</num></item>
                     <label>Master when he is away</label><item><num type="pageNum">339</num></item>
                     <label>Material thoughts on</label><item><num type="pageNum">212</num></item>
@@ -392,66 +396,101 @@
                 
                 <pb facs="0025.tif" />
                 <list type="index-n">
-                    <item></item>
+                    <label>Note Paper for Sales &amp; travellers</label><item><num type="pageNum">39</num> <num type="pageNum">281</num></item>
+                    <label>Notices Special</label><item><num type="pageNum">255</num></item>
+                    <label>New Building</label><item><num type="pageNum">220</num></item>
+                    <label>Non Union printing office on</label><item><num type="pageNum">240</num></item>
+                    <label>Name on Writing paper</label><item><num type="pageNum">89</num></item>
+                    <label>Notes on Traveller</label><item><num type="pageNum">335</num></item>
+                    <label>Numbering piece cost</label><item><num type="pageNum">160</num></item>
+                    <label>Nuts</label><item><num type="pageNum">347</num></item>
+                    <label>Name in Writing Paper</label><item><num type="pageNum">190</num></item>
+                    <label>Notes on Charging 
+                    <choice>
+                        <abbr>A/c</abbr>
+                        <expan>Accounting</expan>
+                    </choice> books</label><item><num type="pageNum">13</num></item>
+                    <label>Number Cardinal</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
+                    <label>Name to be in full</label><item><num type="pageNum">190</num></item>
                 </list>
                 
                 <pb facs="0026.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">N O</fw>
                 <list type="index-o">
-                    <item></item>
+                    <label>Orders treatment of</label><item>297</item>
+                    <label>Office Salaries</label><item>300</item>
+                    <label>ditto Time</label><item>74</item>
+                    <label>Orders to take patterns of a/c books</label><item>326</item>
+                    <label>Out on being</label><item>146</item>
+                    <label></label><item>28 48</item>
+                    <label></label><item>219</item>
+                    <label></label><item>350</item>
+                    <label></label><item>288</item>
+                    <label></label><item>358</item>
+                    <label></label><item>219</item>
+                    <label></label><item>62</item>
+                    <label></label><item>51</item>
+                    <label></label><item>337</item>
+                    <label></label><item>201</item>
+                    <label></label><item>163</item>
+                    <label></label><item>196</item>
+                    <label></label><item>324</item>
+                    <label></label><item>21</item>
+                    <label></label><item></item>
+                    <label></label><item>193</item>
                 </list>
                 
                 <pb facs="0027.tif" />
                 <list type="index-p">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 
                 <pb facs="0028.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">P Q</fw>
                 <list type="index-q">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 <list type="index-p">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 
                 <pb facs="0029.tif" />
                 <list type="index-r">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 
                 <pb facs="0030.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">R S</fw>
                 <list type="index-s">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 
                 <pb facs="0031.tif" />
                 <list type="index-t">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 
                 <pb facs="0032.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">T V</fw>
                 <list type="index-uv">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 <list type="index-t">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 
                 <pb facs="0033.tif" />
                 <list type="index-w">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 
                 <pb facs="0034.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">W X</fw>
                 <list type="index-w">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
                 <list type="index-s">
-                    <item></item>
+                    <label></label><item></item>
                 </list>
             </div>
         </front>
