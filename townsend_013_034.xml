@@ -365,7 +365,29 @@
                 <pb facs="0024.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">L M</fw>
                 <list type="index-m">
-                    <item></item>
+                    <label>Morning and Afternood Workshop visits</label><item><num type="pageNum">205</num></item>
+                    <label>Minutes Estimate &amp; loss of</label><item><num type="pageNum">248</num></item>
+                    <label>Millboard Order</label><item><num type="pageNum">121</num></item>
+                    <label>Man</label><item><num type="pageNum"><num type="fraction" value="0.5">1/2</num></num></item>
+                    <label>Mind</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
+                    <label><persName>Marshalls</persName> letter on a/c books</label><item><num type="pageNum">357</num></item>
+                    <label>Millboard Lu<unclear reason="handwriting">mnon</unclear></label><item><num type="pageNum">340</num></item>
+                    <label>Management</label><item><num type="pageNum">221</num>. <num type="pageNum">283</num>. <num type="pageNum">203</num>. <num type="pageNum">219</num></item>
+                    <label>Millboard list applica<unclear reason="handwriting">bil</unclear> of thickness</label><item>End of this book</item>
+                    <label>Masters Union</label><item><num type="pageNum">276</num></item>
+                    <label>Masters Meeting (WJT)</label><item><num type="pageNum">82</num></item>
+                    <label>Master when he is away</label><item><num type="pageNum">339</num></item>
+                    <label>Material thoughts on</label><item><num type="pageNum">212</num></item>
+                    <label>Machinery</label><item><num type="pageNum">65</num></item>
+                    <label>Manager Masters notices to</label><item><num type="pageNum">346</num></item>
+                    <label>Merit Payments</label><item><num type="pageNum">346</num></item>
+                    <label>Machining</label><item><num type="pageNum">69</num></item>
+                    <label>Manager</label><item><num type="pageNum">201</num></item>
+                    <label>Machinery its depreciation</label><item><num type="pageNum">70</num></item>
+                    <label><seg xml:id="masters_0024">Masters</seg> time</label><item><num type="pageNum">80</num></item>
+                    <label><seg sameAs="#masters_0024">ditto</seg> <seg xml:id="information_0024">information</seg></label><item><num type="pageNum">178</num></item>
+                    <label>Managers <seg sameAs="#information_0024">ditto</seg></label><item><num type="pageNum">173</num></item>
+                    <label>Monthly Accounts</label><item><num type="pageNum">273</num>A</item>
                 </list>
                 
                 <pb facs="0025.tif" />
