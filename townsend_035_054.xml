@@ -290,5 +290,168 @@
 			</cell>
 		</row>
 	</table>
-	<!--[unfinished page 41]-->
 	
+	<table rows="7" cols="2">
+		<head place="below">
+			<date from="1897-01" to="1897-03">1897 <lb/> Jan - Mar</date>
+		</head>
+		
+		<row role="label">
+			<cell>
+				<hi style="text-decoration: underline;">Thus</hi>
+			</cell>
+			<cell>
+				<hi style="text-decoration: underline;">Sales £2700.6.7</hi>
+			</cell>
+		</row>
+		
+		<row>
+			<cell>
+				Received Cash
+			</cell>
+			<cell>
+				2339 4 10
+			</cell>
+		</row>
+		
+		<row>
+			<cell>
+				Discount
+			</cell>
+			<cell>
+				70 6 7
+			</cell>
+		</row>
+		
+		<row>
+			<cell>
+				Allowance
+			</cell>
+			<cell>
+				17 10 6
+			</cell>
+		</row>
+		
+		<row>
+			<cell>
+				Lost
+			</cell>
+			<cell>
+				21 7 2
+			</cell>
+		</row>
+		
+		<row>
+			<cell>
+				Arrears
+			</cell>
+			<cell>
+				251 17 6
+			</cell>
+		</row>
+		
+		<row>
+			<cell>
+				<!--[empty cell]-->
+			</cell>
+			<cell style="border-top-style: solid">
+				<hi style="text-decoration-line: underline; text-decoration-style: double;">£ 2700 6 7</hi>
+			</cell>
+		</row>
+		
+		<trailer>
+			<q>
+				Cash to be kept by principal
+			</q>
+			<persName style="text-decoration-line: underline;">
+				William Townsend
+			</persName>
+		</trailer>
+	</table>
+	
+	<note place="bottom">
+		<orgName>
+			Thomas Firth + Sons
+		</orgName>
+		<note place="below">310.2b</note>
+		<ab xml:id="bracket_0041">
+			1.6 qrs demy ruled & 05 printed h <lb/>
+			rough Calf extra paged lett Day Book
+		</ab>
+		<note ref="#bracket_0041" place="inline">
+			} 1.7
+		</note>
+	</note>
+	
+	<note place="margin">
+		Day Book form of Entry <unclear reason="illegible">HiKe</unclear>
+	</note>
+	
+<!--[Start of NUMBER 42]-->
+<pb n="042" facs=""/>
+	<fw type="page_number" place="top">4</fw>
+	
+	<ab>
+		Let Probity rule all your transactions and Life
+		<date when="1890-10-15">Oct 15/90</date>
+	</ab>
+	
+	<ab>
+		Have Monthly Balancings to see prospectively how things are every <num type="ordinal>"20th</num> of the Month I like
+		<note place="below">Hook it from <hi style="text-decoration-line: underline;"><unclear reason="illegible">m Fox</unclear></hi></note>
+		and Quaterly Balancings of every Book Debit and Credit that is what you owe and is owning to you. say <date when="--01-20">Jan 20</date> <date when="--04-20">April 20</date> <date when="--07-20">July 20</date> <date when="--10-20">Oct 20</date> <lb/>
+		Check every item with Day Book from the Order Book to be sure all is entered <persName>WJ</persName> <lb/>
+		Orders in Safe - Cross every order in Day Book with Red tick before putting in Safe - the Red tick signifies there is an order in the Safe
+		<date when="1891-04-24">April 24/91</date>
+	</ab>
+	
+	<note place="bottom">
+		<date when="1894-04">April/94</date> Mr Kingsford Wilson I advise Double Entry
+	</note>
+	
+<!--[Start of NUMBER 43]-->
+<pb n="043" facs=""/>
+	<fw type="page_number" place="top">5</fw>
+	
+	<head>
+		Daily Routine
+	</head>
+	
+	<ab>
+		Letters - Works every room and individual see after Customers want or Complaint also the same in Sales Shop I have erred in leaving the Front Room, I should have been at the Vall more and made more of Customers by always being in and not running off to dinner at any rate untill I had had some one to fill my place well <lb/>
+		Examine work before sending home <lb/>
+		Charge <lb/>
+		Noun <lb/>
+		2pm going round the shops
+	</ab>
+	
+	<note place="bottom">
+		Never were such books! <lb/>
+		No, now never will be such books as the books of Cheeryble Brothers Vide Nicholas Nickleby þ35b
+	<note>
+
+<!--[Start of NUMBER 44]-->
+<pb n="044" facs=""/>
+	<fw type="page_number" place="top">6</fw>
+	
+	<ab>
+		again seeing that every work and individual is progressing in his work healthy and profitably <lb/>
+		Examine Work and Charge Orders put in hands <lb/>
+		5<seg xml:id="pm_0044">pm</seg> round again <lb/>
+		6 <seg sameAs="#pm_0044">ditto</seg> letters + <lb/>
+		7 <seg sameAs="#pm_0044">ditto</seg> Clear up for the day <lb/>
+		Search Neglect or an indefatigable unwearied Order Book Clerk to see to arrears but the <hi style="text-decoration-line: underline;">Master is best at this</hi> <lb/>
+		<date when="1891-05-02">May <num type="ordinal">2nd</num> 1891</date>
+	</ab>
+	
+	<ab>
+		Sales Shop is too much away and not sufficient in touch I think of trying a stair case removing &#8470; Safe and fitting up nicely for Master and Special
+		<note place="bottom">
+			to page 73 forward
+		</note>
+	</ab>
+	
+<!--[Start of NUMBER 45]-->
+<pb n="045" facs=""/>
+	<fw type="page_number" place="top">7</fw>
+	<!--[unfinished page 45]-->
