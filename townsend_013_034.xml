@@ -19,7 +19,8 @@
     <text>
         <front>
             <divGen type="toc"/>
-            <div type="index"> <!-- There isn't actually an "index" value for div @type. -->
+            <div type="index"> 
+                <!-- START PAGE 0013 -->
                 <pb facs="0013.tif" n="0013" /> 
                 <list type="index-a">
                     <label>Ash Wednesady</label><item><num type="pageNum">337</num></item>
@@ -55,7 +56,8 @@
                     <label>Apprentice value</label><item><num type="pageNum">69</num></item>
                     <label><handShift medium="pencil" />Advances</label><item></item>
                 </list>
-                
+                <!-- END PAGE 0013 -->
+                <!-- START PAGE 0014 -->
                 <pb facs="0014.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">A B</fw>
                 <list type="index-b">
@@ -91,7 +93,8 @@
                     <label>Account book Patterns</label><item><num type="pageNum">273</num>F</item>
                     <label>Aliens</label><item><num type="pageNum">23</num></item>
                 </list>
-                
+                <!-- END PAGE 0014 -->
+                <!-- START PAGE 0015 -->
                 <pb facs="0015.tif" />
                 <list type="index-c">
                     <label>Charging</label><item><num type="pageNum">106</num></item>
@@ -125,7 +128,8 @@
                 <ab style="writing mode: vertical-lr; text-orientation: sideways-left">
                     <emph style="underline">"Carried to Y"</emph>
                 </ab>
-                
+                <!-- END PAGE 0015 -->
+                <!-- START PAGE 0016 -->
                 <pb facs="0016.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">C D</fw>
                 <list type="index-d">
@@ -159,7 +163,8 @@
                     <label>Contract offers</label><item><num type="pageNum">273</num></item>
                     <label>Checking on</label><item><num type="pageNum">73</num></item>
                 </list>
-                
+                <!-- END PAGE 0016 -->
+                <!-- START PAGE 0017 -->
                 <pb facs="0017.tif" />
                 <list type="index-e">
                     <label>Engraved Blocks</label><item><num type="pageNum">148</num></item>
@@ -176,7 +181,8 @@
                     <label>Ends making by Women objected
                     to by <orgName>The Union</orgName></label><item><num type="pageNum">167</num></item>
                 </list>
-                
+                <!-- END PAGE 0017 -->
+                <!-- START PAGE 0018 -->
                 <pb facs="0018.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">E F</fw>
                 <list type="index-f">
@@ -214,7 +220,8 @@
                     <label>Forwarding Room</label><item><num type="pageNum">172</num></item>
                     <label>Fire <unclear reason="handwriting"></unclear>ing</label><item><num type="pageNum">234</num></item>
                 </list>
-                
+                <!-- END PAGE 0018 -->
+                <!-- START PAGE 0019 -->
                 <pb facs="0019.tif" />
                 <list type="index-g">
                     <label><handShift medium="ink" />Groom</label><item><num type="pageNum">343</num></item>
@@ -234,7 +241,8 @@
                     <label>Good binders</label><item><num type="pageNum">193</num></item>
                     <label><handShift medium="pencil" />Green</label><item><num type="pageNum">282</num></item>
                 </list>
-                
+                <!-- END PAGE 0019 -->
+                <!-- START PAGE 0020 -->
                 <pb facs="0020.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">G H</fw>
                 <list type="index-h">
@@ -250,7 +258,8 @@
                     <label>Home Forwarding</label><item><num type="pageNum">188</num></item>
                     <label>H<unclear reason="handwriting">ar</unclear> on Comping or Compo<unclear reason="handwriting">ntion</unclear></label><item><num type="pageNum">233</num></item>
                 </list>
-                
+                <!-- END PAGE 0020 -->
+                <!-- START PAGE 0021 -->
                 <pb facs="0021.tif" />
                 <list type="index-ij">
                     <label>Ink Morrel end board end paper</label><item><num type="pageNum">360</num></item>
@@ -296,7 +305,8 @@
                 <list type="index-w">
                     <label>Work <unclear reason="handwriting">Menoper</unclear></label><item><num type="pageNum">193</num></item>
                 </list>
-                
+                <!-- END PAGE 0021 -->
+                <!-- START PAGE 0022 -->
                 <pb facs="0022.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">J K</fw>
                 <list type="index-k">
@@ -315,7 +325,8 @@
                     <label>Keen Estimating</label><item><num type="pageNum">71</num></item>
                     <label>Key to index begin 1501</label><item><num type="pageNum">23</num></item>
                 </list>
-                
+                <!-- END PAGE 0022 -->
+                <!-- START PAGE 0023 -->
                 <pb facs="0023.tif" />
                 <list type="index-l">
                     <label>Letters denoting Departments</label><item><num type="pageNum">288</num></item>
@@ -361,7 +372,8 @@
                     <label>Man a new <unclear reason="handwriting">one</unclear> coming from a distance</label><item><num type="pageNum">173</num></item>
                     <label>Motor Carrier</label><item><num type="pageNum">353</num></item>
                 </list>
-                
+                <!-- END PAGE 0023 -->
+                <!-- START PAGE 0024 -->
                 <pb facs="0024.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">L M</fw>
                 <list type="index-m">
@@ -393,7 +405,8 @@
                     <label>Managers <seg sameAs="#information_0024">ditto</seg></label><item><num type="pageNum">173</num></item>
                     <label>Monthly Accounts</label><item><num type="pageNum">273</num>A</item>
                 </list>
-                
+                <!-- END PAGE 0024 -->
+                <!-- START PAGE 0025 -->
                 <pb facs="0025.tif" />
                 <list type="index-n">
                     <label>Note Paper for Sales &amp; travellers</label><item><num type="pageNum">39</num> <num type="pageNum">281</num></item>
@@ -413,63 +426,130 @@
                     <label>Number Cardinal</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
                     <label>Name to be in full</label><item><num type="pageNum">190</num></item>
                 </list>
-                
+                <!-- END PAGE 0025 -->
+                <!-- START PAGE 0026 -->
                 <pb facs="0026.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">N O</fw>
                 <list type="index-o">
-                    <label>Orders treatment of</label><item>297</item>
-                    <label>Office Salaries</label><item>300</item>
-                    <label>ditto Time</label><item>74</item>
-                    <label>Orders to take patterns of a/c books</label><item>326</item>
-                    <label>Out on being</label><item>146</item>
-                    <label></label><item>28 48</item>
-                    <label></label><item>219</item>
-                    <label></label><item>350</item>
-                    <label></label><item>288</item>
-                    <label></label><item>358</item>
-                    <label></label><item>219</item>
-                    <label></label><item>62</item>
-                    <label></label><item>51</item>
-                    <label></label><item>337</item>
-                    <label></label><item>201</item>
-                    <label></label><item>163</item>
-                    <label></label><item>196</item>
-                    <label></label><item>324</item>
-                    <label></label><item>21</item>
-                    <label></label><item></item>
-                    <label></label><item>193</item>
+                    <label>Orders treatment of</label><item><num type="pageNum">297</num></item>
+                    <label><seg xml:id="office_0026">Office</seg> Salaries</label><item><num type="pageNum">300</num></item>
+                    <label><seg sameAs="#office_0026">ditto</seg> Time</label><item><num type="pageNum">74</num></item>
+                    <label>Orders to take patterns of 
+                    <choice>
+                        <abbr>a/c</abbr>
+                        <expan>accounting</expan>
+                    </choice> books</label><item><num type="pageNum">326</num></item>
+                    <label>Out on being</label><item><num type="pageNum">146</num></item>
+                    <label>Overtime printo foreman</label><item><num type="pageNum">28</num> <num type="pageNum">48</num></item>
+                    <label>Office Manager</label><item><num type="pageNum">219</num></item>
+                    <label>Old Age</label><item><num type="pageNum">350</num></item>
+                    <label>Order of departments</label><item><num type="pageNum">288</num></item>
+                    <label>Odds and Ends</label><item><num type="pageNum">358</num></item>
+                    <label>Office Rules</label><item><num type="pageNum">219</num></item>
+                    <label>Opening of 
+                    <choice>
+                        <abbr>A/c</abbr>
+                        <expan>Accounting</expan>
+                    </choice> books</label><item><num type="pageNum">62</num></item>
+                    <label>Old 
+                    <choice>
+                        <abbr>a/c</abbr>
+                        <expan>accounting</expan>
+                    </choice> books destruction <unclear>b</unclear>of</label><item><num type="pageNum">51</num></item>
+                    <label>Oath for <name><unclear reason="handwriting">Finns</unclear></name> secret printing</label><item><num type="pageNum">337</num></item>
+                    <label>Overseer</label><item><num type="pageNum">201</num></item>
+                    <label><name>Osborne</name> <unclear reason="handwriting">FHo</unclear></label><item><num type="pageNum">163</num></item>
+                    <label>Overwork</label><item><num type="pageNum">196</num></item>
+                    <label>Orders writing out for Best Books</label><item><num type="pageNum">324</num></item>
+                    <label>Over sheets ruling + printing</label><item><num type="pageNum">21</num></item>
+                    <label>Old time hours</label><item></item>
+                    <label>Observations as I pass <choice>
+                        <sic>thro</sic>
+                        <corr>through</corr>
+                    </choice> the shop</label><item><num type="pageNum">193</num></item>
                 </list>
-                
+                <!-- END PAGE 0026 -->
+                <!-- START PAGE 0027 -->
                 <pb facs="0027.tif" />
                 <list type="index-p">
-                    <label></label><item></item>
+                    <label>Printing per hour</label><item><num type="pageNum">70</num> (machines) <num type="pageNum">241</num></item>
+                    <label>Printing Office Capacity</label><item><num type="pageNum">241</num> <num type="pageNum">245</num></item>
+                    <label>Pattern Book idea for</label><item><num type="pageNum">7</num></item>
+                    <label>Price Book New</label><item><num type="pageNum">15</num></item>
+                    <label>Paper Mills prices</label><item><num type="pageNum">227</num></item>
+                    <label>Paste making of</label><item><num type="pageNum">113</num></item>
+                    <label>Pencils &amp; <persName>Wolff Jon</persName></label><item><num type="pageNum">353</num></item>
+                    <label>Proof Reading</label><item><num type="pageNum">251</num></item>
+                    <label>Price Books ABCDEF</label><item><num type="pageNum">14</num></item>
+                    <label>Packing room</label><item><num type="pageNum">88</num> <num type="pageNum">220</num> <num type="pageNum">87</num></item>
+                    <label>Parchment Bank Pass books cracking backs</label><item><num type="pageNum">38</num></item>
+                    <label>Proofs</label><item><num type="pageNum">40</num></item>
+                    <label>Papers Advised</label><item><num type="pageNum">352</num></item>
+                    <label>Price prices Forward + Finishing</label><item><num type="pageNum">152</num> <num type="pageNum">168</num></item>
+                    <label>Pattern Book she<unclear reason="handwriting">uri</unclear>ng to others</label><item><num type="pageNum">149</num></item>
+                    <label>Painting</label><item><num type="pageNum">338</num></item>
+                    <label>Pattern Cards</label><item><num type="pageNum">155</num></item>
+                    <label>Printing charges headings</label><item><num type="pageNum">66</num> <num type="pageNum">252</num></item>
+                    <label>Profits</label><item><num type="pageNum">354</num></item>
+                    <label>Pensions</label><item><num type="pageNum">341</num> <num type="pageNum">350</num></item>
+                    <label>Piece</label><item><num type="pageNum">154</num></item>
+                    <label>Per hour</label><item><num type="pageNum">241</num></item>
+                    <label>Paper testiomny and Mills</label><item><num type="pageNum">108</num> <num type="pageNum">217</num></item>
                 </list>
-                
+                <!-- END PAGE 0027 -->
+                <!-- START PAGE 0028 -->
                 <pb facs="0028.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">P Q</fw>
                 <list type="index-q">
-                    <label></label><item></item>
+                    <label>Quality of Work</label><item><num type="pageNum">28</num></item>
+                    <label>Quoted prices not to be exceeded</label><item><num type="pageNum">356</num></item>
+                    <label>Quarterly Aspects</label><item><num type="pageNum">50</num></item>
+                    <label>Quarterly Balance</label><item><num type="pageNum">82</num></item>
+                    <label>Qutations</label><item><num type="pageNum">353</num></item>
+                    <label>Qualities in Estimating ABC</label><item><num type="pageNum">213</num></item>
                 </list>
                 <list type="index-p">
-                    <label></label><item></item>
+                    <label>Printing machine problems</label><item><num type="pageNum">165</num></item>
+                    <label>Paging Problems</label><item><num type="pageNum">166</num></item>
+                    <label>Pilfering</label><item><num type="pageNum">86</num></item>
+                    <label>Pencil good</label><item><num type="pageNum">112</num></item>
+                    <label>P.O. Notes</label><item><num type="pageNum">193</num></item>
+                    <label>Printers manager</label><item></item>
+                    <label>Paging machine productive power</label><item><num type="pageNum">68</num></item>
+                    <label>P.W.</label><item><num type="pageNum">300</num> <num type="pageNum">299</num></item>
+                    <label>Pension</label><item><num type="pageNum">350</num></item>
+                    <label>Piece</label><item><num type="pageNum">154</num> <num type="pageNum">201</num> <num type="pageNum">199</num> <num type="pageNum">168</num></item>
+                    <label>Plan of a/c book work</label><item><num type="pageNum">168</num></item>
+                    <label>Presents</label><item><num type="pageNum">355</num></item>
+                    <label>Progress of Work</label><item><num type="pageNum">169</num></item>
+                    <label>Profits</label><item><num type="pageNum">72</num></item>
+                    <label>Pages number of in book</label><item><num type="pageNum">95</num></item>
+                    <label>Plant</label><item><num type="pageNum">273</num>J</item>
+                    <label>Perqusites to workmen never allow</label><item><num type="pageNum">105</num></item>
+                    <label>Parcels of Vellum binding how to get on</label><item><num type="pageNum">161</num></item>
+                    <label><orgName><persName>Pa<unclear reason="handwriting">u</unclear>nson Bradsford</persName> Estimating</orgName></label><item><num type="pageNum">355</num></item>
                 </list>
-                
+                <!-- END PAGE 0028 -->
+                <!-- START PAGE 0029 -->
                 <pb facs="0029.tif" />
                 <list type="index-r">
                     <label></label><item></item>
                 </list>
-                
+                <!-- END PAGE 0029 -->
+                <!-- START PAGE 0030 -->
                 <pb facs="0030.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">R S</fw>
                 <list type="index-s">
                     <label></label><item></item>
                 </list>
-                
+                <!-- END PAGE 0030 -->
+                <!-- START PAGE 0031 -->
                 <pb facs="0031.tif" />
                 <list type="index-t">
                     <label></label><item></item>
                 </list>
-                
+                <!-- END PAGE 0031 -->
+                <!-- START PAGE 0032 -->
                 <pb facs="0032.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">T V</fw>
                 <list type="index-uv">
@@ -478,12 +558,14 @@
                 <list type="index-t">
                     <label></label><item></item>
                 </list>
-                
+                <!-- END PAGE 0032 -->
+                <!-- START PAGE 0033 -->
                 <pb facs="0033.tif" />
                 <list type="index-w">
                     <label></label><item></item>
                 </list>
-                
+                <!-- END PAGE 0033 -->
+                <!-- START PAGE 0034 -->
                 <pb facs="0034.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">W X</fw>
                 <list type="index-w">
@@ -492,6 +574,7 @@
                 <list type="index-s">
                     <label></label><item></item>
                 </list>
+                <!-- END PAGE 0034 -->
             </div>
         </front>
         <body>
