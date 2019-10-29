@@ -513,13 +513,21 @@
                     <label>Paging Problems</label><item><num type="pageNum">166</num></item>
                     <label>Pilfering</label><item><num type="pageNum">86</num></item>
                     <label>Pencil good</label><item><num type="pageNum">112</num></item>
-                    <label>P.O. Notes</label><item><num type="pageNum">193</num></item>
+                    <label>
+                    <choice>
+                        <abbr>P.O.</abbr>
+                        <expan></expan>
+                    </choice> Notes</label><item><num type="pageNum">193</num></item>
                     <label>Printers manager</label><item></item>
                     <label>Paging machine productive power</label><item><num type="pageNum">68</num></item>
                     <label>P.W.</label><item><num type="pageNum">300</num> <num type="pageNum">299</num></item>
                     <label>Pension</label><item><num type="pageNum">350</num></item>
                     <label>Piece</label><item><num type="pageNum">154</num> <num type="pageNum">201</num> <num type="pageNum">199</num> <num type="pageNum">168</num></item>
-                    <label>Plan of a/c book work</label><item><num type="pageNum">168</num></item>
+                    <label>Plan of 
+                    <choice>
+                        <abbr>a/c</abbr>
+                        <expan>accounting</expan>
+                    </choice> book work</label><item><num type="pageNum">168</num></item>
                     <label>Presents</label><item><num type="pageNum">355</num></item>
                     <label>Progress of Work</label><item><num type="pageNum">169</num></item>
                     <label>Profits</label><item><num type="pageNum">72</num></item>
@@ -533,7 +541,31 @@
                 <!-- START PAGE 0029 -->
                 <pb facs="0029.tif" />
                 <list type="index-r">
-                    <label></label><item></item>
+                    <label>Revision of Tin Cases <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">11</num></item>
+                    <label>Routine and Duty</label><item><num type="pageNum">1</num></item>
+                    <label>Rental Departmental</label><item><num type="pageNum">101</num></item>
+                    <label>year <date when="1910">1910</date></label><item><num type="pageNum">234</num></item>
+                    <label><seg xml:id="ruling_room_0029">Ruling Room</seg></label><item><num type="pageNum">66</num> <num type="pageNum">261</num></item>
+                    <label><seg sameAs="#ruling_room_0029">ditto</seg> Per hour</label><item><num type="pageNum">253</num> <num type="pageNum"><handShift medium="pencil" />254</num></item>
+                    <label><handShift medium="ink" /><seg xml:id="routine_0029">Routine</seg> <seg xml:id="daily_0029">Daily</seg></label><item><num type="pageNum">73</num></item>
+                    <label><seg sameAs="#routine_0029">ditto</seg> <seg sameAs="#daily_0029">ditto</seg></label><item><num type="pageNum">1</num> <num type="pageNum">2</num></item>
+                    <label><seg sameAs="#routine_0029">ditto</seg> <seg sameAs="#daily_0029">ditto</seg></label><item><num type="pageNum">5</num> <num type="pageNum">6</num></item>
+                    <label>Rooms to Let</label><item><num type="pageNum">36</num></item>
+                    <label>Reading</label><item><num type="pageNum">251</num></item>
+                    <label>Rules for Workpeople</label><item><num type="pageNum">103</num></item>
+                    <label>Ruling Ink</label><item><num type="pageNum">253</num></item>
+                    <label>Relief Stamping</label><item><num type="pageNum">112</num></item>
+                    <label>Record Fifty years <placeName>Sheffield</placeName></label><item><num type="pageNum">157</num></item>
+                    <label>Retirement</label><item><num type="pageNum">256</num></item>
+                    <label>Russia Pounds</label><item><num type="pageNum">38</num></item>
+                    <label>Ruling my Fathers <unclear reason="handwriting">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
+                    <label>Rates and Taxes</label><item><num type="pageNum">211</num></item>
+                    <label>Roof idea for Works</label><item><num type="pageNum">338</num></item>
+                    <label>Ruling meanings of</label><item><num type="pageNum">21</num></item>
+                    <label>Royal Arms illegal using of</label><item><num type="pageNum"><num type="fraction" value="0.25">1/4</num></num>></item>
+                    <label>Rogues</label><item><num type="pageNum">214</num></item>
+                    <label>Railway Room</label><item><num type="pageNum">84</num></item>
+                    <label>Railway fare when paid to workmen</label><item><num type="pageNum">173</num></item>
                 </list>
                 <!-- END PAGE 0029 -->
                 <!-- START PAGE 0030 -->
