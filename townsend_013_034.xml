@@ -310,18 +310,18 @@
                 <pb facs="0022.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">J K</fw>
                 <list type="index-k">
-                    <label><handShift medium="ink" /><seg xml:id="key_to_ac_0022">Key to 
+                    <label><handShift medium="ink" /><seg xml:id="key_to_0022">Key to 
                         <choice>
                             <abbr>A/c</abbr>
                             <expan>Accounting</expan>
-                        </choice></seg> <seg xml:id="book_pattern_0022">book pattern</seg> 
+                        </choice></seg> <seg xml:id="ac_book_pattern_nos_0022">book pattern</seg> 
                     <choice>
                         <abbr>Nos</abbr>
                         <expan>Numeros</expan>
                     </choice></label><item><num type="pageNum">17</num></item>
-                    <label><seg sameAs="#key_to_ac_0022">ditto</seg> <seg sameAs="#book_pattern_0022">ditto</seg></label><item><num type="pageNum">60</num></item>
-                    <label><seg sameAs="#key_to_ac_0022">ditto</seg> <seg sameAs="#book_pattern_0022">ditto</seg></label><item><num type="pageNum">59</num></item>
-                    <label><seg sameAs="#key_to_ac_0022">ditto</seg> Prosperity Punctuality</label><item><num type="pageNum">81</num></item>
+                    <label><seg sameAs="#key_to_0022">ditto</seg> <seg sameAs="#ac_book_pattern_nos_0022">ditto</seg></label><item><num type="pageNum">60</num></item>
+                    <label><seg sameAs="#key_to_0022">ditto</seg> <seg sameAs="#ac_book_pattern_nos_0022">ditto</seg></label><item><num type="pageNum">59</num></item>
+                    <label><seg sameAs="#key_to_0022">ditto</seg> Prosperity Punctuality</label><item><num type="pageNum">81</num></item>
                     <label>Keen Estimating</label><item><num type="pageNum">71</num></item>
                     <label>Key to index begin 1501</label><item><num type="pageNum">23</num></item>
                 </list>
@@ -544,7 +544,7 @@
                     <label>Revision of Tin Cases <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">11</num></item>
                     <label>Routine and Duty</label><item><num type="pageNum">1</num></item>
                     <label>Rental Departmental</label><item><num type="pageNum">101</num></item>
-                    <label>year <date when="1910">1910</date></label><item><num type="pageNum">234</num></item>
+                    <note place="margin">year <date when="1910">1910</date><num type="pageNum">234</num></note> 
                     <label><seg xml:id="ruling_room_0029">Ruling Room</seg></label><item><num type="pageNum">66</num> <num type="pageNum">261</num></item>
                     <label><seg sameAs="#ruling_room_0029">ditto</seg> Per hour</label><item><num type="pageNum">253</num> <num type="pageNum"><handShift medium="pencil" />254</num></item>
                     <label><handShift medium="ink" /><seg xml:id="routine_0029">Routine</seg> <seg xml:id="daily_0029">Daily</seg></label><item><num type="pageNum">73</num></item>
@@ -572,7 +572,35 @@
                 <pb facs="0030.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">R S</fw>
                 <list type="index-s">
-                    <label></label><item></item>
+                    <label>Sewing A/c books</label><item>X 63 182</item>
+                    <note place="below">about</note>
+                    <label>Sundays</label><item>57</item>
+                    <label>Sharings</label><item>273H</item>
+                    <label>Stamps</label><item>53</item>
+                    <label>Sales shop inaccuracies</label><item>109</item>
+                    <label>ditto ditto development returns</label><item>124</item>
+                    <label>ditto ditto salaries</label><item>110 300</item>
+                    <label>Show Cards Names</label><item>125</item>
+                    <label>Sundays How Spent</label><item>57</item>
+                    <label>Stock</label><item>40 273J</item>
+                    <label>Stock Taking</label><item>195</item>
+                    <label>Statutes</label><item>337</item>
+                    <label>Silk</label><item>185</item>
+                    <label>Sewing and Lining</label><item>63, 91, 37 207</item>
+                    <label>Stationery binding</label><item>152</item>
+                    <label>Sick time, short time</label><item>97 98</item>
+                    <label>Sewing <unclear reason="handwriting">bulgy</unclear> uneven + tugging</label><item>152, 91</item>
+                    <label>Sheffield Banking Co blotting</label><item>147</item>
+                    <label>Suggestions in Works</label><item>346</item>
+                    <label>Sizes of paper and books</label><item>95</item>
+                    <label>Special Notices</label><item>255</item>
+                    <label>Sales Shop dinner</label><item>110</item>
+                    <label>Steel Backs</label><item>33B</item>
+                    <label>Sheffield Gas Co</label><item>344</item>
+                    <label>Suggestion in estimates to customers</label><item>1/4</item>
+                    <label>Ship Hows the Sailing</label><item>85</item>
+                    <label>Stoves or Cellar</label><item>262</item>
+                    <label>Slip vellium "how it breaks" See continued at X</label><item>61</item>
                 </list>
                 <!-- END PAGE 0030 -->
                 <!-- START PAGE 0031 -->
