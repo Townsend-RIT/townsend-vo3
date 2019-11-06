@@ -1,5 +1,5 @@
 <!--[Start of NUMBER 35]-->
-<pb n="035" facs=""/>
+<pb n="035" facs="!@#"/>
   <fw type="page_number" place="top">Y</fw>
   <head>Latest on bookeeping</head>
     <ab>
@@ -41,7 +41,7 @@
       <persName>Thompson</persName>
     </note>
   </head>
-  <list>
+  <list style="list-style-type: none;">
     <item>Cash + Cash book post</item>
     <item><seg xml:id="analysis_0035">Analysis</seg> Sheet</item>
     <item><seg sameAs="#analysis_0035">ditto</seg> Sales</item>
@@ -93,14 +93,14 @@
   </list>
 
 <!--[Start of NUMBER 36]-->
-<pb n="036" facs=""/>
+<pb n="036" facs="!@#"/>
   <fw type="page_number" place="top">1/4</fw>
   <figure>
     <head>Legal Notices</head>
     <figDesc>
       A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.
     </figDesc>
-    <graphic url=""/>
+    <graphic url="!@#"/>
   </figure>
   <ab>
     see Calculation book
@@ -146,7 +146,7 @@
   <fw type="UNKNOWN" place="bottom">Y <lb/> Z</fw>
 
 <!--[Start of NUMBER 37]-->
-<pb n="037" facs=""/>
+<pb n="037" facs="!@#"/>
   <fw type="page_number" place="top">1/2</fw>
   <ab>
 	The Proudest view that can be taken of Man is to see him like some Fair Vessel proceeding steadily thro the Ocean of Time His Sails impelled by the Feelings and Passions of a well ordered Mind. His Irregular Motions controlled by the Ballast of a Sound Understanding while Judgement sits at the Helm with eyes fixed on the Compass of Religion and Reason
@@ -157,7 +157,7 @@
   </ab>
 
 <!--[Start of NUMBER 38]-->
-<pb n="038" facs=""/>
+<pb n="038" facs="!@#"/>
 	<fw type="page_number" place="top">3/4</fw>
 	<ab>
 		Were Men indeed convinced that their health and comfort were so materially dependent upon the regulation of their own Minds, they would be more careful to strengthen them by Study, and Moderate them by reason, and Confirm them by Religion, and reduce them to an equanimity not easily disturbed by the Crosses and Accidents of Life.
@@ -169,13 +169,13 @@
 		Love. Joy. Peace long suffering Kindness goodness faithfulness meekness 	temperance - can we say there is not a strong line of demarkation between those who bear such fruit and those who don't
 	</ab>
 	<note place="bottom">
-		and he that is eight days old shall be circumsised 
+		and he that is eight days old shall be circumsised
 		<ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
 		<hi rend="#flourish">Circumsised Cardinal Number 8</hi>
 	</note>
 
 <!--[Start of NUMBER 39]-->
-<pb n="039" facs=""/>
+<pb n="039" facs="!@#"/>
 	<fw type="page_number" place="top">1</fw>
 	<head>
 		Routine of Work And duty
@@ -188,7 +188,7 @@
 		Prayers Bath and Shave up to 7 <lb/>
 		Breakfast from 7.15 to 7.45 including H.C. <lb/>
 		Carriage 7.45 to 8 arrive Surrey St <lb/>
-		In Workshops at 8 prompt seeing to work until 1pm from 1 to 2 dinner in private room Hot one day Cold next leave Surrey St at 7om by Carriage this to apply to Mon Tues Wed Thur Fri - Saturday each alternately a holiday. 
+		In Workshops at 8 prompt seeing to work until 1pm from 1 to 2 dinner in private room Hot one day Cold next leave Surrey St at 7om by Carriage this to apply to Mon Tues Wed Thur Fri - Saturday each alternately a holiday.
 	</ab>
 	<table rows="6" cols="4">
 		<row>
@@ -197,35 +197,35 @@
 			<cell xml:id="2to7_0039">2 to 7</cell>
 			<cell>10</cell>
 		</row>
-		
+
 		<row>
 			<cell>T</cell>
 			<cell sameAs="#8to1_0039">ditto</cell>
 			<cell sameAs="#2to7_0039">ditto</cell>
 			<cell>10</cell>
 		</row>
-		
+
 		<row>
 			<cell>W</cell>
 			<cell sameAs="#8to1_0039">ditto</cell>
 			<cell sameAs="#2to7_0039">ditto</cell>
 			<cell>10</cell>
 		</row>
-		
+
 		<row>
 			<cell>Th</cell>
 			<cell sameAs="#8to1_0039">ditto</cell>
 			<cell sameAs="#2to7_0039">ditto</cell>
 			<cell>10</cell>
 		</row>
-		
+
 		<row>
 			<cell>F</cell>
 			<cell sameAs="#8to1_0039">ditto</cell>
 			<cell sameAs="#2to7_0039">ditto</cell>
 			<cell>10</cell>
 		</row>
-		
+
 		<row>
 			<cell>S</cell>
 			<cell cols="3">
@@ -234,9 +234,9 @@
 			</cell>
 		</row>
 	</table>
-	
+
 <!--[Start of NUMBER 40]-->
-<pb n="040" facs=""/>
+<pb n="040" facs="!@#"/>
 	<fw type="page_number" place="top">2</fw>
 	<ab>
 		In Business - I think if Health will permit it is a very good thing to be in the workshops at 2pm to see all at their work doing it correctly and properly
@@ -249,7 +249,7 @@
 		<figDesc>
 			A shop layout with annotations of objects in the room
 		</figDesc>
-		<graphic url=""/>
+		<graphic url="!@#"/>
 		<trailer>
 			Master in front room having eye on shop cutomers Travellers offices and well seeing to telephone customers with runs up and down stairs
 			<date when="1891-06-08">June 8/91</date>
@@ -260,7 +260,7 @@
 	</figure>
 
 <!--[Start of NUMBER 41]-->
-<pb n="041" facs=""/>
+<pb n="041" facs="!@#"/>
 	<fw type="page_number" place="top">3</fw>
 	<head place="top opposite">
 		Bookeeping <hi style="text-decoration: underline; text-decoration-style: double;">Double</hi> Entry
@@ -290,12 +290,12 @@
 			</cell>
 		</row>
 	</table>
-	
+
 	<table rows="7" cols="2">
 		<head place="below">
 			<date from="1897-01" to="1897-03">1897 <lb/> Jan - Mar</date>
 		</head>
-		
+
 		<row role="label">
 			<cell>
 				<hi style="text-decoration: underline;">Thus</hi>
@@ -304,7 +304,7 @@
 				<hi style="text-decoration: underline;">Sales £2700.6.7</hi>
 			</cell>
 		</row>
-		
+
 		<row>
 			<cell>
 				Received Cash
@@ -313,7 +313,7 @@
 				2339 4 10
 			</cell>
 		</row>
-		
+
 		<row>
 			<cell>
 				Discount
@@ -322,7 +322,7 @@
 				70 6 7
 			</cell>
 		</row>
-		
+
 		<row>
 			<cell>
 				Allowance
@@ -331,7 +331,7 @@
 				17 10 6
 			</cell>
 		</row>
-		
+
 		<row>
 			<cell>
 				Lost
@@ -340,7 +340,7 @@
 				21 7 2
 			</cell>
 		</row>
-		
+
 		<row>
 			<cell>
 				Arrears
@@ -349,7 +349,7 @@
 				251 17 6
 			</cell>
 		</row>
-		
+
 		<row>
 			<cell>
 				<!--[empty cell]-->
@@ -358,7 +358,7 @@
 				<hi style="text-decoration-line: underline; text-decoration-style: double;">£ 2700 6 7</hi>
 			</cell>
 		</row>
-		
+
 		<trailer>
 			<q>
 				Cash to be kept by principal
@@ -368,7 +368,7 @@
 			</persName>
 		</trailer>
 	</table>
-	
+
 	<note place="bottom">
 		<orgName>
 			Thomas Firth + Sons
@@ -382,20 +382,20 @@
 			} 1.7
 		</note>
 	</note>
-	
+
 	<note place="margin">
 		Day Book form of Entry <unclear reason="illegible">HiKe</unclear>
 	</note>
-	
+
 <!--[Start of NUMBER 42]-->
-<pb n="042" facs=""/>
+<pb n="042" facs="!@#"/>
 	<fw type="page_number" place="top">4</fw>
-	
+
 	<ab>
 		Let Probity rule all your transactions and Life
 		<date when="1890-10-15">Oct 15/90</date>
 	</ab>
-	
+
 	<ab>
 		Have Monthly Balancings to see prospectively how things are every <num type="ordinal>"20th</num> of the Month I like
 		<note place="below">Hook it from <hi style="text-decoration-line: underline;"><unclear reason="illegible">m Fox</unclear></hi></note>
@@ -404,19 +404,19 @@
 		Orders in Safe - Cross every order in Day Book with Red tick before putting in Safe - the Red tick signifies there is an order in the Safe
 		<date when="1891-04-24">April 24/91</date>
 	</ab>
-	
+
 	<note place="bottom">
 		<date when="1894-04">April/94</date> Mr Kingsford Wilson I advise Double Entry
 	</note>
-	
+
 <!--[Start of NUMBER 43]-->
-<pb n="043" facs=""/>
+<pb n="043" facs="!@#"/>
 	<fw type="page_number" place="top">5</fw>
-	
+
 	<head>
 		Daily Routine
 	</head>
-	
+
 	<ab>
 		Letters - Works every room and individual see after Customers want or Complaint also the same in Sales Shop I have erred in leaving the Front Room, I should have been at the Vall more and made more of Customers by always being in and not running off to dinner at any rate untill I had had some one to fill my place well <lb/>
 		Examine work before sending home <lb/>
@@ -424,16 +424,16 @@
 		Noun <lb/>
 		2pm going round the shops
 	</ab>
-	
+
 	<note place="bottom">
 		Never were such books! <lb/>
 		No, now never will be such books as the books of Cheeryble Brothers Vide Nicholas Nickleby þ35b
 	<note>
 
 <!--[Start of NUMBER 44]-->
-<pb n="044" facs=""/>
+<pb n="044" facs="!@#"/>
 	<fw type="page_number" place="top">6</fw>
-	
+
 	<ab>
 		again seeing that every work and individual is progressing in his work healthy and profitably <lb/>
 		Examine Work and Charge Orders put in hands <lb/>
@@ -443,15 +443,193 @@
 		Search Neglect or an indefatigable unwearied Order Book Clerk to see to arrears but the <hi style="text-decoration-line: underline;">Master is best at this</hi> <lb/>
 		<date when="1891-05-02">May <num type="ordinal">2nd</num> 1891</date>
 	</ab>
-	
+
 	<ab>
 		Sales Shop is too much away and not sufficient in touch I think of trying a stair case removing &#8470; Safe and fitting up nicely for Master and Special
 		<note place="bottom">
 			to page 73 forward
 		</note>
 	</ab>
-	
+
 <!--[Start of NUMBER 45]-->
-<pb n="045" facs=""/>
+<pb n="045" facs="!@#"/>
 	<fw type="page_number" place="top">7</fw>
-	<!--[unfinished page 45]-->
+
+  <head place="top opposite">
+    Pattern Book or Illustrated Catalogue
+  </head>
+
+  <figure>
+    <head>!@# William Townsend Son <abbr>Manufact</abbr> States</head>
+    <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
+    <graphic url="!@#"/>
+    <trailer>set yo magnanimous <lb/> get an electro !@#</trailer>
+  </figure>
+
+  <list style="list-style-type: none;">
+    <head>Idea for A Title</head>
+    <item>Account Book Patterns</item>
+    <item>Mercantile Solicitors and Bankers Ruled Forms</item>
+    <item>Lithographic Type</item>
+  </list>
+
+  <note place="left margin">
+    <hi style="text-decoration: underline;">Travellers Companion</hi>
+  </note>
+
+  <note place="below">
+    <note place="left margin">100 Copies</note>
+    <list style="list-style-type: none;">
+      <item>Title a/c</item>
+      <item>7 pages a/c book patterns
+        <list>
+          <item>!@# of them 3 on a page 18</item>
+          <item>1 of them 4 on a page 4</item>
+          <item>22</item>
+        </list>
+      </item>
+      <item>TItle Solicitors + Manufactur Tonns
+        <list>
+          <item>7 pages rul + print</item>
+        </list>
+      </item>
+      <item>Title Merchants + Mercantile form
+        <list>
+          <item>7 pages riling type Litho</item>
+        </list>
+      </item>
+    </list>
+  </note>
+
+  <ab>
+    Proposed New pattern book Imp 8vo to contain our Trade and where they mill such a size of pattern book as we have printed also truly marked Numbered and priced we can supply all such after style of Army Navy Stores whatever is on the enormous book in Europe a really good work earning the repute a "Sheffield Journal"
+  </ab>
+
+  <note place="below bottom">
+    Dixons Robert <lb/> Belk C Johnson + Station W <lb/> hardware elastic
+  </note>
+
+  <!--[Start of NUMBER 46]-->
+  <pb n="046" facs="!@#"/>
+  	<fw type="page_number" place="top">8</fw>
+
+    <head place="top opposite">
+      Pattern Book or Illustrated Catalogue
+    </head>
+
+    <list style="list-style-type: none;">
+      <item>Account Book <seg xml:id="patterns_0046">patterns</seg></item>
+      <item>Solicitors <seg sameAs="#patterns_0046">"</seg></item>
+      <item>Bookbinding <seg sameAs="#patterns_0046">"</seg></item>
+      <item>Letterpress <seg sameAs="#patterns_0046">"</seg></item>
+      <item>Lithographic <seg sameAs="#patterns_0046">"</seg></item>
+      <item>Relief stand <seg sameAs="#patterns_0046">"</seg></item>
+      <item>Wedding Stationary <seg sameAs="#patterns_0046">"</seg></item>
+      <item>Funeral <seg sameAs="#patterns_0046">"</seg></item>
+    </list>
+
+    <ab>
+      as to size of Proposed pattern book look how Chambers decreased their post folio Chambers Journal to Small Imperial 8vo a good precedent for Sizes of books
+    </ab>
+
+    <list style="list-style-type:upper-alpha;">
+      <head>Alphabetically arranged, a/c book forms Solicitors</head>
+      <item>Letters Received Book
+        <list style="list-style-type: none;">
+          <label>A.A</label>
+          <item>Order book fount + date</item>
+        </list>
+      </item>
+      <item>Day book faint + cum headline</item>
+      <item><seg xml:id="journal_0046">Journal</seg> a <seg xml:id="patt_0046"><abbr>patt</abbr></seg></item>
+      <item><seg sameAs="#journal_0046">"</seg> B <seg sameAs="patt_0046">"</seg></item>
+      <item>Single <seg xml="ledger_0046">Ledger</seg></item>
+      <item>double <seg sameAs="#ledger_0046">"</seg></item>
+      <item>Cash Book</item>
+      <item><seg xml:id="bills_0046">Bills</seg> payable</item>
+      <item><seg sameAs="#bills_0046">"</seg> Receivable</item>
+      <item>Order Book outward voucher</item>
+      <item>Order Book outwards</item>
+      <item>Purchase Journal</item>
+      <item>Purchase Ledger</item>
+      <item>Cash Receipt Book</item>
+      <item>Balance Book</item>
+      <item>Private Ledger</item>
+      <item>Private Journal</item>
+      <item>Good Delivered A and B</item>
+      <item>Brewers Delivery Book</item>
+      <item>Faint + margin</item>
+
+      <note place="bottom">
+        PJO
+      </note>
+
+      <!--[Start of NUMBER 47]-->
+      <pb n="047" facs="!@#"/>
+        <fw type="page_number" place="top">9</fw>
+
+      <item>Affidavit</item>
+      <item>faint + date</item>
+      <item>Abstract</item>
+      <item>Judicature</item>
+      <item>Draft</item>
+      <item>Ledger Balances</item>
+      <item>Quantities</item>
+      <item>Taxation Costs</item>
+      <item>Agency Cost</item>
+      <item>Bankruptcy Costs</item>
+      <item>Delivery Cost</item>
+      <item>Draft Bill Paper</item>
+
+      <trailer>
+        Book Key to Account Book patterns <lb/>
+        see Tin Case 1 to 499 !@# <lb/>
+        Account Book Patterns Kept in tin case 1 to 499 !@#
+      </trailer>
+    </list>
+
+    <ab>
+      send binding invoices with discretion it leads to them being paid if delayed perhaps <hi style="text-decoration: underline;">Never</hi> <lb/>
+      send Monthly a/c to all with discretion that we can, very helpful to pay our monthly bills and less risk
+    </ab>
+
+    <!--[Start of NUMBER 48]-->
+    <pb n="048" facs="!@#"/>
+      <fw type="page_number" place="top">10</fw>
+
+    <ab>
+      Could we have some way of Keeping old orders for travellers to run at to see if any re-ordering could be got or suggestions to any in that line supposing the original were out of that trade - yess see the Tin Case !@#
+    </ab>
+
+    <note place="below">
+      Travellers <lb/> Call <lb/> <hi style="text-decoration: underline;">Due and Past Due</hi>
+    </note>
+
+    <list style="list-style-type:none;">
+      <label>Orders in hand</label>
+      <item>
+        Practical binder who can all information by shorthand from employer travellers or customer - write out with clear instructions for the works and every received from all sources that day delivered that night - any New books give № to enter briefly <unclear reason="illegible">N</unclear> order book Name Size №
+      </item>
+
+      <label>All Posting</label>
+      <item>Dr + Cr Ledgers</item>
+
+      <label>Travelelrs</label>
+      <item>Collect and Orders</item>
+
+      <label>Charger + Cuterer</label>
+      <item>Practical Ruler + Gender</item>
+
+      <label>Partners</label>
+      <item>
+        Special Traveling Cash Telephone Customers <lb/>
+        general oversight and all buying in from travellers or giving orders out
+      </item>
+
+      <label>Sales S</label>
+      <item>Young man + young lady</item>
+    </list>
+
+    <!--[Start of NUMBER 49]-->
+    <pb n="049" facs="!@#"/>
+      <fw type="page_number" place="top">11</fw>
