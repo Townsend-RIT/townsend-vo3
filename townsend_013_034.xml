@@ -545,8 +545,8 @@
                     <label>Routine and Duty</label><item><num type="pageNum">1</num></item>
                     <label>Rental Departmental</label><item><num type="pageNum">101</num></item>
                     <note place="margin">year <date when="1910">1910</date><num type="pageNum">234</num></note> 
-                    <label><seg xml:id="ruling_room_0029">Ruling Room</seg></label><item><num type="pageNum">66</num> <num type="pageNum">261</num></item>
-                    <label><seg sameAs="#ruling_room_0029">ditto</seg> Per hour</label><item><num type="pageNum">253</num> <num type="pageNum"><handShift medium="pencil" />254</num></item>
+                    <label><seg xml:id="ruling_room_0029">Ruling Room</seg></label><item><num type="pageNum">66</num> <num type="pageNum">261</num><num type="pageNum">253</num></item>
+                    <note><num type="pageNum"><handShift medium="pencil" />254</num><handShift medium="ink" />Per hour</note>
                     <label><handShift medium="ink" /><seg xml:id="routine_0029">Routine</seg> <seg xml:id="daily_0029">Daily</seg></label><item><num type="pageNum">73</num></item>
                     <label><seg sameAs="#routine_0029">ditto</seg> <seg sameAs="#daily_0029">ditto</seg></label><item><num type="pageNum">1</num> <num type="pageNum">2</num></item>
                     <label><seg sameAs="#routine_0029">ditto</seg> <seg sameAs="#daily_0029">ditto</seg></label><item><num type="pageNum">5</num> <num type="pageNum">6</num></item>
@@ -562,7 +562,7 @@
                     <label>Rates and Taxes</label><item><num type="pageNum">211</num></item>
                     <label>Roof idea for Works</label><item><num type="pageNum">338</num></item>
                     <label>Ruling meanings of</label><item><num type="pageNum">21</num></item>
-                    <label>Royal Arms illegal using of</label><item><num type="pageNum"><num type="fraction" value="0.25">1/4</num></num>></item>
+                    <label>Royal Arms illegal using of</label><item><num type="pageNum"><num type="fraction" value="0.25">1/4</num></num></item>
                     <label>Rogues</label><item><num type="pageNum">214</num></item>
                     <label>Railway Room</label><item><num type="pageNum">84</num></item>
                     <label>Railway fare when paid to workmen</label><item><num type="pageNum">173</num></item>
@@ -572,41 +572,91 @@
                 <pb facs="0030.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">R S</fw>
                 <list type="index-s">
-                    <label>Sewing A/c books</label><item>X 63 182</item>
+                    <label>Sewing 
+                    <choice>
+                        <abbr>A/c</abbr>
+                        <expan>Accounting</expan>
+                    </choice> books</label><item>X <num type="pageNum">63</num> <num type="pageNum">182</num></item>
                     <note place="below">about</note>
-                    <label>Sundays</label><item>57</item>
-                    <label>Sharings</label><item>273H</item>
-                    <label>Stamps</label><item>53</item>
-                    <label>Sales shop inaccuracies</label><item>109</item>
-                    <label>ditto ditto development returns</label><item>124</item>
-                    <label>ditto ditto salaries</label><item>110 300</item>
-                    <label>Show Cards Names</label><item>125</item>
-                    <label>Sundays How Spent</label><item>57</item>
-                    <label>Stock</label><item>40 273J</item>
-                    <label>Stock Taking</label><item>195</item>
-                    <label>Statutes</label><item>337</item>
-                    <label>Silk</label><item>185</item>
-                    <label>Sewing and Lining</label><item>63, 91, 37 207</item>
-                    <label>Stationery binding</label><item>152</item>
-                    <label>Sick time, short time</label><item>97 98</item>
-                    <label>Sewing <unclear reason="handwriting">bulgy</unclear> uneven + tugging</label><item>152, 91</item>
-                    <label>Sheffield Banking Co blotting</label><item>147</item>
-                    <label>Suggestions in Works</label><item>346</item>
-                    <label>Sizes of paper and books</label><item>95</item>
-                    <label>Special Notices</label><item>255</item>
-                    <label>Sales Shop dinner</label><item>110</item>
-                    <label>Steel Backs</label><item>33B</item>
-                    <label>Sheffield Gas Co</label><item>344</item>
-                    <label>Suggestion in estimates to customers</label><item>1/4</item>
-                    <label>Ship Hows the Sailing</label><item>85</item>
-                    <label>Stoves or Cellar</label><item>262</item>
-                    <label>Slip vellium "how it breaks" See continued at X</label><item>61</item>
+                    <label>Sundays</label><item><num type="pageNum">57</num></item>
+                    <label>Sharings</label><item><num type="pageNum">273</num>H</item>
+                    <label>Stamps</label><item><num type="pageNum">53</num></item>
+                    <label><seg xml:id="sales_0030">Sales</seg> <seg xml:id="shop_0030">shop</seg> inaccuracies</label><item><num type="pageNum">109</num></item>
+                    <label><seg sameAs="#sales_0030">ditto</seg> <seg sameAs="#shop_0030">ditto</seg> development returns</label><item><num type="pageNum">124</num></item>
+                    <label><seg sameAs="#sales_0030">ditto</seg> <seg sameAs="#shop_0030">ditto</seg> salaries</label><item><num type="pageNum">110</num> <num type="pageNum">300</num></item>
+                    <label>Show Cards Names</label><item><num type="pageNum">125</num></item>
+                    <label>Sundays How Spent</label><item><num type="pageNum">57</num></item>
+                    <label>Stock</label><item><num type="pageNum">40</num> <num type="pageNum">273</num>J</item>
+                    <label>Stock Taking</label><item><num type="pageNum">195</num></item>
+                    <label>Statutes</label><item><num type="pageNum">337</num></item>
+                    <label>Silk</label><item><num type="pageNum">185</num></item>
+                    <label>Sewing and Lining</label><item><num type="pageNum">63</num>, <num type="pageNum">91</num>, <num type="pageNum">37</num> <num type="pageNum">207</num></item>
+                    <label>Stationery binding</label><item><num type="pageNum">152</num></item>
+                    <label>Sick time, short time</label><item><num type="pageNum">97</num> <num type="pageNum">98</num></item>
+                    <label>Sewing <unclear reason="handwriting">bulgy</unclear> uneven + tugging</label><item><num type="pageNum">152</num>, <num type="pageNum">91</num></item>
+                    <label><orgName><placeName>Sheffield</placeName> Banking 
+                    <choice>
+                        <abbr>Co</abbr>
+                        <expan>Company</expan>
+                    </choice></orgName> blotting</label><item><num type="pageNum">147</num></item>
+                    <label>Suggestions in Works</label><item><num type="pageNum">346</num></item>
+                    <label>Sizes of paper and books</label><item><num type="pageNum">95</num></item>
+                    <label>Special Notices</label><item><num type="pageNum">255</num></item>
+                    <label>Sales Shop dinner</label><item><num type="pageNum">110</num></item>
+                    <label>Steel Backs</label><item><num type="pageNum">33</num>B</item>
+                    <label><orgName><placeName>Sheffield</placeName> Gas 
+                    <choice>
+                        <abbr>Co</abbr>
+                        <expan>Company</expan>
+                    </choice></orgName></label><item><num type="pageNum">344</num></item>
+                    <label>Suggestion in estimates to customers</label><item><num type="pageNum"><num type="fraction" value="0.25">1/4</num></num></item>
+                    <label>Ship Hows the Sailing</label><item><num type="pageNum">85</num></item>
+                    <label>Stoves or Cellar</label><item><num type="pageNum">262</num></item>
+                    <label>Slip vellium "how it breaks" See continued at X</label><item><num type="pageNum">61</num></item>
                 </list>
                 <!-- END PAGE 0030 -->
                 <!-- START PAGE 0031 -->
                 <pb facs="0031.tif" />
                 <list type="index-t">
-                    <label></label><item></item>
+                    <label>Travelling or "Ambassador"</label><item><num type="pageNum">277</num> <num type="pageNum">281</num></item>
+                    <label><seg xml:id="Traveller_0031">Traveller</seg> character of</label><item><num type="pageNum">287</num></item>
+                    <label><seg sameAs="#Traveller_0031">ditto</seg> note <date when="1908-02-20">Feb 20 1908</date></label><item><num type="pageNum">286</num></item>
+                    <label>Telephone</label><item><num type="pageNum">293</num></item>
+                    <label>Traveller, suggestion to</label><item><num type="pageNum">285</num> <num type="pageNum">300</num></item>
+                    <note>tin Cases</note>
+                    <label>Traveller Wages for</label><item><num type="pageNum">299</num></item>
+                    <label>Travellers Diary</label><item><num type="pageNum">333</num></item>
+                    <label><persName>Turner</persName> T <unclear reason="handwriting">+ Co</unclear> pattern 
+                    <choice>
+                        <abbr>bk</abbr>
+                        <expan>book</expan>
+                    </choice></label><item><num type="pageNum">272</num> <num type="pageNum">149</num></item>
+                    <label>Temperature of papers</label><item><num type="pageNum">30</num></item>
+                    <label>Tacketting begin + end of 
+                    <choice>
+                        <abbr>A/c</abbr>
+                        <expan>Accounting</expan>
+                    </choice> 
+                    <choice>
+                        <abbr>bks</abbr>
+                        <expan>books</expan>
+                    </choice></label><item><num type="pageNum">29</num></item>
+                    <label>Time office attendance</label><item><num type="pageNum">74</num></item>
+                    <label>Townsend <unclear reason="handwriting">Minstruc</unclear> from home</label><item><num type="pageNum">257</num></item>
+                    <label>Travellers Calls</label><item><num type="pageNum">285</num></item>
+                    <label>Terms</label><item><num type="pageNum">225</num></item>
+                    <label>Townsend colour</label><item><num type="pageNum">221</num></item>
+                    <label>Time</label><item><num type="pageNum">284</num></item>
+                    <label><seg xml:id="trade_0031">Trade</seg> as it was and is</label><item><num type="pageNum">225</num></item>
+                    <label><seg sameAs="#trade_0031">ditto</seg> changes</label><item><num type="pageNum">120</num></item>
+                    <label><handShift medium="pencil" />London Me<unclear reason="handwriting">n</unclear> Printing</label><item><num type="pageNum">252</num></item>
+                    <label><handShift medium="ink" />Tin Cases and "their revision" <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">12</num> <num type="pageNum">11</num></item>
+                    <label>Tomorrow</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
+                    <label>Telephone "mis-use of"</label><item><num type="pageNum">212</num></item>
+                    <label>Tape its merits</label><item><num type="pageNum">61</num></item>
+                    <label>Traveller Notes on</label><item><num type="pageNum">335</num></item>
+                    <label>Turn out of Wo<unclear reason="handwriting">v</unclear>k</label><item><num type="pageNum">197</num></item>
+                    <note>T see opposite</note>
                 </list>
                 <!-- END PAGE 0031 -->
                 <!-- START PAGE 0032 -->
