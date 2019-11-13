@@ -47,7 +47,7 @@
                     </choice> book price lists . "Key"</label><item><num type="pageNum">19</num></item>
                     <label>Advice</label><item><num type="pageNum">285</num></item>
                     <label><handShift medium="pencil" />Shrove Tuesday</label><item><num type="pageNum">337</num></item>
-                    <label><handShift medium="pen" />Apprentices Sickness</label><item><num type="pageNum">98</num></item>
+                    <label><handShift medium="ink" />Apprentices Sickness</label><item><num type="pageNum">98</num></item>
                     <label>Account books our old</label><item><num type="pageNum">51</num></item>
                     <label>Arms Royal illegal use of at letter of this index</label><item>Y</item>
                     <label>Art</label><item><num type="pageNum">151</num></item>
@@ -72,13 +72,13 @@
                     <label>Binding</label><item><num type="pageNum">151</num></item>
                     <label>Balance Adverse</label><item><num type="pageNum">43</num></item>
                     <label>Best Bankers way</label><item><num type="pageNum">41</num></item>
-                    <label>Bank Pass Books + paper to use</label><item><num type="pageNum">42</num></item>
+                    <label>Bank Pass Books &amp; paper to use</label><item><num type="pageNum">42</num></item>
                     <label>Buying</label><item><num type="pageNum">49</num></item>
                     <label>Budget</label><item><num type="pageNum">50</num></item>
                     <label>Bank interest</label><item><num type="pageNum">49</num></item>
                     <label>Balance</label><item><num type="pageNum">82</num></item>
                     <label>Bad Times</label><item><num type="pageNum">175</num></item>
-                    <label>Bras<handShift medium="pencil" />s<handShift medium="pen" /> Royal Arms page</label><item>Z</item>
+                    <label>Bras<handShift medium="pencil" />s<handShift medium="ink" /> Royal Arms page</label><item>Z</item>
                     <label>Bands double under</label><item><num type="pageNum">33</num>B</item>
                     <label>Bad Collecting</label><item><num type="pageNum">220</num></item>
                     <label>Blocks laying out</label><item><num type="pageNum">50</num></item>
@@ -104,7 +104,7 @@
                     <label>Conduct</label><item><num type="pageNum">349</num></item>
                     <label>Cases "tin" revision of <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">11</num></item>
                     <label>Compensation . JB offer .</label><item><num type="pageNum">354</num></item>
-                    <label>Customers Inquiries + complaints</label><item><num type="pageNum">147</num></item>
+                    <label>Customers Inquiries &amp; complaints</label><item><num type="pageNum">147</num></item>
                     <label>Copyright</label><item><num type="pageNum">38</num></item>
                     <label>Copper Plate disaster</label><item><num type="pageNum">239</num></item>
                     <label>Calls</label><item><num type="pageNum">145</num></item>
@@ -135,7 +135,7 @@
                 <list type="index-d">
                     <label>Days A working <date when="1905-11-16">Nov 16/1905</date></label><item><num type="pageNum">284</num></item>
                     <label>Days Work A</label><item><num type="pageNum">73</num></item>
-                    <label>Departmental letters + Nos</label><item><num type="pageNum">14 <num type="fraction" value="0.25">1/4</num></num></item>
+                    <label>Departmental letters &amp; Nos</label><item><num type="pageNum">14 <num type="fraction" value="0.25">1/4</num></num></item>
                     <label>Diary of repeat orders</label><item><num type="pageNum">325</num></item>
                     <label>Dear prices complaints of</label><item><num type="pageNum">159</num></item>
                     <label>Despatch of work</label><item><num type="pageNum">251</num></item>
@@ -461,7 +461,7 @@
                     <label><name>Osborne</name> <unclear reason="handwriting">FHo</unclear></label><item><num type="pageNum">163</num></item>
                     <label>Overwork</label><item><num type="pageNum">196</num></item>
                     <label>Orders writing out for Best Books</label><item><num type="pageNum">324</num></item>
-                    <label>Over sheets ruling + printing</label><item><num type="pageNum">21</num></item>
+                    <label>Over sheets ruling &amp; printing</label><item><num type="pageNum">21</num></item>
                     <label>Old time hours</label><item></item>
                     <label>Observations as I pass <choice>
                         <sic>thro</sic>
@@ -485,7 +485,7 @@
                     <label>Parchment Bank Pass books cracking backs</label><item><num type="pageNum">38</num></item>
                     <label>Proofs</label><item><num type="pageNum">40</num></item>
                     <label>Papers Advised</label><item><num type="pageNum">352</num></item>
-                    <label>Price prices Forward + Finishing</label><item><num type="pageNum">152</num> <num type="pageNum">168</num></item>
+                    <label>Price prices Forward &amp; Finishing</label><item><num type="pageNum">152</num> <num type="pageNum">168</num></item>
                     <label>Pattern Book she<unclear reason="handwriting">uri</unclear>ng to others</label><item><num type="pageNum">149</num></item>
                     <label>Painting</label><item><num type="pageNum">338</num></item>
                     <label>Pattern Cards</label><item><num type="pageNum">155</num></item>
@@ -593,7 +593,7 @@
                     <label>Sewing and Lining</label><item><num type="pageNum">63</num>, <num type="pageNum">91</num>, <num type="pageNum">37</num> <num type="pageNum">207</num></item>
                     <label>Stationery binding</label><item><num type="pageNum">152</num></item>
                     <label>Sick time, short time</label><item><num type="pageNum">97</num> <num type="pageNum">98</num></item>
-                    <label>Sewing <unclear reason="handwriting">bulgy</unclear> uneven + tugging</label><item><num type="pageNum">152</num>, <num type="pageNum">91</num></item>
+                    <label>Sewing <unclear reason="handwriting">bulgy</unclear> uneven &amp; tugging</label><item><num type="pageNum">152</num>, <num type="pageNum">91</num></item>
                     <label><orgName><placeName>Sheffield</placeName> Banking 
                     <choice>
                         <abbr>Co</abbr>
@@ -626,13 +626,13 @@
                     <note>tin Cases</note>
                     <label>Traveller Wages for</label><item><num type="pageNum">299</num></item>
                     <label>Travellers Diary</label><item><num type="pageNum">333</num></item>
-                    <label><persName>Turner</persName> T <unclear reason="handwriting">+ Co</unclear> pattern 
+                    <label><persName>Turner</persName> T <unclear reason="handwriting">&amp; Co</unclear> pattern 
                     <choice>
                         <abbr>bk</abbr>
                         <expan>book</expan>
                     </choice></label><item><num type="pageNum">272</num> <num type="pageNum">149</num></item>
                     <label>Temperature of papers</label><item><num type="pageNum">30</num></item>
-                    <label>Tacketting begin + end of 
+                    <label>Tacketting begin &amp; end of 
                     <choice>
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
@@ -663,26 +663,100 @@
                 <pb facs="0032.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">T V</fw>
                 <list type="index-uv">
-                    <label></label><item></item>
+                    <label>Union of Prices idea</label><item><num type="pageNum">271</num></item>
+                    <label>Union jottings complaints of</label><item><num type="pageNum">180</num> <num type="pageNum">341</num></item>
+                    <label>Visitors Calls</label><item><num type="pageNum">285</num></item>
+                    <label>Vickers Imperial giving way</label><item><num type="pageNum">197</num></item>
+                    <label>Union Non (ideas upon) print &amp; office</label><item><num type="pageNum">240</num></item>
+                    <label>Vigilance</label><item><num type="pageNum">224</num></item>
+                    <label><seg xml:id="Vellum_0032">Vellum</seg> <seg xml:id="binding_0032">binding</seg> <seg xml:id="room_0032">room</seg></label><item><num type="pageNum">181</num></item>
+                    <label><seg sameAs="#Vellum_0032">ditto</seg> <seg sameAs="#binding_0032">ditto</seg> <seg sameAs="#room_0032">ditto</seg></label><item><num type="pageNum">62</num></item>
+                    <label><seg sameAs="#Vellum_0032">ditto</seg> <seg sameAs="#binding_0032">ditto</seg> <seg sameAs="#room_0032">ditto</seg></label><item><num type="pageNum">61</num></item>
+                    <label>Vellum Slip breaking of</label><item><num type="pageNum">61</num></item>
+                    <label>Union Bank</label><item><num type="pageNum">147</num></item>
+                    <label>Under Bands why not to be raised on side</label><item><num type="pageNum">173</num> <num type="pageNum">173</num></item>
+                    <label>Valuer for City work</label><item><num type="pageNum">265</num></item>
                 </list>
                 <list type="index-t">
-                    <label></label><item></item>
+                    <label>Type</label><item><num type="pageNum">85</num></item>
+                    <label>Timekeepers board</label><item><num type="pageNum">283</num></item>
+                    <label>Thread</label><item><num type="pageNum">183</num></item>
+                    <label>Thoughts</label><item><num type="pageNum">175</num></item>
+                    <label>Taping</label><item><num type="pageNum">174</num> <num type="pageNum">324</num></item>
+                    <label>Travelling written <date when="1901-11">Nov 1901</date></label><item><num type="pageNum">267</num></item>
+                    <label>Type per hour Machine &amp; Comp</label><item><num type="pageNum">250</num></item>
+                    <label>Terms</label><item><num type="pageNum">273</num>A</item>
+                    <label>Travelling notes Green on Dawson leading</label><item><num type="pageNum">164</num> <num type="pageNum">282</num></item>
+                    <label>Theft in Sales Shop</label><item><num type="pageNum">86</num></item>
                 </list>
                 <!-- END PAGE 0032 -->
                 <!-- START PAGE 0033 -->
                 <pb facs="0033.tif" />
                 <list type="index-w">
-                    <label></label><item></item>
+                    <label>Washleather <unclear>JRJ</unclear> Case</label><item><num type="pageNum">323</num></item>
+                    <label>Writings and Rulings</label><item><num type="pageNum">351</num></item>
+                    <label>Waste</label><item><num type="pageNum">335</num></item>
+                    <label>Water used per day</label><item><num type="pageNum">180</num> <num type="pageNum">342</num></item>
+                    <label>Warping of Free Library 
+                    <choice>
+                        <abbr>bks</abbr>
+                        <expan>books</expan>
+                    </choice></label><item><num type="pageNum">270</num></item>
+                    <label>Wood Engraving by <name>Cassell</name></label><item><num type="pageNum">149</num></item>
+                    <label>Workmen Inquiry</label><item><num type="pageNum">357</num></item>
+                    <label>Works Manager</label><item><num type="pageNum">55</num> <num type="pageNum">173</num> <num type="pageNum">223</num> <num type="pageNum">224</num> <num type="pageNum">251</num></item>
+                    <label>Wages and Quertine</label><item><num type="pageNum">244</num></item>
+                    <label>Work Rooms arrangement</label><item><num type="pageNum">223</num></item>
+                    <label>Working Expenses</label><item><num type="pageNum">27</num></item>
+                    <label>Workmen</label><item><num type="pageNum">173</num></item>
+                    <label>Wages</label><item><num type="pageNum">191</num> <num type="pageNum">215</num></item>
+                    <label>Workmen advertisements</label><item><num type="pageNum">357</num></item>
+                    <label>Workshop Notes</label><item><num type="pageNum">174</num></item>
+                    <label>Working Days</label><item><num type="pageNum">100</num></item>
+                    <label>Works</label><item><num type="pageNum">346</num></item>
+                    <label>Workshop Walks</label><item><num type="pageNum">201</num> <num type="pageNum">199</num></item>
+                    <label>Why I Want Piece</label><item><num type="pageNum">168</num> <num type="pageNum">153</num> <num type="pageNum">154</num></item>
+                    <label>Working Charges</label><item><num type="pageNum">119</num></item>
+                    <label>Wanted</label><item><num type="pageNum">357</num></item>
                 </list>
                 <!-- END PAGE 0033 -->
                 <!-- START PAGE 0034 -->
                 <pb facs="0034.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">W X</fw>
                 <list type="index-w">
-                    <label></label><item></item>
+                    <label>Work Progress of 
+                    <choice>
+                        <abbr>A/c</abbr>
+                        <expan>Accounting</expan>
+                    </choice> books</label><item><num type="pageNum">169</num> <num type="pageNum">181</num></item>
+                    <label>Walker &amp; Hall law case darkening building</label><item><num type="pageNum">209</num></item>
+                    <label>Webbing</label><item><num type="pageNum">91</num> <num type="pageNum">61</num></item>
+                    <label>Writing paper ordered New Years Day</label><item><num type="pageNum">189</num></item>
+                    <label>Wages Historical</label><item><num type="pageNum">191</num></item>
+                    <label>Wortly Joshua pattern of money column</label><item><num type="pageNum">254</num></item>
+                    <label>Writing Paper per 
+                    <choice>
+                        <abbr>ft</abbr>
+                        <expan>foot</expan>
+                    </choice></label><item><num type="pageNum">227</num></item>
+                    <label>Wear &amp; Tear of Machinery</label><item>Cutter use 25 years then buy an improvement on it</item>
+                    <label>Writing paper sale of</label><item><num type="pageNum">228</num></item>
+                    <label>Whitewashing</label><item><num type="pageNum">58</num></item>
+                    <label>Workshop Suggestions</label><item><num type="pageNum">55</num> <num type="pageNum">171</num></item>
                 </list>
                 <list type="index-s">
-                    <label></label><item></item>
+                    <label>Shrove Tuesday</label><item><num type="pageNum">337</num></item>
+                    <label>Size of Proposed Pattern Book</label><item><num type="pageNum">8</num></item>
+                    <label>Sutton Contract</label><item>12<unclear reason="handwriting">ft</unclear></item>
+                    <label>Stereo Foundry</label><item><num type="pageNum">176</num></item>
+                    <label>Sizes how arranged</label><item><num type="pageNum">17</num> to <num type="pageNum">24</num> <num type="pageNum">120</num></item>
+                    <label><placeName>Sheffield city</placeName> estimates "<date when="1902-09">Sep. 1902</date>"</label><item><num type="pageNum">107</num></item>
+                    <label>Shrove Tuesday</label><item><num type="pageNum">337</num></item>
+                    <label>Sinking fund</label><item><num type="pageNum">339</num></item>
+                    <label>Stock taking</label><item><num type="pageNum">273</num>J</item>
+                    <label>Stock required</label><item><num type="pageNum">189</num></item>
+                    <label>Stephens ink</label><item><num type="pageNum">273</num>C</item>
+                    <label>Skeleton Guard books Sewing</label><item><num type="pageNum">185</num></item>
                 </list>
                 <!-- END PAGE 0034 -->
             </div>
