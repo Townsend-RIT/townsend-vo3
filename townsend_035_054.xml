@@ -104,7 +104,7 @@
     <!--[end of schema]-->
 
     <!--[Start of NUMBER 35]-->
-    <pb n="035" facs="!@#"/>
+    <pb n="035" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">Y</fw>
 
     <div type="page">
@@ -238,7 +238,7 @@
     <!--[End of NUMBER 35]-->
 
     <!--[Start of NUMBER 36]-->
-    <pb n="036" facs="!@#"/>
+    <pb n="036" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">1/4</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -248,7 +248,7 @@
         <figDesc>
           A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.
         </figDesc>
-        <graphic url="!@#"/>
+        <graphic url="<!--[ TODO ]-->"/>
       </figure><!--[End of figure]-->
 
       <ab><!--[start of ab]-->
@@ -303,7 +303,7 @@
     <!--[End of NUMBER 36]-->
 
     <!--[Start of NUMBER 37]-->
-    <pb n="037" facs="!@#"/>
+    <pb n="037" facs="<!--[ TODO ]-->"/>
 
     <fw type="page_number" place="top">1/2</fw>
 
@@ -319,7 +319,7 @@
     <!--[End of NUMBER 37]-->
 
     <!--[Start of NUMBER 38]-->
-    <pb n="038" facs="!@#"/>
+    <pb n="038" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">3/4</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -341,7 +341,7 @@
     <!--[End of NUMBER 38]-->
 
     <!--[Start of NUMBER 39]-->
-    <pb n="039" facs="!@#"/>
+    <pb n="039" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">1</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -405,7 +405,7 @@
     <!--[End of NUMBER 39]-->
 
     <!--[Start of NUMBER 40]-->
-    <pb n="040" facs="!@#"/>
+    <pb n="040" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">2</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -420,7 +420,7 @@
         <figDesc>
       	   A shop layout with annotations of objects in the room
         </figDesc>
-        <graphic url="!@#"/>
+        <graphic url="<!--[ TODO ]-->"/>
         <trailer>
       	   Master in front room having eye on shop cutomers Travellers offices and well seeing to telephone customers with runs up and down stairs
       	   <date when="1891-06-08">June 8/91</date>
@@ -433,7 +433,7 @@
     <!--[End of Number 40]-->
 
     <!--[Start of NUMBER 41]-->
-    <pb n="041" facs="!@#"/>
+    <pb n="041" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">3</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -566,7 +566,7 @@
     <!--[End of NUMBER 41]-->
 
     <!--[Start of NUMBER 42]-->
-    <pb n="042" facs="!@#"/>
+    <pb n="042" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">4</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -591,7 +591,7 @@
     <!--[End of NUMBER 42]-->
 
     <!--[Start of NUMBER 43]-->
-    <pb n="043" facs="!@#"/>
+    <pb n="043" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">5</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -615,7 +615,7 @@
     <!--[End of NUMBER 43]-->
 
     <!--[Start of NUMBER 44]-->
-    <pb n="044" facs="!@#"/>
+    <pb n="044" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">6</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -639,7 +639,7 @@
     <!--[End of NUMBER 44]-->
 
     <!--[Start of NUMBER 45]-->
-    <pb n="045" facs="!@#"/>
+    <pb n="045" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">7</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -648,10 +648,10 @@
       </head>
 
       <figure><!--[start of figure]-->
-        <head>!@# William Townsend Son <abbr>Manufact</abbr> States</head>
+        <head><!--[ TODO ]--> William Townsend Son <abbr>Manufact</abbr> States</head>
         <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
-        <graphic url="!@#"/>
-        <trailer>set yo magnanimous <lb/> get an electro !@#</trailer>
+        <graphic url="<!--[ TODO ]-->"/>
+        <trailer>set yo magnanimous <lb/> get an electro <!--[ TODO ]--></trailer>
       </figure><!--[end of figure]-->
 
       <list style="list-style-type: none;"><!--[start of list]-->
@@ -671,7 +671,7 @@
           <item>Title a/c</item>
           <item>7 pages a/c book patterns
             <list>
-              <item>!@# of them 3 on a page 18</item>
+              <item><!--[ TODO ]--> of them 3 on a page 18</item>
               <item>1 of them 4 on a page 4</item>
               <item>22</item>
             </list>
@@ -700,7 +700,7 @@
     <!--[End of NUMBER 45]-->
 
     <!--[Start of NUMBER 46]-->
-    <pb n="046" facs="!@#"/>
+    <pb n="046" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">8</fw>
 
     <div type="page"><!--[start of page div]-->
@@ -758,7 +758,7 @@
     <!--[End of NUMBER 46]-->
 
     <!--[Start of NUMBER 47]-->
-      <pb n="047" facs="!@#"/>
+      <pb n="047" facs="<!--[ TODO ]-->"/>
         <fw type="page_number" place="top">9</fw>
 
       <div type="page">
@@ -778,8 +778,8 @@
 
         <trailer>
           Book Key to Account Book patterns <lb/>
-          see Tin Case 1 to 499 !@# <lb/>
-          Account Book Patterns Kept in tin case 1 to 499 !@#
+          see Tin Case 1 to 499 <!--[ TODO ]--> <lb/>
+          Account Book Patterns Kept in tin case 1 to 499 <!--[ TODO ]-->
         </trailer>
       </list><!--[end of list]-->
 
@@ -791,12 +791,12 @@
     <!--[End of NUMBER 47]-->
 
     <!--[Start of NUMBER 48]-->
-    <pb n="048" facs="!@#"/>
+    <pb n="048" facs="<!--[ TODO ]-->"/>
       <fw type="page_number" place="top">10</fw>
 
     <div type="page"><!--[start of page div]-->
       <ab>
-        Could we have some way of Keeping old orders for travellers to run at to see if any re-ordering could be got or suggestions to any in that line supposing the original were out of that trade - yess see the Tin Case !@#
+        Could we have some way of Keeping old orders for travellers to run at to see if any re-ordering could be got or suggestions to any in that line supposing the original were out of that trade - yess see the Tin Case <!--[ TODO ]-->
       </ab>
 
       <note place="below">
@@ -831,7 +831,7 @@
     <!--[End of NUMBER 48]-->
 
     <!--[Start of NUMBER 49]-->
-    <pb n="049" facs="!@#"/>
+    <pb n="049" facs="<!--[ TODO ]-->"/>
       <fw type="page_number" place="top">11</fw>
 
       <div type="page"><!--[start of page div]-->
@@ -872,7 +872,7 @@
       <!--[End of NUMBER 49]-->
 
       <!--[Start of NUMBER 50]-->
-      <pb n="050" facs="!@#"/>
+      <pb n="050" facs="<!--[ TODO ]-->"/>
       <fw type="page_number" place="top">12</fw>
 
       <div type="page"><!--[start of page div]-->
@@ -886,7 +886,7 @@
             </note>
           <item>Collieries</item>
             <note place="inline"><handShift medium="pencil"/>C Crypt<handShift medium="ink"/></note>
-          <item>Cammell !@#</item>
+          <item>Cammell <!--[ TODO ]--></item>
           <item>Lost Contracts</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <item>Bankers</item>
@@ -940,7 +940,7 @@
       <!--[End of NUMBER 50]-->
 
       <!--[Start of NUMBER 51]-->
-      <pb n="051" facs="!@#"/>
+      <pb n="051" facs="<!--[ TODO ]-->"/>
       <fw type="page_number" place="top">13</fw>
 
       <div type="page"><!--[start of page div]-->
@@ -964,7 +964,7 @@
       <!--[End of NUMBER 51]-->
 
       <!--[Start of NUMBER 52]-->
-      <pb n="052" facs="!@#"/>
+      <pb n="052" facs="<!--[ TODO ]-->"/>
       <fw type="page_number" place="top">14</fw>
 
       <div type="page"><!--[start of page div]-->
@@ -997,7 +997,7 @@
       <!--[End of NUMBER 52]-->
 
       <!--[Start of NUMBER 53]-->
-      <pb n="053" facs="!@#"/>
+      <pb n="053" facs="<!--[ TODO ]-->"/>
       <fw type="page_number" place="top">15</fw>
 
       <div type="page"><!--[end of page div]-->
@@ -1075,7 +1075,7 @@
       <!--[End of NUMBER 53]-->
 
       <!--[Start of NUMBER 54]-->
-      <pb n="054" facs="!@#"/>
+      <pb n="054" facs="<!--[ TODO ]-->"/>
       <fw type="page_number" place="top">16</fw>
 
       <div type="page"><!--[start of page div]-->
@@ -1123,7 +1123,7 @@
           </row>
 
           <row>
-            <cell>Sheet + 3rd !@#</cell>
+            <cell>Sheet + 3rd <!--[ TODO ]--></cell>
             <cell>7001 to 7300</cell>
           </row>
 
