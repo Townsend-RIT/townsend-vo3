@@ -119,7 +119,7 @@
           <date when="1898-05-16">May 16/98</date>
         </head>
 
-        <row role="label">
+        <row role="label"><!--[start of row]-->
           <cell>
             Bookeeper
             <note place="underneath">
@@ -333,9 +333,11 @@
         Love. Joy. Peace long suffering Kindness goodness faithfulness meekness 	temperance - can we say there is not a strong line of demarkation between those who bear such fruit and those who don't
       </ab>
       <note place="bottom"><!--[start of note]-->
-        and he that is eight days old shall be circumsised
-        <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
-        <hi rend="#flourish">Circumsised Cardinal Number 8</hi>
+        <q type="biblical">
+          and he that is eight days old shall be circumsised
+          <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
+          <hi rend="#flourish">Circumsised Cardinal Number 8</hi>
+        </q>
       </note><!--[end of note]-->
     </div><!--[end of page div]-->
     <!--[End of NUMBER 38]-->
