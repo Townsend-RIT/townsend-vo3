@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<?xml-model href="../../../Downloads/townsend-test-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -19,40 +20,44 @@
     <text>
         <front>
             <divGen type="toc"/>
-            <div type="index"> 
+            <div type="other"> 
                 <!-- START PAGE 0013 -->
                 <pb facs="0013.tif" n="0013" /> 
                 <list type="index-a">
                     <label>Ash Wednesady</label><item><num type="pageNum">337</num></item>
                     <label>Accounts Gone Going or likely</label><item><num type="pageNum">267</num></item>
-                    <label>Account Book Making</label><item><num type="pageNum">116</num>, <num type="pageNum">30</num>, <num type="pageNum">62</num>.</item>
+                    <label>Account Book Making</label><item><num type="pageNum">116</num> <num type="pageNum">30</num> <num type="pageNum">62</num></item>
                     <label>Almanacs giving 
                     <choice>
                         <abbr>Xmas</abbr>
                         <expan>Christmas</expan>
                     </choice> time</label><item><num type="pageNum">347</num></item>
-                    <label>Account Book making room</label><item><num type="pageNum">168</num>-<num type="pageNum">35</num></item>
+                    <label>Account Book making room</label><item><num type="pageNum">168</num> <num type="pageNum">35</num></item><!-- On the page, it looks like 168-35, as if it's a range, 
+                        but...that doesn't make sense. So check to see if page 35 has this content? -->
                     <label>Application to supply Shell G<unclear>u</unclear>ar</label><item><num type="pageNum">273</num></item>
-                    <label>Alterations</label><item><num type="pageNum">261</num>.<num type="pageNum">32</num>.<num type="pageNum">5</num></item>
+                    <label>Alterations</label><item><num type="pageNum">261</num> <num type="pageNum">2</num> <num type="pageNum">5</num></item>
                     <label>Absence attention to letters</label><item><num type="pageNum">146</num></item>
-                    <label>Advertisments</label><item><num type="pageNum">273</num>I <num type="pageNum">353</num> in <num type="roman">VVM</num> <num type="pageNum">357</num></item>
-                    <label>Apprentices, "Number entitled to" and conduct</label><item><num type="pageNum">350</num>-<num type="pageNum">65</num></item>
+                    <label>Advertisments</label><item><num type="pageNum">273</num>I <num type="pageNum">353</num> in <num type="roman">VVM</num> <num type="pageNum">357</num></item> <!-- 353 
+                        in VVM needs to be grouped somehow -->
+                    <label>Apprentices, <q>Number entitled to</q> and conduct</label><item><num type="pageNum">350</num> <num type="pageNum">65</num></item> <!-- Same deal as line 35. Is this 350-365 
+                        or 350 and 65? -->
                     <label>Asking for repeat orders</label><item><num type="pageNum">273</num></item>
-                    <label>Achieve Balance</label><item><num type="pageNum">252</num>.<num type="pageNum">43</num></item>
+                    <label>Adverse Balance</label><item><num type="pageNum">252</num> <num type="pageNum">43</num></item>
                     <label>Arrangement of Work</label><item><num type="pageNum">80</num></item>
                     <label>Appointments</label><item><num type="pageNum">350</num></item>
                     <label><choice>
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
-                    </choice> book price lists . "Key"</label><item><num type="pageNum">19</num></item>
+                    </choice> book price lists · <q>Key</q></label><item><num type="pageNum">19</num></item>
+                    <!-- need to declare centerdot as an entity -->
                     <label>Advice</label><item><num type="pageNum">285</num></item>
                     <label><handShift medium="pencil" />Shrove Tuesday</label><item><num type="pageNum">337</num></item>
                     <label><handShift medium="ink" />Apprentices Sickness</label><item><num type="pageNum">98</num></item>
                     <label>Account books our old</label><item><num type="pageNum">51</num></item>
-                    <label>Arms Royal illegal use of at letter of this index</label><item>Y</item>
+                    <label>Arms Royal illegal use of</label><item>at letter Y of this index</item>
                     <label>Art</label><item><num type="pageNum">151</num></item>
                     <label>Artists Litho</label><item><num type="pageNum">149</num></item>
-                    <label>Account book routine</label><item><num type="pageNum">168</num>, <num type="pageNum">9</num></item>
+                    <label>Account book routine</label><item><num type="pageNum">168</num> <num type="pageNum">9</num></item> <!-- another similar to line 35 and 42, is this 168 and 9 or 168-169? -->
                     <label>Apprentice value</label><item><num type="pageNum">69</num></item>
                     <label><handShift medium="pencil" />Advances</label><item></item>
                 </list>
@@ -61,8 +66,8 @@
                 <pb facs="0014.tif" />
                 <fw type="page_number" place="margin" style="writing-mode: vertical-lr">A B</fw>
                 <list type="index-b">
-                    <label>Binders good <date when="1909-12">Dec 1909</date></label><item><num type="pageNum">193</num></item>
-                    <label>Bookeeping</label><item><num type="pageNum">93</num>, <num type="pageNum">105</num>, <num type="pageNum">10 3</num>, Y</item> <!-- Check to see if that's 103 or 10 and 3 -->
+                    <label><handShift medium="ink" />Binders good <date when="1909-12">Dec 1909</date></label><item><num type="pageNum">193</num></item>
+                    <label>Bookeeping</label><item><num type="pageNum">93</num> <num type="pageNum">105</num> <num type="pageNum">10</num> <num type="pageNum">3</num>Y</item>
                     <label>Backs loose 
                     <choice>
                         <abbr>A/c</abbr>
@@ -83,13 +88,13 @@
                     <label>Bad Collecting</label><item><num type="pageNum">220</num></item>
                     <label>Blocks laying out</label><item><num type="pageNum">50</num></item>
                     <label>Bad Sewing</label><item><num type="pageNum">91</num></item>
-                    <label><name>Bingham</name> Fund</label><item><num type="pageNum">209</num> </item>
+                    <label><name>Bingham</name> Fund</label><item><num type="pageNum">209</num></item>
                     <label><orgName><placeName>Brighton</placeName> Free Library</orgName></label><item><num type="pageNum">269</num>B</item>
-                    <label>Bustridge paper mell</label><item><num type="pageNum">315</num> <num type="pageNum">229</num></item>
-                    <label>Broken slip</label><item><num type="pageNum">63</num>, <num type="pageNum">64</num>, <num type="pageNum">182</num>, <num type="pageNum">185</num></item>
+                    <label><unclear reason="name">Bustbudge</unclear> paper mell</label><item><num type="pageNum">315</num> <num type="pageNum">229</num></item>
+                    <label>Broken slip</label><item><num type="pageNum">63</num> <num type="pageNum">64</num> <num type="pageNum">182</num> <num type="pageNum">185</num></item>
                 </list>
                 <list type="index-a">
-                    <label>Architecture -- a good work room</label><item><num type="pageNum">111</num></item>
+                    <label>Architecture — a good work room</label><item><num type="pageNum">111</num></item>
                     <label>Account book Patterns</label><item><num type="pageNum">273</num>F</item>
                     <label>Aliens</label><item><num type="pageNum">23</num></item>
                 </list>
@@ -100,10 +105,11 @@
                     <label>Charging</label><item><num type="pageNum">106</num></item>
                     <label>Complaints by Workpeople</label><item><num type="pageNum">97</num></item>
                     <label>Charging Thoughts</label><item><num type="pageNum">143</num> <num type="pageNum">263</num> <num type="pageNum">5</num></item>
+                    <label></label><item><num type="pageNum">252</num></item> <!-- This is just. A floating 252. I don't know where it corresponds. -->
                     <label>Clock, and its ringing</label><item><num type="pageNum">275</num></item>
                     <label>Conduct</label><item><num type="pageNum">349</num></item>
-                    <label>Cases "tin" revision of <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">11</num></item>
-                    <label>Compensation . JB offer .</label><item><num type="pageNum">354</num></item>
+                    <label>Cases <q>tin</q> revision of <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">11</num></item>
+                    <label>Compensation · <name>JB</name> offer ·</label><item><num type="pageNum">354</num></item>
                     <label>Customers Inquiries &amp; complaints</label><item><num type="pageNum">147</num></item>
                     <label>Copyright</label><item><num type="pageNum">38</num></item>
                     <label>Copper Plate disaster</label><item><num type="pageNum">239</num></item>
@@ -112,8 +118,8 @@
                     <choice>
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
-                    </choice> books,</label><item><num type="pageNum">161</num>, <num type="pageNum">27</num></item>
-                    <label>Collector</label><item><num type="pageNum">92</num>, <num type="pageNum">219</num>, <num type="pageNum">337</num>, <num type="pageNum">326</num></item>
+                    </choice> books</label><item><num type="pageNum">161</num> <num type="pageNum">27</num></item>
+                    <label>Collector</label><item><num type="pageNum">92</num> <num type="pageNum">219</num> <num type="pageNum">337</num> <num type="pageNum">326</num></item>
                     <label>Composition</label><item><num type="pageNum">252</num></item>
                     <label><orgName>Corporation Sheffield</orgName></label><item><num type="pageNum">337</num></item>
                     <label>Country idea</label><item><num type="pageNum">220</num></item>
@@ -121,12 +127,12 @@
                     <label>Charity</label><item><num type="pageNum">235</num></item>
                     <label>Customers</label><item><num type="pageNum">163</num></item>
                     <label>Copying books</label><item><num type="pageNum">34</num> <num type="pageNum">97</num></item>
-                    <label><seg xml:id="capacity_0015">Capacity</seg> printing <seg xml:id="office_0015">office</seg></label><item><num type="pageNum">245</num> </item>
+                    <label><seg xml:id="capacity_0015">Capacity</seg> printing <seg xml:id="office_0015">office</seg></label><item><num type="pageNum">245</num></item>
                     <label><seg sameAs="#capacity_0015">ditto</seg> Litho <seg sameAs="#office_0015">ditto</seg></label><item></item>
                     <label>Clerk of the Works</label><item><num type="pageNum">55</num></item>
                 </list>
                 <ab style="writing mode: vertical-lr; text-orientation: sideways-left">
-                    <emph style="underline">"Carried to Y"</emph>
+                    <emph style="underline"><q>Carried to Y</q></emph>
                 </ab>
                 <!-- END PAGE 0015 -->
                 <!-- START PAGE 0016 -->
@@ -141,20 +147,20 @@
                     <label>Despatch of work</label><item><num type="pageNum">251</num></item>
                     <label>Departmental per hour</label><item><num type="pageNum">241</num></item>
                     <label>Direct charges</label><item><num type="pageNum">119</num></item>
-                    <label>Departmental order,</label><item><num type="pageNum">223</num> cutter <num type="pageNum">288</num></item>
+                    <label>Departmental order</label><item><num type="pageNum">223</num> cutter <num type="pageNum">288</num></item> <!-- 233 and cutter need to be grouped together -->
                     <label>Departmental rent</label><item><num type="pageNum">101</num></item>
                     <label>Day work</label><item><num type="pageNum">154</num></item>
                     <label>Daily Clearings</label><item><num type="pageNum">81</num></item>
                     <label>Design</label><item><num type="pageNum">151</num></item>
                     <label>Disciplinarian</label><item><num type="pageNum">223</num> <num type="pageNum">200</num></item>
-                    <label>Departmental Cost</label><item><num type="pageNum">241</num>-<num type="pageNum">2</num></item>
-                    <label>Dynamo</label><item><handShift medium="pencil" /><emph style="underline"><num type="pageNum">286</num></emph> <handShift medium="ink" /> <num type="pageNum">83</num></item>
+                    <label>Departmental Cost</label><item><num type="pageNum">241</num>-<num type="pageNum">2</num></item> <!-- is it 241-242 or 241 and 2 -->
+                    <label>Dynamo</label><item><handShift medium="pencil" /><emph style="underline"><num type="pageNum">286</num></emph> <handShift medium="ink" /><num type="pageNum">83</num></item>
                     <label>Day Book idea</label><item><num type="pageNum">229</num></item>
                 </list>
                 <list type="index-c">
-                    <label>Charges Working</label><item><num type="pageNum">120</num>, <num type="pageNum">119</num></item>
+                    <label>Charges Working</label><item><num type="pageNum">120</num> <num type="pageNum">119</num></item>
                     <label>Club Our</label><item><num type="pageNum">350</num></item>
-                    <label>Charging Notes on</label><item><num type="pageNum">252</num>.<num type="pageNum">143</num></item>
+                    <label>Charging Notes on</label><item><num type="pageNum">252</num> <num type="pageNum">143</num></item>
                     <label><handShift medium="pencil" /><placeName>Sheffield City</placeName></label><item><num type="pageNum">120</num></item>
                     <label><handShift medium="ink" />Code <date when="1897">1897</date></label><item><num type="pageNum">177</num></item>
                     <label>Cases</label><item><num type="pageNum">12</num></item>
@@ -262,9 +268,12 @@
                 <!-- START PAGE 0021 -->
                 <pb facs="0021.tif" />
                 <list type="index-ij">
-                    <label>Ink Morrel end board end paper</label><item><num type="pageNum">360</num></item>
+                    <label>Ink <unclear reason="name">Morrel</unclear> end board end paper</label><item><num type="pageNum">360</num></item>
                     <label>Index scale and stock</label><item><num type="pageNum">52</num></item>
-                    <label>Index No of stock</label><item><num type="pageNum">23</num> <num type="pageNum">18</num></item>
+                    <label>Index <choice>
+                        <abbr>Nº</abbr>
+                        <expan>Numero</expan>
+                    </choice> of stock</label><item><num type="pageNum">23</num> <num type="pageNum">18</num></item>
                     <label><choice>
                         <orig>Indexs</orig>
                         <reg>Indices</reg>
@@ -274,7 +283,7 @@
                     <label><choice>
                         <orig>Indexs</orig>
                         <reg>Indices</reg>
-                    </choice> suitable for <num>7</num> to <num>1</num> quires</label><item><num type="pageNum">51</num></item>
+                    </choice> suitable for <num type="quantity">7</num> to <num type="quantity">1</num> quires</label><item><num type="pageNum">51</num></item>
                     <label><choice>
                         <orig>Indexs</orig>
                         <reg>Indices</reg>
@@ -293,13 +302,14 @@
                         <orig>Indexs</orig>
                         <reg>Indices</reg>
                     </choice> cost of</label><item><num type="pageNum">52</num></item>
-                    <label>Ink Staffords</label><item><num type="pageNum">273</num>C</item>
-                    <label>Ink Stephens</label><item><num type="pageNum">273</num>C</item>
+                    <label>Ink <unclear reason="name">Staffords</unclear></label><item><num type="pageNum">273</num>C</item>
+                    <label>Ink <unclear reason="name">Stephens</unclear></label><item><num type="pageNum">273</num>C</item>
                     <label>Invoice marking</label><item></item>
                     <label>Index Key</label><item><num type="pageNum">1501</num></item>
+                    <label>Income tax recovery</label><item></item>
                     <label>Jottings</label><item><num type="pageNum">206</num></item>
                     <label>Ideas</label><item><num type="pageNum">111</num></item>
-                    <label><handShift medium="pencil" />Income <unclear>tax wearing</unclear></label><item></item>
+                    <label><handShift medium="pencil" />Income tax recovery</label><item></item>
                     <label>Jottings</label><item></item>
                 </list>
                 <list type="index-w">
@@ -545,7 +555,7 @@
                     <label>Routine and Duty</label><item><num type="pageNum">1</num></item>
                     <label>Rental Departmental</label><item><num type="pageNum">101</num></item>
                     <note place="margin">year <date when="1910">1910</date><num type="pageNum">234</num></note> 
-                    <label><seg xml:id="ruling_room_0029">Ruling Room</seg></label><item><num type="pageNum">66</num> <num type="pageNum">261</num><num type="pageNum">253</num></item>
+                    <label><seg xml:id="ruling_room_0029">Ruling Room</seg></label><item><num type="pageNum">66</num> <num type="pageNum">261</num> <num type="pageNum">253</num></item>
                     <note><num type="pageNum"><handShift medium="pencil" />254</num><handShift medium="ink" />Per hour</note>
                     <label><handShift medium="ink" /><seg xml:id="routine_0029">Routine</seg> <seg xml:id="daily_0029">Daily</seg></label><item><num type="pageNum">73</num></item>
                     <label><seg sameAs="#routine_0029">ditto</seg> <seg sameAs="#daily_0029">ditto</seg></label><item><num type="pageNum">1</num> <num type="pageNum">2</num></item>
@@ -590,10 +600,10 @@
                     <label>Stock Taking</label><item><num type="pageNum">195</num></item>
                     <label>Statutes</label><item><num type="pageNum">337</num></item>
                     <label>Silk</label><item><num type="pageNum">185</num></item>
-                    <label>Sewing and Lining</label><item><num type="pageNum">63</num>, <num type="pageNum">91</num>, <num type="pageNum">37</num> <num type="pageNum">207</num></item>
+                    <label>Sewing and Lining</label><item><num type="pageNum">63</num> <num type="pageNum">91</num> <num type="pageNum">37</num> <num type="pageNum">207</num></item>
                     <label>Stationery binding</label><item><num type="pageNum">152</num></item>
                     <label>Sick time, short time</label><item><num type="pageNum">97</num> <num type="pageNum">98</num></item>
-                    <label>Sewing <unclear>bulgy</unclear> uneven &amp; tugging</label><item><num type="pageNum">152</num>, <num type="pageNum">91</num></item>
+                    <label>Sewing <unclear>bulgy</unclear> uneven &amp; tugging</label><item><num type="pageNum">152</num> <num type="pageNum">91</num></item>
                     <label><orgName><placeName>Sheffield</placeName> Banking 
                     <choice>
                         <abbr>Co</abbr>
@@ -612,7 +622,7 @@
                     <label>Suggestion in estimates to customers</label><item><num type="pageNum"><num type="fraction" value="0.25">1/4</num></num></item>
                     <label>Ship Hows the Sailing</label><item><num type="pageNum">85</num></item>
                     <label>Stoves or Cellar</label><item><num type="pageNum">262</num></item>
-                    <label>Slip vellium "how it breaks" See continued at X</label><item><num type="pageNum">61</num></item>
+                    <label>Slip vellum <q>how it breaks</q> See continued at X</label><item><num type="pageNum">61</num></item>
                 </list>
                 <!-- END PAGE 0030 -->
                 <!-- START PAGE 0031 -->
@@ -642,7 +652,7 @@
                         <expan>books</expan>
                     </choice></label><item><num type="pageNum">29</num></item>
                     <label>Time office attendance</label><item><num type="pageNum">74</num></item>
-                    <label>Townsend <unclear>Minstruc</unclear> from home</label><item><num type="pageNum">257</num></item>
+                    <label>Townsend <unclear>M instruc</unclear> from home</label><item><num type="pageNum">257</num></item>
                     <label>Travellers Calls</label><item><num type="pageNum">285</num></item>
                     <label>Terms</label><item><num type="pageNum">225</num></item>
                     <label>Townsend colour</label><item><num type="pageNum">221</num></item>
@@ -650,7 +660,7 @@
                     <label><seg xml:id="trade_0031">Trade</seg> as it was and is</label><item><num type="pageNum">225</num></item>
                     <label><seg sameAs="#trade_0031">ditto</seg> changes</label><item><num type="pageNum">120</num></item>
                     <label><handShift medium="pencil" />London Me<unclear>n</unclear> Printing</label><item><num type="pageNum">252</num></item>
-                    <label><handShift medium="ink" />Tin Cases and "their revision" <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">12</num> <num type="pageNum">11</num></item>
+                    <label><handShift medium="ink" />Tin Cases and <q>their revision</q> <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">12</num> <num type="pageNum">11</num></item>
                     <label>Tomorrow</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
                     <label>Telephone "mis-use of"</label><item><num type="pageNum">212</num></item>
                     <label>Tape its merits</label><item><num type="pageNum">61</num></item>
@@ -762,90 +772,7 @@
             </div>
         </front>
         <body>
-            <p>My TEI Customization starts with modules tei, core, textstructure and header</p>
-            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
-                <moduleRef key="header" except=""/>
-                <moduleRef key="core" except="add addrLine analytic author biblScope biblStruct binaryObject cit
-                    citedRange distinct divGen editor email foreign gb imprint l lg listBibl
-                    measureGrp media meeting mentioned monogr p postBox postCode quote relatedItem
-                    rs said series soCalled sp speaker stage street unit"/>
-                <moduleRef key="textstructure" except="argument back byline closer dateline div1 div2
-                    div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph
-                    floatingText group imprimatur opener postscript salute signed text titlePage titlePart"/>
-                <moduleRef key="transcr" except="addSpan am damage damageSpan delSpan ex facsimile
-                    handNotes line listTranspose metamark mod path redo restore retrace secl
-                    sourceDoc space subst substJoin supplied surface surfaceGrp surplus transpose undo zone"/>
-                <moduleRef key="namesdates" except="addName affiliation age birth bloc climate
-                    country death district education event faith floruit forename genName geo
-                    geogFeat geogName langKnowledge langKnown listEvent listNym listObject listOrg
-                    listPerson listPlace listRelation location nameLink nationality nym object
-                    objectIdentifier objectName occupation offset org person personGrp persona place
-                    population region relation residence roleName settlement sex socecStatus state
-                    surname terrain trait"/>
-                <moduleRef key="msdescription" except=""/>
-                <moduleRef key="figures" except="formula notatedMusic"/>
-                <moduleRef key="linking" except="alt altGrp join joinGrp linkGrp timeline when"/>
-                    <elementSpec ident="measure" module="core" mode="change">
-                        <attList>
-                            <attDef ident="ana" mode="change" usage="req">
-                                <valList type="closed" mode="replace">
-                                    <valItem ident="business"/>
-                                    <valItem ident=" wage"/>
-                                    <valItem ident=" finance"/>
-                                    <valItem ident=" commerce"/>
-                                    <valItem ident=" money"/>
-                                    <valItem ident=" pound"/>
-                                    <valItem ident=" shilling"/>
-                                    <valItem ident=" pence"/>
-                                    <valItem ident=" bookbinding"/>
-                                    <valItem ident=" materials"/>
-                                    <valItem ident=" dimensions"/>
-                                    <valItem ident=" paper"/>
-                                    <valItem ident=" boards"/>
-                                    <valItem ident=" glue"/>
-                                    <valItem ident=" leather"/>
-                                    <valItem ident=" ribbon"/>
-                                    <valItem ident=" tape"/>
-                                    <valItem ident=" staff"/>
-                                    <valItem ident=" hours"/>
-                                    <valItem ident=" days"/>
-                                    <valItem ident=" other"/>
-                                </valList>
-                            </attDef>
-                            <attDef ident="commodity" mode="delete"/>
-                            <attDef ident="quantity" mode="delete"/>
-                            <attDef ident="type" mode="delete"/>
-                            <attDef ident="unit" mode="delete"/>
-                        </attList>
-                    </elementSpec>
-                <elementSpec ident="div" module="textstructure" mode="change">
-                    <attList>
-                        <attDef ident="type" mode="change" usage="req">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="principle"/>
-                                <valItem ident=" ethic"/>
-                                <valItem ident=" log"/>
-                                <valItem ident=" advice"/>
-                                <valItem ident=" instruction"/>
-                                <valItem ident=" insert"/>
-                                <valItem ident=" other"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="handShift" module="transcr" mode="change">
-                    <attList>
-                        <attDef ident="medium" mode="change" usage="req">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="pencil"/>
-                                <valItem ident="ink"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-            </schemaSpec>
-            
-            
+            <p>Yeah.</p>
         </body>
     </text>
 </TEI>
