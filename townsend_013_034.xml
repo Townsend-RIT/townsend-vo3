@@ -179,11 +179,11 @@
                     <label>Estimates</label><item><num type="pageNum">27</num> <num type="pageNum">71</num></item>
                     <label>Expenses</label><item><num type="pageNum">119</num></item>
                     <label>Electricity</label><item><num type="pageNum">83</num></item>
-                    <label>Ends</label><item><num type="pageNum">181</num> <num type="pageNum">154</num> <num type="pageNum">37</num> <num type="pageNum">168</num>* *making of</item>
+                    <label>Ends</label><item><num type="pageNum">181</num> <num type="pageNum">154</num> <num type="pageNum">37</num> <num type="pageNum">168</num>* *making of</item> <!-- group 168 with its note -->
                     <label>Engine Ball</label><item><num type="pageNum">104</num></item>
                     <label>Economies</label><item><num type="pageNum">179</num></item>
                     <label><placeName><name>Ecclesall</name> Workhouse</placeName></label><item></item>
-                    <label>Estimate form Cather binders</label><item><num type="pageNum">186</num></item>
+                    <label>Estimate form leather binders</label><item><num type="pageNum">186</num></item>
                     <label>Ends making by Women objected
                     to by <orgName>The Union</orgName></label><item><num type="pageNum">167</num></item>
                 </list>
