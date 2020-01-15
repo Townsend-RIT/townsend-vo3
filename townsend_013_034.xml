@@ -398,14 +398,14 @@
                         <expan>accounting</expan>
                     </choice> books</label><item><num type="pageNum">357</num></item>
                     <label>Millboard Lu<unclear>mnon</unclear></label><item><num type="pageNum">340</num></item>
-                    <label>Management</label><item><num type="pageNum">221</num>. <num type="pageNum">283</num>. <num type="pageNum">203</num>. <num type="pageNum">219</num></item>
-                    <label>Millboard list applica<unclear>bil</unclear> of thickness</label><item>End of this book</item>
+                    <label>Management</label><item><num type="pageNum">221</num> <num type="pageNum">283</num> <num type="pageNum">203</num> <num type="pageNum">219</num></item>
+                    <label>Millboard list applica<unclear>bil</unclear> of thickness</label><item>End of <emph style="double_underline">this</emph> book</item>
                     <label><orgName>Masters Union</orgName></label><item><num type="pageNum">276</num></item>
                     <label>Masters Meeting (WJT)</label><item><num type="pageNum">82</num></item>
                     <label>Master when he is away</label><item><num type="pageNum">339</num></item>
                     <label>Material thoughts on</label><item><num type="pageNum">212</num></item>
                     <label>Machinery</label><item><num type="pageNum">65</num></item>
-                    <label>Manager Masters notices to</label><item><num type="pageNum">346</num></item>
+                    <label>Manager Masters <emph style="underline">notices to</emph></label><item><num type="pageNum">346</num></item>
                     <label>Merit Payments</label><item><num type="pageNum">346</num></item>
                     <label>Machining</label><item><num type="pageNum">69</num></item>
                     <label>Manager</label><item><num type="pageNum">201</num></item>
