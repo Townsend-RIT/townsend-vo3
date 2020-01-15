@@ -482,7 +482,7 @@
                 <!-- START PAGE 0027 -->
                 <pb facs="0027.tif" />
                 <list type="index-p">
-                    <label>Printing per hour</label><item><num type="pageNum">70</num> (machines) <num type="pageNum">241</num></item>
+                    <label>Printing per hour</label><item><num type="pageNum">70</num> (machines) <num type="pageNum">241</num></item> <!-- Associate 70 and machines -->
                     <label>Printing Office Capacity</label><item><num type="pageNum">241</num> <num type="pageNum">245</num></item>
                     <label>Pattern Book idea for</label><item><num type="pageNum">7</num></item>
                     <label>Price Book New</label><item><num type="pageNum">15</num></item>
@@ -495,11 +495,11 @@
                     <label>Parchment Bank Pass books cracking backs</label><item><num type="pageNum">38</num></item>
                     <label>Proofs</label><item><num type="pageNum">40</num></item>
                     <label>Papers Advised</label><item><num type="pageNum">352</num></item>
-                    <label>Price prices Forward &amp; Finishing</label><item><num type="pageNum">152</num> <num type="pageNum">168</num></item>
+                    <label>Price prices Forward &amp; Finishing</label><item><num type="pageNum">152</num> <num type="pageNum"><emph style="double_underline">168</emph></num></item>
                     <label>Pattern Book she<unclear>uri</unclear>ng to others</label><item><num type="pageNum">149</num></item>
                     <label>Painting</label><item><num type="pageNum">338</num></item>
                     <label>Pattern Cards</label><item><num type="pageNum">155</num></item>
-                    <label>Printing charges headings</label><item><num type="pageNum">66</num> <num type="pageNum">252</num></item>
+                    <label>Printing charges headings</label><item><num type="pageNum">66</num> <num type="pageNum">252</num></item> <!-- Associate headings and 66 -->
                     <label>Profits</label><item><num type="pageNum">354</num></item>
                     <label>Pensions</label><item><num type="pageNum">341</num> <num type="pageNum">350</num></item>
                     <label>Piece</label><item><num type="pageNum">154</num></item>
