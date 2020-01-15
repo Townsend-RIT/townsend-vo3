@@ -262,13 +262,13 @@
                     <label>Honest Charging</label><item><num type="pageNum">265</num></item>
                     <label>Horse Keep</label><item><num type="pageNum">87</num></item>
                     <label>Home Forwarding</label><item><num type="pageNum">188</num></item>
-                    <label>H<unclear reason="name">urnell</unclear> on Comping or Compo<unclear>ntion</unclear></label><item><num type="pageNum">233</num></item>
+                    <label><handShift medium="pencil" />H<unclear reason="name">urnell</unclear> on Comping or Compo<unclear>ntion</unclear></label><item><num type="pageNum">233</num></item>
                 </list>
                 <!-- END PAGE 0020 -->
                 <!-- START PAGE 0021 -->
                 <pb facs="0021.tif" />
                 <list type="index-ij">
-                    <label>Ink <unclear reason="name">Morrel</unclear> end board end paper</label><item><num type="pageNum">360</num></item>
+                    <label><handShift medium="ink" />Ink <unclear reason="name">Morrel</unclear> end board end paper</label><item><num type="pageNum">360</num></item>
                     <label>Index scale and stock</label><item><num type="pageNum">52</num></item>
                     <label>Index <choice>
                         <abbr>Nº</abbr>
