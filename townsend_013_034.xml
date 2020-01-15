@@ -232,18 +232,18 @@
                 <list type="index-g">
                     <label><handShift medium="ink" />Groom</label><item><num type="pageNum">343</num></item>
                     <label>Glue</label><item><num type="pageNum">115</num></item>
-                    <label>Gas</label><item><num type="pageNum">200</num>, <num type="pageNum">344</num></item>
+                    <label>Gas</label><item><num type="pageNum">200</num> <num type="pageNum">344</num></item>
                     <label>Guardians application</label><item><num type="pageNum">274</num></item>
                     <label>GCL</label><item></item>
-                    <label>Gas Engine Ball</label><item><num type="pageNum">104</num> <num type="pageNum">344</num></item>
+                    <label>Gas Engine Ball</label><item><num type="pageNum">104</num> <num type="pageNum">344</num></item> <!-- Ball and 104 need to be associated -->
                     <label>Goods Delivery Books</label><item><num type="pageNum">10502</num></item>
-                    <label>Guard Books</label><item><num type="pageNum">4701</num></item>
+                    <label>Guard Books</label><item><num type="pageNum">4701</num></item> <!-- See what the heck is going on with 10502 and 4701 -->
                     <label>Green Mr. Hs visit</label><item><num type="pageNum">227</num></item>
                     <label>Guards for Skeleton books</label><item><num type="pageNum">64</num></item>
                     <label>Good Friday</label><item><num type="pageNum">100</num></item>
                     <label>Gas Ledgers what has given way</label><item><num type="pageNum">161</num></item>
                     <label>Greens visits travelling</label><item><num type="pageNum">282</num></item>
-                    <label>Green Vellum Price Books</label><item><num type="pageNum">15</num>.<num type="pageNum">16</num>.</item>
+                    <label>Green Vellum Price Books</label><item><num type="pageNum">15</num> <num type="pageNum">16</num> </item>
                     <label>Good binders</label><item><num type="pageNum">193</num></item>
                     <label><handShift medium="pencil" />Green</label><item><num type="pageNum">282</num></item>
                 </list>
