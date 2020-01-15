@@ -344,7 +344,7 @@
                     <label>Letters Stamping of</label><item><num type="pageNum">53</num></item>
                     <label>Letter Press Capacity</label><item><num type="pageNum">245</num></item>
                     <label>Label on end paper at:</label><item>beginning</item>
-                    <label>Lease</label><item><num type="pageNum">388</num></item>
+                    <label>Lease</label><item><num type="pageNum">338</num></item>
                     <label>Leather</label><item><num type="pageNum">113</num></item>
                     <label>Law its disasters in engaging</label><item><num type="pageNum">209</num></item>
                     <label>Laying paper out</label><item><num type="pageNum">40</num> <num type="pageNum">193</num></item>
@@ -353,9 +353,9 @@
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
                     </choice> books</label><item><num type="pageNum">51</num></item>
-                    <label>Locks Book</label><item><num type="pageNum">212</num></item>
+                    <label>Locks Book</label><item><num type="pageNum">212</num></item> <!-- is Locks a name? -->
                     <label><placeName>London</placeName> printing charges</label><item><num type="pageNum">252</num></item>
-                    <label></label><item><num type="pageNum">353</num></item>
+                    <label><unclear>Limited</unclear> Companies</label><item><num type="pageNum">353</num></item>
                     <label>Lettering Tree Library piece</label><item><num type="pageNum">269</num></item>
                     <label>Litho machine</label><item><num type="pageNum">69</num></item>
                     <label>Lining 
@@ -373,8 +373,8 @@
                     <label>Lost Money on Endeavours for Trade</label><item><num type="pageNum">280</num></item>
                     <label><seg xml:id="lowestoft_0023">Lo<unclear reason="name">w</unclear>estoft</seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Collector</label><item><num type="pageNum">92</num></item>
-                    <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Manitola wheat</label><item><num type="pageNum">114</num></item>
-                    <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> excellence of</label><item><num type="pageNum">204</num></item>
+                    <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Manitola wheat excellence of</label><item><num type="pageNum">114</num></item>
+                    <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> on Piece</label><item><num type="pageNum">204</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Management</label><item><num type="pageNum">203</num></item>
                     <label>Lithotype</label><item><num type="pageNum">70</num></item>
                 </list>
