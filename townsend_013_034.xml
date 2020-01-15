@@ -197,11 +197,11 @@
                     <label>Fire Liability</label><item><num type="pageNum">360</num></item>
                     <label>Finishing</label><item><num type="pageNum">151</num></item>
                     <label>Forwarding</label><item><num type="pageNum">151</num></item>
-                    <label>Free Library Notes</label><item><num type="pageNum">269</num></item>
+                    <label>Free Library Notes <handShift medium="pencil" /><unclear>Culeary</unclear></label><item><handShift medium="ink" /><num type="pageNum">269</num></item>
                     <label>Furnishing Library books</label><item><num type="pageNum">269</num></item>
                     <label>Fifty years Record</label><item><num type="pageNum">157</num></item>
                     <label>Father</label><item><num type="pageNum">167</num></item>
-                    <label>Faints Suitable dis for 
+                    <label>Faints Suitable dis for <!-- Is dis short for something? -->
                     <choice>
                         <abbr>a/c</abbr>
                         <expan>accounting</expan>
@@ -221,10 +221,10 @@
                     <label>Favourable remarks by customers</label><item><num type="pageNum">206</num></item>
                     <label>Fox late Mr. <persName>Samuel</persName></label><item><num type="pageNum">85</num></item>
                     <label>Five Essentials</label><item><num type="pageNum">13</num></item>
-                    <label>Forwarding at Home</label><item><num type="pageNum">188</num> <handShift medium="pencil" /><num type="pageNum">73</num></item>
+                    <label>Forwarding at Home</label><item><num type="pageNum">188</num> <handShift medium="pencil" /><num type="pageNum">73</num></item> <!-- Is that 73 or 173? -->
                     <label><handShift medium="ink" />Free Labour</label><item><num type="pageNum">229</num></item>
                     <label>Forwarding Room</label><item><num type="pageNum">172</num></item>
-                    <label>Fire <unclear>print</unclear>ing</label><item><num type="pageNum">234</num></item>
+                    <label><handShift medium="pencil" />Fire <unclear>print</unclear>ing</label><item><num type="pageNum">234</num></item>
                 </list>
                 <!-- END PAGE 0018 -->
                 <!-- START PAGE 0019 -->
