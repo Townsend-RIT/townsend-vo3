@@ -107,6 +107,10 @@
     <pb n="035" facs="<!--[ TODO ]-->"/>
     <fw type="page_number" place="top">Y</fw>
 
+    <!--[TODO: REMOVE ALL PAGES WITHOUT TITLES AND CONSOLIDATE, <lb> are LINE BEGINNINGS, NOT LINE BREAKS, CHANGE <quote> to <q>,
+    Change typed in quotation marks to <q>, Add missing <date> to year?, Page 46 table? Missing <labels>?, ampersand &amp and + comparison,
+    remove SIGNIFIGANT whitespace (line 554, equal sign spacing, one line elements), <lb> used for all new lines if no element around them,
+    Add @resp for <unclear>]-->
     <div type="page">
       <head>Latest on bookeeping</head>
       <ab>
@@ -548,9 +552,7 @@
       </table><!--[end of table]-->
 
       <note place="bottom"><!--[start of note]-->
-        <orgName>
-        	Thomas Firth + Sons
-        </orgName>
+        <orgName>Thomas Firth + Sons</orgName>
         <note place="below">310.2b</note>
         <ab xml:id="bracket_0041">
         	1.6 qrs demy ruled &amp; 05 printed h <lb/>
@@ -678,7 +680,7 @@
               <item>22</item>
             </list>
           </item>
-          <item>TItle Solicitors + Manufactur Tonns
+          <item>Title Solicitors + Manufactur Tonns
             <list>
               <item>7 pages rul + print</item>
             </list>
