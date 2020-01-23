@@ -34,7 +34,7 @@
                     </choice> time</label><item><num type="pageNum">347</num></item>
                     <label>Account Book making room</label><item><num type="pageNum">168</num> <num type="pageNum">35</num></item><!-- On the page, it looks like 168-35, as if it's a range, 
                         but...that doesn't make sense. So check to see if page 35 has this content? -->
-                    <label>Application to supply Shell G<unclear>u</unclear>ar</label><item><num type="pageNum">273</num></item>
+                    <label>Application to supply Shell <unclear>Guar</unclear></label><item><num type="pageNum">273</num></item>
                     <label>Alterations</label><item><num type="pageNum">261</num> <num type="pageNum">2</num> <num type="pageNum">5</num></item>
                     <label>Absence attention to letters</label><item><num type="pageNum">146</num></item>
                     <label>Advertisments</label><item><num type="pageNum">273</num>I <num type="pageNum">353</num> in <num type="roman">VVM</num> <num type="pageNum">357</num></item> <!-- 353 
@@ -224,7 +224,7 @@
                     <label>Forwarding at Home</label><item><num type="pageNum">188</num> <handShift medium="pencil" /><num type="pageNum">73</num></item> <!-- Is that 73 or 173? -->
                     <label><handShift medium="ink" />Free Labour</label><item><num type="pageNum">229</num></item>
                     <label>Forwarding Room</label><item><num type="pageNum">172</num></item>
-                    <label><handShift medium="pencil" />Fire <unclear>print</unclear>ing</label><item><num type="pageNum">234</num></item>
+                    <label><handShift medium="pencil" />Fire <unclear>printing</unclear></label><item><num type="pageNum">234</num></item>
                 </list>
                 <!-- END PAGE 0018 -->
                 <!-- START PAGE 0019 -->
@@ -262,7 +262,7 @@
                     <label>Honest Charging</label><item><num type="pageNum">265</num></item>
                     <label>Horse Keep</label><item><num type="pageNum">87</num></item>
                     <label>Home Forwarding</label><item><num type="pageNum">188</num></item>
-                    <label><handShift medium="pencil" />H<unclear reason="name">urnell</unclear> on Comping or Compo<unclear>ntion</unclear></label><item><num type="pageNum">233</num></item>
+                    <label><handShift medium="pencil" /><unclear reason="name">Hurnell</unclear> on Comping or <unclear>Compontion</unclear></label><item><num type="pageNum">233</num></item>
                 </list>
                 <!-- END PAGE 0020 -->
                 <!-- START PAGE 0021 -->
@@ -302,8 +302,8 @@
                         <orig>Indexs</orig>
                         <reg>Indices</reg>
                     </choice> cost of</label><item><num type="pageNum">52</num></item>
-                    <label>Ink <unclear reason="name">Staffords</unclear></label><item><num type="pageNum">273</num>C</item>
-                    <label>Ink <unclear reason="name">Stephens</unclear></label><item><num type="pageNum">273</num>C</item>
+                    <label>Ink <name>Staffords</name></label><item><num type="pageNum">273</num>C</item>
+                    <label>Ink <name>Stephens</name></label><item><num type="pageNum">273</num>C</item>
                     <label>Invoice marking</label><item></item>
                     <label>Index Key</label><item><num type="pageNum">1501</num></item>
                     <label>Income tax recovery</label><item></item>
@@ -371,7 +371,7 @@
                     </choice> books</label><item><num type="pageNum">273</num>E</item>
                     <label>Litho blunder</label><item><num type="pageNum">261</num></item>
                     <label>Lost Money on Endeavours for Trade</label><item><num type="pageNum">280</num></item>
-                    <label><seg xml:id="lowestoft_0023">Lo<unclear reason="name">w</unclear>estoft</seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
+                    <label><seg xml:id="lowestoft_0023"><unclear reason="name">Lowestoft</unclear></seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Collector</label><item><num type="pageNum">92</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Manitola wheat excellence of</label><item><num type="pageNum">114</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> on Piece</label><item><num type="pageNum">204</num></item>
@@ -397,9 +397,9 @@
                         <abbr>a/c</abbr>
                         <expan>accounting</expan>
                     </choice> books</label><item><num type="pageNum">357</num></item>
-                    <label>Millboard Lu<unclear>mnon</unclear></label><item><num type="pageNum">340</num></item>
+                    <label>Millboard <unclear>Lumnon</unclear></label><item><num type="pageNum">340</num></item>
                     <label>Management</label><item><num type="pageNum">221</num> <num type="pageNum">283</num> <num type="pageNum">203</num> <num type="pageNum">219</num></item>
-                    <label>Millboard list applica<unclear>bil</unclear> of thickness</label><item>End of <emph style="double_underline">this</emph> book</item>
+                    <label>Millboard list <unclear>applicabil</unclear> of thickness</label><item>End of <emph style="double_underline">this</emph> book</item>
                     <label><orgName>Masters Union</orgName></label><item><num type="pageNum">276</num></item>
                     <label>Masters Meeting (WJT)</label><item><num type="pageNum">82</num></item>
                     <label>Master when he is away</label><item><num type="pageNum">339</num></item>
@@ -465,7 +465,7 @@
                     <choice>
                         <abbr>a/c</abbr>
                         <expan>accounting</expan>
-                    </choice> books destruction <unclear>b</unclear>of</label><item><num type="pageNum">51</num></item>
+                    </choice> books destruction <unclear>bof</unclear></label><item><num type="pageNum">51</num></item>
                     <label>Oath for <name><unclear reason="name">Finns</unclear></name> secret printing</label><item><num type="pageNum">337</num></item>
                     <label>Overseer</label><item><num type="pageNum">201</num></item>
                     <label><name>Osborne</name> <unclear reason="name">FHo</unclear></label><item><num type="pageNum">163</num></item>
@@ -496,7 +496,7 @@
                     <label>Proofs</label><item><num type="pageNum">40</num></item>
                     <label>Papers Advised</label><item><num type="pageNum">352</num></item>
                     <label>Price prices Forward &amp; Finishing</label><item><num type="pageNum">152</num> <num type="pageNum"><emph style="double_underline">168</emph></num></item>
-                    <label>Pattern Book she<unclear>uri</unclear>ng to others</label><item><num type="pageNum">149</num></item>
+                    <label>Pattern Book <unclear>sheuring</unclear> to others</label><item><num type="pageNum">149</num></item>
                     <label>Painting</label><item><num type="pageNum">338</num></item>
                     <label>Pattern Cards</label><item><num type="pageNum">155</num></item>
                     <label>Printing charges headings</label><item><num type="pageNum">66</num> <num type="pageNum">252</num></item> <!-- Associate headings and 66 -->
@@ -545,7 +545,7 @@
                     <label>Plant</label><item><num type="pageNum">273</num>J</item>
                     <label>Perqusites to workmen never allow</label><item><num type="pageNum">105</num></item>
                     <label>Parcels of Vellum binding how to get on</label><item><num type="pageNum">161</num></item>
-                    <label><orgName><persName>Pa<unclear reason="name">u</unclear>nson Bradsford</persName> Estimating</orgName></label><item><num type="pageNum">355</num></item>
+                    <label><orgName><persName><unclear reason="name">Paunson</unclear> Bradsford</persName> Estimating</orgName></label><item><num type="pageNum">355</num></item>
                 </list>
                 <!-- END PAGE 0028 -->
                 <!-- START PAGE 0029 -->
@@ -666,7 +666,7 @@
                     <label>Telephone <q>mis-use of</q></label><item><num type="pageNum">212</num></item>
                     <label>Tape its merits</label><item><num type="pageNum">61</num></item>
                     <label>Traveller Notes on</label><item><num type="pageNum">335</num></item>
-                    <label>Turn out of Wo<unclear>v</unclear>k</label><item><num type="pageNum">197</num></item>
+                    <label>Turn out of <unclear>Wovk</unclear></label><item><num type="pageNum">197</num></item>
                     <note>T see opposite</note>
                 </list>
                 <!-- END PAGE 0031 -->
