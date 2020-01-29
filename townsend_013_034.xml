@@ -90,7 +90,7 @@
                     <label>Bad Sewing</label><item><num type="pageNum">91</num></item>
                     <label><name>Bingham</name> Fund</label><item><num type="pageNum">209</num></item>
                     <label><orgName><placeName>Brighton</placeName> Free Library</orgName></label><item><num type="pageNum">269</num>B</item>
-                    <label><unclear reason="name">Bustbudge</unclear> paper mell</label><item><num type="pageNum">315</num> <num type="pageNum">229</num></item>
+                    <label><unclear resp="JL" reason="name">Bustbudge</unclear> paper mell</label><item><num type="pageNum">315</num> <num type="pageNum">229</num></item>
                     <label>Broken slip</label><item><num type="pageNum">63</num> <num type="pageNum">64</num> <num type="pageNum">182</num> <num type="pageNum">185</num></item>
                 </list>
                 <list type="index-a">
@@ -262,13 +262,13 @@
                     <label>Honest Charging</label><item><num type="pageNum">265</num></item>
                     <label>Horse Keep</label><item><num type="pageNum">87</num></item>
                     <label>Home Forwarding</label><item><num type="pageNum">188</num></item>
-                    <label><handShift medium="pencil" /><unclear reason="name">Hurnell</unclear> on Comping or <unclear>Compontion</unclear></label><item><num type="pageNum">233</num></item>
+                    <label><handShift medium="pencil" /><unclear resp="JL" reason="name">Hurnell</unclear> on Comping or <unclear>Compontion</unclear></label><item><num type="pageNum">233</num></item>
                 </list>
                 <!-- END PAGE 0020 -->
                 <!-- START PAGE 0021 -->
                 <pb facs="0021.tif" />
                 <list type="index-ij">
-                    <label><handShift medium="ink" />Ink <unclear reason="name">Morrel</unclear> end board end paper</label><item><num type="pageNum">360</num></item>
+                    <label><handShift medium="ink" />Ink <unclear resp="JL" reason="name">Morrel</unclear> end board end paper</label><item><num type="pageNum">360</num></item>
                     <label>Index scale and stock</label><item><num type="pageNum">52</num></item>
                     <label>Index <choice>
                         <abbr>Nº</abbr>
@@ -371,7 +371,7 @@
                     </choice> books</label><item><num type="pageNum">273</num>E</item>
                     <label>Litho blunder</label><item><num type="pageNum">261</num></item>
                     <label>Lost Money on Endeavours for Trade</label><item><num type="pageNum">280</num></item>
-                    <label><seg xml:id="lowestoft_0023"><unclear reason="name">Lowestoft</unclear></seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
+                    <label><seg xml:id="lowestoft_0023"><unclear resp="JL" reason="name">Lowestoft</unclear></seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Collector</label><item><num type="pageNum">92</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Manitola wheat excellence of</label><item><num type="pageNum">114</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> on Piece</label><item><num type="pageNum">204</num></item>
@@ -466,9 +466,9 @@
                         <abbr>a/c</abbr>
                         <expan>accounting</expan>
                     </choice> books destruction <unclear>bof</unclear></label><item><num type="pageNum">51</num></item>
-                    <label>Oath for <name><unclear reason="name">Finns</unclear></name> secret printing</label><item><num type="pageNum">337</num></item>
+                    <label>Oath for <name><unclear resp="JL" reason="name">Finns</unclear></name> secret printing</label><item><num type="pageNum">337</num></item>
                     <label>Overseer</label><item><num type="pageNum">201</num></item>
-                    <label><name>Osborne</name> <unclear reason="name">FHo</unclear></label><item><num type="pageNum">163</num></item>
+                    <label><name>Osborne</name> <unclear resp="JL" reason="name">FHo</unclear></label><item><num type="pageNum">163</num></item>
                     <label>Overwork</label><item><num type="pageNum">196</num></item>
                     <label>Orders writing out for Best Books</label><item><num type="pageNum">324</num></item>
                     <label>Over sheets ruling &amp; printing</label><item><num type="pageNum">21</num></item>
@@ -545,7 +545,7 @@
                     <label>Plant</label><item><num type="pageNum">273</num>J</item>
                     <label>Perqusites to workmen never allow</label><item><num type="pageNum">105</num></item>
                     <label>Parcels of Vellum binding how to get on</label><item><num type="pageNum">161</num></item>
-                    <label><orgName><persName><unclear reason="name">Paunson</unclear> Bradsford</persName> Estimating</orgName></label><item><num type="pageNum">355</num></item>
+                    <label><orgName><persName><unclear resp="JL" reason="name">Paunson</unclear> Bradsford</persName> Estimating</orgName></label><item><num type="pageNum">355</num></item>
                 </list>
                 <!-- END PAGE 0028 -->
                 <!-- START PAGE 0029 -->
@@ -568,7 +568,7 @@
                     <label>Record Fifty years <placeName>Sheffield</placeName></label><item><num type="pageNum">157</num></item>
                     <label>Retirement</label><item><num type="pageNum">256</num></item>
                     <label>Russia Bands</label><item><num type="pageNum">38</num></item>
-                    <label>Ruling my Fathers <unclear reason="name">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
+                    <label>Ruling my Fathers <unclear resp="JL" reason="name">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
                     <label>Rates and Taxes</label><item><num type="pageNum">211</num></item>
                     <label>Roof idea for Works</label><item><num type="pageNum">338</num></item>
                     <label>Ruling meanings of</label><item><num type="pageNum">21</num></item>
@@ -637,7 +637,7 @@
                     <note><emph style="underline">tin Cases</emph></note> <!-- Associate 285 with tin cases -->
                     <label>Traveller Wages for</label><item><num type="pageNum">299</num></item>
                     <label>Travellers Diary</label><item><num type="pageNum">333</num></item>
-                    <label><persName>Turner</persName> T <unclear reason="name">&amp; Co</unclear> pattern 
+                    <label><persName>Turner</persName> T <unclear resp="JL" reason="name">&amp; Co</unclear> pattern 
                     <choice>
                         <abbr>bk</abbr>
                         <expan>book</expan>
@@ -704,7 +704,7 @@
                 <!-- START PAGE 0033 -->
                 <pb facs="0033.tif" />
                 <list type="index-w">
-                    <label>Washleather <unclear reason="name">JRJ</unclear> Case</label><item><num type="pageNum">323</num></item>
+                    <label>Washleather <unclear resp="JL" reason="name">JRJ</unclear> Case</label><item><num type="pageNum">323</num></item>
                     <label>Writings and Rulings</label><item><num type="pageNum">351</num></item>
                     <label>Waste</label><item><num type="pageNum">335</num></item>
                     <label>Water used per day</label><item><num type="pageNum">180</num> <num type="pageNum">342</num></item>
