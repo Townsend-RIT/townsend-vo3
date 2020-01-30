@@ -103,11 +103,11 @@
       </schemaSpec>
     <!--[end of schema]-->
 
-    <!--[TODO: Add missing <date> to year?, Page 46 table? Missing <labels>?, Add @resp for <unclear>]-->
+    <!--[TODO: Add missing <date> to year?, Add @resp for <unclear>]-->
 
     <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb/> use confusion fix]-->
 
-    <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute to a few <date> elements, fix to <lb/> element use with spacing adjustment for readability, fix to roman number unicode use on 0052 and 0054]-->
+    <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute for a few <date> elements, fix to <lb/> element use with spacing adjustment for readability, fix to roman number unicode use on pages 0052 and 0054]-->
 
       <!--[Start of NUMBER 35]-->
       <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
@@ -270,7 +270,7 @@
           <!--[start of note]-->
           <note place="right">
             <handShift medium="pencil"/>
-              <unclear reason="illegible">Jalleypoint</unclear> here. do yourself what you can get others to do
+              <unclear resp="Pochron" reason="illegible">Jalleypoint</unclear> here. do yourself what you can get others to do
             <!--[get this handShift attribute looked at again.]-->
             <handShift medium="ink"/>
           </note><!--[end of note]-->
@@ -534,7 +534,7 @@
         <!--[end of note]-->
 
         <!--[start of note]-->
-        <note place="margin">Day Book<lb/>form of<lb/>Entry<lb/><unclear reason="illegible">HiKe</unclear></note>
+        <note place="margin">Day Book<lb/>form of<lb/>Entry<lb/><unclear resp="Pochron" reason="illegible">HiKe</unclear></note>
         <!--[end of note]-->
 
       <!--[End of NUMBER 41]-->
@@ -547,7 +547,7 @@
 
         <!--[start of ab]-->
         <ab>Have Monthly Balancings to<lb/>see prospectively how things are<lb/>every <num type="ordinal">20th</num> of the Month I like<lb/>
-          <note place="below">Hook it from <hi style="text-decoration-line: underline;"><unclear reason="illegible">M Fox</unclear></hi></note>
+          <note place="below">Hook it from <hi style="text-decoration-line: underline;"><unclear resp="Pochron" reason="illegible">M Fox</unclear></hi></note>
           <lb/>and Quaterly Balancings<lb/>of every Book Debit and Credit<lb/>that is what you owe and is owning<lb/>to you. say<date when="--01-20">Jan 20</date><date when="--04-20">April 20</date><date when="--07-20">July 20</date><date when="--10-20">Oct 20</date>
           <lb/>Check every item with Day Book from<lb/>the Order Book to be sure all is entered<persName>WJ</persName>
           <lb/>Orders in Safe - Cross every<lb/>order in Day Book with Red<lb/>tick before putting in Safe - the<lb/>Red tick signifies there is an<lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
