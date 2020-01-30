@@ -103,17 +103,22 @@
       </schemaSpec>
     <!--[end of schema]-->
 
+    <!--[TODO: Add missing <date> to year?, Page 46 table? Missing <labels>?, Add @resp for <unclear>]-->
+
+    <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb/> use confusion fix]-->
+
+    <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute to a few <date> elements, fix to <lb/> element use with spacing adjustment for readability, fix to roman number unicode use on 0052 and 0054]-->
+
       <!--[Start of NUMBER 35]-->
-      <pb n="035" facs="<!--[ TODO ]-->"/>
+      <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
       <fw type="page_number" place="top">Y</fw>
-
-      <!--[TODO: Add missing <date> to year?, Page 46 table? Missing <labels>?, Add @resp for <unclear>]-->
-
-      <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb> use confusion fix]-->
 
       <div type="page">
         <head>Latest on bookeeping</head>
-        <ab>Stores for all sent up to the departments by<lb>Ticket and Store Keeper charge each department<lb>in his Journal. then every year balance<lb>stores and shew balance</ab>
+        <ab>Stores for all sent up to the departments by
+          <lb/>Ticket and Store Keeper charge each department
+          <lb/>in his Journal. then every year balance
+          <lb/>stores and shew balance</ab>
 
         <table rows="9" cols="2">
           <head>Re-arrangement of Office Work <date when="1898-05-16">May 16/98</date></head>
@@ -159,16 +164,21 @@
           </row>
 
           <row>
-            <cell>Posting General Sales Ledgers<lb>Accounts monthly-quaterly-all<lb>Collecting vigilantly + well kept up<lb>Orders end in Calculation
+            <cell>Posting General Sales Ledgers
+              <lb/>Accounts monthly-quaterly-all
+              <lb/>Collecting vigilantly + well kept up
+              <lb/>Orders end in Calculation
               <choice>
                 <abbr>bks</abbr>
                 <expan>books</expan>
               </choice>
-              <lb>and Safed<lb/>Wed 10am list of doubtful<lb>a/c complaints + remarks
+              <lb/>and Safed
+              <lb/>Wed 10am list of doubtful
+              <lb/>a/c complaints + remarks
               <!--[+ mentally noted as 'and' yet preserved in the text]-->
-              <emph style="font-weight: bold;">
-                Contents No of Tin Cases 12
-              </emph>
+              <hi style="font-weight: bold;">
+                <lb/>Contents No of Tin Cases 12
+              </hi>
             </cell>
             <cell>Trade Ledger</cell>
           </row><!--[End of row]-->
@@ -187,7 +197,8 @@
             <cell></cell>
             <cell>Time Wages pay</cell>
           </row>
-        </table><!--[End of table]-->
+        </table>
+        <!--[End of table]-->
 
         <ab>Master should keep his own Cash and fall over his own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab>
         <!--[how to handle WT initials]-->
@@ -229,23 +240,33 @@
       <!--[End of NUMBER 35]-->
 
       <!--[Start of NUMBER 36]-->
-      <pb n="036" facs="<!--[ TODO ]-->"/>
+        <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
       <fw type="page_number" place="top">1/4</fw>
 
         <figure><!--[start of figure]-->
           <head>Legal Notices</head>
           <figDesc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</figDesc>
-          <graphic url="<!--[ TODO ]-->"/>
+          <graphic url="CC20180917_Townsend_0036_inset.tif"/>
         </figure><!--[End of figure]-->
 
         <!--[start of ab]-->
-        <ab>see Calculation book<lb>8348 written by<persName>W.J.</persName>
-          <q>Where there is no conflict<lb/>There can be no conquest<lb>Where there is no conquest<lb>There is no crown</q>
+        <ab>see Calculation book
+          <lb/>8348 written by<persName>W.J.</persName>
+          <q>Where there is no conflict
+            <lb/>There can be no conquest
+            <lb/>Where there is no conquest
+            <lb/>There is no crown</q>
         </ab>
         <!--[end of ab]-->
 
         <!--[start of ab]-->
-        <ab>To Customers, we can make in cheaper made<lb>papers if desired, but the one we have estimated<lb>for stands very eminent<lb>(another pay) eminent<lb>(another pay) very well<lb>(another pay) fairly well<lb>(another pay) uncertainty
+        <ab>To Customers, we can make in cheaper made
+          <lb/>papers if desired, but the one we have estimated
+          <lb/>for stands very eminent
+          <lb/>(another pay) eminent
+          <lb/>(another pay) very well
+          <lb/>(another pay) fairly well
+          <lb/>(another pay) uncertainty
           <!--[start of note]-->
           <note place="right">
             <handShift medium="pencil"/>
@@ -272,21 +293,34 @@
         <!--[End of list]-->
 
         <!--[start of note]-->
-        <note place="bottom">MDCCCCII roman numerals<lb>year 1902 arabic figure</note>
+        <note place="bottom">MDCCCCII roman numerals<lb/>year 1902 arabic figure</note>
         <!--[end of note]-->
 
-        <fw type="<!--[ TODO: Last bit on the index they are encoding]-->" place="bottom">Y <lb/> Z</fw>
+        <fw type="page_number" place="margin" style="writing-mode: vertical-lr">Y Z</fw>
 
       </div><!--[end of page div]-->
       <!--[End of NUMBER 36]-->
 
       <!--[Start of NUMBER 37]-->
-      <pb n="037" facs="<!--[ TODO ]-->"/>
+      <pb n="037" facs="CC20180917_Townsend_0037.tif"/>
       <fw type="page_number" place="top">1/2</fw>
 
-      <div type="page"><!--[start of page div]-->
+      <!--[start of page div]-->
+      <div type="page">
         <!--[start of ab]-->
-        <ab>The Proudest view that can<lb>be taken of Man is to see him<lb>like some Fair Vessel proceed<lb>ing steadily thro the Ocean<lb>of Time His Sails impelled<lb>by the Feelings and Passions<lb>of a well ordered Mind. His<lb>Irregular Motions controlled<lb>by the Ballast of a Sound<lb>Understanding while Judge<lb>ment sits at the Helm with<lb>eyes fixed on the Compass<lb>of Religion and Reason<date when="1890-12-07">Dec 7/90</date></ab>
+        <ab>The Proudest view that can
+          <lb/>be taken of Man is to see him
+          <lb/>like some Fair Vessel proceed
+          <lb/>ing steadily thro the Ocean
+          <lb/>of Time His Sails impelled
+          <lb/>by the Feelings and Passions
+          <lb/>of a well ordered Mind. His
+          <lb/>Irregular Motions controlled
+          <lb/>by the Ballast of a
+          <lb/>Understanding while Judge
+          <lb/>ment sits at the Helm with
+          <lb/>eyes fixed on the Compass
+          <lb/>of Religion and Reason<date when="1890-12-07">Dec 7/90</date></ab>
         <!--[end of ab]-->
 
         <!--[start of ab]-->
@@ -295,22 +329,33 @@
       <!--[End of NUMBER 37]-->
 
       <!--[Start of NUMBER 38]-->
-      <pb n="038" facs="<!--[ TODO ]-->"/>
-      <fw type="page_number" place="top">3/4</fw>
+        <pb n="038" facs="CC20180917_Townsend_0038.tif"/>
+        <fw type="page_number" place="top">3/4</fw>
 
         <!--[start of ab]-->
-        <ab>Were Men indeed convin<lb>ced that their health and comfort<lb>were so materially dependent upon<lb>the regulation of their own Minds,<lb>they would be more careful to<lb>strengthen them by Study, and<lb>Moderate them by reason, and<lb>Confirm them by Religion, and<lb>reduce them to an equanimity not<lb>easily disturbed by the Crosses and<lb>Accidents of Life.<date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date></ab>
+        <ab>Were Men indeed convin
+          <lb/>ced that their health and comfort
+          <lb/>were so materially dependent upon
+          <lb/>the regulation of their own Minds,
+          <lb/>they would be more careful to
+          <lb/>strengthen them by Study, and
+          <lb/>Moderate them by reason, and
+          <lb/>Confirm them by Religion, and
+          <lb/>reduce them to an equanimity not
+          <lb/>easily disturbed by the Crosses and
+          <lb/>Accidents of Life.<date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date>
+        </ab>
         <!--[end of ab]-->
 
         <ab>Tomorrow leads to te Town of Never</ab>
 
-        <ab>To deny self, to be meek, to be pure in heart<lb>to trust Gods Providence</ab>
+        <ab>To deny self, to be meek, to be pure in heart<lb/>to trust Gods Providence</ab>
 
-        <ab>Love. Joy. Peace long suffering Kindness goodness<lb>faithfulness meekness 	temperance - can we say<lb>there is not a strong line of demarkation between<lb>those who bear such fruit and those who don't</ab>
+        <ab>Love. Joy. Peace long suffering Kindness goodness<lb/>faithfulness meekness 	temperance - can we say<lb/>there is not a strong line of demarkation between<lb/>those who bear such fruit and those who don't</ab>
 
         <!--[start of note]-->
         <note place="bottom">
-          <q type="biblical">and he that is eight days old<lb>shall be circumsised
+          <q type="biblical">and he that is eight days old<lb/>shall be circumsised
             <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
             <hi rend="#flourish">Circumsised Cardinal Number 8</hi></q>
         </note><!--[end of note]-->
@@ -318,16 +363,28 @@
       <!--[End of NUMBER 38]-->
 
       <!--[Start of NUMBER 39]-->
-      <pb n="039" facs="<!--[ TODO ]-->"/>
+      <pb n="039" facs="CC20181003_Townsend_0039.tif"/>
       <fw type="page_number" place="top">1</fw>
 
       <!--[start of page div]-->
       <div type="page">
         <head>Routine of Work And duty</head>
-        <note place="left margin">One good head is<lb>better than a<lb>great many Hands</note>
+        <note place="left margin">One good head is<lb/>better than a<lb/>great many Hands</note>
 
         <!--[start of ab]-->
-        <ab>I advise rising at 6am Summer<lb>and Winter,<lb>Prayers Bath and Shave up to 7<lb>Breakfast from 7.15 to 7.45 including H.C.<lb>Carriage 7.45 to 8 arrive Surrey St<lb>In Workshops at 8 prompt seeing to<lb>work until 1pm from 1 to 2 dinner<lb>in private room Hot one day Cold<lb>next leave Surrey St at 7pm by<lb>Carriage this to apply to Mon Tues<lb>Wed Thur Fri - Saturday each<lb>alternately a holiday.</ab>
+        <ab>I advise rising at 6am Summer
+          <lb/>and Winter,
+          <lb/>Prayers Bath and Shave up to 7
+          <lb/>Breakfast from 7.15 to 7.45 including H.C.
+          <lb/>Carriage 7.45 to 8 arrive Surrey St
+          <lb/>In Workshops at 8 prompt seeing to
+          <lb/>work until 1pm from 1 to 2 dinner
+          <lb/>in private room Hot one day Cold
+          <lb/>next leave Surrey St at 7pm by
+          <lb/>Carriage this to apply to Mon Tues
+          <lb/>Wed Thur Fri - Saturday each
+          <lb/>alternately a holiday.
+        </ab>
         <!--[end of ab]-->
 
         <table rows="6" cols="4"><!--[start of table]-->
@@ -368,48 +425,48 @@
 
           <row>
             <cell>S</cell>
-            <cell cols="3">Summer <seg xml:id="holiday_0039">holiday</seg> alternate <seg xml:id="saturday_0039">Saturdays</seg><lb>Senior <seg sameAs="#holiday_0039">ditto</seg> each <seg sameAs="#saturday_0039">ditto</seg>
+            <cell cols="3">Summer <seg xml:id="holiday_0039">holiday</seg> alternate <seg xml:id="saturday_0039">Saturdays</seg><lb/>Senior <seg sameAs="#holiday_0039">ditto</seg> each <seg sameAs="#saturday_0039">ditto</seg>
             </cell>
           </row>
         </table><!--[end of table]-->
 
-        <note place="margin">Always open<lb>your own letters<lb>never depute<lb><persName>W.J.</persName></note>
+        <note place="margin">Always open<lb/>your own letters<lb/>never depute<lb/><persName>W.J.</persName></note>
       <!--[End of NUMBER 39]-->
 
       <!--[Start of NUMBER 40]-->
-      <pb n="040" facs="<!--[ TODO ]-->"/>
+        <pb n="040" facs="CC20181003_Townsend_0040.tif"/>
       <fw type="page_number" place="top">2</fw>
 
-        <ab>In Business - I think if Health<lb>will permit it is a very good thing<lb>to be in the workshops at 2pm to<lb>see all at their work doing it corr<lb>ectly and properly</ab>
+        <ab>In Business - I think if Health<lb/>will permit it is a very good thing<lb/>to be in the workshops at 2pm to<lb/>see all at their work doing it corr<lb/>ectly and properly</ab>
 
-        <ab>Saturdays I think the time<lb>for the one who takes duty might<lb>be 8 to 3 short Cold Lunch making<lb>57 hours whish is more than the<lb>workmen make, to make up for this<lb>the following week he has but 50 hours<lb>to make and which with probable<lb>over minutes will bring the working<lb>Masters hours to an average of<lb>54 hours weekly as at present wor<lb>ked in Shops<date when="1890-06-17">June <num type="ordinal">17th</num> 1890</date></ab>
+        <ab>Saturdays I think the time<lb/>for the one who takes duty might<lb/>be 8 to 3 short Cold Lunch making<lb/>57 hours whish is more than the<lb/>workmen make, to make up for this<lb/>the following week he has but 50 hours<lb/>to make and which with probable<lb/>over minutes will bring the working<lb/>Masters hours to an average of<lb/>54 hours weekly as at present wor<lb/>ked in Shops<date when="1890-06-17">June <num type="ordinal">17th</num> 1890</date></ab>
 
         <figure><!--[start of figure]-->
           <figDesc>A shop layout with annotations of objects in the room</figDesc>
-          <graphic url="<!--[ TODO ]-->"/>
-          <trailer>Master in front room<lb>having eye on shop cutomers<lb>Travellers offices and well<lb>seeing to telephone customers<lb>with runs up and down stairs <date when="1891-06-08">June 8/91</date></trailer>
-          <note>Never allow any one<lb>to be in and out -<lb>Shop neglected</note>
+          <graphic url="CC20181003_Townsend_0040_inset.png"/>
+          <trailer>Master in front room<lb/>having eye on shop cutomers<lb/>Travellers offices and well<lb/>seeing to telephone customers<lb/>with runs up and down stairs <date when="1891-06-08">June 8/91</date></trailer>
+          <note>Never allow any one<lb/>to be in and out -<lb/>Shop neglected</note>
         </figure><!--[end of figure]-->
       </div><!--[end of page div]-->
       <!--[End of Number 40]-->
 
       <!--[Start of NUMBER 41]-->
-      <pb n="041" facs="<!--[ TODO ]-->"/>
+      <pb n="041" facs="CC20181003_Townsend_0041.tif"/>
       <fw type="page_number" place="top">3</fw>
 
       <div type="page"><!--[start of page div]-->
         <head place="top opposite">Bookeeping <hi style="text-decoration: underline; text-decoration-style: double;">Double</hi>Entry</head>
 
-        <ab>Have "Day Book" very carefully<lb>added and analysed every Month</ab>
+        <ab>Have "Day Book" very carefully<lb/>added and analysed every Month</ab>
 
-        <ab>Every Quarter strike a Balance<lb>with the Quarters Sale showing</ab>
+        <ab>Every Quarter strike a Balance<lb/>with the Quarters Sale showing</ab>
 
         <!--[start of table]-->
         <table rows="1" cols="3">
           <row>
-            <cell>Cash<lb>as<lb><hi style="text-decoration: underline;">Bank</hi> Book</cell>
-            <cell>Abatements<lb>as<lb><hi style="text-decoration: underline;">"Masters"</hi> initials</cell>
-            <cell>Not Paid<lb>as<lb>Written list + <hi style="text-decoration: underline;">why</hi></cell>
+            <cell>Cash<lb/>as<lb/><hi style="text-decoration: underline;">Bank</hi> Book</cell>
+            <cell>Abatements<lb/>as<lb/><hi style="text-decoration: underline;">"Masters"</hi> initials</cell>
+            <cell>Not Paid<lb/>as<lb/>Written list + <hi style="text-decoration: underline;">why</hi></cell>
           </row>
         </table>
         <!--[end of table]-->
@@ -417,7 +474,7 @@
         <!--[start of table]-->
         <table rows="7" cols="2">
           <head place="below">
-            <date from="1897-01" to="1897-03">1897 <lb> Jan - Mar</date>
+            <date from="1897-01" to="1897-03">1897 <lb/> Jan - Mar</date>
           </head>
 
           <row role="label">
@@ -462,7 +519,7 @@
           <!--[start of trailer]-->
           <trailer>
             <q>Cash to be kept by principal</q>
-            <lb><persName style="text-decoration-line: underline;">William Townsend</persName>
+            <lb/><persName style="text-decoration-line: underline;">William Townsend</persName>
           </trailer>
           <!--[end of trailer]-->
         </table><!--[end of table]-->
@@ -471,29 +528,29 @@
         <note place="bottom">
           <orgName>Thomas Firth + Sons</orgName>
           <note place="below">310.2b</note>
-          <ab xml:id="bracket_0041">1.6 qrs demy ruled &amp; 05 printed h<lb>rough Calf extra paged lett Day Book</ab>
+          <ab xml:id="bracket_0041">1.6 qrs demy ruled &amp; 05 printed h<lb/>rough Calf extra paged lett Day Book</ab>
           <note sameAs="#bracket_0041" place="inline">} 1.7</note>
         </note>
         <!--[end of note]-->
 
         <!--[start of note]-->
-        <note place="margin">Day Book<lb>form of<lb>Entry<lb><unclear reason="illegible">HiKe</unclear></note>
+        <note place="margin">Day Book<lb/>form of<lb/>Entry<lb/><unclear reason="illegible">HiKe</unclear></note>
         <!--[end of note]-->
 
       <!--[End of NUMBER 41]-->
 
       <!--[Start of NUMBER 42]-->
-      <pb n="042" facs="<!--[ TODO ]-->"/>
+        <pb n="042" facs="CC20181003_Townsend_0042.tif"/>
       <fw type="page_number" place="top">4</fw>
 
-        <ab>Let Probity rule all your<lb>transactions and Life<date when="1890-10-15">Oct 15/90</date></ab>
+        <ab>Let Probity rule all your<lb/>transactions and Life<date when="1890-10-15">Oct 15/90</date></ab>
 
         <!--[start of ab]-->
-        <ab>Have Monthly Balancings to<lb>see prospectively how things are<lb>every <num type="ordinal">20th</num> of the Month I like<lb>
+        <ab>Have Monthly Balancings to<lb/>see prospectively how things are<lb/>every <num type="ordinal">20th</num> of the Month I like<lb/>
           <note place="below">Hook it from <hi style="text-decoration-line: underline;"><unclear reason="illegible">M Fox</unclear></hi></note>
-          <lb>and Quaterly Balancings<lb>of every Book Debit and Credit<lb>that is what you owe and is owning<lb>to you. say<date when="--01-20">Jan 20</date><date when="--04-20">April 20</date><date when="--07-20">July 20</date><date when="--10-20">Oct 20</date>
-          <lb>Check every item with Day Book from<lb>the Order Book to be sure all is entered<persName>WJ</persName>
-          <lb>Orders in Safe - Cross every<lb>order in Day Book with Red<lb>tick before putting in Safe - the<lb>Red tick signifies there is an<lb>order in the Safe<date when="1891-04-24">April 24/91</date>
+          <lb/>and Quaterly Balancings<lb/>of every Book Debit and Credit<lb/>that is what you owe and is owning<lb/>to you. say<date when="--01-20">Jan 20</date><date when="--04-20">April 20</date><date when="--07-20">July 20</date><date when="--10-20">Oct 20</date>
+          <lb/>Check every item with Day Book from<lb/>the Order Book to be sure all is entered<persName>WJ</persName>
+          <lb/>Orders in Safe - Cross every<lb/>order in Day Book with Red<lb/>tick before putting in Safe - the<lb/>Red tick signifies there is an<lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
         </ab>
         <!--[end of ab]-->
 
@@ -502,7 +559,7 @@
       <!--[End of NUMBER 42]-->
 
       <!--[Start of NUMBER 43]-->
-      <pb n="043" facs="<!--[ TODO ]-->"/>
+      <pb n="043" facs="CC20181003_Townsend_0043.tif"/>
       <fw type="page_number" place="top">5</fw>
 
       <!--[start of page div]-->
@@ -511,55 +568,55 @@
 
         <!--[start of ab]-->
         <ab>Letters - Works every room and
-        <lb>individual see after Customers
-        <lb>want or Complaint also the same
-        <lb>in Sales Shop I have erred in
-        <lb>leaving the Front Room, I should
-        <lb>have been at the Vall more and made
-        <lb>more of Customers by always being 
-        <lb>in and not running off to dinner
-        <lb>at any rate untill I had had some
-        <lb>one to fill my place well
-        <lb>Examine work before sending home
-        <lb>Charge
-        <lb>Noun
-        <lb>2pm going round the shops
+        <lb/>individual see after Customers
+        <lb/>want or Complaint also the same
+        <lb/>in Sales Shop I have erred in
+        <lb/>leaving the Front Room, I should
+        <lb/>have been at the Vall more and made
+        <lb/>more of Customers by always being
+        <lb/>in and not running off to dinner
+        <lb/>at any rate untill I had had some
+        <lb/>one to fill my place well
+        <lb/>Examine work before sending home
+        <lb/>Charge
+        <lb/>Noun
+        <lb/>2pm going round the shops
         </ab>
         <!--[end of ab]-->
 
         <note place="bottom">Never were such books!
-          <lb>No, now never will be such books as the books
-          <lb>of Cheeryble Brothers Vide Nicholas Nickleby þ35b
+          <lb/>No, now never will be such books as the books
+          <lb/>of Cheeryble Brothers Vide Nicholas Nickleby þ35b
         </note>
       <!--[End of NUMBER 43]-->
 
       <!--[Start of NUMBER 44]-->
-      <pb n="044" facs="<!--[ TODO ]-->"/>
+        <pb n="044" facs="CC20181003_Townsend_0044.tif"/>
       <fw type="page_number" place="top">6</fw>
 
         <!--[start of ab]-->
         <ab>again seeing that every work and
-          <lb>individual is progressing in his work
-          <lb>healthy and profitably
-          <lb>Examine Work and Charge
-          <lb>Orders put in hands
-          <lb>5<seg xml:id="pm_0044">pm</seg> round again
-          <lb>6 <seg sameAs="#pm_0044">ditto</seg> letters &amp;
-          <lb>7 <seg sameAs="#pm_0044">ditto</seg> Clear up for the day
-          <lb>Search Neglect or an indefatigable
-          <lb>unwearied Order Book Clerk to
-          <lb>see to arrears but the <hi style="text-decoration-line: underline;">Master is best at this</hi>
-          <lb><date when="1891-05-02">May <num type="ordinal">2nd</num> 1891</date>
+          <lb/>individual is progressing in his work
+          <lb/>healthy and profitably
+          <lb/>Examine Work and Charge
+          <lb/>Orders put in hands
+          <lb/>5<seg xml:id="pm_0044">pm</seg> round again
+          <lb/>6 <seg sameAs="#pm_0044">ditto</seg> letters &amp;
+          <lb/>7 <seg sameAs="#pm_0044">ditto</seg> Clear up for the day
+          <lb/>Search Neglect or an indefatigable
+          <lb/>unwearied Order Book Clerk to
+          <lb/>see to arrears but the <hi style="text-decoration-line: underline;">Master is best at this</hi>
+          <lb/><date when="1891-05-02">May <num type="ordinal">2nd</num> 1891</date>
         </ab>
         <!--[end of ab]-->
 
-        
+
         <!--[start of ab]-->
         <ab>Sales Shop is too much away
-          <lb>and not sufficient in touch
-          <lb>I think of trying a stair case
-          <lb>removing &#8470; Safe and fitting
-          <lb>up nicely for Master and Special
+          <lb/>and not sufficient in touch
+          <lb/>I think of trying a stair case
+          <lb/>removing &#8470; Safe and fitting
+          <lb/>up nicely for Master and Special
           <note place="bottom">to page 73 forward</note>
         </ab>
         <!--[end of ab]-->
@@ -568,27 +625,27 @@
       <!--[End of NUMBER 44]-->
 
       <!--[Start of NUMBER 45]-->
-      <pb n="045" facs="<!--[ TODO ]-->"/>
+      <pb n="045" facs="CC20181003_Townsend_0045.tif"/>
       <fw type="page_number" place="top">7</fw>
 
       <div type="page"><!--[start of page div]-->
         <head place="top opposite">Pattern Book or Illustrated Catalogue</head>
-        
+
         <!--[start of figure]-->
         <figure>
           <head><!--[ TODO ]-->William Townsend Son <abbr>Manufact</abbr> States</head>
           <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
-          <graphic url="<!--[ TODO ]-->"/>
-          <trailer>set up<lb>magnanimous<lb>get an<lb>electro <!--[ TODO ]--></trailer>
+          <graphic url="CC20181003_Townsend_0045_inset.png"/>
+          <trailer>set up<lb/>magnanimous<lb/>get an<lb/>electro <!--[ TODO ]--></trailer>
         </figure>
         <!--[end of figure]-->
 
         <!--[start of list]-->
         <list style="list-style-type: none;">
-          <head>Idea for <lb> A Title</head>
-          <item>Account Book <lb> Patterns</item>
-          <item>Mercantile Solicitors <lb> and <lb> Bankers Ruled <lb> Forms</item>
-          <item>Lithographic <lb> Type</item>
+          <head>Idea for <lb/> A Title</head>
+          <item>Account Book <lb/> Patterns</item>
+          <item>Mercantile Solicitors <lb/> and <lb/> Bankers Ruled <lb/> Forms</item>
+          <item>Lithographic <lb/> Type</item>
         </list>
         <!--[end of list]-->
 
@@ -607,7 +664,7 @@
                 <item>22</item>
               </list>
             </item>
-            <item>Title Solicitors + Manufactur <lb> Tonns
+            <item>Title Solicitors + Manufactur <lb/> Tonns
               <list>
                 <item>7 pages rul + print</item>
               </list>
@@ -623,25 +680,25 @@
         <!--[end of note]-->
 
         <ab>Proposed New pattern book Imp 8vo to contain
-          <lb>our Trade and where they mill such a size of
-          <lb>pattern book as we have printed also truly
-          <lb>marked Numbered and priced we can
-          <lb>supply all such after style of Army Navy Stores
-          <lb>whatever is on the enormous book in Europe
-          <lb>a really good work earning the repute a
-          <lb>"Sheffield Journal"
+          <lb/>our Trade and where they mill such a size of
+          <lb/>pattern book as we have printed also truly
+          <lb/>marked Numbered and priced we can
+          <lb/>supply all such after style of Army Navy Stores
+          <lb/>whatever is on the enormous book in Europe
+          <lb/>a really good work earning the repute a
+          <lb/>"Sheffield Journal"
         </ab>
 
         <note place="below bottom">Dixons Robert Belk
-          <lb>C Johnson + Station W
-          <lb>hardware elastic
+          <lb/>C Johnson + Station W
+          <lb/>hardware elastic
         </note>
       <!--[End of NUMBER 45]-->
 
       <!--[Start of NUMBER 46]-->
-      <pb n="046" facs="<!--[ TODO ]-->"/>
+        <pb n="046" facs="CC20181003_Townsend_0046.tif"/>
       <fw type="page_number" place="top">8</fw>
-        
+
         <!--[start of list]-->
         <list style="list-style-type: none;">
           <item>Account Book <seg xml:id="patterns_0046">patterns</seg></item>
@@ -653,122 +710,151 @@
           <item>Wedding Stationary <seg sameAs="#patterns_0046">"</seg></item>
           <item>Funeral <seg sameAs="#patterns_0046">"</seg></item>
           <trailer>as to size of Proposed pattern book
-            <lb>look how Chambers decreased their
-            <lb>post folio Chambers Journal to Small
-            <lb>Imperial 8vo a good precedent for
-            <lb>Sizes of books
-          </trailer> 
+            <lb/>look how Chambers decreased their
+            <lb/>post folio Chambers Journal to Small
+            <lb/>Imperial 8vo a good precedent for
+            <lb/>Sizes of books
+          </trailer>
         </list>
         <!--[end of list]-->
-        
+
         <!--[start of list]-->
         <list style="list-style-type:upper-alpha;">
           <head>Alphabetically arranged, a/c book forms Solicitors</head>
-          <item>Letters Received Book
-            <!--[start of list]-->
-            <list style="list-style-type: none;">
-              <label>A.A</label>
-              <item>Order book faint &amp; date</item>
-            </list>
-            <!--[end of list]-->
-          </item>
+          <label>* A</label>
+          <item>Letters Received Book</item>
+          <label>A.A</label>
+          <item>Order book faint &amp; date</item>
+          <label>B</label>
           <item>Day book faint &amp; cum headline</item>
+          <label>C</label>
           <item><seg xml:id="journal_0046">Journal</seg> a <seg xml:id="patt_0046"><abbr>patt</abbr></seg></item>
+          <label>D</label>
           <item><seg sameAs="#journal_0046">"</seg> B <seg sameAs="patt_0046">"</seg></item>
+          <label>E</label>
           <item>Single <seg xml:id="ledger_0046">Ledger</seg></item>
+          <label>F</label>
           <item>double <seg sameAs="#ledger_0046">"</seg></item>
+          <label>G</label>
           <item>Cash Book</item>
+          <label>H</label>
           <item><seg xml:id="bills_0046">Bills</seg> payable</item>
+          <label>I</label>
           <item><seg sameAs="#bills_0046">"</seg> Receivable</item>
+          <label>J</label>
           <item>Order Book outward voucher</item>
+          <label>K</label>
           <item>Order Book outwards</item>
+          <label>L</label>
           <item>Purchase Journal</item>
+          <label>M</label>
           <item>Purchase Ledger</item>
+          <label>N</label>
           <item>Cash Receipt Book</item>
+          <label>O</label>
           <item>Balance Book</item>
+          <label>P</label>
           <item>Private Ledger</item>
+          <label>Q</label>
           <item>Private Journal</item>
+          <label>R</label>
           <item>Good Delivered A and B</item>
+          <label>S</label>
           <item>Brewers Delivery Book</item>
+          <label>T</label>
           <item>Faint + margin</item>
           <trailer>PJO</trailer>
-          <!--[List continues after the page beginning]-->
+        </list>
+        <!--[List continues after the page beginning]-->
       <!--[End of NUMBER 46]-->
 
       <!--[Start of NUMBER 47]-->
-        <pb n="047" facs="<!--[ TODO ]-->"/>
+          <pb n="047" facs="CC20181003_Townsend_0047.tif"/>
           <fw type="page_number" place="top">9</fw>
 
+        <list style="list-style-type:upper-alpha;">
+          <label>U</label>
           <item>Affidavit</item>
+          <label>V</label>
           <item>faint + date</item>
+          <label>W</label>
           <item>Abstract</item>
+          <label>X</label>
           <item>Judicature</item>
+          <label>Y</label>
           <item>Draft</item>
+          <label>Z</label>
           <item>Ledger Balances</item>
+          <label>AA</label>
           <item>Quantities</item>
+          <label>BB</label>
           <item>Taxation Costs</item>
+          <label>CC</label>
           <item>Agency Cost</item>
+          <label>DD</label>
           <item>Bankruptcy Costs</item>
+          <label>EE</label>
           <item>Delivery Cost</item>
+          <label>FF</label>
           <item>Draft Bill Paper</item>
 
           <trailer>Book Key to Account Book patterns
-            <lb>see Tin Case 1 to 499 <!--[ TODO ]-->
-            <lb>Account Book Patterns Kept in tin case 1 to 499 <!--[ TODO ]-->
+            <lb/>see Tin Case 1 to 499 <!--[ TODO ]-->
+            <lb/>Account Book Patterns Kept in tin case 1 to 499 <!--[ TODO ]-->
           </trailer>
         </list><!--[end of list]-->
 
         <ab>send binding invoices with discretion it
-          <lb>leads to them being paid if delayed perhaps <hi style="text-decoration: underline;">Never</hi>
-          <lb>send Monthly a/c to all with discretion that
-          <lb>we can, very helpful to pay our monthly bills
-          <lb>and less risk
+          <lb/>leads to them being paid if delayed perhaps <hi style="text-decoration: underline;">Never</hi>
+          <lb/>send Monthly a/c to all with discretion that
+          <lb/>we can, very helpful to pay our monthly bills
+          <lb/>and less risk
         </ab>
       <!--[End of NUMBER 47]-->
 
       <!--[Start of NUMBER 48]-->
-      <pb n="048" facs="<!--[ TODO ]-->"/>
+        <pb n="048" facs="CC20181003_Townsend_0048.tif"/>
         <fw type="page_number" place="top">10</fw>
 
         <ab>Could we have some way
-          <lb>of Keeping old orders for travellers
-          <lb>to run at to see if any re-ordering
-          <lb>could be got or suggestions to any
-          <lb>in that line supposing the orig
-          <lb>inal were out of that trade - yes
-          <lb>see the Tin Case <!--[ TODO ]-->
+          <lb/>of Keeping old orders for travellers
+          <lb/>to run at to see if any re-ordering
+          <lb/>could be got or suggestions to any
+          <lb/>in that line supposing the orig
+          <lb/>inal were out of that trade - yes
+          <lb/>see the Tin Case <!--[ TODO ]-->
         </ab>
 
         <note place="below">Travellers
-          <lb>Call
-          <lb><hi style="text-decoration: underline;">Due and Past Due</hi>
+          <lb/>Call
+          <lb/><hi style="text-decoration: underline;">Due and Past Due</hi>
         </note>
 
         <list style="list-style-type:none;">
           <label>Orders in hand</label>
           <item>Practical binder who can all information by short
-            <lb>hand from employer travellers or cust
-            <lb>omer - write out with clear instruc
-            <lb>tions for the works and every re
-            <lb>ceived from all sources that day
-            <lb>delivered that night - any New
-            <lb>books give № to enter briefly №
-            <lb>order book Name Size №
+            <lb/>hand from employer travellers or cust
+            <lb/>omer - write out with clear instruc
+            <lb/>tions for the works and every re
+            <lb/>ceived from all sources that day
+            <lb/>delivered that night - any New
+            <lb/>books give № to enter briefly №
+            <lb/>order book Name Size №
           </item>
 
           <label>All Posting</label>
           <item>Dr &amp; Cr Ledgers</item>
 
           <label>Travelers</label>
-          <item>Collect <lb>and <lb>Orders</item>
+          <item>Collect <lb/>and <lb/>Orders</item>
 
           <label>Charger &amp; Cuterer</label>
-          <item>Practical <lb>Ruler + Gender</item>
+          <item>Practical <lb/>Ruler + Gender</item>
 
           <label>Partners</label>
           <item>Special Traveling Cash Telephone Customers
-            <lb>general oversight and all buying in
-            <lb>from travellers or giving orders out
+            <lb/>general oversight and all buying in
+            <lb/>from travellers or giving orders out
           </item>
 
           <label>Sales S</label>
@@ -778,9 +864,9 @@
       <!--[End of NUMBER 48]-->
 
       <!--[Start of NUMBER 49]-->
-      <pb n="049" facs="<!--[ TODO ]-->"/>
+      <pb n="049" facs="CC20181003_Townsend_0049.tif"/>
         <fw type="page_number" place="top">11</fw>
-        
+
       <!--[start of page div]-->
       <div type="page">
 
@@ -806,28 +892,28 @@
         <!--[end of list]-->
 
         <ab>Why I thought a tin Case for each large buyer
-          <lb>was? at the time you thought it declining, you
-          <lb>could run thru and see at once what was about
-          <lb>due for re-ordering, and try to get it renewed
-          <lb>yourself personally, or some one likely
-          <date place="below" when="1902-12-29">Dec 29/1902</date>
+          <lb/>was? at the time you thought it declining, you
+          <lb/>could run thru and see at once what was about
+          <lb/>due for re-ordering, and try to get it renewed
+          <lb/>yourself personally, or some one likely
+          <date when="1902-12-29">Dec 29/1902</date>
         </ab>
 
         <ab>
           <date when="1909">1909</date>
-          <lb>I pruned by taking away
-          <lb>all useless orders; orders that
-          <lb>had become no use?
-          <date place="below" when="1909-07-16">July 16 1909</date>
-          <lb>dont keep orders more than
-          <lb>2 decades or 20 years
-          <date place="inline" when="1909-11-03">Nov 03 1909</date>
+          <lb/>I pruned by taking away
+          <lb/>all useless orders; orders that
+          <lb/>had become no use?
+          <date when="1909-07-16">July 16 1909</date>
+          <lb/>dont keep orders more than
+          <lb/>2 decades or 20 years
+          <date when="1909-11-03">Nov 03 1909</date>
         </ab>
       </div><!--[end of page div]-->
       <!--[End of NUMBER 49]-->
 
       <!--[Start of NUMBER 50]-->
-      <pb n="050" facs="<!--[ TODO ]-->"/>
+      <pb n="050" facs="CC20181003_Townsend_0050.tif"/>
       <fw type="page_number" place="top">12</fw>
 
       <div type="page"><!--[start of page div]-->
@@ -894,22 +980,22 @@
       <!--[End of NUMBER 50]-->
 
       <!--[Start of NUMBER 51]-->
-      <pb n="051" facs="<!--[ TODO ]-->"/>
+      <pb n="051" facs="CC20181003_Townsend_0051.tif"/>
       <fw type="page_number" place="top">13</fw>
 
       <!--[start of page div]-->
       <div type="page">
         <head>Notes on Account book binding</head>
 
-        <ab><persName>M Wilkinson</persNzame> they always considered at
-          <lb>Birmingham <num type="fraction" value=".33">1/3 off full binding price
-          <lb>for half binding <date place="below" when="1906-02-28">Feb 28/1906</date>
+        <ab><persName>M Wilkinson</persName> they always considered at
+          <lb/>Birmingham <num type="fraction" value=".33">1/3</num> off full binding price
+          <lb/>for half binding <date when="1906-02-28">Feb 28/1906</date>
         </ab>
 
         <!--[start of list]-->
         <list style="list-style-type:upper-roman;">
           <head>Five Essentials - Old well</head>
-          <item>Seasoned paper as 298.310.300 <lb>327.3009</item>
+          <item>Seasoned paper as 298.310.300 <lb/>327.3009</item>
           <item>Scientific <seg xml:id="ruling_0051">ruling pattern</seg></item>
           <item>Superb <seg sameAs="#ruling_0051">ditto</seg></item>
           <item>Sound binding</item>
@@ -920,7 +1006,7 @@
       <!--[End of NUMBER 51]-->
 
       <!--[Start of NUMBER 52]-->
-      <pb n="052" facs="<!--[ TODO ]-->"/>
+      <pb n="052" facs="CC20181003_Townsend_0052.tif"/>
       <fw type="page_number" place="top">14</fw>
 
       <!--[start of page div]-->
@@ -928,35 +1014,35 @@
 
       <!--[start of list]-->
         <list style="list-style-type:upper-alpha;">
-          <head>Departmental price Bks <lb> except a/c book &amp; binding</head>
-          <headItem>Traveller <lb>Bag</headItem>
+          <head>Departmental price Bks <lb/> except a/c book &amp; binding</head>
+          <headItem>Traveller <lb/>Bag</headItem>
 
           <label>A pattern Cards</label>
-          <item>&#2161;</item>
+          <item>&#8544;</item>
 
           <label>B Binding</label>
-          <item>&#2162;</item>
+          <item>&#8545;</item>
 
           <label>C Writings</label>
-          <item>&#2163;</item>
+          <item>&#8546;</item>
 
           <label>D Printing</label>
-          <item>&#2164;</item>
+          <item>&#8547;</item>
 
           <label>E Litho</label>
-          <item>&#2165;</item>
+          <item>&#8548;</item>
 
           <label>F Factored</label>
-          <item>&#2166;</item>
+          <item>&#8549;</item>
 
           <label>H Heavy</label>
-          <item>&#2167;</item>
+          <item>&#8550;</item>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
       <!--[End of NUMBER 52]-->
 
       <!--[Start of NUMBER 53]-->
-      <pb n="053" facs="<!--[ TODO ]-->"/>
+      <pb n="053" facs="CC20181003_Townsend_0053.tif"/>
       <fw type="page_number" place="top">15</fw>
 
       <!--[end of page div]-->
@@ -1036,7 +1122,7 @@
       <!--[End of NUMBER 53]-->
 
       <!--[Start of NUMBER 54]-->
-      <pb n="054" facs="<!--[ TODO ]-->"/>
+      <pb n="054" facs="CC20181003_Townsend_0054.tif"/>
       <fw type="page_number" place="top">16</fw>
 
       <!--[start of page div]-->
@@ -1056,7 +1142,7 @@
           <row>
             <cell>Fcap</cell>
             <cell>1 to 1200</cell>
-            <cell rows="13">&#2161; to &#21640;</cell>
+            <cell rows="13">&#8544; to &#8553;&#8548;</cell>
             <cell rows="13">A to I</cell>
           </row>
 
