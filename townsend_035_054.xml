@@ -103,11 +103,11 @@
       </schemaSpec>
     <!--[end of schema]-->
 
-    <!--[TODO: Add missing <date> to year?, Add @resp for <unclear>]-->
+    <!--[TODO: Add missing <date> to year?, Add @resp for <unclear>, add <div> @type attribute]-->
 
     <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb/> use confusion fix]-->
 
-    <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute for a few <date> elements, fix to <lb/> element use with spacing adjustment for readability, fix to roman number unicode use on pages 0052 and 0054]-->
+    <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute for a few <date> elements, fix to <lb/> element use with spacing adjustment for readability, fix to roman number unicode use on 0052 and 0054, change of figure on page 0036 to div type insert]-->
 
       <!--[Start of NUMBER 35]-->
       <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
@@ -241,13 +241,18 @@
 
       <!--[Start of NUMBER 36]-->
         <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
-      <fw type="page_number" place="top">1/4</fw>
+        <fw type="page_number" place="top">1/4</fw>
 
-        <figure><!--[start of figure]-->
-          <head>Legal Notices</head>
-          <figDesc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</figDesc>
-          <graphic url="CC20180917_Townsend_0036_inset.tif"/>
-        </figure><!--[End of figure]-->
+        <!--[start of div type insert]-->
+        <div type="insert">
+          <facsimile>
+            <surface attachment="glued">
+              <desc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</desc>
+              <graphic url="CC20180917_Townsend_0036_inset.tif"/>
+            </surface>
+          </facsimile>
+        </div>
+        <!--[end of div type insert]-->
 
         <!--[start of ab]-->
         <ab>see Calculation book
