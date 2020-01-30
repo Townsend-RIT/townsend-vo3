@@ -107,7 +107,7 @@
 
     <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb/> use confusion fix]-->
 
-    <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute to a few <date> elements, fix to <lb/> element use with spacing adjustment for readability]-->
+    <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute to a few <date> elements, fix to <lb/> element use with spacing adjustment for readability, fix to roman number unicode use on 0052 and 0054]-->
 
       <!--[Start of NUMBER 35]-->
       <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
@@ -176,9 +176,9 @@
               <lb/>Wed 10am list of doubtful
               <lb/>a/c complaints + remarks
               <!--[+ mentally noted as 'and' yet preserved in the text]-->
-              <emph style="font-weight: bold;">
-                Contents No of Tin Cases 12
-              </emph>
+              <hi style="font-weight: bold;">
+                <lb/>Contents No of Tin Cases 12
+              </hi>
             </cell>
             <cell>Trade Ledger</cell>
           </row><!--[End of row]-->
@@ -197,7 +197,8 @@
             <cell></cell>
             <cell>Time Wages pay</cell>
           </row>
-        </table><!--[End of table]-->
+        </table>
+        <!--[End of table]-->
 
         <ab>Master should keep his own Cash and fall over his own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab>
         <!--[how to handle WT initials]-->
@@ -332,7 +333,18 @@
         <fw type="page_number" place="top">3/4</fw>
 
         <!--[start of ab]-->
-        <ab>Were Men indeed convin<lb/>ced that their health and comfort<lb/>were so materially dependent upon<lb/>the regulation of their own Minds,<lb/>they would be more careful to<lb/>strengthen them by Study, and<lb/>Moderate them by reason, and<lb/>Confirm them by Religion, and<lb/>reduce them to an equanimity not<lb/>easily disturbed by the Crosses and<lb/>Accidents of Life.<date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date></ab>
+        <ab>Were Men indeed convin
+          <lb/>ced that their health and comfort
+          <lb/>were so materially dependent upon
+          <lb/>the regulation of their own Minds,
+          <lb/>they would be more careful to
+          <lb/>strengthen them by Study, and
+          <lb/>Moderate them by reason, and
+          <lb/>Confirm them by Religion, and
+          <lb/>reduce them to an equanimity not
+          <lb/>easily disturbed by the Crosses and
+          <lb/>Accidents of Life.<date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date>
+        </ab>
         <!--[end of ab]-->
 
         <ab>Tomorrow leads to te Town of Never</ab>
@@ -360,7 +372,19 @@
         <note place="left margin">One good head is<lb/>better than a<lb/>great many Hands</note>
 
         <!--[start of ab]-->
-        <ab>I advise rising at 6am Summer<lb/>and Winter,<lb/>Prayers Bath and Shave up to 7<lb/>Breakfast from 7.15 to 7.45 including H.C.<lb/>Carriage 7.45 to 8 arrive Surrey St<lb/>In Workshops at 8 prompt seeing to<lb/>work until 1pm from 1 to 2 dinner<lb/>in private room Hot one day Cold<lb/>next leave Surrey St at 7pm by<lb/>Carriage this to apply to Mon Tues<lb/>Wed Thur Fri - Saturday each<lb/>alternately a holiday.</ab>
+        <ab>I advise rising at 6am Summer
+          <lb/>and Winter,
+          <lb/>Prayers Bath and Shave up to 7
+          <lb/>Breakfast from 7.15 to 7.45 including H.C.
+          <lb/>Carriage 7.45 to 8 arrive Surrey St
+          <lb/>In Workshops at 8 prompt seeing to
+          <lb/>work until 1pm from 1 to 2 dinner
+          <lb/>in private room Hot one day Cold
+          <lb/>next leave Surrey St at 7pm by
+          <lb/>Carriage this to apply to Mon Tues
+          <lb/>Wed Thur Fri - Saturday each
+          <lb/>alternately a holiday.
+        </ab>
         <!--[end of ab]-->
 
         <table rows="6" cols="4"><!--[start of table]-->
@@ -697,32 +721,47 @@
         <!--[start of list]-->
         <list style="list-style-type:upper-alpha;">
           <head>Alphabetically arranged, a/c book forms Solicitors</head>
-          <item>Letters Received Book
-            <!--[start of list]-->
-            <list style="list-style-type: none;">
-              <label>A.A</label>
-              <item>Order book faint &amp; date</item>
-            </list>
-            <!--[end of list]-->
-          </item>
+          <label>* A</label>
+          <item>Letters Received Book</item>
+          <label>A.A</label>
+          <item>Order book faint &amp; date</item>
+          <label>B</label>
           <item>Day book faint &amp; cum headline</item>
+          <label>C</label>
           <item><seg xml:id="journal_0046">Journal</seg> a <seg xml:id="patt_0046"><abbr>patt</abbr></seg></item>
+          <label>D</label>
           <item><seg sameAs="#journal_0046">"</seg> B <seg sameAs="patt_0046">"</seg></item>
+          <label>E</label>
           <item>Single <seg xml:id="ledger_0046">Ledger</seg></item>
+          <label>F</label>
           <item>double <seg sameAs="#ledger_0046">"</seg></item>
+          <label>G</label>
           <item>Cash Book</item>
+          <label>H</label>
           <item><seg xml:id="bills_0046">Bills</seg> payable</item>
+          <label>I</label>
           <item><seg sameAs="#bills_0046">"</seg> Receivable</item>
+          <label>J</label>
           <item>Order Book outward voucher</item>
+          <label>K</label>
           <item>Order Book outwards</item>
+          <label>L</label>
           <item>Purchase Journal</item>
+          <label>M</label>
           <item>Purchase Ledger</item>
+          <label>N</label>
           <item>Cash Receipt Book</item>
+          <label>O</label>
           <item>Balance Book</item>
+          <label>P</label>
           <item>Private Ledger</item>
+          <label>Q</label>
           <item>Private Journal</item>
+          <label>R</label>
           <item>Good Delivered A and B</item>
+          <label>S</label>
           <item>Brewers Delivery Book</item>
+          <label>T</label>
           <item>Faint + margin</item>
           <trailer>PJO</trailer>
         </list>
@@ -979,25 +1018,25 @@
           <headItem>Traveller <lb/>Bag</headItem>
 
           <label>A pattern Cards</label>
-          <item>&#2161;</item>
+          <item>&#8544;</item>
 
           <label>B Binding</label>
-          <item>&#2162;</item>
+          <item>&#8545;</item>
 
           <label>C Writings</label>
-          <item>&#2163;</item>
+          <item>&#8546;</item>
 
           <label>D Printing</label>
-          <item>&#2164;</item>
+          <item>&#8547;</item>
 
           <label>E Litho</label>
-          <item>&#2165;</item>
+          <item>&#8548;</item>
 
           <label>F Factored</label>
-          <item>&#2166;</item>
+          <item>&#8549;</item>
 
           <label>H Heavy</label>
-          <item>&#2167;</item>
+          <item>&#8550;</item>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
       <!--[End of NUMBER 52]-->
@@ -1103,7 +1142,7 @@
           <row>
             <cell>Fcap</cell>
             <cell>1 to 1200</cell>
-            <cell rows="13">&#2161; to &#21640;</cell>
+            <cell rows="13">&#8544; to &#8553;&#8548;</cell>
             <cell rows="13">A to I</cell>
           </row>
 
