@@ -20,9 +20,16 @@
     <body>
         <!--[TODO:]-->
 
+        <!--[
+        ENCODER SHORTHAND REFERENCES:
+        DITTO: <seg xml:id="identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
+        DITTO (cont): Encoders replacing dittos with respective word references rather than using system for testing purposes
+        UNDERLINED TEXT: style="text-decoration: underline;"
+        ]-->
+
         <!--[NOTE: #55: table that looks like it has 4 columns is actually a 2 column table but cut in half]-->
 
-        <!--[CHANGED 06/02/20:]-->
+        <!--[CHANGED 06/02/20: Use of @type="roman" for roman numerals with I,V,X,C,D,M]-->
 
         <!--[Start of PAGE 55]-->
             <pb n="055" facs="CC20180917_Townsend_0055.tif"/>
@@ -30,6 +37,8 @@
 
             <div type="NULL">
                 <head style="text-decoration: underline;">1 to 2000<lb/>Fcap</head>
+
+                <!--[reference table for tables following on this page]-->
                 <table rows="9" cols="2">
                     <row>
                         <cell>A</cell>
@@ -37,10 +46,171 @@
                     </row>
                     <row>
                         <cell>B</cell>
-                        <cell>Full Com Movc</cell><!--[TODO:]-->
+                        <cell>Full <unclear reason="illegible">Com Movc</unclear></cell><!--[TODO: Ask about Movc]-->
                     </row>
-                    
+                    <row>
+                        <cell>C</cell>
+                        <cell><num type="fraction" value=".5">1/2</num> Rough Calf</cell>
+                    </row>
+                    <row>
+                        <cell>D</cell>
+                        <cell><num type="fraction" value=".5">1/2</num> Com Morc</cell><!--[TODO: ditto referencing is annoying]-->
+                    </row>
+                    <row>
+                        <cell>E</cell>
+                        <cell><num type="fraction" value=".5">1/2</num> red brazil</cell>
+                    </row>
+                    <row>
+                        <cell>F</cell>
+                        <cell><num type="fraction" value=".5">1/2</num> flush</cell>
+                    </row>
+                    <row>
+                        <cell>G</cell>
+                        <cell>Roan de la rue</cell><!--[TODO: french denotation?]-->
+                    </row>
+                    <row>
+                        <cell>H</cell>
+                        <cell>Skiver flush</cell><!--[TODO: SKiver spelling?]-->
+                    </row>
+                    <row>
+                        <cell>I</cell>
+                        <cell><num type="fraction" value=".5">1/2</num> glazed cape best stock</cell>
+                    </row>
                 </table>
+                <!--[end of reference table]-->
+
+                <!--[start of table 1]-->
+                <table rows="7" cols="5">
+                    <row>
+                        <cell><num type="roman" value="1">I</num></cell>
+                        <cell>Double Ledger</cell>
+                        <cell>1 to 50</cell>
+                        <cell>5 bindings</cell>
+                        <cell>ABCDE</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="2">II</num></cell>
+                        <cell>Single Ledger</cell>
+                        <cell>51 - 100</cell>
+                        <cell>5 bindings</cell>
+                        <cell>ABCDE</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="3">III</num></cell>
+                        <cell>Single Cash <lb/>with head lines</cell>
+                        <cell>101 - 150</cell>
+                        <cell>5 bindings</cell>
+                        <cell>ABCDE</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="4">IV</num></cell>
+                        <cell>Double Cash <lb/>with head lines</cell>
+                        <cell>151 - 200</cell>
+                        <cell>5 bindings</cell>
+                        <cell>ABCDE</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="5">V</num></cell>
+                        <cell>Journal</cell>
+                        <cell>201 - 250</cell>
+                        <cell>5 bindings</cell>
+                        <cell>ABCDE</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="6">VI</num></cell>
+                        <cell>Day Book</cell>
+                        <cell>251 - 300</cell>
+                        <cell>5 bindings</cell>
+                        <cell>ABCDE</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="7">VII</num></cell>
+                        <cell>Order Book</cell>
+                        <cell>301 - 350</cell>
+                        <cell>5 bindings</cell>
+                        <cell>ABCDE</cell>
+                    </row>
+                </table>
+                <!--[end of table 1]-->
+
+                <!--[start of table 2]-->
+                <table rows="4" cols="5">
+                    <head><hi style="text-decoration: underline;">Thro patterns</hi> Broad Folio</head>
+                    <row>
+                        <cell><num type="roman" value="8">VIII</num></cell>
+                        <cell>Faint</cell>
+                        <cell>351 - 380</cell>
+                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell>CDI</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="9">IX</num></cell>
+                        <cell>Faint and date</cell>
+                        <cell>381 - 410</cell>
+                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell>CDI</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="10">X</num></cell>
+                        <cell>Faint and Common</cell>
+                        <cell>411 - 440</cell>
+                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell>CDI</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="11">XI</num></cell>
+                        <cell>Faint and Double Money</cell>
+                        <cell>441 - 470</cell>
+                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell>CDI</cell>
+                    </row>
+                </table>
+                <!--[end of table 2]-->
+
+                <!--[start of table 3]-->
+                <table rows="4" cols="5">
+                    <head><hi style="text-decoration: underline;">Thro patterns</hi> Long Folio</head>
+                    <row>
+                        <cell><num type="roman" value="12">XII</num></cell>
+                        <cell>Faint</cell>
+                        <cell>471 - 500</cell>
+                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell>CDI</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="13">XIII</num></cell>
+                        <cell>Faint and date</cell>
+                        <cell>501 - 530</cell>
+                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell>CDI</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="14">XIV</num></cell>
+                        <cell>Faint and Common</cell>
+                        <cell>531 - 560</cell>
+                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell>CDI</cell>
+                    </row>
+                    <row>
+                        <cell><num type="roman" value="15">XV</num></cell>
+                        <cell>Faint and Double Money</cell>
+                        <cell>561 - 590</cell>
+                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell>CDI</cell>
+                    </row>
+                </table>
+                <!--[end of table 3]-->
+
+                <!--[start of table 4]-->
+                <table rows="4" cols="5">
+                    <head><hi style="text-decoration: underline;">Flush 1 to 3 qrs</hi></head><!--[TODO: qrs shorthand?]-->
+                    <note>In the above 15 ways of <lb>Ruling</note>
+                    <row>
+                        <cell></cell>
+                    </row>
+                </table>
+                <!--[end of table 4]-->
+
             </div>
         <!--[End of PAGE 55]-->
 
