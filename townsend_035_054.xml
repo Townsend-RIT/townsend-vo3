@@ -101,13 +101,15 @@
               </attList>
           </elementSpec>
       </schemaSpec>
-    <!--[end of schema]-->
+      <!--[end of schema]-->
 
     <!--[TODO: Add missing <date> to year?, Page 46 table? Missing <labels>?, Add @resp for <unclear>]-->
 
     <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb/> use confusion fix]-->
 
     <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute to a few <date> elements, fix to <lb/> element use with spacing adjustment for readability, fix to roman number unicode use on 0052 and 0054]-->
+
+    <!--[CHANGED 06/02/20: Fix to floating numeral without <num> tag, fix to floating date without a <date> tag, fix and highlight to use of non-standard characters, replacement of ampersand unicode with shorthand unicode value, add of TO-DO highlight notes for later scanability]-->
 
       <!--[Start of NUMBER 35]-->
       <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
@@ -177,7 +179,7 @@
               <lb/>a/c complaints + remarks
               <!--[+ mentally noted as 'and' yet preserved in the text]-->
               <hi style="font-weight: bold;">
-                <lb/>Contents No of Tin Cases 12
+                <lb/>Contents No of Tin Cases <num>12</num>
               </hi>
             </cell>
             <cell>Trade Ledger</cell>
@@ -205,37 +207,41 @@
 
         <list style="list-style-type: none">
           <label>C Cammell C Lt complaint of Pads</label>
-          <item>163</item>
+          <item>
+            <num>163</num>
+          </item>
 
-          <label>Cash Book idea "1898"</label>
-          <item>94</item>
+          <label>Cash Book idea <q><date when="1898----">1898</date></q></label>
+          <item>
+            <num>94</num>
+          </item>
 
           <label>Cupboards</label>
-          <item>187</item>
+          <item><num>187</num></item>
 
           <label>Coallieries</label>
-          <item>287, 282</item>
+          <item><num>287</num>, <num>282</num></item>
 
           <label>Customers to call on</label>
-          <item>286</item>
+          <item><num>286</num></item>
 
           <label>Cart Celebrated Printers</label>
-          <item>142</item>
+          <item><num>142</num></item>
 
           <label>Christmas</label>
-          <item>100</item>
+          <item><num>100</num></item>
 
-          <label>Carnage Sutton 12</label>
-          <item>353</item>
+          <label>Carnage Sutton <num>12</num></label>
+          <item><num>353</num></item>
 
           <label>Clerks payment <persName>M Fox</persName></label>
-          <item>111</item>
+          <item><num>111</num></item>
 
           <label>Confidential</label>
-          <item>261</item>
+          <item><num>261</num></item>
 
           <label>Calculation books</label>
-          <item>196</item>
+          <item><num>196</num></item>
         </list><!--[End of list]-->
       <!--[End of NUMBER 35]-->
 
@@ -251,7 +257,7 @@
 
         <!--[start of ab]-->
         <ab>see Calculation book
-          <lb/>8348 written by<persName>W.J.</persName>
+          <lb/><num>8348</num> written by<persName>W.J.</persName>
           <q>Where there is no conflict
             <lb/>There can be no conquest
             <lb/>Where there is no conquest
@@ -293,7 +299,7 @@
         <!--[End of list]-->
 
         <!--[start of note]-->
-        <note place="bottom">MDCCCCII roman numerals<lb/>year 1902 arabic figure</note>
+        <note place="bottom"><num type="roman" value="1902">MDCCCCII</num> roman numerals<lb/>year <date when="1902----">1902</date> arabic figure</note>
         <!--[end of note]-->
 
         <fw type="page_number" place="margin" style="writing-mode: vertical-lr">Y Z</fw>
@@ -347,7 +353,7 @@
         </ab>
         <!--[end of ab]-->
 
-        <ab>Tomorrow leads to te Town of Never</ab>
+        <ab>Tomorrow leads to the Town of Never</ab>
 
         <ab>To deny self, to be meek, to be pure in heart<lb/>to trust Gods Providence</ab>
 
@@ -482,38 +488,38 @@
               <hi style="text-decoration: underline;">Thus</hi>
             </cell>
             <cell>
-              <hi style="text-decoration: underline;">Sales £2700.6.7</hi>
+              <hi style="text-decoration: underline;">Sales £<num>2700.6.7</num></hi><!--[TODO: unicode]-->
             </cell>
           </row>
 
           <row>
             <cell>Received Cash</cell>
-            <cell>2339 4 10</cell>
+            <cell><num>2339 4 10</num></cell><!--[TODO: number questions-->
           </row>
 
           <row>
             <cell>Discount</cell>
-            <cell>70 6 7</cell>
+            <cell><num>70 6 7</num></cell>
           </row>
 
           <row>
             <cell>Allowance</cell>
-            <cell>17 10 6</cell>
+            <cell><num>17 10 6</num></cell>
           </row>
 
           <row>
             <cell>Lost</cell>
-            <cell>21 7 2</cell>
+            <cell><num>21 7 2</num></cell>
           </row>
 
           <row>
             <cell>Arrears</cell>
-            <cell>251 17 6</cell>
+            <cell><num>251 17 6</num></cell>
           </row>
 
           <row>
             <cell><!--[empty cell]--></cell>
-            <cell style="border-top-style: solid"><hi style="text-decoration-line: underline; text-decoration-style: double;">£ 2700 6 7</hi></cell>
+            <cell style="border-top-style: solid"><hi style="text-decoration-line: underline; text-decoration-style: double;">£ <num>2700 6 7</num></hi></cell>
           </row>
 
           <!--[start of trailer]-->
@@ -528,7 +534,7 @@
         <note place="bottom">
           <orgName>Thomas Firth + Sons</orgName>
           <note place="below">310.2b</note>
-          <ab xml:id="bracket_0041">1.6 qrs demy ruled &amp; 05 printed h<lb/>rough Calf extra paged lett Day Book</ab>
+          <ab xml:id="bracket_0041"><num>1.6</num> qrs demy ruled &amp; <num>05</num> printed h<lb/>rough Calf extra paged lett Day Book</ab>
           <note sameAs="#bracket_0041" place="inline">} 1.7</note>
         </note>
         <!--[end of note]-->
@@ -600,9 +606,9 @@
           <lb/>healthy and profitably
           <lb/>Examine Work and Charge
           <lb/>Orders put in hands
-          <lb/>5<seg xml:id="pm_0044">pm</seg> round again
-          <lb/>6 <seg sameAs="#pm_0044">ditto</seg> letters &amp;
-          <lb/>7 <seg sameAs="#pm_0044">ditto</seg> Clear up for the day
+          <lb/><num>5</num><seg xml:id="pm_0044">pm</seg> round again
+          <lb/><num>6</num><seg sameAs="#pm_0044">ditto</seg> letters &amp;
+          <lb/><num>7</num><seg sameAs="#pm_0044">ditto</seg> Clear up for the day
           <lb/>Search Neglect or an indefatigable
           <lb/>unwearied Order Book Clerk to
           <lb/>see to arrears but the <hi style="text-decoration-line: underline;">Master is best at this</hi>
@@ -615,9 +621,9 @@
         <ab>Sales Shop is too much away
           <lb/>and not sufficient in touch
           <lb/>I think of trying a stair case
-          <lb/>removing &#8470; Safe and fitting
+          <lb/>removing &#8470; Safe and fitting<!--[numero unicode]-->
           <lb/>up nicely for Master and Special
-          <note place="bottom">to page 73 forward</note>
+          <note place="bottom">to page 73 forward</note><!--[TODO: future linking]-->
         </ab>
         <!--[end of ab]-->
 
@@ -633,10 +639,10 @@
 
         <!--[start of figure]-->
         <figure>
-          <head><!--[ TODO ]-->William Townsend Son <abbr>Manufact</abbr> States</head>
+          <head><!--[ TODO: name ]-->William Townsend Son <abbr>Manufact</abbr> States</head>
           <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
           <graphic url="CC20181003_Townsend_0045_inset.png"/>
-          <trailer>set up<lb/>magnanimous<lb/>get an<lb/>electro <!--[ TODO ]--></trailer>
+          <trailer>set up<lb/>magnanimous<lb/>get an<lb/>electro <!--[ TODO: abbr ]--></trailer>
         </figure>
         <!--[end of figure]-->
 
@@ -652,26 +658,26 @@
         <note place="left margin"><hi style="text-decoration: underline;">Travellers Companion</hi></note>
 
         <note place="below"><!--[start of note]-->
-          <note place="left margin">100 Copies</note>
+          <note place="left margin"><num>100</num> Copies</note>
 
           <!--[start of list]-->
           <list style="list-style-type: none;">
             <item>Title a/c</item>
-            <item>7 pages a/c book patterns
+            <item><num>7</num> pages a/c book patterns
               <list>
-                <item><!--[ TODO ]--> of them 3 on a page 18</item>
-                <item>1 of them 4 on a page 4</item>
+                <item><!--[ TODO : future linking page]--> of them <num>3</num> on a page 18</item>
+                <item><num>1</num> of them <num>4</num> on a page 4</item>
                 <item>22</item>
               </list>
             </item>
             <item>Title Solicitors + Manufactur <lb/> Tonns
               <list>
-                <item>7 pages rul + print</item>
+                <item><num>7</num> pages rul + print</item>
               </list>
             </item>
             <item>Title Merchants + Mercantile form
               <list>
-                <item>7 pages riling type Litho</item>
+                <item><num>7</num> pages riling type Litho</item>
               </list>
             </item>
           </list>
@@ -799,8 +805,8 @@
           <item>Draft Bill Paper</item>
 
           <trailer>Book Key to Account Book patterns
-            <lb/>see Tin Case 1 to 499 <!--[ TODO ]-->
-            <lb/>Account Book Patterns Kept in tin case 1 to 499 <!--[ TODO ]-->
+            <lb/>see Tin Case <num>1</num> to <num>499</num> <!--[ TODO: tin cases linking ]-->
+            <lb/>Account Book Patterns Kept in tin case <num>1</num> to <num>499</num> <!--[ TODO: tin cases linking ]-->
           </trailer>
         </list><!--[end of list]-->
 
@@ -838,8 +844,8 @@
             <lb/>tions for the works and every re
             <lb/>ceived from all sources that day
             <lb/>delivered that night - any New
-            <lb/>books give № to enter briefly №
-            <lb/>order book Name Size №
+            <lb/>books give № to enter briefly &#8470; <!--[numero unicode]-->
+            <lb/>order book Name Size &#8470;
           </item>
 
           <label>All Posting</label>
@@ -874,13 +880,13 @@
         <list style="list-style-type:none;">
           <head>Tin Cases</head>
           <item>Workmens forms Invoices Letter heads cards Medical a/c</item>
-          <item>Vickers Sons &#038; Limited</item>
-          <item><seg xml:id="vol1_0049">Vol</seg> 1 <seg xml:id="balance_0049">Balance Receipt Bill Carnage</seg></item>
-          <item><seg sameAs="#vol_0049">ditto</seg> 2 <seg sameAs="#balance_0049">ditto</seg></item>
-          <item><seg xml:id="vol2_0049">Vol</seg> 1 <seg xml:id="limited_0049">Limited Companies</seg></item>
-          <item><seg sameAs="#vol2_0049">ditto</seg> 2 <seg sameAs="#limited_0049">ditto</seg></item>
-          <item><seg xml:id="vol3_0049">Vol</seg> 1 <seg xml:id="pattern_0049">Pattern Cards and Show Cards</seg></item>
-          <item><seg sameAs="#vol3_0049">ditto</seg> 2 <seg sameAs="#pattern_0049">ditto</seg></item>
+          <item>Vickers Sons &amp; Limited</item>
+          <item><seg xml:id="vol1_0049">Vol</seg> <num>1</num> <seg xml:id="balance_0049">Balance Receipt Bill Carnage</seg></item>
+          <item><seg sameAs="#vol_0049">ditto</seg> <num>2</num> <seg sameAs="#balance_0049">ditto</seg></item>
+          <item><seg xml:id="vol2_0049">Vol</seg> <num>1</num> <seg xml:id="limited_0049">Limited Companies</seg></item>
+          <item><seg sameAs="#vol2_0049">ditto</seg> <num>2</num> <seg sameAs="#limited_0049">ditto</seg></item>
+          <item><seg xml:id="vol3_0049">Vol</seg> <num>1</num> <seg xml:id="pattern_0049">Pattern Cards and Show Cards</seg></item>
+          <item><seg sameAs="#vol3_0049">ditto</seg> <num>2</num> <seg sameAs="#pattern_0049">ditto</seg></item>
           <item>Accountants Building Societies Brewery</item>
           <item>Tennants</item>
           <note place="margin"><handShift medium="pencil"/><hi style="text-decoration: underline;">Cryph</hi></note>
@@ -891,7 +897,7 @@
         </list>
         <!--[end of list]-->
 
-        <ab>Why I thought a tin Case for each large buyer
+        <ab>Why I thought a tin Case for each large buyer <!--[TODO: tin cases linking]-->
           <lb/>was? at the time you thought it declining, you
           <lb/>could run thru and see at once what was about
           <lb/>due for re-ordering, and try to get it renewed
@@ -932,10 +938,10 @@
           <item>Bankers</item>
           <item>Sheffield Cooperation Water depart</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Boro of Sheffield 2 cases</item>
+          <item>Boro of Sheffield <num>2</num> cases</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
 
-          <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
+          <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note><!--[unicode X mark]-->
             <item>Miscellaneous</item>
           <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
 
@@ -947,7 +953,7 @@
             <note place="inline"><handShift medium="pencil"/>Bad debt good c<handShift medium="ink"/></note>
           <item>Gas Company</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Iron + Steel 3 cases</item>
+          <item>Iron + Steel <num>3</num> cases</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
 
           <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
@@ -995,7 +1001,7 @@
         <!--[start of list]-->
         <list style="list-style-type:upper-roman;">
           <head>Five Essentials - Old well</head>
-          <item>Seasoned paper as 298.310.300 <lb/>327.3009</item>
+          <item>Seasoned paper as <num>298.310.300</num> <lb/><num>327.3009</num></item>
           <item>Scientific <seg xml:id="ruling_0051">ruling pattern</seg></item>
           <item>Superb <seg sameAs="#ruling_0051">ditto</seg></item>
           <item>Sound binding</item>
@@ -1018,7 +1024,7 @@
           <headItem>Traveller <lb/>Bag</headItem>
 
           <label>A pattern Cards</label>
-          <item>&#8544;</item>
+          <item>&#8544;</item><!--[TODO: roman numeral]-->
 
           <label>B Binding</label>
           <item>&#8545;</item>
@@ -1052,68 +1058,68 @@
         <table rows="11" cols="3"><!--[start of table]-->
           <head style="text-decoration: underline">New Price Book</head>
           <row role="label">
-            <cell>№ of Vols</cell>
+            <cell>&#8470; of Vols</cell><!--[numero unicode]-->
             <cell></cell>
             <cell></cell>
           </row>
 
           <!--[TODO: how are these numbers related]-->
           <row>
-            <cell>2</cell>
+            <cell><num>2</num></cell>
             <cell>Foolscap</cell>
             <cell>1 to 2000</cell>
           </row>
 
           <row>
-            <cell>1</cell>
+            <cell><num>1</num></cell>
             <cell>Demy</cell>
             <cell>2001 to 3000</cell>
           </row>
 
           <row>
-            <cell>1</cell>
+            <cell><num>1</num></cell>
             <cell>Medium</cell>
             <cell>3001 to 4000</cell>
           </row>
 
           <row>
-            <cell>1</cell>
+            <cell><num>1</num></cell>
             <cell>Royal</cell>
             <cell>4001 to 5000</cell>
           </row>
 
           <row>
-            <cell>1</cell>
+            <cell><num>1</num></cell>
             <cell>Super Royal</cell>
             <cell>5001 to 6000</cell>
           </row>
 
           <row>
-            <cell>1</cell>
+            <cell><num>1</num></cell>
             <cell>Imperial</cell>
             <cell>6001 to 6300</cell>
           </row>
 
           <row>
-            <cell>1</cell>
+            <cell><num>1</num></cell>
             <cell>Sheet + Third Fcap <lb/> Sheet + Half Fcap</cell>
             <cell>7001 to 7500 <lb/> 8001 to 8500</cell>
           </row>
 
           <row>
-            <cell>1</cell>
+            <cell><num>1</num></cell>
             <cell>Post</cell>
             <cell>9001 to 9700</cell>
           </row>
 
           <row>
-            <cell>1</cell>
+            <cell><num>1</num></cell>
             <cell>Large Post</cell>
             <cell>100001 to 10700</cell>
           </row>
 
           <row>
-            <cell cols="3"><hi style="text-decoration-line: underline; text-decoration-style: double;">10 vols</hi></cell>
+            <cell cols="3"><hi style="text-decoration-line: underline; text-decoration-style: double;"><num>10</num> vols</hi></cell>
             <cell></cell>
             <cell></cell>
           </row>
@@ -1135,13 +1141,13 @@
 
           <row role="label">
             <cell>Size</cell>
-            <cell>№</cell>
+            <cell>&#8470;</cell>
             <cell cols="2">Ruling and Binding</cell>
           </row>
 
           <row>
             <cell>Fcap</cell>
-            <cell>1 to 1200</cell>
+            <cell>1 to 1200</cell><!--[TODO: reference numbers?]-->
             <cell rows="13">&#8544; to &#8553;&#8548;</cell>
             <cell rows="13">A to I</cell>
           </row>
