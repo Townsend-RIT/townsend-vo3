@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
     <body>
-        <!--[TODO:]-->
+        <!--[TODO: Find examples for the Meeting Minutes document on the Drive]-->
 
         <!--[
         ENCODER SHORTHAND REFERENCES:
@@ -55,7 +55,7 @@
                     </row>
                     <row>
                         <cell>D</cell>
-                        <cell><num type="fraction" value=".5">1/2</num> Com Morc</cell><!--[TODO: ditto referencing is annoying]-->
+                        <cell><num type="fraction" value=".5">1/2</num> Corn Morc</cell><!--[TODO: ditto referencing is annoying]-->
                     </row>
                     <cb n="2"/>
                     <row>
@@ -68,7 +68,7 @@
                     </row>
                     <row>
                         <cell>G</cell>
-                        <cell>Roan de la rue</cell><!--[TODO: french denotation?]-->
+                        <cell>Roan de la rue</cell><!--[TODO: french? denotation?]-->
                     </row>
                     <row>
                         <cell>H</cell>
@@ -205,7 +205,7 @@
 
                 <!--[start of table 4]-->
                 <table rows="4" cols="5">
-                    <head><hi style="text-decoration: underline;">Flush 1 to 3 qrs</hi></head><!--[TODO: qrs shorthand?]-->
+                    <head><hi style="text-decoration: underline;">Flush 1 to 3 <abbr>qrs</abbr>abbr></hi></head>
                     <note>In the above 15 ways of <lb>Ruling</note>
                     <row>
                         <cell></cell>
@@ -237,7 +237,7 @@
         <!--[Start of PAGE 59]-->
             <pb n="059" facs="CC20181003_Townsend_0059.tif"/>
             <fw type="page_number" place="top"></fw>
-        
+
         <!--[End of PAGE 59]-->
 
         <!--[Start of PAGE 60]-->
