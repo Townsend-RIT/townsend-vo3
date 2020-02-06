@@ -26,7 +26,7 @@
 
     <!--[CHANGED 06/02/20: Fix to floating numeral without <num> tag, fix to floating date without a <date> tag, fix and highlight to use of non-standard characters, replacement of ampersand unicode with shorthand unicode value, add of TO-DO highlight notes for later scanability]-->
 
-      <!--[Start of NUMBER 35]-->
+      <!--[Start of PAGE 35]-->
       <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
       <fw type="page_number" place="top">Y</fw>
 
@@ -158,9 +158,9 @@
           <label>Calculation books</label>
           <item><num>196</num></item>
         </list><!--[End of list]-->
-      <!--[End of NUMBER 35]-->
+      <!--[End of PAGE 35]-->
 
-      <!--[Start of NUMBER 36]-->
+      <!--[Start of PAGE 36]-->
         <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
         <fw type="page_number" place="top">1/4</fw>
 
@@ -225,9 +225,9 @@
         <fw type="page_number" place="margin" style="writing-mode: vertical-lr">Y Z</fw>
 
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 36]-->
+      <!--[End of PAGE 36]-->
 
-      <!--[Start of NUMBER 37]-->
+      <!--[Start of PAGE 37]-->
       <pb n="037" facs="CC20180917_Townsend_0037.tif"/>
       <fw type="page_number" place="top">1/2</fw>
 
@@ -252,9 +252,9 @@
         <!--[start of ab]-->
         <ab>True quietness of Heart is got by resisting our passions not by obeying them</ab>
         <!--[end of ab]-->
-      <!--[End of NUMBER 37]-->
+      <!--[End of PAGE 37]-->
 
-      <!--[Start of NUMBER 38]-->
+      <!--[Start of PAGE 38]-->
         <pb n="038" facs="CC20180917_Townsend_0038.tif"/>
         <fw type="page_number" place="top">3/4</fw>
 
@@ -286,9 +286,9 @@
             <hi rend="#flourish">Circumsised Cardinal Number 8</hi></q>
         </note><!--[end of note]-->
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 38]-->
+      <!--[End of PAGE 38]-->
 
-      <!--[Start of NUMBER 39]-->
+      <!--[Start of PAGE 39]-->
       <pb n="039" facs="CC20181003_Townsend_0039.tif"/>
       <fw type="page_number" place="top">1</fw>
 
@@ -357,9 +357,9 @@
         </table><!--[end of table]-->
 
         <note place="margin">Always open<lb/>your own letters<lb/>never depute<lb/><persName>W.J.</persName></note>
-      <!--[End of NUMBER 39]-->
+      <!--[End of PAGE 39]-->
 
-      <!--[Start of NUMBER 40]-->
+      <!--[Start of PAGE 40]-->
         <pb n="040" facs="CC20181003_Townsend_0040.tif"/>
       <fw type="page_number" place="top">2</fw>
 
@@ -376,7 +376,7 @@
       </div><!--[end of page div]-->
       <!--[End of Number 40]-->
 
-      <!--[Start of NUMBER 41]-->
+      <!--[Start of PAGE 41]-->
       <pb n="041" facs="CC20181003_Townsend_0041.tif"/>
       <fw type="page_number" place="top">3</fw>
 
@@ -463,9 +463,9 @@
         <note place="margin">Day Book<lb/>form of<lb/>Entry<lb/><unclear resp="Pochron" reason="illegible">HiKe</unclear></note>
         <!--[end of note]-->
 
-      <!--[End of NUMBER 41]-->
+      <!--[End of PAGE 41]-->
 
-      <!--[Start of NUMBER 42]-->
+      <!--[Start of PAGE 42]-->
         <pb n="042" facs="CC20181003_Townsend_0042.tif"/>
       <fw type="page_number" place="top">4</fw>
 
@@ -482,9 +482,9 @@
 
         <note place="bottom"><date when="1894-04">April/94</date>Mr Kingsford Wilson I advise Double Entry</note>
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 42]-->
+      <!--[End of PAGE 42]-->
 
-      <!--[Start of NUMBER 43]-->
+      <!--[Start of PAGE 43]-->
       <pb n="043" facs="CC20181003_Townsend_0043.tif"/>
       <fw type="page_number" place="top">5</fw>
 
@@ -514,9 +514,9 @@
           <lb/>No, now never will be such books as the books
           <lb/>of Cheeryble Brothers Vide Nicholas Nickleby þ35b
         </note>
-      <!--[End of NUMBER 43]-->
+      <!--[End of PAGE 43]-->
 
-      <!--[Start of NUMBER 44]-->
+      <!--[Start of PAGE 44]-->
         <pb n="044" facs="CC20181003_Townsend_0044.tif"/>
       <fw type="page_number" place="top">6</fw>
 
@@ -548,9 +548,9 @@
         <!--[end of ab]-->
 
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 44]-->
+      <!--[End of PAGE 44]-->
 
-      <!--[Start of NUMBER 45]-->
+      <!--[Start of PAGE 45]-->
       <pb n="045" facs="CC20181003_Townsend_0045.tif"/>
       <fw type="page_number" place="top">7</fw>
 
@@ -619,9 +619,9 @@
           <lb/>C Johnson + Station W
           <lb/>hardware elastic
         </note>
-      <!--[End of NUMBER 45]-->
+      <!--[End of PAGE 45]-->
 
-      <!--[Start of NUMBER 46]-->
+      <!--[Start of PAGE 46]-->
         <pb n="046" facs="CC20181003_Townsend_0046.tif"/>
       <fw type="page_number" place="top">8</fw>
 
@@ -692,9 +692,9 @@
           <trailer>PJO</trailer>
         </list>
         <!--[List continues after the page beginning]-->
-      <!--[End of NUMBER 46]-->
+      <!--[End of PAGE 46]-->
 
-      <!--[Start of NUMBER 47]-->
+      <!--[Start of PAGE 47]-->
           <pb n="047" facs="CC20181003_Townsend_0047.tif"/>
           <fw type="page_number" place="top">9</fw>
 
@@ -736,9 +736,9 @@
           <lb/>we can, very helpful to pay our monthly bills
           <lb/>and less risk
         </ab>
-      <!--[End of NUMBER 47]-->
+      <!--[End of PAGE 47]-->
 
-      <!--[Start of NUMBER 48]-->
+      <!--[Start of PAGE 48]-->
         <pb n="048" facs="CC20181003_Townsend_0048.tif"/>
         <fw type="page_number" place="top">10</fw>
 
@@ -787,9 +787,9 @@
           <item>Young man + young lady</item>
         </list>
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 48]-->
+      <!--[End of PAGE 48]-->
 
-      <!--[Start of NUMBER 49]-->
+      <!--[Start of PAGE 49]-->
       <pb n="049" facs="CC20181003_Townsend_0049.tif"/>
         <fw type="page_number" place="top">11</fw>
 
@@ -836,9 +836,9 @@
           <date when="1909-11-03">Nov 03 1909</date>
         </ab>
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 49]-->
+      <!--[End of PAGE 49]-->
 
-      <!--[Start of NUMBER 50]-->
+      <!--[Start of PAGE 50]-->
       <pb n="050" facs="CC20181003_Townsend_0050.tif"/>
       <fw type="page_number" place="top">12</fw>
 
@@ -903,9 +903,9 @@
             <note place="inline"><handShift medium="pencil"/>C <name xml:id="PJO">P.J.O</name><handShift medium="ink"/></note>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 50]-->
+      <!--[End of PAGE 50]-->
 
-      <!--[Start of NUMBER 51]-->
+      <!--[Start of PAGE 51]-->
       <pb n="051" facs="CC20181003_Townsend_0051.tif"/>
       <fw type="page_number" place="top">13</fw>
 
@@ -929,9 +929,9 @@
           <item><seg sameAs="#good_0051">ditto</seg> opener + finisher off</item>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 51]-->
+      <!--[End of PAGE 51]-->
 
-      <!--[Start of NUMBER 52]-->
+      <!--[Start of PAGE 52]-->
       <pb n="052" facs="CC20181003_Townsend_0052.tif"/>
       <fw type="page_number" place="top">14</fw>
 
@@ -965,9 +965,9 @@
           <item>&#8550;</item>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 52]-->
+      <!--[End of PAGE 52]-->
 
-      <!--[Start of NUMBER 53]-->
+      <!--[Start of PAGE 53]-->
       <pb n="053" facs="CC20181003_Townsend_0053.tif"/>
       <fw type="page_number" place="top">15</fw>
 
@@ -1045,9 +1045,9 @@
           </row>
         </table><!--[end of table]-->
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 53]-->
+      <!--[End of PAGE 53]-->
 
-      <!--[Start of NUMBER 54]-->
+      <!--[Start of PAGE 54]-->
       <pb n="054" facs="CC20181003_Townsend_0054.tif"/>
       <fw type="page_number" place="top">16</fw>
 
@@ -1137,7 +1137,7 @@
           </trailer>
         </table><!--[end of table]-->
       </div><!--[end of page div]-->
-      <!--[End of NUMBER 54]-->
+      <!--[End of PAGE 54]-->
     </body>
   </text>
 </TEI>
