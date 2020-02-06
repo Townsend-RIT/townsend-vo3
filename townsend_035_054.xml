@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
     <body>
-    <!--[TODO: add <div> @type attribute, standardize use of unicode across the page sets, use <num> for everything]-->
+    <!--[TODO: add <div> @type attribute, regularize full stop sentences with a period]-->
 
     <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb/> use confusion fix]-->
 
@@ -166,12 +166,9 @@
 
         <!--[start of div type insert]-->
         <div type="insert">
-          <facsimile>
-            <surface attachment="glued">
+          <gap reason="editorial">
               <desc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</desc>
-              <graphic url="CC20180917_Townsend_0036_inset.tif"/>
-            </surface>
-          </facsimile>
+          </gap>
         </div>
         <!--[end of div type insert]-->
 
@@ -543,7 +540,7 @@
           <lb/>I think of trying a stair case
           <lb/>removing &#8470; Safe and fitting<!--[numero unicode]-->
           <lb/>up nicely for Master and Special
-          <note place="bottom">to page 73 forward</note><!--[TODO: future linking]-->
+          <note place="bottom">to page <num type="pageNum">73</num> forward</note><!--[TODO: future linking]-->
         </ab>
         <!--[end of ab]-->
 
@@ -585,8 +582,8 @@
             <item>Title a/c</item>
             <item><num>7</num> pages a/c book patterns
               <list>
-                <item><!--[ TODO : future linking page]--> of them <num>3</num> on a page 18</item>
-                <item><num>1</num> of them <num>4</num> on a page 4</item>
+                <item><!--[ TODO : future linking page]--> of them <num>3</num> on a page <num type="pageNum">18</num></item>
+                <item><num>1</num> of them <num>4</num> on a page <num type="pageNum">4</num></item>
                 <item>22</item>
               </list>
             </item>
@@ -944,25 +941,25 @@
           <headItem>Traveller <lb/>Bag</headItem>
 
           <label>A pattern Cards</label>
-          <item>&#8544;</item><!--[TODO: roman numeral]-->
+          <item><num type="roman" value="1">I</num></item>
 
           <label>B Binding</label>
-          <item>&#8545;</item>
+          <item><num type="roman" value="2">II</num></item>
 
           <label>C Writings</label>
-          <item>&#8546;</item>
+          <item><num type="roman" value="3">III</num></item>
 
           <label>D Printing</label>
-          <item>&#8547;</item>
+          <item><num type="roman" value="4">IV</num></item>
 
           <label>E Litho</label>
-          <item>&#8548;</item>
+          <item><num type="roman" value="5">V</num></item>
 
           <label>F Factored</label>
-          <item>&#8549;</item>
+          <item><num type="roman" value="6">VI</num></item>
 
           <label>H Heavy</label>
-          <item>&#8550;</item>
+          <item><num type="roman" value="7">VII</num></item>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
       <!--[End of PAGE 52]-->
