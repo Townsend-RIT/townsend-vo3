@@ -18,81 +18,97 @@
   </teiHeader>
   <text>
     <body>
-        <!--[TODO: ]-->
+        <!--[TODO:]-->
 
-        <!--[CHANGED 06/02/20: ]-->
+        <!--[NOTE: #55: table that looks like it has 4 columns is actually a 2 column table but cut in half]-->
 
-        <!--[Start of NUMBER 55]-->
+        <!--[CHANGED 06/02/20:]-->
+
+        <!--[Start of PAGE 55]-->
             <pb n="055" facs="CC20180917_Townsend_0055.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 55]-->
+            <div type="NULL">
+                <head style="text-decoration: underline;">1 to 2000<lb/>Fcap</head>
+                <table rows="9" cols="2">
+                    <row>
+                        <cell>A</cell>
+                        <cell>Full Rough Calf</cell>
+                    </row>
+                    <row>
+                        <cell>B</cell>
+                        <cell>Full Com Movc</cell><!--[TODO:]-->
+                    </row>
 
-        <!--[Start of NUMBER 56]-->
+                </table>
+            </div>
+        <!--[End of PAGE 55]-->
+
+        <!--[Start of PAGE 56]-->
             <pb n="056" facs="CC20180917_Townsend_0056.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 56]-->
+        <!--[End of PAGE 56]-->
 
-        <!--[Start of NUMBER 57]-->
+        <!--[Start of PAGE 57]-->
             <pb n="057" facs="CC20180917_Townsend_0057.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 57]-->
+        <!--[End of PAGE 57]-->
 
-        <!--[Start of NUMBER 58]-->
+        <!--[Start of PAGE 58]-->
             <pb n="058" facs="CC20180917_Townsend_0058.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 58]-->
+        <!--[End of PAGE 58]-->
 
-        <!--[Start of NUMBER 59]-->
+        <!--[Start of PAGE 59]-->
             <pb n="059" facs="CC20181003_Townsend_0059.tif"/>
             <fw type="page_number" place="top"></fw>
         
-        <!--[End of NUMBER 59]-->
+        <!--[End of PAGE 59]-->
 
-        <!--[Start of NUMBER 60]-->
+        <!--[Start of PAGE 60]-->
             <pb n="060" facs="CC20181003_Townsend_0060.tif"/>
             <fw type="page_number" place="top"></fw>
 
         <!--[End of Number 60]-->
 
-        <!--[Start of NUMBER 61]-->
+        <!--[Start of PAGE 61]-->
             <pb n="061" facs="CC20181003_Townsend_0061.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 61]-->
+        <!--[End of PAGE 61]-->
 
-        <!--[Start of NUMBER 62]-->
+        <!--[Start of PAGE 62]-->
             <pb n="062" facs="CC20181003_Townsend_0062.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 62]-->
+        <!--[End of PAGE 62]-->
 
-        <!--[Start of NUMBER 63]-->
+        <!--[Start of PAGE 63]-->
             <pb n="063" facs="CC20181003_Townsend_0063.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 63]-->
+        <!--[End of PAGE 63]-->
 
-        <!--[Start of NUMBER 64]-->
+        <!--[Start of PAGE 64]-->
             <pb n="064" facs="CC20181003_Townsend_0064.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 64]-->
+        <!--[End of PAGE 64]-->
 
-        <!--[Start of NUMBER 65]-->
+        <!--[Start of PAGE 65]-->
             <pb n="065" facs="CC20181003_Townsend_0065.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 65]-->
+        <!--[End of PAGE 65]-->
 
-        <!--[Start of NUMBER 66]-->
+        <!--[Start of PAGE 66]-->
             <pb n="066" facs="CC20181003_Townsend_0066.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of NUMBER 66]-->
+        <!--[End of PAGE 66]-->
     </body>
   </text>
 </TEI>
