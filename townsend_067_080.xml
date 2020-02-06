@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<?xml-model href="../../../Downloads/townsend-test-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -22,102 +23,88 @@
             <divGen type="toc"/>
         </front>
         <body>
-            <p>My TEI Customization starts with modules tei, core, textstructure and header</p>
-            <schemaSpec ident="myTEI" docLang="en" prefix="tei_" xml:lang="en">
-                <moduleRef key="header" except=""/>
-                <moduleRef key="core" except="add addrLine analytic author biblScope biblStruct binaryObject cit
-                    citedRange distinct divGen editor email foreign gb imprint l lg listBibl
-                    measureGrp media meeting mentioned monogr p postBox postCode quote relatedItem
-                    rs said series soCalled sp speaker stage street unit"/>
-                <moduleRef key="textstructure" except="argument back byline closer dateline div1 div2
-                    div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph
-                    floatingText group imprimatur opener postscript salute signed text titlePage titlePart"/>
-                <moduleRef key="transcr" except="addSpan am damage damageSpan delSpan ex facsimile
-                    handNotes line listTranspose metamark mod path redo restore retrace secl
-                    sourceDoc space subst substJoin supplied surface surfaceGrp surplus transpose undo zone"/>
-                <moduleRef key="namesdates" except="addName affiliation age birth bloc climate
-                    country death district education event faith floruit forename genName geo
-                    geogFeat geogName langKnowledge langKnown listEvent listNym listObject listOrg
-                    listPerson listPlace listRelation location nameLink nationality nym object
-                    objectIdentifier objectName occupation offset org person personGrp persona place
-                    population region relation residence roleName settlement sex socecStatus state
-                    surname terrain trait"/>
-                <moduleRef key="msdescription" except=""/>
-                <moduleRef key="figures" except="formula notatedMusic"/>
-                <moduleRef key="linking" except="alt altGrp join joinGrp linkGrp timeline when"/>
-                    <elementSpec ident="measure" module="core" mode="change">
-                        <attList>
-                            <attDef ident="ana" mode="change" usage="req">
-                                <valList type="closed" mode="replace">
-                                    <valItem ident="business"/>
-                                    <valItem ident=" wage"/>
-                                    <valItem ident=" finance"/>
-                                    <valItem ident=" commerce"/>
-                                    <valItem ident=" money"/>
-                                    <valItem ident=" pound"/>
-                                    <valItem ident=" shilling"/>
-                                    <valItem ident=" pence"/>
-                                    <valItem ident=" bookbinding"/>
-                                    <valItem ident=" materials"/>
-                                    <valItem ident=" dimensions"/>
-                                    <valItem ident=" paper"/>
-                                    <valItem ident=" boards"/>
-                                    <valItem ident=" glue"/>
-                                    <valItem ident=" leather"/>
-                                    <valItem ident=" ribbon"/>
-                                    <valItem ident=" tape"/>
-                                    <valItem ident=" staff"/>
-                                    <valItem ident=" hours"/>
-                                    <valItem ident=" days"/>
-                                    <valItem ident=" other"/>
-                                </valList>
-                            </attDef>
-                            <attDef ident="commodity" mode="delete"/>
-                            <attDef ident="quantity" mode="delete"/>
-                            <attDef ident="type" mode="delete"/>
-                            <attDef ident="unit" mode="delete"/>
-                        </attList>
-                    </elementSpec>
-                <elementSpec ident="div" module="textstructure" mode="change">
-                    <attList>
-                        <attDef ident="type" mode="change" usage="req">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="principle"/>
-                                <valItem ident=" ethic"/>
-                                <valItem ident=" log"/>
-                                <valItem ident=" advice"/>
-                                <valItem ident=" instruction"/>
-                                <valItem ident=" insert"/>
-                                <valItem ident=" other"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-                <elementSpec ident="handShift" module="transcr" mode="change">
-                    <attList>
-                        <attDef ident="medium" mode="change" usage="req">
-                            <valList type="closed" mode="replace">
-                                <valItem ident="pencil"/>
-                                <valItem ident="ink"/>
-                            </valList>
-                        </attDef>
-                    </attList>
-                </elementSpec>
-            </schemaSpec>
             <!-- START PAGE 67 -->
             <pb n="0067" facs="0067.tif"/>
             <fw type="page_number" place="top">29</fw>
-            
+            <div type="insert"><ab style="writing mode: vertical-lr; text-orientation: sideways-left">
+                <lb/>To 
+                <choice>
+                    <abbr>A/c</abbr>
+                    <expan>Accounting</expan>
+                </choice> book Making
+                <lb/>YOUR SPECIAL ATTENTION IS REQUIRED TO THE FOLLOWING.
+                <lb/>The <seg xml:id="large_0067">Large</seg> Super Royal <seg xml:id="ledgers_0067">Ledgers</seg> <unclear>Gev</unclear> <seg xml:id="bank_0067">Bank</seg>
+                <lb/> <seg sameAs="#large_0067">ditto</seg> Royal <seg sameAs="#ledgers_0067">ditto</seg> Hall <seg sameAs="#bank_0067">ditto</seg>
+                <lb/>Remedy have both complained the loose back is too soft +
+                <lb/>flexible by use to <unclear>thron</unclear> the book flat -- Driver is trying a
+                <lb/>Zinc plate inside the loose back WILLIAM TOWNSEND,
+                <lb/>to be watched keenly to see how it wears Date, <date when="1892-09-10">Sep 10 1892</date>
+            </ab></div> <!-- how to distinguish between handwriting and printed text in inserts? -->
+            <div type="other"><ab style="writing mode: vertical-lr; text-orientation: sideways-left">
+                <lb/><orgName><unclear>J+R</unclear> Bank</orgName> beginning sections of the 
+                <choice>
+                    <abbr>No1</abbr>
+                    <expan>Number 1</expan>
+                </choice> <choice>
+                    <abbr>sup</abbr>
+                    <expan>super</expan>
+                </choice> royal Ledger thread has
+                <lb/>broken Drivers remedy is that all large Ledgers 10 grs and upwards
+                <lb/>should be sewn with Cat Gut for the first and last 5 sections
+                <lb/>to prevent
+            </ab>
+            <ab style="writing mode: vertical-lr; text-orientation: sideways-left">
+                <lb/>this way <unclear>cavied</unclear> out on every <unclear>Brandxt</unclear>
+                <lb/>Ledger every Thickness <date when="1893-03">March 18/93</date>
+            </ab></div> <!-- Include as an example in IED -->
+            <div type="insert">
+                <figure>
+                    <desc>Remark by a bank on paper quality.</desc>
+                    <graphic url="0067_insert.tif"/>
+                </figure>
+            </div>
             <!-- END PAGE 67 -->
             <!-- START PAGE 68 -->
             <pb n="0068" facs="0068.tif"/>
             <fw type="page_number" place="top">30</fw>
-            
+                <div type="other">
+                    <note>
+                        <lb/><emph style="underline">Mills</emph>
+                        <lb/>58-60 Writings <seg xml:id="keep_0068">Keep</seg> <seg xml:id="seasoning_0068">Seasoning</seg> <seg xml:id="at_0068">at</seg> 58-60, 310
+                        <lb/>dry cool air Blottings <seg sameAs="keep_0068">ditto</seg> <seg sameAs="seasoning_0068">ditto</seg> <seg sameAs="at_0068">ditto</seg> a dry 428
+                        <lb/>cool Air
+                    </note> <!-- Formatting??? -->
+                    <head>The Secret of Making Account Books durable sound + good I call <emph style="double_underline">Best</emph><emph style="triple_underline">Bankers Way</emph></head>
+                    <ab>
+                        <lb/>have your Paper well made
+                        <lb/>by a talented Man strong, dura <!-- How are we handling words that break over lines? Not in IED -->
+                        <lb/>ble fibrous good colour free from
+                        <lb/>hairs as well as the repute of a
+                        <lb/>good Mill like 298 310 324 300 327 <!-- Are these page numbers? Addresses?  -->
+                        <lb/>use your judgement by how it rules
+                        <lb/>scrapes smells give it a years sea-
+                        <lb/>-soning <name>M Green</name> 310 advises old
+                        <lb/>before using and whatman also
+                    </ab>
+                    <ab>
+                        <lb/>Well ruled with the best made
+                        <lb/>Known ink and that will book well
+                        <lb/>and stand its colour years
+                    </ab>
+                    <ab>
+                        <lb/>Carefully + Well made up in
+                        <lb/><persName>Thomas'</persName> Firm they had a man to do it
+                        <lb/>sections lined with tape inside sheets
+                    </ab>
+                    <note>PJO</note> <!-- Initials? -->
+                </div>
             <!-- END PAGE 68 -->
             <!-- START PAGE 69 -->
             <pb n="0068" facs="0068.tif"/>
             <fw type="page_number" place="top">31</fw>
-            
+            <div type="other">
+                
+            </div>
             <!-- END PAGE 69 -->
             <!-- START PAGE 70 -->
             <pb n="0070" facs="0070.tif"/>
