@@ -58,10 +58,9 @@
                 <lb/>Ledger every Thickness <date when="1893-03">March 18/93</date>
             </ab></div> <!-- Include as an example in IED -->
             <div type="insert">
-                <figure>
+                <gap reason="editorial">
                     <desc>Remark by a bank on paper quality.</desc>
-                    <graphic url="0067_insert.tif"/>
-                </figure>
+                </gap>
             </div>
             <!-- END PAGE 67 -->
             <!-- START PAGE 68 -->
