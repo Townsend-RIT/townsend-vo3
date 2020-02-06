@@ -40,6 +40,7 @@
 
                 <!--[reference table for tables following on this page]-->
                 <table rows="9" cols="2">
+                    <cb n="1"/>
                     <row>
                         <cell>A</cell>
                         <cell>Full Rough Calf</cell>
@@ -56,6 +57,7 @@
                         <cell>D</cell>
                         <cell><num type="fraction" value=".5">1/2</num> Com Morc</cell><!--[TODO: ditto referencing is annoying]-->
                     </row>
+                    <cb n="2"/>
                     <row>
                         <cell>E</cell>
                         <cell><num type="fraction" value=".5">1/2</num> red brazil</cell>
