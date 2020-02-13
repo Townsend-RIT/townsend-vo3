@@ -18,13 +18,14 @@
   </teiHeader>
   <text>
     <body>
-        <!--[TODO: Find examples for the Meeting Minutes document on the Drive, abbreviate 4to, 6s, 8vo, thro, com, folio(?), dble, fo (FIND + REPLACE ALL)]-->
+        <!--[TODO: Find examples for the Meeting Minutes document on the Drive, abbreviate 4to, 6s, 8vo, thro, com, folio(?), dble, fo (FIND + REPLACE ALL), add <table> with trailer to IED for examples, add <num> elements to ALL numbers]-->
 
         <!--[
         ENCODER SHORTHAND REFERENCES:
-        DITTO: <seg xml:id="identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
+        DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
         DITTO (cont): Encoders replacing dittos with respective word references rather than using system for testing purposes
         UNDERLINED TEXT: "style="text-decoration: underline;"
+        ROMAN NUMERALS: <num type="roman" value=""></num>
         ]-->
 
         <!--[NOTE: #55: table that looks like it has 4 columns is actually a 2 column table but cut in half]-->
@@ -33,7 +34,7 @@
 
         <!--[CHANGED 12/02/20: End page 55 and begin page 56, again choosing to ignore ditto marks and hard encode what the ditto is referencing]-->
 
-        <!--[CHANGED 13/02/20: End page 56, use of @rows and @cols attributes for <cell> elements, marked TODO to implement a horizontal line break, end of page 57]-->
+        <!--[CHANGED 13/02/20: End page 56, use of @rows and @cols attributes for <cell> elements, marked TO-DO to implement a horizontal line break, end of page 57]-->
 
         <!--[Start of PAGE 55]-->
             <pb n="055" facs="CC20180917_Townsend_0055.tif"/>
