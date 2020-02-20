@@ -64,7 +64,7 @@
                 <!-- END PAGE 0013 -->
                 <!-- START PAGE 0014 -->
                 <pb facs="0014.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">A B</fw>
+                <fw type="tab">A <lb /> B</fw>
                 <list type="index-b">
                     <label><handShift medium="ink" />Binders good <date when="1909-12">Dec 1909</date></label><item><num type="pageNum">193</num></item>
                     <label>Bookeeping</label><item><num type="pageNum">93</num> <num type="pageNum">105</num> <num type="pageNum">10</num> <num type="pageNum">3</num>Y</item>
@@ -137,7 +137,7 @@
                 <!-- END PAGE 0015 -->
                 <!-- START PAGE 0016 -->
                 <pb facs="0016.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">C D</fw>
+                <fw type="tab">C <lb /> D</fw>
                 <list type="index-d">
                     <label>Days A working <date when="1905-11-16">Nov 16/1905</date></label><item><num type="pageNum">284</num></item>
                     <label>Days Work A</label><item><num type="pageNum">73</num></item>
@@ -194,7 +194,7 @@
                 <!-- END PAGE 0017 -->
                 <!-- START PAGE 0018 -->
                 <pb facs="0018.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">E F</fw>
+                <fw type="tab">E <lb /> F</fw>
                 <list type="index-f">
                     <label><handShift medium="pencil" />Feeding at ruling machine</label><item><num type="pageNum">234</num></item>
                     <label><handShift medium="ink" /> Free Library Contract</label><item><num type="pageNum">272</num> <num type="pageNum">269</num></item>
@@ -254,7 +254,7 @@
                 <!-- END PAGE 0019 -->
                 <!-- START PAGE 0020 -->
                 <pb facs="0020.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">G H</fw>
+                <fw type="tab">G <lb /> H</fw>
                 <list type="index-h">
                     <label><handShift medium="ink" /><seg xml:id="holiday_0020">Holidays</seg> and <seg xml:id="absence_0020">Absence</seg></label><item><num type="pageNum">98</num></item>
                     <label><seg sameAs="#holiday_0020">ditto</seg> <seg sameAs="#absence_0020">ditto</seg></label><item><num type="pageNum">99</num></item>
@@ -322,7 +322,7 @@
                 <!-- END PAGE 0021 -->
                 <!-- START PAGE 0022 -->
                 <pb facs="0022.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">J K</fw>
+                <fw type="tab">J <lb /> K</fw>
                 <list type="index-k">
                     <label><handShift medium="ink" /><seg xml:id="key_to_0022">Key to 
                         <choice>
@@ -389,7 +389,7 @@
                 <!-- END PAGE 0023 -->
                 <!-- START PAGE 0024 -->
                 <pb facs="0024.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">L M</fw>
+                <fw type="tab">L <lb /> M</fw>
                 <list type="index-m">
                     <label>Morning and Afternood Workshop visits</label><item><num type="pageNum">205</num></item>
                     <label>Minutes Estimate &amp; loss of</label><item><num type="pageNum">248</num></item>
@@ -443,7 +443,7 @@
                 <!-- END PAGE 0025 -->
                 <!-- START PAGE 0026 -->
                 <pb facs="0026.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">N O</fw>
+                <fw type="tab">N <lb /> O</fw>
                 <list type="index-o">
                     <label>Orders treatment of</label><item><num type="pageNum">297</num></item>
                     <label><seg xml:id="office_0026">Office</seg> Salaries</label><item><num type="pageNum">300</num></item>
@@ -513,7 +513,7 @@
                 <!-- END PAGE 0027 -->
                 <!-- START PAGE 0028 -->
                 <pb facs="0028.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">P Q</fw>
+                <fw type="tab">P <lb /> Q</fw>
                 <list type="index-q">
                     <label>Quality of Work</label><item><num type="pageNum">28</num></item>
                     <label>Quoted prices not to be exceeded</label><item><num type="pageNum">356</num></item>
@@ -584,7 +584,7 @@
                 <!-- END PAGE 0029 -->
                 <!-- START PAGE 0030 -->
                 <pb facs="0030.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">R S</fw>
+                <fw type="tab">R <lb /> S</fw>
                 <list type="index-s">
                     <label>Sewing 
                     <choice>
@@ -680,7 +680,7 @@
                 <!-- END PAGE 0031 -->
                 <!-- START PAGE 0032 -->
                 <pb facs="0032.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">T V</fw>
+                <fw type="tab">T <lb /> V</fw>
                 <list type="index-uv">
                     <label>Union of Prices idea</label><item><num type="pageNum">271</num></item>
                     <label>Union jottings complaints of</label><item><num type="pageNum">180</num> <num type="pageNum">341</num></item>
@@ -741,7 +741,7 @@
                 <!-- END PAGE 0033 -->
                 <!-- START PAGE 0034 -->
                 <pb facs="0034.tif" />
-                <fw type="page_number" place="margin" style="writing-mode: vertical-lr">W X</fw>
+                <fw type="tab">W <lb /> X</fw>
                 <list type="index-w">
                     <label>Work Progress of 
                     <choice>
