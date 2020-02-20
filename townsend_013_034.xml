@@ -158,7 +158,11 @@
                     <label>Day Book idea</label><item><num type="pageNum">229</num></item>
                 </list>
                 <list type="index-c">
-                    <label>Charges Working</label><item><num type="pageNum">120</num> <num type="pageNum">119</num></item>
+                    <label>Charges Working</lab<lb/>To 
+                        <choice>
+                            <abbr>A/c</abbr>
+                            <expan>Accounting</expan>
+                        </choice> book Makingel><item><num type="pageNum">120</num> <num type="pageNum">119</num></item>
                     <label>Club Our</label><item><num type="pageNum">350</num></item>
                     <label>Charging Notes on</label><item><num type="pageNum">252</num> <num type="pageNum">143</num></item>
                     <label><handShift medium="pencil" /><placeName>Sheffield City</placeName></label><item><num type="pageNum">120</num></item>
@@ -272,7 +276,7 @@
                     <label>Index scale and stock</label><item><num type="pageNum">52</num></item>
                     <label>Index <choice>
                         <abbr>Nº</abbr>
-                        <expan>Numero</expan>
+                        <expan>Number</expan>
                     </choice> of stock</label><item><num type="pageNum">23</num> <num type="pageNum">18</num></item>
                     <label><choice>
                         <orig>Indexs</orig>
@@ -290,7 +294,7 @@
                     </choice> calculation book
                     <choice>
                         <abbr>Nº</abbr>
-                        <expan>Numero</expan>
+                        <expan>Number</expan>
                     </choice></label><item><num type="pageNum">1501</num></item>
                     <label>Journey</label><item><num type="pageNum">67</num></item>
                     <label>Journey 
@@ -327,7 +331,7 @@
                         </choice></seg> <seg xml:id="ac_book_pattern_nos_0022">book pattern</seg> 
                     <choice>
                         <abbr>Nos</abbr>
-                        <expan>Numeros</expan>
+                        <expan>Numbers</expan>
                     </choice></label><item><num type="pageNum">17</num></item>
                     <label><seg sameAs="#key_to_0022">ditto</seg> <seg sameAs="#ac_book_pattern_nos_0022">ditto</seg></label><item><num type="pageNum">60</num></item>
                     <label><seg sameAs="#key_to_0022">ditto</seg> <seg sameAs="#ac_book_pattern_nos_0022">ditto</seg></label><item><num type="pageNum">59</num></item>
