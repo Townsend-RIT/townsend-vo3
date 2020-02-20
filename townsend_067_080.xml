@@ -26,7 +26,7 @@
             <!-- START PAGE 67 -->
             <pb n="0067" facs="0067.tif"/>
             <fw type="page_number" place="top">29</fw>
-            <div type="insert"><ab style="writing mode: vertical-lr; text-orientation: sideways-left">
+            <div type="insert"><ab style="writing mode: sideways-lr">
                 <lb/>To 
                 <choice>
                     <abbr>A/c</abbr>
@@ -40,7 +40,7 @@
                 <lb/>Zinc plate inside the loose back WILLIAM TOWNSEND,
                 <lb/>to be watched keenly to see how it wears Date, <date when="1892-09-10">Sep 10 1892</date>
             </ab></div> <!-- how to distinguish between handwriting and printed text in inserts? -->
-            <div type="other"><ab style="writing mode: vertical-lr; text-orientation: sideways-left">
+            <div type="other"><ab style="writing mode: sideways-lr">
                 <lb/><orgName><unclear>J+R</unclear> Bank</orgName> beginning sections of the 
                 <choice>
                     <abbr>No1</abbr>
@@ -53,7 +53,7 @@
                 <lb/>should be sewn with Cat Gut for the first and last 5 sections
                 <lb/>to prevent
             </ab>
-            <ab style="writing mode: vertical-lr; text-orientation: sideways-left">
+                <ab style="writing mode: sideways-lr">
                 <lb/>this way <unclear>cavied</unclear> out on every <unclear>Brandxt</unclear>
                 <lb/>Ledger every Thickness <date when="1893-03">March 18/93</date>
             </ab></div> <!-- Include as an example in IED -->
