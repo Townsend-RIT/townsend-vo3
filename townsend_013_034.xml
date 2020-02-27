@@ -478,8 +478,8 @@
                     <label>Over sheets ruling + printing</label><item><num type="pageNum">21</num></item>
                     <label>Old time hours</label><item></item>
                     <label>Observations as I pass <choice>
-                        <sic>thro</sic>
-                        <corr>through</corr>
+                        <abbr>thro</abbr>
+                        <expan>through</expan>
                     </choice> the shop</label><item><num type="pageNum">193</num></item>
                 </list>
                 <!-- END PAGE 0026 -->
