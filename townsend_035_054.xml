@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
     <body>
-    <!--[TODO: add <div> @type attribute, regularize full stop sentences with a period]-->
+    <!--[TODO: add <div> @type attribute, regularize full stop sentences with a period, look over pages for addresses]-->
 
     <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb/> use confusion fix]-->
 
@@ -93,9 +93,9 @@
               <lb/>Wed 10am list of doubtful
               <lb/>a/c complaints + remarks
               <!--[+ mentally noted as 'and' yet preserved in the text]-->
-              <hi style="font-weight: bold;">
+              <emph style="font-weight: bold;">
                 <lb/>Contents No of Tin Cases <num>12</num>
-              </hi>
+              </emph>
             </cell>
             <cell>Trade Ledger</cell>
           </row><!--[End of row]-->
@@ -280,7 +280,7 @@
         <note place="bottom">
           <q type="biblical">and he that is eight days old<lb/>shall be circumsised
             <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
-            <hi rend="#flourish">Circumsised Cardinal Number 8</hi></q>
+            <emph rend="#flourish">Circumsised Cardinal Number 8</emph></q>
         </note><!--[end of note]-->
       </div><!--[end of page div]-->
       <!--[End of PAGE 38]-->
@@ -378,7 +378,7 @@
       <fw type="page_number" place="top">3</fw>
 
       <div type="page"><!--[start of page div]-->
-        <head place="top opposite">Bookeeping <hi style="text-decoration: underline; text-decoration-style: double;">Double</hi>Entry</head>
+        <head place="top opposite">Bookeeping <emph style="text-decoration: underline; text-decoration-style: double;">Double</emph>Entry</head>
 
         <ab>Have "Day Book" very carefully<lb/>added and analysed every Month</ab>
 
@@ -387,9 +387,9 @@
         <!--[start of table]-->
         <table rows="1" cols="3">
           <row>
-            <cell>Cash<lb/>as<lb/><hi style="text-decoration: underline;">Bank</hi> Book</cell>
-            <cell>Abatements<lb/>as<lb/><hi style="text-decoration: underline;">"Masters"</hi> initials</cell>
-            <cell>Not Paid<lb/>as<lb/>Written list + <hi style="text-decoration: underline;">why</hi></cell>
+            <cell>Cash<lb/>as<lb/><emph style="text-decoration: underline;">Bank</emph> Book</cell>
+            <cell>Abatements<lb/>as<lb/><emph style="text-decoration: underline;">"Masters"</emph> initials</cell>
+            <cell>Not Paid<lb/>as<lb/>Written list + <emph style="text-decoration: underline;">why</emph></cell>
           </row>
         </table>
         <!--[end of table]-->
@@ -402,10 +402,10 @@
 
           <row role="label">
             <cell>
-              <hi style="text-decoration: underline;">Thus</hi>
+              <emph style="text-decoration: underline;">Thus</emph>
             </cell>
             <cell>
-              <hi style="text-decoration: underline;">Sales £<num>2700.6.7</num></hi><!--[TODO: unicode]-->
+              <emph style="text-decoration: underline;">Sales £<num>2700.6.7</num></emph><!--[TODO: unicode]-->
             </cell>
           </row>
 
@@ -436,7 +436,7 @@
 
           <row>
             <cell><!--[empty cell]--></cell>
-            <cell style="border-top-style: solid"><hi style="text-decoration-line: underline; text-decoration-style: double;">£ <num>2700 6 7</num></hi></cell>
+            <cell style="border-top-style: solid"><emph style="text-decoration-line: underline; text-decoration-style: double;">£ <num>2700 6 7</num></emph></cell>
           </row>
 
           <!--[start of trailer]-->
@@ -470,7 +470,7 @@
 
         <!--[start of ab]-->
         <ab>Have Monthly Balancings to<lb/>see prospectively how things are<lb/>every <num type="ordinal">20th</num> of the Month I like<lb/>
-          <note place="below">Hook it from <hi style="text-decoration-line: underline;"><unclear resp="Pochron" reason="illegible">M Fox</unclear></hi></note>
+          <note place="below">Hook it from <emph style="text-decoration-line: underline;"><unclear resp="Pochron" reason="illegible">M Fox</unclear></emph></note>
           <lb/>and Quaterly Balancings<lb/>of every Book Debit and Credit<lb/>that is what you owe and is owning<lb/>to you. say<date when="--01-20">Jan 20</date><date when="--04-20">April 20</date><date when="--07-20">July 20</date><date when="--10-20">Oct 20</date>
           <lb/>Check every item with Day Book from<lb/>the Order Book to be sure all is entered<persName>WJ</persName>
           <lb/>Orders in Safe - Cross every<lb/>order in Day Book with Red<lb/>tick before putting in Safe - the<lb/>Red tick signifies there is an<lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
@@ -528,7 +528,7 @@
           <lb/><num>7</num><seg sameAs="#pm_0044">ditto</seg> Clear up for the day
           <lb/>Search Neglect or an indefatigable
           <lb/>unwearied Order Book Clerk to
-          <lb/>see to arrears but the <hi style="text-decoration-line: underline;">Master is best at this</hi>
+          <lb/>see to arrears but the <emph style="text-decoration-line: underline;">Master is best at this</emph>
           <lb/><date when="1891-05-02">May <num type="ordinal">2nd</num> 1891</date>
         </ab>
         <!--[end of ab]-->
@@ -572,7 +572,7 @@
         </list>
         <!--[end of list]-->
 
-        <note place="left margin"><hi style="text-decoration: underline;">Travellers Companion</hi></note>
+        <note place="left margin"><emph style="text-decoration: underline;">Travellers Companion</emph></note>
 
         <note place="below"><!--[start of note]-->
           <note place="left margin"><num>100</num> Copies</note>
@@ -728,7 +728,7 @@
         </list><!--[end of list]-->
 
         <ab>send binding invoices with discretion it
-          <lb/>leads to them being paid if delayed perhaps <hi style="text-decoration: underline;">Never</hi>
+          <lb/>leads to them being paid if delayed perhaps <emph style="text-decoration: underline;">Never</emph>
           <lb/>send Monthly a/c to all with discretion that
           <lb/>we can, very helpful to pay our monthly bills
           <lb/>and less risk
@@ -750,7 +750,7 @@
 
         <note place="below">Travellers
           <lb/>Call
-          <lb/><hi style="text-decoration: underline;">Due and Past Due</hi>
+          <lb/><emph style="text-decoration: underline;">Due and Past Due</emph>
         </note>
 
         <list style="list-style-type:none;">
@@ -806,7 +806,7 @@
           <item><seg sameAs="#vol3_0049">ditto</seg> <num>2</num> <seg sameAs="#pattern_0049">ditto</seg></item>
           <item>Accountants Building Societies Brewery</item>
           <item>Tennants</item>
-          <note place="margin"><handShift medium="pencil"/><hi style="text-decoration: underline;">Cryph</hi></note>
+          <note place="margin"><handShift medium="pencil"/><emph style="text-decoration: underline;">Cryph</emph></note>
           <item><handShift medium="ink"/>Order Books</item>
           <item>Ledgers</item>
           <item>Day Book</item>
@@ -846,7 +846,7 @@
         <list style="list-style-type:none;">
           <head>Tin Cases</head>
           <item>Cutlery</item>
-            <note place="inline"><handShift medium="pencil"/>Crypt <hi style="text-decoration: underline;">Crypt</hi><handShift medium="ink"/></note>
+            <note place="inline"><handShift medium="pencil"/>Crypt <emph style="text-decoration: underline;">Crypt</emph><handShift medium="ink"/></note>
           <item>Collieries</item>
             <note place="inline"><handShift medium="pencil"/>C Crypt<handShift medium="ink"/></note>
           <item>Cammell <!--[ TODO ]--></item>
@@ -1036,7 +1036,7 @@
           </row>
 
           <row>
-            <cell cols="3"><hi style="text-decoration-line: underline; text-decoration-style: double;"><num>10</num> vols</hi></cell>
+            <cell cols="3"><emph style="text-decoration-line: underline; text-decoration-style: double;"><num>10</num> vols</emph></cell>
             <cell></cell>
             <cell></cell>
           </row>
