@@ -822,6 +822,7 @@
 
             <!--[start of DIV]-->
             <div type="NULL"><!--[TODO]-->
+              <!--[start of list]-->
               <list>
                 <head>Rulings</head>
                 <label><num type="roman" value="1">I</num></label>
@@ -855,7 +856,9 @@
                 <label><num type="roman" value="15">XV</num></label>
                 <item>Faint and double money - Long Folio thro</item>
               </list>
+              <!--[end of list]-->
 
+              <!--[start of table]-->
               <table>
                 <row>
                   <cell></cell>
@@ -883,6 +886,7 @@
                 </row>
                 <note target="#bracketStart_0059" targetEnd="#bracketEnd_0059" rend="braced">printed</note>
               </table>
+              <!--[end of table]-->
             </div>
         <!--[End of PAGE 59]-->
 
@@ -890,11 +894,134 @@
             <pb n="060" facs="CC20181003_Townsend_0060.tif"/>
             <fw type="page_number" place="top"></fw>
 
-        <!--[End of Number 60]-->
+            <div type="NULL"><!--[TODO]-->
+              <!--[start of list]-->
+              <list>
+                <head>Bindings</head>
+                <label>A</label><item>Full Rough Calf extra</item>
+                <label>B</label><item>Fill Common Corocco extra</item>
+                <label>C</label><item>Half Rough Calf extra</item>
+                <label>D</label><item>Half Common Morocco extra</item>
+                <label>E</label><item>Half Red Bazil as best stock</item>
+                <label>F</label><item>Half Cut flush</item>
+                <label>G</label><item>Full Roan de la rue style</item>
+                <label>H</label><item>Full SKiver flush</item>
+                <label>I</label><item>Half Glazed Cape as Best Stock</item>
+                <label>J</label><item></item>
+                <label>K</label><item></item>
+              </list>
+              <!--[end of list]-->
+            </div>
+        <!--[End of PAGE 60]-->
 
         <!--[Start of PAGE 61]-->
             <pb n="061" facs="CC20181003_Townsend_0061.tif"/>
             <fw type="page_number" place="top"></fw>
+
+            <div type="NULL"><!--[TODO]-->
+              <note place="top">S.S. See also Page <num type="pageNum">19</num></note>
+
+              <head>Aliens</head>
+
+              <!--[start of table]-->
+              <table>
+                <row>
+                  <cell>1401 to 1410</cell>
+                  <cell>Foolscap faint folio &amp; dble money broad <lb/> thro folio</cell>
+                </row>
+                <row>
+                  <cell>1411-1420</cell>
+                  <cell>Fcap broad fo faint only <num type="fraction" value=".5">1/2</num> Moroon roan <lb/> as faint fined stock</cell>
+                </row>
+                <row>
+                  <cell>1421-1430</cell>
+                  <cell>Fcap broad fo Cash Books printed Morc</cell>
+                </row>
+                <row>
+                  <cell>1431-1440</cell>
+                  <cell>Fcap broad faint head fo 3 money <num type="fraction" value=".5">1/2</num></cell>
+                </row>
+                <row>
+                  <cell>1441-1450</cell>
+                  <cell>Fcap broad faint head fo 3 money <num type="fraction" value=".5">1/2</num> Morc</cell>
+                </row>
+                <row>
+                  <cell>1481-1484</cell>
+                  <cell>Fcap 4 qrs ft &amp; date &amp; ft &amp; dble money Flush</cell>
+                </row>
+                <row>
+                  <cell>1487</cell>
+                  <cell>Faint only</cell>
+                </row>
+                <row>
+                  <cell>1491-1500</cell>
+                  <cell>Fcap long 4to faint + Common <lb/>then follows indexs as below</cell>
+                </row>
+                <row>
+                  <cell>1485</cell>
+                  <cell><num type="fraction" value="1.5">1 1/2</num> qr faint &amp; date <num type="fraction" value=".5">1/2</num> flush foolscap</cell>
+                </row>
+              </table>
+
+              <ab type="typography" rend="diagonal-slash-mark">/</ab>
+
+              <table>
+                <row>
+                  <cell>1501-1509</cell>
+                  <cell>Imperial Indexs</cell>
+                </row>
+                <row>
+                  <cell>1510-1518</cell>
+                  <cell>Sup Royal Indexs</cell>
+                </row>
+                <row>
+                  <cell>1519-1527</cell>
+                  <cell>Royal Indexs</cell>
+                </row>
+                <row>
+                  <cell>1528-1536</cell>
+                  <cell>Medium Indexs</cell>
+                </row>
+                <row>
+                  <cell>1537-1545</cell>
+                  <cell>Demy Indexs</cell>
+                </row>
+                <row>
+                  <cell>1546-1557</cell>
+                  <cell>La post 4to Indexs</cell>
+                </row>
+                <row>
+                  <cell>1558-1569</cell>
+                  <cell>Post Indexs</cell>
+                </row>
+                <row>
+                  <cell>1570-1581</cell>
+                  <cell>Foolscap Indexs</cell>
+                </row>
+                <row>
+                  <cell>1582-1593</cell>
+                  <cell>Demy 4to Indexs</cell>
+                </row>
+                <row>
+                  <cell>1594-1605</cell>
+                  <cell>Foolscap 4to Indexs</cell>
+                </row>
+                <trailer>
+                  Carried to page <num type="pageNum">59</num>
+                </trailer>
+              </table>
+              <!--[end of table on page; continues]-->
+
+              <!--[start of table; restart]-->
+              <table>
+                <head style="text-decoration: underline;">Fcap</head>
+                <row>
+                  <cell>1627</cell>
+                  <cell>Club books</cell>
+                </row>
+              </table>
+
+            </div>
 
         <!--[End of PAGE 61]-->
 
