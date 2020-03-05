@@ -1013,14 +1013,81 @@
               <!--[end of table on page; continues]-->
 
               <!--[start of table; restart]-->
-              <table>
+              <table rows="18" cols="2">
                 <head style="text-decoration: underline;">Fcap</head>
-                <row>
-                  <cell>1627</cell>
-                  <cell>Club books</cell>
-                </row>
+              	<row>
+              		<cell>1627</cell>
+              		<cell>Club books</cell>
+              	</row>
+              	<row>
+              		<cell>1641</cell>
+              		<cell>Morocco lymp faint</cell>
+              	</row>
+              	<row>
+              		<cell>1651</cell>
+              		<cell>Hard grain Roan lymp faint</cell>
+              	</row>
+              	<row>
+              		<cell>1661</cell>
+              		<cell>Fcap Cash books ruled &amp; printed 1/2 bound</cell>
+              	</row>
+              	<row>
+              		<cell>1669</cell>
+              		<cell>Fcap guard books</cell>
+              	</row>
+              	<row>
+              		<cell>1701</cell>
+              		<cell>Fcap Journal 1/2 morocco</cell>
+              	</row>
+              	<row>
+              		<cell>1111</cell>
+              		<cell>Fcap 8vo Bank pattern Roan de la rue</cell>
+              	</row>
+              	<row>
+              		<cell>1657</cell>
+              		<cell>Fcap Fo faint head &amp; dble money + fo Hard grain rain limp</cell>
+              	</row>
+              	<row>
+              		<cell>1673</cell>
+              		<cell>Fcap fo double ledger full morocco 30 sheet roan 1/2 bound</cell>
+              	</row>
+              	<row>
+              		<cell>1675</cell>
+              		<cell>Fcap do Franklins Cash patt morocco 24 sheet roan 1/2 bound</cell>
+              	</row>
+              	<row>
+              		<cell>1677</cell>
+              		<cell>Fcap fo Franklins Journal morocco 24 sheet roan 1/2 bound</cell>
+              	</row>
+              	<row>
+              		<cell>n1685</cell>
+              		<cell>Fcap 4to margin no White Vellum</cell>
+              	</row>
+              	<row>
+              		<cell>1689</cell>
+              		<cell>Fcap ft dble money + fo 1/2 cut flush</cell>
+              	</row>
+              	<row>
+              		<cell>1701</cell>
+              		<cell>Fcap Journal 1/2 morocco extra paged</cell>
+              	</row>
+              	<row>
+              		<cell>1709</cell>
+              		<cell>Fcap faint only Morocco extra</cell>
+              	</row>
+              	<row>
+              		<cell>1717</cell>
+              		<cell>Fcap faint &amp; margin Morocco extra</cell>
+              	</row>
+              	<row>
+              		<cell>1725</cell>
+              		<cell>Fcap faint &amp; margin thro Morocco extra</cell>
+              	</row>
+              	<row>
+              		<cell>1733</cell>
+              		<cell>Fcap ft head dble Cash index 1/2 morocco</cell>
+              	</row>
               </table>
-
             </div>
 
         <!--[End of PAGE 61]-->
