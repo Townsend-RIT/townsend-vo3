@@ -36,6 +36,8 @@
 
         <!--[CHANGED 13/02/20: End page 56, use of @rows and @cols attributes for <cell> elements, marked TO-DO to implement a horizontal line break, end of page 57]-->
 
+        <!--[CHANGED 05/03/20: Use of @rend to denote a horizontal line break]-->
+
         <!--[Start of PAGE 55]-->
             <pb n="055" facs="CC20180917_Townsend_0055.tif"/>
             <fw type="page_number" place="top">17</fw>
@@ -617,6 +619,199 @@
             <pb n="058" facs="CC20180917_Townsend_0058.tif"/>
             <fw type="page_number" place="top">20</fw>
 
+            <!--[start of vertical table]-->
+            <table>
+              <row style="writing-mode: sideways-rl"><!--[vertically written cells]-->
+                  <cell>Ruling Patterns</cell>
+                  <cell>Single Ledger</cell>
+                  <cell>Single Cash</cell>
+                  <cell>double cash</cell>
+                  <cell>Journal</cell>
+                  <cell>Day Book</cell>
+                  <cell>Order Book</cell>
+                  <cell>Faint</cell>
+                  <cell>Faint &amp; date</cell>
+                  <cell>Faint &amp; Com</cell>
+                  <cell>Faint &amp; dble money</cell>
+              </row>
+              <row>
+                <cell>rulings</cell>
+                <cell><num type="roman" value="2">II</num><lb/>7001-7050 to</cell>
+                <cell><num type="roman" value="3">III</num><lb/>7100 to</cell>
+                <cell><num type="roman" value="4">IV</num><lb/><num style="writing-mode: sideways-rl">7150</num> to</cell>
+                <cell><num type="roman" value="5">V</num><lb/><num style="writing-mode: sideways-rl">7200</num> to</cell>
+                <cell><num type="roman" value="6">VI</num><lb/><num style="writing-mode: sideways-rl">7250</num> to</cell>
+                <cell><num type="roman" value="7">VII</num><lb/><num style="writing-mode: sideways-rl">7300</num></cell>
+                <cell><num type="roman" value="8">VIII</num><lb/>7350</cell>
+                <cell><num type="roman" value="9">IX</num><lb/>7400</cell>
+                <cell><num type="roman" value="10">X</num><lb/>7450</cell>
+                <cell><num type="roman" value="11">XI</num><lb/>7500</cell>
+              </row>
+              <note>10+10=100+5=500</note>
+              <row>
+                <cell>rullings</cell>
+                <cell><num type="roman" value="2">II</num><lb/><num>8001</num> to <num style="writing-mode: sideways-rl">8050</num></cell>
+                <cell><num type="roman" value="3">III</num><lb/><num style="writing-mode: sideways-rl">8100</num></cell>
+                <cell><num type="roman" value="4">IV</num><lb/><num style="writing-mode: sideways-rl">8150</num></cell>
+                <cell><num type="roman" value="5">V</num><lb/><num style="writing-mode: sideways-rl">8200</num></cell>
+                <cell><num type="roman" value="6">VI</num><lb/><num style="writing-mode: sideways-rl">8250</num></cell>
+                <cell><num type="roman" value="7">VII</num><lb/><num style="writing-mode: sideways-rl">8300</num></cell>
+                <cell><num type="roman" value="8">VIII</num><lb/><num style="writing-mode: sideways-rl">8350</num></cell>
+                <cell><num type="roman" value="9">IX</num><lb/><num style="writing-mode: sideways-rl">8400</num></cell>
+                <cell><num type="roman" value="10">X</num><lb/><num style="writing-mode: sideways-rl">8450</num></cell>
+                <cell><num type="roman" value="11">XI</num><lb/><num style="writing-mode: sideways-rl">8500</num></cell>
+              </row>
+              <trailer>
+                <table>
+                  <row>
+                    <cell>Qr</cell>
+                    <cell>Qr</cell>
+                    <cell>Qr</cell>
+                    <cell>Qr</cell>
+                    <cell>Qr</cell>
+                    <cell>Qr</cell>
+                    <cell>Qr</cell>
+                  </row>
+                  <row>
+                    <cell><num type="fraction" value=".5">1/2</num></cell>
+                    <cell><num type="fraction" value="1">1</num></cell>
+                    <cell><num type="fraction" value="1.5">1 1/2</num></cell>
+                    <cell><num type="fraction" value="2">2</num></cell>
+                    <cell><num type="fraction" value="2.5">2 1/2</num></cell>
+                    <cell><num type="fraction" value="3">3</num></cell>
+                    <cell><num type="fraction" value="3.5">3 1/2</num></cell>
+                    <cell><num type="fraction" value="4">4</num></cell>
+                    <cell><num type="fraction" value="4.5">4 1/2</num></cell>
+                    <cell><num type="fraction" value="5">5</num></cell>
+                  </row>
+                  <note><unclear resp="Pochron">num</unclear> 4to</note>
+                  <trailer>
+                    10 thickness <lb/> 5 bindings <lb/> B &#8729; D &#8729; E &#8729; F &#8729; I &#8729;
+                </table>
+              </trailer>
+            </table>
+            <!--[end of vertical table]-->
+
+            <!--[start of table]-->
+            <table>
+              <row>
+                <cell>3 thicknesses</cell>
+                <cell>18 &#8729; 24 &#8729; 36 sheet</cell>
+                <cell>84</cell>
+                <cell>637 to 720</cell>
+              </row>
+              <row>
+                <cell>3 thicknesses</cell>
+                <cell>18 &#8729; 24 &#8729; 36 sheet</cell>
+                <cell>126</cell>
+                <cell>721 to 846</cell>
+              </row>
+              <row>
+                <cell>6 thicknesses</cell>
+                <cell>6 9 12 18 24 30</cell>
+                <cell>252</cell>
+                <cell>847 to 1098</cell>
+              </row>
+            </table>
+            <!--[end of table]-->
+
+            <ab type="typography" rend="horizontal-line">----------------</ab><!--[Horizontal line break]-->
+
+            <!--[start of table]-->
+            <table>
+              <row>
+                <cell>3 thicknesses</cell>
+                <cell>18 &#8729; 24 &#8729; 36 &#8729; 48 &#8729;</cell>
+                <cell>84</cell>
+                <cell>9001 to 9084 and 9601 -</cell>
+              </row>
+              <row>
+                <cell>3 thicknesses</cell>
+                <cell>18 &#8729; 24 &#8729; 36 &#8729;</cell>
+                <cell>126</cell>
+                <cell>9085 to 9210</cell>
+              </row>
+              <row>
+                <cell>8 <abbr>thicks</abbr></cell>
+                <cell>5 &#8729; 8 &#8729; 10 &#8729; 12 &#8729; 18 &#8729; <lb/> 24 &#8729; 30 &#8729; 36</cell>
+                <cell>336</cell>
+                <cell>9211 to 9546</cell>
+              </row>
+            </table>
+            <!--[end of table]-->
+
+            <ab type="typography" rend="horizontal-line">----------------</ab>
+
+            <table>
+              <row>
+                <cell>3 thickness</cell>
+                <cell>18 &#8729; 24 &#8729; 36 &#8729;</cell>
+                <cell>84</cell>
+                <cell>to</cell>
+              </row>
+            </table>
+
+            <ab type="typography" rend="horizontal-line">----------------</ab>
+
+            <!--[start of table]-->
+            <table>
+              <row>
+                <cell>3 <figure>
+                  <figDesc>Mathematical formula 1</figDesc>
+                  <graphic url="CC20181003_Townsend_0058_formula1.png"/>
+                  </figure> thicknesses</cell>
+                <cell>18 &#8729; 24 &#8729; 36 &#8729;</cell>
+                <cell>84</cell>
+                <cell>10001 to 10084</cell>
+              </row>
+              <row>
+                <cell>3 <figure>
+                  <figDesc>Mathematical formula 2</figDesc>
+                  <graphic url="CC20181003_Townsend_0058_formula2.png"/>
+                  </figure> thicknesses</cell>
+                <cell>18 24 36</cell>
+                <cell>126</cell>
+                <cell>10085 to 10210</cell>
+              </row>
+              <row>
+                <cell>3 <figure>
+                  <figDesc>Mathematical formula 3</figDesc>
+                  <graphic url="CC20181003_Townsend_0058_formula3.png"/>
+                  </figure> thicknesses</cell>
+                <cell>12 18 24 30 36</cell>
+                <cell>210</cell>
+                <cell>10211 to 10420</cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+                <cell style="border-top-style: solid">1512</cell>
+              </row>
+            </table>
+            <!--[end of table]-->
+
+            <ab type="typography" rend="horizontal-line">----------------</ab>
+
+            <!--[start of table]-->
+            <table>
+              <row>
+                <cell>Bills Receivable + Payable</cell>
+                <cell>10609, 10610</cell>
+              </row>
+              <row>
+                <cell>Bills Receivable</cell>
+                <cell>10617</cell>
+              </row>
+              <row>
+                <cell>Goods Delivery</cell>
+                <cell>10502, 10521</cell>
+              </row>
+            </table>
+            <!--[end of table]-->
+
+            <ab>La post 12s 80 leaf surface paper as CJ to 10937</ab>
+            <ab>To <num type="pageNum">59</num></ab>
+
             </div>
             <!--[end of DIV]-->
         <!--[End of PAGE 58]-->
@@ -625,6 +820,70 @@
             <pb n="059" facs="CC20181003_Townsend_0059.tif"/>
             <fw type="page_number" place="top"></fw>
 
+            <!--[start of DIV]-->
+            <div type="NULL"><!--[TODO]-->
+              <list>
+                <head>Rulings</head>
+                <label><num type="roman" value="1">I</num></label>
+                <item>Double Ledger</item>
+                <label><num type="roman" value="2">II</num></label>
+                <item>Single Ledger</item>
+                <label><num type="roman" value="3">III</num></label>
+                <item>Single Cash with head line</item>
+                <label><num type="roman" value="4">IV</num></label>
+                <item>Double Cash with head line</item>
+                <label><num type="roman" value="5">V</num></label>
+                <item>Journal</item>
+                <label><num type="roman" value="6">VI</num></label>
+                <item>Day Book faint head &amp; single cash</item>
+                <label><num type="roman" value="7">VII</num></label>
+                <item>Order Biij faint &amp; date and head</item>
+                <label><num type="roman" value="8">VIII</num></label>
+                <item>Faint thro</item>
+                <label><num type="roman" value="9">IX</num></label>
+                <item>Faint and date Thro</item>
+                <label><num type="roman" value="10">X</num></label>
+                <item>Faint and Common Thro</item>
+                <label><num type="roman" value="11">XI</num></label>
+                <item>Faint and double money thro</item>
+                <label><num type="roman" value="12">XII</num></label>
+                <item>Faint ------ Long Folio thro</item>
+                <label><num type="roman" value="13">XIII</num></label>
+                <item>Faint and date -- Long Folio thro</item>
+                <label><num type="roman" value="14">XIV</num></label>
+                <item>Faint and Common - Long Folio thro</item>
+                <label><num type="roman" value="15">XV</num></label>
+                <item>Faint and double money - Long Folio thro</item>
+              </list>
+
+              <table>
+                <row>
+                  <cell></cell>
+                  <cell>faint</cell>
+                  <cell>faint<lb/>&amp;<lb/>com</cell>
+                  <cell>long<lb/>4to</cell>
+                  <cell>Single<lb/>Led</cell>
+                  <cell>dble<lb/>Led</cell>
+                  <cell>intricate</cell>
+                  <cell>Very<lb/><unclear resp="Pochron">urty</unclear><lb/><unclear resp="Pochron">cate</unclear></cell>
+                  <cell>Very<lb/>Very<lb/><unclear resp="Pochron">wbruce</unclear></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>Lay over<lb/>per ream</cell>
+                  <cell>1</cell>
+                  <cell>2</cell>
+                  <cell>2</cell>
+                  <cell>2</cell>
+                  <cell>3</cell>
+                  <cell xml:id="bracketStart_0059">4</cell>
+                  <cell>5</cell>
+                  <cell xml:id="bracketEnd_0059">6</cell>
+                  <cell>sheets per Frank J. <lb/> per ream</cell>
+                </row>
+                <note target="#bracketStart_0059" targetEnd="#bracketEnd_0059" rend="braced">printed</note>
+              </table>
+            </div>
         <!--[End of PAGE 59]-->
 
         <!--[Start of PAGE 60]-->
