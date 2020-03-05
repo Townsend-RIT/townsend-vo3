@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
     <body>
-        <!--[TODO: Find examples for the Meeting Minutes document on the Drive, abbreviate 4to, 6s, 8vo, thro, com, folio(?), dble, fo (FIND + REPLACE ALL), add <table> with trailer to IED for examples, add <num> elements to ALL numbers, read and apply SARAH's braces notes]-->
+        <!--[TODO: Find examples for the Meeting Minutes document on the Drive, abbreviate 4to, 6s, 8vo, thro, com, folio(?), dble, fo (FIND + REPLACE ALL), add <table> with trailer to IED for examples, add <num> elements to ALL numbers, read and apply SARAH's braces notes, look over addresses]-->
 
         <!--[
         ENCODER SHORTHAND REFERENCES:
@@ -1029,7 +1029,7 @@
               	</row>
               	<row>
               		<cell>1661</cell>
-              		<cell>Fcap Cash books ruled &amp; printed 1/2 bound</cell>
+              		<cell>Fcap Cash books ruled &amp; printed <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>1669</cell>
@@ -1037,7 +1037,7 @@
               	</row>
               	<row>
               		<cell>1701</cell>
-              		<cell>Fcap Journal 1/2 morocco</cell>
+              		<cell>Fcap Journal <num type="fraction" value=".5">1/2</num> morocco</cell>
               	</row>
               	<row>
               		<cell>1111</cell>
@@ -1049,15 +1049,15 @@
               	</row>
               	<row>
               		<cell>1673</cell>
-              		<cell>Fcap fo double ledger full morocco 30 sheet roan 1/2 bound</cell>
+              		<cell>Fcap fo double ledger full morocco 30 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>1675</cell>
-              		<cell>Fcap do Franklins Cash patt morocco 24 sheet roan 1/2 bound</cell>
+              		<cell>Fcap do Franklins Cash patt morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>1677</cell>
-              		<cell>Fcap fo Franklins Journal morocco 24 sheet roan 1/2 bound</cell>
+              		<cell>Fcap fo Franklins Journal morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>n1685</cell>
@@ -1065,11 +1065,11 @@
               	</row>
               	<row>
               		<cell>1689</cell>
-              		<cell>Fcap ft dble money + fo 1/2 cut flush</cell>
+              		<cell>Fcap ft dble money + fo <num type="fraction" value=".5">1/2</num> cut flush</cell>
               	</row>
               	<row>
               		<cell>1701</cell>
-              		<cell>Fcap Journal 1/2 morocco extra paged</cell>
+              		<cell>Fcap Journal <num type="fraction" value=".5">1/2</num> morocco extra paged</cell>
               	</row>
               	<row>
               		<cell>1709</cell>
@@ -1085,7 +1085,7 @@
               	</row>
               	<row>
               		<cell>1733</cell>
-              		<cell>Fcap ft head dble Cash index 1/2 morocco</cell>
+              		<cell>Fcap ft head dble Cash index <num type="fraction" value=".5">1/2</num> morocco</cell>
               	</row>
               </table>
             </div>
