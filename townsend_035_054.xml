@@ -158,18 +158,20 @@
           <label>Calculation books</label>
           <item><num>196</num></item>
         </list><!--[End of list]-->
+      </div> <!-- JAY ADDED END OF PAGE DIV -->
       <!--[End of PAGE 35]-->
 
       <!--[Start of PAGE 36]-->
         <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
         <fw type="page_number" place="top">1/4</fw>
-
+      
+        <div type="page"> <!-- JAY ADDED DIV -->
         <!--[start of div type insert]-->
-        <div type="insert">
+        <!-- <div type="insert">
           <gap reason="editorial">
               <desc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</desc>
           </gap>
-        </div>
+        </div>  NESTED DIVS ARE NOT WORKING -->
         <!--[end of div type insert]-->
 
         <!--[start of ab]-->
@@ -223,7 +225,7 @@
 
         <fw type="page_number" place="margin" style="writing-mode: vertical-lr">Y Z</fw>
 
-      </div><!--[end of page div]-->
+      </div><!--[end of page div]--> <!-- but there isn't a page div this div closes the one on the previous page -->
       <!--[End of PAGE 36]-->
 
       <!--[Start of PAGE 37]-->
