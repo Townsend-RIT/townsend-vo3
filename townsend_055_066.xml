@@ -1012,6 +1012,12 @@
               </table>
               <!--[end of table on page; continues]-->
 
+        <!--[End of PAGE 61]-->
+
+        <!--[Start of PAGE 62]-->
+            <pb n="062" facs="CC20181003_Townsend_0062.tif"/>
+            <fw type="page_number" place="top">24</fw>
+
               <!--[start of table; restart]-->
               <table rows="18" cols="2">
                 <head style="text-decoration: underline;">Fcap</head>
@@ -1088,31 +1094,191 @@
               		<cell>Fcap ft head dble Cash index <num type="fraction" value=".5">1/2</num> morocco</cell>
               	</row>
               </table>
+
+              <table>
+                <head style="text-decoration: underline;">Post</head>
+                <row>
+                  <cell>9571</cell>
+                  <cell>12 sh post 8ov bank patt Roan de la rue</cell>
+                </row>
+                <note place="below"><unclear>0JM 21</unclear></note>
+                <row>
+                  <cell>9572</cell>
+                  <cell>ditto 310 20 paper ditto</cell>
+                </row>
+                <row>
+                  <cell>9717</cell>
+                  <cell>42 sh post in 4to hd dble cash Morocco limp</cell>
+                </row>
+                <row>
+                  <cell>9718</cell>
+                  <cell>ditto ditto</cell>
+                </row>
+              </table>
+
+              <table>
+                <head>Sheet &amp; 2</head>
+                <row>
+                  <cell>8551</cell>
+                  <cell>Sheet + half</cell>
+                </row>
+              </table>
             </div>
-
-        <!--[End of PAGE 61]-->
-
-        <!--[Start of PAGE 62]-->
-            <pb n="062" facs="CC20181003_Townsend_0062.tif"/>
-            <fw type="page_number" place="top"></fw>
-
         <!--[End of PAGE 62]-->
 
         <!--[Start of PAGE 63]-->
             <pb n="063" facs="CC20181003_Townsend_0063.tif"/>
-            <fw type="page_number" place="top"></fw>
+            <fw type="page_number" place="top">25</fw>
 
+            <div type="NULL">
+              <list>
+                <head>My Fathers price book means</head>
+                <label>E C 1</label>
+                <item>faint only</item>
+                <label>E C 2</label>
+                <item>faint &amp; common</item>
+                <label>E C 3</label>
+                <item>faint + common in long 4to</item>
+                <label>E C 4</label>
+                <item>Single Ledger</item>
+                <label>E C 5</label>
+                <item>double Ledger</item>
+                <label>E C 6</label>
+                <item>three stop pattern</item>
+                <label>E C 7</label>
+                <item>2 accounts</item>
+              </list>
+
+              <!--[large break in the page with nothing]-->
+
+              <table>
+                <row>
+                  <cell>Nº10</cell>
+                  <cell>Medium 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Large Post 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Demy 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Post 8vos</cell>
+                </row>
+                <row>
+                  <cell>Nº11</cell>
+                  <cell>Foolscap 8vos</cell>
+                </row>
+              </table>
+            </div>
         <!--[End of PAGE 63]-->
 
         <!--[Start of PAGE 64]-->
             <pb n="064" facs="CC20181003_Townsend_0064.tif"/>
-            <fw type="page_number" place="top"></fw>
+            <fw type="page_number" place="top">26</fw>
 
+            <div type="NULL">
+              <table>
+                <head>Suitable distance of Faints for <lb/> Account Books</head>
+                <note place="below">distance <lb/> as long fo faint lined book</note>
+                <row>
+                  <cell>Nº6</cell>
+                  <cell>Imperial folio and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Super Royal and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Royal and long 4to</cell>
+                </row>
+                <row>
+                  <cell>Nº7</cell>
+                  <cell>Medium folio and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Large Post and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Demy and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Imperial broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Super Royal broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Royal broad 4to</cell>
+                </row>
+                <row>
+                  <cell>Nº8</cell>
+                  <cell>Foolscap folio and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Sheet + half and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Sheet + thirds and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Medium broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Large post broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Demy broad 4to</cell>
+                </row>
+                <row>
+                  <cell>Nº9</cell>
+                  <cell>Foolscap broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Imperial 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Super Royal 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Royal 8vos</cell>
+                </row>
+              </table>
+            </div>
         <!--[End of PAGE 64]-->
 
         <!--[Start of PAGE 65]-->
             <pb n="065" facs="CC20181003_Townsend_0065.tif"/>
-            <fw type="page_number" place="top"></fw>
+            <fw type="page_number" place="top">27</fw>
+
+            <div type="NULL">
+              <head>Colours for Account Books</head>
+            </div>
 
         <!--[End of PAGE 65]-->
 
