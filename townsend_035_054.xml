@@ -174,12 +174,12 @@
           <gap reason="editorial">
               <desc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</desc>
           </gap>
-        </div>  NESTED DIVS ARE NOT WORKING -->
+        </div>  NESTED DIVS ARE NOT WORKING also how are we doing inserts again i forgot lol -->
         <!--[end of div type insert]-->
 
         <!--[start of ab]-->
         <ab>see Calculation book
-          <lb/><num>8348</num> written by<persName>W.J.</persName>
+          <lb/><num>8348</num> written by<persName>W.T.</persName>
           <q>Where there is no conflict
             <lb/>There can be no conquest
             <lb/>Where there is no conquest
@@ -198,7 +198,10 @@
           <!--[start of note]-->
           <note place="right">
             <handShift medium="pencil"/>
-              <unclear resp="Pochron" reason="illegible">Jalleypoint</unclear> here. do yourself what you can get others to do
+              <unclear resp="Pochron" reason="illegible">Jalleypoint</unclear> here. 
+              <lb />do yourself what 
+              <lb />you can get others 
+              <lb />to do
             <!--[get this handShift attribute looked at again.]-->
             <handShift medium="ink"/>
           </note><!--[end of note]-->
@@ -213,14 +216,13 @@
           <item>Account book making</item>
           <item>binding</item>
           <item>pattern cards</item>
-          <item>Style</item>
+          <item><handShift medium="pencil" /><unclear resp="JL" reason="illegible">Twine</unclear> books 29</item><!-- There's a handwritten note here I don't want to deal wiiiiiiiiith -->
+          <item><handShift medium="ink" />Type</item>
           <item>Litho</item>
           <item>Sales Shop</item>
-          <item>Boxes</item>
+          <item>Boxs</item> <!-- regularize? -->
         </list>
         <!--[End of list]-->
-        
-        <!--JAY NOTE: somethings fucked up and the document isnt validating-->
 
         <!--[start of note]-->
         <note place="bottom"><num type="roman" value="1902">MDCCCCII</num> roman numerals<lb/>year <date when="1902">1902</date> arabic figure</note>
