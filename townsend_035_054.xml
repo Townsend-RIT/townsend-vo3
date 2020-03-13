@@ -32,10 +32,10 @@
 
       <div type="page">
         <head>Latest on bookeeping</head>
-        <ab>Stores for all sent up to the departments by
+        <ab>Stores for all sent up to the departments by 
           <lb/>Ticket and Store Keeper charge each department
           <lb/>in his Journal. then every year balance
-          <lb/>stores and shew balance</ab>
+          <lb/>stores and shew balance</ab> <!-- Is balance underlined? -->
 
         <table rows="9" cols="2">
           <head>Re-arrangement of Office Work <date when="1898-05-16">May 16/98</date></head>
@@ -43,19 +43,18 @@
           <row role="label"><!--[start of row]-->
             <cell>Bookeeper
               <note place="underneath">
-                <persName>Freeman</persName>
+                <persName>Freeman</persName> <!-- Underlined? -->
               </note>
             </cell>
             <cell>Assistant Bookeeper
               <note place="underneath">
-                <persName>Thompson</persName>
+                <persName>Thompson</persName> <!-- Underlined? -->
               </note>
             </cell>
           </row><!--[End of row]-->
 
           <row>
             <cell></cell>
-            <!--[plus sign doesn't need a special character]-->
             <!--[NOTE: XML reserved characters are &lt (<), &gt (>), &amp (&), $quot ("), and &apos (')]-->
             <cell>Cash + Cash book post</cell>
           </row>
@@ -82,8 +81,8 @@
 
           <row>
             <cell>Posting General Sales Ledgers
-              <lb/>Accounts monthly-quaterly-all
-              <lb/>Collecting vigilantly + well kept up
+              <lb/>Accounts monthly-quaterly-all <!-- Ignoring line break? -->
+              <lb/>Collecting vigilantly + well kept up <!-- Another ignored line break? -->
               <lb/>Orders end in Calculation
               <choice>
                 <abbr>bks</abbr>
@@ -91,10 +90,16 @@
               </choice>
               <lb/>and Safed
               <lb/>Wed 10am list of doubtful
-              <lb/>a/c complaints + remarks
+              <lb/><choice> <!-- Added choice tag for abbrevation -->
+                <abbr>a/c</abbr>
+                <expan>accounting</expan>
+              </choice> complaints + remarks
               <!--[+ mentally noted as 'and' yet preserved in the text]-->
               <emph style="font-weight: bold;">
-                <lb/>Contents No of Tin Cases <num>12</num>
+                <lb/>Contents <choice> <!-- Added choice tag for abbreviation -->
+                  <abbr>No</abbr>
+                  <expan>Number</expan>
+                </choice> of Tin Cases <num>12</num> <!-- I agree that this is bold, but how do we make sure this is consistent? -->
               </emph>
             </cell>
             <cell>Trade Ledger</cell>
@@ -102,7 +107,7 @@
 
           <row>
             <cell></cell>
-            <cell>Accounts To pay departmental rations</cell>
+            <cell>Accounts To pay departmental rations</cell> <!-- This is two rows? -->
           </row>
 
           <row>
@@ -112,51 +117,49 @@
 
           <row>
             <cell></cell>
-            <cell>Time Wages pay</cell>
+            <cell>Time + Wages pay</cell>
           </row>
         </table>
         <!--[End of table]-->
 
-        <ab>Master should keep his own Cash and fall over his own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab>
+        <ab>Master should keep his own Cash and fall over 
+        <lb />his own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab>
         <!--[how to handle WT initials]-->
 
+        <!-- This...is a continuation of the index. Needs to be consistent and put in an index div -->
         <list style="list-style-type: none">
-          <label>C Cammell C Lt complaint of Pads</label>
-          <item>
-            <num>163</num>
-          </item>
+          <label>C Cammell C Lt complaint of Pads</label> <!-- there sure are a whole bunch of abbreviations here that i have no idea what they are -->
+          <item><num type="pageNum">163</num></item>
 
           <label>Cash Book idea <q><date when="1898">1898</date></q></label>
-          <item>
-            <num>94</num>
-          </item>
+          <item><num type="pageNum">94</num></item>
 
           <label>Cupboards</label>
-          <item><num>187</num></item>
+          <item><num type="pageNum">187</num></item>
 
-          <label>Coallieries</label>
-          <item><num>287</num>, <num>282</num></item>
+          <label>Collieries</label>
+          <item><num type="pageNum">287</num> <num type="pageNum">282</num></item>
 
           <label>Customers to call on</label>
-          <item><num>286</num></item>
+          <item><num type="pageNum">286</num></item>
 
           <label>Cart Celebrated Printers</label>
-          <item><num>142</num></item>
+          <item><num type="pageNum">142</num> <num type="pageNum">105</num></item>
 
-          <label>Christmas</label>
-          <item><num>100</num></item>
+          <label>Christmas</label> <!-- There's some sort of symbol here? Maybe it's an H?? -->
+          <item><num type="pageNum">100</num></item>
 
-          <label>Carnage Sutton <num>12</num></label>
-          <item><num>353</num></item>
+          <label>Carriage Sutton</label>
+          <item><num type="pageNum">12</num> <num type="pageNum">353</num></item>
 
           <label>Clerks payment <persName>M Fox</persName></label>
-          <item><num>111</num></item>
+          <item><num type="pageNum">111</num></item>
 
           <label>Confidential</label>
-          <item><num>261</num></item>
+          <item><num type="pageNum">261</num></item>
 
           <label>Calculation books</label>
-          <item><num>196</num></item>
+          <item><num type="pageNum">196</num></item>
         </list><!--[End of list]-->
       </div> <!-- JAY ADDED END OF PAGE DIV -->
       <!--[End of PAGE 35]-->
