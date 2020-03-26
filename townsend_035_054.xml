@@ -32,7 +32,7 @@
 
       <div type="page">
         <head>Latest on bookeeping</head>
-        <ab>Stores for all sent up to the departments by 
+        <ab>Stores for all sent up to the departments by
           <lb/>Ticket and Store Keeper charge each department
           <lb/>in his Journal. then every year balance
           <lb/>stores and shew balance</ab> <!-- Is balance underlined? -->
@@ -96,7 +96,8 @@
               </choice> complaints + remarks
               <!--[+ mentally noted as 'and' yet preserved in the text]-->
               <emph style="font-weight: bold;">
-                <lb/>Contents <choice> <!-- Added choice tag for abbreviation -->
+                <lb/>Contents
+                <choice> <!-- Added choice tag for abbreviation -->
                   <abbr>No</abbr>
                   <expan>Number</expan>
                 </choice> of Tin Cases <num>12</num> <!-- I agree that this is bold, but how do we make sure this is consistent? -->
@@ -122,7 +123,7 @@
         </table>
         <!--[End of table]-->
 
-        <ab>Master should keep his own Cash and fall over 
+        <ab>Master should keep his own Cash and fall over
         <lb />his own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab>
         <!--[how to handle WT initials]-->
 
@@ -167,7 +168,7 @@
       <!--[Start of PAGE 36]-->
         <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
         <fw type="page_number" place="top">1/4</fw>
-      
+
         <div type="page"> <!-- JAY ADDED DIV -->
         <!--[start of div type insert]-->
         <!-- <div type="insert">
@@ -198,9 +199,9 @@
           <!--[start of note]-->
           <note place="right">
             <handShift medium="pencil"/>
-              <unclear resp="Pochron" reason="illegible">Jalleypoint</unclear> here. 
-              <lb />do yourself what 
-              <lb />you can get others 
+              <unclear resp="Pochron" reason="illegible">Jalleypoint</unclear> here.
+              <lb />do yourself what
+              <lb />you can get others
               <lb />to do
             <!--[get this handShift attribute looked at again.]-->
             <handShift medium="ink"/>
