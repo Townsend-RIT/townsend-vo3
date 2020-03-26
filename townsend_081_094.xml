@@ -18,75 +18,240 @@
   </teiHeader>
   <text>
     <body>
-        <!--[Start of PAGE 81]-->
-          <pb n="081" facs="CC20180917_Townsend_0081.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 81]-->
+      <!--[TODO: go over a few numbers I refused to <num> in the first pass]-->
 
-        <!--[Start of PAGE 82]-->
-          <pb n="082" facs="CC20180917_Townsend_0082.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 82]-->
+      <!--[
+      ENCODER SHORTHAND REFERENCES:
+      DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
+      DITTO (cont): Encoders replacing dittos with respective word references rather than using system for testing purposes
+      UNDERLINED TEXT: "style="text-decoration: underline;"
+      DOUBLE UNDERLINE: style="text-decoration: underline; text-decoration-style: double;"
+      ROMAN NUMERALS: <num type="roman" value=""></num>
+      style="border-top-style: solid; text-decoration-line: underline; text-decoration-style: double;"
+      ]-->
 
-        <!--[Start of PAGE 83]-->
-          <pb n="083" facs="CC20180917_Townsend_0083.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 83]-->
+      <!--[NOTE:]-->
 
-        <!--[Start of PAGE 84]-->
-          <pb n="084" facs="CC20180917_Townsend_0084.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 84]-->
+      <!--[CHANGED: 26/03/20: Start of template, use of an @ sign as shorthand for "at"]-->
 
-        <!--[Start of PAGE 85]-->
-          <pb n="085" facs="CC20180917_Townsend_0085.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 85]-->
+      <!--[Start of PAGE 81]-->
+        <pb n="081" facs="CC20180917_Townsend_0081.tif"/>
+        <fw type="page_number" place="top">39</fw>
 
-        <!--[Start of PAGE 86]-->
-          <pb n="086" facs="CC20180917_Townsend_0086.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 86]-->
+        <!--[start of DIV]-->
+        <div type="NULL"><!--[TODO]-->
+          <list>
+            <head>Note Paper for II</head>
+              <label>1/</label>
+              <item>5 qr packets from <num type="fraction">327/17</num> Low fine Cream laid 8d p 11/4 insides prm 6/1110 <!--[need to really have someone else look at this]--></item>
+              <label>1/6</label>
+              <item>5 qr packets from <num type="fraction">327/20</num> fine Cream laid <lb/> at 10d = 16/8 + 6d insides = 17/2</item>
+              <label>2</label>
+              <item>5 qr packets from <num type="fraction">327/22</num> Superline Cream <lb/> laid at 1/. = insides 6 = 22/6</item>
+              <label>2/6</label>
+              <item>5 qr packets from <num type="fraction">327/26</num> First quality <lb/> Cream ins 6 = 28/8 <lb/> @ 1/1 = 28/2</item>
+              <trailer>
+                Making up 1 ream Folio
+                <lb/>into Note Paper. Folding pressing + Cutt 1/
+                <lb/>16 Wrappers, wrapp + labelling 1/
+                <lb/>Total <seg style="border-top-style: solid; text-decoration-line: underline; text-decoration-style: double;">2/</seg>
+                <note>
+                  <date when="1892-11-18">Nov 18/92</date>
+                </note>
+              </trailer>
+          </list>
+        </div>
+        <!--[end of DIV]-->
+      <!--[End of PAGE 81]-->
 
-        <!--[Start of PAGE 87]-->
-          <pb n="087" facs="CC20180917_Townsend_0087.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 87]-->
+      <!--[Start of PAGE 82]-->
+        <pb n="082" facs="CC20180917_Townsend_0082.tif"/>
+        <fw type="page_number" place="top">40</fw>
 
-        <!--[Start of PAGE 88]-->
-          <pb n="088" facs="CC20180917_Townsend_0088.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 88]-->
+        <!--[start of DIV]-->
+        <div type="NULL">
+          <ab>
+            Good Proofs have been Known <lb/>  to double the order <lb/> Bad ones to loose them
+            <note><date when="1892-11-12">Nov 12/92</date></note>
+          </ab>
+          <ab>
+            Always read your own proofs I have rarely found them correct!!!
+            <note><date when="1893-04-15">April 15/93</date></note>
+          </ab>
+          <ab>
+            Laying paper out obsrevation on a fcap
+            <lb/> book cut thro index made of 300 mill
+            <lb/>why not 310/17 xxx of price slands in
+            <lb/>this way by retreeing 3 times you come
+            <lb/>to prce of Mill 300 - and you then
+            <lb/>get a tough paper to sland the turn
+            <lb/>an index of this size must go thro
+            <lb/>before laying out a book think well
+            <lb/>what it has to go thro as in the case
+            <lb/>of a pattern book or Ledger in which
+            <lb/>always use a tough hand made or
+            <lb/>your character goes for quality
+            <note><date when="1894-12-03">Dec 3/94</date></note>
+          </ab>
+          <ab>
+            Talleyrand; Never do yourself what you can <lb/>get others to do
+          </ab>
+          <ab>
+            Stock never have stock in work rooms a
+            <lb/>mistake! Wasted and throws dust in your
+            <lb/>eyes what they are doing
+          </ab>
+          <ab>
+            Marble all stock and give parcels of 30 out either
+            <lb/>by themselves or to increase a poor lot of orders only
+            <lb/>never rest until all be cleared. I suggest <unclear reason="illegible" resp="Pochron">Joe &amp; Sunset Mr Wr</unclear>
+            <lb/>buy ends
+          </ab>
+          <ab>
+            Stock Why cover stock it only rots by
+            <lb/>stopping in Gas heated shop could they not
+            <lb/>be opened. Sold then covered to instructions paged
+            <lb/>lettered and finished off cover 1 day glue up <num type="ordinal">2nd</num> day finish off <num type="ordinal">3rd</num> day
+          </ab>
+        </div>
+        <!--[end of DIV]-->
+      <!--[End of PAGE 82]-->
 
-        <!--[Start of PAGE 89]-->
-          <pb n="089" facs="CC20180917_Townsend_0089.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 89]-->
+      <!--[Start of PAGE 83]-->
+        <pb n="083" facs="CC20180917_Townsend_0083.tif"/>
+        <fw type="page_number" place="top">41</fw>
 
-        <!--[Start of PAGE 90]-->
-          <pb n="090" facs="CC20180917_Townsend_0090.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 90]-->
+        <!--[start of DIV]-->
+        <div type="NULL">
+          <head>Best Bankers Way</head>
+          <ab>
+            <seg style="text-decoration: underline; text-decoration-style: double;">Taping</seg>
+            Drivers opinion should be Taped all
+            <lb/>through 10 qrs demy, Medium, Royal
+            <lb/>Super Royal and Imperial
+          </ab>
+          <table rows="5" cols="4">
+            <head>Sewing on cord, slip, and tape</head>
+            <row>
+              <cell>Demy</cell>
+              <cell>2 cards</cell>
+              <cell>1 slip</cell>
+              <cell>2 tapes</cell>
+            </row>
+            <row>
+              <cell>Med</cell>
+              <cell>2</cell>
+              <cell>1</cell>
+              <cell>2</cell>
+            </row>
+            <row>
+              <cell>Royal</cell>
+              <cell>2</cell>
+              <cell>2</cell>
+              <cell>2</cell>
+            </row>
+            <row>
+              <cell>Sup Roy</cell>
+              <cell>2</cell>
+              <cell>2</cell>
+              <cell>2</cell>
+            </row>
+            <row>
+              <cell>Impl</cell>
+              <cell>2</cell>
+              <cell>3</cell>
+              <cell>2</cell>
+            </row>
+          </table>
+          <ab>
+            Cat gut sewing -
+            <lb/>first and last 4 sections sewed in
+            <lb/>with cat gut from ov on 10 qrs Med
+            <lb/>Royal Super Royal and Imperial
+            <lb/>also do <seg style="text-decoration: underline; text-decoration-style: double;">fast</seg> <seg style="text-decoration: underline; text-decoration-style: double;">indexs</seg>, <seg style="text-decoration: underline; text-decoration-style: double;">this</seg> <seg style="text-decoration: underline; text-decoration-style: double;">way</seg>.
+          </ab>
+          <ab>
+            Lining
+            <lb/>Rough Calf smooth side out
+            <lb/>with Cutt sells 105 - best glue and good
+            <lb/>paste - paste linings and glue back
+            <lb/>well rubbed in with folder and
+            <lb/>allowed to stand for drying 3 or
+            <lb/>4 days
+            <date when="1893-09-18">Sep 18 1893</date>
+          </ab>
+        </div>
+        <!--[end of DIV]-->
+      <!--[End of PAGE 83]-->
 
-        <!--[Start of PAGE 91]-->
-          <pb n="091" facs="CC20180917_Townsend_0091.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 91]-->
+      <!--[Start of PAGE 84]-->
+        <pb n="084" facs="CC20180917_Townsend_0084.tif"/>
+        <fw type="page_number" place="top">42</fw>
 
-        <!--[Start of PAGE 92]-->
-          <pb n="092" facs="CC20180917_Townsend_0092.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 92]-->
+        <div type="NULL">
+          <head>Best Bankers Way Contind</head>
+          <ad>
+            Loose Backs
+            <lb/>3 pliers of thin Best mill braids
+            <lb/>well lined with Ocklestons stiffen
+            <lb/>ing with sheet tin well milled
+            <lb/>with tacks in centre of nack about
+            <lb/>3/4 inch from each side
+            <date when="1893-09-18">Sep 18/93</date>
+          </ab>
+        </div>
+        <!--[end of DIV]-->
+      <!--[End of PAGE 84]-->
 
-        <!--[Start of PAGE 93]-->
-          <pb n="093" facs="CC20180917_Townsend_0093.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 93]-->
+      <!--[Start of PAGE 85]-->
+        <pb n="085" facs="CC20180917_Townsend_0085.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 85]-->
 
-        <!--[Start of PAGE 94]-->
-          <pb n="094" facs="CC20180917_Townsend_0094.tif"/>
-          <fw type="page_number" place="top"></fw>
-        <!--[End of PAGE 94]-->
+      <!--[Start of PAGE 86]-->
+        <pb n="086" facs="CC20180917_Townsend_0086.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 86]-->
+
+      <!--[Start of PAGE 87]-->
+        <pb n="087" facs="CC20180917_Townsend_0087.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 87]-->
+
+      <!--[Start of PAGE 88]-->
+        <pb n="088" facs="CC20180917_Townsend_0088.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 88]-->
+
+      <!--[Start of PAGE 89]-->
+        <pb n="089" facs="CC20180917_Townsend_0089.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 89]-->
+
+      <!--[Start of PAGE 90]-->
+        <pb n="090" facs="CC20180917_Townsend_0090.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 90]-->
+
+      <!--[Start of PAGE 91]-->
+        <pb n="091" facs="CC20180917_Townsend_0091.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 91]-->
+
+      <!--[Start of PAGE 92]-->
+        <pb n="092" facs="CC20180917_Townsend_0092.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 92]-->
+
+      <!--[Start of PAGE 93]-->
+        <pb n="093" facs="CC20180917_Townsend_0093.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 93]-->
+
+      <!--[Start of PAGE 94]-->
+        <pb n="094" facs="CC20180917_Townsend_0094.tif"/>
+        <fw type="page_number" place="top"></fw>
+      <!--[End of PAGE 94]-->
     </body>
   </text>
 </TEI>
