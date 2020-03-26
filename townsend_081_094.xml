@@ -43,7 +43,7 @@
           <list>
             <head>Note Paper for II</head>
               <label>1/</label>
-              <item>5 qr packets from <num type="fraction">327/17</num> Low fine Cream laid 8d p 11/4 insides prm 6/1110 <!--[need to really have someone else look at this]--></item>
+              <item>5 qr packets from <num type="fraction">327/17</num> Low fine Cream laid 8d p 11/4 insides prm 6/1110 <!--[TODO: need to really have someone else look at this]--></item>
               <label>1/6</label>
               <item>5 qr packets from <num type="fraction">327/20</num> fine Cream laid <lb/> at 10d = 16/8 + 6d insides = 17/2</item>
               <label>2</label>
@@ -71,7 +71,7 @@
         <!--[start of DIV]-->
         <div type="NULL">
           <ab>
-            Good Proofs have been Known <lb/>  to double the order <lb/> Bad ones to loose them
+            Good Proofs have been Known <lb/> to double the order <lb/> Bad ones to loose them
             <note><date when="1892-11-12">Nov 12/92</date></note>
           </ab>
           <ab>
