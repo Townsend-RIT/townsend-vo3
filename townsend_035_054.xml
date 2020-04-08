@@ -35,7 +35,7 @@
         <ab>Stores for all sent up to the departments by 
           <lb/>Ticket and Store Keeper charge each department
           <lb/>in his Journal. then every year balance
-          <lb/>stores and shew balance</ab> <!-- Is balance underlined? -->
+          <lb/>stores and shew balance</ab> <!-- JL: Is balance underlined? -->
 
         <table rows="9" cols="2">
           <head>Re-arrangement of Office Work <date when="1898-05-16">May 16/98</date></head>
@@ -43,12 +43,12 @@
           <row role="label"><!--[start of row]-->
             <cell>Bookeeper
               <note place="underneath">
-                <persName>Freeman</persName> <!-- Underlined? -->
+                <persName>Freeman</persName> <!-- JL: Underlined? -->
               </note>
             </cell>
             <cell>Assistant Bookeeper
               <note place="underneath">
-                <persName>Thompson</persName> <!-- Underlined? -->
+                <persName>Thompson</persName> <!-- JL: Underlined? -->
               </note>
             </cell>
           </row><!--[End of row]-->
@@ -81,8 +81,8 @@
 
           <row>
             <cell>Posting General Sales Ledgers
-              <lb/>Accounts monthly-quaterly-all <!-- Ignoring line break? -->
-              <lb/>Collecting vigilantly + well kept up <!-- Another ignored line break? -->
+              <lb/>Accounts monthly-quaterly-all <!-- JL: Ignoring line break? -->
+              <lb/>Collecting vigilantly + well kept up <!-- JL: Another ignored line break? -->
               <lb/>Orders end in Calculation
               <choice>
                 <abbr>bks</abbr>
@@ -90,16 +90,16 @@
               </choice>
               <lb/>and Safed
               <lb/>Wed 10am list of doubtful
-              <lb/><choice> <!-- Added choice tag for abbrevation -->
+              <lb/><choice> <!-- JL: Added choice tag for abbrevation -->
                 <abbr>a/c</abbr>
                 <expan>accounting</expan>
               </choice> complaints + remarks
               <!--[+ mentally noted as 'and' yet preserved in the text]-->
               <emph style="font-weight: bold;">
-                <lb/>Contents <choice> <!-- Added choice tag for abbreviation -->
+                <lb/>Contents <choice> <!-- JL: Added choice tag for abbreviation -->
                   <abbr>No</abbr>
                   <expan>Number</expan>
-                </choice> of Tin Cases <num>12</num> <!-- I agree that this is bold, but how do we make sure this is consistent? -->
+                </choice> of Tin Cases <num>12</num> <!-- JL: I agree that this is bold, but how do we make sure this is consistent? -->
               </emph>
             </cell>
             <cell>Trade Ledger</cell>
@@ -107,7 +107,7 @@
 
           <row>
             <cell></cell>
-            <cell>Accounts To pay departmental rations</cell> <!-- This is two rows? -->
+            <cell>Accounts To pay departmental rations</cell> <!--JL: This is two rows? -->
           </row>
 
           <row>
@@ -128,7 +128,7 @@
 
         <!-- This...is a continuation of the index. Needs to be consistent and put in an index div -->
         <list style="list-style-type: none">
-          <label>C Cammell C Lt complaint of Pads</label> <!-- there sure are a whole bunch of abbreviations here that i have no idea what they are -->
+          <label>C Cammell C Lt complaint of Pads</label> <!--JL: there sure are a whole bunch of abbreviations here that i have no idea what they are. name things??? -->
           <item><num type="pageNum">163</num></item>
 
           <label>Cash Book idea <q><date when="1898">1898</date></q></label>
@@ -146,7 +146,7 @@
           <label>Cart Celebrated Printers</label>
           <item><num type="pageNum">142</num> <num type="pageNum">105</num></item>
 
-          <label>Christmas</label> <!-- There's some sort of symbol here? Maybe it's an H?? -->
+          <label>Christmas</label> <!--JL: There's some sort of symbol here? Maybe it's an H?? -->
           <item><num type="pageNum">100</num></item>
 
           <label>Carriage Sutton</label>
@@ -167,6 +167,7 @@
       <!--[Start of PAGE 36]-->
         <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
         <fw type="page_number" place="top">1/4</fw>
+        <fw type="tab">Y <lb /> Z</fw> <!-- JL: fixed this and moved to top -->
       
         <div type="page"> <!-- JAY ADDED DIV -->
         <!--[start of div type insert]-->
@@ -174,12 +175,15 @@
           <gap reason="editorial">
               <desc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</desc>
           </gap>
-        </div>  NESTED DIVS ARE NOT WORKING also how are we doing inserts again i forgot lol -->
+        </div> JL:  NESTED DIVS ARE NOT WORKING also how are we doing inserts again i forgot lol -->
         <!--[end of div type insert]-->
 
         <!--[start of ab]-->
         <ab>see Calculation book
-          <lb/><num>8348</num> written by<persName>W.T.</persName>
+          <lb/><num>8348</num> written by<choice>
+            <abbr>W.T.</abbr>
+            <expan><persName>William Townsend</persName></expan>
+          </choice> <!-- JL: Added abbr/expan for WT initials -->
           <q>Where there is no conflict
             <lb/>There can be no conquest
             <lb/>Where there is no conquest
@@ -203,6 +207,7 @@
               <lb />you can get others 
               <lb />to do
             <!--[get this handShift attribute looked at again.]-->
+            <!-- JL: That looks like a name? Potentially? Jalleypond?  -->
             <handShift medium="ink"/>
           </note><!--[end of note]-->
         </ab>
@@ -216,7 +221,7 @@
           <item>Account book making</item>
           <item>binding</item>
           <item>pattern cards</item>
-          <item><handShift medium="pencil" /><unclear resp="JL" reason="illegible">Twine</unclear> books 29</item><!-- There's a handwritten note here I don't want to deal wiiiiiiiiith -->
+          <item><handShift medium="pencil" /><unclear resp="JL" reason="illegible">Twine</unclear> books 29</item><!-- JL: There's a handwritten note here I don't want to deal wiiiiiiiiith -->
           <item><handShift medium="ink" />Type</item>
           <item>Litho</item>
           <item>Sales Shop</item>
@@ -225,12 +230,11 @@
         <!--[End of list]-->
 
         <!--[start of note]-->
-        <note place="bottom"><num type="roman" value="1902">MDCCCCII</num> roman numerals<lb/>year <date when="1902">1902</date> arabic figure</note>
+        <note place="bottom"><num type="roman" value="1902">MDCCCCII</num> roman numerals
+          <lb/>year <date when="1902">1902</date> arabic figure</note>
         <!--[end of note]-->
 
-        <fw type="page_number" place="margin" style="writing-mode: vertical-lr">Y Z</fw>
-
-      </div><!--[end of page div]--> <!-- but there isn't a page div this div closes the one on the previous page -->
+      </div><!--[end of page div]-->
       <!--[End of PAGE 36]-->
 
       <!--[Start of PAGE 37]-->
