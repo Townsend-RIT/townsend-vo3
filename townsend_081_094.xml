@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
     <body>
-      <!--[TODO: go over a few numbers I refused to <num> in the first pass]-->
+      <!--[TODO: go over a few numbers I refused to <num> in the first pass, go over and replace DITTO marks with the proper @sameAs tags]-->
 
       <!--[
       ENCODER SHORTHAND REFERENCES:
@@ -49,7 +49,7 @@
               <label>2</label>
               <item>5 qr packets from <num type="fraction">327/22</num> Superline Cream <lb/> laid at 1/. = insides 6 = 22/6</item>
               <label>2/6</label>
-              <item>5 qr packets from <num type="fraction">327/26</num> First quality <lb/> Cream ins 6 = 28/8 <lb/> @ 1/1 = 28/2</item>
+              <item>5 qr packets from <num type="fraction">327/26</num> First quality <lb/> Cream ins 6 = 28/8 <lb/> @ 1/1 = 28/2</item><!--[TODO: @ sign]-->
               <trailer>
                 Making up 1 ream Folio
                 <lb/>into Note Paper. Folding pressing + Cutt 1/
@@ -71,7 +71,9 @@
         <!--[start of DIV]-->
         <div type="NULL">
           <ab>
-            Good Proofs have been Known <lb/> to double the order <lb/> Bad ones to loose them
+            Good Proofs have been Known
+            <lb/>to double the order
+            <lb/>Bad ones to loose them
             <note><date when="1892-11-12">Nov 12/92</date></note>
           </ab>
           <ab>
@@ -190,7 +192,7 @@
 
         <div type="NULL">
           <head>Best Bankers Way Contind</head>
-          <ad>
+          <ab>
             Loose Backs
             <lb/>3 pliers of thin Best mill braids
             <lb/>well lined with Ocklestons stiffen
@@ -199,13 +201,59 @@
             <lb/>3/4 inch from each side
             <date when="1893-09-18">Sep 18/93</date>
           </ab>
+          <ab>
+            Pass Books in all while ends
+            <lb/>print Bank Notes, our label No <!--[TODO]--> +
+            <lb/>print in end paper dont stick labels
+            <lb/>they cause the sides to SKellow which
+            <lb/>M Douthnaite <!--[TODO]--> complains of <date when="1894-04-30">Apr 30/94</date>
+            <lb/>Pass Books another returned from
+            <lb/>Bank thro SKellowing - by printing
+            <lb/>Notices on endpaper our label too <date when="1894-05---">May/94</date>
+            <lb/>the pasted labels pull the boards to a
+            <lb/>warp
+          </ab>
+          <ab>
+            Paper use special made Extra Pale fine <num type="fraction">300/16</num>
+          </ab>
+          <ab>
+            Vellum Binders Room distinct leather brands &amp; c
+            <lb/>Forwarding Room distinct leather brands &amp; c
+          </ab>
         </div>
         <!--[end of DIV]-->
       <!--[End of PAGE 84]-->
 
       <!--[Start of PAGE 85]-->
         <pb n="085" facs="CC20180917_Townsend_0085.tif"/>
-        <fw type="page_number" place="top"></fw>
+        <fw type="page_number" place="top">43</fw>
+
+        <div type="NULL">
+          <head>The adverse Balance <date when="1893-06-30">June 30/93</date></head>
+          <ab>
+            In the first place an ease exists  partly
+            <lb/>begot by having no slated hours, by no task
+            <lb/>work, and little or no oversight, or assistant
+            <lb/>watching, or being present to notice loss
+            <lb/>of time, &amp; ease, of looseless of attention,
+            <lb/>talking, wandering, from their work
+            <lb/>on pretended business in the other rooms,
+            <lb/>and too frequently bad management,
+            <lb/>No doubt a competent clever Manager
+            <lb/>would remedy this, my own idea in my
+            <lb/><num type="ordinal">56th</num> year after a long spell of over 40 years
+            <lb/>and now frequently far from well or
+            <lb/>so able and vigorous ; - Stop all Overtime
+            <lb/>at all cost it is type 9 d &amp; binders 9d <unclear reason="illegible">pr hours</unclear>
+            <lb/>and during the past 12 months no <!--[TODO]-->
+            <lb/>less than <seg xml:id="crossmark_0085">*</seg> 2171 <!--[TODO]-->hours, have been made or
+            <lb/><num type="percentage" value="10">10%</num> upon the slab time, amouting to
+            <lb/>if as I believe an Aberdeen
+            <note>£92/15/10</note>
+            <note target="#crossmark_0085">printing offices <lb/> binding</note>
+            <note>2171 hours 81-8-3 <lb/> 303 1/2 hours 911 7-7</note> <!--[TODO: small pen mark and notations here and there]-->
+          </ab>
+        </div>
       <!--[End of PAGE 85]-->
 
       <!--[Start of PAGE 86]-->
