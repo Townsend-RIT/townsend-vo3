@@ -314,22 +314,45 @@
       <!--[start of page div]-->
       <div type="page">
         <head>Routine of Work And duty</head>
-        <note place="left margin">One good head is<lb/>better than a<lb/>great many Hands</note>
+        <note place="left margin">One good head is <!-- JL: We might want to standardize what places a note can be...food for thought. -->
+          <lb/>better than a
+          <lb/>great many Hands</note>
 
         <!--[start of ab]-->
         <ab>I advise rising at 6am Summer
           <lb/>and Winter,
           <lb/>Prayers Bath and Shave up to 7
-          <lb/>Breakfast from 7.15 to 7.45 including H.C.
-          <lb/>Carriage 7.45 to 8 arrive Surrey St
+          <lb/>Breakfast from 7.15 to 7.45 including H.C. <!-- JL: HC stands for hot coffee right -->
+          <lb/>Carriage 7.45 to 8 arrive Surrey <choice>
+            <abbr>St</abbr>
+            <expan>Street</expan>
+          </choice>
           <lb/>In Workshops at 8 prompt seeing to
-          <lb/>work until 1pm from 1 to 2 dinner
+          <lb/>work untill 1pm from 1 to 2 dinner <!-- JL: Silently regularizing untill? -->
           <lb/>in private room Hot one day Cold
-          <lb/>next leave Surrey St at 7pm by
-          <lb/>Carriage this to apply to Mon Tues
-          <lb/>Wed Thur Fri - Saturday each
+          <lb/>next leave Surrey <choice>
+            <abbr>St</abbr>
+            <expan>Street</expan>
+          </choice> at 7pm by
+          <lb/>Carriage this to apply to <choice> <!-- JL: Expanded all the dates. This is a pain -->
+            <abbr>Mon</abbr>
+            <expan>Monday</expan>
+          </choice> <choice>
+            <abbr>Tues</abbr>
+            <expan>Tuesday</expan>
+          </choice>
+          <lb/><choice>
+            <abbr>Wed</abbr>
+            <expan>Wednesday</expan>
+          </choice> <choice>
+            <abbr>Thur</abbr>
+            <expan>Thursday</expan>
+          </choice> <choice>
+            <abbr>Fri</abbr>
+            <expan>Friday</expan>
+          </choice> - Saturday each
           <lb/>alternately a holiday.
-        </ab>
+        </ab> <!-- JL: How are we handling time? Just <num type="time"> ? -->
         <!--[end of ab]-->
 
         <table rows="6" cols="4"><!--[start of table]-->
@@ -362,7 +385,7 @@
           </row>
 
           <row>
-            <cell>F</cell>
+            <cell>F</cell> <!-- JL: F or Fr? I can't tell if that's just a fancy F -->
             <cell sameAs="#t8to1_0039">ditto</cell>
             <cell sameAs="#t2to7_0039">ditto</cell>
             <cell>10</cell>
@@ -370,12 +393,19 @@
 
           <row>
             <cell>S</cell>
-            <cell cols="3">Summer <seg xml:id="holiday_0039">holiday</seg> alternate <seg xml:id="saturday_0039">Saturdays</seg><lb/>Senior <seg sameAs="#holiday_0039">ditto</seg> each <seg sameAs="#saturday_0039">ditto</seg>
+            <cell cols="3">Summer <seg xml:id="holiday_0039">holiday</seg> alternate <seg xml:id="saturday_0039">Saturdays</seg> <!-- JL: Does that say summer? I think it says Juniors????? -->
+              <lb/>Senior <seg sameAs="#holiday_0039">ditto</seg> each <seg sameAs="#saturday_0039">ditto</seg>
             </cell>
           </row>
         </table><!--[end of table]-->
 
-        <note place="margin">Always open<lb/>your own letters<lb/>never depute<lb/><persName>W.J.</persName></note>
+        <note place="margin">Always open
+          <lb/>your own letters
+          <lb/>never depute
+          <lb/><choice>
+            <abbr>W.T.</abbr>
+            <expan><persName>William Townsend</persName></expan>
+          </choice></note>
       <!--[End of PAGE 39]-->
 
       <!--[Start of PAGE 40]-->
