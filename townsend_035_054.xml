@@ -96,12 +96,7 @@
               </choice> complaints + remarks
               <!--[+ mentally noted as 'and' yet preserved in the text]-->
               <emph style="font-weight: bold;">
-<<<<<<< HEAD
                 <lb/>Contents <choice> <!-- JL: Added choice tag for abbreviation -->
-=======
-                <lb/>Contents
-                <choice> <!-- Added choice tag for abbreviation -->
->>>>>>> branch 'review' of https://github.com/pochronjacob/townsend-project.git
                   <abbr>No</abbr>
                   <expan>Number</expan>
                 </choice> of Tin Cases <num>12</num> <!-- JL: I agree that this is bold, but how do we make sure this is consistent? -->
@@ -130,8 +125,9 @@
         <ab>Master should keep his own Cash and fall over
         <lb />his own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab>
         <!--[how to handle WT initials]-->
+        <!-- JL: Personally, I treat them as an abbreviation, but we should talk about this. -->
 
-        <!-- This...is a continuation of the index. Needs to be consistent and put in an index div -->
+        <!-- JL: This...is a continuation of the index. Needs to be consistent and put in an index div -->
         <list style="list-style-type: none">
           <label>C Cammell C Lt complaint of Pads</label> <!--JL: there sure are a whole bunch of abbreviations here that i have no idea what they are. name things??? -->
           <item><num type="pageNum">163</num></item>
@@ -172,12 +168,8 @@
       <!--[Start of PAGE 36]-->
         <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
         <fw type="page_number" place="top">1/4</fw>
-<<<<<<< HEAD
         <fw type="tab">Y <lb /> Z</fw> <!-- JL: fixed this and moved to top -->
-      
-=======
 
->>>>>>> branch 'review' of https://github.com/pochronjacob/townsend-project.git
         <div type="page"> <!-- JAY ADDED DIV -->
         <!--[start of div type insert]-->
         <!-- <div type="insert">
@@ -247,7 +239,7 @@
       <!--[End of PAGE 36]-->
 
       <!--[Start of PAGE 37]-->
-      <pb n="037" facs="CC20180917_Townsend_0037.tif"/>
+      <pb n="037" facs="CC20180917_Townsend_0037.tif"/> <!-- I...just realized our pb tags are formatted completely differently... -->
       <fw type="page_number" place="top">1/2</fw>
 
       <!--[start of page div]-->
@@ -256,20 +248,22 @@
         <ab>The Proudest view that can
           <lb/>be taken of Man is to see him
           <lb/>like some Fair Vessel proceed
-          <lb/>ing steadily thro the Ocean
-          <lb/>of Time His Sails impelled
+          <lb/>ing steadily thro the Ocean <!-- JL: are we silently regularizing words broken over lines -->
+          <lb/>of Time His Sails impelled 
           <lb/>by the Feelings and Passions
           <lb/>of a well ordered Mind. His
           <lb/>Irregular Motions controlled
-          <lb/>by the Ballast of a
-          <lb/>Understanding while Judge
+          <lb/>by the Ballast of a Sound <!-- JL: Jacob forgot "sound" -->
+          <lb/>Understanding while Judge <!-- JL: Word roken over line -->
           <lb/>ment sits at the Helm with
           <lb/>eyes fixed on the Compass
-          <lb/>of Religion and Reason<date when="1890-12-07">Dec 7/90</date></ab>
+          <lb/>of Religion and Reason<date when="1890-12-07">Dec 7/90</date></ab><!-- JL: Should we make the date a note?  -->
         <!--[end of ab]-->
 
         <!--[start of ab]-->
-        <ab>True quietness of Heart is got by resisting our passions not by obeying them</ab>
+        <ab>True quietness of Heart is got
+          <lb/>by resisting our passions not by 
+          <lb/>obeying them</ab> <!-- JL: Added <lb/>s -->
         <!--[end of ab]-->
       <!--[End of PAGE 37]-->
 
@@ -278,7 +272,7 @@
         <fw type="page_number" place="top">3/4</fw>
 
         <!--[start of ab]-->
-        <ab>Were Men indeed convin
+        <ab>Were Men indeed convin <!-- JL: word broken over line -->
           <lb/>ced that their health and comfort
           <lb/>were so materially dependent upon
           <lb/>the regulation of their own Minds,
@@ -294,16 +288,22 @@
 
         <ab>Tomorrow leads to the Town of Never</ab>
 
-        <ab>To deny self, to be meek, to be pure in heart<lb/>to trust Gods Providence</ab>
+        <ab>To deny self, to be meek, to be pure in heart
+          <lb/>to trust Gods Providence</ab>
 
-        <ab>Love. Joy. Peace long suffering Kindness goodness<lb/>faithfulness meekness 	temperance - can we say<lb/>there is not a strong line of demarkation between<lb/>those who bear such fruit and those who don't</ab>
+        <ab>Love. Joy. Peace long suffering Kindness goodness
+          <lb/>faithfulness meekness 	temperance - can we say
+          <lb/>there is not a strong line of demarkation between <!-- JL: Regularize demarcation?  -->
+          <lb/>those who bear such fruit and those who don't</ab> <!-- JL: Don't doens't have an apostrophe in the text; are we silently regularlizing that? -->
 
         <!--[start of note]-->
         <note place="bottom">
-          <q type="biblical">and he that is eight days old<lb/>shall be circumsised
+          <q type="biblical">and he that is eight days old
+            <lb/>shall be circumsised
             <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
-            <emph rend="#flourish">Circumsised Cardinal Number 8</emph></q>
+            <emph rend="flourish">Circumsised Cardinal Number 8</emph></q>
         </note><!--[end of note]-->
+        <!-- JL: I wanna make sure the formatting on this is alright. Also, once again, Townsend is on crack. -->
       </div><!--[end of page div]-->
       <!--[End of PAGE 38]-->
 
