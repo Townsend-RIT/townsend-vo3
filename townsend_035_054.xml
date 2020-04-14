@@ -35,20 +35,28 @@
         <ab>Stores for all sent up to the departments by
           <lb/>Ticket and Store Keeper charge each department
           <lb/>in his Journal. then every year balance
-          <lb/>stores and shew balance</ab> <!-- JL: Is balance underlined? -->
+          <lb/>stores and shew balance</ab>
+
+        <ab type="typography" rend="horizontal-line">----------------</ab>
 
         <table rows="9" cols="2">
           <head>Re-arrangement of Office Work <date when="1898-05-16">May 16/98</date></head>
 
           <row role="label"><!--[start of row]-->
-            <cell>Bookeeper
+            <cell><choice>
+              <orig>Bookeeper</orig>
+              <reg>Bookkeeper</reg>
+            </choice>
               <note place="underneath">
-                <persName>Freeman</persName> <!-- JL: Underlined? -->
+                <persName>Freeman</persName>
               </note>
             </cell>
-            <cell>Assistant Bookeeper
+            <cell>Assistant <choice>
+              <orig>Bookeeper</orig>
+              <reg>Bookkeeper</reg>
+            </choice>
               <note place="underneath">
-                <persName>Thompson</persName> <!-- JL: Underlined? -->
+                <persName>Thompson</persName>
               </note>
             </cell>
           </row><!--[End of row]-->
@@ -81,8 +89,8 @@
 
           <row>
             <cell>Posting General Sales Ledgers
-              <lb/>Accounts monthly-quaterly-all <!-- JL: Ignoring line break? -->
-              <lb/>Collecting vigilantly + well kept up <!-- JL: Another ignored line break? -->
+              <lb/>Accounts monthly-quaterly-all 
+              <lb/>Collecting vigilantly + well kept up 
               <lb/>Orders end in Calculation
               <choice>
                 <abbr>bks</abbr>
@@ -99,7 +107,7 @@
                 <lb/>Contents <choice> <!-- JL: Added choice tag for abbreviation -->
                   <abbr>No</abbr>
                   <expan>Number</expan>
-                </choice> of Tin Cases <num>12</num> <!-- JL: I agree that this is bold, but how do we make sure this is consistent? -->
+                </choice> of Tin Cases <num>12</num> 
               </emph>
             </cell>
             <cell>Trade Ledger</cell>
@@ -107,7 +115,8 @@
 
           <row>
             <cell></cell>
-            <cell>Accounts To pay departmental rations</cell> <!--JL: This is two rows? -->
+            <cell>Accounts To pay 
+              <lb/> departmental returns</cell>
           </row>
 
           <row>
@@ -125,11 +134,11 @@
         <ab>Master should keep his own Cash and fall over
         <lb />his own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab>
         <!--[how to handle WT initials]-->
-        <!-- JL: Personally, I treat them as an abbreviation, but we should talk about this. -->
+        <!-- Check notes -->
 
         <!-- JL: This...is a continuation of the index. Needs to be consistent and put in an index div -->
         <list style="list-style-type: none">
-          <label>C Cammell C Lt complaint of Pads</label> <!--JL: there sure are a whole bunch of abbreviations here that i have no idea what they are. name things??? -->
+          <label>C Cammell C Lt complaint of Pads</label> <!--JL: TODO: abbreviations name company -->
           <item><num type="pageNum">163</num></item>
 
           <label>Cash Book idea <q><date when="1898">1898</date></q></label>
@@ -147,7 +156,7 @@
           <label>Cart Celebrated Printers</label>
           <item><num type="pageNum">142</num> <num type="pageNum">105</num></item>
 
-          <label>Christmas</label> <!--JL: There's some sort of symbol here? Maybe it's an H?? -->
+          <label>Christmas <unclear resp="JL">#</unclear></label> 
           <item><num type="pageNum">100</num></item>
 
           <label>Carriage Sutton</label>
@@ -208,7 +217,7 @@
               <lb />you can get others
               <lb />to do
             <!--[get this handShift attribute looked at again.]-->
-            <!-- JL: That looks like a name? Potentially? Jalleypond?  -->
+            <!-- JL: TODO: is Jalleypoint/pond a name  -->
             <handShift medium="ink"/>
           </note><!--[end of note]-->
         </ab>
@@ -222,11 +231,11 @@
           <item>Account book making</item>
           <item>binding</item>
           <item>pattern cards</item>
-          <item><handShift medium="pencil" /><unclear resp="JL" reason="illegible">Twine</unclear> books 29</item><!-- JL: There's a handwritten note here I don't want to deal wiiiiiiiiith -->
+          <item><handShift medium="pencil" /><unclear resp="JL" reason="illegible">Zinc</unclear> backs 29</item>
           <item><handShift medium="ink" />Type</item>
           <item>Litho</item>
           <item>Sales Shop</item>
-          <item>Boxs</item> <!-- regularize? -->
+          <item>Boxs</item>
         </list>
         <!--[End of list]-->
 
@@ -239,7 +248,7 @@
       <!--[End of PAGE 36]-->
 
       <!--[Start of PAGE 37]-->
-      <pb n="037" facs="CC20180917_Townsend_0037.tif"/> <!-- I...just realized our pb tags are formatted completely differently... -->
+      <pb n="037" facs="CC20180917_Townsend_0037.tif"/> 
       <fw type="page_number" place="top">1/2</fw>
 
       <!--[start of page div]-->
@@ -247,17 +256,21 @@
         <!--[start of ab]-->
         <ab>The Proudest view that can
           <lb/>be taken of Man is to see him
-          <lb/>like some Fair Vessel proceed
-          <lb/>ing steadily thro the Ocean <!-- JL: are we silently regularizing words broken over lines -->
+          <lb/>like some Fair Vessel proceeding
+          <lb/>steadily <choice>
+            <abbr>thro</abbr>
+            <expan>through</expan>
+          </choice>thro the Ocean 
           <lb/>of Time His Sails impelled 
           <lb/>by the Feelings and Passions
           <lb/>of a well ordered Mind. His
           <lb/>Irregular Motions controlled
-          <lb/>by the Ballast of a Sound <!-- JL: Jacob forgot "sound" -->
-          <lb/>Understanding while Judge <!-- JL: Word roken over line -->
-          <lb/>ment sits at the Helm with
+          <lb/>by the Ballast of a Sound 
+          <lb/>Understanding while Judgement 
+          <lb/>sits at the Helm with
           <lb/>eyes fixed on the Compass
-          <lb/>of Religion and Reason<date when="1890-12-07">Dec 7/90</date></ab><!-- JL: Should we make the date a note?  -->
+          <lb/>of Religion and Reason</ab>
+        <note place="bottom"><date when="1890-12-07">Dec 7/90</date></note>
         <!--[end of ab]-->
 
         <!--[start of ab]-->
@@ -272,8 +285,8 @@
         <fw type="page_number" place="top">3/4</fw>
 
         <!--[start of ab]-->
-        <ab>Were Men indeed convin <!-- JL: word broken over line -->
-          <lb/>ced that their health and comfort
+        <ab>Were Men indeed convinced
+          <lb/>that their health and comfort
           <lb/>were so materially dependent upon
           <lb/>the regulation of their own Minds,
           <lb/>they would be more careful to
@@ -282,8 +295,9 @@
           <lb/>Confirm them by Religion, and
           <lb/>reduce them to an equanimity not
           <lb/>easily disturbed by the Crosses and
-          <lb/>Accidents of Life.<date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date>
-        </ab>
+          <lb/>Accidents of Life.</ab>
+        <note place="bottom"><date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date></note>
+        
         <!--[end of ab]-->
 
         <ab>Tomorrow leads to the Town of Never</ab>
@@ -293,8 +307,11 @@
 
         <ab>Love. Joy. Peace long suffering Kindness goodness
           <lb/>faithfulness meekness 	temperance - can we say
-          <lb/>there is not a strong line of demarkation between <!-- JL: Regularize demarcation?  -->
-          <lb/>those who bear such fruit and those who don't</ab> <!-- JL: Don't doens't have an apostrophe in the text; are we silently regularlizing that? -->
+          <lb/>there is not a strong line of <choice>
+            <orig>demarkation</orig>
+            <reg>demarcation</reg>
+          </choice>demarkation between 
+          <lb/>those who bear such fruit and those who don't</ab>
 
         <!--[start of note]-->
         <note place="bottom">
@@ -303,7 +320,7 @@
             <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
             <emph rend="flourish">Circumsised Cardinal Number 8</emph></q>
         </note><!--[end of note]-->
-        <!-- JL: I wanna make sure the formatting on this is alright. Also, once again, Townsend is on crack. -->
+        <!-- JL: TODO: double triple check this whole ref stuff -->
       </div><!--[end of page div]-->
       <!--[End of PAGE 38]-->
 
@@ -314,7 +331,7 @@
       <!--[start of page div]-->
       <div type="page">
         <head>Routine of Work And duty</head>
-        <note place="left margin">One good head is <!-- JL: We might want to standardize what places a note can be...food for thought. -->
+        <note place="left margin">One good head is <!-- TODO: talk about standardizing note locations -->
           <lb/>better than a
           <lb/>great many Hands</note>
 
@@ -322,13 +339,16 @@
         <ab>I advise rising at 6am Summer
           <lb/>and Winter,
           <lb/>Prayers Bath and Shave up to 7
-          <lb/>Breakfast from 7.15 to 7.45 including H.C. <!-- JL: HC stands for hot coffee right -->
+          <lb/>Breakfast from 7.15 to 7.45 including <choice>
+            <abbr>H.C.</abbr>
+            <expan>Hot Cold</expan>
+          </choice>
           <lb/>Carriage 7.45 to 8 arrive Surrey <choice>
             <abbr>St</abbr>
             <expan>Street</expan>
           </choice>
           <lb/>In Workshops at 8 prompt seeing to
-          <lb/>work untill 1pm from 1 to 2 dinner <!-- JL: Silently regularizing untill? -->
+          <lb/>work until 1pm from 1 to 2 dinner 
           <lb/>in private room Hot one day Cold
           <lb/>next leave Surrey <choice>
             <abbr>St</abbr>
@@ -352,7 +372,7 @@
             <expan>Friday</expan>
           </choice> - Saturday each
           <lb/>alternately a holiday.
-        </ab> <!-- JL: How are we handling time? Just <num type="time"> ? -->
+        </ab> <!-- JL: How are we handling time? Just <num type="time"> ? <time> ? -->
         <!--[end of ab]-->
 
         <table rows="6" cols="4"><!--[start of table]-->
@@ -393,7 +413,7 @@
 
           <row>
             <cell>S</cell>
-            <cell cols="3">Summer <seg xml:id="holiday_0039">holiday</seg> alternate <seg xml:id="saturday_0039">Saturdays</seg> <!-- JL: Does that say summer? I think it says Juniors????? -->
+            <cell cols="3">Juniors <seg xml:id="holiday_0039">holiday</seg> alternate <seg xml:id="saturday_0039">Saturdays</seg>
               <lb/>Senior <seg sameAs="#holiday_0039">ditto</seg> each <seg sameAs="#saturday_0039">ditto</seg>
             </cell>
           </row>
