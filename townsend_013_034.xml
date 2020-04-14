@@ -63,7 +63,7 @@
                 </list>
                 <!-- END PAGE 0013 -->
                 <!-- START PAGE 0014 -->
-                <pb facs="0014.tif" />
+                <pb facs="0014.tif" n="0014" />
                 <fw type="tab">A <lb /> B</fw>
                 <list type="index-b">
                     <label><handShift medium="ink" />Binders good <date when="1909-12">Dec 1909</date></label><item><num type="pageNum">193</num></item>
@@ -100,7 +100,7 @@
                 </list>
                 <!-- END PAGE 0014 -->
                 <!-- START PAGE 0015 -->
-                <pb facs="0015.tif" />
+                <pb facs="0015.tif" n="0015" />
                 <list type="index-c">
                     <label>Charging</label><item><num type="pageNum">106</num></item>
                     <label>Complaints by Workpeople</label><item><num type="pageNum">97</num></item>
@@ -136,7 +136,7 @@
                 </ab>
                 <!-- END PAGE 0015 -->
                 <!-- START PAGE 0016 -->
-                <pb facs="0016.tif" />
+                <pb facs="0016.tif" n="0016" />
                 <fw type="tab">C <lb /> D</fw>
                 <list type="index-d">
                     <label>Days A working <date when="1905-11-16">Nov 16/1905</date></label><item><num type="pageNum">284</num></item>
@@ -175,7 +175,7 @@
                 </list>
                 <!-- END PAGE 0016 -->
                 <!-- START PAGE 0017 -->
-                <pb facs="0017.tif" />
+                <pb facs="0017.tif" n="0017" />
                 <list type="index-e">
                     <label>Engraved Blocks</label><item><num type="pageNum">148</num></item>
                     <label>Envelopes</label><item><num type="pageNum">259</num></item>
@@ -193,7 +193,7 @@
                 </list>
                 <!-- END PAGE 0017 -->
                 <!-- START PAGE 0018 -->
-                <pb facs="0018.tif" />
+                <pb facs="0018.tif" n="0018" />
                 <fw type="tab">E <lb /> F</fw>
                 <list type="index-f">
                     <label><handShift medium="pencil" />Feeding at ruling machine</label><item><num type="pageNum">234</num></item>
@@ -232,7 +232,7 @@
                 </list>
                 <!-- END PAGE 0018 -->
                 <!-- START PAGE 0019 -->
-                <pb facs="0019.tif" />
+                <pb facs="0019.tif" n="0019" />
                 <list type="index-g">
                     <label><handShift medium="ink" />Groom</label><item><num type="pageNum">343</num></item>
                     <label>Glue</label><item><num type="pageNum">115</num></item>
@@ -253,7 +253,7 @@
                 </list>
                 <!-- END PAGE 0019 -->
                 <!-- START PAGE 0020 -->
-                <pb facs="0020.tif" />
+                <pb facs="0020.tif" n="0020" />
                 <fw type="tab">G <lb /> H</fw>
                 <list type="index-h">
                     <label><handShift medium="ink" /><seg xml:id="holiday_0020">Holidays</seg> and <seg xml:id="absence_0020">Absence</seg></label><item><num type="pageNum">98</num></item>
@@ -270,7 +270,7 @@
                 </list>
                 <!-- END PAGE 0020 -->
                 <!-- START PAGE 0021 -->
-                <pb facs="0021.tif" />
+                <pb facs="0021.tif" n="0021" />
                 <list type="index-ij">
                     <label><handShift medium="ink" />Ink <unclear resp="JL" reason="name">Morrel</unclear> end board end paper</label><item><num type="pageNum">360</num></item>
                     <label>Index scale and stock</label><item><num type="pageNum">52</num></item>
@@ -321,7 +321,7 @@
                 </list>
                 <!-- END PAGE 0021 -->
                 <!-- START PAGE 0022 -->
-                <pb facs="0022.tif" />
+                <pb facs="0022.tif" n="0022" />
                 <fw type="tab">J <lb /> K</fw>
                 <list type="index-k">
                     <label><handShift medium="ink" /><seg xml:id="key_to_0022">Key to 
@@ -341,7 +341,7 @@
                 </list>
                 <!-- END PAGE 0022 -->
                 <!-- START PAGE 0023 -->
-                <pb facs="0023.tif" />
+                <pb facs="0023.tif" n="0023" />
                 <list type="index-l">
                     <label>Letters denoting Departments</label><item><num type="pageNum">288</num></item>
                     <label>Litho Capacity</label><item><num type="pageNum">237</num></item>
@@ -388,7 +388,7 @@
                 </list>
                 <!-- END PAGE 0023 -->
                 <!-- START PAGE 0024 -->
-                <pb facs="0024.tif" />
+                <pb facs="0024.tif" n="0024" />
                 <fw type="tab">L <lb /> M</fw>
                 <list type="index-m">
                     <label>Morning and Afternood Workshop visits</label><item><num type="pageNum">205</num></item>
@@ -421,7 +421,7 @@
                 </list>
                 <!-- END PAGE 0024 -->
                 <!-- START PAGE 0025 -->
-                <pb facs="0025.tif" />
+                <pb facs="0025.tif" n="0025" />
                 <list type="index-n">
                     <label>Note Paper for Sales + travellers</label><item><num type="pageNum">39</num> <num type="pageNum">281</num></item>
                     <label>Notices Special</label><item><num type="pageNum">255</num></item>
@@ -442,7 +442,7 @@
                 </list>
                 <!-- END PAGE 0025 -->
                 <!-- START PAGE 0026 -->
-                <pb facs="0026.tif" />
+                <pb facs="0026.tif" n="0026" />
                 <fw type="tab">N <lb /> O</fw>
                 <list type="index-o">
                     <label>Orders treatment of</label><item><num type="pageNum">297</num></item>
@@ -484,7 +484,7 @@
                 </list>
                 <!-- END PAGE 0026 -->
                 <!-- START PAGE 0027 -->
-                <pb facs="0027.tif" />
+                <pb facs="0027.tif" n="0027" />
                 <list type="index-p">
                     <label>Printing per hour</label><item><num type="pageNum">70</num> (machines) <num type="pageNum">241</num></item> <!-- Associate 70 and machines -->
                     <label>Printing Office Capacity</label><item><num type="pageNum">241</num> <num type="pageNum">245</num></item>
@@ -512,7 +512,7 @@
                 </list>
                 <!-- END PAGE 0027 -->
                 <!-- START PAGE 0028 -->
-                <pb facs="0028.tif" />
+                <pb facs="0028.tif" n="0028" />
                 <fw type="tab">P <lb /> Q</fw>
                 <list type="index-q">
                     <label>Quality of Work</label><item><num type="pageNum">28</num></item>
@@ -553,7 +553,7 @@
                 </list>
                 <!-- END PAGE 0028 -->
                 <!-- START PAGE 0029 -->
-                <pb facs="0029.tif" />
+                <pb facs="0029.tif" n="0029" />
                 <list type="index-r">
                     <label>Revision of Tin Cases <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">11</num></item>
                     <label>Routine and Duty</label><item><num type="pageNum">1</num></item>
@@ -583,7 +583,7 @@
                 </list>
                 <!-- END PAGE 0029 -->
                 <!-- START PAGE 0030 -->
-                <pb facs="0030.tif" />
+                <pb facs="0030.tif" n="0030" />
                 <fw type="tab">R <lb /> S</fw>
                 <list type="index-s">
                     <label>Sewing 
@@ -631,7 +631,7 @@
                 </list>
                 <!-- END PAGE 0030 -->
                 <!-- START PAGE 0031 -->
-                <pb facs="0031.tif" />
+                <pb facs="0031.tif" n="0031" />
                 <list type="index-t">
                     <label>Travelling or <q>Ambassador</q></label><item><num type="pageNum">277</num> <num type="pageNum">281</num></item>
                     <label><seg xml:id="Traveller_0031">Traveller</seg> character of</label><item><num type="pageNum">287</num></item>
@@ -679,7 +679,7 @@
                 </list>
                 <!-- END PAGE 0031 -->
                 <!-- START PAGE 0032 -->
-                <pb facs="0032.tif" />
+                <pb facs="0032.tif" n="0032" />
                 <fw type="tab">T <lb /> V</fw>
                 <list type="index-uv">
                     <label>Union of Prices idea</label><item><num type="pageNum">271</num></item>
@@ -710,7 +710,7 @@
                 </list>
                 <!-- END PAGE 0032 -->
                 <!-- START PAGE 0033 -->
-                <pb facs="0033.tif" />
+                <pb facs="0033.tif" n="0033" />
                 <list type="index-w">
                     <label>Washleather <unclear resp="JL" reason="name">JRJ</unclear> Case</label><item><num type="pageNum">323</num></item>
                     <label>Writings and Rulings</label><item><num type="pageNum">351</num></item>
@@ -740,7 +740,7 @@
                 </list>
                 <!-- END PAGE 0033 -->
                 <!-- START PAGE 0034 -->
-                <pb facs="0034.tif" />
+                <pb facs="0034.tif" n="0034" />
                 <fw type="tab">W <lb /> X</fw>
                 <list type="index-w">
                     <label>Work Progress of 
