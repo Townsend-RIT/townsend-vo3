@@ -25,6 +25,7 @@
         DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
         DITTO (cont): Encoders replacing dittos with respective word references rather than using system for testing purposes
         UNDERLINED TEXT: "style="text-decoration: underline;"
+        DOUBLE UNDERLINE: style="text-decoration: underline; text-decoration-style: double;"
         ROMAN NUMERALS: <num type="roman" value=""></num>
         ]-->
 
@@ -37,6 +38,8 @@
         <!--[CHANGED 13/02/20: End page 56, use of @rows and @cols attributes for <cell> elements, marked TO-DO to implement a horizontal line break, end of page 57]-->
 
         <!--[CHANGED 05/03/20: Use of @rend to denote a horizontal line break]-->
+
+        <!--[CHANGED 26/03/20: First instance of a percentage num type]-->
 
         <!--[Start of PAGE 55]-->
             <pb n="055" facs="CC20180917_Townsend_0055.tif"/>
@@ -214,7 +217,7 @@
                 <!--[start of table 4]-->
                 <table rows="22" cols="2">
                     <head><hi style="text-decoration: underline;">Flush 1 to 3 <abbr>qrs</abbr>abbr></hi></head>
-                    <note>In the above 15 ways of <lb>Ruling 591 - 63 - 1 bind CDI</note>
+                    <note>In the above 15 ways of <lb/>Ruling 591 - 63 - 1 bind CDI</note>
                     <row>
                         <cell><abbr>Dble</abbr> ledger</cell>
                         <cell>591 - 593</cell>
@@ -1012,6 +1015,12 @@
               </table>
               <!--[end of table on page; continues]-->
 
+        <!--[End of PAGE 61]-->
+
+        <!--[Start of PAGE 62]-->
+            <pb n="062" facs="CC20181003_Townsend_0062.tif"/>
+            <fw type="page_number" place="top">24</fw>
+
               <!--[start of table; restart]-->
               <table rows="18" cols="2">
                 <head style="text-decoration: underline;">Fcap</head>
@@ -1088,38 +1097,323 @@
               		<cell>Fcap ft head dble Cash index <num type="fraction" value=".5">1/2</num> morocco</cell>
               	</row>
               </table>
+
+              <table>
+                <head style="text-decoration: underline;">Post</head>
+                <row>
+                  <cell>9571</cell>
+                  <cell>12 sh post 8ov bank patt Roan de la rue</cell>
+                </row>
+                <note place="below"><unclear>0JM 21</unclear></note>
+                <row>
+                  <cell>9572</cell>
+                  <cell>ditto 310 20 paper ditto</cell>
+                </row>
+                <row>
+                  <cell>9717</cell>
+                  <cell>42 sh post in 4to hd dble cash Morocco limp</cell>
+                </row>
+                <row>
+                  <cell>9718</cell>
+                  <cell>ditto ditto</cell>
+                </row>
+              </table>
+
+              <table>
+                <head>Sheet &amp; 2</head>
+                <row>
+                  <cell>8551</cell>
+                  <cell>Sheet + half</cell>
+                </row>
+              </table>
             </div>
-
-        <!--[End of PAGE 61]-->
-
-        <!--[Start of PAGE 62]-->
-            <pb n="062" facs="CC20181003_Townsend_0062.tif"/>
-            <fw type="page_number" place="top"></fw>
-
         <!--[End of PAGE 62]-->
 
         <!--[Start of PAGE 63]-->
             <pb n="063" facs="CC20181003_Townsend_0063.tif"/>
-            <fw type="page_number" place="top"></fw>
+            <fw type="page_number" place="top">25</fw>
 
+            <div type="NULL">
+              <list>
+                <head>My Fathers price book means</head>
+                <label>E C 1</label>
+                <item>faint only</item>
+                <label>E C 2</label>
+                <item>faint &amp; common</item>
+                <label>E C 3</label>
+                <item>faint + common in long 4to</item>
+                <label>E C 4</label>
+                <item>Single Ledger</item>
+                <label>E C 5</label>
+                <item>double Ledger</item>
+                <label>E C 6</label>
+                <item>three stop pattern</item>
+                <label>E C 7</label>
+                <item>2 accounts</item>
+              </list>
+
+              <!--[large break in the page with nothing]-->
+
+              <table>
+                <row>
+                  <cell>Nº10</cell>
+                  <cell>Medium 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Large Post 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Demy 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Post 8vos</cell>
+                </row>
+                <row>
+                  <cell>Nº11</cell>
+                  <cell>Foolscap 8vos</cell>
+                </row>
+              </table>
+            </div>
         <!--[End of PAGE 63]-->
 
         <!--[Start of PAGE 64]-->
             <pb n="064" facs="CC20181003_Townsend_0064.tif"/>
-            <fw type="page_number" place="top"></fw>
+            <fw type="page_number" place="top">26</fw>
 
+            <div type="NULL">
+              <table>
+                <head>Suitable distance of Faints for <lb/> Account Books</head>
+                <note place="below">distance <lb/> as long fo faint lined book</note>
+                <row>
+                  <cell>Nº6</cell>
+                  <cell>Imperial folio and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Super Royal and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Royal and long 4to</cell>
+                </row>
+                <row>
+                  <cell>Nº7</cell>
+                  <cell>Medium folio and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Large Post and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Demy and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Imperial broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Super Royal broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Royal broad 4to</cell>
+                </row>
+                <row>
+                  <cell>Nº8</cell>
+                  <cell>Foolscap folio and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Sheet + half and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Sheet + thirds and long 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Medium broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Large post broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Demy broad 4to</cell>
+                </row>
+                <row>
+                  <cell>Nº9</cell>
+                  <cell>Foolscap broad 4to</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Imperial 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Super Royal 8vos</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Royal 8vos</cell>
+                </row>
+              </table>
+            </div>
         <!--[End of PAGE 64]-->
 
         <!--[Start of PAGE 65]-->
             <pb n="065" facs="CC20181003_Townsend_0065.tif"/>
-            <fw type="page_number" place="top"></fw>
+            <fw type="page_number" place="top">27</fw>
 
+            <div type="NULL">
+              <head>Colours for Account Books</head>
+
+              <list>
+                <label>very best levant Morocco</label>
+                <item>Maroon</item>
+                <label>very best levant Morocco</label>
+                <item>Brown</item>
+                <label>very best levant Morocco</label>
+                <item>Red</item>
+              </list>
+            </div>
+
+            <div type="NULL">
+              <head>Estimates<head>
+              <ab>
+                Paper net money not Invoice Rheum list covers Car<add place="opposite">riage, strip off all discount</add>
+                <lb/>Cheap <num type="fraction" value="12.5">12 1/2</num> dis on SL as my Father <!--[TODO: What is SL initials(?)]-->
+                <lb/>letter XX on SL sell at
+                <lb/>best old price sell at
+              </ab>
+              <note place="below"><date when="1893-10-26">Oct 26/93</date></note>
+
+              <note place="above"><date when="1893-11-03">Nov 3/93</date></note>
+              <ab>
+                Central Notice Offices Sheffield
+                <lb/><num type="ordinal">1st</num> contract perfect paper. Rheum list
+              </ab>
+              <note place="margin">} I <lb/> lost <cb> Pawson <lb/> + <lb/> Braile <lb/> won</note>
+              <ab>
+                <num type="ordinal">2nd</num> Contract XX paper Rheum list
+                <lb/><num type="fraction" value="12.5">12 1/2</num> dis or <num tye="fraction" value="1.5">1 1/2</num> un 1/ time Rul Prun
+                <lb/><num type="fraction" value="12.5">12 1/2</num> dis or <num tye="fraction" value="1.5">1 1/2</num> un 1/ Fathers old list
+              </ab>
+              <note place="margin">1 <lb/> won
+                <cb/>
+                XX Mill
+                <lb/>sold Rheum
+                <lb/>sold Ruling
+                <lb/><num type="fraction" value="12.5">12 1/2</num> dis on
+                <lb/>time
+                <lb/>Print <num type="fraction" value="12.5">12 1/2</num> dis
+                <lb/>on time
+                <lb/>bind <num type="fraction" value="12.5">12 1/2</num> dis
+                <lb/>on Fathers SL
+                <lb/>his old way
+              </note>
+
+              <note place="above"><date when="1893-11---">Nov/93</date><lb/>List</note>
+              <ab>
+                XX or <num type="percentage" value="25">25%</num> on my Fathers SL and say 310 lett
+                <lb/><num type="percentage" value="12.5">12 1/2%</num> dis or <num tye="fraction" value="1.5">1 1/2</num> un 1/ on time Ruling + print
+                <lb/>paging fcap <num tye="fraction" value="1.5">1 1/2</num> demy 2 Med <num tye="fraction" value="2.5">2 1/2</num> Roy 3 Sup roy <num tye="fraction" value="3.5">3 1/2</num> Imp 4 pgs
+              </ab>
+            </div>
         <!--[End of PAGE 65]-->
 
         <!--[Start of PAGE 66]-->
             <pb n="066" facs="CC20181003_Townsend_0066.tif"/>
-            <fw type="page_number" place="top"></fw>
+            <fw type="page_number" place="top">28</fw>
 
+            <div type="NULL">
+              <ab>
+                Unless a distinct advan-
+                <lb/>tage in the Quality I
+                <lb/>dont think the trade will
+                <lb/>keep up
+              </ab>
+              <note place="inline">
+                <unclear reason="illegible" resp="Pochron">vide</unclear> Grandfathers 800, 1847
+              </note>
+              <note place="below">
+                <date when="1891-06-25">June 25/91</date>
+              </note>
+              <note place="margin">
+                Make it your special
+                <lb/>gift to match the account
+                <lb/>books
+              </note>
+
+              <ab>
+                Thought
+                <lb/>Wanted an Experienced
+                <lb/>Traveller, in the Account Book
+                <lb/>and Printing Trades
+                <lb/>Apply Box
+              </ab>
+
+              <note place="margin">
+                <date when="1892-08-08">Aug 8/93</date>
+              </note>
+              <ab>
+                <seg style="text-decoration: underline; text-decoration-style: double;">No Overtime Allowed</seg>
+                <lb/>The Overtime 9 per hour type. 8 <unclear reason="illegible" resp="Pochron">d</unclear> Binders
+                <lb/>and the heavy Union Wages I ascribe my
+                <lb/>bad balance this midsummer often the
+                <lb/>overtime is but a cause of lens being done in
+                <lb/>the regular hours - also Gas + <unclear reason="illegible" resp="Pochron">poney</unclear>WT <!--[TODO: WT initials]-->
+              </ab>
+
+              <ab>
+                Sample of a Week <date when="1893-08-26">Aug 26/93</date>
+                <cb/>
+                <table rows="6" cols="2">
+                  <row>
+                    <cell><unclear reason="illegible" resp="Pochron">Senv</unclear> Women Depart</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>Women Depart</cell>
+                    <cell><num type="fraction" value="7.5">7 1/2</num></cell>
+                  </row>
+                  <row>
+                    <cell>Station binding</cell>
+                    <cell>9 <num type="fraction" value="8.5">8 1/2</num></cell>
+                  </row>
+                  <row>
+                    <cell>paging</cell>
+                    <cell>1 <unclear reason="illegible" resp="Pochron">1 1/2</unclear></cell>
+                  </row>
+                  <row>
+                    <cell>type</cell>
+                    <cell>1 3 4</cell>
+                  </row>
+                  <row>
+                    <cell>patt cards</cell>
+                    <cell>12 10</cell>
+                  </row>
+                  <row>
+                    <cell>Total</cell>
+                    <cell style="border-top-style: solid; text-decoration-line: underline; text-decoration-style: double;">£ 2 7 <num type="fraction" value="11.5">11 1/2</num></cell>
+                  </row>
+                </table>
+              </ab>
+            </div>
         <!--[End of PAGE 66]-->
     </body>
   </text>
