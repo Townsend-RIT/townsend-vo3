@@ -42,12 +42,12 @@
 
           <row role="label"><!--[start of row]-->
             <cell>Bookeeper
-              <note place="underneath">
+              <note place="below">
                 <persName>Freeman</persName>
               </note>
             </cell>
             <cell>Assistant Bookeeper
-              <note place="underneath">
+              <note place="below">
                 <persName>Thompson</persName>
               </note>
             </cell>
