@@ -34,6 +34,8 @@
 
       <!--[CHANGED: 26/03/20: Start of template, use of an @ sign as shorthand for "at"]-->
 
+      <!--[CHANGED: 23/04/20: use of value 'inspace' with @placement, dozen of little notes on 0088]-->
+
       <!--[Start of PAGE 81]-->
         <pb n="081" facs="CC20180917_Townsend_0081.tif"/>
         <fw type="page_number" place="top">39</fw>
@@ -367,7 +369,14 @@
           	</row>
           	<row>
           		<cell>Forward</cell>
+                <note place="above">
+                  stab
+                  <lb/><num>32</num>/
+                </note>
           		<cell>2 journeymen (Robinsons)</cell>
+                <note place="above">
+                  <num>34</num>/.
+                </note>
           		<cell>3</cell>
           		<cell>8</cell>
           		<cell>0</cell>
@@ -389,6 +398,9 @@
           	<row>
           		<cell></cell>
           		<cell>1 finisher</cell>
+                <note place="inspace">
+                  <num>34</num>/.
+                </note>
           		<cell>1</cell>
           		<cell>17</cell>
           		<cell>0</cell>
@@ -410,13 +422,21 @@
           	<row>
           		<cell></cell>
           		<cell></cell>
-          		<cell>6</cell>
-          		<cell>7</cell>
-          		<cell>0</cell>
+          		<cell style="border-top-style: solid none double">6</cell>
+          		<cell style="border-top-style: solid none double">7</cell>
+          		<cell style="border-top-style: solid none double">0</cell>
           	</row>
           	<row>
-          		<cell>Stationery binder</cell>
+          		<cell>
+                Stationery
+                  <note place="below">
+                    <num>32</num>/.
+                  </note>
+                <lb/>binder }</cell>
           		<cell>2 journeymen</cell>
+                <note place="above">
+                  <num>34</num>/.
+                </note>
           		<cell>3</cell>
           		<cell>8</cell>
           		<cell>0</cell>
@@ -438,6 +458,9 @@
           	<row>
           		<cell></cell>
           		<cell>1 finisher</cell>
+                <note place="inspace">
+                  <num>34</num>/.
+                </note>
           		<cell>1</cell>
           		<cell>16</cell>
           		<cell>0</cell>
@@ -452,13 +475,23 @@
           	<row>
           		<cell></cell>
           		<cell></cell>
-          		<cell>5</cell>
-          		<cell>19</cell>
-          		<cell>0</cell>
+          		<cell style="border-top-style: solid none double">5</cell>
+          		<cell style="border-top-style: solid none double">19</cell>
+          		<cell style="border-top-style: solid none double">0</cell>
           	</row>
           	<row>
           		<cell>Type</cell>
+                <note place="inspace below">
+                  <unclear reason="unclear" resp="Pochron">qu2to</unclear>
+                  <lb/>Foundry more
+                  <lb/>to compete by having
+                  <lb/>casts for repe 3 ats and
+                  <lb/>lessening comp
+                </note>
           		<cell>1 working foreman</cell>
+                <note place="below">
+                  <num>33</num>/.
+                </note>
           		<cell>1</cell>
           		<cell>17</cell>
           		<cell>0</cell>
@@ -466,6 +499,9 @@
           	<row>
           		<cell></cell>
           		<cell>2 Comp journeymen</cell>
+                <note place="inspace">
+                  <num>33</num>/.
+                </note>
           		<cell>3</cell>
           		<cell>6</cell>
           		<cell>0</cell>
@@ -508,13 +544,16 @@
           	<row>
           		<cell></cell>
           		<cell></cell>
-          		<cell>8</cell>
-          		<cell>2</cell>
-          		<cell>0</cell>
+          		<cell style="border-top-style: solid none double">8</cell>
+          		<cell style="border-top-style: solid none double">2</cell>
+          		<cell style="border-top-style: solid none double">0</cell>
           	</row>
           	<row>
-          		<cell>Litho</cell>
+          		<cell>Litho</cell><note place="inline"><num>3</num></note>
           		<cell>1 Transferer + Machine</cell>
+                <note place="inspace">
+                  <num>3</num>
+                </note>
           		<cell>1</cell>
           		<cell>17</cell>
           		<cell>0</cell>
@@ -535,7 +574,10 @@
           	</row>
           	<row>
           		<cell></cell>
-          		<cell>1 boy</cell>
+          		<cell>1 boy</cell><note place="inline"><unclear reason="illegible" resp="Pochron">Nasow</unclear></note>
+                <note place="inspace">
+                  Ideal
+                </note>
           		<cell></cell>
           		<cell>4</cell>
           		<cell>0</cell>
@@ -543,23 +585,105 @@
           	<row>
           		<cell></cell>
           		<cell></cell>
-          		<cell>4</cell>
-          		<cell>2</cell>
-          		<cell>0</cell>
+                <note place="inspace">
+                  <num>24</num>/<num>10</num>/.
+                </note>
+          		<cell style="border-top-style: solid none double">4</cell>
+          		<cell style="border-top-style: solid none double">2</cell>
+          		<cell style="border-top-style: solid none double">0</cell>
           	</row>
+            <trailer>
+              Pagers, Women, Collator Ruler Warehouse
+                <note place="below">
+                  <num>32</num>/.
+                </note>
+              <lb/>Offices cards finish off
+            </trailer>
           </table>
         </div>
       <!--[End of PAGE 88]-->
 
       <!--[Start of PAGE 89]-->
         <pb n="089" facs="CC20180917_Townsend_0089.tif"/>
-        <fw type="page_number" place="top"></fw>
+        <fw type="page_number" place="top">47</fw>
+
+        <div type="NULL">
+          <ab>
+            both type and litho wages are too high
+            <lb/>for such orders as we get and I propose
+            <lb/>to try smaller establishments, unless better
+            <lb/>prices reign. often again the experienced
+            <lb/>hand being often slow too old without energy
+            <lb/> or pottering as compated with quicker
+            <lb/>experts and I may say as compared with
+            <lb/>hard drivin Masters of the Manchester type <!--[TODO: location, and name on next line]-->
+            <lb/>(Johnson and such) who come over and sell
+            <lb/>at unprecedently low rates _ perhaps in
+            <lb/>the finishing off packing laying out
+            <lb/>delivery some saving might be made but
+            <lb/>I am loth to do so _ I favour piece work <!--[TODO: loth is the old english spelling of loath]-->
+            <lb/>all thro as being the only way of honest
+            <lb/>dealing between buyer and seller of labour
+          </ab>
+          <ab>
+            occurence this week
+            <lb/><time when="08:35:00">8/35am</time> after looking over the letters I am in
+            <lb/>the workshops at 25 mins to 9 two of the principal
+            <lb/>men I wanted to arrange the work with I found
+            <lb/>not at their places but both on the privy well
+            <lb/>both had <num>36</num>/. per week and called for word with
+            <lb/>C Smith _ why won't you clear your room of the <!--[TODO: persname]-->
+            <lb/>Sales Shop a/c books you have to bind so that
+            <lb/>there can be more oversight being so felled
+            <lb/>with work allows are many runs as Rats
+            <lb/>in a drain
+          </ab>
+          <note place="below">
+            <date when="1893-09-18">Sep 18/93</date>
+          </note>
       <!--[End of PAGE 89]-->
 
       <!--[Start of PAGE 90]-->
         <pb n="090" facs="CC20180917_Townsend_0090.tif"/>
-        <fw type="page_number" place="top"></fw>
+        <fw type="page_number" place="top">48</fw>
+
+        <ab>
+          The Wages are too high by <num type="percentage">20%</num>
+          <lb/>and unless they are reduced
+          <lb/><num type="percentage">15%</num> I don't see my way to
+          <lb/>keep the concern at a proper
+          <lb/>and fair paying return <note place="inline">WT</note> <!--[TODO: WT initials]-->
+          <note place="below"><date when="1893-10-26">26 Oct/93</date></note>
+        </ab>
+
+        <ab>
+          do you think <num>1<num> journeyman should
+          <lb/>oversee <num>3</num> platers which allows <num>2</num> to be always
+          <lb/>working perpetually the cost would be
+          <table>
+            <head place="inspace">2 quils</head>
+            <row>
+              <cell>Wage></cell>
+              <cell>1 14 6</cell>
+            </row>
+            <row>
+              <cell>Wage</cell> <!--[TODO: ditto]-->
+              <cell style="border-bottom-style: solid">12 0 </cell>
+            </row>
+            <row>
+              <cell>102</cell>
+                <note place="below">hours <lb/> for <lb/> the <num>1</num> mo</note>
+              <cell style="border-bottom-style: solid">2 6 6</cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell style="border-bottom-style: solid"><num type="fraction" value="5.5">5 1/2</num></cell>
+          </table>
+        </ab>
+
+        </div>
       <!--[End of PAGE 90]-->
+
 
       <!--[Start of PAGE 91]-->
         <pb n="091" facs="CC20180917_Townsend_0091.tif"/>
