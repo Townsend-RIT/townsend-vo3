@@ -657,7 +657,7 @@
         </ab>
 
         <ab>
-          do you think <num>1<num> journeyman should
+          do you think <num>1</num> journeyman should
           <lb/>oversee <num>3</num> platers which allows <num>2</num> to be always
           <lb/>working perpetually the cost would be
           <table>
@@ -678,6 +678,7 @@
             <row>
               <cell></cell>
               <cell style="border-bottom-style: solid"><num type="fraction" value="5.5">5 1/2</num></cell>
+            </row>
           </table>
         </ab>
 
