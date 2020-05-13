@@ -405,7 +405,7 @@
           </row>
 
           <row>
-            <cell>F</cell> <!-- JL: F or Fr? I can't tell if that's just a fancy F -->
+            <cell>Fr</cell>
             <cell sameAs="#t8to1_0039">ditto</cell>
             <cell sameAs="#t2to7_0039">ditto</cell>
             <cell>10</cell>
@@ -432,36 +432,63 @@
         <pb n="040" facs="CC20181003_Townsend_0040.tif"/>
       <fw type="page_number" place="top">2</fw>
 
-        <ab>In Business - I think if Health<lb/>will permit it is a very good thing<lb/>to be in the workshops at 2pm to<lb/>see all at their work doing it corr<lb/>ectly and properly</ab>
+        <ab>In Business - I think if Health
+          <lb/>will permit it is a very good thing
+          <lb/>to be in the workshops at 2pm to
+          <lb/>see all at their work doing it correctly
+          <lb/>and properly</ab>
 
-        <ab>Saturdays I think the time<lb/>for the one who takes duty might<lb/>be 8 to 3 short Cold Lunch making<lb/>57 hours whish is more than the<lb/>workmen make, to make up for this<lb/>the following week he has but 50 hours<lb/>to make and which with probable<lb/>over minutes will bring the working<lb/>Masters hours to an average of<lb/>54 hours weekly as at present wor<lb/>ked in Shops<date when="1890-06-17">June <num type="ordinal">17th</num> 1890</date></ab>
+        <ab>Saturdays I think the time
+          <lb/>for the one who takes duty might
+          <lb/>be 8 to 3 short Cold Lunch making
+          <lb/><measure ana="hour">57</measure> hours whish is more than the 
+          <lb/>workmen make, to make up for this
+          <lb/>the following week he has but <measure ana="hours">50</measure> hours
+          <lb/>to make and which with probable
+          <lb/>over minutes will bring the working
+          <lb/>Masters hours to an average of
+          <lb/><measure ana="hours">54</measure>
+            hours weekly as at present worked
+          <lb/>in Shops</ab>
+        <note place="bottom"><date when="1890-06-17">June 17th 1890</date></note>
 
         <figure><!--[start of figure]-->
           <figDesc>A shop layout with annotations of objects in the room</figDesc>
           <graphic url="CC20181003_Townsend_0040_inset.png"/>
-          <trailer>Master in front room<lb/>having eye on shop customers<lb/>Travellers offices and well<lb/>seeing to telephone customers<lb/>with runs up and down stairs <date when="1891-06-08">June 8/91</date></trailer>
-          <note>Never allow any one<lb/>to be in and out -<lb/>Shop neglected</note>
+          <trailer>Master in front room
+            <lb/>having eye on shop customers
+            <lb/>Travellers offices and well
+            <lb/>seeing to telephone customers
+            <lb/>with runs up and down stairs </trailer>
+          <note place="bottom"><date when="1891-06-08">June 8/91</date></note> <!-- Group discussion on notes needed -->
+          <note place="bottom">Never allow any one
+            <lb/>to be in and out -
+            <lb/>Shop neglected</note> <!-- JL: Combine notes? I don't think we should; how to indicate one is below another? is this enough? -->
         </figure><!--[end of figure]-->
       </div><!--[end of page div]-->
       <!--[End of Number 40]-->
 
+      
       <!--[Start of PAGE 41]-->
       <pb n="041" facs="CC20181003_Townsend_0041.tif"/>
       <fw type="page_number" place="top">3</fw>
 
       <div type="page"><!--[start of page div]-->
-        <head place="top opposite">Bookeeping <emph style="text-decoration: underline; text-decoration-style: double;">Double</emph>Entry</head>
+        <head place="top opposite">Bookeeping <emph style="text-decoration-line: underline; text-decoration-style: double;">Double</emph>Entry</head>
+        <!-- JL: TODO: fix underline + double underline -->
 
-        <ab>Have "Day Book" very carefully<lb/>added and analysed every Month</ab>
+        <ab>Have "Day Book" very carefully
+          <lb/>added and analysed every Month</ab>
 
-        <ab>Every Quarter strike a Balance<lb/>with the Quarters Sale showing</ab>
+        <ab>Every Quarter strike a Balance
+          <lb/>with the Quarters Sale showing</ab>
 
         <!--[start of table]-->
         <table rows="1" cols="3">
-          <row>
-            <cell>Cash<lb/>as<lb/><emph style="text-decoration: underline;">Bank</emph> Book</cell>
-            <cell>Abatements<lb/>as<lb/><emph style="text-decoration: underline;">"Masters"</emph> initials</cell>
-            <cell>Not Paid<lb/>as<lb/>Written list + <emph style="text-decoration: underline;">why</emph></cell>
+          <row> <!-- As per? -->
+            <cell>Cash<lb/>as per<lb/><emph style="text-decoration: underline;">Bank</emph> Book</cell>
+            <cell>Abatements<lb/>as per<lb/><emph style="text-decoration: underline;">"Masters"</emph> initials</cell>
+            <cell>Not Paid<lb/>as per<lb/>Written list + <emph style="text-decoration: underline;">why</emph></cell>
           </row>
         </table>
         <!--[end of table]-->
@@ -514,7 +541,7 @@
           <!--[start of trailer]-->
           <trailer>
             <q>Cash to be kept by principal</q>
-            <lb/><persName style="text-decoration-line: underline;">William Townsend</persName>
+            <lb/><persName style="text-decoration: underline;">William Townsend</persName>
           </trailer>
           <!--[end of trailer]-->
         </table><!--[end of table]-->
@@ -542,7 +569,7 @@
 
         <!--[start of ab]-->
         <ab>Have Monthly Balancings to<lb/>see prospectively how things are<lb/>every <num type="ordinal">20th</num> of the Month I like<lb/>
-          <note place="below">Hook it from <emph style="text-decoration-line: underline;"><unclear resp="Pochron" reason="illegible">M Fox</unclear></emph></note>
+          <note place="below">Hook it from <emph style="text-decoration: underline;"><unclear resp="Pochron" reason="illegible">M Fox</unclear></emph></note>
           <lb/>and Quaterly Balancings<lb/>of every Book Debit and Credit<lb/>that is what you owe and is owning<lb/>to you. say<date when="--01-20">Jan 20</date><date when="--04-20">April 20</date><date when="--07-20">July 20</date><date when="--10-20">Oct 20</date>
           <lb/>Check every item with Day Book from<lb/>the Order Book to be sure all is entered<persName>WJ</persName>
           <lb/>Orders in Safe - Cross every<lb/>order in Day Book with Red<lb/>tick before putting in Safe - the<lb/>Red tick signifies there is an<lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
@@ -600,7 +627,7 @@
           <lb/><num>7</num><seg sameAs="#pm_0044">ditto</seg> Clear up for the day
           <lb/>Search Neglect or an indefatigable
           <lb/>unwearied Order Book Clerk to
-          <lb/>see to arrears but the <emph style="text-decoration-line: underline;">Master is best at this</emph>
+          <lb/>see to arrears but the <emph style="text-decoration: underline;">Master is best at this</emph>
           <lb/><date when="1891-05-02">May <num type="ordinal">2nd</num> 1891</date>
         </ab>
         <!--[end of ab]-->
