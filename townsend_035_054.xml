@@ -636,11 +636,15 @@
         <lb/>want or Complaint also the same
         <lb/>in Sales Shop I have erred in
         <lb/>leaving the Front Room, I should
-        <lb/>have been at the Vall more and made
+        <lb/>have been at the Call more and made
         <lb/>more of Customers by always being
         <lb/>in and not running off to dinner
-        <lb/>at any rate untill I had had some
-        <lb/>one to fill my place well
+        <lb/>at any rate 
+          <choice>
+            <orig>untill</orig>
+            <reg>until</reg>
+          </choice> I had had some
+        <lb/>one to fill my place well <!-- JAY: He didn't put a break in, but should we silently regularize to "someone"? -->
         <lb/>Examine work before sending home
         <lb/>Charge
         <lb/>Noun
@@ -650,7 +654,7 @@
 
         <note place="bottom">Never were such books!
           <lb/>No, now never will be such books as the books
-          <lb/>of Cheeryble Brothers Vide Nicholas Nickleby þ35b
+          <lb/>of Cheeryble Brothers Vide Nicholas Nickleby þ35b <!-- JAY: There's definitely some persNames here, but, uh. Oh, my. -->
         </note>
       <!--[End of PAGE 43]-->
 
@@ -661,7 +665,7 @@
         <!--[start of ab]-->
         <ab>again seeing that every work and
           <lb/>individual is progressing in his work
-          <lb/>healthy and profitably
+          <lb/>healthily and profitably
           <lb/>Examine Work and Charge
           <lb/>Orders put in hands
           <lb/><num>5</num><seg xml:id="pm_0044">pm</seg> round again
@@ -670,7 +674,7 @@
           <lb/>Search Neglect or an indefatigable
           <lb/>unwearied Order Book Clerk to
           <lb/>see to arrears but the <emph style="text-decoration: underline;">Master is best at this</emph>
-          <lb/><date when="1891-05-02">May <num type="ordinal">2nd</num> 1891</date>
+          <lb/><date when="1891-05-02">May 2nd 1891</date>
         </ab>
         <!--[end of ab]-->
 
@@ -679,7 +683,11 @@
         <ab>Sales Shop is too much away
           <lb/>and not sufficient in touch
           <lb/>I think of trying a stair case
-          <lb/>removing &#8470; Safe and fitting<!--[numero unicode]-->
+          <lb/>removing 
+          <choice>
+            <abbr>&#8470;</abbr>
+            <expan>Numero</expan>
+          </choice>
           <lb/>up nicely for Master and Special
           <note place="bottom">to page <num type="pageNum">73</num> forward</note><!--[TODO: future linking]-->
         </ab>
