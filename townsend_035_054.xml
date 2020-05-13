@@ -474,8 +474,11 @@
       <fw type="page_number" place="top">3</fw>
 
       <div type="page"><!--[start of page div]-->
-        <head place="top opposite">Bookeeping <emph style="text-decoration-line: underline; text-decoration-style: double;">Double</emph>Entry</head>
-        <!-- JL: TODO: fix underline + double underline -->
+        <head place="top opposite">
+          <choice>
+            <orig>Bookeeping</orig>
+            <reg>Bookkeeping</reg>
+          </choice> <emph style="text-decoration-line: underline; text-decoration-style: double;">Double</emph>Entry</head>
 
         <ab>Have "Day Book" very carefully
           <lb/>added and analysed every Month</ab>
@@ -485,7 +488,7 @@
 
         <!--[start of table]-->
         <table rows="1" cols="3">
-          <row> <!-- As per? -->
+          <row> 
             <cell>Cash<lb/>as per<lb/><emph style="text-decoration: underline;">Bank</emph> Book</cell>
             <cell>Abatements<lb/>as per<lb/><emph style="text-decoration: underline;">"Masters"</emph> initials</cell>
             <cell>Not Paid<lb/>as per<lb/>Written list + <emph style="text-decoration: underline;">why</emph></cell>
@@ -496,16 +499,24 @@
         <!--[start of table]-->
         <table rows="7" cols="2">
           <head place="below">
-            <date from="1897-01" to="1897-03">1897 <lb/> Jan - Mar</date>
+            <date from="1897-01" to="1897-03">1897 <lb/> 
+              <choice>
+                <abbr>Jan</abbr>
+                <expan>January</expan>
+              </choice> - 
+              <choice>
+                <abbr>Mar</abbr>
+                <expan>March</expan>
+              </choice></date>
           </head>
 
-          <row role="label">
+          <row role="label"> <!-- JAY: Let's talk about this table's format, because hoo, boy. -->
             <cell>
               <emph style="text-decoration: underline;">Thus</emph>
             </cell>
             <cell>
               <emph style="text-decoration: underline;">Sales £<num>2700.6.7</num></emph><!--[TODO: unicode]-->
-            </cell>
+            </cell> <!-- JAY: Do we need to, like...encode how the money works...?? Like, value = ??? -->
           </row>
 
           <row>
@@ -530,7 +541,7 @@
 
           <row>
             <cell>Arrears</cell>
-            <cell><num>251 17 6</num></cell>
+            <cell><emph style="text-decoration:underline;"><num>251 17 6</num></emph></cell>
           </row>
 
           <row>
@@ -541,22 +552,38 @@
           <!--[start of trailer]-->
           <trailer>
             <q>Cash to be kept by principal</q>
-            <lb/><persName style="text-decoration: underline;">William Townsend</persName>
+            <lb/><persName style="text-decoration: underline;">William Townsend</persName> <!-- JAY: Is this an underline? It looks more like a flourish? -->
           </trailer>
           <!--[end of trailer]-->
         </table><!--[end of table]-->
+
+        <!-- JL: I really don't like this ditto mark sitting in that big flashy underline... -->
 
         <!--[start of note]-->
         <note place="bottom">
           <orgName>Thomas Firth + Sons</orgName>
           <note place="below">310.2b</note>
-          <ab xml:id="bracket_0041"><num>1.6</num> qrs demy ruled &amp; <num>05</num> printed h<lb/>rough Calf extra paged lett Day Book</ab>
-          <note sameAs="#bracket_0041" place="inline">} 1.7</note>
+          <ab xml:id="bracket_0041"><num>1.6</num> 
+            <choice>
+              <abbr>qrs</abbr>
+              <expan>quarters</expan>
+            </choice> demy ruled &amp; <num>05</num> printed 
+            <choice>
+              <abbr>h</abbr>
+              <expan>half</expan>
+            </choice> <!-- JAY IS MAKING AN ASSUMPTION HERE -->
+            <lb/>rough Calf extra paged lett Day Book</ab>
+          <note sameAs="#bracket_0041" place="inline">} <num>1.7</num></note> <!-- JAY: What is this number referring to? -->
         </note>
-        <!--[end of note]-->
+        <!--[end of note]--> <!--JAY: Is this note a part of "William Townsend"? Or, rather, the "Thomas Firth + Sons" bit? I'm not sure about the grouping here...This whole section is really messy. -->
 
         <!--[start of note]-->
-        <note place="margin">Day Book<lb/>form of<lb/>Entry<lb/><unclear resp="Pochron" reason="illegible">HiKe</unclear></note>
+        <note place="margin">
+          Day Book
+          <lb/>form of
+          <lb/>Entry
+          <lb/>I like
+        </note>
         <!--[end of note]-->
 
       <!--[End of PAGE 41]-->
@@ -565,18 +592,33 @@
         <pb n="042" facs="CC20181003_Townsend_0042.tif"/>
       <fw type="page_number" place="top">4</fw>
 
-        <ab>Let Probity rule all your<lb/>transactions and Life<date when="1890-10-15">Oct 15/90</date></ab>
+        <ab>Let Probity rule all your
+          <lb/>transactions and Life<date when="1890-10-15">Oct 15/90</date></ab>
 
         <!--[start of ab]-->
-        <ab>Have Monthly Balancings to<lb/>see prospectively how things are<lb/>every <num type="ordinal">20th</num> of the Month I like<lb/>
-          <note place="below">Hook it from <emph style="text-decoration: underline;"><unclear resp="Pochron" reason="illegible">M Fox</unclear></emph></note>
-          <lb/>and Quaterly Balancings<lb/>of every Book Debit and Credit<lb/>that is what you owe and is owning<lb/>to you. say<date when="--01-20">Jan 20</date><date when="--04-20">April 20</date><date when="--07-20">July 20</date><date when="--10-20">Oct 20</date>
-          <lb/>Check every item with Day Book from<lb/>the Order Book to be sure all is entered<persName>WJ</persName>
-          <lb/>Orders in Safe - Cross every<lb/>order in Day Book with Red<lb/>tick before putting in Safe - the<lb/>Red tick signifies there is an<lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
+        <ab>Have Monthly Balancings to
+          <lb/>see prospectively how things are
+          <lb/>every <num type="ordinal">20th</num> of the Month I like
+          <note place="below"> <!-- Does there need to be a <lb/> here? -->
+            Hook it from <emph style="text-decoration: underline;"><persName>M Fox</persName></emph>
+          </note>
+          <lb/>and Quaterly Balancings
+          <lb/>of every Book Debit and Credit
+          <lb/>that is what you owe and is owning
+          <lb/>to you. say <date when="--01-20">Jan 20</date> <date when="--04-20">April 20</date> <date when="--07-20">July 20</date> <date when="--10-20">Oct 20</date>
+          <lb/>Check every item with Day Book from
+          <lb/>the Order Book to be sure all is entered
+          <persName>WJ</persName> <!-- Jay: I'm 99% sure this is supposed to be "WT" -->
+          <!-- JAY: End ab and start new one? I feel like there's a break here, and the WT could be a note. -->
+          <lb/>Orders in Safe - Cross every
+          <lb/>order in Day Book with Red
+          <lb/>tick before putting in Safe - the
+          <lb/>Red tick signifies there is an
+          <lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
         </ab>
         <!--[end of ab]-->
 
-        <note place="bottom"><date when="1894-04">April/94</date>Mr Kingsford Wilson I advise Double Entry</note>
+        <note place="bottom"><date when="1894-04">April/94</date>Mr <persName>Kingsford Wilson</persName> I advise Double Entry</note>
       </div><!--[end of page div]-->
       <!--[End of PAGE 42]-->
 
