@@ -705,10 +705,14 @@
 
         <!--[start of figure]-->
         <figure>
-          <head><!--[ TODO: name ]-->William Townsend Son <abbr>Manufact</abbr> States</head>
+          <head><!--[ TODO: name ]--><persName>William Townsend</persName> &amp; Son <abbr>Manufact</abbr> States</head>
           <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
           <graphic url="CC20181003_Townsend_0045_inset.png"/>
-          <trailer>set up<lb/>magnanimous<lb/>get an<lb/>electro <!--[ TODO: abbr ]--></trailer>
+          <trailer>set up<lb/>magnanimous<lb/>get an<lb/>
+            <choice>
+              <abbr>electro</abbr>
+              <expan>electro</expan>
+            </choice> <!--[ TODO: still a todo what does electro stand for ]--></trailer>
         </figure>
         <!--[end of figure]-->
 
@@ -728,22 +732,30 @@
 
           <!--[start of list]-->
           <list style="list-style-type: none;">
-            <item>Title a/c</item>
-            <item><num>7</num> pages a/c book patterns
+            <item>Title 
+              <choice>
+                <abbr>a/c</abbr>
+                <expan>account</expan>
+              </choice></item>
+            <item><num>7</num> pages 
+              <choice>
+                <abbr>a/c</abbr>
+                <expan>account</expan>
+              </choice> book patterns
               <list>
-                <item><!--[ TODO : future linking page]--> of them <num>3</num> on a page <num type="pageNum">18</num></item>
-                <item><num>1</num> of them <num>4</num> on a page <num type="pageNum">4</num></item>
+                <item><!--[ TODO : future linking page]--><unclear resp="JL"><num>6</num></unclear> <seg xml:id="ofthem_0045">of them</seg> <num>3</num> <seg xml:id="onapage_0045">on a page</seg> <num type="pageNum">18</num></item>
+                <item><num>1</num> <seg sameAs="#ofthem_0045">ditto</seg> <num>4</num> <seg sameAs="#onapage_0045">ditto</seg> <num type="pageNum">4</num></item>
                 <item>22</item>
               </list>
             </item>
-            <item>Title Solicitors + Manufactur <lb/> Tonns
+            <item>Title Solicitors + Manufactur <lb/> Tonns <!-- JAY: Misspelling or old spelling? Or did he just run out of room? -->
               <list>
                 <item><num>7</num> pages rul + print</item>
               </list>
             </item>
             <item>Title Merchants + Mercantile form
               <list>
-                <item><num>7</num> pages riling type Litho</item>
+                <item><num>7</num> pages riling type Litho</item> <!-- JAY: I forgot if we're expanding litho. -->
               </list>
             </item>
           </list>
@@ -751,18 +763,26 @@
         </note>
         <!--[end of note]-->
 
-        <ab>Proposed New pattern book Imp 8vo to contain
-          <lb/>our Trade and where they mill such a size of
+        <ab>Proposed New pattern book 
+          <choice>
+            <abbr>Imp</abbr>
+            <expan>Imperial</expan>
+          </choice>
+          <choice>
+            <abbr>8vo</abbr>
+            <expan>octavo</expan>
+          </choice> to contain
+          <lb/>our Trade and where they will such a size of
           <lb/>pattern book as we have printed also truly
           <lb/>marked Numbered and priced we can
           <lb/>supply all such after style of Army Navy Stores
-          <lb/>whatever is on the enormous book in Europe
+          <lb/>whatever is in the enormous book in Europe <!--JAY: Unsure if the "ins" are "in" or "on." -->
           <lb/>a really good work earning the repute a
-          <lb/>"Sheffield Journal"
+          <lb/><q>Sheffield Art Journal</q>
         </ab>
 
-        <note place="below bottom">Dixons Robert Belk
-          <lb/>C Johnson + Station W
+        <note place="below bottom">Dixons Robert Belk <!-- JAY: Is that a ditto??? -->
+          <lb/>C Johnson + Station W <!-- JAY: These are all names of some kind, I'm certain of that -->
           <lb/>hardware elastic
         </note>
       <!--[End of PAGE 45]-->
@@ -773,18 +793,22 @@
 
         <!--[start of list]-->
         <list style="list-style-type: none;">
-          <item>Account Book <seg xml:id="patterns_0046">patterns</seg></item>
-          <item>Solicitors <seg sameAs="#patterns_0046">"</seg></item>
-          <item>Bookbinding <seg sameAs="#patterns_0046">"</seg></item>
-          <item>Letterpress <seg sameAs="#patterns_0046">"</seg></item>
-          <item>Lithographic <seg sameAs="#patterns_0046">"</seg></item>
-          <item>Relief stand <seg sameAs="#patterns_0046">"</seg></item>
-          <item>Wedding Stationary <seg sameAs="#patterns_0046">"</seg></item>
-          <item>Funeral <seg sameAs="#patterns_0046">"</seg></item>
+          <item>Account Book <seg xml:id="patterns_0046">patterns</seg> &#8251;</item>
+          <item>Solicitors <seg sameAs="#patterns_0046">ditto</seg></item>
+          <item>Bookbinding <seg sameAs="#patterns_0046">ditto</seg></item>
+          <item>Letterpress <seg sameAs="#patterns_0046">ditto</seg></item>
+          <item>Lithographic <seg sameAs="#patterns_0046">ditto</seg></item>
+          <item>Relief stamp <seg sameAs="#patterns_0046">ditto</seg></item>
+          <item>Wedding <seg xml:id="stationary_0046">Stationary</seg> <seg sameAs="#patterns_0046">ditto</seg></item>
+          <item>Funeral <seg sameAs="#stationary_0046">ditto</seg> <seg sameAs="#patterns_0046">ditto</seg></item>
           <trailer>as to size of Proposed pattern book
-            <lb/>look how Chambers decreased their
+            <lb/>look how Chambers decreased their <!-- JAY: I want to say Chambers is a name, but I doubt there were any they/themers in the 1900s... -->
             <lb/>post folio Chambers Journal to Small
-            <lb/>Imperial 8vo a good precedent for
+            <lb/>Imperial 
+            <choice>
+              <abbr>8vo</abbr>
+              <expan>octavo</expan>
+            </choice> a good precedent for
             <lb/>Sizes of books
           </trailer>
         </list>
@@ -792,27 +816,35 @@
 
         <!--[start of list]-->
         <list style="list-style-type:upper-alpha;">
-          <head>Alphabetically arranged, a/c book forms Solicitors</head>
-          <label>* A</label>
+          <head>Alphabetically arranged, 
+            <choice>
+              <abbr>a/c</abbr>
+              <expan>account</expan>
+            </choice> book forms Solicitors</head>
+          <label>&#8251; A</label>
           <item>Letters Received Book</item>
-          <label>A.A</label>
+          <label>AA</label>
           <item>Order book faint &amp; date</item>
           <label>B</label>
           <item>Day book faint &amp; cum headline</item>
           <label>C</label>
-          <item><seg xml:id="journal_0046">Journal</seg> a <seg xml:id="patt_0046"><abbr>patt</abbr></seg></item>
+          <item><seg xml:id="journal_0046">Journal</seg> a <seg xml:id="patt_0046">
+            <choice>
+              <abbr>patt</abbr>
+              <expan>pattern</expan>
+            </choice></seg></item>
           <label>D</label>
-          <item><seg sameAs="#journal_0046">"</seg> B <seg sameAs="patt_0046">"</seg></item>
+          <item><seg sameAs="#journal_0046">"</seg> B <seg sameAs="patt_0046">ditto</seg></item>
           <label>E</label>
           <item>Single <seg xml:id="ledger_0046">Ledger</seg></item>
           <label>F</label>
-          <item>double <seg sameAs="#ledger_0046">"</seg></item>
+          <item>double <seg sameAs="#ledger_0046">ditto</seg></item>
           <label>G</label>
           <item>Cash Book</item>
           <label>H</label>
           <item><seg xml:id="bills_0046">Bills</seg> payable</item>
           <label>I</label>
-          <item><seg sameAs="#bills_0046">"</seg> Receivable</item>
+          <item><seg sameAs="#bills_0046">ditto</seg> Receivable</item>
           <label>J</label>
           <item>Order Book outward voucher</item>
           <label>K</label>
@@ -835,7 +867,7 @@
           <item>Brewers Delivery Book</item>
           <label>T</label>
           <item>Faint + margin</item>
-          <trailer>PJO</trailer>
+          <trailer>PJO</trailer> <!-- JAY: PTO? Who is PJO? Townsend's son? -->
         </list>
         <!--[List continues after the page beginning]-->
       <!--[End of PAGE 46]-->
@@ -843,8 +875,8 @@
       <!--[Start of PAGE 47]-->
           <pb n="047" facs="CC20181003_Townsend_0047.tif"/>
           <fw type="page_number" place="top">9</fw>
-
         <list style="list-style-type:upper-alpha;">
+          <head>Solicitors patterns</head> <!-- JAY: I added this, but I'm not certain it's right -->
           <label>U</label>
           <item>Affidavit</item>
           <label>V</label>
@@ -878,7 +910,11 @@
 
         <ab>send binding invoices with discretion it
           <lb/>leads to them being paid if delayed perhaps <emph style="text-decoration: underline;">Never</emph>
-          <lb/>send Monthly a/c to all with discretion that
+          <lb/>send Monthly 
+          <choice>
+            <abbr>a/c</abbr>
+            <expan>account</expan>
+          </choice> to all with discretion that
           <lb/>we can, very helpful to pay our monthly bills
           <lb/>and less risk
         </ab>
@@ -892,36 +928,40 @@
           <lb/>of Keeping old orders for travellers
           <lb/>to run at to see if any re-ordering
           <lb/>could be got or suggestions to any
-          <lb/>in that line supposing the orig
-          <lb/>inal were out of that trade - yes
-          <lb/>see the Tin Case <!--[ TODO ]-->
+          <lb/>in that line supposing the original
+          <lb/>were out of that trade - yes
+          <lb/>see the Tin Case
         </ab>
-
-        <note place="below">Travellers
+        <note place="below"> <!-- JAY: Make this centered? -->
+          Travellers
           <lb/>Call
-          <lb/><emph style="text-decoration: underline;">Due and Past Due</emph>
+          <lb/>Du<emph style="text-decoration: underline;">e and Past</emph> Due
         </note>
 
         <list style="list-style-type:none;">
           <label>Orders in hand</label>
-          <item>Practical binder who can all information by short
-            <lb/>hand from employer travellers or cust
-            <lb/>omer - write out with clear instruc
-            <lb/>tions for the works and every re
-            <lb/>ceived from all sources that day
+          <item>Practical binder who can all information by shorthand
+            <lb/>from employer travellers or customer -
+            <lb/>write out with clear instructions
+            <lb/>for the works and every received
+            <lb/>from all sources that day
             <lb/>delivered that night - any New
-            <lb/>books give № to enter briefly &#8470; <!--[numero unicode]-->
+            <lb/>books give 
+            <choice>
+              <abbr>&#8470;</abbr>
+              <expan>Numero</expan>
+            </choice> to enter briefly &#8470; <!--[numero unicode]-->
             <lb/>order book Name Size &#8470;
           </item>
 
           <label>All Posting</label>
-          <item>Dr &amp; Cr Ledgers</item>
+          <item>Dr &amp; Cr Ledgers</item> <!-- JAY: Abbreviations -->
 
           <label>Travelers</label>
           <item>Collect <lb/>and <lb/>Orders</item>
 
           <label>Charger &amp; Cuterer</label>
-          <item>Practical <lb/>Ruler + Gender</item>
+          <item>Practical <lb/>Ruler + <unclear resp="JL">Cinder</unclear></item>
 
           <label>Partners</label>
           <item>Special Traveling Cash Telephone Customers
