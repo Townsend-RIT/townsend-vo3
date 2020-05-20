@@ -19,6 +19,7 @@
   <text>
     <body>
       <!--[TODO: go over a few numbers I refused to <num> in the first pass, go over and replace DITTO marks with the proper @sameAs tags]-->
+      <!--[TODO: helpful to write a one paragraph status of where I jumped off the project, what I did, where I started, how long I've been on the project]-->
 
       <!--[
       ENCODER SHORTHAND REFERENCES:
@@ -732,10 +733,52 @@
         </div>
       <!--[End of PAGE 90]-->
 
-
       <!--[Start of PAGE 91]-->
         <pb n="091" facs="CC20180917_Townsend_0091.tif"/>
-        <fw type="page_number" place="top"></fw>
+        <fw type="page_number" place="top">49</fw>
+
+        <div type="NULL">
+          <ab>
+            Buying purchase at last <num type="percentage">5%</num>
+            <lb/>for Cash at a month
+            <lb/>and carriage paid
+            <lb/>order 1 month
+            <lb/>deliver <num type="ordinal">2nd</num> month <!--[TODO: ditto]-->
+            <lb/>pay 3 month<!--[TODO: ditto]-->
+          </ab>
+
+          <ab>
+            Buy during Feb for Invoice Mar <num tpye="ordinal">1st</num>, for Payment <lb/>April 20
+            <lb/>Buy during May for Invice June 1, July 20
+            <lb/>Buy during Aug, for Invoice Sep 1, Oct 20
+            <lb/>Buy during Nov, for Invoice Dec 1, Jan 20
+          </ab>
+
+          <ab>
+            don't buy when Weather is Wet for
+            <lb/>transit on Wet Wagons
+          </ab>
+
+          <ab>
+            Never buy what you are not sure of
+            <lb/>wanting = Three warnings - Bank <unclear reason="illegible" resp="Pochron">Rowan + Oliver</unclear>
+            <note place="underneath">Weeks days + <unclear reason="illegible" resp="Pochron">presting day</unclear></note>
+            <lb/>by waiting weeks + days writing would
+            <lb/>have been unnessary + spaced us in little sorrow
+            <lb/>always be respectful Kind, but form to travellers
+            <lb/>they can't help t stock 1000 £ old _.310, 298, 300, 327, 3009, 20
+            <lb/>all below is greatly for estimates + won't afford 12 or 23 months
+            <lb/><seg style="text-decoration: underline;">interest</seg>
+          </ab>
+
+          <ab>
+            Bank Interest <!--[TODO: emphasis]--> stop by stock where can
+            <lb/>punching one year was
+            <lb/>I noticed in litho printing CJ + 6 <!--[TODO: ???]--> Green labels made
+            <lb/>by J+W Mitchell it printed very well. always Keep
+            <lb/>to a good thing
+          </ab>
+        </div>
       <!--[End of PAGE 91]-->
 
       <!--[Start of PAGE 92]-->
