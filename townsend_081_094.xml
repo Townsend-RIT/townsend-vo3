@@ -783,7 +783,7 @@
 
       <!--[Start of PAGE 92]-->
         <pb n="092" facs="CC20180917_Townsend_0092.tif"/>
-        <fw type="page_number" place="top"></fw>
+        <fw type="page_number" place="top">50</fw>
 
         <div type="NULL">
           <head>
@@ -830,7 +830,76 @@
 
       <!--[Start of PAGE 93]-->
         <pb n="093" facs="CC20180917_Townsend_0093.tif"/>
-        <fw type="page_number" place="top"></fw>
+        <fw type="page_number" place="top">51</fw>
+
+        <div type="NULL">
+          <ab>
+            Foolscap 3 qr indexs cut thro to scale
+            <lb/>M Wilkinson rather move than double time
+            <lb/><num type="fraction" value="1.5">1 1/2</num> hours is 1/. and letters say <num type="fraction" value=".166">1/6</num>
+            <date when="1894-01-19">Jan 19/94</date>
+          </ab>
+
+          <ab>
+            Indexs for 4tos<lb/>
+            and folios
+          </ab>
+          <table>
+            <row>
+              <cell>1 letter</cell>
+              <cell>2 letter</cell>
+              <cell>4 letter on a liaf</cell>
+            </row>
+            <row>
+              <cell>7qrs</cell>
+              <cell>4qrs</cell>
+              <cell>2qrs</cell>
+            </row>
+            <row>
+              <cell>6qrs</cell>
+              <cell>3qrs</cell>
+              <cell><num type="fraction" value="1.5">1 1/2</num>qrs</cell>
+            </row>
+            <row>
+              <cell>5qrs</cell>
+              <cell><num type="fraction" value="2.5">2 1/2</num></cell>
+              <cell>1qrs</cell>
+            </row>
+          </table>
+
+          <ab>
+            paging 8vo's say 1d qr
+            <lb/>4tvs say 1 1/2 qr
+          </ab>
+
+          <ab>
+            New hand letters for A/c books <seg style="text-decoration: underline;">5 boxes</seg>
+            <lb/>viz, Fcap demy Med Royal Imperial
+            <lb/>cut by
+            <lb/>selected from
+          </ab>
+
+          <ab>
+            Our Old Account books we hold cellar
+            <lb/>Ledgers beginning { put particulars in Ledger with Cash shows transation and avoids keeping Day Books 1867-1874-1880
+            <lb/>Cash Book 1879
+            <lb/>Day Book 1870.3.4
+          </ab>
+
+          <ab>
+            Tear up every June 30 and make it a duty<lb/>
+            to destroy all vouchers unnessary estimates and<lb/>
+            all other such papers otherwise if left the accumulation<lb/>
+            will be a nuisance and stop room for present business<lb/>
+            clear drawers and esk is a help to a clear brain
+          </ab>
+
+          <ab>
+            Keep Day Books 12 years Ledgers 40 years
+            <lb/>Letters Vouchers 40 years
+            <lb/>Statue of Limitation 6 years of Credit
+          </ab>
+        </div>
       <!--[End of PAGE 93]-->
 
       <!--[Start of PAGE 94]-->
