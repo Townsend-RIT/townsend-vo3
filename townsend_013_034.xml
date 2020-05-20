@@ -132,7 +132,7 @@
                     <label>Clerk of the Works</label><item><num type="pageNum">55</num></item>
                 </list>
                 <ab style="writing mode: vertical-lr; text-orientation: sideways-left">
-                    <emph style="underline"><q>Carried to Y</q></emph>
+                    <emph style="text-decoration: underline;"><q>Carried to Y</q></emph>
                 </ab>
                 <!-- END PAGE 0015 -->
                 <!-- START PAGE 0016 -->
@@ -154,7 +154,7 @@
                     <label>Design</label><item><num type="pageNum">151</num></item>
                     <label>Disciplinarian</label><item><num type="pageNum">223</num> <num type="pageNum">200</num></item>
                     <label>Departmental Cost</label><item><num type="pageNum">241</num>-<num type="pageNum">2</num></item> <!-- is it 241-242 or 241 and 2 -->
-                    <label>Dynamo</label><item><handShift medium="pencil" /><emph style="underline"><num type="pageNum">286</num></emph> <handShift medium="ink" /><num type="pageNum">83</num></item>
+                    <label>Dynamo</label><item><handShift medium="pencil" /><emph style="text-decoration: underline;"><num type="pageNum">286</num></emph> <handShift medium="ink" /><num type="pageNum">83</num></item>
                     <label>Day Book idea</label><item><num type="pageNum">229</num></item>
                 </list>
                 <list type="index-c">
@@ -403,13 +403,13 @@
                     </choice> books</label><item><num type="pageNum">357</num></item>
                     <label>Millboard <unclear>Lumnon</unclear></label><item><num type="pageNum">340</num></item>
                     <label>Management</label><item><num type="pageNum">221</num> <num type="pageNum">283</num> <num type="pageNum">203</num> <num type="pageNum">219</num></item>
-                    <label>Millboard list <unclear>applicabil</unclear> of thickness</label><item>End of <emph style="double_underline">this</emph> book</item>
+                    <label>Millboard list <unclear>applicabil</unclear> of thickness</label><item>End of <emph style="text-decoration-line: underline; text-decoration-style: double;">this</emph> book</item>
                     <label><orgName>Masters Union</orgName></label><item><num type="pageNum">276</num></item>
                     <label>Masters Meeting (WJT)</label><item><num type="pageNum">82</num></item>
                     <label>Master when he is away</label><item><num type="pageNum">339</num></item>
                     <label>Material thoughts on</label><item><num type="pageNum">212</num></item>
                     <label>Machinery</label><item><num type="pageNum">65</num></item>
-                    <label>Manager Masters <emph style="underline">notices to</emph></label><item><num type="pageNum">346</num></item>
+                    <label>Manager Masters <emph style="text-decoration: underline;">notices to</emph></label><item><num type="pageNum">346</num></item>
                     <label>Merit Payments</label><item><num type="pageNum">346</num></item>
                     <label>Machining</label><item><num type="pageNum">69</num></item>
                     <label>Manager</label><item><num type="pageNum">201</num></item>
@@ -499,7 +499,7 @@
                     <label>Parchment Bank Pass books cracking backs</label><item><num type="pageNum">38</num></item>
                     <label>Proofs</label><item><num type="pageNum">40</num></item>
                     <label>Papers Advised</label><item><num type="pageNum">352</num></item>
-                    <label>Price prices Forward &amp; Finishing</label><item><num type="pageNum">152</num> <num type="pageNum"><emph style="double_underline">168</emph></num></item>
+                    <label>Price prices Forward &amp; Finishing</label><item><num type="pageNum">152</num> <num type="pageNum"><emph style="text-decoration-line: underline; text-decoration-style: double;">168</emph></num></item>
                     <label>Pattern Book <unclear>sheuring</unclear> to others</label><item><num type="pageNum">149</num></item>
                     <label>Painting</label><item><num type="pageNum">338</num></item>
                     <label>Pattern Cards</label><item><num type="pageNum">155</num></item>
@@ -560,7 +560,7 @@
                     <label>Rental Departmental</label><item><num type="pageNum">101</num></item>
                     <note place="margin">year <date when="1910">1910</date><num type="pageNum">234</num></note> 
                     <label><seg xml:id="ruling_room_0029">Ruling Room</seg></label><item><num type="pageNum">66</num> <num type="pageNum">261</num> <num type="pageNum">253</num></item>
-                    <note><num type="pageNum"><handShift medium="pencil" />254</num><handShift medium="ink" /><emph style="double_underline">Per hour</emph></note> <!-- 253 and per hour need to be grouped -->
+                    <note><num type="pageNum"><handShift medium="pencil" />254</num><handShift medium="ink" /><emph style="text-decoration-line: underline; text-decoration-style: double;">Per hour</emph></note> <!-- 253 and per hour need to be grouped -->
                     <label><handShift medium="ink" /><seg xml:id="routine_0029">Routine</seg> <seg xml:id="daily_0029">Daily</seg></label><item><num type="pageNum">73</num></item>
                     <label><seg sameAs="#routine_0029">ditto</seg> <seg sameAs="#daily_0029">ditto</seg></label><item><num type="pageNum">1</num> <num type="pageNum">2</num></item>
                     <label><seg sameAs="#routine_0029">ditto</seg> <seg sameAs="#daily_0029">ditto</seg></label><item><num type="pageNum">5</num> <num type="pageNum">6</num></item>
@@ -591,7 +591,7 @@
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
                     </choice> books</label><item>X <num type="pageNum">63</num> <num type="pageNum">182</num></item>
-                    <note place="below"><emph style="underline">about</emph></note> <!-- group x and about? -->
+                    <note place="below"><emph style="text-decoration: underline;">about</emph></note> <!-- group x and about? -->
                     <label>Sundays</label><item><num type="pageNum">57</num></item>
                     <label>Sharings</label><item><num type="pageNum">273</num>H</item>
                     <label>Stamps</label><item><num type="pageNum">53</num></item>
@@ -638,7 +638,7 @@
                     <label><seg sameAs="#Traveller_0031">ditto</seg> note <date when="1908-02-20">Feb 20 1908</date></label><item><num type="pageNum">286</num></item>
                     <label>Telephone</label><item><num type="pageNum">293</num></item>
                     <label>Traveller, suggestion to</label><item><num type="pageNum">285</num> <num type="pageNum">300</num></item>
-                    <note><emph style="underline">tin Cases</emph></note> <!-- Associate 285 with tin cases -->
+                    <note><emph style="text-decoration: underline;">tin Cases</emph></note> <!-- Associate 285 with tin cases -->
                     <label>Traveller Wages for</label><item><num type="pageNum">299</num></item>
                     <label>Travellers Diary</label><item><num type="pageNum">333</num></item>
                     <label><orgName><persName>Turner T</persName> + 
