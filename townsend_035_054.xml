@@ -171,7 +171,7 @@
           <label>Calculation books</label>
           <item><num type="pageNum">196</num></item>
         </list><!--[End of list]-->
-      </div> <!-- JAY ADDED END OF PAGE DIV -->
+      </div>
       <!--[End of PAGE 35]-->
 
       <!--[Start of PAGE 36]-->
@@ -179,7 +179,7 @@
         <fw type="page_number" place="top">1/4</fw>
         <fw type="tab">Y <lb /> Z</fw> <!-- JL: fixed this and moved to top -->
 
-        <div type="page"> <!-- JAY ADDED DIV -->
+        <div type="page">
         <!--[start of div type insert]-->
         <!-- <div type="insert">
           <gap reason="editorial">
@@ -552,30 +552,26 @@
           <!--[start of trailer]-->
           <trailer>
             <q>Cash to be kept by principal</q>
-            <lb/><persName style="text-decoration: underline;">William Townsend</persName> <!-- JAY: Is this an underline? It looks more like a flourish? -->
+            <lb/><persName style="text-decoration: underline;">William Townsend</persName> <!-- JAY: Not an underline; is a flourish. Needs to be dealt with -->
           </trailer>
           <!--[end of trailer]-->
         </table><!--[end of table]-->
 
-        <!-- JL: I really don't like this ditto mark sitting in that big flashy underline... -->
-
         <!--[start of note]-->
         <note place="bottom">
           <orgName>Thomas Firth + Sons</orgName>
-          <note place="below">310.2b</note>
+          <note place="below">310.26</note>
           <ab xml:id="bracket_0041"><num>1.6</num> 
             <choice>
               <abbr>qrs</abbr>
               <expan>quarters</expan>
-            </choice> demy ruled &amp; <num>05</num> printed 
-            <choice>
-              <abbr>h</abbr>
-              <expan>half</expan>
-            </choice> <!-- JAY IS MAKING AN ASSUMPTION HERE -->
+            </choice> demy ruled &amp; <num>05</num> printed h
             <lb/>rough Calf extra paged lett Day Book</ab>
-          <note sameAs="#bracket_0041" place="inline">} <num>1.7</num></note> <!-- JAY: What is this number referring to? -->
+          <note sameAs="#bracket_0041" place="inline">} <num>1.7</num></note>
         </note>
-        <!--[end of note]--> <!--JAY: Is this note a part of "William Townsend"? Or, rather, the "Thomas Firth + Sons" bit? I'm not sure about the grouping here...This whole section is really messy. -->
+        <!--[end of note]-->
+        
+        <!-- JAY: SEPARATE EVERYTHING OUT: WT is an AB, TFandS is a block, note is a block, 1.6 qrs is a block -->
 
         <!--[start of note]-->
         <note place="margin">
@@ -606,10 +602,13 @@
           <lb/>of every Book Debit and Credit
           <lb/>that is what you owe and is owning
           <lb/>to you. say <date when="--01-20">Jan 20</date> <date when="--04-20">April 20</date> <date when="--07-20">July 20</date> <date when="--10-20">Oct 20</date>
+        </ab>
+        <ab>
           <lb/>Check every item with Day Book from
           <lb/>the Order Book to be sure all is entered
-          <persName>WJ</persName> <!-- Jay: I'm 99% sure this is supposed to be "WT" -->
-          <!-- JAY: End ab and start new one? I feel like there's a break here, and the WT could be a note. -->
+          <persName>WT</persName>
+        </ab>
+        <ab>
           <lb/>Orders in Safe - Cross every
           <lb/>order in Day Book with Red
           <lb/>tick before putting in Safe - the
@@ -618,7 +617,8 @@
         </ab>
         <!--[end of ab]-->
 
-        <note place="bottom"><date when="1894-04">April/94</date>Mr <persName>Kingsford Wilson</persName> I advise Double Entry</note>
+        <note place="bottom"><date when="1894-04">April/94</date>Mr <persName>Kingsford Wilson</persName></note>
+        <note>I advise Double Entry</note>
       </div><!--[end of page div]-->
       <!--[End of PAGE 42]-->
 
@@ -643,8 +643,8 @@
           <choice>
             <orig>untill</orig>
             <reg>until</reg>
-          </choice> I had had some
-        <lb/>one to fill my place well <!-- JAY: He didn't put a break in, but should we silently regularize to "someone"? -->
+          </choice> I had had someone
+        <lb/>to fill my place well <!-- Lisa made decision to silently regularize "someone" -->
         <lb/>Examine work before sending home
         <lb/>Charge
         <lb/>Noun
@@ -654,8 +654,8 @@
 
         <note place="bottom">Never were such books!
           <lb/>No, now never will be such books as the books
-          <lb/>of Cheeryble Brothers Vide Nicholas Nickleby þ35b <!-- JAY: There's definitely some persNames here, but, uh. Oh, my. -->
-        </note>
+          <lb/>of <name>Cheeryble Brothers</name> vide <name>Nicholas Nickleby</name> p356 
+        </note> <!-- TO-DO: Link to page 356 -->
       <!--[End of PAGE 43]-->
 
       <!--[Start of PAGE 44]-->
@@ -708,17 +708,16 @@
           <head><persName>William Townsend</persName> &amp; Son 
             <choice>
               <abbr>Manufact</abbr>
-              <expan>Manufacturing</expan> <!-- JAY: Assumption -->
-            </choice> States</head>
+              <expan>Manufacturer</expan> <!-- JAY: Assumption -->
+            </choice> Station</head>
           <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
           <graphic url="CC20181003_Townsend_0045_inset.png"/>
           <trailer>set up<lb/>magnanimous<lb/>get an<lb/>
-            <choice>
-              <abbr>electro</abbr>
-              <expan>electro</expan>
-            </choice> <!--[ TODO: still a todo what does electro stand for ]--></trailer>
+          electro</trailer> <!-- JAY: What the heck is electro -->
         </figure>
         <!--[end of figure]-->
+        
+        <!-- JAY: Manufacturer Stationer -->
 
         <!--[start of list]-->
         <list style="list-style-type: none;">
