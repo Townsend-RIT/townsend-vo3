@@ -522,7 +522,7 @@
           <row>
             <cell>Received Cash</cell>
             <cell><num>2339 4 10</num></cell><!--[TODO: number questions-->
-          </row>
+          </row> <!-- JAY: Do we need to show that the numbers are lined up in some way? -->
 
           <row>
             <cell>Discount</cell>
@@ -705,7 +705,11 @@
 
         <!--[start of figure]-->
         <figure>
-          <head><!--[ TODO: name ]--><persName>William Townsend</persName> &amp; Son <abbr>Manufact</abbr> States</head>
+          <head><persName>William Townsend</persName> &amp; Son 
+            <choice>
+              <abbr>Manufact</abbr>
+              <expan>Manufacturing</expan> <!-- JAY: Assumption -->
+            </choice> States</head>
           <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
           <graphic url="CC20181003_Townsend_0045_inset.png"/>
           <trailer>set up<lb/>magnanimous<lb/>get an<lb/>
