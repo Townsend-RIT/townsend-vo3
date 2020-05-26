@@ -287,7 +287,7 @@
                     </row>
                     <row>
                         <cell><abbr>Ft</abbr> lined <num type="fraction" value=".5">1/2</num> <unclear>b of stock</unclear> </cell>
-                        <cell>1411 - </lb>1420</cell>
+                        <cell>1411 - <lb/>1420</cell>
                     </row>
                     <row>
                         <cell><abbr>Fcap</abbr> Cash Book</cell>
@@ -421,7 +421,7 @@
                 <!--[end of Medium table]-->
 
                 <!--[start of Royal table]-->
-                <table rows="" cols="">
+              <table> <!-- TO-DO: rows="" cols="" -->
                     <head>Royal 4001 to 5000</head>
 
                     <row>
@@ -690,6 +690,7 @@
                   <note><unclear resp="Pochron">num</unclear> 4to</note>
                   <trailer>
                     10 thickness <lb/> 5 bindings <lb/> B &#8729; D &#8729; E &#8729; F &#8729; I &#8729;
+                  </trailer>
                 </table>
               </trailer>
             </table>
@@ -1293,7 +1294,7 @@
             </div>
 
             <div type="NULL">
-              <head>Estimates<head>
+              <head>Estimates</head>
               <ab>
                 Paper net money not Invoice Rheum list covers Car<add place="opposite">riage, strip off all discount</add>
                 <lb/>Cheap <num type="fraction" value="12.5">12 1/2</num> dis on SL as my Father <!--[TODO: What is SL initials(?)]-->
@@ -1307,11 +1308,11 @@
                 Central Notice Offices Sheffield
                 <lb/><num type="ordinal">1st</num> contract perfect paper. Rheum list
               </ab>
-              <note place="margin">} I <lb/> lost <cb> Pawson <lb/> + <lb/> Braile <lb/> won</note>
+              <note place="margin">} I <lb/> lost <lb/> Pawson <lb/> + <lb/> Braile <lb/> won</note>
               <ab>
                 <num type="ordinal">2nd</num> Contract XX paper Rheum list
-                <lb/><num type="fraction" value="12.5">12 1/2</num> dis or <num tye="fraction" value="1.5">1 1/2</num> un 1/ time Rul Prun
-                <lb/><num type="fraction" value="12.5">12 1/2</num> dis or <num tye="fraction" value="1.5">1 1/2</num> un 1/ Fathers old list
+                <lb/><num type="fraction" value="12.5">12 1/2</num> dis or <num type="fraction" value="1.5">1 1/2</num> un 1/ time Rul Prun
+                <lb/><num type="fraction" value="12.5">12 1/2</num> dis or <num type="fraction" value="1.5">1 1/2</num> un 1/ Fathers old list
               </ab>
               <note place="margin">1 <lb/> won
                 <cb/>
@@ -1327,11 +1328,11 @@
                 <lb/>his old way
               </note>
 
-              <note place="above"><date when="1893-11---">Nov/93</date><lb/>List</note>
+              <note place="above"><date when="1893-11">Nov/93</date><lb/>List</note>
               <ab>
                 XX or <num type="percentage" value="25">25%</num> on my Fathers SL and say 310 lett
-                <lb/><num type="percentage" value="12.5">12 1/2%</num> dis or <num tye="fraction" value="1.5">1 1/2</num> un 1/ on time Ruling + print
-                <lb/>paging fcap <num tye="fraction" value="1.5">1 1/2</num> demy 2 Med <num tye="fraction" value="2.5">2 1/2</num> Roy 3 Sup roy <num tye="fraction" value="3.5">3 1/2</num> Imp 4 pgs
+                <lb/><num type="percentage" value="12.5">12 1/2%</num> dis or <num type="fraction" value="1.5">1 1/2</num> un 1/ on time Ruling + print
+                <lb/>paging fcap <num type="fraction" value="1.5">1 1/2</num> demy 2 Med <num type="fraction" value="2.5">2 1/2</num> Roy 3 Sup roy <num type="fraction" value="3.5">3 1/2</num> Imp 4 pgs
               </ab>
             </div>
         <!--[End of PAGE 65]-->
