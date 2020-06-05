@@ -90,7 +90,7 @@
         <lb/>with cards - close doors to front part as
         <lb/>formerly and Set if can Enter by a
         <lb/>good Staircase from present door on
-        <lb/>Surrey Street at a rental of ₤
+        <lb/><placeName>Surrey Street</placeName> at a rental of ₤
       </ab>
 
       <figure>
@@ -108,8 +108,8 @@
       <ab>
         <lb/>To be Let Rooms suitable
         <lb/>for Offices apply to
-        <lb/>William Townsend Son
-        <lb/>Surrey Street
+        <lb/><orgName><persName>William Townsend</persName> Son</orgName>
+        <lb/><placeName>Surrey Street</placeName>
       </ab>
     </div>
 
@@ -122,7 +122,7 @@
     <div type="insert">
       <ab>
         <lb/>Linings taken off a book
-        <lb/>Made by Parrson and Brailsford
+        <lb/>Made by <persName>Parrson</persName> and <persName>Brailsford</persName>
         <lb/>shows the  material they use
       </ab>
     <gap extent="partial page" reason="fabric scraps">
@@ -134,7 +134,7 @@
       <ab>
         <lb/>Sewing
         <lb/>Minutebook bad in
-        <lb/>the opening for Geo <unclear resp="burkhardt">Sr</unclear> Bank
+        <lb/>the opening for <orgName>Geo <unclear resp="burkhardt">Sr</unclear> Bank</orgName>
         <lb/>Pulled in at the sewing too
         <lb/>tightly and tugging
         <lb/>linings too strong won't tie
@@ -142,9 +142,9 @@
       </ab>
 
       <ab>
-        <lb/>lettering pieces complaint by Becketts
-        <lb/>not sticking --<!-- [NOTE: THese appear to be two separate complaints] --> M. Wilkinsin put on yourself with where
-        <lb/><q>Cotsell's hot glue</q> but letter on col <!-- [NOTE: is cot short for cotton, thereby making this cotton leather? No. it is col short for colored] --> <q>leather possible</q>
+        <lb/>lettering pieces complaint by <persName>Becketts</persName>
+        <lb/>not sticking --<!-- [NOTE: THese appear to be two separate complaints] --> <persName>M. Wilkinsin</persName> put on yourself with where
+        <lb/><q><persName>Cotsell's</persName> hot glue</q> but letter on col <!-- [NOTE: is cot short for cotton, thereby making this cotton leather? No. it is col short for colored] --> <q>leather possible</q>
       </ab>
     </div>
 
@@ -160,7 +160,7 @@
         <lb/>rolling up up to the lacing -- they certainly
         <lb/>work as if no paste had been on. tho I
         <lb/>am constantly <unclear resp="burkhardt">divining</unclear> about specially good
-        <lb/>paste and thoroughly <unclear resp="burkhardt">nill</unclear>
+        <lb/>paste and thoroughly <unclear resp="burkhardt">well</unclear>
         <lb/>pasting -- Try anglo Russia bands
         <lb/>over backs. let in slit, not raised on sides.
         <note place="inspace">
@@ -189,7 +189,7 @@
         <lb/>Rough Calf soon thro <!-- [NOTE: what am i doing about thro] -->
         <lb/>too thin <!-- TODO: too thin is underlined -->
         <lb/>ends <!-- TODO: also underlined -->
-        <note place="inspace">
+        <note place="inline">
           <date when="1893-10">Oct/93</date>
         </note>
       </ab>
@@ -202,7 +202,7 @@
         <lb/>paper lining, it is very
         <lb/>durable as grandfather
         <lb/>did 40 years ago <!-- [TODO: encode this years thing as a num?] -->
-        <note place="inspace">
+        <note place="below">
           <date when="1894">1894</date>
         </note>
       </ab>
@@ -236,19 +236,19 @@
 
     <div type="log">
       <ab>
-        <lb/>Maximillian's say <q>All Rights Reserved</q>
-        <lb/>I Rodgers Sons <!-- [TODO: a ditto goes here] -->
-        <lb/>Sitter + Flemming <!-- [TODO: a ditto also goes here] --> <q>Caution any person infringing
+        <lb/><orgName><persName>Maximillian's</persName></orgName> say <q>All Rights Reserved</q>
+        <lb/>I <orgName><persName>Rodgers</persName> Sons</orgName> <!-- [TODO: a ditto goes here] -->
+        <lb/><orgName><persName>Sitter</persName> + <persName>Flemming</persName></orgName> <!-- [TODO: a ditto also goes here] --> <q>Caution any person infringing
         <lb/>the copyright of this book will be prosecuted under the act</q>
-        <lb/>C Johnson <!-- [TODO: company abbreviation here] -->
-        <lb/><unclear reason="illegible" resp="burkhardt">Phu</unclear> Turner <!-- [TODO: company abbreviation here] --> entered at stationers Hall
-        <lb/>William Townsend Son
+        <lb/><orgName><persName>C Johnson</persName> <!-- [TODO: company abbreviation here] --></orgName> 
+        <lb/><orgName><persName><unclear reason="illegible" resp="burkhardt">Phu</unclear> Turner</persName> <!-- [TODO: company abbreviation here] --></orgName>  entered at stationers Hall
+        <lb/><orgName><persName>William Townsend</persName> Son</orgName>
       </ab>
 
       <ab>
         <lb/>Russia Bands don't cut at the
         <lb/>shoulder but  must be all on one
-        <lb/>piece as my father did in 1837 this
+        <lb/>piece as my father did in <date when="1837">1837</date> this
         <lb/>only applies to best work Not estimate work
       </ab>
     </div>
