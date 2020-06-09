@@ -1124,14 +1124,14 @@
         <head>Notes on Account book binding</head>
 
         <ab><persName>M Wilkinson</persName> they always considered at
-          <lb/>Birmingham <num type="fraction" value=".33">1/3</num> off full binding price
+          <lb/><placeName>Birmingham</placeName> <num type="fraction" value=".33">1/3</num> off full binding price
           <lb/>for half binding <date when="1906-02-28">Feb 28/1906</date>
         </ab>
 
         <!--[start of list]-->
         <list style="list-style-type:upper-roman;">
           <head>Five Essentials - Old well</head>
-          <item>Seasoned paper as <num>298.310.300</num> <lb/><num>327.3009</num></item>
+          <item>Seasoned paper as <num>298.310.300</num> <lb/><num>327.3009</num></item> <!-- JAY: Are these page numbers? -->
           <item>Scientific <seg xml:id="ruling_0051">ruling pattern</seg></item>
           <item>Superb <seg sameAs="#ruling_0051">ditto</seg></item>
           <item>Sound binding</item>
@@ -1150,28 +1150,34 @@
 
       <!--[start of list]-->
         <list style="list-style-type:upper-alpha;">
-          <head>Departmental price Bks <lb/> except a/c book &amp; binding</head>
+          <head>Departmental price <choice>
+            <abbr>Bks</abbr>
+            <expan>Books</expan>
+          </choice> <lb/> except <choice>
+            <abbr>a/c</abbr>
+            <expan>account</expan>
+          </choice> book &amp; binding</head>
           <headItem>Traveller <lb/>Bag</headItem>
 
-          <label>A pattern Cards</label>
+          <label>pattern Cards</label> <!-- JAY: Jacob had the letters written here, but since they're specified within the list style, I removed them -->
           <item><num type="roman" value="1">I</num></item>
 
-          <label>B Binding</label>
+          <label>Binding</label>
           <item><num type="roman" value="2">II</num></item>
 
-          <label>C Writings</label>
+          <label>Writings</label>
           <item><num type="roman" value="3">III</num></item>
 
-          <label>D Printing</label>
+          <label>Printing</label>
           <item><num type="roman" value="4">IV</num></item>
 
-          <label>E Litho</label>
+          <label>Litho</label>
           <item><num type="roman" value="5">V</num></item>
 
-          <label>F Factored</label>
+          <label>Factored</label>
           <item><num type="roman" value="6">VI</num></item>
 
-          <label>H Heavy</label>
+          <label>Heavy</label>
           <item><num type="roman" value="7">VII</num></item>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
