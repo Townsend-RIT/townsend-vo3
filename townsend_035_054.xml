@@ -1034,12 +1034,12 @@
         </ab>
 
         <ab>
-          <date when="1909">1909</date> <!-- I feel like this 1909 is its own thing -->
+          <date when="1909">1909</date> <!-- JAY: I feel like this 1909 is its own thing -->
           <lb/>I pruned by taking away
           <lb/>all useless orders; orders that
           <lb/>had become no use?
           <date when="1909-07-16">July 16 1909</date>
-          <lb/>don't keep orders more than <!-- I also feel like this is its own thing -->
+          <lb/>don't keep orders more than <!-- JAY: I also feel like this is its own thing -->
           <lb/><num type="year" value="20">2 decades</num> or <num type="year" value="20">20 years</num>
           <date when="1909-11-03">Nov 03 1909</date>
         </ab>
@@ -1051,53 +1051,55 @@
       <fw type="page_number" place="top">12</fw>
 
       <div type="page"><!--[start of page div]-->
-        <head>Contents №</head>
+        <head>Contents <choice>
+          <abbr>&#8470;</abbr>
+          <expan>Numero</expan>
+        </choice></head> 
 
         <!--[start of list]-->
         <list style="list-style-type:none;">
-          <head>Tin Cases</head>
+          <head>Tin Cases</head><!-- JAY: Why is tin cases here? -->
           <item>Cutlery</item>
             <note place="inline"><handShift medium="pencil"/>Crypt <emph style="text-decoration: underline;">Crypt</emph><handShift medium="ink"/></note>
           <item>Collieries</item>
-            <note place="inline"><handShift medium="pencil"/>C Crypt<handShift medium="ink"/></note>
-          <item>Cammell <!--[ TODO ]--></item>
+            <note place="inline"><handShift medium="pencil"/>C Crypt<handShift medium="ink"/></note> <!-- JAY: Do we think we know what C stands for -->
+          <item><orgName>Cammell <choice>
+            <abbr>Co</abbr>
+            <expan>Company</expan>
+          </choice></orgName></item>
           <item>Lost Contracts</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <item>Bankers</item>
-          <item>Sheffield Cooperation Water depart</item>
+          <item><orgName>Sheffield Cooperation Water <choice>
+            <abbr>depart</abbr>
+            <expan>derpartment</expan>
+          </choice></orgName></item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Boro of Sheffield <num>2</num> cases</item>
+          <item><name>Boro of Sheffield</name> <num>2</num> cases</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-
-          <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note><!--[unicode X mark]-->
-            <item>Miscellaneous</item>
+          <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note><!--[unicode X mark]--> <!-- JAY: How will the placement of these be determined? -->
+            <item>Miscellaneous 2</item>
           <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-
           <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
             <item>Accountants</item>
           <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-
           <item>Files and Cost Books</item>
-            <note place="inline"><handShift medium="pencil"/>Bad debt good c<handShift medium="ink"/></note>
+            <note place="inline"><handShift medium="pencil"/>Bad debt good c<handShift medium="ink"/></note> <!-- JAY: I see "bad dell book," this should be uncertained -->
           <item>Gas Company</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <item>Iron + Steel <num>3</num> cases</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-
           <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
-            <item>G C L 4</item>
+            <item>G C L 4</item> <!-- JAY: Definitely an abbrevation -->
           <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <item>Breweries</item>
-
           <item>Limited Companies</item>
           <item>Contracts</item>
-
           <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
             <item>Stock orders</item>
-
           <item>Abstracts</item>
           <item>Journals</item>
-          <item>Townsends Stock patterns</item>
+          <item><persName>Townsends</persName> Stock patterns</item>
           <item>Banks</item>
           <item>Mercantile</item>
           <item>Lost Contracts</item>
@@ -1105,10 +1107,10 @@
           <item>Type</item>
           <item>Litho</item>
           <item>pattern Cards</item>
-          <item>Brewers Bottled Beer patterns</item>
+          <item>Brewers Bottled Beer patterns</item> <!-- Organization? -->
           <item>Lawyers</item>
-          <item>Water Works Sheffield</item>
-            <note place="inline"><handShift medium="pencil"/>C <name xml:id="PJO">P.J.O</name><handShift medium="ink"/></note>
+          <item><orgName>Water Works Sheffield</orgName></item>
+          <note place="inline"><handShift medium="pencil"/>C <unclear resp="JL"><persName>PTO</persName></unclear><handShift medium="ink"/></note>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
       <!--[End of PAGE 50]-->
@@ -1186,7 +1188,10 @@
         <table rows="11" cols="3"><!--[start of table]-->
           <head style="text-decoration: underline">New Price Book</head>
           <row role="label">
-            <cell>&#8470; of Vols</cell><!--[numero unicode]-->
+            <cell><choice>
+              <abbr>&#8470;</abbr>
+              <expan>Numero</expan>
+            </choice> of Vols</cell><!--[numero unicode]-->
             <cell></cell>
             <cell></cell>
           </row>
