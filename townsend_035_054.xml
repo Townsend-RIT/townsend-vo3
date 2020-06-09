@@ -758,7 +758,7 @@
             </item>
             <item>Title Merchants + Mercantile form
               <list>
-                <item><num>7</num> pages riling type Litho</item> <!-- JAY: I forgot if we're expanding litho. -->
+                <item><num>7</num> pages riling type Litho</item> <!-- JAY: Litho = lithograph. -->
               </list>
             </item>
           </list>
@@ -779,13 +779,13 @@
           <lb/>pattern book as we have printed also truly
           <lb/>marked Numbered and priced we can
           <lb/>supply all such after style of Army Navy Stores
-          <lb/>whatever is in the enormous book in Europe <!--JAY: Unsure if the "ins" are "in" or "on." -->
+          <lb/>whatever is in the enormous book in Europe
           <lb/>a really good work earning the repute a
           <lb/><q>Sheffield Art Journal</q>
         </ab>
 
-        <note place="below bottom">Dixons Robert Belk <!-- JAY: Is that a ditto??? -->
-          <lb/>C Johnson + Station W <!-- JAY: These are all names of some kind, I'm certain of that -->
+        <note place="below bottom">Dixons Robert Belk <!-- JAY: Is that a ditto??? ya -->
+          <lb/>(<name>Johnson H Stationers</name>) <!-- JAY: These are all names of some kind, I'm certain of that -->
           <lb/>hardware elastic
         </note>
       <!--[End of PAGE 45]-->
@@ -805,8 +805,8 @@
           <item>Wedding <seg xml:id="stationary_0046">Stationary</seg> <seg sameAs="#patterns_0046">ditto</seg></item>
           <item>Funeral <seg sameAs="#stationary_0046">ditto</seg> <seg sameAs="#patterns_0046">ditto</seg></item>
           <trailer>as to size of Proposed pattern book
-            <lb/>look how Chambers decreased their <!-- JAY: I want to say Chambers is a name, but I doubt there were any they/themers in the 1900s... -->
-            <lb/>post folio Chambers Journal to Small
+            <lb/>look how <orgName>Chambers</orgName> decreased their
+            <lb/>post folio <orgName>Chambers</orgName> Journal to Small
             <lb/>Imperial 
             <choice>
               <abbr>8vo</abbr>
@@ -870,7 +870,7 @@
           <item>Brewers Delivery Book</item>
           <label>T</label>
           <item>Faint + margin</item>
-          <trailer>PJO</trailer> <!-- JAY: PTO? Who is PJO? Townsend's son? -->
+          <trailer><unclear resp="JL">PJO</unclear></trailer> <!-- TO-DO: Look at initials -->
         </list>
         <!--[List continues after the page beginning]-->
       <!--[End of PAGE 46]-->
@@ -879,7 +879,7 @@
           <pb n="047" facs="CC20181003_Townsend_0047.tif"/>
           <fw type="page_number" place="top">9</fw>
         <list style="list-style-type:upper-alpha;">
-          <head>Solicitors patterns</head> <!-- JAY: I added this, but I'm not certain it's right -->
+          <head>-- Solicitors patterns</head>
           <label>U</label>
           <item>Affidavit</item>
           <label>V</label>
@@ -958,7 +958,14 @@
           </item>
 
           <label>All Posting</label>
-          <item>Dr &amp; Cr Ledgers</item> <!-- JAY: Abbreviations -->
+          <item><unclear resp="JL"><choice>
+            <abbr>Db</abbr>
+            <expan>debit</expan>
+          </choice> &amp; 
+          <choice>
+            <abbr>Cr</abbr>
+            <expan>Credit</expan>
+          </choice></unclear> Ledgers</item> <!-- JAY: Abbreviations -->
 
           <label>Travelers</label>
           <item>Collect <lb/>and <lb/>Orders</item>
@@ -972,7 +979,12 @@
             <lb/>from travellers or giving orders out
           </item>
 
-          <label>Sales S</label>
+          <label>Sales <unclear resp="JL">
+            <choice>
+              <abbr>S</abbr>
+              <expan>Shop></expan>
+            </choice>
+          </unclear></label>
           <item>Young man + young lady</item>
         </list>
       </div><!--[end of page div]-->
@@ -988,10 +1000,14 @@
         <!--[start of list]-->
         <list style="list-style-type:none;">
           <head>Tin Cases</head>
-          <item>Workmens forms Invoices Letter heads cards Medical a/c</item>
-          <item>Vickers Sons &amp; Limited</item>
-          <item><seg xml:id="vol1_0049">Vol</seg> <num>1</num> <seg xml:id="balance_0049">Balance Receipt Bill Carnage</seg></item>
-          <item><seg sameAs="#vol_0049">ditto</seg> <num>2</num> <seg sameAs="#balance_0049">ditto</seg></item>
+          <item>Workmens forms Invoices Letter heads <lb/>
+            cards Medical <choice>
+              <abbr>a/c</abbr>
+              <expan>account</expan>
+            </choice></item>
+          <item><orgName>Vickers Sons &amp; Limited</orgName></item>
+          <item><seg xml:id="vol1_0049">Vol</seg> <num>1</num> <seg xml:id="balance_0049">Balance Receipt</seg><seg xml:id="bill_0049">Bill Carnage</seg></item>
+          <item><seg sameAs="#vol_0049">ditto</seg> <num>2</num> <seg sameAs="#balance_0049">ditto</seg> <seg sameAs="#bill_0049">ditto</seg></item>
           <item><seg xml:id="vol2_0049">Vol</seg> <num>1</num> <seg xml:id="limited_0049">Limited Companies</seg></item>
           <item><seg sameAs="#vol2_0049">ditto</seg> <num>2</num> <seg sameAs="#limited_0049">ditto</seg></item>
           <item><seg xml:id="vol3_0049">Vol</seg> <num>1</num> <seg xml:id="pattern_0049">Pattern Cards and Show Cards</seg></item>
@@ -1007,21 +1023,24 @@
         <!--[end of list]-->
 
         <ab>Why I thought a tin Case for each large buyer <!--[TODO: tin cases linking]-->
-          <lb/>was? at the time you thought it declining, you
-          <lb/>could run thru and see at once what was about
+          <lb/>was? at any time you thought it declining, you
+          <lb/>could run <choice>
+            <abbr>thru</abbr>
+            <expan>through</expan>
+          </choice> and see at once what was about
           <lb/>due for re-ordering, and try to get it renewed
           <lb/>yourself personally, or some one likely
           <date when="1902-12-29">Dec 29/1902</date>
         </ab>
 
         <ab>
-          <date when="1909">1909</date>
+          <date when="1909">1909</date> <!-- I feel like this 1909 is its own thing -->
           <lb/>I pruned by taking away
           <lb/>all useless orders; orders that
           <lb/>had become no use?
           <date when="1909-07-16">July 16 1909</date>
-          <lb/>dont keep orders more than
-          <lb/>2 decades or 20 years
+          <lb/>don't keep orders more than <!-- I also feel like this is its own thing -->
+          <lb/><num type="year" value="20">2 decades</num> or <num type="year" value="20">20 years</num>
           <date when="1909-11-03">Nov 03 1909</date>
         </ab>
       </div><!--[end of page div]-->
