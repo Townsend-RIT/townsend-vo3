@@ -28,6 +28,7 @@
         <!-- [CHANGED 6/4/2020: Filled out page 79 & 80, will move onto second pass on filechunk] -->
         <!-- [CHANGED 6/4/2020: Made edits in accordance with meeting discussions, will continue second pass] -->
         <!-- [CHANGED 6/5/2020: Moved to oXygen, imported schema and fixed validation errors] -->
+        <!-- [CHANGED 6/9/2020: Completed second pass, including addition of abbreviations and dittos. Only a few unclears remain.] -->
 
         <!--[
         ENCODER SHORTHAND REFERENCES:
@@ -84,7 +85,7 @@
     <div type="instruction">
       <ab>
         <lb/>another thought?
-        <lb/>Leave Rolling machine as it is chosing <!-- [NOTE: Misspelling of "choosing", denote as such on second pass] -->
+        <lb/>Leave Rolling machine as it is <choice><sic>chosing</sic><corr>choosing</corr></choice>
         <lb/>special times for rolling - less stock in
         <lb/>binding Hall and more Sewers paging <!-- [NOTE: Sewers, as in people who sew, not the underground utility] -->
         <lb/>with cards - close doors to front part as
@@ -102,7 +103,7 @@
         <lb/>Erect closets to Lane just as mine
         <lb/>remove mine to <num>1</num> Landing and have
         <lb/><num>two</num> others <num>one</num> each landing
-        <note place="below">orderly</note> <!-- [NOTE: I think this is correct, may still want to check in about it, actually i think the word is misspelled in the note? ok] -->
+        <note place="below"><choice><sic>odrerly</sic><corr>orderly</corr></choice></note>
       </ab>
 
       <ab>
@@ -143,8 +144,8 @@
 
       <ab>
         <lb/>lettering pieces complaint by <persName>Becketts</persName>
-        <lb/>not sticking --<!-- [NOTE: THese appear to be two separate complaints] --> <persName>M. Wilkinsin</persName> put on yourself with where
-        <lb/><q><persName>Cotsell's</persName> hot glue</q> but letter on col <!-- [NOTE: is cot short for cotton, thereby making this cotton leather? No. it is col short for colored] --> <q>leather possible</q>
+        <lb/>not sticking --<!-- [NOTE: These appear to be two separate complaints] --> <persName>M. Wilkinsin</persName> put on yourself with where
+        <lb/><q><persName>Cotsell's</persName> hot glue</q> but letter on <choice><abbr>col-d</abbr><expan>colored</expan></choice> <q>leather possible</q>
       </ab>
     </div>
 
@@ -185,10 +186,10 @@
     <div type="log">
       <ab>
         <lb/>observations -- pieces
-        <lb/>come off even on R calf <!-- [TODO: R calf is an abbreviation for Rough Calf, encode that] -->
-        <lb/>Rough Calf soon thro <!-- [NOTE: what am i doing about thro] -->
-        <lb/>too thin <!-- TODO: too thin is underlined -->
-        <lb/>ends <!-- TODO: also underlined -->
+        <lb/>come off even on <choice><abbr>R calf</abbr><expan>Rough calf</expan></choice>
+        <lb/>Rough Calf soon <choice><orig>thro</orig><reg>through</reg></choice>
+        <lb/><emph style="text-decoration: underline">too thin</emph>
+        <lb/><emph style="text-decoration: underline">ends</emph>
         <note place="inline">
           <date when="1893-10">Oct/93</date>
         </note>
@@ -201,7 +202,7 @@
         <lb/>section, hand made
         <lb/>paper lining, it is very
         <lb/>durable as grandfather
-        <lb/>did 40 years ago <!-- [TODO: encode this years thing as a num?] -->
+        <lb/>did <num>40</num> years ago
         <note place="below">
           <date when="1894">1894</date>
         </note>
@@ -215,7 +216,7 @@
 		<fw type="page_number" place="top">38</fw>
     <div type="log">
       <ab>
-        <lb/>Warping of Parchment or <unclear resp="burkhardt">Forrtt</unclear> <!-- [NOTE: is that a really screwed up foolscap?] -->
+        <lb/>Warping of Parchment or Forril <!-- [NOTE: A forril is a parchment made from a split sheepskin] -->
         <lb/>Bank pass Books, cracking backs
       </ab>
     </div>
@@ -229,19 +230,19 @@
       </ab>
 
       <ab>
-        <lb/>1/2 glazes Cake dutch marble sides as best <!-- [TODO: apply a num tag here] -->
-        <lb/>stock my Fathers Old <q>Sheaf Works Style</q> <!-- [TODO: Sheaf Works Style is underlined] -->
+        <lb/><num type="fraction" value=".5">1/2</num> glazed Cake dutch marble sides as best
+        <lb/>stock my Fathers Old <q><emph style="text-decoration: underline">Sheaf Works Style</emph></q>
       </ab>
     </div>
 
     <div type="log">
       <ab>
-        <lb/><orgName><persName>Maximillian's</persName></orgName> say <q>All Rights Reserved</q>
-        <lb/>I <orgName><persName>Rodgers</persName> Sons</orgName> <!-- [TODO: a ditto goes here] -->
-        <lb/><orgName><persName>Sitter</persName> + <persName>Flemming</persName></orgName> <!-- [TODO: a ditto also goes here] --> <q>Caution any person infringing
+        <lb/><orgName><persName>Maximillian's</persName></orgName> <seg xml:id="copyright_0080">say <q>All Rights Reserved</q></seg>
+        <lb/>I <orgName><persName>Rodgers</persName> Sons</orgName> <seg sameAs="#copyright_0080">ditto</seg>
+        <lb/><orgName><persName>Sitter</persName> + <persName>Flemming</persName></orgName> <seg sameAs="#copyright_0080">ditto</seg> <q>Caution any person infringing
         <lb/>the copyright of this book will be prosecuted under the act</q>
-        <lb/><orgName><persName>C Johnson</persName> <!-- [TODO: company abbreviation here] --></orgName> 
-        <lb/><orgName><persName><unclear reason="illegible" resp="burkhardt">Phu</unclear> Turner</persName> <!-- [TODO: company abbreviation here] --></orgName>  entered at stationers Hall
+        <lb/><orgName><persName>C Johnson</persName> <choice><abbr>Co</abbr><expan>Company</expan></choice></orgName> 
+        <lb/><orgName><persName><unclear reason="illegible" resp="burkhardt">Phu</unclear> Turner</persName> <choice><abbr>Co</abbr><expan>Company</expan></choice></orgName>  entered at stationers Hall
         <lb/><orgName><persName>William Townsend</persName> Son</orgName>
       </ab>
 
