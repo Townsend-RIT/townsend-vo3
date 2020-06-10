@@ -23,14 +23,54 @@
             ENCODER SHORTHAND REFERENCES:
             DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
             DITTO (cont): Encoders replacing dittos with respective word references rather than using system for testing purposes
-            UNDERLINED TEXT: "style="text-decoration: underline;"
-            DOUBLE UNDERLINE: style="text-decoration: underline; text-decoration-style: double;"
+            UNDERLINED TEXT: "<emph style="text-decoration: underline;>"
+            DOUBLE UNDERLINE: <emph style="text-decoration: underline; text-decoration-style: double;>"
             ROMAN NUMERALS: <num type="roman" value=""></num>
             ]-->
             
             <!--[Start of PAGE 95]-->
             <pb n="095" facs="CC20181029_Townsend_0095.tif"/>
             <fw type="page_number" place="top">53</fw>
+            
+            <div type="instruction">
+                <ab>
+                    <lb/>Stamps
+                    <lb/>Every Letter must be entered
+                    <lb/>for the Form and its Cost
+                    <lb/>thus
+                </ab>
+                
+                <ab>
+                    <lb/>Chad Goodall Son
+                    <lb/>Williams Coopers
+                    <note place="inline">
+                        <lb/><num>1</num>
+                        <lb/><num type="fraction" value=".5">1/2</num>
+                    </note>
+                </ab>
+                
+                <ab>
+                    <lb/>No private Letters whatever
+                    <lb/>to go <choice><orig>thro</orig><reg>through</reg></choice> this book it is <unclear resp="burkhardt">more
+                    <lb/>by</unclear> <!-- [NOTE: nere by?] --> for the business and the
+                    <lb/>object is to record precisely
+                    <lb/>what the Leetters Outward
+                    <lb/>Cost annually to William
+                    <lb/>Townsend Son
+                    <lb/><date when="1891-05-27">May 27/91</date>
+                </ab>
+            </div>
+            
+            <div type="log">
+                <ab>
+                    <lb/><unclear resp="burkhardt">a b qrs</unclear> <!-- [NOTE: something about quarters maybe?] --> <choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> long folio provided
+                    <lb/>for above <unclear resp="burkhardt" reason="illegible">hurywje</unclear>
+                    <lb/><persname>Robson</persname> thinks <num>5</num>/. at a time not 20/.
+                    <lb/>and <unclear resp="burkhardt">W a S</unclear> to check over <unclear resp="burkhardt">abo
+                    <lb/>petty lash</unclear> too, strict <emph style="text-decoration: underline;">scrutiny nece</emph>ssary
+                    <note place="inline"><date when="1894-03-06">Mar 6/94</date></note>
+                </ab>
+            </div>
             
             <!-- [End of PAGE 95] -->
             
