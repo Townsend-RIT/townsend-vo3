@@ -1186,11 +1186,11 @@
       <!--[Start of PAGE 53]-->
       <pb n="053" facs="CC20181003_Townsend_0053.tif"/>
       <fw type="page_number" place="top">15</fw>
-
-      <!--[end of page div]-->
+      
+      <!--[start of page div]-->
       <div type="page">
         <head>Makers</head>
-
+        <!-- JAY: This page definitely had someone come in at a later date and modify things. Time to think about <add> and <del>.-->
         <table rows="11" cols="3"><!--[start of table]-->
           <head style="text-decoration: underline">New Price Book</head>
           <row role="label">
@@ -1206,61 +1206,84 @@
           <row>
             <cell><num>2</num></cell>
             <cell>Foolscap</cell>
-            <cell>1 to 2000</cell>
+            <cell><num>1</num> to <num>2000</num></cell>
           </row>
 
           <row>
             <cell><num>1</num></cell>
             <cell>Demy</cell>
-            <cell>2001 to 3000</cell>
+            <cell><num></num>2001 to <num></num>3000</cell>
           </row>
-
+          
+          <note place="inline"> <!-- Is there any way to signify that it's between the "to"s? -->
+            <handShift medium="pencil"/>28
+          </note>
+          
           <row>
-            <cell><num>1</num></cell>
+            <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Medium</cell>
-            <cell>3001 to 4000</cell>
+            <cell><num>3001</num> to <num>4000</num></cell>
           </row>
-
+          
+          <note place="inline">
+            <handShift medium="pencil"/>&#10003; <!-- Checkmark unicode -->
+          </note>
+          
           <row>
-            <cell><num>1</num></cell>
+            <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Royal</cell>
-            <cell>4001 to 5000</cell>
+            <cell><num>4001</num> to <num>5000</num> <handShift medium="pencil"/>&#10003;</cell>
           </row>
-
+          
+          <note place="inline">
+            &#10003; <!-- Checkmark unicode -->
+          </note>
+          
           <row>
-            <cell><num>1</num></cell>
+            <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Super Royal</cell>
-            <cell>5001 to 6000</cell>
+            <cell><num>5001</num> to <num>6000</num></cell>
           </row>
-
+          <note place="inline">
+            <handShift medium="pencil"/>&#10003;
+          </note>
           <row>
-            <cell><num>1</num></cell>
+            <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Imperial</cell>
-            <cell>6001 to 6300</cell>
+            <cell><num>6001</num> to <num>6300</num> <handShift medium="pencil"/><num>7000</num></cell>
+          </row>
+          
+          <note place="inline">
+            &#10003;
+          </note>
+          
+          <row>
+            <cell><handShift medium="ink"/><num>1</num></cell>
+            <cell><seg xml:id="sheet_0053">Sheet</seg> + Third <seg xml:id="fcap_0053"><choice>
+              <abbr>Fcap</abbr>
+              <expan>Foolscap</expan>
+            </choice></seg> 
+              <lb/> <seg sameAs="#sheet_0053">ditto</seg> + Half <seg sameAs="#fcap_0053">ditto</seg></cell>
+            <cell><num>7001</num> to <num>7500</num> <handShift medium="pencil"/>8000 
+              <lb/><handShift medium="ink"/> <num>8001</num> to <num>8500</num> <handShift medium="pencil"/>9000</cell>
           </row>
 
           <row>
-            <cell><num>1</num></cell>
-            <cell>Sheet + Third Fcap <lb/> Sheet + Half Fcap</cell>
-            <cell>7001 to 7500 <lb/> 8001 to 8500</cell>
-          </row>
-
-          <row>
-            <cell><num>1</num></cell>
+            <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Post</cell>
-            <cell>9001 to 9700</cell>
+            <cell><num>9001</num> to <num>9700</num> <handShift medium="pencil"/>10000</cell>
           </row>
 
           <row>
-            <cell><num>1</num></cell>
+            <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Large Post</cell>
-            <cell>100001 to 10700</cell>
+            <cell><num>100001</num> to <num>10700</num> <handShift medium="pencil"/>11000</cell>
           </row>
 
           <row>
-            <cell cols="3"><emph style="text-decoration-line: underline; text-decoration-style: double;"><num>10</num> vols</emph></cell>
+            <cell cols="3"><handShift medium="ink"/><emph style="text-decoration-line: underline; text-decoration-style: double;"><num>10</num> vols</emph></cell>
             <cell></cell>
-            <cell></cell>
+            <cell><handShift medium="pencil"/>11001 to 12000<handShift medium="ink"/></cell>
           </row>
         </table><!--[end of table]-->
       </div><!--[end of page div]-->
@@ -1280,75 +1303,85 @@
 
           <row role="label">
             <cell>Size</cell>
-            <cell>&#8470;</cell>
+            <cell><choice>
+              <abbr>&#8470;</abbr>
+              <expan>Numero</expan>
+            </choice></cell>
             <cell cols="2">Ruling and Binding</cell>
           </row>
 
           <row>
-            <cell>Fcap</cell>
-            <cell>1 to 1200</cell><!--[TODO: reference numbers?]-->
-            <cell rows="13">&#8544; to &#8553;&#8548;</cell>
+            <cell><choice>
+              <abbr>Fcap</abbr>
+              <expan>Foolscap</expan>
+            </choice></cell>
+            <cell><num>1</num> to <num>1200</num></cell><!--[TODO: reference numbers?]-->
+            <cell rows="13">&#8544; to &#8553;&#8548;</cell> <!-- JAY: Fuckin' what. I need to ask Jacob about this
+            Also are they numbers?????? -->
             <cell rows="13">A to I</cell>
           </row>
 
           <row>
             <cell>Demy</cell>
-            <cell>2001 to 2300</cell>
+            <cell><num>2001</num> to <num>2300</num></cell>
           </row>
 
           <row>
             <cell>Medium</cell>
-            <cell>3001 to 3200</cell>
+            <cell><num>3001</num> to <num>3200</num></cell>
           </row>
 
           <row>
             <cell>Royal</cell>
-            <cell>4001 to 4050</cell>
+            <cell><num>4001</num> to <num>4050</num></cell>
           </row>
 
           <row>
-            <cell>Sup Royal</cell>
-            <cell>5001 to 5050</cell>
+            <cell><choice>
+              <abbr>Sup</abbr>
+              <expan>Super</expan>
+            </choice>Royal</cell>
+            <cell><num>5001</num> to <num>5050</num></cell>
           </row>
 
           <row>
             <cell>Imperial</cell>
-            <cell>6001 to 6050</cell>
+            <cell><num>6001</num> to <num>6050</num></cell>
           </row>
 
           <row>
-            <cell>Sheet &amp; <num type="ordinal">3rd</num></cell>
-            <cell>7001 to 7300</cell>
+            <cell><seg xml:id="sheet_0054">Sheet</seg> &amp; <num type="ordinal">3rd</num></cell>
+            <cell><num>7001</num> to <num>7300</num></cell>
           </row>
 
           <row>
-            <cell>Sheet &amp; half</cell>
-            <cell>8001 to 8300</cell>
+            <cell><seg sameAs="#sheet_0054">ditto</seg> &amp; half</cell>
+            <cell><num>8001</num> to <num>8300</num></cell>
           </row>
 
           <row>
             <cell>Post</cell>
-            <cell>9001 to 9600</cell>
+            <cell><num>9001</num> to <num>9600</num></cell>
           </row>
 
           <row>
-            <cell>La Post</cell>
-            <cell>100001 to 10600</cell>
+            <cell>La Post</cell> <!-- JAY: Large post? -->
+            <cell><num>100001</num> to <num>10600</num></cell>
           </row>
 
           <row>
             <cell></cell>
-            <cell>11001 to 11100</cell>
+            <cell><num>11001</num> to <num>11100</num></cell>
           </row>
 
           <row>
-            <cell>B pattern foliod</cell>
-            <cell>1-1  to 200</cell>
+            <cell>B <seg xml:id="pattern_0054">pattern</seg> foliod</cell>
+            <cell><num>1</num>-<num>1</num>  to <num>200</num></cell>
           </row>
 
           <row>
-            <cell>C pattern paged</cell>
-            <cell>201 to end</cell>
+            <cell>C <seg sameAs="#pattern_0054">ditto</seg> paged</cell>
+            <cell><num>201</num> to end</cell>
           </row>
 
           <trailer>
