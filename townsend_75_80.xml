@@ -19,8 +19,6 @@
   </teiHeader>
   <text>
     <body>
-        <!-- [TODO: Add persnames] -->
-        <!-- [TODO: Check and make sure ands that should be encoded as "+" are done so] -->
         <!-- [TODO: Resolve any unclears as best as possible] -->
 
         <!-- [CHANGED 6/1/2020: Filled out page 75, will move onto page 76] -->
@@ -29,6 +27,7 @@
         <!-- [CHANGED 6/4/2020: Made edits in accordance with meeting discussions, will continue second pass] -->
         <!-- [CHANGED 6/5/2020: Moved to oXygen, imported schema and fixed validation errors] -->
         <!-- [CHANGED 6/9/2020: Completed second pass, including addition of abbreviations and dittos. Only a few unclears remain.] -->
+        <!-- [CHANGED 6/10/2020: Fixed TODO items that were forgot] -->
 
         <!--[
         ENCODER SHORTHAND REFERENCES:
@@ -52,7 +51,7 @@
           <lb/>Finishing and Finishing off so that
           <lb/>the Manager of the Room will be
           <lb/>held responsible for successful results
-          <lb/>both in profit, promises, and quality
+          <lb/>both in profit, promises, + quality
         </ab>
 
         <ab>
@@ -78,7 +77,7 @@
     <div type="ethic">
       <ab>
         <lb/>What is wanted is hard
-        <lb/>industry, skill, and dispatch
+        <lb/>industry, skill, + dispatch
       </ab>
     </div>
 
@@ -123,7 +122,7 @@
     <div type="insert">
       <ab>
         <lb/>Linings taken off a book
-        <lb/>Made by <persName>Parrson</persName> and <persName>Brailsford</persName>
+        <lb/>Made by <persName>Parrson</persName> + <persName>Brailsford</persName>
         <lb/>shows the  material they use
       </ab>
     <gap extent="partial page" reason="fabric scraps">
