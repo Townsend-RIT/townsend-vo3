@@ -26,12 +26,13 @@
             ENCODER SHORTHAND REFERENCES:
             DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
             DITTO (cont): Encoders replacing dittos with respective word references rather than using system for testing purposes
-            UNDERLINED TEXT: "<emph style="text-decoration: underline;>"
-            DOUBLE UNDERLINE: <emph style="text-decoration: underline; text-decoration-style: double;>"
+            UNDERLINED TEXT: <emph style="text-decoration: underline;">
+            DOUBLE UNDERLINE: <emph style="text-decoration: underline; text-decoration-style: double;">
             ROMAN NUMERALS: <num type="roman" value=""></num>
             ]-->
             
             <!-- [CHANGED 6/10/2020: First pass on page 95 complete] -->
+            <!-- [CHANGED 6/11/2020: First pass on pages 96 and 97 complete] -->
             
             <!--[Start of PAGE 95]-->
             <pb n="095" facs="CC20181029_Townsend_0095.tif"/>
@@ -76,7 +77,6 @@
                     <note place="inline"><date when="1894-03-06">Mar 6/94</date></note>
                 </ab>
             </div>
-            
             <!-- [End of PAGE 95] -->
             
             <!--[Start of PAGE 96]-->
@@ -105,13 +105,41 @@
                     </note>
                 </ab>
             </div>
-            
             <!-- [End of PAGE 96] -->
             
             <!--[Start of PAGE 97]-->
             <pb n="097" facs="CC20181029_Townsend_0097.tif"/>
             <fw type="page_number" place="top">55</fw>
             
+            <div type="log">
+                <ab>
+                    <note place="top">or</note>
+                    <lb/><emph style="text-decoration: underline;">Clerk of the works.</emph> <emph style="text-decoration: underline; text-decoration-style: quadruple;">Works Manager</emph> <!-- [NOTE: Manager extends onto the next page] -->
+                    <lb/>should have entire charge answer
+                    <lb/>all enquiries, give promises, see to
+                    <lb/>the quality of the work watching
+                    <lb/>all goings on. Waste <unclear resp="burkhardt">vileness</unclear>
+                    <lb/>talking, gossiping, wandering
+                    <lb/>off their work, waste of material
+                    <lb/>and every print to bring the
+                    <lb/>work up to standard and at
+                    <lb/>the price it should be. <date when="1891-02-25">Feb 25/91</date>
+                </ab>
+                
+                <ab>
+                    <lb/> Rulers <num>6</num> per hour <unclear resp="burkhardt">amph</unclear> <num>6</num> per hour
+                    <lb/>he should be there promptly at
+                    <lb/><num>8</num> am and <num>2</num> pm taking the time
+                    <lb/>or causing it tobe taken he
+                    <lb/>should rule from the receiving
+                    <lb/>of an order from the office to the
+                    <lb/>delivery into the office completed
+                    <lb/>with an estimate price or cost.
+                    <lb/>never to fetch him out of his
+                    <lb/>Workshops, he should with the first
+                    <lb/>and will last. gas + Water under his charge
+                </ab>
+            </div>
             <!-- [End of PAGE 97] -->
             
             <!--[Start of PAGE 98]-->
