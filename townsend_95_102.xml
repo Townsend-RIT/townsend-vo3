@@ -19,6 +19,9 @@
     </teiHeader>
     <text>
         <body>
+            
+            <!-- [TODO: persnames & orgnames] -->
+            
             <!--[
             ENCODER SHORTHAND REFERENCES:
             DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
@@ -27,6 +30,8 @@
             DOUBLE UNDERLINE: <emph style="text-decoration: underline; text-decoration-style: double;>"
             ROMAN NUMERALS: <num type="roman" value=""></num>
             ]-->
+            
+            <!-- [CHANGED 6/10/2020: First pass on page 95 complete] -->
             
             <!--[Start of PAGE 95]-->
             <pb n="095" facs="CC20181029_Townsend_0095.tif"/>
@@ -65,7 +70,7 @@
                 <ab>
                     <lb/><unclear resp="burkhardt">a b qrs</unclear> <!-- [NOTE: something about quarters maybe?] --> <choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> long folio provided
                     <lb/>for above <unclear resp="burkhardt" reason="illegible">hurywje</unclear>
-                    <lb/><persname>Robson</persname> thinks <num>5</num>/. at a time not 20/.
+                    <lb/><persName>Robson</persName> thinks <num>5</num>/. at a time not 20/.
                     <lb/>and <unclear resp="burkhardt">W a S</unclear> to check over <unclear resp="burkhardt">abo
                     <lb/>petty lash</unclear> too, strict <emph style="text-decoration: underline;">scrutiny nece</emph>ssary
                     <note place="inline"><date when="1894-03-06">Mar 6/94</date></note>
@@ -77,6 +82,29 @@
             <!--[Start of PAGE 96]-->
             <pb n="096" facs="CC20181029_Townsend_0096.tif"/>
             <fw type="page_number" place="top">54</fw>
+            
+            <div type="instruction">
+                <ab>
+                    <lb/>Stamps for Accounts
+                    <lb/>Collector at the end of each
+                    <lb/>week every Saturday make
+                    <lb/>out a bill thus
+                </ab>
+                
+                <ab>
+                    <lb/><date when="--06-17">June 17</date> <num>23</num> accounts
+                    <lb/>if the Number of Accounts be
+                    <lb/>counted from the accounts
+                    <lb/>due book a Debt + Credit
+                    <lb/>Ledger Account may be
+                    <lb/>kept.
+                    <lb/><date when="1891-06-12"><emph style="text-decoration: underline;">June 12th 1891</emph></date>
+                    <note place="inline">
+                        <lb/>s d
+                        <lb/><emph style="text-decoration: underline;">I II</emph>
+                    </note>
+                </ab>
+            </div>
             
             <!-- [End of PAGE 96] -->
             
