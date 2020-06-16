@@ -25,7 +25,6 @@
             <!--[
             ENCODER SHORTHAND REFERENCES:
             DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
-            DITTO (cont): Encoders replacing dittos with respective word references rather than using system for testing purposes
             UNDERLINED TEXT: <emph style="text-decoration: underline;">
             DOUBLE UNDERLINE: <emph style="text-decoration: underline; text-decoration-style: double;">
             ROMAN NUMERALS: <num type="roman" value=""></num>
@@ -127,7 +126,7 @@
                 </ab>
                 
                 <ab>
-                    <lb/> Rulers <num>6</num> per hour <unclear resp="burkhardt">amph</unclear> <num>6</num> per hour
+                    <lb/>Rulers <num>6</num> per hour <unclear resp="burkhardt">amph</unclear> <num>6</num> per hour
                     <lb/>he should be there promptly at
                     <lb/><num>8</num> am and <num>2</num> pm taking the time
                     <lb/>or causing it tobe taken he
@@ -139,13 +138,60 @@
                     <lb/>Workshops, he should with the first
                     <lb/>and will last. gas + Water under his charge
                 </ab>
-            </div>
             <!-- [End of PAGE 97] -->
             
             <!--[Start of PAGE 98]-->
             <pb n="098" facs="CC20181029_Townsend_0098.tif"/>
             <fw type="page_number" place="top">56</fw>
+                <ab>
+                    <lb/>experience.. day after starting <num>51</num> hours
+                    <lb/><num>4</num> men found on <unclear resp="burkhardt">pluut print</unclear> annual
+                    <lb/>in their works
+                </ab>
+            </div>
             
+            <div type="ethic">
+                <list>
+                    <head>To succeed, and show good results</head>
+                    <item><num type="roman" value="1">I</num> <seg xml:id="clever_0098">clever</seg> Traveller and collect</item>
+                    <item><num type="roman" value="2">II</num> <seg sameAs="#clever_0098">ditto</seg> Works Manager</item>
+                    <item><num type="roman" value="3">III</num> <seg sameAs="#clever_0098">ditto</seg> Office + shop</item>
+                </list>
+            </div>
+            <!-- [NOTE: downwards curly brace thing] -->
+            <div type="log">
+                <ab>
+                    <lb/>Works
+                    <lb/>Manager
+                    <lb/>I am convinced more and more if a practical
+                    <lb/>clever works manager being necessary, a master
+                    <lb/>would be the best because he is interested in the
+                    <lb/>dividend
+                </ab>
+                <ab>
+                    <lb/>Ruling there is no skilled weighing up of the amount
+                    <lb/>done nor any planning of the jobs to get the most out
+                    <lb/>of this was done day by day and each machine
+                    <lb/>put out its pull however the difference would be
+                    <lb/>very great, incredibly more than now
+                    <lb/>The same in binders of Stationary
+                    <lb/>printing machines
+                </ab>
+                <ab>
+                    <!-- [NOTE: I seriously have no idea what started going on with his handwriting here it started getting reaaaaaaaaal bad] -->
+                    <lb/>Contraacts - directs, govern, engages, discharges, pays,
+                    <lb/> and sees every job done and gives its <unclear resp="burkhardt">workmens</unclear>
+                    <lb/>cost and material cost and sends an approximate
+                    <lb/>value which is checked over peroperly estimated where
+                    <lb/>necessary talked over by partners in <unclear resp="burkhardt">council</unclear> and agreed
+                    <lb/>whom always pass the work before going down <unclear resp="burkhardt">pelllo</unclear>
+                    <lb/>all prices <unclear resp="burkhardt" reason="illegible">weroid</unclear> and estimate outward, posts his own
+                    <lb/>ledger, posts his own cash, puts orders in hand, keep his own
+                    <lb/>cash + puts orders in hand, keep the cash pays the hall sees the
+                    <lb/>entering <unclear resp="burkhardt">working</unclear> packing <unclear resp="burkhradt" reason="illegible">naa</unclear> properly <unclear resp="burkhardt">runner</unclear> out sees
+                    <note place="inline">TJO</note>
+                </ab>
+            </div>
             <!-- [End of PAGE 98] -->
             
             <!--[Start of PAGE 99]-->
