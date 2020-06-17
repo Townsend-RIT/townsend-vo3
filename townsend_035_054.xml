@@ -18,8 +18,6 @@
   </teiHeader>
   <text>
     <body>
-    <!--[TODO: add <div> @type attribute, regularize full stop sentences with a period, look over pages for addresses]-->
-
     <!--[CHANGED 29/01/20: Fix to whitespace errors, fix to issues concerning ampersands and plus (+) signs, fix to use of <quote> over <q>, consolidation pages without headers to topmost page divs (still unnamed/untyped), <lb/> use confusion fix]-->
 
     <!--[CHANGED 30/01/20: Fix to fragmented list across pages 0046 and 0047, replace to facsimile placeholders in <pb> element to ensure validation, removal of @place attribute for a few <date> elements, fix to <lb/> element use with spacing adjustment for readability, fix to roman number unicode use on 0052 and 0054, change of figure on page 0036 to div type insert]-->
@@ -132,9 +130,10 @@
         <!--[End of table]-->
 
         <ab>Master should keep his own Cash and fall over
-        <lb />his own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab>
-        <!--[how to handle WT initials]-->
-        <!-- Check notes -->
+        <lb />his own Ledgers<choice>
+          <abbr>WT</abbr>
+          <expan><persName>William Townsend</persName></expan>
+        </choice><date when="1898-05-16">May 16/98</date></ab>
 
         <!-- JL: This...is a continuation of the index. Needs to be consistent and put in an index div -->
         <list style="list-style-type: none">
@@ -550,28 +549,25 @@
           </row>
 
           <!--[start of trailer]-->
-          <trailer>
-            <q>Cash to be kept by principal</q>
-            <lb/><persName style="text-decoration: underline;">William Townsend</persName> <!-- JAY: Not an underline; is a flourish. Needs to be dealt with -->
-          </trailer>
+          <trailer><q>Cash to be kept by principal</q></trailer>
           <!--[end of trailer]-->
         </table><!--[end of table]-->
 
-        <!--[start of note]-->
-        <note place="bottom">
-          <orgName>Thomas Firth + Sons</orgName>
-          <note place="below">310.26</note>
-          <ab xml:id="bracket_0041"><num>1.6</num> 
-            <choice>
-              <abbr>qrs</abbr>
-              <expan>quarters</expan>
-            </choice> demy ruled &amp; <num>05</num> printed h
-            <lb/>rough Calf extra paged lett Day Book</ab>
-          <note sameAs="#bracket_0041" place="inline">} <num>1.7</num></note>
-        </note>
-        <!--[end of note]-->
+        <ab><persName>William Townsend</persName></ab>
+        <!-- TODO: Flourish -->
         
-        <!-- JAY: SEPARATE EVERYTHING OUT: WT is an AB, TFandS is a block, note is a block, 1.6 qrs is a block -->
+        <ab><orgName><persName>Thomas Firth</persName> + Sons</orgName></ab>
+        <note place="below">310.26</note> <!-- TODO: Make sure this note is associated with TFaS -->
+        
+        <!--[start of note]-->
+        <ab xml:id="bracket_0041"><num>1.6</num> 
+          <choice>
+            <abbr>qrs</abbr>
+            <expan>quarters</expan>
+          </choice> demy ruled &amp; <num>05</num> printed h
+        <lb/>rough Calf extra paged lett Day Book</ab>
+          <note sameAs="#bracket_0041" place="inline">} <num>1.7</num></note>
+        <!--[end of note]-->
 
         <!--[start of note]-->
         <note place="margin">
@@ -780,12 +776,12 @@
           <lb/>marked Numbered and priced we can
           <lb/>supply all such after style of Army Navy Stores
           <lb/>whatever is in the enormous book in Europe
-          <lb/>a really good work earning the repute a
+          <lb/>a really good work earning <seg xml:id="the_0045">the</seg> repute a
           <lb/><q>Sheffield Art Journal</q>
         </ab>
 
-        <note place="below bottom">Dixons Robert Belk <!-- JAY: Is that a ditto??? ya -->
-          <lb/>(<name>Johnson H Stationers</name>) <!-- JAY: These are all names of some kind, I'm certain of that -->
+        <note place="below bottom"><seg sameAs="#the_0045">ditto</seg> <name>Dixons Robert Belk</name>
+          <lb/>(<name>Johnson H Stationers</name>)
           <lb/>hardware elastic
         </note>
       <!--[End of PAGE 45]-->
@@ -1033,13 +1029,17 @@
           <date when="1902-12-29">Dec 29/1902</date>
         </ab>
 
+
+        <ab><date when="1909">1909</date></ab>
+        
         <ab>
-          <date when="1909">1909</date> <!-- JAY: I feel like this 1909 is its own thing -->
-          <lb/>I pruned by taking away
+          <!-- <ab> --><lb/>I pruned by taking away
           <lb/>all useless orders; orders that
           <lb/>had become no use?
           <date when="1909-07-16">July 16 1909</date>
-          <lb/>don't keep orders more than <!-- JAY: I also feel like this is its own thing -->
+        </ab>
+        <ab>
+          <!-- <ab> --><lb/>don't keep orders more than
           <lb/><num type="year" value="20">2 decades</num> or <num type="year" value="20">20 years</num>
           <date when="1909-11-03">Nov 03 1909</date>
         </ab>
@@ -1051,31 +1051,27 @@
       <fw type="page_number" place="top">12</fw>
 
       <div type="page"><!--[start of page div]-->
-        <head>Contents <choice>
-          <abbr>&#8470;</abbr>
-          <expan>Numero</expan>
-        </choice></head> 
 
         <!--[start of list]-->
         <list style="list-style-type:none;">
-          <head>Tin Cases</head><!-- JAY: Why is tin cases here? -->
-          <item>Cutlery</item>
-            <note place="inline"><handShift medium="pencil"/>Crypt <emph style="text-decoration: underline;">Crypt</emph><handShift medium="ink"/></note>
-          <item>Collieries</item>
-            <note place="inline"><handShift medium="pencil"/>C Crypt<handShift medium="ink"/></note> <!-- JAY: Do we think we know what C stands for -->
-          <item><orgName>Cammell <choice>
+          <head>Tin Cases -- Contents <choice>
+            <abbr>&#8470;s</abbr>
+            <expan>Numeros</expan>
+          </choice></head>
+          
+          <item>Cutlery <handShift medium="pencil"/>Crypt <emph style="text-decoration: underline;">Crypt</emph></item>
+          <item><handShift medium="ink"/>Collieries <handShift medium="pencil"/>C Crypt</item>
+          <item><handShift medium="ink"/><orgName>Cammell <choice>
             <abbr>Co</abbr>
             <expan>Company</expan>
           </choice></orgName></item>
-          <item>Lost Contracts</item>
-            <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Bankers</item>
+          <item>Lost Contracts<handShift medium="pencil"/>C</item>
+          <item><handShift medium="ink"/>Bankers</item>
           <item><orgName>Sheffield Cooperation Water <choice>
-            <abbr>depart</abbr>
+            <abbr>depart</abbr> 
             <expan>derpartment</expan>
-          </choice></orgName></item>
-            <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item><name>Boro of Sheffield</name> <num>2</num> cases</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
+          </choice></orgName> <handShift medium="pencil"/>C</item>
+          <item><handShift medium="ink"/><name>Boro of Sheffield</name> <num>2</num> cases</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note><!--[unicode X mark]--> <!-- JAY: How will the placement of these be determined? -->
             <item>Miscellaneous 2</item>
@@ -1084,15 +1080,15 @@
             <item>Accountants</item>
           <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <item>Files and Cost Books</item>
-            <note place="inline"><handShift medium="pencil"/>Bad debt good c<handShift medium="ink"/></note> <!-- JAY: I see "bad dell book," this should be uncertained -->
+            <note place="inline"><handShift medium="pencil"/>Bad debt book c<handShift medium="ink"/></note> 
           <item>Gas Company</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <item>Iron + Steel <num>3</num> cases</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
-            <item>G C L 4</item> <!-- JAY: Definitely an abbrevation -->
+            <item><unclear>G C L 4</unclear></item>
           <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Breweries</item>
+          <item>Breweries</item> <!-- MOVE ALL NOTES INLINE -->
           <item>Limited Companies</item>
           <item>Contracts</item>
           <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
@@ -1107,7 +1103,7 @@
           <item>Type</item>
           <item>Litho</item>
           <item>pattern Cards</item>
-          <item>Brewers Bottled Beer patterns</item> <!-- Organization? -->
+          <item><orgName>Brewers Bottled Beer</orgName> patterns</item> 
           <item>Lawyers</item>
           <item><orgName>Water Works Sheffield</orgName></item>
           <note place="inline"><handShift medium="pencil"/>C <unclear resp="JL"><persName>PTO</persName></unclear><handShift medium="ink"/></note>
@@ -1131,7 +1127,7 @@
         <!--[start of list]-->
         <list style="list-style-type:upper-roman;">
           <head>Five Essentials - Old well</head>
-          <item>Seasoned paper as <num>298.310.300</num> <lb/><num>327.3009</num></item> <!-- JAY: Are these page numbers? -->
+          <item>Seasoned paper as <num>298.310.300</num> <lb/><num>327.3009</num></item> <!-- JAY: Separate page numbers -->
           <item>Scientific <seg xml:id="ruling_0051">ruling pattern</seg></item>
           <item>Superb <seg sameAs="#ruling_0051">ditto</seg></item>
           <item>Sound binding</item>
@@ -1159,7 +1155,7 @@
           </choice> book &amp; binding</head>
           <headItem>Traveller <lb/>Bag</headItem>
 
-          <label>pattern Cards</label> <!-- JAY: Jacob had the letters written here, but since they're specified within the list style, I removed them -->
+          <label>pattern Cards</label> <!-- JAY: Ask Sarah about best practices for CSS and lists and etc. -->
           <item><num type="roman" value="1">I</num></item>
 
           <label>Binding</label>
@@ -1191,6 +1187,7 @@
       <div type="page">
         <head>Makers</head>
         <!-- JAY: This page definitely had someone come in at a later date and modify things. Time to think about <add> and <del>.-->
+        <!-- JAY: Put checkmarks <lb/> in rows, <add><del> for the things crossed out. -->
         <table rows="11" cols="3"><!--[start of table]-->
           <head style="text-decoration: underline">New Price Book</head>
           <row role="label">
@@ -1212,7 +1209,7 @@
           <row>
             <cell><num>1</num></cell>
             <cell>Demy</cell>
-            <cell><num></num>2001 to <num></num>3000</cell>
+            <cell><num>2001</num> to <num>3000</num></cell>
           </row>
           
           <note place="inline"> <!-- Is there any way to signify that it's between the "to"s? -->
@@ -1365,7 +1362,7 @@
           </row>
 
           <row>
-            <cell>La Post</cell> <!-- JAY: Large post? -->
+            <cell>La Post</cell>
             <cell><num>100001</num> to <num>10600</num></cell>
           </row>
 
