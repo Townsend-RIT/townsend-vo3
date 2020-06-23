@@ -28,7 +28,7 @@
       <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
       <fw type="page_number" place="top">Y</fw>
 
-      <div type="page">
+      <div type="other">
         <head>Latest on bookeeping</head>
         <ab>Stores for all sent up to the departments by
           <lb/>Ticket and Store Keeper charge each department
@@ -170,7 +170,6 @@
           <label>Calculation books</label>
           <item><num type="pageNum">196</num></item>
         </list><!--[End of list]-->
-      </div>
       <!--[End of PAGE 35]-->
 
       <!--[Start of PAGE 36]-->
@@ -178,7 +177,6 @@
         <fw type="page_number" place="top">1/4</fw>
         <fw type="tab">Y <lb /> Z</fw> <!-- JL: fixed this and moved to top -->
 
-        <div type="page">
         <!--[start of div type insert]-->
         <!-- <div type="insert">
           <gap reason="editorial">
@@ -243,15 +241,12 @@
           <lb/>year <date when="1902">1902</date> arabic figure</note>
         <!--[end of note]-->
 
-      </div><!--[end of page div]-->
       <!--[End of PAGE 36]-->
 
       <!--[Start of PAGE 37]-->
       <pb n="037" facs="CC20180917_Townsend_0037.tif"/> 
       <fw type="page_number" place="top">1/2</fw>
 
-      <!--[start of page div]-->
-      <div type="page">
         <!--[start of ab]-->
         <ab>The Proudest view that can
           <lb/>be taken of Man is to see him
@@ -320,15 +315,12 @@
             <emph rend="flourish">Circumsised Cardinal Number 8</emph></q>
         </note><!--[end of note]-->
         <!-- JL: TODO: double triple check this whole ref stuff -->
-      </div><!--[end of page div]-->
       <!--[End of PAGE 38]-->
 
       <!--[Start of PAGE 39]-->
       <pb n="039" facs="CC20181003_Townsend_0039.tif"/>
       <fw type="page_number" place="top">1</fw>
 
-      <!--[start of page div]-->
-      <div type="page">
         <head>Routine of Work And duty</head>
         <note place="left margin">One good head is <!-- TODO: talk about standardizing note locations -->
           <lb/>better than a
@@ -464,7 +456,6 @@
             <lb/>to be in and out -
             <lb/>Shop neglected</note> <!-- JL: Combine notes? I don't think we should; how to indicate one is below another? is this enough? -->
         </figure><!--[end of figure]-->
-      </div><!--[end of page div]-->
       <!--[End of Number 40]-->
 
       
@@ -472,7 +463,6 @@
       <pb n="041" facs="CC20181003_Townsend_0041.tif"/>
       <fw type="page_number" place="top">3</fw>
 
-      <div type="page"><!--[start of page div]-->
         <head place="top opposite">
           <choice>
             <orig>Bookeeping</orig>
@@ -615,15 +605,12 @@
 
         <note place="bottom"><date when="1894-04">April/94</date>Mr <persName>Kingsford Wilson</persName></note>
         <note>I advise Double Entry</note>
-      </div><!--[end of page div]-->
       <!--[End of PAGE 42]-->
 
       <!--[Start of PAGE 43]-->
       <pb n="043" facs="CC20181003_Townsend_0043.tif"/>
       <fw type="page_number" place="top">5</fw>
-
-      <!--[start of page div]-->
-      <div type="page">
+        
         <head>Daily Routine</head>
 
         <!--[start of ab]-->
@@ -689,14 +676,12 @@
         </ab>
         <!--[end of ab]-->
 
-      </div><!--[end of page div]-->
       <!--[End of PAGE 44]-->
 
       <!--[Start of PAGE 45]-->
       <pb n="045" facs="CC20181003_Townsend_0045.tif"/>
       <fw type="page_number" place="top">7</fw>
 
-      <div type="page"><!--[start of page div]-->
         <head place="top opposite">Pattern Book or Illustrated Catalogue</head>
 
         <!--[start of figure]-->
@@ -983,15 +968,11 @@
           </unclear></label>
           <item>Young man + young lady</item>
         </list>
-      </div><!--[end of page div]-->
       <!--[End of PAGE 48]-->
 
       <!--[Start of PAGE 49]-->
       <pb n="049" facs="CC20181003_Townsend_0049.tif"/>
         <fw type="page_number" place="top">11</fw>
-
-      <!--[start of page div]-->
-      <div type="page">
 
         <!--[start of list]-->
         <list style="list-style-type:none;">
@@ -1043,14 +1024,11 @@
           <lb/><num type="year" value="20">2 decades</num> or <num type="year" value="20">20 years</num>
           <date when="1909-11-03">Nov 03 1909</date>
         </ab>
-      </div><!--[end of page div]-->
       <!--[End of PAGE 49]-->
 
       <!--[Start of PAGE 50]-->
       <pb n="050" facs="CC20181003_Townsend_0050.tif"/>
       <fw type="page_number" place="top">12</fw>
-
-      <div type="page"><!--[start of page div]-->
 
         <!--[start of list]-->
         <list style="list-style-type:none;">
@@ -1071,52 +1049,36 @@
             <abbr>depart</abbr> 
             <expan>derpartment</expan>
           </choice></orgName> <handShift medium="pencil"/>C</item>
-          <item><handShift medium="ink"/><name>Boro of Sheffield</name> <num>2</num> cases</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
-            <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note><!--[unicode X mark]--> <!-- JAY: How will the placement of these be determined? -->
-            <item>Miscellaneous 2</item>
-          <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
-            <item>Accountants</item>
-          <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Files and Cost Books</item>
-            <note place="inline"><handShift medium="pencil"/>Bad debt book c<handShift medium="ink"/></note> 
-          <item>Gas Company</item>
-            <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Iron + Steel <num>3</num> cases</item>
-            <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
-            <item><unclear>G C L 4</unclear></item>
-          <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Breweries</item> <!-- MOVE ALL NOTES INLINE -->
+          <item><handShift medium="ink"/><name>Boro of Sheffield</name> <num>2</num> cases <handShift medium="pencil"/>C</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
+          <item>&#2573;<handShift medium="ink"/> Miscellaneous 2 <handShift medium="pencil"/>C</item> <!--[unicode X mark]-->
+          <item>&#2573;<handShift medium="ink"/>Accountants <handShift medium="pencil"/>C</item>
+          <item><handShift medium="ink"/>Files and Cost Books <handShift medium="pencil"/>Bad debt book c</item>
+          <item><handShift medium="ink"/>Gas Company <handShift medium="pencil"/>C</item>
+          <item><handShift medium="ink"/>Iron + Steel <num>3</num> cases <handShift medium="pencil"/>C</item>
+          <item>&#2573; <handShift medium="ink"/><unclear>G C L 4</unclear> <handShift medium="pencil"/>C</item>
+          <item><handShift medium="ink"/>Breweries</item>
           <item>Limited Companies</item>
           <item>Contracts</item>
-          <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note>
-            <item>Stock orders</item>
+          <item><handShift medium="pencil"/>&#2573; <handShift medium="ink"/>Stock orders</item>
           <item>Abstracts</item>
           <item>Journals</item>
           <item><persName>Townsends</persName> Stock patterns</item>
           <item>Banks</item>
           <item>Mercantile</item>
-          <item>Lost Contracts</item>
-            <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Type</item>
+          <item>Lost Contracts <handShift medium="pencil"/>C</item>
+          <item><handShift medium="ink"/>Type</item>
           <item>Litho</item>
           <item>pattern Cards</item>
           <item><orgName>Brewers Bottled Beer</orgName> patterns</item> 
           <item>Lawyers</item>
-          <item><orgName>Water Works Sheffield</orgName></item>
-          <note place="inline"><handShift medium="pencil"/>C <unclear resp="JL"><persName>PTO</persName></unclear><handShift medium="ink"/></note>
+          <item><orgName>Water Works Sheffield</orgName> <handShift medium="pencil"/>C <unclear resp="JL"><persName>PTO</persName></unclear><handShift medium="ink"/></item>
         </list><!--[end of list]-->
-      </div><!--[end of page div]-->
       <!--[End of PAGE 50]-->
 
       <!--[Start of PAGE 51]-->
       <pb n="051" facs="CC20181003_Townsend_0051.tif"/>
       <fw type="page_number" place="top">13</fw>
-
-      <!--[start of page div]-->
-      <div type="page">
+        
         <head>Notes on Account book binding</head>
 
         <ab><persName>M Wilkinson</persName> they always considered at
@@ -1134,15 +1096,11 @@
           <item><seg xml:id="good_0051">good</seg> lettering</item>
           <item><seg sameAs="#good_0051">ditto</seg> opener + finisher off</item>
         </list><!--[end of list]-->
-      </div><!--[end of page div]-->
       <!--[End of PAGE 51]-->
 
       <!--[Start of PAGE 52]-->
       <pb n="052" facs="CC20181003_Townsend_0052.tif"/>
       <fw type="page_number" place="top">14</fw>
-
-      <!--[start of page div]-->
-      <div type="page">
 
       <!--[start of list]-->
         <list style="list-style-type:upper-alpha;">
@@ -1176,15 +1134,12 @@
           <label>Heavy</label>
           <item><num type="roman" value="7">VII</num></item>
         </list><!--[end of list]-->
-      </div><!--[end of page div]-->
       <!--[End of PAGE 52]-->
 
       <!--[Start of PAGE 53]-->
       <pb n="053" facs="CC20181003_Townsend_0053.tif"/>
       <fw type="page_number" place="top">15</fw>
       
-      <!--[start of page div]-->
-      <div type="page">
         <head>Makers</head>
         <!-- JAY: This page definitely had someone come in at a later date and modify things. Time to think about <add> and <del>.-->
         <!-- JAY: Put checkmarks <lb/> in rows, <add><del> for the things crossed out. -->
@@ -1283,15 +1238,11 @@
             <cell><handShift medium="pencil"/>11001 to 12000<handShift medium="ink"/></cell>
           </row>
         </table><!--[end of table]-->
-      </div><!--[end of page div]-->
       <!--[End of PAGE 53]-->
 
       <!--[Start of PAGE 54]-->
       <pb n="054" facs="CC20181003_Townsend_0054.tif"/>
       <fw type="page_number" place="top">16</fw>
-
-      <!--[start of page div]-->
-      <div type="page">
         <head>Sellers</head>
 
         <!--[start of table]-->
