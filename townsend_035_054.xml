@@ -668,7 +668,7 @@
           <lb/>I think of trying a stair case
           <lb/>removing 
           <choice>
-            <abbr>&#8470;</abbr>
+            <abbr>№</abbr>
             <expan>Numero</expan>
           </choice>
           <lb/>up nicely for Master and Special
@@ -777,7 +777,7 @@
 
         <!--[start of list]-->
         <list style="list-style-type: none;">
-          <item>Account Book <seg xml:id="patterns_0046">patterns</seg> &#8251;</item>
+          <item>Account Book <seg xml:id="patterns_0046">patterns</seg> ※</item>
           <item>Solicitors <seg sameAs="#patterns_0046">ditto</seg></item>
           <item>Bookbinding <seg sameAs="#patterns_0046">ditto</seg></item>
           <item>Letterpress <seg sameAs="#patterns_0046">ditto</seg></item>
@@ -805,7 +805,7 @@
               <abbr>a/c</abbr>
               <expan>account</expan>
             </choice> book forms Solicitors</head>
-          <label>&#8251; A</label>
+          <label>※ A</label>
           <item>Letters Received Book</item>
           <label>AA</label>
           <item>Order book faint &amp; date</item>
@@ -932,10 +932,10 @@
             <lb/>delivered that night - any New
             <lb/>books give 
             <choice>
-              <abbr>&#8470;</abbr>
+              <abbr>№</abbr>
               <expan>Numero</expan>
-            </choice> to enter briefly &#8470; <!--[numero unicode]-->
-            <lb/>order book Name Size &#8470;
+            </choice> to enter briefly № <!--[numero unicode]-->
+            <lb/>order book Name Size №
           </item>
 
           <label>All Posting</label>
@@ -1033,7 +1033,7 @@
         <!--[start of list]-->
         <list style="list-style-type:none;">
           <head>Tin Cases -- Contents <choice>
-            <abbr>&#8470;s</abbr>
+            <abbr>№s</abbr>
             <expan>Numeros</expan>
           </choice></head>
           
@@ -1050,16 +1050,16 @@
             <expan>derpartment</expan>
           </choice></orgName> <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/><name>Boro of Sheffield</name> <num>2</num> cases <handShift medium="pencil"/>C</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
-          <item>&#2573;<handShift medium="ink"/> Miscellaneous 2 <handShift medium="pencil"/>C</item> <!--[unicode X mark]-->
-          <item>&#2573;<handShift medium="ink"/>Accountants <handShift medium="pencil"/>C</item>
+          <item>☓<handShift medium="ink"/> Miscellaneous 2 <handShift medium="pencil"/>C</item> <!--[unicode X mark]-->
+          <item>☓<handShift medium="ink"/>Accountants <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Files and Cost Books <handShift medium="pencil"/>Bad debt book c</item>
           <item><handShift medium="ink"/>Gas Company <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Iron + Steel <num>3</num> cases <handShift medium="pencil"/>C</item>
-          <item>&#2573; <handShift medium="ink"/><unclear>G C L 4</unclear> <handShift medium="pencil"/>C</item>
+          <item>☓ <handShift medium="ink"/><unclear>G C L 4</unclear> <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Breweries</item>
           <item>Limited Companies</item>
           <item>Contracts</item>
-          <item><handShift medium="pencil"/>&#2573; <handShift medium="ink"/>Stock orders</item>
+          <item><handShift medium="pencil"/>☓ <handShift medium="ink"/>Stock orders</item>
           <item>Abstracts</item>
           <item>Journals</item>
           <item><persName>Townsends</persName> Stock patterns</item>
@@ -1147,7 +1147,7 @@
           <head style="text-decoration: underline">New Price Book</head>
           <row role="label">
             <cell><choice>
-              <abbr>&#8470;</abbr>
+              <abbr>№</abbr>
               <expan>Numero</expan>
             </choice> of Vols</cell><!--[numero unicode]-->
             <cell></cell>
@@ -1178,17 +1178,17 @@
           </row>
           
           <note place="inline">
-            <handShift medium="pencil"/>&#10003; <!-- Checkmark unicode -->
+            <handShift medium="pencil"/>✓ <!-- Checkmark unicode -->
           </note>
           
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Royal</cell>
-            <cell><num>4001</num> to <num>5000</num> <handShift medium="pencil"/>&#10003;</cell>
+            <cell><num>4001</num> to <num>5000</num> <handShift medium="pencil"/>✓</cell>
           </row>
           
           <note place="inline">
-            &#10003; <!-- Checkmark unicode -->
+            ✓ <!-- Checkmark unicode -->
           </note>
           
           <row>
@@ -1197,7 +1197,7 @@
             <cell><num>5001</num> to <num>6000</num></cell>
           </row>
           <note place="inline">
-            <handShift medium="pencil"/>&#10003;
+            <handShift medium="pencil"/>✓
           </note>
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
@@ -1206,7 +1206,7 @@
           </row>
           
           <note place="inline">
-            &#10003;
+            ✓
           </note>
           
           <row>
@@ -1252,7 +1252,7 @@
           <row role="label">
             <cell>Size</cell>
             <cell><choice>
-              <abbr>&#8470;</abbr>
+              <abbr>№</abbr>
               <expan>Numero</expan>
             </choice></cell>
             <cell cols="2">Ruling and Binding</cell>
@@ -1264,7 +1264,7 @@
               <expan>Foolscap</expan>
             </choice></cell>
             <cell><num>1</num> to <num>1200</num></cell><!--[TODO: reference numbers?]-->
-            <cell rows="13">&#8544; to &#8553;&#8548;</cell> <!-- JAY: Fuckin' what. I need to ask Jacob about this
+            <cell rows="13">Ⅰ to ⅩⅤ</cell> <!-- JAY: Fuckin' what. I need to ask Jacob about this
             Also are they numbers?????? -->
             <cell rows="13">A to I</cell>
           </row>
