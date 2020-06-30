@@ -32,6 +32,10 @@
             
             <!-- [CHANGED 6/10/2020: First pass on page 95 complete] -->
             <!-- [CHANGED 6/11/2020: First pass on pages 96 and 97 complete] -->
+            <!-- [CHANGED 6/16/2020: First pass on page 98 complete] -->
+            <!-- [CHANGED 6/17/2020: First pass on pages 99 and 100 complete]-->
+            <!-- [CHANGED 6/30/2020: Remembered to update changelog, fixed issues resulting from encoding with migraine. Completed first pass on page 101 and fixed minor errors on page 100.] -->
+            
             
             <!--[Start of PAGE 95]-->
             <pb n="095" facs="CC20181029_Townsend_0095.tif"/>
@@ -235,21 +239,32 @@
                     <lb/>have it done at <unclear resp="burkhardt">Whitsuntide</unclear> or
                     <lb/>Bank Holiday when work folk
                     <lb/>are holidaying - empy shops are
-                    <lb/>the best forthe whitwashers to get
+                    <lb/>the best for the whitewashers to get
                     <lb/>on with their work. <date when="1907-01-14">Jan 14 1907</date>
                 </ab>
-            </div>
             <!-- [End of PAGE 100] -->
             
             <!--[Start of PAGE 101]-->
             <pb n="101" facs="CC20181029_Townsend_0101.tif"/>
             <fw type="page_number" place="top">59</fw>
+                <ab>
+                    <lb/>from 24
+                    <lb/><choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> <!-- [NOTE: There's this "s" above the "8" in "1686"] -->
+                    <lb/><persName>Dr Farells</persName> day books 1686
+                </ab>
+                <!-- [NOTE: There is a gap here that takes up most of the page. This page is mostly empty.] -->
+                <ab>
+                    <lb/>8501 <choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> sheet half <unclear resp="burkhardt">due</unclear> money <num type="fraction" value="0.5">1/2</num> <unclear resp="burkhardt">brazil</unclear> cloth
+                    <note place="inline"><unclear resp="burkhardt">pictus</unclear></note>
+                </ab>
+            </div>
             
             <!-- [End of PAGE 101] -->
             
             <!--[Start of PAGE 102]-->
             <pb n="102" facs="CC20181029_Townsend_0102.tif"/>
             <fw type="page_number" place="top">60</fw>
+            <!-- [TODO: Find manuscript page 18 for context, as this page is "Continued from page 18"] -->
             
             <!-- [End of PAGE 102] -->
         </body>
