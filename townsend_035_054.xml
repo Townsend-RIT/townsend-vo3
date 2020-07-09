@@ -28,7 +28,7 @@
       <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
       <fw type="page_number" place="top">Y</fw>
 
-      <div type="other">
+      <div type="log">
         <head>Latest on bookeeping</head>
         <ab>Stores for all sent up to the departments by
           <lb/>Ticket and Store Keeper charge each department
@@ -128,14 +128,17 @@
           </row>
         </table>
         <!--[End of table]-->
-
+        </div>
+      
+      <div type="advice">
         <ab>Master should keep his own Cash and fall over
         <lb />his own Ledgers<choice>
           <abbr>WT</abbr>
           <expan><persName>William Townsend</persName></expan>
         </choice><date when="1898-05-16">May 16/98</date></ab>
+        </div>
 
-        <!-- JL: This...is a continuation of the index. Needs to be consistent and put in an index div -->
+        <div type="index">
         <list style="list-style-type: none">
           <label>C Cammell C Lt complaint of Pads</label> <!--JL: TODO: abbreviations name company -->
           <item><num type="pageNum">163</num></item>
@@ -170,6 +173,7 @@
           <label>Calculation books</label>
           <item><num type="pageNum">196</num></item>
         </list><!--[End of list]-->
+      </div>
       <!--[End of PAGE 35]-->
 
       <!--[Start of PAGE 36]-->
@@ -177,28 +181,31 @@
         <fw type="page_number" place="top">1/4</fw>
         <fw type="tab">Y <lb /> Z</fw> <!-- JL: fixed this and moved to top -->
 
-        <!--[start of div type insert]-->
-        <!-- <div type="insert">
+        <div type="insert">
           <gap reason="editorial">
               <desc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</desc>
           </gap>
-        </div> JL:  NESTED DIVS ARE NOT WORKING also how are we doing inserts again i forgot lol -->
-        <!--[end of div type insert]-->
+        </div> 
 
         <!--[start of ab]-->
+      <div type="other">
         <ab>see Calculation book
           <lb/><num>8348</num> written by<choice>
             <abbr>W.T.</abbr>
             <expan><persName>William Townsend</persName></expan>
           </choice> <!-- JL: Added abbr/expan for WT initials -->
+          </ab>
+      </div>
+      <div type="principle">
+        <ab>
           <q>Where there is no conflict
             <lb/>There can be no conquest
             <lb/>Where there is no conquest
             <lb/>There is no crown</q>
         </ab>
-        <!--[end of ab]-->
+        </div>
 
-        <!--[start of ab]-->
+        <div type="instruction">
         <ab>To Customers, we can make in cheaper made
           <lb/>papers if desired, but the one we have estimated
           <lb/>for stands very eminent
@@ -207,7 +214,10 @@
           <lb/>(another pay) fairly well
           <lb/>(another pay) uncertainty
           <!--[start of note]-->
-          <note place="right">
+          </ab>
+        </div>
+      <div type="ethic">
+        <note place="right">
             <handShift medium="pencil"/>
               <unclear resp="Pochron" reason="illegible">Jalleypoint</unclear> here.
               <lb />do yourself what
@@ -216,11 +226,10 @@
             <!--[get this handShift attribute looked at again.]-->
             <!-- JL: TODO: is Jalleypoint/pond a name  -->
             <handShift medium="ink"/>
-          </note><!--[end of note]-->
-        </ab>
-        <!--[end of ab]-->
+        </note>
+        </div>
 
-        <!--[start of list]-->
+        <div type="log">
         <list style="list-style-type: none">
           <head>Cash book divisions</head>
           <item>Paper warehouse</item>
@@ -234,13 +243,13 @@
           <item>Sales Shop</item>
           <item>Boxs</item>
         </list>
+        </div>
         <!--[End of list]-->
 
-        <!--[start of note]-->
+        <div type="other">
         <note place="bottom"><num type="roman" value="1902">MDCCCCII</num> roman numerals
           <lb/>year <date when="1902">1902</date> arabic figure</note>
-        <!--[end of note]-->
-
+        </div>
       <!--[End of PAGE 36]-->
 
       <!--[Start of PAGE 37]-->
@@ -248,6 +257,7 @@
       <fw type="page_number" place="top">1/2</fw>
 
         <!--[start of ab]-->
+      <div type="principle">
         <ab>The Proudest view that can
           <lb/>be taken of Man is to see him
           <lb/>like some Fair Vessel proceeding
@@ -306,7 +316,8 @@
             <reg>demarcation</reg>
           </choice>demarkation between 
           <lb/>those who bear such fruit and those who don't</ab>
-
+          </div>
+      <div type="other">
         <!--[start of note]-->
         <note place="bottom">
           <q type="biblical">and he that is eight days old
@@ -315,16 +326,21 @@
             <emph rend="flourish">Circumsised Cardinal Number 8</emph></q>
         </note><!--[end of note]-->
         <!-- JL: TODO: double triple check this whole ref stuff -->
+        </div>
       <!--[End of PAGE 38]-->
 
       <!--[Start of PAGE 39]-->
       <pb n="039" facs="CC20181003_Townsend_0039.tif"/>
       <fw type="page_number" place="top">1</fw>
-
-        <head>Routine of Work And duty</head>
+        <div type="ethic">
         <note place="left margin">One good head is <!-- TODO: talk about standardizing note locations -->
-          <lb/>better than a
-          <lb/>great many Hands</note>
+        <lb/>better than a
+        <lb/>great many Hands</note>
+        </div>
+      
+        <div type="advice">
+          <head>Routine of Work And duty</head>
+        
 
         <!--[start of ab]-->
         <ab>I advise rising at 6am Summer
@@ -409,7 +425,9 @@
             </cell>
           </row>
         </table><!--[end of table]-->
+          </div>
 
+        <div type="instruction">
         <note place="margin">Always open
           <lb/>your own letters
           <lb/>never depute
@@ -417,12 +435,14 @@
             <abbr>W.T.</abbr>
             <expan><persName>William Townsend</persName></expan>
           </choice></note>
+          </div>
       <!--[End of PAGE 39]-->
 
       <!--[Start of PAGE 40]-->
         <pb n="040" facs="CC20181003_Townsend_0040.tif"/>
       <fw type="page_number" place="top">2</fw>
 
+        <div type="advice">
         <ab>In Business - I think if Health
           <lb/>will permit it is a very good thing
           <lb/>to be in the workshops at 2pm to
@@ -452,10 +472,13 @@
             <lb/>seeing to telephone customers
             <lb/>with runs up and down stairs </trailer>
           <note place="bottom"><date when="1891-06-08">June 8/91</date></note> <!-- Group discussion on notes needed -->
+        </figure>
+        </div>
+      <div type="instruction">
           <note place="bottom">Never allow any one
             <lb/>to be in and out -
             <lb/>Shop neglected</note> <!-- JL: Combine notes? I don't think we should; how to indicate one is below another? is this enough? -->
-        </figure><!--[end of figure]-->
+      </div>
       <!--[End of Number 40]-->
 
       
@@ -463,6 +486,7 @@
       <pb n="041" facs="CC20181003_Townsend_0041.tif"/>
       <fw type="page_number" place="top">3</fw>
 
+        <div type="instruction">
         <head place="top opposite">
           <choice>
             <orig>Bookeeping</orig>
@@ -474,7 +498,8 @@
 
         <ab>Every Quarter strike a Balance
           <lb/>with the Quarters Sale showing</ab>
-
+          </div>
+        <div type="log">
         <!--[start of table]-->
         <table rows="1" cols="3">
           <row> 
@@ -537,17 +562,30 @@
             <cell><!--[empty cell]--></cell>
             <cell style="border-top-style: solid"><emph style="text-decoration-line: underline; text-decoration-style: double;">£ <num>2700 6 7</num></emph></cell>
           </row>
-
-          <!--[start of trailer]-->
-          <trailer><q>Cash to be kept by principal</q></trailer>
-          <!--[end of trailer]-->
         </table><!--[end of table]-->
-
+        </div>
+      
+      <div type="other">
+        <note>
+          <q>Cash to be kept by principal</q>
+        </note>
+        
         <ab><persName>William Townsend</persName></ab>
         <!-- TODO: Flourish -->
-        
+        </div>
+      
+      <div type="advice">   
         <ab><orgName><persName>Thomas Firth</persName> + Sons</orgName></ab>
         <note place="below">310.26</note> <!-- TODO: Make sure this note is associated with TFaS -->
+        
+        <!--[start of note]-->
+        <note place="margin">
+          Day Book
+          <lb/>form of
+          <lb/>Entry
+          <lb/>I like
+        </note>
+        <!--[end of note]-->
         
         <!--[start of note]-->
         <ab xml:id="bracket_0041"><num>1.6</num> 
@@ -558,25 +596,18 @@
         <lb/>rough Calf extra paged lett Day Book</ab>
           <note sameAs="#bracket_0041" place="inline">} <num>1.7</num></note>
         <!--[end of note]-->
-
-        <!--[start of note]-->
-        <note place="margin">
-          Day Book
-          <lb/>form of
-          <lb/>Entry
-          <lb/>I like
-        </note>
-        <!--[end of note]-->
+        </div>
 
       <!--[End of PAGE 41]-->
 
       <!--[Start of PAGE 42]-->
         <pb n="042" facs="CC20181003_Townsend_0042.tif"/>
       <fw type="page_number" place="top">4</fw>
-
+      <div type="principle">
         <ab>Let Probity rule all your
           <lb/>transactions and Life<date when="1890-10-15">Oct 15/90</date></ab>
-
+      </div>
+        <div type="instruction">
         <!--[start of ab]-->
         <ab>Have Monthly Balancings to
           <lb/>see prospectively how things are
@@ -602,7 +633,8 @@
           <lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
         </ab>
         <!--[end of ab]-->
-
+        </div>
+      <div type="advice">
         <note place="bottom"><date when="1894-04">April/94</date>Mr <persName>Kingsford Wilson</persName></note>
         <note>I advise Double Entry</note>
       <!--[End of PAGE 42]-->
@@ -628,28 +660,38 @@
             <reg>until</reg>
           </choice> I had had someone
         <lb/>to fill my place well <!-- Lisa made decision to silently regularize "someone" -->
-        <lb/>Examine work before sending home
+        </ab>
+      </div>
+      <div type="instruction">
+        <ab>Examine work before sending home
         <lb/>Charge
         <lb/>Noun
         <lb/>2pm going round the shops
         </ab>
         <!--[end of ab]-->
-
+      </div>
+        <div type="other">
+        <!-- This is a reference to a Charles Dickens book -->
         <note place="bottom">Never were such books!
           <lb/>No, now never will be such books as the books
           <lb/>of <name>Cheeryble Brothers</name> vide <name>Nicholas Nickleby</name> p356 
         </note> <!-- TO-DO: Link to page 356 -->
       <!--[End of PAGE 43]-->
+        </div>
 
       <!--[Start of PAGE 44]-->
         <pb n="044" facs="CC20181003_Townsend_0044.tif"/>
       <fw type="page_number" place="top">6</fw>
 
         <!--[start of ab]-->
+      <div type="advice">
         <ab>again seeing that every work and
           <lb/>individual is progressing in his work
           <lb/>healthily and profitably
-          <lb/>Examine Work and Charge
+        </ab>
+      </div>
+      <div type="instruction">
+        <ab>Examine Work and Charge
           <lb/>Orders put in hands
           <lb/><num>5</num><seg xml:id="pm_0044">pm</seg> round again
           <lb/><num>6</num><seg sameAs="#pm_0044">ditto</seg> letters &amp;
@@ -660,8 +702,8 @@
           <lb/><date when="1891-05-02">May 2nd 1891</date>
         </ab>
         <!--[end of ab]-->
-
-
+      </div>
+         <div type="advice">
         <!--[start of ab]-->
         <ab>Sales Shop is too much away
           <lb/>and not sufficient in touch
@@ -674,11 +716,13 @@
           <lb/>up nicely for Master and Special
           <note place="bottom">to page <num type="pageNum">73</num> forward</note><!--[TODO: future linking]-->
         </ab>
+         </div>
         <!--[end of ab]-->
 
       <!--[End of PAGE 44]-->
 
       <!--[Start of PAGE 45]-->
+      <div type="other">
       <pb n="045" facs="CC20181003_Townsend_0045.tif"/>
       <fw type="page_number" place="top">7</fw>
 
@@ -746,7 +790,9 @@
           <!--[end of list]-->
         </note>
         <!--[end of note]-->
+      </div> <!-- TODO: FIGURE OUT DIVS -->
 
+      <div type="advice">
         <ab>Proposed New pattern book 
           <choice>
             <abbr>Imp</abbr>
@@ -764,11 +810,13 @@
           <lb/>a really good work earning <seg xml:id="the_0045">the</seg> repute a
           <lb/><q>Sheffield Art Journal</q>
         </ab>
-
+      </div>
+       <div type="other">
         <note place="below bottom"><seg sameAs="#the_0045">ditto</seg> <name>Dixons Robert Belk</name>
           <lb/>(<name>Johnson H Stationers</name>)
           <lb/>hardware elastic
         </note>
+       </div>
       <!--[End of PAGE 45]-->
 
       <!--[Start of PAGE 46]-->
@@ -776,6 +824,7 @@
       <fw type="page_number" place="top">8</fw>
 
         <!--[start of list]-->
+      <div type="log">
         <list style="list-style-type: none;">
           <item>Account Book <seg xml:id="patterns_0046">patterns</seg> ※</item>
           <item>Solicitors <seg sameAs="#patterns_0046">ditto</seg></item>
@@ -785,7 +834,11 @@
           <item>Relief stamp <seg sameAs="#patterns_0046">ditto</seg></item>
           <item>Wedding <seg xml:id="stationary_0046">Stationary</seg> <seg sameAs="#patterns_0046">ditto</seg></item>
           <item>Funeral <seg sameAs="#stationary_0046">ditto</seg> <seg sameAs="#patterns_0046">ditto</seg></item>
-          <trailer>as to size of Proposed pattern book
+        </list></div>
+        <!--[end of list]-->
+        <div type="advice">
+          <ab>
+            as to size of Proposed pattern book
             <lb/>look how <orgName>Chambers</orgName> decreased their
             <lb/>post folio <orgName>Chambers</orgName> Journal to Small
             <lb/>Imperial 
@@ -794,11 +847,10 @@
               <expan>octavo</expan>
             </choice> a good precedent for
             <lb/>Sizes of books
-          </trailer>
-        </list>
-        <!--[end of list]-->
-
+          </ab>
+        </div>
         <!--[start of list]-->
+      <div type="log">
         <list style="list-style-type:upper-alpha;">
           <head>Alphabetically arranged, 
             <choice>
@@ -891,7 +943,8 @@
             <lb/>Account Book Patterns Kept in tin case <num>1</num> to <num>499</num> <!--[ TODO: tin cases linking ]-->
           </trailer>
         </list><!--[end of list]-->
-
+      </div>
+        <div type="ethic">
         <ab>send binding invoices with discretion it
           <lb/>leads to them being paid if delayed perhaps <emph style="text-decoration: underline;">Never</emph>
           <lb/>send Monthly 
@@ -902,12 +955,14 @@
           <lb/>we can, very helpful to pay our monthly bills
           <lb/>and less risk
         </ab>
+        </div>
       <!--[End of PAGE 47]-->
 
       <!--[Start of PAGE 48]-->
         <pb n="048" facs="CC20181003_Townsend_0048.tif"/>
         <fw type="page_number" place="top">10</fw>
 
+        <div type="other"> <!-- TODO: THIS PAGE'S DIVS -->
         <ab>Could we have some way
           <lb/>of Keeping old orders for travellers
           <lb/>to run at to see if any re-ordering
@@ -968,12 +1023,14 @@
           </unclear></label>
           <item>Young man + young lady</item>
         </list>
+        </div>
       <!--[End of PAGE 48]-->
 
       <!--[Start of PAGE 49]-->
       <pb n="049" facs="CC20181003_Townsend_0049.tif"/>
         <fw type="page_number" place="top">11</fw>
 
+        <div type="log">
         <!--[start of list]-->
         <list style="list-style-type:none;">
           <head>Tin Cases</head>
@@ -998,7 +1055,9 @@
           <item>Bookbinding</item>
         </list>
         <!--[end of list]-->
+        </div>
 
+        <div type="ethic"> <!-- TODO: CHECK -->
         <ab>Why I thought a tin Case for each large buyer <!--[TODO: tin cases linking]-->
           <lb/>was? at any time you thought it declining, you
           <lb/>could run <choice>
@@ -1019,17 +1078,21 @@
           <lb/>had become no use?
           <date when="1909-07-16">July 16 1909</date>
         </ab>
+        </div>
+      <div type="advice">
         <ab>
           <!-- <ab> --><lb/>don't keep orders more than
           <lb/><num type="year" value="20">2 decades</num> or <num type="year" value="20">20 years</num>
           <date when="1909-11-03">Nov 03 1909</date>
         </ab>
+      </div>
       <!--[End of PAGE 49]-->
 
       <!--[Start of PAGE 50]-->
       <pb n="050" facs="CC20181003_Townsend_0050.tif"/>
       <fw type="page_number" place="top">12</fw>
 
+        <div type="log">
         <!--[start of list]-->
         <list style="list-style-type:none;">
           <head>Tin Cases -- Contents <choice>
@@ -1073,19 +1136,22 @@
           <item>Lawyers</item>
           <item><orgName>Water Works Sheffield</orgName> <handShift medium="pencil"/>C <unclear resp="JL"><persName>PTO</persName></unclear><handShift medium="ink"/></item>
         </list><!--[end of list]-->
+        </div>
       <!--[End of PAGE 50]-->
 
       <!--[Start of PAGE 51]-->
       <pb n="051" facs="CC20181003_Townsend_0051.tif"/>
       <fw type="page_number" place="top">13</fw>
         
-        <head>Notes on Account book binding</head>
+       <div type="advice"> <!-- TODO: CHECK TYPE -->
+         <head>Notes on Account book binding</head>
 
         <ab><persName>M Wilkinson</persName> they always considered at
           <lb/><placeName>Birmingham</placeName> <num type="fraction" value=".33">1/3</num> off full binding price
           <lb/>for half binding <date when="1906-02-28">Feb 28/1906</date>
         </ab>
-
+       </div>
+      <div type="log">
         <!--[start of list]-->
         <list style="list-style-type:upper-roman;">
           <head>Five Essentials - Old well</head>
@@ -1140,11 +1206,11 @@
       <pb n="053" facs="CC20181003_Townsend_0053.tif"/>
       <fw type="page_number" place="top">15</fw>
       
-        <head>Makers</head>
         <!-- JAY: This page definitely had someone come in at a later date and modify things. Time to think about <add> and <del>.-->
         <!-- JAY: Put checkmarks <lb/> in rows, <add><del> for the things crossed out. -->
         <table rows="11" cols="3"><!--[start of table]-->
-          <head style="text-decoration: underline">New Price Book</head>
+          <head style="text-decoration: underline">Makers
+            <lb/>New Price Book</head> <!-- TODO: Underline only under "New Price Book" -->
           <row role="label">
             <cell><choice>
               <abbr>№</abbr>
@@ -1243,11 +1309,11 @@
       <!--[Start of PAGE 54]-->
       <pb n="054" facs="CC20181003_Townsend_0054.tif"/>
       <fw type="page_number" place="top">16</fw>
-        <head>Sellers</head>
 
         <!--[start of table]-->
         <table rows="14" cols="4">
-          <head>New Price Book</head>
+          <head>Sellers
+            <lb/>New Price Book</head>
 
           <row role="label">
             <cell>Size</cell>
