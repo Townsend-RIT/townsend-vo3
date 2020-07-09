@@ -21,6 +21,7 @@
         <body>
             
             <!-- [TODO: persnames & orgnames] -->
+            <!-- [TODO: fix <div> tags] -->
             
             <!--[
             ENCODER SHORTHAND REFERENCES:
@@ -35,7 +36,8 @@
             <!-- [CHANGED 6/16/2020: First pass on page 98 complete] -->
             <!-- [CHANGED 6/17/2020: First pass on pages 99 and 100 complete]-->
             <!-- [CHANGED 6/30/2020: Remembered to update changelog, fixed issues resulting from encoding with migraine. Completed first pass on page 101 and fixed minor errors on page 100.] -->
-            
+            <!-- [CHANGED 7/8/2020: First pass on page 102, began correcting mismatched <div> tags.] -->
+            <!-- [CHANGED 7/9/2020: Updated more <div> tags, tentatively. -->
             
             <!--[Start of PAGE 95]-->
             <pb n="095" facs="CC20181029_Townsend_0095.tif"/>
@@ -114,7 +116,7 @@
             <pb n="097" facs="CC20181029_Townsend_0097.tif"/>
             <fw type="page_number" place="top">55</fw>
             
-            <div type="log">
+            <div type="advice">
                 <ab>
                     <note place="top">or</note>
                     <lb/><emph style="text-decoration: underline;">Clerk of the works.</emph> <emph style="text-decoration: underline; text-decoration-style: quadruple;">Works Manager</emph> <!-- [NOTE: Manager extends onto the next page] -->
@@ -163,7 +165,7 @@
                 </list>
             </div>
             <!-- [NOTE: downwards curly brace thing] -->
-            <div type="log">
+            <div type="advice">
                 <ab>
                     <lb/>Works
                     <lb/>Manager
@@ -195,12 +197,13 @@
                     <lb/>entering <unclear resp="burkhardt">working</unclear> packing <unclear resp="burkhradt" reason="illegible">naa</unclear> properly <unclear resp="burkhardt">runner</unclear> out sees
                     <note place="inline">TJO</note>
                 </ab>
+            </div>
             <!-- [End of PAGE 98] -->
 
             <!--[Start of PAGE 99]-->
             <pb n="099" facs="CC20181029_Townsend_0099.tif"/>
             <fw type="page_number" place="top">57</fw>
-                
+            <div type="principle">    
                 <ab>
                     <lb/>Sunday's
                     <lb/><date when="1890-11-09">Nov 9th 1890</date>
@@ -216,20 +219,23 @@
                     <lb/>Psalm 119 8) <emph style="text-decoration:underline;">176 verses</emph>
                     <lb/>22 chapters. Eight is the <!-- [NOTE: I think this is because 176/22 is 8, which is also the number of verses within each stanza (chapter)]-->
                 </ab>
+            </div>
+            <div type="instruction">
                 <ab>
                     <lb/>Sees customers, control sales, Shop, customers to see
-                    <lb/>all barellers whjo call and rule the department
+                    <lb/>all barellers who call and rule the department
                     <lb/>Master in charge before he goes on Saturday to see
                     <lb/>Weekly Sales and Weekly payments
                     <lb/>Friday the Master to examine + pay the Wage Book
                     <lb/>with secret notes for particulars in Council
                 </ab>
+
             <!-- [End of PAGE 99] -->
             
             <!--[Start of PAGE 100]-->
             <pb n="100" facs="CC20181029_Townsend_0100.tif"/>
             <fw type="page_number" place="top">58</fw>
-                
+    
                 <ab>
                     <lb/>Whitewashing - don't have
                     <lb/>it done whilst work is going on, it
@@ -242,11 +248,13 @@
                     <lb/>the best for the whitewashers to get
                     <lb/>on with their work. <date when="1907-01-14">Jan 14 1907</date>
                 </ab>
+            </div>
             <!-- [End of PAGE 100] -->
             
             <!--[Start of PAGE 101]-->
             <pb n="101" facs="CC20181029_Townsend_0101.tif"/>
             <fw type="page_number" place="top">59</fw>
+            <div type="log">
                 <ab>
                     <lb/>from 24
                     <lb/><choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> <!-- [NOTE: There's this "s" above the "8" in "1686"] -->
@@ -257,15 +265,23 @@
                     <lb/>8501 <choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> sheet half <unclear resp="burkhardt">due</unclear> money <num type="fraction" value="0.5">1/2</num> <unclear resp="burkhardt">brazil</unclear> cloth
                     <note place="inline"><unclear resp="burkhardt">pictus</unclear></note>
                 </ab>
-            </div>
-            
             <!-- [End of PAGE 101] -->
             
             <!--[Start of PAGE 102]-->
             <pb n="102" facs="CC20181029_Townsend_0102.tif"/>
             <fw type="page_number" place="top">60</fw>
             <!-- [TODO: Find manuscript page 18 for context, as this page is "Continued from page 18"] -->
-            
+                <ab>
+                    <lb/><unclear resp="burkhardt">Dewry</unclear> Continued fropm page <num>18</num>
+                    <lb/><num>2301</num> Ao <num>2310</num> paint treble money folio. date and head
+                    <lb/><num>2725</num> <num>4</num> to double money head and folio <!-- [TODO: correct "4 to" to abbreviation 4to -> quarto] -->
+                    <lb/><num>2801</num> <unclear resp="burkhardt">dewry</unclear> <num>4</num> to guard books <!-- [TODO: see above] -->
+                </ab>
+                <ab>
+                    <lb/>guard books <num>4701</num>
+                    <lb/>goods delivery <num>10502</num>
+                </ab>
+            </div>
             <!-- [End of PAGE 102] -->
         </body>
     </text>
