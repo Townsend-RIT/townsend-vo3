@@ -58,7 +58,13 @@
                     </row>
                     <row>
                         <cell>B</cell>
-                        <cell>Full <unclear reason="illegible">Com Movc</unclear></cell><!--[TODO: Ask about Movc]-->
+                        <cell>Full <choice>
+                          <abbr>Com</abbr>
+                          <expan>Common</expan>
+                        </choice> <choice>
+                          <abbr>Morc</abbr>
+                          <expan>Morocco</expan>
+                        </choice>Morc</cell>
                     </row>
                     <row>
                         <cell>C</cell>
@@ -148,7 +154,10 @@
 
                 <!--[start of table 2]-->
                 <table rows="4" cols="5">
-                    <head><hi style="text-decoration: underline;">Thro patterns</hi> Broad Folio</head>
+                    <head><hi style="text-decoration: underline;"><choice> <!-- JAY TODO: Is this thro "through?" -->
+                      <abbr>Thro</abbr>
+                      <expan>Through</expan>
+                    </choice> patterns</hi> Broad Folio</head>
                     <row>
                         <cell><num type="roman" value="8">VIII</num></cell>
                         <cell>Faint</cell>
@@ -182,7 +191,10 @@
 
                 <!--[start of table 3]-->
                 <table rows="4" cols="5">
-                    <head><hi style="text-decoration: underline;">Thro patterns</hi> Long Folio</head>
+                  <head><hi style="text-decoration: underline;"><choice>
+                    <abbr>Thro</abbr>
+                    <expan>Through</expan>
+                  </choice> patterns</hi> Long Folio</head>
                     <row>
                         <cell><num type="roman" value="12">XII</num></cell>
                         <cell>Faint</cell>
@@ -219,7 +231,10 @@
                     <head><hi style="text-decoration: underline;">Flush 1 to 3 <abbr>qrs</abbr>abbr></hi></head>
                     <note>In the above 15 ways of <lb/>Ruling 591 - 63 - 1 bind CDI</note>
                     <row>
-                        <cell><abbr>Dble</abbr> ledger</cell>
+                      <cell><choice>
+                        <abbr>Dble</abbr>
+                        <expan>Double</expan>
+                      </choice> ledger</cell>
                         <cell>591 - 593</cell>
                     </row>
                     <row>
@@ -231,7 +246,10 @@
                         <cell>597 - 599</cell>
                     </row>
                     <row>
-                        <cell><abbr>Dble</abbr> Cash</cell>
+                      <cell><abbr><choice>
+                        <abbr>Dble</abbr>
+                        <expan>Double</expan>
+                      </choice></abbr> Cash</cell>
                         <cell>600 - 602</cell>
                     </row>
                     <row>
@@ -256,12 +274,15 @@
                         <cell>615 - 617</cell>
                     </row>
                     <row>
-                        <cell>Faint &amp; Comn</cell><!--[the 'n' is superscript text]-->
+                        <cell>Faint &amp; Comn</cell><!--[the 'n' is superscript text]--> <!-- TODO: Ask about superscript n; is this still common? -->
                         <cell>618 - 620</cell>
                     </row>
                     <!--[start of row 11]-->
                     <row>
-                        <cell>Faint dble money</cell>
+                      <cell>Faint <choice>
+                        <abbr>dble</abbr>
+                        <expan>double</expan>
+                      </choice> money</cell>
                         <cell>621 - 623</cell>
                     </row>
                     <row>
@@ -274,15 +295,24 @@
                     </row>
                     <cb/><!--[column break]-->
                     <row>
-                        <cell>Faint + Com</cell>
+                      <cell>Faint + <choice>
+                        <abbr>Com</abbr>
+                        <expan>Common</expan>
+                      </choice></cell>
                         <cell>630 - 632</cell>
                     </row>
                     <row>
-                        <cell>Faint &amp; <abbr>dble</abbr> money</cell>
+                      <cell>Faint &amp; <abbr><choice>
+                        <abbr>dble</abbr>
+                        <expan>double</expan>
+                      </choice></abbr> money</cell>
                         <cell>633 - 635</cell>
                     </row>
                     <row>
-                        <cell><abbr>Ft</abbr> + <abbr>dble</abbr> + <abbr>fo</abbr></cell>
+                      <cell><abbr>Ft</abbr> + <abbr><choice>
+                        <abbr>dble</abbr>
+                        <expan>double</expan>
+                      </choice></abbr> + <abbr>fo</abbr></cell>
                         <cell>1401 - 1410</cell>
                     </row>
                     <row>
@@ -303,7 +333,10 @@
                     </row>
                     <!--[start of row 21]-->
                     <row>
-                        <cell><abbr>Ft</abbr> &amp; <abbr>dble</abbr> money 4 qrs</cell>
+                      <cell><abbr>Ft</abbr> &amp; <abbr><choice>
+                        <abbr>dble</abbr>
+                        <expan>double</expan>
+                      </choice></abbr> money 4 qrs</cell>
                         <cell>1484</cell>
                     </row>
                     <row>
@@ -351,7 +384,10 @@
                     </row>
                     <row>
                         <cell>51 - 100</cell>
-                        <cell>Day Book 1 to 10 qrs<lb/> Thro patterns</cell>
+                      <cell>Day Book 1 to 10 qrs<lb/> <choice>
+                        <abbr>Thro</abbr>
+                        <expan>Through</expan>
+                      </choice> patterns</cell>
                         <cell>5 bindings 50 <lb/> 2051 - 2100 <handShift medium="pencil"/> 2701t <lb/> 2101 2238 2710 <lb/> 2601 2604 <unclear resp="Pochron" reason="illegible">4105</unclear> <handShift medium="ink"/></cell>
                     </row>
                     <row>
@@ -380,7 +416,13 @@
                     </row>
                     <row>
                         <cell>291 - 2300</cell>
-                        <cell>Faint <abbr>dble</abbr> money folio <unclear resp="Pochron" reason="illegible">tine</unclear> thro</cell>
+                      <cell>Faint <abbr><choice>
+                        <abbr>dble</abbr>
+                        <expan>double</expan>
+                      </choice></abbr> money folio <unclear resp="Pochron" reason="illegible">tine</unclear> <choice>
+                        <abbr>thro</abbr>
+                        <expan>through</expan>
+                      </choice></cell>
                         <cell>2221 - 2238 <lb/> 2291 - 2300</cell>
                     </row>
                 </table>
@@ -402,11 +444,17 @@
                         <cell cols="2">Flush 1 to 3 qrs in the above 2 ways</cell>
                     </row>
                     <row>
-                        <cell>800 ft &amp; dble money <num type="fraction" value=".5">1/2</num> roan</cell>
+                      <cell>800 ft &amp; <choice>
+                        <abbr>dble</abbr>
+                        <expan>double</expan>
+                      </choice> money <num type="fraction" value=".5">1/2</num> roan</cell>
                         <cell>3201</cell>
                     </row>
                     <row>
-                        <cell>long 800 ft &amp; com <num type="fraction" value=".5">1/2</num> flush</cell>
+                      <cell>long 800 ft &amp; <choice>
+                        <abbr>com</abbr>
+                        <expan>common</expan>
+                      </choice> <num type="fraction" value=".5">1/2</num> flush</cell>
                         <cell>3249</cell>
                     </row>
                     <row>
@@ -476,55 +524,85 @@
                     <row>
                         <cell rows="3">with <lb/> <hi style="text-decoration: underline;">Fcap 1 to 2000</hi></cell>
                         <cell>Foolscap</cell>
-                        <cell>4to</cell>
+                        <cell><choice>
+                          <abbr>4to</abbr>
+                          <expan>quarto</expan>
+                        </choice></cell>
                         <cell>7 rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
                     <row>
                         <cell>Foolscap</cell>
-                        <cell>6s</cell>
+                        <cell><choice>
+                          <abbr>6s</abbr>
+                          <expan>sextus</expan>
+                        </choice></cell>
                         <cell>7 rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
                     <row>
                         <cell>Foolscap</cell>
-                        <cell>8vo</cell>
+                      <cell><choice>
+                        <abbr>8vo</abbr>
+                        <expan>octavo</expan>
+                      </choice></cell>
                         <cell>7 rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
                     <row>
                         <cell rows="3">9001 to 9700</cell>
                         <cell>Post</cell>
-                        <cell>4to</cell>
+                      <cell><choice>
+                        <abbr>4to</abbr>
+                        <expan>quarto</expan>
+                      </choice></cell>
                         <cell>7 rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num> <num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> 9001 - 9700</hi></cell>
                     </row>
                     <row>
                         <cell>Post</cell>
-                        <cell>6s</cell>
+                      <cell><choice>
+                        <abbr>6s</abbr>
+                        <expan>sextus</expan>
+                      </choice></cell>
                         <cell>7 rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num></hi></cell>
                     </row>
                     <row>
                         <cell>Post</cell>
-                        <cell>8vo</cell>
+                      <cell><choice>
+                        <abbr>8vo</abbr>
+                        <expan>octavo</expan>
+                      </choice></cell>
                         <cell>7 rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num></hi></cell>
                     </row>
                     <row>
                         <cell>with <lb/> Demy <lb/> 2001 - 3000</cell>
                         <cell>Demy</cell>
-                        <cell>4to</cell>
+                      <cell><choice>
+                        <abbr>4to</abbr>
+                        <expan>quarto</expan>
+                      </choice></cell>
                         <cell>7 rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
                     <row>
                         <cell rows="3">10001 <lb/> to <lb/> 10700</cell>
                         <cell>La Post</cell>
-                        <cell>4to</cell>
+                      <cell><choice>
+                        <abbr>4to</abbr>
+                        <expan>quarto</expan>
+                      </choice></cell>
                         <cell>7 rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
                     <row>
                         <cell>La Post</cell>
-                        <cell>6s</cell>
+                      <cell><choice>
+                        <abbr>6s</abbr>
+                        <expan>sextus</expan>
+                      </choice></cell>
                         <cell>7 rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
                     <row>
                         <cell>La Post</cell>
-                        <cell>6s</cell>
+                      <cell><choice>
+                        <abbr>6s</abbr>
+                        <expan>sextus</expan>
+                      </choice></cell>
                         <cell>7 rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
                     <!--[end of table content]-->
@@ -559,13 +637,25 @@
                             <item>Faint</item>
 
                             <label><num type="roman" value="9">IX</num></label>
-                            <item>Faint &amp; date thro</item>
+                          <item>Faint &amp; date <choice>
+                            <abbr>thro</abbr>
+                            <expan>through</expan>
+                          </choice></item>
 
                             <label><num type="roman" value="10">X</num></label>
-                            <item>Faint &amp; com thro</item>
+                          <item>Faint &amp; <choice>
+                            <abbr>com</abbr>
+                            <expan>common</expan>
+                          </choice> <choice>
+                            <abbr>thro</abbr>
+                            <expan>through</expan>
+                          </choice></item>
 
                             <label><num type="roman" value="11">XI</num></label>
-                            <item>Faint &amp; dble money</item>
+                          <item>Faint &amp; <choice>
+                            <abbr>dble</abbr>
+                            <expan>double</expan>
+                          </choice> money</item>
 
                             <label><num type="roman" value="12">XII</num></label>
                             <item>Faint long folio</item>
@@ -574,10 +664,16 @@
                             <item>Faint &amp; date long fo</item>
 
                             <label><num type="roman" value="14">XIV</num></label>
-                            <item>Faint + Com long fo</item>
+                          <item>Faint + <choice>
+                            <abbr>Com</abbr>
+                            <expan>Common</expan>
+                          </choice> long fo</item>
 
                             <label><num type="roman" value="15">XV</num></label>
-                            <item>Faint &amp; dble money long fo</item>
+                          <item>Faint &amp; <choice>
+                            <abbr>dble</abbr>
+                            <expan>double</expan>
+                          </choice> money long fo</item>
 
                             <label><num type="roman" value="16">XVI</num></label>
                             <item><unclear resp="Pochron" reason="illegible">Tound B see pact book</unclear></item>
@@ -592,10 +688,16 @@
                             <head>Key to Letters binding.</head>
 
                             <label>B</label>
-                            <item>bindings is full Com Morocco</item>
+                          <item>bindings is full <choice>
+                            <abbr>Com</abbr>
+                            <expan>Common</expan>
+                          </choice> Morocco</item>
 
                             <label>D</label>
-                            <item>bindings half Com Morocco</item>
+                          <item>bindings half <choice>
+                            <abbr>Com</abbr>
+                            <expan>Common</expan>
+                          </choice> Morocco</item>
 
                             <label>E</label>
                             <item>bindings <num type="fraction" value=".5">1/2</num> red basil as best stock</item>
@@ -634,8 +736,14 @@
                   <cell>Order Book</cell>
                   <cell>Faint</cell>
                   <cell>Faint &amp; date</cell>
-                  <cell>Faint &amp; Com</cell>
-                  <cell>Faint &amp; dble money</cell>
+                <cell>Faint &amp; <choice>
+                  <abbr>Com</abbr>
+                  <expan>Common</expan>
+                </choice></cell>
+                <cell>Faint &amp; <choice>
+                  <abbr>dble</abbr>
+                  <expan>double</expan>
+                </choice> money</cell>
               </row>
               <row>
                 <cell>rulings</cell>
@@ -687,7 +795,10 @@
                     <cell><num type="fraction" value="4.5">4 1/2</num></cell>
                     <cell><num type="fraction" value="5">5</num></cell>
                   </row>
-                  <note><unclear resp="Pochron">num</unclear> 4to</note>
+                  <note><unclear resp="Pochron">num</unclear> <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></note>
                   <trailer>
                     10 thickness <lb/> 5 bindings <lb/> B &#8729; D &#8729; E &#8729; F &#8729; I &#8729;
                   </trailer>
@@ -844,21 +955,45 @@
                 <label><num type="roman" value="7">VII</num></label>
                 <item>Order Biij faint &amp; date and head</item>
                 <label><num type="roman" value="8">VIII</num></label>
-                <item>Faint thro</item>
+                <item>Faint <choice>
+                  <abbr>thro</abbr>
+                  <expan>through</expan>
+                </choice></item>
                 <label><num type="roman" value="9">IX</num></label>
-                <item>Faint and date Thro</item>
+                <item>Faint and date <choice>
+                  <abbr>Thro</abbr>
+                  <expan>Through</expan>
+                </choice></item>
                 <label><num type="roman" value="10">X</num></label>
-                <item>Faint and Common Thro</item>
+                <item>Faint and Common <choice>
+                  <abbr>Thro</abbr>
+                  <expan>Through</expan>
+                </choice></item>
                 <label><num type="roman" value="11">XI</num></label>
-                <item>Faint and double money thro</item>
+                <item>Faint and double money <choice>
+                  <abbr>thro</abbr>
+                  <expan>through</expan>
+                </choice></item>
                 <label><num type="roman" value="12">XII</num></label>
-                <item>Faint ------ Long Folio thro</item>
+                <item>Faint ------ Long Folio <choice>
+                  <abbr>thro</abbr>
+                  <expan>through</expan>
+                </choice></item>
                 <label><num type="roman" value="13">XIII</num></label>
-                <item>Faint and date -- Long Folio thro</item>
+                <item>Faint and date -- Long Folio <choice>
+                  <abbr>thro</abbr>
+                  <expan>through</expan>
+                </choice></item>
                 <label><num type="roman" value="14">XIV</num></label>
-                <item>Faint and Common - Long Folio thro</item>
+                <item>Faint and Common - Long Folio <choice>
+                  <abbr>thro</abbr>
+                  <expan>through</expan>
+                </choice></item>
                 <label><num type="roman" value="15">XV</num></label>
-                <item>Faint and double money - Long Folio thro</item>
+                <item>Faint and double money - Long Folio <choice>
+                  <abbr>thro</abbr>
+                  <expan>through</expan>
+                </choice></item>
               </list>
               <!--[end of list]-->
 
@@ -867,10 +1002,19 @@
                 <row>
                   <cell></cell>
                   <cell>faint</cell>
-                  <cell>faint<lb/>&amp;<lb/>com</cell>
-                  <cell>long<lb/>4to</cell>
+                  <cell>faint<lb/>&amp;<lb/><choice>
+                    <abbr>com</abbr>
+                    <expan>common</expan>
+                  </choice></cell>
+                  <cell>long<lb/><choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                   <cell>Single<lb/>Led</cell>
-                  <cell>dble<lb/>Led</cell>
+                  <cell><choice>
+                    <abbr>dble</abbr>
+                    <expan>double</expan>
+                  </choice><lb/>Led</cell>
                   <cell>intricate</cell>
                   <cell>Very<lb/><unclear resp="Pochron">urty</unclear><lb/><unclear resp="Pochron">cate</unclear></cell>
                   <cell>Very<lb/>Very<lb/><unclear resp="Pochron">wbruce</unclear></cell>
@@ -931,7 +1075,13 @@
               <table>
                 <row>
                   <cell>1401 to 1410</cell>
-                  <cell>Foolscap faint folio &amp; dble money broad <lb/> thro folio</cell>
+                  <cell>Foolscap faint folio &amp; <choice>
+                    <abbr>dble</abbr>
+                    <expan>double</expan>
+                  </choice> money broad <lb/> <choice>
+                    <abbr>thro</abbr>
+                    <expan>through</expan>
+                  </choice> folio</cell>
                 </row>
                 <row>
                   <cell>1411-1420</cell>
@@ -951,7 +1101,10 @@
                 </row>
                 <row>
                   <cell>1481-1484</cell>
-                  <cell>Fcap 4 qrs ft &amp; date &amp; ft &amp; dble money Flush</cell>
+                  <cell>Fcap 4 qrs ft &amp; date &amp; ft &amp; <choice>
+                    <abbr>dble</abbr>
+                    <expan>double</expan>
+                  </choice> money Flush</cell>
                 </row>
                 <row>
                   <cell>1487</cell>
@@ -959,7 +1112,10 @@
                 </row>
                 <row>
                   <cell>1491-1500</cell>
-                  <cell>Fcap long 4to faint + Common <lb/>then follows indexs as below</cell>
+                  <cell>Fcap long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice> faint + Common <lb/>then follows indexs as below</cell>
                 </row>
                 <row>
                   <cell>1485</cell>
@@ -992,7 +1148,10 @@
                 </row>
                 <row>
                   <cell>1546-1557</cell>
-                  <cell>La post 4to Indexs</cell>
+                  <cell>La post <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice> Indexs</cell>
                 </row>
                 <row>
                   <cell>1558-1569</cell>
@@ -1004,11 +1163,17 @@
                 </row>
                 <row>
                   <cell>1582-1593</cell>
-                  <cell>Demy 4to Indexs</cell>
+                  <cell>Demy <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice> Indexs</cell>
                 </row>
                 <row>
                   <cell>1594-1605</cell>
-                  <cell>Foolscap 4to Indexs</cell>
+                  <cell>Foolscap <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice> Indexs</cell>
                 </row>
                 <trailer>
                   Carried to page <num type="pageNum">59</num>
@@ -1051,11 +1216,17 @@
               	</row>
               	<row>
               		<cell>1111</cell>
-              		<cell>Fcap 8vo Bank pattern Roan de la rue</cell>
+              	  <cell>Fcap <choice>
+              	    <abbr>8vo</abbr>
+              	    <expan>octavo</expan>
+              	  </choice> Bank pattern Roan de la rue</cell>
               	</row>
               	<row>
               		<cell>1657</cell>
-              		<cell>Fcap Fo faint head &amp; dble money + fo Hard grain rain limp</cell>
+              	  <cell>Fcap Fo faint head &amp; <choice>
+              	    <abbr>dble</abbr>
+              	    <expan>double</expan>
+              	  </choice> money + fo Hard grain rain limp</cell>
               	</row>
               	<row>
               		<cell>1673</cell>
@@ -1071,11 +1242,17 @@
               	</row>
               	<row>
               		<cell>n1685</cell>
-              		<cell>Fcap 4to margin no White Vellum</cell>
+              	  <cell>Fcap <choice>
+              	    <abbr>4to</abbr>
+              	    <expan>quarto</expan>
+              	  </choice> margin no White Vellum</cell>
               	</row>
               	<row>
               		<cell>1689</cell>
-              		<cell>Fcap ft dble money + fo <num type="fraction" value=".5">1/2</num> cut flush</cell>
+              	  <cell>Fcap ft <choice>
+              	    <abbr>dble</abbr>
+              	    <expan>double</expan>
+              	  </choice> money + fo <num type="fraction" value=".5">1/2</num> cut flush</cell>
               	</row>
               	<row>
               		<cell>1701</cell>
@@ -1091,11 +1268,17 @@
               	</row>
               	<row>
               		<cell>1725</cell>
-              		<cell>Fcap faint &amp; margin thro Morocco extra</cell>
+              	  <cell>Fcap faint &amp; margin <choice>
+              	    <abbr>thro</abbr>
+              	    <expan>through</expan>
+              	  </choice> Morocco extra</cell>
               	</row>
               	<row>
               		<cell>1733</cell>
-              		<cell>Fcap ft head dble Cash index <num type="fraction" value=".5">1/2</num> morocco</cell>
+              	  <cell>Fcap ft head <choice>
+              	    <abbr>dble</abbr>
+              	    <expan>double</expan>
+              	  </choice> Cash index <num type="fraction" value=".5">1/2</num> morocco</cell>
               	</row>
               </table>
 
@@ -1103,7 +1286,10 @@
                 <head style="text-decoration: underline;">Post</head>
                 <row>
                   <cell>9571</cell>
-                  <cell>12 sh post 8ov bank patt Roan de la rue</cell>
+                  <cell>12 sh post <choice>
+                    <abbr>8vo</abbr>
+                    <expan>ocatvo</expan>
+                  </choice> bank patt Roan de la rue</cell>
                 </row>
                 <note place="below"><unclear>0JM 21</unclear></note>
                 <row>
@@ -1112,7 +1298,13 @@
                 </row>
                 <row>
                   <cell>9717</cell>
-                  <cell>42 sh post in 4to hd dble cash Morocco limp</cell>
+                  <cell>42 sh post in <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice> hd <choice>
+                    <abbr>dble</abbr>
+                    <expan>double</expan>
+                  </choice> cash Morocco limp</cell>
                 </row>
                 <row>
                   <cell>9718</cell>
@@ -1142,7 +1334,10 @@
                 <label>E C 2</label>
                 <item>faint &amp; common</item>
                 <label>E C 3</label>
-                <item>faint + common in long 4to</item>
+                <item>faint + common in long <choice>
+                  <abbr>4to</abbr>
+                  <expan>quarto</expan>
+                </choice></item>
                 <label>E C 4</label>
                 <item>Single Ledger</item>
                 <label>E C 5</label>
@@ -1158,23 +1353,38 @@
               <table>
                 <row>
                   <cell>Nº10</cell>
-                  <cell>Medium 8vos</cell>
+                  <cell>Medium <choice>
+                    <abbr>8vos</abbr>
+                    <expan>octavos</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Large Post 8vos</cell>
+                  <cell>Large Post <choice>
+                    <abbr>8vos</abbr>
+                    <expan>octavos</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Demy 8vos</cell>
+                  <cell>Demy <choice>
+                    <abbr>8vos</abbr>
+                    <expan>octavos</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Post 8vos</cell>
+                  <cell>Post <choice>
+                    <abbr>8vos</abbr>
+                    <expan>octavos</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell>Nº11</cell>
-                  <cell>Foolscap 8vos</cell>
+                  <cell>Foolscap <choice>
+                    <abbr>8vos</abbr>
+                    <expan>octavos</expan>
+                  </choice></cell>
                 </row>
               </table>
             </div>
@@ -1190,87 +1400,150 @@
                 <note place="below">distance <lb/> as long fo faint lined book</note>
                 <row>
                   <cell>Nº6</cell>
-                  <cell>Imperial folio and long 4to</cell>
+                  <cell>Imperial folio and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Super Royal and long 4to</cell>
+                  <cell>Super Royal and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Royal and long 4to</cell>
+                  <cell>Royal and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell>Nº7</cell>
-                  <cell>Medium folio and long 4to</cell>
+                  <cell>Medium folio and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Large Post and long 4to</cell>
+                  <cell>Large Post and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Demy and long 4to</cell>
+                  <cell>Demy and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>broad 4to</cell>
+                  <cell>broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Imperial broad 4to</cell>
+                  <cell>Imperial broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Super Royal broad 4to</cell>
+                  <cell>Super Royal broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Royal broad 4to</cell>
+                  <cell>Royal broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell>Nº8</cell>
-                  <cell>Foolscap folio and long 4to</cell>
+                  <cell>Foolscap folio and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Sheet + half and long 4to</cell>
+                  <cell>Sheet + half and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Sheet + thirds and long 4to</cell>
+                  <cell>Sheet + thirds and long <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>broad 4to</cell>
+                  <cell>broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Medium broad 4to</cell>
+                  <cell>Medium broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Large post broad 4to</cell>
+                  <cell>Large post broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Demy broad 4to</cell>
+                  <cell>Demy broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell>Nº9</cell>
-                  <cell>Foolscap broad 4to</cell>
+                  <cell>Foolscap broad <choice>
+                    <abbr>4to</abbr>
+                    <expan>quarto</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Imperial 8vos</cell>
+                  <cell>Imperial <choice>
+                    <abbr>8vos</abbr>
+                    <expan>octavos</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Super Royal 8vos</cell>
+                  <cell>Super Royal <choice>
+                    <abbr>8vos</abbr>
+                    <expan>octavos</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Royal 8vos</cell>
+                  <cell>Royal <choice>
+                    <abbr>8vos</abbr>
+                    <expan>octavos</expan>
+                  </choice></cell>
                 </row>
               </table>
             </div>
