@@ -20,9 +20,6 @@
     <text>
         <body>
             
-            <!-- [TODO: persnames & orgnames] -->
-            <!-- [TODO: fix <div> tags] -->
-            
             <!--[
             ENCODER SHORTHAND REFERENCES:
             DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
@@ -38,6 +35,7 @@
             <!-- [CHANGED 6/30/2020: Remembered to update changelog, fixed issues resulting from encoding with migraine. Completed first pass on page 101 and fixed minor errors on page 100.] -->
             <!-- [CHANGED 7/8/2020: First pass on page 102, began correcting mismatched <div> tags.] -->
             <!-- [CHANGED 7/9/2020: Updated more <div> tags, tentatively. -->
+            <!-- [CHANGED 7/15/2020: Added more orgName and persName tags, finished some silent regularization, fixed some typos.] -->
             
             <!--[Start of PAGE 95]-->
             <pb n="095" facs="CC20181029_Townsend_0095.tif"/>
@@ -46,14 +44,14 @@
             <div type="instruction">
                 <ab>
                     <lb/>Stamps
-                    <lb/>Every Letter must be entered
-                    <lb/>for the Form and its Cost
+                    <lb/>Every letter must be entered
+                    <lb/>for the form and its cost
                     <lb/>thus
                 </ab>
                 
                 <ab>
-                    <lb/>Chad Goodall Son
-                    <lb/>Williams Coopers
+                    <lb/><orgName><persName>Chad Goodall</persName> Son</orgName>
+                    <lb/><persName>Williams Coopers</persName>
                     <note place="inline">
                         <lb/><num>1</num>
                         <lb/><num type="fraction" value=".5">1/2</num>
@@ -61,13 +59,13 @@
                 </ab>
                 
                 <ab>
-                    <lb/>No private Letters whatever
-                    <lb/>to go <choice><orig>thro</orig><reg>through</reg></choice> this book it is <unclear resp="burkhardt">more
-                    <lb/>by</unclear> <!-- [NOTE: nere by?] --> for the business and the
+                    <lb/>No private letters whatever
+                    <lb/>to go <choice><orig>thro</orig><reg>through</reg></choice> this book. It is <unclear resp="burkhardt">more
+                    <lb/>by</unclear> <!-- [NOTE: nere by? hereby?] --> for the business and the
                     <lb/>object is to record precisely
-                    <lb/>what the Leetters Outward
-                    <lb/>Cost annually to William
-                    <lb/>Townsend Son
+                    <lb/>what the letters outward
+                    <lb/>cost annually to <orgName><persName>William
+                        <lb/>Townsend</persName> Son</orgName>
                     <lb/><date when="1891-05-27">May 27/91</date>
                 </ab>
             </div>
@@ -75,9 +73,9 @@
             <div type="log">
                 <ab>
                     <lb/><unclear resp="burkhardt">a b qrs</unclear> <!-- [NOTE: something about quarters maybe?] --> <choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> long folio provided
-                    <lb/>for above <unclear resp="burkhardt" reason="illegible">hurywje</unclear>
+                    <lb/>for above purpose
                     <lb/><persName>Robson</persName> thinks <num>5</num>/. at a time not 20/.
-                    <lb/>and <unclear resp="burkhardt">W a S</unclear> to check over <unclear resp="burkhardt">abo
+                    <lb/>and <unclear resp="burkhardt">W a J</unclear> to check over <unclear resp="burkhardt">also
                     <lb/>petty lash</unclear> too, strict <emph style="text-decoration: underline;">scrutiny nece</emph>ssary
                     <note place="inline"><date when="1894-03-06">Mar 6/94</date></note>
                 </ab>
@@ -98,10 +96,10 @@
                 
                 <ab>
                     <lb/><date when="--06-17">June 17</date> <num>23</num> accounts
-                    <lb/>if the Number of Accounts be
+                    <lb/>if the number of accounts be
                     <lb/>counted from the accounts
-                    <lb/>due book a Debt + Credit
-                    <lb/>Ledger Account may be
+                    <lb/>due book a debt + credit
+                    <lb/>ledger account may be
                     <lb/>kept.
                     <lb/><date when="1891-06-12"><emph style="text-decoration: underline;">June 12th 1891</emph></date>
                     <note place="inline">
@@ -135,14 +133,14 @@
                     <lb/>Rulers <num>6</num> per hour <unclear resp="burkhardt">amph</unclear> <num>6</num> per hour
                     <lb/>he should be there promptly at
                     <lb/><num>8</num> am and <num>2</num> pm taking the time
-                    <lb/>or causing it tobe taken he
+                    <lb/>or causing it to be taken. He
                     <lb/>should rule from the receiving
                     <lb/>of an order from the office to the
                     <lb/>delivery into the office completed
                     <lb/>with an estimate price or cost.
-                    <lb/>never to fetch him out of his
-                    <lb/>Workshops, he should with the first
-                    <lb/>and will last. gas + Water under his charge
+                    <lb/>Never to fetch him out of his
+                    <lb/>workshops, he should with the first
+                    <lb/>and will last. Gas + Water under his charge
                 </ab>
             <!-- [End of PAGE 97] -->
             
@@ -150,7 +148,7 @@
             <pb n="098" facs="CC20181029_Townsend_0098.tif"/>
             <fw type="page_number" place="top">56</fw>
                 <ab>
-                    <lb/>experience.. day after starting <num>51</num> hours
+                    <lb/>Experience.. day after starting <num>51</num> hours
                     <lb/><num>4</num> men found on <unclear resp="burkhardt">pluut print</unclear> annual
                     <lb/>in their works
                 </ab>
@@ -172,16 +170,16 @@
                     <lb/>I am convinced more and more if a practical
                     <lb/>clever works manager being necessary, a master
                     <lb/>would be the best because he is interested in the
-                    <lb/>dividend
+                    <lb/>dividend.
                 </ab>
                 <ab>
                     <lb/>Ruling there is no skilled weighing up of the amount
                     <lb/>done nor any planning of the jobs to get the most out
                     <lb/>of this was done day by day and each machine
                     <lb/>put out its pull however the difference would be
-                    <lb/>very great, incredibly more than now
+                    <lb/>very great, incredibly more than now.
                     <lb/>The same in binders of Stationary
-                    <lb/>printing machines
+                    <lb/>printing machines.
                 </ab>
                 <ab>
                     <!-- [NOTE: I seriously have no idea what started going on with his handwriting here it started getting reaaaaaaaaal bad] -->
@@ -208,26 +206,27 @@
                     <lb/>Sunday's
                     <lb/><date when="1890-11-09">Nov 9th 1890</date>
                     <lb/>I would desire that
-                    <lb/>my Children <choice><orig>thro</orig><reg>through</reg></choice> life make a
-                    <lb/>Rule of attending Church at
+                    <lb/>my children <choice><orig>thro</orig><reg>through</reg></choice> life make a
+                    <lb/>rule of attending Church at
                     <lb/>least once a day. I may say
                     <lb/>for <num>30</num> years and more I have
                     <lb/>rarely missed Morning + Evening
-                    <lb/>Services + Festivals <unclear resp="burkhardt">for a Divine rote</unclear> <!-- [NOTE: This appears to be about a person actually. is for, father?] -->
+                    <lb/>Services + Festivals <unclear resp="burkhardt">for a Divine rote</unclear> <!-- [NOTE: This may be about a person actually. is for, father?] -->
                     <lb/>the better he spent his Sundays, the
                     <lb/>better his weeks duties prospered!!!
                     <lb/>Psalm 119 8) <emph style="text-decoration:underline;">176 verses</emph>
                     <lb/>22 chapters. Eight is the <!-- [NOTE: I think this is because 176/22 is 8, which is also the number of verses within each stanza (chapter)]-->
+                    <lb/>Number of Perfection.
                 </ab>
             </div>
             <div type="instruction">
                 <ab>
-                    <lb/>Sees customers, control sales, Shop, customers to see
-                    <lb/>all barellers who call and rule the department
-                    <lb/>Master in charge before he goes on Saturday to see
-                    <lb/>Weekly Sales and Weekly payments
-                    <lb/>Friday the Master to examine + pay the Wage Book
-                    <lb/>with secret notes for particulars in Council
+                    <lb/>Sees customers, control sales, shop, customers to see
+                    <lb/>all barellers who call and rule the department.
+                    <lb/>master in charge before he goes on Saturday to see
+                    <lb/>weekly sales and weekly payments.
+                    <lb/>Friday the master to examine + pay the wage book
+                    <lb/>with secret notes for particulars in council
                 </ab>
 
             <!-- [End of PAGE 99] -->
@@ -244,7 +243,7 @@
                     <lb/>costly wages and short time but
                     <lb/>have it done at <unclear resp="burkhardt">Whitsuntide</unclear> or
                     <lb/>Bank Holiday when work folk
-                    <lb/>are holidaying - empy shops are
+                    <lb/>are holidaying - empty shops are
                     <lb/>the best for the whitewashers to get
                     <lb/>on with their work. <date when="1907-01-14">Jan 14 1907</date>
                 </ab>
@@ -257,7 +256,7 @@
             <div type="log">
                 <ab>
                     <lb/>from 24
-                    <lb/><choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> <!-- [NOTE: There's this "s" above the "8" in "1686"] -->
+                    <lb/><choice><abbr>Fcap</abbr><expan>Foolscap</expan></choice> <!-- [NOTE: There's this "s"? above the "8" in "1686"] -->
                     <lb/><persName>Dr Farells</persName> day books 1686
                 </ab>
                 <!-- [NOTE: There is a gap here that takes up most of the page. This page is mostly empty.] -->
@@ -272,7 +271,7 @@
             <fw type="page_number" place="top">60</fw>
             <!-- [TODO: Find manuscript page 18 for context, as this page is "Continued from page 18"] -->
                 <ab>
-                    <lb/><unclear resp="burkhardt">Dewry</unclear> Continued fropm page <num>18</num>
+                    <lb/><unclear resp="burkhardt">Dewry</unclear> continued fropm page <num>18</num>
                     <lb/><num>2301</num> Ao <num>2310</num> paint treble money folio. date and head
                     <lb/><num>2725</num> <num>4</num> to double money head and folio <!-- [TODO: correct "4 to" to abbreviation 4to -> quarto] -->
                     <lb/><num>2801</num> <unclear resp="burkhardt">dewry</unclear> <num>4</num> to guard books <!-- [TODO: see above] -->
