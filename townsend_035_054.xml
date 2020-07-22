@@ -95,7 +95,7 @@
                 <expan>books</expan>
               </choice>
               <lb/>and Safed
-              <lb/>Wed 10am list of doubtful
+              <lb/>Wed 10am list of doubtful <!-- JL: Time? I forgot what we're doing? Numbers? -->
               <lb/><choice> <!-- JL: Added choice tag for abbrevation -->
                 <abbr>a/c</abbr>
                 <expan>accounting</expan>
@@ -623,7 +623,10 @@
         <ab>
           <lb/>Check every item with Day Book from
           <lb/>the Order Book to be sure all is entered
-          <persName>WT</persName>
+          <choice>
+            <abbr>WT</abbr>
+            <expan><persName>William Townsend</persName></expan>
+          </choice>
         </ab>
         <ab>
           <lb/>Orders in Safe - Cross every
@@ -1018,7 +1021,7 @@
           <label>Sales <unclear resp="JL">
             <choice>
               <abbr>S</abbr>
-              <expan>Shop></expan>
+              <expan>Shop</expan>
             </choice>
           </unclear></label>
           <item>Young man + young lady</item>
