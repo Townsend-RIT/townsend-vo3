@@ -714,7 +714,7 @@
           <lb/>removing 
           <choice>
             <abbr>№</abbr>
-            <expan>Numero</expan>
+            <expan>Number</expan>
           </choice>
           <lb/>up nicely for Master and Special
           <note place="bottom">to page <num type="pageNum">73</num> forward</note><!--[TODO: future linking]-->
@@ -991,9 +991,15 @@
             <lb/>books give 
             <choice>
               <abbr>№</abbr>
-              <expan>Numero</expan>
-            </choice> to enter briefly № <!--[numero unicode]-->
-            <lb/>order book Name Size №
+              <expan>Number</expan>
+            </choice> to enter briefly <unclear resp="JL"><choice>
+              <abbr>№</abbr>
+              <expan>Number</expan>
+            </choice></unclear>
+            <lb/>order book Name Size <choice>
+              <abbr>№</abbr>
+              <expan>Number</expan>
+            </choice>
           </item>
 
           <label>All Posting</label>
@@ -1100,7 +1106,7 @@
         <list style="list-style-type:none;">
           <head>Tin Cases -- Contents <choice>
             <abbr>№s</abbr>
-            <expan>Numeros</expan>
+            <expan>Numbers</expan>
           </choice></head>
           
           <item>Cutlery <handShift medium="pencil"/>Crypt <emph style="text-decoration: underline;">Crypt</emph></item>
@@ -1217,7 +1223,7 @@
           <row role="label">
             <cell><choice>
               <abbr>№</abbr>
-              <expan>Numero</expan>
+              <expan>Number</expan>
             </choice> of Vols</cell><!--[numero unicode]-->
             <cell></cell>
             <cell></cell>
@@ -1322,7 +1328,7 @@
             <cell>Size</cell>
             <cell><choice>
               <abbr>№</abbr>
-              <expan>Numero</expan>
+              <expan>Number</expan>
             </choice></cell>
             <cell cols="2">Ruling and Binding</cell>
           </row>
