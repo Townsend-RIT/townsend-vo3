@@ -47,37 +47,46 @@
 
             <!--[start of DIV]-->
             <div type="NULL"><!--[TODO]-->
-                <head style="text-decoration: underline;">1 to 2000<lb/>Fcap</head>
+                <head style="text-decoration: underline;"><num>1</num> to <num>2000</num><lb/><choice>
+                  <abbr>Fcap</abbr>
+                  <expan>Foolscap</expan>
+                </choice></head>
 
                 <!--[reference table for tables following on this page]-->
                 <table rows="9" cols="2">
                     <cb n="1"/>
                     <row>
                         <cell>A</cell>
-                        <cell>Full Rough Calf</cell>
+                      <cell><seg xml:id="full_0055">Full</seg> Rough Calf</cell>
                     </row>
                     <row>
                         <cell>B</cell>
-                        <cell>Full <choice>
+                        <cell><seg sameAs="#full_0055">ditto</seg> <choice>
                           <abbr>Com</abbr>
                           <expan>Common</expan>
                         </choice> <choice>
                           <abbr>Morc</abbr>
                           <expan>Morocco</expan>
-                        </choice>Morc</cell>
+                        </choice></cell>
                     </row>
                     <row>
                         <cell>C</cell>
-                        <cell><num type="fraction" value=".5">1/2</num> Rough Calf</cell>
+                      <cell><seg xml:id="half_0055"><num type="fraction" value=".5">1/2</num></seg> Rough Calf</cell>
                     </row>
                     <row>
                         <cell>D</cell>
-                        <cell><num type="fraction" value=".5">1/2</num> Corn Morc</cell><!--[TODO: ditto referencing is annoying]-->
+                      <cell><seg sameAs="#half_0055">ditto</seg> <choice>
+                        <abbr>Com</abbr>
+                        <expan>Common</expan>
+                      </choice> <choice>
+                        <abbr>Morc</abbr>
+                        <expan>Morocco</expan>
+                      </choice></cell>
                     </row>
                     <cb n="2"/>
                     <row>
                         <cell>E</cell>
-                        <cell><num type="fraction" value=".5">1/2</num> red brazil</cell>
+                        <cell><num type="fraction" value=".5">1/2</num> red brazil</cell> <!-- JAY: Brazil is type of leather -->
                     </row>
                     <row>
                         <cell>F</cell>
@@ -85,7 +94,7 @@
                     </row>
                     <row>
                         <cell>G</cell>
-                        <cell>Roan de la rue</cell>
+                        <cell>Roan de la rue</cell> <!-- Street roan -->
                     </row>
                     <row>
                         <cell>H</cell>
@@ -102,51 +111,51 @@
                 <table rows="7" cols="5">
                     <row>
                         <cell><num type="roman" value="1">I</num></cell>
-                        <cell>Double Ledger</cell>
-                        <cell>1 to 50</cell>
-                        <cell>5 bindings</cell>
+                        <cell>Double <seg xml:id="ledger_0055">Ledger</seg></cell>
+                        <cell><num>1</num> to <num>50</num></cell>
+                        <cell><num>5</num> <seg xml:id="bindings_0055">bindings</seg></cell>
                         <cell>ABCDE</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="2">II</num></cell>
-                        <cell>Single Ledger</cell>
-                        <cell>51 - 100</cell>
-                        <cell>5 bindings</cell>
+                        <cell>Single <seg sameAs="#ledger_0055">ditto</seg></cell>
+                        <cell><num>51</num> - <num>100</num></cell>
+                        <cell><num>5</num> <seg sameAs="#bindings_0055">ditto</seg></cell>
                         <cell>ABCDE</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="3">III</num></cell>
-                        <cell>Single Cash <lb/>with head lines</cell>
-                        <cell>101 - 150</cell>
-                        <cell>5 bindings</cell>
+                        <cell>Single Cash <lb/><seg xml:id="whl_0055">with head lines</seg></cell>
+                        <cell><num>101</num> - <num>150</num></cell>
+                        <cell><num>5</num> <seg sameAs="#bindings_0055">ditto</seg></cell>
                         <cell>ABCDE</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="4">IV</num></cell>
-                        <cell>Double Cash <lb/>with head lines</cell>
-                        <cell>151 - 200</cell>
-                        <cell>5 bindings</cell>
+                        <cell>Double Cash <lb/><seg sameAs="#whl_0055">ditto</seg></cell>
+                        <cell><num>151</num> - <num>200</num></cell>
+                        <cell><num>5</num> <seg sameAs="#bindings_0055">ditto</seg></cell>
                         <cell>ABCDE</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="5">V</num></cell>
                         <cell>Journal</cell>
-                        <cell>201 - 250</cell>
-                        <cell>5 bindings</cell>
+                        <cell><num>201</num> - <num>250</num></cell>
+                        <cell><num>5</num> <seg sameAs="#bindings_0055">ditto</seg></cell>
                         <cell>ABCDE</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="6">VI</num></cell>
                         <cell>Day Book</cell>
-                        <cell>251 - 300</cell>
-                        <cell>5 bindings</cell>
+                        <cell><num>251</num> - <num>300</num></cell>
+                        <cell><num>5</num> <seg sameAs="#bindings_0055">ditto</seg></cell>
                         <cell>ABCDE</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="7">VII</num></cell>
                         <cell>Order Book</cell>
-                        <cell>301 - 350</cell>
-                        <cell>5 bindings</cell>
+                        <cell><num>301</num> - <num>350</num></cell>
+                        <cell><num>5</num> <seg sameAs="#bindings_0055">ditto</seg></cell>
                         <cell>ABCDE</cell>
                     </row>
                 </table>
@@ -154,36 +163,48 @@
 
                 <!--[start of table 2]-->
                 <table rows="4" cols="5">
-                    <head><hi style="text-decoration: underline;"><choice> <!-- JAY TODO: Is this thro "through?" -->
+                    <head><hi style="text-decoration: underline;"><choice>
                       <abbr>Thro</abbr>
                       <expan>Through</expan>
                     </choice> patterns</hi> Broad Folio</head>
                     <row>
                         <cell><num type="roman" value="8">VIII</num></cell>
                         <cell>Faint</cell>
-                        <cell>351 - 380</cell>
-                        <cell>3 <abbr>bind</abbr></cell>
-                        <cell>CDI</cell>
+                        <cell><num>351</num> - <num>380</num></cell>
+                        <cell><num>3</num> <choice>
+                          <abbr>bind</abbr>
+                          <expan>binding</expan>
+                        </choice></cell>
+                      <cell>CDI</cell> <!-- JAY: bind CDI is two different cells, but the ditto is covering both of them. FOR NOW: two dittos, one per cell -->
                     </row>
                     <row>
                         <cell><num type="roman" value="9">IX</num></cell>
                         <cell>Faint and date</cell>
-                        <cell>381 - 410</cell>
-                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell><num>381</num> - <num>410</num></cell>
+                        <cell><num>3</num> <choice>
+                          <abbr>bind</abbr>
+                          <expan>binding</expan>
+                        </choice></cell>
                         <cell>CDI</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="10">X</num></cell>
                         <cell>Faint and Common</cell>
-                        <cell>411 - 440</cell>
-                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell><num>411</num> - <num>440</num></cell>
+                        <cell><num>3</num> <choice>
+                          <abbr>bind</abbr>
+                          <expan>binding</expan>
+                        </choice></cell>
                         <cell>CDI</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="11">XI</num></cell>
                         <cell>Faint and Double Money</cell>
-                        <cell>441 - 470</cell>
-                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell><num>441</num> - <num>470</num></cell>
+                        <cell><num>3</num> <choice>
+                          <abbr>bind</abbr>
+                          <expan>binding</expan>
+                        </choice></cell>
                         <cell>CDI</cell>
                     </row>
                 </table>
@@ -198,29 +219,41 @@
                     <row>
                         <cell><num type="roman" value="12">XII</num></cell>
                         <cell>Faint</cell>
-                        <cell>471 - 500</cell>
-                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell><num>471</num> - <num>500</num></cell>
+                        <cell><num>3</num> <choice>
+                          <abbr>bind</abbr>
+                          <expan>binding</expan>
+                        </choice></cell>
                         <cell>CDI</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="13">XIII</num></cell>
                         <cell>Faint and date</cell>
-                        <cell>501 - 530</cell>
-                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell><num>501</num> - <num>530</num></cell>
+                        <cell><num>3</num> <choice>
+                          <abbr>bind</abbr>
+                          <expan>binding</expan>
+                        </choice></cell>
                         <cell>CDI</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="14">XIV</num></cell>
                         <cell>Faint and Common</cell>
-                        <cell>531 - 560</cell>
-                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell><num>531</num> - <num>560</num></cell>
+                        <cell><num>3</num> <choice>
+                          <abbr>bind</abbr>
+                          <expan>binding</expan>
+                        </choice></cell>
                         <cell>CDI</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="15">XV</num></cell>
                         <cell>Faint and Double Money</cell>
-                        <cell>561 - 590</cell>
-                        <cell>3 <abbr>bind</abbr></cell>
+                        <cell><num>561</num> - <num>590</num></cell>
+                        <cell><num>3</num> <choice>
+                          <abbr>bind</abbr>
+                          <expan>binding</expan>
+                        </choice></cell>
                         <cell>CDI</cell>
                     </row>
                 </table>
@@ -228,54 +261,61 @@
 
                 <!--[start of table 4]-->
                 <table rows="22" cols="2">
-                    <head><hi style="text-decoration: underline;">Flush 1 to 3 <abbr>qrs</abbr>abbr></hi></head>
-                    <note>In the above 15 ways of <lb/>Ruling 591 - 63 - 1 bind CDI</note>
+                    <head><hi style="text-decoration: underline;">Flush <num>1</num> to <num>3</num> <choice>
+                      <abbr>qrs</abbr>
+                      <expan>quarters</expan>
+                    </choice></hi></head>
+                    <note>In the above <num>15</num> ways of <lb/>Ruling <num>591</num> - <num>63<handShift medium="pencil"/>5</num> <handShift medium="ink"/>- <num>1</num> bind CDI</note> <!-- JAY TODO: This isn't a note, it's a cell identical to the ones above. 
+                      How do we preserve the formatting?  -->
                     <row>
                       <cell><choice>
                         <abbr>Dble</abbr>
                         <expan>Double</expan>
                       </choice> ledger</cell>
-                        <cell>591 - 593</cell>
+                        <cell><num>591</num> - <num>593</num></cell>
                     </row>
                     <row>
                         <cell>Single ledger</cell>
-                        <cell>594 - 596</cell>
+                        <cell><num>594</num> - <num>596</num></cell>
                     </row>
                     <row>
                         <cell>Single Cash</cell>
-                        <cell>597 - 599</cell>
+                        <cell><num>597</num> - <num>599</num></cell>
                     </row>
                     <row>
                       <cell><abbr><choice>
                         <abbr>Dble</abbr>
                         <expan>Double</expan>
                       </choice></abbr> Cash</cell>
-                        <cell>600 - 602</cell>
+                        <cell><num>600</num> - <num>602</num></cell>
                     </row>
                     <row>
                         <cell>Journal</cell>
-                        <cell>603 - 605</cell>
+                        <cell><num>603</num> - <num>605</num></cell>
                     </row>
                     <row>
                         <cell>Day Book</cell>
-                        <cell>606 - 608</cell>
+                        <cell><num>606</num> - <num>608</num></cell>
                     </row>
                     <row>
                         <cell>Order Book</cell>
-                        <cell>609 - 611</cell>
+                        <cell><num>609</num> - <num>611</num></cell>
                     </row>
                     <cb/><!--[column break]-->
                     <row>
                         <cell>Faint</cell>
-                        <cell>612 - 614</cell>
+                        <cell><num>612</num> - <num>614</num></cell>
                     </row>
                     <row>
                         <cell>Faint &amp; date</cell>
-                        <cell>615 - 617</cell>
+                        <cell><num>615</num> - <num>617</num></cell>
                     </row>
                     <row>
-                        <cell>Faint &amp; Comn</cell><!--[the 'n' is superscript text]--> <!-- TODO: Ask about superscript n; is this still common? -->
-                        <cell>618 - 620</cell>
+                        <cell>Faint &amp; <choice>
+                          <abbr>Comn</abbr>
+                          <expan>Common</expan>
+                        </choice></cell>
+                        <cell><num>618</num> - <num>620</num></cell>
                     </row>
                     <!--[start of row 11]-->
                     <row>
@@ -283,15 +323,15 @@
                         <abbr>dble</abbr>
                         <expan>double</expan>
                       </choice> money</cell>
-                        <cell>621 - 623</cell>
+                        <cell><num>621</num> - <num>623</num></cell>
                     </row>
                     <row>
-                        <cell>Long Folio <lb/>>Faint</cell>
-                        <cell>624 - 626</cell>
+                        <cell>Long Folio <lb/>Faint</cell>
+                        <cell><num>624</num> - <num>626</num></cell>
                     </row>
                     <row>
                         <cell>Long Folio Faint &amp; date</cell>
-                        <cell>627 - 629</cell>
+                        <cell><num>627</num> - <num>629</num></cell>
                     </row>
                     <cb/><!--[column break]-->
                     <row>
@@ -320,11 +360,17 @@
                         <cell>1411 - <lb/>1420</cell>
                     </row>
                     <row>
-                        <cell><abbr>Fcap</abbr> Cash Book</cell>
+                      <cell><choice>
+                        <abbr>Fcap</abbr>
+                        <expan>Foolscap</expan>
+                      </choice> Cash Book</cell>
                         <cell>1421 - 1430</cell>
                     </row>
                     <row>
-                        <cell><abbr>Fcap</abbr> 3 money</cell>
+                      <cell><choice>
+                        <abbr>Fcap</abbr>
+                        <expan>Foolscap</expan>
+                      </choice> 3 money</cell>
                         <cell>1431 - 1440</cell>
                     </row>
                     <row>
@@ -522,7 +568,10 @@
                 <table rows="10" cols="4">
                     <!--[start of table content]-->
                     <row>
-                        <cell rows="3">with <lb/> <hi style="text-decoration: underline;">Fcap 1 to 2000</hi></cell>
+                      <cell rows="3">with <lb/> <hi style="text-decoration: underline;"><choice>
+                        <abbr>Fcap</abbr>
+                        <expan>Foolscap</expan>
+                      </choice> 1 to 2000</hi></cell>
                         <cell>Foolscap</cell>
                         <cell><choice>
                           <abbr>4to</abbr>
@@ -1085,23 +1134,38 @@
                 </row>
                 <row>
                   <cell>1411-1420</cell>
-                  <cell>Fcap broad fo faint only <num type="fraction" value=".5">1/2</num> Moroon roan <lb/> as faint fined stock</cell>
+                  <cell><choice>
+                    <abbr>Fcap</abbr>
+                    <expan>Foolscap</expan>
+                  </choice> broad fo faint only <num type="fraction" value=".5">1/2</num> Moroon roan <lb/> as faint fined stock</cell>
                 </row>
                 <row>
                   <cell>1421-1430</cell>
-                  <cell>Fcap broad fo Cash Books printed Morc</cell>
+                  <cell><choice>
+                    <abbr>Fcap</abbr>
+                    <expan>Foolscap</expan>
+                  </choice> broad fo Cash Books printed Morc</cell>
                 </row>
                 <row>
                   <cell>1431-1440</cell>
-                  <cell>Fcap broad faint head fo 3 money <num type="fraction" value=".5">1/2</num></cell>
+                  <cell><choice>
+                    <abbr>Fcap</abbr>
+                    <expan>Foolscap</expan>
+                  </choice> broad faint head fo 3 money <num type="fraction" value=".5">1/2</num></cell>
                 </row>
                 <row>
                   <cell>1441-1450</cell>
-                  <cell>Fcap broad faint head fo 3 money <num type="fraction" value=".5">1/2</num> Morc</cell>
+                  <cell><choice>
+                    <abbr>Fcap</abbr>
+                    <expan>Foolscap</expan>
+                  </choice> broad faint head fo 3 money <num type="fraction" value=".5">1/2</num> Morc</cell>
                 </row>
                 <row>
                   <cell>1481-1484</cell>
-                  <cell>Fcap 4 qrs ft &amp; date &amp; ft &amp; <choice>
+                  <cell><choice>
+                    <abbr>Fcap</abbr>
+                    <expan>Foolscap</expan>
+                  </choice> 4 qrs ft &amp; date &amp; ft &amp; <choice>
                     <abbr>dble</abbr>
                     <expan>double</expan>
                   </choice> money Flush</cell>
@@ -1112,7 +1176,10 @@
                 </row>
                 <row>
                   <cell>1491-1500</cell>
-                  <cell>Fcap long <choice>
+                  <cell><choice>
+                    <abbr>Fcap</abbr>
+                    <expan>Foolscap</expan>
+                  </choice> long <choice>
                     <abbr>4to</abbr>
                     <expan>quarto</expan>
                   </choice> faint + Common <lb/>then follows indexs as below</cell>
@@ -1189,7 +1256,10 @@
 
               <!--[start of table; restart]-->
               <table rows="18" cols="2">
-                <head style="text-decoration: underline;">Fcap</head>
+                <head style="text-decoration: underline;"><choice>
+                  <abbr>Fcap</abbr>
+                  <expan>Foolscap</expan>
+                </choice></head>
               	<row>
               		<cell>1627</cell>
               		<cell>Club books</cell>
@@ -1204,78 +1274,123 @@
               	</row>
               	<row>
               		<cell>1661</cell>
-              		<cell>Fcap Cash books ruled &amp; printed <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> Cash books ruled &amp; printed <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>1669</cell>
-              		<cell>Fcap guard books</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> guard books</cell>
               	</row>
               	<row>
               		<cell>1701</cell>
-              		<cell>Fcap Journal <num type="fraction" value=".5">1/2</num> morocco</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> Journal <num type="fraction" value=".5">1/2</num> morocco</cell>
               	</row>
               	<row>
               		<cell>1111</cell>
-              	  <cell>Fcap <choice>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> <choice>
               	    <abbr>8vo</abbr>
               	    <expan>octavo</expan>
               	  </choice> Bank pattern Roan de la rue</cell>
               	</row>
               	<row>
               		<cell>1657</cell>
-              	  <cell>Fcap Fo faint head &amp; <choice>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> Fo faint head &amp; <choice>
               	    <abbr>dble</abbr>
               	    <expan>double</expan>
               	  </choice> money + fo Hard grain rain limp</cell>
               	</row>
               	<row>
               		<cell>1673</cell>
-              		<cell>Fcap fo double ledger full morocco 30 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> fo double ledger full morocco 30 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>1675</cell>
-              		<cell>Fcap do Franklins Cash patt morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> do Franklins Cash patt morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>1677</cell>
-              		<cell>Fcap fo Franklins Journal morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> fo Franklins Journal morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>n1685</cell>
-              	  <cell>Fcap <choice>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> <choice>
               	    <abbr>4to</abbr>
               	    <expan>quarto</expan>
               	  </choice> margin no White Vellum</cell>
               	</row>
               	<row>
               		<cell>1689</cell>
-              	  <cell>Fcap ft <choice>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> ft <choice>
               	    <abbr>dble</abbr>
               	    <expan>double</expan>
               	  </choice> money + fo <num type="fraction" value=".5">1/2</num> cut flush</cell>
               	</row>
               	<row>
               		<cell>1701</cell>
-              		<cell>Fcap Journal <num type="fraction" value=".5">1/2</num> morocco extra paged</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> Journal <num type="fraction" value=".5">1/2</num> morocco extra paged</cell>
               	</row>
               	<row>
               		<cell>1709</cell>
-              		<cell>Fcap faint only Morocco extra</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> faint only Morocco extra</cell>
               	</row>
               	<row>
               		<cell>1717</cell>
-              		<cell>Fcap faint &amp; margin Morocco extra</cell>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> faint &amp; margin Morocco extra</cell>
               	</row>
               	<row>
               		<cell>1725</cell>
-              	  <cell>Fcap faint &amp; margin <choice>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> faint &amp; margin <choice>
               	    <abbr>thro</abbr>
               	    <expan>through</expan>
               	  </choice> Morocco extra</cell>
               	</row>
               	<row>
               		<cell>1733</cell>
-              	  <cell>Fcap ft head <choice>
+              	  <cell><choice>
+              	    <abbr>Fcap</abbr>
+              	    <expan>Foolscap</expan>
+              	  </choice> ft head <choice>
               	    <abbr>dble</abbr>
               	    <expan>double</expan>
               	  </choice> Cash index <num type="fraction" value=".5">1/2</num> morocco</cell>
@@ -1605,7 +1720,10 @@
               <ab>
                 XX or <num type="percentage" value="25">25%</num> on my Fathers SL and say 310 lett
                 <lb/><num type="percentage" value="12.5">12 1/2%</num> dis or <num type="fraction" value="1.5">1 1/2</num> un 1/ on time Ruling + print
-                <lb/>paging fcap <num type="fraction" value="1.5">1 1/2</num> demy 2 Med <num type="fraction" value="2.5">2 1/2</num> Roy 3 Sup roy <num type="fraction" value="3.5">3 1/2</num> Imp 4 pgs
+                <lb/>paging <choice>
+                  <abbr>fcap</abbr>
+                  <expan>foolscap</expan>
+                </choice> <num type="fraction" value="1.5">1 1/2</num> demy 2 Med <num type="fraction" value="2.5">2 1/2</num> Roy 3 Sup roy <num type="fraction" value="3.5">3 1/2</num> Imp 4 pgs
               </ab>
             </div>
         <!--[End of PAGE 65]-->
