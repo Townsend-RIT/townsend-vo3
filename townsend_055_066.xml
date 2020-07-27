@@ -111,14 +111,14 @@
                 <table rows="7" cols="5">
                     <row>
                         <cell><num type="roman" value="1">I</num></cell>
-                        <cell>Double <seg xml:id="ledger_0055">Ledger</seg></cell>
+                        <cell>Double <seg xml:id="ledger1_0055">Ledger</seg></cell>
                         <cell><num>1</num> to <num>50</num></cell>
                         <cell><num>5</num> <seg xml:id="bindings_0055">bindings</seg></cell>
                         <cell>ABCDE</cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="2">II</num></cell>
-                        <cell>Single <seg sameAs="#ledger_0055">ditto</seg></cell>
+                        <cell>Single <seg sameAs="#ledger1_0055">ditto</seg></cell>
                         <cell><num>51</num> - <num>100</num></cell>
                         <cell><num>5</num> <seg sameAs="#bindings_0055">ditto</seg></cell>
                         <cell>ABCDE</cell>
@@ -171,41 +171,32 @@
                         <cell><num type="roman" value="8">VIII</num></cell>
                         <cell>Faint</cell>
                         <cell><num>351</num> - <num>380</num></cell>
-                        <cell><num>3</num> <choice>
+                        <cell><num>3</num> <seg xml:id="bind_0055"><choice>
                           <abbr>bind</abbr>
                           <expan>binding</expan>
-                        </choice></cell>
-                      <cell>CDI</cell> <!-- JAY: bind CDI is two different cells, but the ditto is covering both of them. FOR NOW: two dittos, one per cell -->
+                        </choice></seg></cell>
+                      <cell><seg xml:id="CDI_0055">CDI</seg></cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="9">IX</num></cell>
                         <cell>Faint and date</cell>
                         <cell><num>381</num> - <num>410</num></cell>
-                        <cell><num>3</num> <choice>
-                          <abbr>bind</abbr>
-                          <expan>binding</expan>
-                        </choice></cell>
-                        <cell>CDI</cell>
+                        <cell><num>3</num> <seg sameAs="#bind_0055">ditto</seg></cell>
+                        <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="10">X</num></cell>
                         <cell>Faint and Common</cell>
                         <cell><num>411</num> - <num>440</num></cell>
-                        <cell><num>3</num> <choice>
-                          <abbr>bind</abbr>
-                          <expan>binding</expan>
-                        </choice></cell>
-                        <cell>CDI</cell>
+                        <cell><num>3</num> <seg sameAs="#bind_0055">ditto</seg></cell>
+                        <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="11">XI</num></cell>
                         <cell>Faint and Double Money</cell>
                         <cell><num>441</num> - <num>470</num></cell>
-                        <cell><num>3</num> <choice>
-                          <abbr>bind</abbr>
-                          <expan>binding</expan>
-                        </choice></cell>
-                        <cell>CDI</cell>
+                        <cell><num>3</num> <seg sameAs="#bind_0055">ditto</seg></cell>
+                        <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                 </table>
                 <!--[end of table 2]-->
@@ -220,41 +211,29 @@
                         <cell><num type="roman" value="12">XII</num></cell>
                         <cell>Faint</cell>
                         <cell><num>471</num> - <num>500</num></cell>
-                        <cell><num>3</num> <choice>
-                          <abbr>bind</abbr>
-                          <expan>binding</expan>
-                        </choice></cell>
-                        <cell>CDI</cell>
+                        <cell><num>3</num> <seg sameAs="#bind_0055">ditto</seg></cell>
+                        <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="13">XIII</num></cell>
                         <cell>Faint and date</cell>
                         <cell><num>501</num> - <num>530</num></cell>
-                        <cell><num>3</num> <choice>
-                          <abbr>bind</abbr>
-                          <expan>binding</expan>
-                        </choice></cell>
-                        <cell>CDI</cell>
+                        <cell><num>3</num> <seg sameAs="#bind_0055">ditto</seg></cell>
+                        <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="14">XIV</num></cell>
                         <cell>Faint and Common</cell>
                         <cell><num>531</num> - <num>560</num></cell>
-                        <cell><num>3</num> <choice>
-                          <abbr>bind</abbr>
-                          <expan>binding</expan>
-                        </choice></cell>
-                        <cell>CDI</cell>
+                        <cell><num>3</num> <seg sameAs="#bind_0055">ditto</seg></cell>
+                        <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                     <row>
                         <cell><num type="roman" value="15">XV</num></cell>
                         <cell>Faint and Double Money</cell>
                         <cell><num>561</num> - <num>590</num></cell>
-                        <cell><num>3</num> <choice>
-                          <abbr>bind</abbr>
-                          <expan>binding</expan>
-                        </choice></cell>
-                        <cell>CDI</cell>
+                        <cell><num>3</num> <seg sameAs="#bind_0055">ditto</seg></cell>
+                        <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                 </table>
                 <!--[end of table 3]-->
@@ -265,28 +244,28 @@
                       <abbr>qrs</abbr>
                       <expan>quarters</expan>
                     </choice></hi></head>
-                    <note>In the above <num>15</num> ways of <lb/>Ruling <num>591</num> - <num>63<handShift medium="pencil"/>5</num> <handShift medium="ink"/>- <num>1</num> bind CDI</note> <!-- JAY TODO: This isn't a note, it's a cell identical to the ones above. 
+                  <note>In the above <num>15</num> ways of <lb/>Ruling <num>591</num> - <num>63<handShift medium="pencil"/>5</num> <handShift medium="ink"/>- <seg sameAs="#bind_0055">ditto</seg> <seg sameAs="#CDI_0055">ditto</seg></note> <!-- JAY TODO: This isn't a note, it's a cell identical to the ones above. 
                       How do we preserve the formatting?  -->
                     <row>
                       <cell><choice>
                         <abbr>Dble</abbr>
                         <expan>Double</expan>
-                      </choice> ledger</cell>
+                      </choice> <seg xml:id="ledger2_0055">ledger</seg></cell>
                         <cell><num>591</num> - <num>593</num></cell>
                     </row>
                     <row>
-                        <cell>Single ledger</cell>
+                        <cell><seg xml:id="single_0055">Single</seg> <seg sameAs="#ledger2_0055">ditto</seg></cell>
                         <cell><num>594</num> - <num>596</num></cell>
                     </row>
                     <row>
-                        <cell>Single Cash</cell>
+                        <cell><seg sameAs="#single_0055">ditto</seg> <seg xml:id="cash_0055">Cash</seg></cell>
                         <cell><num>597</num> - <num>599</num></cell>
                     </row>
                     <row>
-                      <cell><abbr><choice>
+                      <cell><choice>
                         <abbr>Dble</abbr>
                         <expan>Double</expan>
-                      </choice></abbr> Cash</cell>
+                      </choice> <seg sameAs="#cash_0055">ditto</seg></cell>
                         <cell><num>600</num> - <num>602</num></cell>
                     </row>
                     <row>
@@ -294,24 +273,24 @@
                         <cell><num>603</num> - <num>605</num></cell>
                     </row>
                     <row>
-                        <cell>Day Book</cell>
+                        <cell>Day <seg xml:id="book_0055">Book</seg></cell>
                         <cell><num>606</num> - <num>608</num></cell>
                     </row>
                     <row>
-                        <cell>Order Book</cell>
+                        <cell>Order <seg sameAs="#book_0055">ditto</seg></cell>
                         <cell><num>609</num> - <num>611</num></cell>
                     </row>
                     <cb/><!--[column break]-->
                     <row>
-                        <cell>Faint</cell>
+                        <cell><seg xml:id="faint1_0055">Faint</seg></cell>
                         <cell><num>612</num> - <num>614</num></cell>
                     </row>
                     <row>
-                        <cell>Faint &amp; date</cell>
+                        <cell><seg sameAs="#faint1_0055">ditto</seg> &amp; date</cell>
                         <cell><num>615</num> - <num>617</num></cell>
                     </row>
                     <row>
-                        <cell>Faint &amp; <choice>
+                      <cell><seg sameAs="#faint1_0055">ditto</seg> &amp; <choice>
                           <abbr>Comn</abbr>
                           <expan>Common</expan>
                         </choice></cell>
@@ -319,75 +298,84 @@
                     </row>
                     <!--[start of row 11]-->
                     <row>
-                      <cell>Faint <choice>
+                      <cell><seg sameAs="#faint1_0055">ditto</seg> <choice>
                         <abbr>dble</abbr>
                         <expan>double</expan>
                       </choice> money</cell>
                         <cell><num>621</num> - <num>623</num></cell>
                     </row>
                     <row>
-                        <cell>Long Folio <lb/>Faint</cell>
+                        <cell><seg xml:id="longfoliofaint_0055">Long Folio <lb/>Faint</seg></cell>
                         <cell><num>624</num> - <num>626</num></cell>
                     </row>
                     <row>
-                        <cell>Long Folio Faint &amp; date</cell>
+                        <cell><seg sameAs="#longfoliofaint_0055">ditto</seg> &amp; date</cell>
                         <cell><num>627</num> - <num>629</num></cell>
                     </row>
                     <cb/><!--[column break]-->
                     <row>
-                      <cell>Faint + <choice>
+                      <cell><seg xml:id="faint2_0055">Faint</seg> + <choice>
                         <abbr>Com</abbr>
                         <expan>Common</expan>
                       </choice></cell>
-                        <cell>630 - 632</cell>
+                        <cell><num>630</num> - <num>632</num></cell>
                     </row>
                     <row>
-                      <cell>Faint &amp; <abbr><choice>
+                      <cell><seg sameAs="#faint2_0055">ditto</seg> &amp; <choice>
                         <abbr>dble</abbr>
                         <expan>double</expan>
-                      </choice></abbr> money</cell>
-                        <cell>633 - 635</cell>
-                    </row>
-                    <row>
-                      <cell><abbr>Ft</abbr> + <abbr><choice>
-                        <abbr>dble</abbr>
-                        <expan>double</expan>
-                      </choice></abbr> + <abbr>fo</abbr></cell>
-                        <cell>1401 - 1410</cell>
-                    </row>
-                    <row>
-                        <cell><abbr>Ft</abbr> lined <num type="fraction" value=".5">1/2</num> <unclear>b of stock</unclear> </cell>
-                        <cell>1411 - <lb/>1420</cell>
+                      </choice> money</cell>
+                        <cell><num>633</num> - <num>635</num></cell>
                     </row>
                     <row>
                       <cell><choice>
-                        <abbr>Fcap</abbr>
-                        <expan>Foolscap</expan>
-                      </choice> Cash Book</cell>
-                        <cell>1421 - 1430</cell>
+                        <abbr>Ft</abbr>
+                        <expan>Faint</expan>
+                      </choice> + <choice>
+                        <abbr>dble</abbr>
+                        <expan>double</expan>
+                      </choice> + <abbr>fo</abbr></cell>
+                        <cell><num>1401</num> - <num>1410</num></cell>
                     </row>
                     <row>
                       <cell><choice>
-                        <abbr>Fcap</abbr>
-                        <expan>Foolscap</expan>
-                      </choice> 3 money</cell>
-                        <cell>1431 - 1440</cell>
+                        <abbr>Ft</abbr>
+                        <expan>Faint</expan>
+                      </choice> lined <num type="fraction" value=".5">1/2</num> <unclear>bc/stock</unclear> </cell>
+                        <cell><num>1411</num> - <lb/><num>1420</num></cell>
                     </row>
                     <row>
-                        <cell><abbr>Ft</abbr> &amp; date flush 4 qrs</cell>
-                        <cell>1481</cell>
+                      <cell><seg xml:id="fcap_0055"><choice>
+                        <abbr>Fcap</abbr>
+                        <expan>Foolscap</expan>
+                      </choice></seg> Cash Book</cell>
+                        <cell><num>1421</num> - <num>1430</num></cell>
+                    </row>
+                    <row>
+                      <cell><seg sameAs="#fcap_0055">ditto</seg> <num>3</num> money</cell>
+                        <cell><num>1431</num> - <num>1440</num></cell>
+                    </row>
+                    <row>
+                        <cell><seg xml:id="ft_0055"><choice>
+                          <abbr>Ft</abbr>
+                          <expan>Faint</expan>
+                        </choice></seg> &amp; date flush <seg xml:id="fourqr_0055"><num>4</num> <choice>
+                          <abbr>qrs</abbr>
+                          <expan>quarters</expan>
+                        </choice></seg></cell>
+                        <cell><num>1481</num></cell>
                     </row>
                     <!--[start of row 21]-->
                     <row>
-                      <cell><abbr>Ft</abbr> &amp; <abbr><choice>
+                      <cell><seg sameAs="#ft_0555">ditto</seg> &amp; <abbr><choice>
                         <abbr>dble</abbr>
                         <expan>double</expan>
-                      </choice></abbr> money 4 qrs</cell>
-                        <cell>1484</cell>
+                      </choice></abbr> money <seg sameAs="#fourqr_0055">ditto</seg></cell> <!-- JAY TODO: There's actually two dittos; do we think the first one is with the "4" or the "flush?" -->
+                        <cell><num>1484</num></cell>
                     </row>
                     <row>
-                        <cell>Faint only 4 qrs</cell>
-                        <cell>1487</cell>
+                        <cell>Faint only <seg sameAs="#fourqr_0055">ditto</seg></cell>
+                        <cell><num>1487</num></cell>
                     </row>
                 </table>
                 <!--[end of table 4]-->
