@@ -28,7 +28,8 @@
             ROMAN NUMERALS: <num type="roman" value=""></num>
             ]-->
             
-            <!-- [CHANGED 7/16/2020: Outlined page block. Began first pass of page 113.] -->
+            <!-- [CHANGED 7/16/2020: Outlined page block. First pass of page 113.] -->
+            <!-- [CHANGED 7/27/2020: After outlining the tables on paper, I decided to try and work them out in the document. Still haven't figured that out. First pass of 116 complete however.] -->
             
             <!--[Start of PAGE 113]-->
             <pb n="113" facs="CC20181029_Townsend_0113.tif"/>
@@ -75,18 +76,55 @@
             <!--[Start of PAGE 114]-->
             <pb n="114" facs="CC20181029_Townsend_0114.tif"/>
             <fw type="page_number" place="top">72</fw>
+            <div type="log">
+                <ab>
+                    <lb/>Profits
+                    <table rows="6" cols="2">
+                        <!-- [TODO: figure out tables oh good grief] -->
+                    </table>
+                </ab>
+            </div>
             
             <!-- [End of PAGE 114] -->
             
             <!--[Start of PAGE 115]-->
             <pb n="115" facs="CC20181029_Townsend_0115.tif"/>
             <fw type="page_number" place="top">73</fw>
+            <!-- [TODO: another page of tables. great] -->
             
             <!-- [End of PAGE 115] -->
             
             <!--[Start of PAGE 116]-->
             <pb n="116" facs="CC20181029_Townsend_0116.tif"/>
             <fw type="page_number" place="top">74</fw>
+            <div type="instruction">
+                <ab>
+                    <lb/>Show Room Offices + Goods Sent off Department
+                    <note place="inline"><date when="1888-09-20">Sep 20. 1888</date></note>
+                </ab>
+                <ab>
+                    <lb/>Manager to arrive and be at
+                    <lb/>his post at 8:30 am every morning
+                    <lb/>prompt. His eye to see all are there are the time and further checked by
+                    <lb/>them writing their own time in office
+                    <lb/>time book and any absence from
+                    <lb/>sickness or otherwise to be explained
+                    <lb/>in writing in the <unclear resp="burkhardt">parre</unclear> book by them,
+                    <lb/>or if absent filled up by the manager.
+                    <lb/>The manager will see that everything
+                    <lb/>be done with a good will to seeing
+                    <lb/>the welfare of the business by increased
+                    <lb/>attention to the mill supplying, and seeing
+                    <lb/>of all customers who favor us by their
+                    <lb/>patronage.
+                    <!-- [TODO: there's a note/sort of a table(?) denoting the hours on mon-fri and the hours on saturday] -->
+                </ab>
+                <ab>
+                    <lb/>Dinner hours arrange equally by
+                    <lb/>manager so as to have always
+                    <note place="bottom">PJO</note>
+                </ab>
+            </div>
             
             <!-- [End of PAGE 116] -->
             
