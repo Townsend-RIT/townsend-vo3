@@ -46,7 +46,7 @@
             <fw type="page_number" place="top">17</fw>
 
             <!--[start of DIV]-->
-            <div type="NULL"><!--[TODO]-->
+            <div type="log"><!--[TODO]-->
                 <head style="text-decoration: underline;"><num>1</num> to <num>2000</num><lb/><choice>
                   <abbr>Fcap</abbr>
                   <expan>Foolscap</expan>
@@ -409,130 +409,157 @@
 
                 <!--[start of Demy table]-->
                 <table rows="8" cols="3">
-                    <head>Demy 2001 to 3000</head>
+                  <head>Demy <num>2001</num> to <num>3000</num></head>
 
                     <row>
-                        <cell>1 - 50</cell>
-                        <cell>Double Ledger 1 to 10 qrs</cell>
-                        <cell>5 bindings = 50 <lb/> 2001 to 2050</cell>
+                        <cell><num>1</num> - <num>50</num></cell>
+                        <cell>Double Ledger <seg xml:id="onetoten_0056"><num>1</num> to <num>10</num> <choice>
+                          <abbr>qrs</abbr>
+                          <expan>quarters</expan>
+                        </choice></seg></cell>
+                        <cell><num>5</num> <seg xml:id="bindings1_0056">bindings</seg> = <num>50</num> 
+                          <lb/> <num>2001</num> to <num>2050</num></cell>
                     </row>
                     <row>
-                        <cell>51 - 100</cell>
-                      <cell>Day Book 1 to 10 qrs<lb/> <choice>
+                        <cell><num>51</num> - <num>100</num></cell>
+                        <cell>Day Book <seg sameAs="#onetoten_0056">ditto</seg>
+                        <lb/> <choice>
                         <abbr>Thro</abbr>
                         <expan>Through</expan>
                       </choice> patterns</cell>
-                        <cell>5 bindings 50 <lb/> 2051 - 2100 <handShift medium="pencil"/> 2701t <lb/> 2101 2238 2710 <lb/> 2601 2604 <unclear resp="Pochron" reason="illegible">4105</unclear> <handShift medium="ink"/></cell>
+                      <cell><num>5</num> <seg sameAs="#bindings1_0056">ditto</seg> <num>50</num> 
+                        <lb/> <num>2051</num> - <num>2100</num> <handShift medium="pencil"/> <num>2701</num>t 
+                        <lb/> <num>2101</num> <num>2238</num> <num>2710</num> 
+                        <lb/> <num>2601</num> <num>2604</num> <unclear resp="Pochron" reason="illegible"><num>4105</num></unclear> <handShift medium="ink"/></cell>
                     </row>
                     <row>
-                        <cell>101 - 130</cell>
-                        <cell>Faint and <unclear reason="illegible">prayer</unclear></cell>
-                        <cell>3 bindgs 30 <lb/> 2101 - 2130</cell>
+                        <cell><num>101</num> - <num>130</num></cell>
+                        <cell><seg xml:id="faint_0056">Faint</seg> <seg xml:id="and_0056">and</seg> margin</cell>
+                        <cell><num>3</num> <seg xml:id="bindgs_0056"><choice>
+                          <abbr>bindgs</abbr>
+                          <expan>bindings</expan>
+                        </choice></seg> <num>30</num> <lb/> <num>2101</num> - <num>2130</num></cell> 
                     </row>
                     <row>
-                        <cell>131 - 160</cell>
-                        <cell>Faint and Single money</cell>
-                        <cell>3 bindgs 30 <lb/> 2131 - 2160</cell>
+                        <cell><num>131</num> - <num>160</num></cell>
+                        <cell><seg sameAs="#faint_0056">ditto</seg> <seg sameAs="#and_0056">ditto</seg> Single <seg xml:id="money_0056">money</seg></cell>
+                        <cell><num>3</num> <seg sameAs="#bindgs_0056">ditto</seg> <num>30</num> <lb/> <num>2131</num> - <num>2160</num></cell>
                     </row>
                     <row>
-                        <cell>161 - 190</cell>
-                        <cell>Faint and double money</cell>
-                        <cell>3 bindgs 30 <lb/> 2161 - 2190</cell>
+                        <cell><num>161</num> - <num>190</num></cell>
+                        <cell><seg sameAs="#faint_0056">ditto</seg> <seg sameAs="#and_0056">ditto</seg> double <seg sameAs="#money_0056">ditto</seg></cell>
+                      <cell><num>3</num> <seg sameAs="#bindgs_0056">ditto</seg> <num>30</num> <lb/> <num>2161</num> - <num>2190</num></cell>
                     </row>
                     <row>
-                        <cell>191 - 220</cell>
-                        <cell>Faint and Treble money</cell>
-                        <cell>3 bindgs 30 <lb/> 2191 - 2220</cell>
+                        <cell><num>191</num> - <num>220</num></cell>
+                        <cell><seg sameAs="#faint_0056">ditto</seg> <seg sameAs="#and_0056">ditto</seg> Treble <seg sameAs="#money_0056">ditto</seg></cell>
+                      <cell><num>3</num> <seg sameAs="#bindgs_0056">ditto</seg> <num>30</num> <lb/> <num>2191</num> - <num>2220</num></cell>
                     </row>
                     <row>
-                        <cell>221 - 238</cell>
-                        <cell cols="2">Flush 1 to 3qrs in the above <lb/> 6 ways = 18</cell>
+                      <cell><num>221</num> - <num>238</num></cell>
+                      <cell cols="2">Flush <num>1</num> to <num>3</num>qrs in the above <lb/> <num>6</num> ways = <num>18</num></cell>
                     </row>
                     <row>
-                        <cell>291 - 2300</cell>
+                      <cell><num>291</num> - <num>2300</num></cell>
                       <cell>Faint <abbr><choice>
                         <abbr>dble</abbr>
                         <expan>double</expan>
-                      </choice></abbr> money folio <unclear resp="Pochron" reason="illegible">tine</unclear> <choice>
+                      </choice></abbr> money folio <choice>
+                        <sic>tine</sic>
+                        <corr>time</corr> <!-- JAY: I forgot if sic/corr is the one we kept. double check -->
+                      </choice> <choice> 
                         <abbr>thro</abbr>
                         <expan>through</expan>
                       </choice></cell>
-                        <cell>2221 - 2238 <lb/> 2291 - 2300</cell>
+                      <cell><num>2221</num> - <num>2238</num> 
+                      <lb/> <num>2291</num> - <num>2300</num></cell>
                     </row>
                 </table>
                 <!--[end of Demy table]-->
 
                 <!--[start of Medium table]-->
                 <table rows="6" cols="2">
-                    <head>Medium 3001 to 4000</head>
+                    <head>Medium <num>3001</num> to <num>4000</num></head>
 
                     <row>
                         <cell>Double Ledger</cell>
-                        <cell>5 bindings 50 <lb/> ABCDE</cell>
+                        <cell><num>5</num> <seg xml:id="bindings2_0056">bindings</seg> <num>50</num> 
+                        <lb/> ABCDE</cell>
                     </row>
                     <row>
                         <cell>Day Book</cell>
-                        <cell>5 bindings 50 <lb/> ABCDE 3001 - 3100</cell>
+                        <cell><num>5</num> <seg sameAs="#bindings2_0056">ditto</seg> <num>50</num> 
+                        <lb/> ABCDE <num>3001</num> - <num>3100</num></cell>
                     </row>
                     <row>
-                        <cell cols="2">Flush 1 to 3 qrs in the above 2 ways</cell>
+                      <cell cols="2">Flush <num>1</num> to <num>3</num> qrs in the above <num>2</num> ways</cell>
                     </row>
                     <row>
-                      <cell>800 ft &amp; <choice>
+                      <cell><num>800</num> <choice>
+                        <abbr>ft</abbr>
+                        <expan>faint</expan>
+                      </choice> &amp; <choice>
                         <abbr>dble</abbr>
                         <expan>double</expan>
                       </choice> money <num type="fraction" value=".5">1/2</num> roan</cell>
-                        <cell>3201</cell>
+                      <cell><num>3201</num></cell>
                     </row>
                     <row>
-                      <cell>long 800 ft &amp; <choice>
+                      <cell>long <num>800</num> <choice>
+                        <abbr>ft</abbr>
+                        <expan>faint</expan>
+                      </choice> &amp; <choice>
                         <abbr>com</abbr>
                         <expan>common</expan>
                       </choice> <num type="fraction" value=".5">1/2</num> flush</cell>
-                        <cell>3249</cell>
+                      <cell><num>3249</num></cell>
                     </row>
                     <row>
                         <cell>Copying books</cell>
-                        <cell>3497</cell>
+                      <cell><num>3497</num></cell>
                     </row>
                     <row>
                         <cell>Time books</cell>
-                        <cell>3601</cell>
+                      <cell><num>3601</num></cell>
                     </row>
                 </table>
                 <!--[end of Medium table]-->
 
                 <!--[start of Royal table]-->
-              <table> <!-- TO-DO: rows="" cols="" -->
-                    <head>Royal 4001 to 5000</head>
+              <table rows="6" cols="3">
+                <head>Royal <num>4001</num> to <num>5000</num></head>
 
                     <row>
-                        <cell>Double Ledger</cell>
-                        <cell>5 bindings <lb/> ABCDE</cell>
-                        <cell rows="2">4001 <lb/> to <lb/> 4050</cell>
+                      <cell>Double Ledger</cell>
+                      <cell><num>5</num> bindings <lb/> ABCDE</cell>
+                      <cell rows="2"><num>4001</num> 
+                      <lb/> to 
+                      <lb/> <num>4050</num></cell>
                     </row>
                     <row>
                         <cell>Guard books and Skeleton books</cell>
-                        <cell>5 bindings <lb/> ABCDE</cell>
+                      <cell><num>5</num> bindings <lb/> ABCDE</cell>
                     </row>
                     <row>
-                        <cell>Super Royal</cell>
-                        <cell>5001 to 6000</cell>
-                        <cell>5001 <lb/> to <lb/> 5050</cell>
+                      <cell>Super Royal</cell>
+                      <cell><num>5001</num> to <num>6000</num></cell>
+                      <cell><num>5001</num> <lb/> to <lb/> <num>5050</num></cell>
                     </row>
                     <row>
                         <cell>Double Ledger</cell>
-                        <cell>5 bindings</cell>
+                        <cell><num>5</num> bindings</cell>
                         <cell>ABCDE</cell>
                     </row>
                     <row>
                         <cell>Imperial</cell>
-                        <cell>6001 to 7000</cell>
-                        <cell>6001 <lb/> to <lb/> 6050</cell>
+                        <cell><num>6001</num> to <num>7000</num></cell>
+                        <cell><num>6001</num>
+                        <lb/> to 
+                        <lb/> <num>6050</num></cell>
                     </row>
                     <row>
                         <cell>Double Ledger</cell>
-                        <cell>5 bindings</cell>
+                        <cell><num>5</num> bindings</cell>
                         <cell>ABCDE</cell>
                     </row>
                 </table>
