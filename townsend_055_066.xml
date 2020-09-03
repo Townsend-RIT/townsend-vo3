@@ -575,9 +575,11 @@
             <!--[start of DIV]-->
             <div type="NULL"><!--[TODO]-->
                 <head>Account Book price lists <q>Key</q></head>
-                <!--[TODO: figure out how to make a horizontal line break, no resourses exists, ask SARAH]-->
-                <ab>Foolscap Sheet and Third Foolscap <lb/> 7001 - 7500</ab>
-                <ab>Sheet + Half Foolscap 8001 - 8500</ab>
+                
+                <ab type="typography" rend="horizontal-line">----------------</ab>
+                
+                <ab>Foolscap Sheet and Third Foolscap <lb/> <num>7001</num> - <num>7500</num></ab>
+                <ab>Sheet + Half Foolscap <num>8001</num> - <num>8500</num></ab>
 
                 <!--[start of TABLE]-->
                 <table rows="10" cols="4">
@@ -586,88 +588,88 @@
                       <cell rows="3">with <lb/> <hi style="text-decoration: underline;"><choice>
                         <abbr>Fcap</abbr>
                         <expan>Foolscap</expan>
-                      </choice> 1 to 2000</hi></cell>
-                        <cell>Foolscap</cell>
-                        <cell><choice>
+                      </choice> <num>1</num> to <num>2000</num></hi></cell>
+                        <cell><seg xml:id="foolscap_0057">Foolscap</seg></cell>
+                        <cell><choice> <!-- JAY: Should things like "quarto" be considered numbers? -->
                           <abbr>4to</abbr>
                           <expan>quarto</expan>
                         </choice></cell>
-                        <cell>7 rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
+                        <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
                     <row>
-                        <cell>Foolscap</cell>
+                        <cell><seg sameAs="#foolscap_0057">ditto</seg></cell>
                         <cell><choice>
                           <abbr>6s</abbr>
                           <expan>sextus</expan>
                         </choice></cell>
-                        <cell>7 rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
+                        <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
                     <row>
-                        <cell>Foolscap</cell>
+                      <cell><seg sameAs="#foolscap_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>8vo</abbr>
                         <expan>octavo</expan>
                       </choice></cell>
-                        <cell>7 rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
+                        <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
                     <row>
-                        <cell rows="3">9001 to 9700</cell>
-                        <cell>Post</cell>
+                        <cell rows="3"><num>9001</num> to <num>9700</num></cell>
+                        <cell><seg xml:id="post_0057">Post</seg></cell>
                       <cell><choice>
                         <abbr>4to</abbr>
                         <expan>quarto</expan>
                       </choice></cell>
-                        <cell>7 rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num> <num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> 9001 - 9700</hi></cell>
+                        <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num> <num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> 9001 - 9700</hi></cell>
                     </row>
                     <row>
-                        <cell>Post</cell>
+                        <cell><seg sameAs="#post_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
                         <expan>sextus</expan>
                       </choice></cell>
-                        <cell>7 rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num></hi></cell>
+                        <cell><num>7</num> rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num></hi></cell>
                     </row>
                     <row>
-                        <cell>Post</cell>
+                      <cell><seg sameAs="#post_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>8vo</abbr>
                         <expan>octavo</expan>
                       </choice></cell>
-                        <cell>7 rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num></hi></cell>
+                        <cell><num>7</num> rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num></hi></cell>
                     </row>
                     <row>
-                        <cell>with <lb/> Demy <lb/> 2001 - 3000</cell>
+                        <cell>with <lb/> Demy <lb/> <num>2001</num> - <num>3000</num></cell>
                         <cell>Demy</cell>
                       <cell><choice>
                         <abbr>4to</abbr>
                         <expan>quarto</expan>
                       </choice></cell>
-                        <cell>7 rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
+                        <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
                     <row>
-                        <cell rows="3">10001 <lb/> to <lb/> 10700</cell>
-                        <cell>La Post</cell>
+                        <cell rows="3"><num>10001</num> <lb/> to <lb/> <num>10700</num></cell>
+                        <cell><seg xml:id="lapost_0057">La Post</seg></cell>
                       <cell><choice>
                         <abbr>4to</abbr>
                         <expan>quarto</expan>
                       </choice></cell>
-                        <cell>7 rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
+                        <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
                     <row>
-                        <cell>La Post</cell>
+                        <cell><seg sameAs="#lapost_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
                         <expan>sextus</expan>
                       </choice></cell>
-                        <cell>7 rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
+                        <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
                     <row>
-                        <cell>La Post</cell>
+                      <cell><seg sameAs="#lapost_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
                         <expan>sextus</expan>
                       </choice></cell>
-                        <cell>7 rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
+                        <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
                     <!--[end of table content]-->
 
@@ -683,10 +685,10 @@
                             <item>Single</item>
 
                             <label><num type="roman" value="3">III</num></label>
-                            <item>Single Cash</item>
+                            <item>Single <seg xml:id="cash_0057">Cash</seg></item>
 
                             <label><num type="roman" value="4">IV</num></label>
-                            <item>Double</item>
+                            <item>Double <seg sameAs="#cash_0057">ditto</seg></item>
 
                             <label><num type="roman" value="5">V</num></label>
                             <item>Journal</item>
@@ -724,26 +726,32 @@
                             <label><num type="roman" value="12">XII</num></label>
                             <item>Faint long folio</item>
 
-                            <label><num type="roman" value="13">XIII</num></label>
+                            <label><num type="roman" value="13">XIII</num></label> <!-- JAY: This needs to be moved???? -->
                             <item>Faint &amp; date long fo</item>
 
                             <label><num type="roman" value="14">XIV</num></label>
                           <item>Faint + <choice>
                             <abbr>Com</abbr>
                             <expan>Common</expan>
-                          </choice> long fo</item>
+                          </choice> long <choice>
+                            <abbr>fo</abbr>
+                            <expan>folio</expan>
+                          </choice></item>
 
                             <label><num type="roman" value="15">XV</num></label>
                           <item>Faint &amp; <choice>
                             <abbr>dble</abbr>
                             <expan>double</expan>
-                          </choice> money long fo</item>
+                          </choice> money long <choice>
+                            <abbr>fo</abbr>
+                            <expan>folio</expan>
+                          </choice></item>
 
                             <label><num type="roman" value="16">XVI</num></label>
-                            <item><unclear resp="Pochron" reason="illegible">Tound B see pact book</unclear></item>
+                            <item><seg xml:id="journal_0057">Journal</seg> B <seg xml:id="see_0057">see</seg> <seg xml:id="backbook_0057">back book</seg></item> <!-- JAY: I need the higher resolution images for this. Should say 'back of book?' -->
 
                             <label><num type="roman" value="17">XVII</num></label>
-                            <item><unclear resp="Pochron" reason="illegible">Tound C see pact book</unclear></item>
+                            <item><seg sameAs="#journal_0057">ditto</seg> C <seg sameAs="#see_0057">ditto </seg> <seg sameAs="#backbook_0057">ditto</seg></item>
                         </list>
 
                         <cb/><!--[COLUMN BREAK]-->
@@ -752,31 +760,31 @@
                             <head>Key to Letters binding.</head>
 
                             <label>B</label>
-                          <item>bindings is full <choice>
+                          <item><seg xml:id="bindings_0057">bindings</seg> is full <choice>
                             <abbr>Com</abbr>
                             <expan>Common</expan>
                           </choice> Morocco</item>
 
                             <label>D</label>
-                          <item>bindings half <choice>
-                            <abbr>Com</abbr>
-                            <expan>Common</expan>
-                          </choice> Morocco</item>
+                            <item><seg sameAs="#bindings_0057">ditto</seg> half <choice>
+                              <abbr>Com</abbr>
+                              <expan>Common</expan>
+                            </choice> Morocco</item>
 
                             <label>E</label>
-                            <item>bindings <num type="fraction" value=".5">1/2</num> red basil as best stock</item>
+                            <item><seg sameAs="#bindings_0057">ditto</seg> <num type="fraction" value=".5">1/2</num> red basil as best stock</item>
 
                             <label>F</label>
-                            <item>bindings <num type="fraction" value=".5">1/2</num> Cut flush</item>
+                            <item><seg sameAs="#bindings_0057">ditto</seg> <num type="fraction" value=".5">1/2</num> Cut flush</item>
 
                             <label>G</label>
-                            <item>bindings roan de la rue</item>
+                            <item><seg sameAs="#bindings_0057">ditto</seg> roan de la rue</item>
 
                             <label>H</label>
-                            <item>bindings Skiver flush</item>
+                            <item><seg sameAs="#bindings_0057">ditto</seg> Skiver flush</item>
 
                             <label>I</label>
-                            <item>bindings <num type="fraction" value=".5">1/2</num> glazed <unclear resp="Pochron" reason="illegible">Capeas</unclear> best <lb/> stock</item>
+                            <item><seg sameAs="#bindings_0057">ditto</seg> <num type="fraction" value=".5">1/2</num> glazed <unclear resp="Pochron" reason="illegible">Capeas</unclear> best <lb/> stock</item>
                         </list>
                     </trailer>
                     <!--[end of trailer]-->
@@ -792,8 +800,8 @@
             <table>
               <row style="writing-mode: sideways-rl"><!--[vertically written cells]-->
                   <cell>Ruling Patterns</cell>
-                  <cell>Single Ledger</cell>
-                  <cell>Single Cash</cell>
+                  <cell><seg xml:id="single_0058">Single</seg> Ledger</cell>
+                  <cell><seg sameAs="#single_0058">ditto</seg> Cash</cell>
                   <cell>double cash</cell>
                   <cell>Journal</cell>
                   <cell>Day Book</cell>
@@ -811,18 +819,18 @@
               </row>
               <row>
                 <cell>rulings</cell>
-                <cell><num type="roman" value="2">II</num><lb/>7001-7050 to</cell>
-                <cell><num type="roman" value="3">III</num><lb/>7100 to</cell>
+                <cell><num type="roman" value="2">II</num><lb/><num>7001</num>-<num>7050</num> to</cell>
+                <cell><num type="roman" value="3">III</num><lb/><num>7100</num> to</cell>
                 <cell><num type="roman" value="4">IV</num><lb/><num style="writing-mode: sideways-rl">7150</num> to</cell>
                 <cell><num type="roman" value="5">V</num><lb/><num style="writing-mode: sideways-rl">7200</num> to</cell>
                 <cell><num type="roman" value="6">VI</num><lb/><num style="writing-mode: sideways-rl">7250</num> to</cell>
                 <cell><num type="roman" value="7">VII</num><lb/><num style="writing-mode: sideways-rl">7300</num></cell>
-                <cell><num type="roman" value="8">VIII</num><lb/>7350</cell>
-                <cell><num type="roman" value="9">IX</num><lb/>7400</cell>
-                <cell><num type="roman" value="10">X</num><lb/>7450</cell>
-                <cell><num type="roman" value="11">XI</num><lb/>7500</cell>
+                <cell><num type="roman" value="8">VIII</num><lb/><num>7350</num></cell>
+                <cell><num type="roman" value="9">IX</num><lb/><num>7400</num></cell>
+                <cell><num type="roman" value="10">X</num><lb/><num>7450</num></cell>
+                <cell><num type="roman" value="11">XI</num><lb/><num>7500</num></cell>
               </row>
-              <note>10+10=100+5=500</note>
+              <note><num>10</num>✕<num>10</num>=<num>100</num>✕<num>5</num>=<num>500</num></note> 
               <row>
                 <cell>rullings</cell>
                 <cell><num type="roman" value="2">II</num><lb/><num>8001</num> to <num style="writing-mode: sideways-rl">8050</num></cell>
@@ -838,33 +846,54 @@
               </row>
               <trailer>
                 <table>
-                  <row>
-                    <cell>Qr</cell>
-                    <cell>Qr</cell>
-                    <cell>Qr</cell>
-                    <cell>Qr</cell>
-                    <cell>Qr</cell>
-                    <cell>Qr</cell>
-                    <cell>Qr</cell>
+                  <row style="writing mode: sideways-rl">
+                    <cell><choice>
+                      <abbr>Qr</abbr>
+                      <expan>Quarter</expan>
+                    </choice></cell>
+                    <cell><choice>
+                      <abbr>Qr</abbr>
+                      <expan>Quarter</expan>
+                    </choice></cell>
+                    <cell><choice>
+                      <abbr>Qr</abbr>
+                      <expan>Quarter</expan>
+                    </choice></cell>
+                    <cell><choice>
+                      <abbr>Qr</abbr>
+                      <expan>Quarter</expan>
+                    </choice></cell>
+                    <cell><choice>
+                      <abbr>Qr</abbr>
+                      <expan>Quarter</expan>
+                    </choice></cell>
+                    <cell><choice>
+                      <abbr>Qr</abbr>
+                      <expan>Quarter</expan>
+                    </choice></cell>
+                    <cell><choice>
+                      <abbr>Qr</abbr>
+                      <expan>Quarter</expan>
+                    </choice></cell>
                   </row>
                   <row>
                     <cell><num type="fraction" value=".5">1/2</num></cell>
-                    <cell><num type="fraction" value="1">1</num></cell>
+                    <cell><num>1</num></cell>
                     <cell><num type="fraction" value="1.5">1 1/2</num></cell>
-                    <cell><num type="fraction" value="2">2</num></cell>
+                    <cell><num>2</num></cell>
                     <cell><num type="fraction" value="2.5">2 1/2</num></cell>
-                    <cell><num type="fraction" value="3">3</num></cell>
+                    <cell><num>3</num></cell>
                     <cell><num type="fraction" value="3.5">3 1/2</num></cell>
-                    <cell><num type="fraction" value="4">4</num></cell>
+                    <cell><num>4</num></cell>
                     <cell><num type="fraction" value="4.5">4 1/2</num></cell>
-                    <cell><num type="fraction" value="5">5</num></cell>
+                    <cell><num>5</num></cell>
                   </row>
                   <note><unclear resp="Pochron">num</unclear> <choice>
                     <abbr>4to</abbr>
                     <expan>quarto</expan>
                   </choice></note>
                   <trailer>
-                    10 thickness <lb/> 5 bindings <lb/> B &#8729; D &#8729; E &#8729; F &#8729; I &#8729;
+                    <num>10</num> thickness <lb/> <num>5</num> bindings <lb/> B ∙ D ∙ E ∙ F ∙ I ∙
                   </trailer>
                 </table>
               </trailer>
@@ -874,22 +903,22 @@
             <!--[start of table]-->
             <table>
               <row>
-                <cell>3 thicknesses</cell>
-                <cell>18 &#8729; 24 &#8729; 36 sheet</cell>
-                <cell>84</cell>
-                <cell>637 to 720</cell>
+                <cell><num>3</num> <seg xml:id="thicknesses_0058">thicknesses</seg></cell>
+                <cell><num>18</num> ∙ <num>24</num> ∙ <num>36</num> <seg xml:id="sheet_0058">sheet</seg></cell>
+                <cell><num>84</num></cell>
+                <cell><num>637</num> to <num>720</num></cell>
               </row>
               <row>
-                <cell>3 thicknesses</cell>
-                <cell>18 &#8729; 24 &#8729; 36 sheet</cell>
-                <cell>126</cell>
-                <cell>721 to 846</cell>
+                <cell><num>3</num> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
+                <cell><num>18</num> ∙ <num>24</num> ∙ <num>36</num> <seg sameAs="#sheet_0058">ditto</seg></cell>
+                <cell><num>126</num></cell>
+                <cell><num>721</num> to <num>846</num></cell>
               </row>
               <row>
-                <cell>6 thicknesses</cell>
-                <cell>6 9 12 18 24 30</cell>
-                <cell>252</cell>
-                <cell>847 to 1098</cell>
+                <cell><num>6</num> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
+                <cell><num>6</num> <num>9</num> <num>12</num> <num>18</num> <num>24</num> <num>30</num></cell>
+                <cell><num>252</num></cell>
+                <cell><num>847</num> to <num>1098</num></cell>
               </row>
             </table>
             <!--[end of table]-->
@@ -899,22 +928,22 @@
             <!--[start of table]-->
             <table>
               <row>
-                <cell>3 thicknesses</cell>
-                <cell>18 &#8729; 24 &#8729; 36 &#8729; 48 &#8729;</cell>
-                <cell>84</cell>
-                <cell>9001 to 9084 and 9601 -</cell>
+                <cell><num>3</num> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
+                <cell><num>18</num> ∙ <num>24</num> ∙ <num>36</num> ∙ <num>48</num> ∙</cell>
+                <cell><num>84</num></cell>
+                <cell><num>9001</num> to <num>9084</num> and <num>9601</num> -</cell>
               </row>
               <row>
-                <cell>3 thicknesses</cell>
-                <cell>18 &#8729; 24 &#8729; 36 &#8729;</cell>
-                <cell>126</cell>
-                <cell>9085 to 9210</cell>
+                <cell><num>3</num> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
+                <cell><num>18</num> ∙ <num>24</num>24 ∙ <num>36</num> ∙</cell>
+                <cell><num>126</num></cell>
+                <cell><num>9085</num> to <num>9210</num></cell>
               </row>
               <row>
-                <cell>8 <abbr>thicks</abbr></cell>
-                <cell>5 &#8729; 8 &#8729; 10 &#8729; 12 &#8729; 18 &#8729; <lb/> 24 &#8729; 30 &#8729; 36</cell>
-                <cell>336</cell>
-                <cell>9211 to 9546</cell>
+                <cell><num>8</num> <abbr>thicks</abbr> <seg sameAs="#thicknesses_0058">ditto</seg></cell> <!-- JAY: Thicks...twice? -->
+                <cell><num>5</num> ∙ <num>8</num> ∙ <num>10</num> ∙ <num>12</num> ∙ <num>18</num> ∙ <lb/> <num>24</num> ∙ <num>30</num> ∙ <num>36</num></cell>
+                <cell><num>336</num></cell>
+                <cell><num>9211</num> to <num>9546</num></cell>
               </row>
             </table>
             <!--[end of table]-->
@@ -923,9 +952,9 @@
 
             <table>
               <row>
-                <cell>3 thickness</cell>
-                <cell>18 &#8729; 24 &#8729; 36 &#8729;</cell>
-                <cell>84</cell>
+                <cell><num>3</num> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
+                <cell><num>18</num> ∙ <num>24</num> ∙ <num>36</num> ∙</cell>
+                <cell><num>84</num></cell>
                 <cell>to</cell>
               </row>
             </table>
@@ -935,36 +964,36 @@
             <!--[start of table]-->
             <table>
               <row>
-                <cell>3 <figure>
+                <cell><num>3</num> <figure>
                   <figDesc>Mathematical formula 1</figDesc>
                   <graphic url="CC20181003_Townsend_0058_formula1.png"/>
-                  </figure> thicknesses</cell>
-                <cell>18 &#8729; 24 &#8729; 36 &#8729;</cell>
-                <cell>84</cell>
-                <cell>10001 to 10084</cell>
+                  </figure> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
+                <cell><num>18</num> ∙ <num>24</num> ∙ <num>36</num> ∙</cell>
+                <cell><num>84</num></cell>
+                <cell><num>10001</num> to <num>10084</num></cell>
               </row>
               <row>
-                <cell>3 <figure>
+                <cell><num>3</num> <figure>
                   <figDesc>Mathematical formula 2</figDesc>
                   <graphic url="CC20181003_Townsend_0058_formula2.png"/>
-                  </figure> thicknesses</cell>
-                <cell>18 24 36</cell>
-                <cell>126</cell>
-                <cell>10085 to 10210</cell>
+                  </figure> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
+                <cell><num>18</num> <num>24</num> <num>36</num></cell>
+                <cell><num>126</num></cell>
+                <cell><num>10085</num> to <num>10210</num></cell>
               </row>
               <row>
-                <cell>3 <figure>
+                <cell><num>3</num> <figure>
                   <figDesc>Mathematical formula 3</figDesc>
                   <graphic url="CC20181003_Townsend_0058_formula3.png"/>
-                  </figure> thicknesses</cell>
-                <cell>12 18 24 30 36</cell>
-                <cell>210</cell>
-                <cell>10211 to 10420</cell>
+                  </figure> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
+                <cell><num>12</num> <num>18</num> <num>24</num> <num>30</num> <num>36</num></cell>
+                <cell><num>210</num></cell>
+                <cell><num>10211</num> to <num>10420</num></cell>
               </row>
               <row>
                 <cell></cell>
                 <cell></cell>
-                <cell style="border-top-style: solid">1512</cell>
+                <cell style="border-top-style: solid"><num>1512</num></cell>
               </row>
             </table>
             <!--[end of table]-->
@@ -975,20 +1004,20 @@
             <table>
               <row>
                 <cell>Bills Receivable + Payable</cell>
-                <cell>10609, 10610</cell>
+                <cell><num>10609</num>, <num>10610</num></cell>
               </row>
               <row>
                 <cell>Bills Receivable</cell>
-                <cell>10617</cell>
+                <cell><num>10617</num></cell>
               </row>
               <row>
                 <cell>Goods Delivery</cell>
-                <cell>10502, 10521</cell>
+                <cell><num>10502</num>, <num>10521</num></cell>
               </row>
             </table>
             <!--[end of table]-->
 
-            <ab>La post 12s 80 leaf surface paper as CJ to 10937</ab>
+            <ab>La post 12s 80 leaf surface paper as CJ to <num>10937</num></ab>
             <ab>To <num type="pageNum">59</num></ab>
 
             </div>
