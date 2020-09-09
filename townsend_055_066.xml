@@ -1017,7 +1017,10 @@
             </table>
             <!--[end of table]-->
 
-            <ab>La post 12s 80 leaf surface paper as CJ to <num>10937</num></ab>
+            <ab>La post 12<choice>
+              <abbr>s</abbr>
+              <expan>shillings</expan>
+            </choice> 80 leaf surface paper as CJ to <num>10937</num></ab> <!-- JAY: Check to make sure "shilings" makes sense here -->
             <ab>To <num type="pageNum">59</num></ab>
 
             </div>
