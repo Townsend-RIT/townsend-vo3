@@ -1037,19 +1037,19 @@
               <list>
                 <head>Rulings</head>
                 <label><num type="roman" value="1">I</num></label>
-                <item>Double Ledger</item>
+                <item>Double <seg xml:id="ledger_0059">Ledger</seg></item>
                 <label><num type="roman" value="2">II</num></label>
-                <item>Single Ledger</item>
+                <item>Single <seg sameAs="#ledger_0059">ditto</seg></item>
                 <label><num type="roman" value="3">III</num></label>
-                <item>Single Cash with head line</item>
+                <item>Single <seg xml:id="cash_0059">Cash</seg> with head line</item>
                 <label><num type="roman" value="4">IV</num></label>
-                <item>Double Cash with head line</item>
+                <item>Double <seg sameAs="#cash_0059">ditto</seg></item>
                 <label><num type="roman" value="5">V</num></label>
                 <item>Journal</item>
                 <label><num type="roman" value="6">VI</num></label>
-                <item>Day Book faint head &amp; single cash</item>
+                <item>Day <seg xml:id="book_0059">Book</seg> faint head &amp; single cash</item>
                 <label><num type="roman" value="7">VII</num></label>
-                <item>Order Biij faint &amp; date and head</item>
+                <item>Order <seg sameAs="#book_0059">ditto</seg> faint &amp; date and head</item>
                 <label><num type="roman" value="8">VIII</num></label>
                 <item>Faint <choice>
                   <abbr>thro</abbr>
@@ -1071,25 +1071,16 @@
                   <expan>through</expan>
                 </choice></item>
                 <label><num type="roman" value="12">XII</num></label>
-                <item>Faint ------ Long Folio <choice>
+                <item>Faint ------ <seg xml:id="longfolio_0059">Long Folio</seg> <seg xml:id="thru_0059"><choice>
                   <abbr>thro</abbr>
                   <expan>through</expan>
-                </choice></item>
+                </choice></seg></item>
                 <label><num type="roman" value="13">XIII</num></label>
-                <item>Faint and date -- Long Folio <choice>
-                  <abbr>thro</abbr>
-                  <expan>through</expan>
-                </choice></item>
+                <item>Faint and date -- <seg sameAs="#longfolio_0059">ditto</seg> <seg sameAs="#thru_0059">ditto</seg></item>
                 <label><num type="roman" value="14">XIV</num></label>
-                <item>Faint and Common - Long Folio <choice>
-                  <abbr>thro</abbr>
-                  <expan>through</expan>
-                </choice></item>
+                <item>Faint and Common - <seg sameAs="#longfolio_0059">ditto</seg> <seg sameAs="#thru_0059">ditto</seg></item>
                 <label><num type="roman" value="15">XV</num></label>
-                <item>Faint and double money - Long Folio <choice>
-                  <abbr>thro</abbr>
-                  <expan>through</expan>
-                </choice></item>
+                <item>Faint and double money - <seg sameAs="#longfolio_0059">ditto</seg> <seg sameAs="#thru_0059">ditto</seg></item>
               </list>
               <!--[end of list]-->
 
@@ -1126,7 +1117,7 @@
                   <cell xml:id="bracketStart_0059">4</cell>
                   <cell>5</cell>
                   <cell xml:id="bracketEnd_0059">6</cell>
-                  <cell>sheets per Frank J. <lb/> per ream</cell>
+                  <cell>sheets per <name>Frank J.</name> <lb/> per ream</cell> <!-- JAY: Probably person, but better safe than sorry -->
                 </row>
                 <note target="#bracketStart_0059" targetEnd="#bracketEnd_0059" rend="braced">printed</note>
               </table>
