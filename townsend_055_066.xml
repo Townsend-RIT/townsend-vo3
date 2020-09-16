@@ -1133,14 +1133,14 @@
               <!--[start of list]-->
               <list>
                 <head>Bindings</head>
-                <label>A</label><item>Full Rough Calf extra</item>
-                <label>B</label><item>Fill Common Corocco extra</item>
-                <label>C</label><item>Half Rough Calf extra</item>
-                <label>D</label><item>Half Common Morocco extra</item>
-                <label>E</label><item>Half Red Bazil as best stock</item>
-                <label>F</label><item>Half Cut flush</item>
-                <label>G</label><item>Full Roan de la rue style</item>
-                <label>H</label><item>Full SKiver flush</item>
+                <label>A</label><item><seg xml:id="full1_0060">Full</seg> Rough Calf extra</item>
+                <label>B</label><item><seg sameAs="#full1_0060">ditto</seg> Common Morocco extra</item>
+                <label>C</label><item><seg xml:id="half_0060">Half</seg> Rough Calf extra</item>
+                <label>D</label><item><seg sameAs="#half_0060">ditto</seg> Common Morocco extra</item>
+                <label>E</label><item><seg sameAs="#half_0060">ditto</seg> Red Bazil as best stock</item>
+                <label>F</label><item><seg sameAs="#half_0060">ditto</seg> Cut flush</item>
+                <label>G</label><item><seg xml:id="full2_0060">Full</seg> Roan de la rue style</item>
+                <label>H</label><item><seg sameAs="#full2_0060">ditto</seg> SKiver flush</item>
                 <label>I</label><item>Half Glazed Cape as Best Stock</item>
                 <label>J</label><item></item>
                 <label>K</label><item></item>
