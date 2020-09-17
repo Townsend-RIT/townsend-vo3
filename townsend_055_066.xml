@@ -466,7 +466,7 @@
                         <expan>double</expan>
                       </choice></abbr> money folio <choice>
                         <sic>tine</sic>
-                        <corr>time</corr> <!-- JAY: I forgot if sic/corr is the one we kept. double check -->
+                        <corr>time</corr>
                       </choice> <choice> 
                         <abbr>thro</abbr>
                         <expan>through</expan>
@@ -590,8 +590,8 @@
                         <expan>Foolscap</expan>
                       </choice> <num>1</num> to <num>2000</num></hi></cell>
                         <cell><seg xml:id="foolscap_0057">Foolscap</seg></cell>
-                        <cell><choice> <!-- JAY: Should things like "quarto" be considered numbers? -->
-                          <abbr>4to</abbr>
+                        <cell><choice> <!-- JAY: Tag all 4to things as <measure> -->
+                          <abbr>4to</abbr> 
                           <expan>quarto</expan>
                         </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
@@ -726,7 +726,7 @@
                             <label><num type="roman" value="12">XII</num></label>
                             <item>Faint long folio</item>
 
-                            <label><num type="roman" value="13">XIII</num></label> <!-- JAY: This needs to be moved???? -->
+                            <label><num type="roman" value="13">XIII</num></label>
                             <item>Faint &amp; date long fo</item>
 
                             <label><num type="roman" value="14">XIV</num></label>
@@ -940,7 +940,10 @@
                 <cell><num>9085</num> to <num>9210</num></cell>
               </row>
               <row>
-                <cell><num>8</num> <abbr>thicks</abbr> <seg sameAs="#thicknesses_0058">ditto</seg></cell> <!-- JAY: Thicks...twice? -->
+                <cell><num>8</num> <choice>
+                  <abbr>thicks</abbr>
+                  <expan>Thicknesses</expan>
+                </choice> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
                 <cell><num>5</num> ∙ <num>8</num> ∙ <num>10</num> ∙ <num>12</num> ∙ <num>18</num> ∙ <lb/> <num>24</num> ∙ <num>30</num> ∙ <num>36</num></cell>
                 <cell><num>336</num></cell>
                 <cell><num>9211</num> to <num>9546</num></cell>
@@ -1020,7 +1023,10 @@
             <ab>La post 12<choice>
               <abbr>s</abbr>
               <expan>shillings</expan>
-            </choice> 80 leaf surface paper as CJ to <num>10937</num></ab> <!-- JAY: Check to make sure "shilings" makes sense here -->
+            </choice> 80 leaf surface paper as <orgName>CJ <choice>
+              <abbr>Co</abbr>
+              <expan>Company</expan>
+            </choice></orgName> <num>10937</num></ab>
             <ab>To <num type="pageNum">59</num></ab>
 
             </div>
@@ -1097,14 +1103,20 @@
                     <abbr>4to</abbr>
                     <expan>quarto</expan>
                   </choice></cell>
-                  <cell>Single<lb/>Led</cell>
+                  <cell>Single<lb/><choice>
+                    <abbr>Led</abbr>
+                    <expan>Ledger</expan>
+                  </choice></cell>
                   <cell><choice>
                     <abbr>dble</abbr>
                     <expan>double</expan>
-                  </choice><lb/>Led</cell>
+                  </choice><lb/><choice>
+                    <abbr>Led</abbr>
+                    <expan>Ledger</expan>
+                  </choice></cell>
                   <cell>intricate</cell>
-                  <cell>Very<lb/><unclear resp="Pochron">urty</unclear><lb/><unclear resp="Pochron">cate</unclear></cell>
-                  <cell>Very<lb/>Very<lb/><unclear resp="Pochron">wbruce</unclear></cell>
+                  <cell>Very<lb/>intri<lb/>cate</cell>
+                  <cell>Very<lb/>Very<lb/><unclear resp="JL">intraca</unclear></cell>
                   <cell></cell>
                 </row>
                 <row>
@@ -1117,7 +1129,7 @@
                   <cell xml:id="bracketStart_0059">4</cell>
                   <cell>5</cell>
                   <cell xml:id="bracketEnd_0059">6</cell>
-                  <cell>sheets per <name>Frank J.</name> <lb/> per ream</cell> <!-- JAY: Probably person, but better safe than sorry -->
+                  <cell>sheets per <persName>Frank J.</persName> <lb/> per ream</cell>
                 </row>
                 <note target="#bracketStart_0059" targetEnd="#bracketEnd_0059" rend="braced">printed</note>
               </table>
