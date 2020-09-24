@@ -1215,8 +1215,6 @@
       <pb n="053" facs="CC20181003_Townsend_0053.tif"/>
       <fw type="page_number" place="top">15</fw>
       
-        <!-- JAY: This page definitely had someone come in at a later date and modify things. Time to think about <add> and <del>.-->
-        <!-- JAY: Put checkmarks <lb/> in rows, <add><del> for the things crossed out. -->
         <table rows="11" cols="3"><!--[start of table]-->
           <head style="text-decoration: underline">Makers
             <lb/>New Price Book</head> <!-- TODO: Underline only under "New Price Book" -->
@@ -1224,7 +1222,7 @@
             <cell><choice>
               <abbr>№</abbr>
               <expan>Number</expan>
-            </choice> of Vols</cell><!--[numero unicode]-->
+            </choice> of Vols</cell>
             <cell></cell>
             <cell></cell>
           </row>
@@ -1239,50 +1237,37 @@
           <row>
             <cell><num>1</num></cell>
             <cell>Demy</cell>
-            <cell><num>2001</num> to <num>3000</num></cell>
+            <cell><num>2001</num> to <num>3000</num>
+            <lb/><handShift medium="pencil"/>28</cell>
           </row>
-          
-          <note place="inline"> <!-- Is there any way to signify that it's between the "to"s? -->
-            <handShift medium="pencil"/>28
-          </note>
           
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Medium</cell>
-            <cell><num>3001</num> to <num>4000</num></cell>
+            <cell><num>3001</num> to <num>4000</num>
+            <lb/><handShift medium="pencil"/>✓</cell>
           </row>
-          
-          <note place="inline">
-            <handShift medium="pencil"/>✓ <!-- Checkmark unicode -->
-          </note>
           
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Royal</cell>
-            <cell><num>4001</num> to <num>5000</num> <handShift medium="pencil"/>✓</cell>
+            <cell><num>4001</num> to <num>5000</num> <handShift medium="pencil"/>✓
+              <lb/>✓</cell>
           </row>
-          
-          <note place="inline">
-            ✓ <!-- Checkmark unicode -->
-          </note>
           
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Super Royal</cell>
-            <cell><num>5001</num> to <num>6000</num></cell>
+            <cell><num>5001</num> to <num>6000</num>
+            <lb/><handShift medium="pencil"/>✓</cell>
           </row>
-          <note place="inline">
-            <handShift medium="pencil"/>✓
-          </note>
+          
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Imperial</cell>
-            <cell><num>6001</num> to <num>6300</num> <handShift medium="pencil"/><num>7000</num></cell>
+            <cell><num>6001</num> to <del><num>6300</num></del> <add><handShift medium="pencil"/><num>7000</num></add>
+            <lb/>✓</cell>
           </row>
-          
-          <note place="inline">
-            ✓
-          </note>
           
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
@@ -1291,26 +1276,26 @@
               <expan>Foolscap</expan>
             </choice></seg> 
               <lb/> <seg sameAs="#sheet_0053">ditto</seg> + Half <seg sameAs="#fcap_0053">ditto</seg></cell>
-            <cell><num>7001</num> to <num>7500</num> <handShift medium="pencil"/>8000 
-              <lb/><handShift medium="ink"/> <num>8001</num> to <num>8500</num> <handShift medium="pencil"/>9000</cell>
+            <cell><num>7001</num> to <del><num>7500</num></del> <add><handShift medium="pencil"/><num>8000</num></add> 
+              <lb/><handShift medium="ink"/> <num>8001</num> to <del><num>8500</num></del> <add><handShift medium="pencil"/><num>9000</num></add></cell>
           </row>
 
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Post</cell>
-            <cell><num>9001</num> to <num>9700</num> <handShift medium="pencil"/>10000</cell>
+            <cell><num>9001</num> to <del><num>9700</num></del> <handShift medium="pencil"/><add><num>10000</num></add></cell>
           </row>
 
           <row>
             <cell><handShift medium="ink"/><num>1</num></cell>
             <cell>Large Post</cell>
-            <cell><num>100001</num> to <num>10700</num> <handShift medium="pencil"/>11000</cell>
+            <cell><num>100001</num> to <del><num>10700</num></del> <handShift medium="pencil"/><add><num>11000</num></add></cell>
           </row>
 
           <row>
             <cell cols="3"><handShift medium="ink"/><emph style="text-decoration-line: underline; text-decoration-style: double;"><num>10</num> vols</emph></cell>
             <cell></cell>
-            <cell><handShift medium="pencil"/>11001 to 12000<handShift medium="ink"/></cell>
+            <cell><handShift medium="pencil"/><num>11011</num> to <num>12000</num><handShift medium="ink"/></cell>
           </row>
         </table><!--[end of table]-->
       <!--[End of PAGE 53]-->
