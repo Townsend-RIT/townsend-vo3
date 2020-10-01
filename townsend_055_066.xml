@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
     <body>
-        <!--[TODO: Find examples for the Meeting Minutes document on the Drive, abbreviate 4to, 6s, 8vo, thro, com, folio(?), dble, fo (FIND + REPLACE ALL), add <table> with trailer to IED for examples, add <num> elements to ALL numbers, read and apply SARAH's braces notes, look over addresses]-->
+        <!--[TODO: Find examples for the Meeting Minutes document on the Drive, abbreviate thro, com, folio(?), dble, fo (FIND + REPLACE ALL), add <table> with trailer to IED for examples, add <num> elements to ALL numbers, read and apply SARAH's braces notes, look over addresses]-->
 
         <!--[
         ENCODER SHORTHAND REFERENCES:
@@ -590,9 +590,9 @@
                         <expan>Foolscap</expan>
                       </choice> <num>1</num> to <num>2000</num></hi></cell>
                         <cell><seg xml:id="foolscap_0057">Foolscap</seg></cell>
-                        <cell><choice> <!-- JAY: Tag all 4to things as <measure> -->
+                        <cell><choice>
                           <abbr>4to</abbr> 
-                          <expan>quarto</expan>
+                          <expan><measure>quarto</measure></expan> <!-- JAY: Measure needs a type. God help us all. -->
                         </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
@@ -600,7 +600,7 @@
                         <cell><seg sameAs="#foolscap_0057">ditto</seg></cell>
                         <cell><choice>
                           <abbr>6s</abbr>
-                          <expan>sextus</expan>
+                          <expan><measure>sextus</measure></expan>
                         </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
@@ -608,7 +608,7 @@
                       <cell><seg sameAs="#foolscap_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>8vo</abbr>
-                        <expan>octavo</expan>
+                        <expan><measure>octavo</measure></expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
@@ -617,7 +617,7 @@
                         <cell><seg xml:id="post_0057">Post</seg></cell>
                       <cell><choice>
                         <abbr>4to</abbr>
-                        <expan>quarto</expan>
+                        <expan><measure>quarto</measure></expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num> <num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> 9001 - 9700</hi></cell>
                     </row>
@@ -625,7 +625,7 @@
                         <cell><seg sameAs="#post_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
-                        <expan>sextus</expan>
+                        <expan><measure>sextus</measure></expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num></hi></cell>
                     </row>
@@ -633,7 +633,7 @@
                       <cell><seg sameAs="#post_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>8vo</abbr>
-                        <expan>octavo</expan>
+                        <expan><measure>octavo</measure></expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num></hi></cell>
                     </row>
@@ -642,7 +642,7 @@
                         <cell>Demy</cell>
                       <cell><choice>
                         <abbr>4to</abbr>
-                        <expan>quarto</expan>
+                        <expan><measure>quarto</measure></expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
@@ -651,7 +651,7 @@
                         <cell><seg xml:id="lapost_0057">La Post</seg></cell>
                       <cell><choice>
                         <abbr>4to</abbr>
-                        <expan>quarto</expan>
+                        <expan><measure>quarto</measure></expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
@@ -659,7 +659,7 @@
                         <cell><seg sameAs="#lapost_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
-                        <expan>sextus</expan>
+                        <expan><measure>sextus</measure></expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
@@ -667,7 +667,7 @@
                       <cell><seg sameAs="#lapost_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
-                        <expan>sextus</expan>
+                        <expan><measure>sextus</measure></expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
@@ -890,7 +890,7 @@
                   </row>
                   <note><unclear resp="Pochron">num</unclear> <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></note>
                   <trailer>
                     <num>10</num> thickness <lb/> <num>5</num> bindings <lb/> B ∙ D ∙ E ∙ F ∙ I ∙
@@ -1101,7 +1101,7 @@
                   </choice></cell>
                   <cell>long<lb/><choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                   <cell>Single<lb/><choice>
                     <abbr>Led</abbr>
@@ -1231,7 +1231,7 @@
                     <expan>Foolscap</expan>
                   </choice> long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice> faint + Common <lb/>then follows indexs as below</cell>
                 </row>
                 <row>
@@ -1267,7 +1267,7 @@
                   <cell>1546-1557</cell>
                   <cell>La post <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice> Indexs</cell>
                 </row>
                 <row>
@@ -1282,14 +1282,14 @@
                   <cell>1582-1593</cell>
                   <cell>Demy <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice> Indexs</cell>
                 </row>
                 <row>
                   <cell>1594-1605</cell>
                   <cell>Foolscap <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice> Indexs</cell>
                 </row>
                 <trailer>
@@ -1350,7 +1350,7 @@
               	    <expan>Foolscap</expan>
               	  </choice> <choice>
               	    <abbr>8vo</abbr>
-              	    <expan>octavo</expan>
+              	    <expan><measure>octavo</measure></expan>
               	  </choice> Bank pattern Roan de la rue</cell>
               	</row>
               	<row>
@@ -1391,7 +1391,7 @@
               	    <expan>Foolscap</expan>
               	  </choice> <choice>
               	    <abbr>4to</abbr>
-              	    <expan>quarto</expan>
+              	    <expan><measure>quarto</measure></expan>
               	  </choice> margin no White Vellum</cell>
               	</row>
               	<row>
@@ -1453,7 +1453,7 @@
                   <cell>9571</cell>
                   <cell>12 sh post <choice>
                     <abbr>8vo</abbr>
-                    <expan>ocatvo</expan>
+                    <expan><measure>ocatvo</measure></expan>
                   </choice> bank patt Roan de la rue</cell>
                 </row>
                 <note place="below"><unclear>0JM 21</unclear></note>
@@ -1465,7 +1465,7 @@
                   <cell>9717</cell>
                   <cell>42 sh post in <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice> hd <choice>
                     <abbr>dble</abbr>
                     <expan>double</expan>
@@ -1501,7 +1501,7 @@
                 <label>E C 3</label>
                 <item>faint + common in long <choice>
                   <abbr>4to</abbr>
-                  <expan>quarto</expan>
+                  <expan><measure>quarto</measure></expan>
                 </choice></item>
                 <label>E C 4</label>
                 <item>Single Ledger</item>
@@ -1520,35 +1520,35 @@
                   <cell>Nº10</cell>
                   <cell>Medium <choice>
                     <abbr>8vos</abbr>
-                    <expan>octavos</expan>
+                    <expan><measure>octavos</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Large Post <choice>
                     <abbr>8vos</abbr>
-                    <expan>octavos</expan>
+                    <expan><measure>octavos</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Demy <choice>
                     <abbr>8vos</abbr>
-                    <expan>octavos</expan>
+                    <expan><measure>octavos</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Post <choice>
                     <abbr>8vos</abbr>
-                    <expan>octavos</expan>
+                    <expan><measure>octavos</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell>Nº11</cell>
                   <cell>Foolscap <choice>
                     <abbr>8vos</abbr>
-                    <expan>octavos</expan>
+                    <expan><measure>octavos</measure></expan>
                   </choice></cell>
                 </row>
               </table>
@@ -1567,147 +1567,147 @@
                   <cell>Nº6</cell>
                   <cell>Imperial folio and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Super Royal and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Royal and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell>Nº7</cell>
                   <cell>Medium folio and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Large Post and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Demy and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Imperial broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Super Royal broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Royal broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell>Nº8</cell>
                   <cell>Foolscap folio and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Sheet + half and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Sheet + thirds and long <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Medium broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Large post broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Demy broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell>Nº9</cell>
                   <cell>Foolscap broad <choice>
                     <abbr>4to</abbr>
-                    <expan>quarto</expan>
+                    <expan><measure>quarto</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Imperial <choice>
                     <abbr>8vos</abbr>
-                    <expan>octavos</expan>
+                    <expan><measure>octavos</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Super Royal <choice>
                     <abbr>8vos</abbr>
-                    <expan>octavos</expan>
+                    <expan><measure>octavos</measure></expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Royal <choice>
                     <abbr>8vos</abbr>
-                    <expan>octavos</expan>
+                    <expan><measure>octavos</measure></expan>
                   </choice></cell>
                 </row>
               </table>
