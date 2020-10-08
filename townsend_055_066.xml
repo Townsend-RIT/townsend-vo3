@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
     <body>
-        <!--[TODO: Find examples for the Meeting Minutes document on the Drive, abbreviate thro, com, folio(?), dble, fo (FIND + REPLACE ALL), add <table> with trailer to IED for examples, add <num> elements to ALL numbers, read and apply SARAH's braces notes, look over addresses]-->
+        <!--[TODO: Find examples for the Meeting Minutes document on the Drive, abbreviate folio(?), add <table> with trailer to IED for examples, add <num> elements to ALL numbers, read and apply SARAH's braces notes, look over addresses]-->
 
         <!--[
         ENCODER SHORTHAND REFERENCES:
@@ -457,7 +457,10 @@
                     </row>
                     <row>
                       <cell><num>221</num> - <num>238</num></cell>
-                      <cell cols="2">Flush <num>1</num> to <num>3</num>qrs in the above <lb/> <num>6</num> ways = <num>18</num></cell>
+                      <cell cols="2">Flush <num>1</num> to <num>3</num><choice>
+                        <abbr>qrs</abbr>
+                        <expan>quarters</expan>
+                      </choice> in the above <lb/> <num>6</num> ways = <num>18</num></cell>
                     </row>
                     <row>
                       <cell><num>291</num> - <num>2300</num></cell>
@@ -492,7 +495,10 @@
                         <lb/> ABCDE <num>3001</num> - <num>3100</num></cell>
                     </row>
                     <row>
-                      <cell cols="2">Flush <num>1</num> to <num>3</num> qrs in the above <num>2</num> ways</cell>
+                      <cell cols="2">Flush <num>1</num> to <num>3</num> <choice>
+                        <abbr>qrs</abbr>
+                        <expan>quarters</expan>
+                      </choice> in the above <num>2</num> ways</cell>
                     </row>
                     <row>
                       <cell><num>800</num> <choice>
@@ -1173,8 +1179,8 @@
               <!--[start of table]-->
               <table>
                 <row>
-                  <cell>1401 to 1410</cell>
-                  <cell>Foolscap faint folio &amp; <choice>
+                  <cell><num>1401</num> to <num>1410</num></cell>
+                  <cell>Foolscap faint folio &amp; <choice> <!-- JAY: The folio here is actually ditto marked in/written above; do we want to silently regularize this? -->
                     <abbr>dble</abbr>
                     <expan>double</expan>
                   </choice> money broad <lb/> <choice>
@@ -1183,49 +1189,64 @@
                   </choice> folio</cell>
                 </row>
                 <row>
-                  <cell>1411-1420</cell>
+                  <cell><num>1411</num>-<num>1420</num></cell>
                   <cell><choice>
                     <abbr>Fcap</abbr>
                     <expan>Foolscap</expan>
-                  </choice> broad fo faint only <num type="fraction" value=".5">1/2</num> Moroon roan <lb/> as faint fined stock</cell>
+                  </choice> broad <choice>
+                    <abbr>fo</abbr>
+                    <expan>folio</expan>
+                  </choice> faint only <num type="fraction" value=".5">1/2</num> Moroon roan <lb/> as faint fined stock</cell>
                 </row>
                 <row>
-                  <cell>1421-1430</cell>
-                  <cell><choice>
+                  <cell><num>1421</num>-<num>1430</num></cell>
+                  <cell><seg xml:id="fcap_0060"><choice>
                     <abbr>Fcap</abbr>
                     <expan>Foolscap</expan>
-                  </choice> broad fo Cash Books printed Morc</cell>
+                  </choice></seg> <seg xml:id="broad_0060">broad</seg> <choice>
+                    <abbr>fo</abbr>
+                    <expan>folio</expan>
+                  </choice> Cash Books printed Morc</cell>
                 </row>
                 <row>
-                  <cell>1431-1440</cell>
-                  <cell><choice>
-                    <abbr>Fcap</abbr>
-                    <expan>Foolscap</expan>
-                  </choice> broad faint head fo 3 money <num type="fraction" value=".5">1/2</num></cell>
+                  <cell><num>1431</num>-<num>1440</num></cell>
+                  <cell><seg sameAs="#fcap_0060">ditto</seg> <seg sameAs="#broad_0060">ditto</seg> <seg xml:id="faint_0060">faint</seg> <seg xml:id="head_0060">head</seg> <seg xml:id="fo_0060"><choice>
+                    <abbr>fo</abbr>
+                    <expan>folio</expan>
+                  </choice></seg> <seg xml:id="three_0060"><num>3</num></seg> <seg xml:id="money_0060">money</seg> <num type="fraction" value=".5">1/2</num></cell>
                 </row>
                 <row>
-                  <cell>1441-1450</cell>
-                  <cell><choice>
-                    <abbr>Fcap</abbr>
-                    <expan>Foolscap</expan>
-                  </choice> broad faint head fo 3 money <num type="fraction" value=".5">1/2</num> Morc</cell>
+                  <cell><num>1441</num>-<num>1450</num></cell>
+                  <cell><seg sameAs="#fcap_0060">ditto</seg> <seg sameAs="#broad_0060">ditto</seg> <seg sameAs="#faint_0060">ditto</seg> <seg sameAs="#head_0060">ditto</seg> <seg sameAs="#fo_0060">ditto</seg> <seg sameAs="#three_0060">ditto</seg> <seg sameAs="#money_0060">ditto</seg> <num type="fraction" value=".5">1/2</num> <choice>
+                    <abbr>Morc</abbr>
+                    <expan>Morocco</expan>
+                  </choice></cell>
                 </row>
                 <row>
-                  <cell>1481-1484</cell>
+                  <cell><num>1481</num>-<num>1484</num></cell>
                   <cell><choice>
                     <abbr>Fcap</abbr>
                     <expan>Foolscap</expan>
-                  </choice> 4 qrs ft &amp; date &amp; ft &amp; <choice>
+                  </choice> <num>4</num> <choice>
+                    <abbr>qrs</abbr>
+                    <expan><measure>quarters</measure></expan>
+                  </choice> <choice>
+                    <abbr>ft</abbr>
+                    <expan>faint</expan>
+                  </choice> &amp; date &amp; <choice>
+                    <abbr>ft</abbr>
+                    <expan>faint</expan>
+                  </choice> &amp; <choice>
                     <abbr>dble</abbr>
                     <expan>double</expan>
                   </choice> money Flush</cell>
                 </row>
                 <row>
-                  <cell>1487</cell>
+                  <cell><num>1487</num></cell>
                   <cell>Faint only</cell>
                 </row>
                 <row>
-                  <cell>1491-1500</cell>
+                  <cell><num>1491</num>-<num>1500</num></cell>
                   <cell><choice>
                     <abbr>Fcap</abbr>
                     <expan>Foolscap</expan>
@@ -1235,8 +1256,11 @@
                   </choice> faint + Common <lb/>then follows indexs as below</cell>
                 </row>
                 <row>
-                  <cell>1485</cell>
-                  <cell><num type="fraction" value="1.5">1 1/2</num> qr faint &amp; date <num type="fraction" value=".5">1/2</num> flush foolscap</cell>
+                  <cell><num>1485</num></cell>
+                  <cell><num type="fraction" value="1.5">1 1/2</num> <choice>
+                    <abbr>qrs</abbr>
+                    <expan>quarters</expan>
+                  </choice> faint &amp; date <num type="fraction" value=".5">1/2</num> flush foolscap</cell>
                 </row>
               </table>
 
@@ -1244,53 +1268,53 @@
 
               <table>
                 <row>
-                  <cell>1501-1509</cell>
-                  <cell>Imperial Indexs</cell>
+                  <cell><num>1501</num>-<num>1509</num></cell>
+                  <cell>Imperial <seg xml:id="indexs_0060">Indexs</seg></cell>
                 </row>
                 <row>
-                  <cell>1510-1518</cell>
-                  <cell>Sup Royal Indexs</cell>
+                  <cell><num>1510</num>-<num>1518</num></cell>
+                  <cell>Sup Royal <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>1519-1527</cell>
-                  <cell>Royal Indexs</cell>
+                  <cell><num>1519</num>-<num>1527</num></cell>
+                  <cell>Royal <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>1528-1536</cell>
-                  <cell>Medium Indexs</cell>
+                  <cell><num>1528</num>-<num>1536</num></cell>
+                  <cell>Medium <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>1537-1545</cell>
-                  <cell>Demy Indexs</cell>
+                  <cell><num>1537</num>-<num>1545</num></cell>
+                  <cell>Demy <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>1546-1557</cell>
+                  <cell><num>1546</num>-<num>1557</num></cell>
                   <cell>La post <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
-                  </choice> Indexs</cell>
+                  </choice> <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>1558-1569</cell>
-                  <cell>Post Indexs</cell>
+                  <cell><num>1558</num>-<num>1569</num></cell>
+                  <cell>Post <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>1570-1581</cell>
-                  <cell>Foolscap Indexs</cell>
+                  <cell><num>1570</num>-<num>1581</num></cell>
+                  <cell>Foolscap <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>1582-1593</cell>
+                  <cell><num>1582</num>-<num>1593</num></cell>
                   <cell>Demy <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
-                  </choice> Indexs</cell>
+                  </choice> <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>1594-1605</cell>
+                  <cell><num>1594</num>-<num>1605</num></cell>
                   <cell>Foolscap <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
-                  </choice> Indexs</cell>
+                  </choice> <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <trailer>
                   Carried to page <num type="pageNum">59</num>
@@ -1358,17 +1382,26 @@
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
-              	  </choice> Fo faint head &amp; <choice>
+              	  </choice> <choice>
+              	    <abbr>Fo</abbr>
+              	    <expan>Folio</expan>
+              	  </choice> faint head &amp; <choice>
               	    <abbr>dble</abbr>
               	    <expan>double</expan>
-              	  </choice> money + fo Hard grain rain limp</cell>
+              	  </choice> money + <choice>
+              	    <abbr>fo</abbr>
+              	    <expan>folio</expan>
+              	  </choice> Hard grain rain limp</cell>
               	</row>
               	<row>
               		<cell>1673</cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
-              	  </choice> fo double ledger full morocco 30 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  </choice> <choice>
+              	    <abbr>fo</abbr>
+              	    <expan>folio</expan>
+              	  </choice> double ledger full morocco 30 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>1675</cell>
@@ -1382,7 +1415,10 @@
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
-              	  </choice> fo Franklins Journal morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  </choice> <choice>
+              	    <abbr>fo</abbr>
+              	    <expan>folio</expan>
+              	  </choice> Franklins Journal morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
               		<cell>n1685</cell>
@@ -1399,10 +1435,16 @@
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
-              	  </choice> ft <choice>
+              	  </choice> <choice>
+              	    <abbr>ft</abbr>
+              	    <expan>faint</expan>
+              	  </choice> <choice>
               	    <abbr>dble</abbr>
               	    <expan>double</expan>
-              	  </choice> money + fo <num type="fraction" value=".5">1/2</num> cut flush</cell>
+              	  </choice> money + <choice>
+              	    <abbr>fo</abbr>
+              	    <expan>folio</expan>
+              	  </choice> <num type="fraction" value=".5">1/2</num> cut flush</cell>
               	</row>
               	<row>
               		<cell>1701</cell>
@@ -1440,7 +1482,10 @@
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
-              	  </choice> ft head <choice>
+              	  </choice> <choice>
+              	    <abbr>ft</abbr>
+              	    <expan>faint</expan>
+              	  </choice> head <choice>
               	    <abbr>dble</abbr>
               	    <expan>double</expan>
               	  </choice> Cash index <num type="fraction" value=".5">1/2</num> morocco</cell>
@@ -1562,7 +1607,10 @@
             <div type="NULL">
               <table>
                 <head>Suitable distance of Faints for <lb/> Account Books</head>
-                <note place="below">distance <lb/> as long fo faint lined book</note>
+                <note place="below">distance <lb/> as long <choice>
+                  <abbr>fo</abbr>
+                  <expan>folio</expan>
+                </choice> faint lined book</note>
                 <row>
                   <cell>Nº6</cell>
                   <cell>Imperial folio and long <choice>
