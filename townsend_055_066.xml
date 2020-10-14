@@ -1206,14 +1206,17 @@
                   </choice></seg> <seg xml:id="broad_0060">broad</seg> <choice>
                     <abbr>fo</abbr>
                     <expan>folio</expan>
-                  </choice> Cash Books printed Morc</cell>
+                  </choice> Cash Books printed <choice>
+                    <abbr>Morc</abbr>
+                    <expan>Morocco</expan>
+                  </choice></cell>
                 </row>
                 <row>
                   <cell><num>1431</num>-<num>1440</num></cell>
                   <cell><seg sameAs="#fcap_0060">ditto</seg> <seg sameAs="#broad_0060">ditto</seg> <seg xml:id="faint_0060">faint</seg> <seg xml:id="head_0060">head</seg> <seg xml:id="fo_0060"><choice>
                     <abbr>fo</abbr>
                     <expan>folio</expan>
-                  </choice></seg> <seg xml:id="three_0060"><num>3</num></seg> <seg xml:id="money_0060">money</seg> <num type="fraction" value=".5">1/2</num></cell>
+                  </choice></seg> <seg xml:id="three_0060"><num>3</num></seg> <seg xml:id="money_0060">money</seg> <num type="fraction" value=".5">1/2</num> <unclear resp="JL">cape</unclear></cell>
                 </row>
                 <row>
                   <cell><num>1441</num>-<num>1450</num></cell>
@@ -1273,7 +1276,10 @@
                 </row>
                 <row>
                   <cell><num>1510</num>-<num>1518</num></cell>
-                  <cell>Sup Royal <seg sameAs="#indexs_0060">ditto</seg></cell>
+                  <cell><choice>
+                    <abbr>Sup</abbr>
+                    <expan>Super</expan>
+                  </choice> Royal <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
                   <cell><num>1519</num>-<num>1527</num></cell>
@@ -1821,7 +1827,10 @@
                 <lb/>paging <choice>
                   <abbr>fcap</abbr>
                   <expan>foolscap</expan>
-                </choice> <num type="fraction" value="1.5">1 1/2</num> demy 2 Med <num type="fraction" value="2.5">2 1/2</num> Roy 3 Sup roy <num type="fraction" value="3.5">3 1/2</num> Imp 4 pgs
+                </choice> <num type="fraction" value="1.5">1 1/2</num> demy 2 Med <num type="fraction" value="2.5">2 1/2</num> Roy 3 <choice>
+                  <abbr>Sup</abbr>
+                  <expan>Super</expan>
+                </choice> roy <num type="fraction" value="3.5">3 1/2</num> Imp 4 pgs
               </ab>
             </div>
         <!--[End of PAGE 65]-->
