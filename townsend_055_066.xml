@@ -1337,44 +1337,50 @@
               <!--[start of table; restart]-->
               <table rows="18" cols="2">
                 <head style="text-decoration: underline;"><choice>
-                  <abbr>Fcap</abbr>
-                  <expan>Foolscap</expan>
+                  <abbr>Fcaps</abbr>
+                  <expan>Foolscaps</expan>
                 </choice></head>
               	<row>
-              		<cell>1627</cell>
+              		<cell><num>1627</num></cell>
               		<cell>Club books</cell>
               	</row>
               	<row>
-              		<cell>1641</cell>
-              		<cell>Morocco lymp faint</cell>
+              		<cell><num>1641</num></cell>
+              		<cell>Morocco <choice>
+              		  <orig>lymp</orig>
+              		  <reg>limp</reg>
+              		</choice> faint</cell>
               	</row>
               	<row>
-              		<cell>1651</cell>
-              		<cell>Hard grain Roan lymp faint</cell>
+              		<cell><num>1651</num></cell>
+              		<cell>Hard grain Roan <choice>
+              		  <orig>lymp</orig>
+              		  <reg>limp</reg>
+              		</choice> faint</cell>
               	</row>
               	<row>
-              		<cell>1661</cell>
+              		<cell><num>1661</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
               	  </choice> Cash books ruled &amp; printed <num type="fraction" value=".5">1/2</num> bound</cell>
               	</row>
               	<row>
-              		<cell>1669</cell>
+              		<cell><num>1669</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
               	  </choice> guard books</cell>
               	</row>
               	<row>
-              		<cell>1701</cell>
+              		<cell><num>1701</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
               	  </choice> Journal <num type="fraction" value=".5">1/2</num> morocco</cell>
               	</row>
               	<row>
-              		<cell>1111</cell>
+              		<cell><num>1111</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
@@ -1384,7 +1390,7 @@
               	  </choice> Bank pattern Roan de la rue</cell>
               	</row>
               	<row>
-              		<cell>1657</cell>
+              		<cell><num>1657</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
@@ -1397,37 +1403,37 @@
               	  </choice> money + <choice>
               	    <abbr>fo</abbr>
               	    <expan>folio</expan>
-              	  </choice> Hard grain rain limp</cell>
+              	  </choice> Hard grain <seg xml:id="roan_0062">roan</seg> limp</cell>
               	</row>
               	<row>
-              		<cell>1673</cell>
+              		<cell><num>1673</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
               	  </choice> <choice>
               	    <abbr>fo</abbr>
               	    <expan>folio</expan>
-              	  </choice> double ledger full morocco 30 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  </choice> double ledger full <seg xml:id="morocco1_0062">morocco</seg> 30 <seg xml:id="sheet_0062">sheet</seg> <seg xml:id="roanhalfbound_0062"><seg sameAs="#roan_0062">ditto</seg> <num type="fraction" value=".5">1/2</num> bound</seg></cell>
               	</row>
               	<row>
-              		<cell>1675</cell>
+              		<cell><num>1675</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
-              	  </choice> do Franklins Cash patt morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  </choice> do Franklins Cash patt <seg sameAs="#morocco1_0062">ditto</seg> 24 <seg sameAs="#sheet_0062">ditto</seg> <seg sameAs="#roanhalfbound_0062">ditto</seg></cell>
               	</row>
               	<row>
-              		<cell>1677</cell>
+              		<cell><num>1677</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
               	  </choice> <choice>
               	    <abbr>fo</abbr>
               	    <expan>folio</expan>
-              	  </choice> Franklins Journal morocco 24 sheet roan <num type="fraction" value=".5">1/2</num> bound</cell>
+              	  </choice> Franklins Journal <seg sameAs="#morocco1_0062">ditto</seg> 24 <seg sameAs="#sheet_0062">ditto</seg> <seg sameAs="#roanhalfbound_0062">ditto</seg></cell>
               	</row>
               	<row>
-              		<cell>n1685</cell>
+              		<cell>n<num>1685</num></cell>
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
@@ -1437,11 +1443,11 @@
               	  </choice> margin no White Vellum</cell>
               	</row>
               	<row>
-              		<cell>1689</cell>
-              	  <cell><choice>
+              		<cell><num>1689</num></cell>
+              	  <cell><seg xml:id="fcap_0062"><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
-              	  </choice> <choice>
+              	  </choice></seg> <choice>
               	    <abbr>ft</abbr>
               	    <expan>faint</expan>
               	  </choice> <choice>
@@ -1453,42 +1459,27 @@
               	  </choice> <num type="fraction" value=".5">1/2</num> cut flush</cell>
               	</row>
               	<row>
-              		<cell>1701</cell>
-              	  <cell><choice>
-              	    <abbr>Fcap</abbr>
-              	    <expan>Foolscap</expan>
-              	  </choice> Journal <num type="fraction" value=".5">1/2</num> morocco extra paged</cell>
+              		<cell><num>1701</num></cell>
+              	  <cell><seg sameAs="#fcap_0062">ditto</seg> Journal <num type="fraction" value=".5">1/2</num> morocco extra paged</cell>
               	</row>
               	<row>
-              		<cell>1709</cell>
-              	  <cell><choice>
-              	    <abbr>Fcap</abbr>
-              	    <expan>Foolscap</expan>
-              	  </choice> faint only Morocco extra</cell>
+              		<cell><num>1709</num></cell>
+              	  <cell><seg sameAs="#fcap_0062">ditto</seg> faint only <seg xml:id="morocco2_0062">Morocco</seg> <seg xml:id="extra_0062">extra</seg></cell>
               	</row>
               	<row>
               		<cell>1717</cell>
-              	  <cell><choice>
-              	    <abbr>Fcap</abbr>
-              	    <expan>Foolscap</expan>
-              	  </choice> faint &amp; margin Morocco extra</cell>
+              	  <cell><seg sameAs="#fcap_0062">ditto</seg> <seg xml:id="faint_0062">faint</seg>faint &amp; <seg xml:id="margin_0062">margin</seg> <seg sameAs="#morocco2_0062">ditto</seg> <seg sameAs="#extra_0062">ditto</seg></cell>
               	</row>
               	<row>
-              		<cell>1725</cell>
-              	  <cell><choice>
-              	    <abbr>Fcap</abbr>
-              	    <expan>Foolscap</expan>
-              	  </choice> faint &amp; margin <choice>
+              		<cell><num>1725</num></cell>
+              	  <cell><seg sameAs="#fcap_0062">ditto</seg> <seg sameAs="#faint_0062">ditto</seg> &amp; <seg sameAs="#margin_0062">ditto</seg> <choice>
               	    <abbr>thro</abbr>
               	    <expan>through</expan>
-              	  </choice> Morocco extra</cell>
+              	  </choice> <seg sameAs="#morocco2_0062">ditto</seg> <seg sameAs="#extra_0062">ditto</seg></cell>
               	</row>
               	<row>
-              		<cell>1733</cell>
-              	  <cell><choice>
-              	    <abbr>Fcap</abbr>
-              	    <expan>Foolscap</expan>
-              	  </choice> <choice>
+              		<cell><num>1733</num></cell>
+              	  <cell><seg sameAs="#fcap_0062">ditto</seg> <choice>
               	    <abbr>ft</abbr>
               	    <expan>faint</expan>
               	  </choice> head <choice>
@@ -1501,20 +1492,26 @@
               <table>
                 <head style="text-decoration: underline;">Post</head>
                 <row>
-                  <cell>9571</cell>
-                  <cell>12 sh post <choice>
+                  <cell><num>9571</num></cell>
+                  <cell>12 <choice>
+                    <abbr>sh</abbr>
+                    <expan>sheet</expan>
+                  </choice> post <choice>
                     <abbr>8vo</abbr>
                     <expan><measure>ocatvo</measure></expan>
                   </choice> bank patt Roan de la rue</cell>
                 </row>
                 <note place="below"><unclear>0JM 21</unclear></note>
                 <row>
-                  <cell>9572</cell>
-                  <cell>ditto 310 20 paper ditto</cell>
+                  <cell><num>9572</num></cell>
+                  <cell>ditto <num>310</num> <num>20</num> paper ditto</cell>
                 </row>
                 <row>
-                  <cell>9717</cell>
-                  <cell>42 sh post in <choice>
+                  <cell><num>9717</num></cell>
+                  <cell>42 <choice>
+                    <abbr>sh</abbr>
+                    <expan>sheet</expan>
+                  </choice> post in <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
                   </choice> hd <choice>
@@ -1523,15 +1520,15 @@
                   </choice> cash Morocco limp</cell>
                 </row>
                 <row>
-                  <cell>9718</cell>
+                  <cell><num>9718</num></cell>
                   <cell>ditto ditto</cell>
                 </row>
               </table>
 
               <table>
-                <head>Sheet &amp; 2</head>
+                <head>Sheet &amp; <num>2</num></head>
                 <row>
-                  <cell>8551</cell>
+                  <cell><num>8551</num></cell>
                   <cell>Sheet + half</cell>
                 </row>
               </table>
