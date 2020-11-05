@@ -1542,30 +1542,33 @@
             <div type="NULL">
               <list>
                 <head>My Fathers price book means</head>
-                <label><seg xml:id="e_0063">E</seg> <seg xml:id="c_0063">C</seg> 1</label>
+                <label><seg xml:id="e_0063">E</seg> <seg xml:id="c_0063">C</seg> <num>1</num></label>
                 <item>faint only</item>
-                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 2</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>2</num></label>
                 <item>faint &amp; common</item>
-                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 3</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>3</num></label>
                 <item>faint + common in long <choice>
                   <abbr>4to</abbr>
                   <expan><measure>quarto</measure></expan>
                 </choice></item>
-                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 4</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>4</num></label>
                 <item>Single Ledger</item>
-                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 5</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>5</num></label>
                 <item>double Ledger</item>
-                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 6</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>6</num></label>
                 <item>three stop pattern</item>
-                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 7</label>
-                <item>2 accounts</item>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>7</num></label>
+                <item><num>2</num> accounts</item>
               </list>
 
               <!--[large break in the page with nothing]-->
 
               <table>
                 <row>
-                  <cell>Nº10</cell>
+                  <cell><choice>
+                    <abbr>№</abbr>
+                    <expan>Number</expan>
+                  </choice><num>10</num></cell>
                   <cell>Medium <seg xml:id="octavo_0063"><choice>
                     <abbr>8vos</abbr>
                     <expan><measure>octavos</measure></expan>
@@ -1584,7 +1587,10 @@
                   <cell>Post <seg sameAs="#octavo_0063">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>Nº11</cell>
+                  <cell><choice>
+                    <abbr>№</abbr>
+                    <expan>Number</expan>
+                  </choice><num>11</num></cell>
                   <cell>Foolscap <seg sameAs="#octavo_0063">ditto</seg></cell>
                 </row>
               </table>
@@ -1603,46 +1609,40 @@
                   <expan>folio</expan>
                 </choice> faint lined book</note>
                 <row>
-                  <cell>Nº6</cell>
-                  <cell>Imperial folio and long <choice>
+                  <cell><choice>
+                    <abbr>№</abbr>
+                    <expan>Number</expan>
+                  </choice><num>6</num></cell>
+                  <cell>Imperial folio <seg xml:id="and1_0064">and</seg> <seg xml:id="long4to1_0064">long <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  </choice></seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Super Royal and long <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  <cell>Super Royal <seg sameAs="#and1_0064">ditto</seg> <seg sameAs="#long4to1_0064">ditto</seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Royal and long <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  <cell>Royal <seg sameAs="#and1_0064">ditto</seg> <seg sameAs="#long4to1_0064">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>Nº7</cell>
-                  <cell>Medium folio and long <choice>
+                  <cell><choice>
+                    <abbr>№</abbr>
+                    <expan>Number</expan>
+                  </choice><num>7</num></cell>
+                  <cell>Medium folio <seg xml:id="and2_0064">and</seg> <seg xml:id="long4to2_0064">long <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
-                  </choice></cell>
-                </row>
-                <row>
-                  <cell></cell>
-                  <cell>Large Post and long <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  </choice></seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Demy and long <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  <cell>Large Post <seg sameAs="#and2_0064">ditto</seg> <seg sameAs="#long4to2_0064">ditto</seg></cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Demy <seg sameAs="#and2_0064">ditto</seg> <seg sameAs="#long4to2_0064">ditto</seg></cell>
                 </row>
                 <row>
                   <cell></cell>
@@ -1653,45 +1653,36 @@
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Imperial broad <choice>
+                  <cell>Imperial <seg xml:id="broad4to1_0064">broad <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  </choice></seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Super Royal broad <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  <cell>Super Royal <seg sameAs="broad4to1_0064">ditto</seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Royal broad <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  <cell>Royal <seg sameAs="broad4to1_0064">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>Nº8</cell>
-                  <cell>Foolscap folio and long <choice>
+                  <cell><choice>
+                    <abbr>№</abbr>
+                    <expan>Number</expan>
+                  </choice><num>8</num></cell>
+                  <cell>Foolscap folio <seg xml:id="and3_0064">and</seg> <seg xml:id="long4to3_0064">long <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
-                  </choice></cell>
-                </row>
-                <row>
-                  <cell></cell>
-                  <cell>Sheet + half and long <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  </choice></seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Sheet + thirds and long <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  <cell>Sheet + half <seg sameAs="#and3_0064">ditto</seg> <seg sameAs="#long4to3_0064">ditto</seg></cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell>Sheet + thirds <seg sameAs="#and3_0064">ditto</seg> <seg sameAs="#long4to3_0064">ditto</seg></cell>
                 </row>
                 <row>
                   <cell></cell>
@@ -1702,27 +1693,24 @@
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Medium broad <choice>
+                  <cell>Medium <seg xml:id="broad4to2_0064">broad <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  </choice></seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Large post broad <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  <cell>Large post <seg sameAs="broad4to2_0064">ditto</seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Demy broad <choice>
-                    <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
-                  </choice></cell>
+                  <cell>Demy <seg sameAs="broad4to2_0064">ditto</seg></cell>
                 </row>
                 <row>
-                  <cell>Nº9</cell>
+                  <cell><choice>
+                    <abbr>№</abbr>
+                    <expan>Number</expan>
+                  </choice><num>9</num></cell>
                   <cell>Foolscap broad <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
