@@ -1489,7 +1489,7 @@
               	</row>
               </table>
 
-              <table>
+              <table> <!-- JAY TO-DO: Just. Figure this section out entirely it's a hellish one -->
                 <head style="text-decoration: underline;">Post</head>
                 <row>
                   <cell><num>9571</num></cell>
@@ -1542,22 +1542,22 @@
             <div type="NULL">
               <list>
                 <head>My Fathers price book means</head>
-                <label>E C 1</label>
+                <label><seg xml:id="e_0063">E</seg> <seg xml:id="c_0063">C</seg> 1</label>
                 <item>faint only</item>
-                <label>E C 2</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 2</label>
                 <item>faint &amp; common</item>
-                <label>E C 3</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 3</label>
                 <item>faint + common in long <choice>
                   <abbr>4to</abbr>
                   <expan><measure>quarto</measure></expan>
                 </choice></item>
-                <label>E C 4</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 4</label>
                 <item>Single Ledger</item>
-                <label>E C 5</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 5</label>
                 <item>double Ledger</item>
-                <label>E C 6</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 6</label>
                 <item>three stop pattern</item>
-                <label>E C 7</label>
+                <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> 7</label>
                 <item>2 accounts</item>
               </list>
 
@@ -1566,38 +1566,26 @@
               <table>
                 <row>
                   <cell>Nº10</cell>
-                  <cell>Medium <choice>
+                  <cell>Medium <seg xml:id="octavo_0063"><choice>
                     <abbr>8vos</abbr>
                     <expan><measure>octavos</measure></expan>
-                  </choice></cell>
+                  </choice></seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Large Post <choice>
-                    <abbr>8vos</abbr>
-                    <expan><measure>octavos</measure></expan>
-                  </choice></cell>
+                  <cell>Large Post <seg sameAs="#octavo_0063">ditto</seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Demy <choice>
-                    <abbr>8vos</abbr>
-                    <expan><measure>octavos</measure></expan>
-                  </choice></cell>
+                  <cell>Demy <seg sameAs="#octavo_0063">ditto</seg></cell>
                 </row>
                 <row>
                   <cell></cell>
-                  <cell>Post <choice>
-                    <abbr>8vos</abbr>
-                    <expan><measure>octavos</measure></expan>
-                  </choice></cell>
+                  <cell>Post <seg sameAs="#octavo_0063">ditto</seg></cell>
                 </row>
                 <row>
                   <cell>Nº11</cell>
-                  <cell>Foolscap <choice>
-                    <abbr>8vos</abbr>
-                    <expan><measure>octavos</measure></expan>
-                  </choice></cell>
+                  <cell>Foolscap <seg sameAs="#octavo_0063">ditto</seg></cell>
                 </row>
               </table>
             </div>
