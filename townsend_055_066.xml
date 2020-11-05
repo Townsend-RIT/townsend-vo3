@@ -1749,11 +1749,11 @@
               <head>Colours for Account Books</head>
 
               <list>
-                <label>very best levant Morocco</label>
+                <label><seg xml:id="verybest_0065">very best</seg> <seg xml:id="levant_0065">levant</seg> <seg xml:id="morocco_0065">Morocco</seg></label>
                 <item>Maroon</item>
-                <label>very best levant Morocco</label>
+                <label><seg sameAs="#verybest_0065">ditto</seg> <seg sameAs="#levant_0065">ditto</seg> <seg sameAs="#morocco_0065">ditto</seg></label>
                 <item>Brown</item>
-                <label>very best levant Morocco</label>
+                <label><seg sameAs="#verybest_0065">ditto</seg> <seg sameAs="#levant_0065">ditto</seg> <seg sameAs="#morocco_0065">ditto</seg></label>
                 <item>Red</item>
               </list>
             </div>
@@ -1771,19 +1771,20 @@
               <note place="above"><date when="1893-11-03">Nov 3/93</date></note>
               <ab>
                 Central Notice Offices Sheffield
+                <lb/>of
                 <lb/><num type="ordinal">1st</num> contract perfect paper. Rheum list
               </ab>
               <note place="margin">} I <lb/> lost <lb/> Pawson <lb/> + <lb/> Braile <lb/> won</note>
               <ab>
                 <num type="ordinal">2nd</num> Contract XX paper Rheum list
-                <lb/><num type="fraction" value="12.5">12 1/2</num> dis or <num type="fraction" value="1.5">1 1/2</num> un 1/ time Rul Prun
-                <lb/><num type="fraction" value="12.5">12 1/2</num> dis or <num type="fraction" value="1.5">1 1/2</num> un 1/ Fathers old list
+                <lb/><seg xml:id="twelvehalfdis_0065"><num type="fraction" value="12.5">12 1/2</num> dis or</seg> <seg xml:id="onehalfun_0065"><num type="fraction" value="1.5">1 1/2</num> on 1/</seg> time Rul Prun
+                <seg sameAs="#twelvehalfdis_0065">ditto</seg> <seg sameAs="#onehalfun_0065">ditto</seg> Fathers old list
               </ab>
-              <note place="margin">1 <lb/> won
+              <note place="margin">I <lb/> won
                 <cb/>
                 XX Mill
-                <lb/>sold Rheum
-                <lb/>sold Ruling
+                <lb/><seg xml:id="sold_0065">sold</seg> Rheum
+                <lb/><seg sameAs="#sold_0065">ditto</seg> Ruling
                 <lb/><num type="fraction" value="12.5">12 1/2</num> dis on
                 <lb/>time
                 <lb/>Print <num type="fraction" value="12.5">12 1/2</num> dis
@@ -1791,19 +1792,34 @@
                 <lb/>bind <num type="fraction" value="12.5">12 1/2</num> dis
                 <lb/>on Fathers SL
                 <lb/>his old way
-              </note>
+              </note> <!-- JAY: What is "dis?" An abbreviation? -->
 
               <note place="above"><date when="1893-11">Nov/93</date><lb/>List</note>
               <ab>
-                XX or <num type="percentage" value="25">25%</num> on my Fathers SL and say 310 lett
-                <lb/><num type="percentage" value="12.5">12 1/2%</num> dis or <num type="fraction" value="1.5">1 1/2</num> un 1/ on time Ruling + print
+                XX or <num type="percentage" value="25">25%</num> on my Fathers SL and say 310 lett <!-- JAY: Letter? -->
+                <lb/><num type="percentage" value="12.5">12 1/2%</num> dis or <num type="fraction" value="1.5">1 1/2</num> on 1/ on time Ruling + print <!-- JAY: Unsure of what to do with these 1/s. Appears on this page only thankfully -->
                 <lb/>paging <choice>
                   <abbr>fcap</abbr>
                   <expan>foolscap</expan>
-                </choice> <num type="fraction" value="1.5">1 1/2</num> demy 2 Med <num type="fraction" value="2.5">2 1/2</num> Roy 3 <choice>
+                </choice> <num type="fraction" value="1.5">1 1/2</num> demy <num>2</num> <choice>
+                  <abbr>Med</abbr>
+                  <expan>Medium</expan>
+                </choice> <num type="fraction" value="2.5">2 1/2</num> <choice>
+                  <abbr>Roy</abbr>
+                  <expan>Royal</expan>
+                </choice> <num>3</num> <choice>
                   <abbr>Sup</abbr>
                   <expan>Super</expan>
-                </choice> roy <num type="fraction" value="3.5">3 1/2</num> Imp 4 pgs
+                </choice> <choice>
+                  <abbr>roy</abbr>
+                  <expan>royal</expan>
+                </choice> <num type="fraction" value="3.5">3 1/2</num> <choice>
+                  <abbr>Imp</abbr>
+                  <expan>Imperial</expan>
+                </choice> <num>4</num> <choice>
+                  <abbr>qr</abbr>
+                  <expan><measure>quarter</measure></expan> <!-- JAY: Check to see that this says quarter -->
+                </choice>
               </ab>
             </div>
         <!--[End of PAGE 65]-->
