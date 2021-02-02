@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<?xml-model href="../townsend-test-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
@@ -138,7 +139,7 @@
         </choice><date when="1898-05-16">May 16/98</date></ab>
         </div>
 
-        <div type="index">
+        <div type="other"> <!-- Add div type index -->
         <list style="list-style-type: none">
           <label>C Cammell C Lt complaint of Pads</label> <!--JL: TODO: abbreviations name company -->
           <item><num type="pageNum">163</num></item>
@@ -452,13 +453,13 @@
         <ab>Saturdays I think the time
           <lb/>for the one who takes duty might
           <lb/>be 8 to 3 short Cold Lunch making
-          <lb/><measure ana="hour">57</measure> hours whish is more than the 
+          <lb/><measure>57</measure> hours whish is more than the 
           <lb/>workmen make, to make up for this
-          <lb/>the following week he has but <measure ana="hours">50</measure> hours
+          <lb/>the following week he has but <measure>50</measure> hours
           <lb/>to make and which with probable
           <lb/>over minutes will bring the working
           <lb/>Masters hours to an average of
-          <lb/><measure ana="hours">54</measure>
+          <lb/><measure>54</measure> <!-- type ana for measure does not work -->
             hours weekly as at present worked
           <lb/>in Shops</ab>
         <note place="bottom"><date when="1890-06-17">June 17th 1890</date></note>
