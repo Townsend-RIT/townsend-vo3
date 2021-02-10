@@ -580,7 +580,7 @@
             <fw type="page_number" place="top"></fw>
 
             <!--[start of DIV]-->
-            <div type="NULL"><!--[TODO]-->
+            <div type="log"><!--[TODO]-->
                 <head>Account Book price lists <q>Key</q></head>
                 
                 <ab type="typography" rend="horizontal-line">----------------</ab>
@@ -1045,7 +1045,7 @@
             <fw type="page_number" place="top"></fw>
 
             <!--[start of DIV]-->
-            <div type="NULL"><!--[TODO]-->
+            <div type="log"><!--[TODO]-->
               <!--[start of list]-->
               <list>
                 <head>Rulings</head>
@@ -1148,7 +1148,7 @@
             <pb n="060" facs="CC20181003_Townsend_0060.tif"/>
             <fw type="page_number" place="top"></fw>
 
-            <div type="NULL"><!--[TODO]-->
+            <div type="log"><!--[TODO]-->
               <!--[start of list]-->
               <list>
                 <head>Bindings</head>
@@ -1172,7 +1172,7 @@
             <pb n="061" facs="CC20181003_Townsend_0061.tif"/>
             <fw type="page_number" place="top"></fw>
 
-            <div type="NULL"><!--[TODO]-->
+            <div type="instruction"><!--[TODO]-->
               <note place="top">S.S. See also Page <num type="pageNum">19</num></note>
 
               <head>Aliens</head>
@@ -1540,7 +1540,7 @@
             <pb n="063" facs="CC20181003_Townsend_0063.tif"/>
             <fw type="page_number" place="top">25</fw>
 
-            <div type="NULL">
+            <div type="log">
               <list>
                 <head>My Fathers price book means</head>
                 <label><seg xml:id="e_0063">E</seg> <seg xml:id="c_0063">C</seg> <num>1</num></label>
@@ -1602,7 +1602,7 @@
             <pb n="064" facs="CC20181003_Townsend_0064.tif"/>
             <fw type="page_number" place="top">26</fw>
 
-            <div type="NULL">
+            <div type="log">
               <table>
                 <head>Suitable distance of Faints for <lb/> Account Books</head>
                 <note place="below">distance <lb/> as long <choice>
@@ -1746,7 +1746,7 @@
             <pb n="065" facs="CC20181003_Townsend_0065.tif"/>
             <fw type="page_number" place="top">27</fw>
 
-            <div type="NULL">
+            <div type="log">
               <head>Colours for Account Books</head>
 
               <list>
@@ -1759,7 +1759,7 @@
               </list>
             </div>
 
-            <div type="NULL">
+            <div type="log">
               <head>Estimates</head>
               <ab>
                 Paper net money not Invoice Rheum list covers Car<add place="opposite">riage, strip off all discount</add>
@@ -1829,7 +1829,7 @@
             <pb n="066" facs="CC20181003_Townsend_0066.tif"/>
             <fw type="page_number" place="top">28</fw>
 
-            <div type="NULL">
+            <div type="other">
               <ab>
                 Unless a distinct advantage
                 <lb/>in the Quality I
