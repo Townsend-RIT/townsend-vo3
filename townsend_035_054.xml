@@ -220,7 +220,7 @@
       <div type="ethic">
         <note place="right">
             <handShift medium="pencil"/>
-              <unclear resp="Pochron" reason="illegible">Jalleypond</unclear> here.
+              <unclear resp="JP">Jalleypond</unclear> here.
               <lb />do yourself what
               <lb />you can get others
               <lb />to do
@@ -238,7 +238,7 @@
           <item>Account book making</item>
           <item>binding</item>
           <item>pattern cards</item>
-          <item><handShift medium="pencil" /><unclear resp="JL" reason="illegible">Zinc</unclear> backs 29</item>
+          <item><handShift medium="pencil" /><unclear resp="JL">Zinc</unclear> backs 29</item>
           <item><handShift medium="ink" />Type</item>
           <item>Litho</item>
           <item>Sales Shop</item>
@@ -1128,7 +1128,7 @@
           <item><handShift medium="ink"/>Files and Cost Books <handShift medium="pencil"/>Bad debt book c</item>
           <item><handShift medium="ink"/>Gas Company <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Iron + Steel <num>3</num> cases <handShift medium="pencil"/>C</item>
-          <item>☓ <handShift medium="ink"/><unclear>G C L 4</unclear> <handShift medium="pencil"/>C</item>
+          <item>☓ <handShift medium="ink"/><unclear resp="JP">G C L 4</unclear> <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Breweries</item>
           <item>Limited Companies</item>
           <item>Contracts</item>
