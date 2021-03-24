@@ -32,29 +32,36 @@
                     <abbr>A/c</abbr>
                     <expan>Accounting</expan>
                 </choice> book Making
-                <lb/>YOUR SPECIAL ATTENTION IS REQUIRED TO THE FOLLOWING.
-                <lb/>The <seg xml:id="large_0067">Large</seg> Super Royal <seg xml:id="ledgers_0067">Ledgers</seg> <unclear>Gev</unclear> <seg xml:id="bank_0067">Bank</seg>
-                <lb/> <seg sameAs="#large_0067">ditto</seg> Royal <seg sameAs="#ledgers_0067">ditto</seg> Hall <seg sameAs="#bank_0067">ditto</seg>
-                <lb/>Remedy have both complained the loose back is too soft +
-                <lb/>flexible by use to <unclear>thron</unclear> the book flat -- Driver is trying a
-                <lb/>Zinc plate inside the loose back WILLIAM TOWNSEND,
-                <lb/>to be watched keenly to see how it wears Date, <date when="1892-09-10">Sep 10 1892</date>
-            </ab></div> <!-- how to distinguish between handwriting and printed text in inserts? -->
+                <lb/>YOUR SPECIAL ATTENTION IS REQUIRED <!-- Text -->
+                <lb/>The <seg xml:id="large_0067">Large</seg> Super Royal <seg xml:id="ledgers_0067">Ledgers</seg> <orgName><unclear>Gev</unclear> <seg xml:id="bank_0067">Bank</seg></orgName>
+                <lb/> <seg sameAs="#large_0067">ditto</seg> Royal <seg sameAs="#ledgers_0067">ditto</seg> <orgName>Hall <seg sameAs="#bank_0067">ditto</seg></orgName>
+                <lb/>REMEDY have both complained the loose back is too soft +
+                <lb/>flexible by use to throw the book flat — Driver is trying a <!-- JAY: Is Driver a name? Probably -->
+                <lb/>Zinc plate inside the loose back 
+                <lb/>to be watched keenly to see how it wears
+            </ab>
+                <note>WILLIAM TOWNSEND
+                    <lb />Date, <date when="1892-09-10">Sep 10 1892</date></note>
+            </div> <!-- how to distinguish between handwriting and printed text in inserts? --> <!-- JAY: Will talk about this in meeting -->
             <div type="other"><ab style="writing mode: sideways-lr">
-                <lb/><orgName><unclear>J+R</unclear> Bank</orgName> beginning sections of the 
+                <lb/><orgName>J+R Bank</orgName> beginning sections of the 
                 <choice>
-                    <abbr>No1</abbr>
-                    <expan>Number 1</expan>
-                </choice> <choice>
+                    <abbr>No</abbr>
+                    <expan>Number </expan>
+                </choice> <num>1</num> <choice>
                     <abbr>sup</abbr>
                     <expan>super</expan>
                 </choice> royal Ledger thread has
-                <lb/>broken Drivers remedy is that all large Ledgers 10 grs and upwards
-                <lb/>should be sewn with Cat Gut for the first and last 5 sections
+                <lb/>broken Drivers remedy is that all large Ledgers <num>10</num> 
+                <choice>
+                    <abbr>qrs</abbr>
+                    <expan>quarters</expan>
+                </choice> and upwards
+                <lb/>should be sewn with Cat Gut for the first and last <num>5</num> sections
                 <lb/>to prevent
             </ab>
-                <ab style="writing mode: sideways-lr">
-                <lb/>this way <unclear>cavied</unclear> out on every <unclear>Brandxt</unclear>
+                <ab>
+                <lb/>this way carried out on every Banded
                 <lb/>Ledger every Thickness <date when="1893-03">March 18/93</date>
             </ab></div> <!-- Include as an example in IED -->
             <div type="insert">
@@ -69,8 +76,8 @@
                 <div type="other">
                     <note>
                         <lb/><emph style="underline">Mills</emph>
-                        <lb/>58-60 Writings <seg xml:id="keep_0068">Keep</seg> <seg xml:id="seasoning_0068">Seasoning</seg> <seg xml:id="at_0068">at</seg> 58-60, 310
-                        <lb/>dry cool air Blottings <seg sameAs="keep_0068">ditto</seg> <seg sameAs="seasoning_0068">ditto</seg> <seg sameAs="at_0068">ditto</seg> a dry 428
+                        <lb/><num>58</num>-<num>60</num> Writings <seg xml:id="keep_0068">Keep</seg> <seg xml:id="seasoning_0068">Seasoning</seg> <seg xml:id="at_0068">at</seg> <num>58</num>-<num>60</num>, <num>310</num>
+                        <lb/>dry cool air Blottings <seg sameAs="keep_0068">ditto</seg> <seg sameAs="seasoning_0068">ditto</seg> <seg sameAs="at_0068">ditto</seg> a dry <num>428</num>
                         <lb/>cool Air
                     </note> <!-- Formatting??? -->
                     <head>The Secret of Making Account Books durable sound + good I call <emph style="double_underline">Best</emph><emph style="triple_underline">Bankers Way</emph></head>
@@ -79,7 +86,7 @@
                         <lb/>by a talented Man strong, dura <!-- How are we handling words that break over lines? Not in IED -->
                         <lb/>ble fibrous good colour free from
                         <lb/>hairs as well as the repute of a
-                        <lb/>good Mill like 298 310 324 300 327 <!-- Are these page numbers? Addresses?  -->
+                        <lb/>good Mill like <298 310 324 300 327 <!-- Are these page numbers? Addresses?  -->
                         <lb/>use your judgement by how it rules
                         <lb/>scrapes smells give it a years sea-
                         <lb/>-soning <name>M Green</name> 310 advises old
@@ -113,7 +120,7 @@
                 <ab>
                     <lb/>Gluing up I attach the very great
                     <lb/>est importance to the Glue + Gluing
-                    <lb/>up -- I keep specially a glue pot for
+                    <lb/>up — I keep specially a glue pot for
                     <lb/>gluing up fresh made for every bach <!-- misspelling or regularization? -->
                     <lb/>and the quality the best I can find
                     <lb/>anywhere to day for ordinary work
