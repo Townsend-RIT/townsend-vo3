@@ -33,7 +33,7 @@
                     <expan>Accounting</expan>
                 </choice> book Making
                 <lb/>YOUR SPECIAL ATTENTION IS REQUIRED <!-- Text -->
-                <lb/>The <seg xml:id="large_0067">Large</seg> Super Royal <seg xml:id="ledgers_0067">Ledgers</seg> <orgName><unclear>Gev</unclear> <seg xml:id="bank_0067">Bank</seg></orgName>
+                <lb/>The <seg xml:id="large_0067">Large</seg> Super Royal <seg xml:id="ledgers_0067">Ledgers</seg> <orgName><unclear resp="JL">Gev</unclear> <seg xml:id="bank_0067">Bank</seg></orgName>
                 <lb/> <seg sameAs="#large_0067">ditto</seg> Royal <seg sameAs="#ledgers_0067">ditto</seg> <orgName>Hall <seg sameAs="#bank_0067">ditto</seg></orgName>
                 <lb/>REMEDY have both complained the loose back is too soft +
                 <lb/>flexible by use to throw the book flat — Driver is trying a <!-- JAY: Is Driver a name? Probably -->
@@ -113,7 +113,7 @@
                     <lb/>Sewing - by best thread, boards <emph style="strikethrough">vellum</emph> <handShift medium="pencil" />Tape
                     <lb/><handShift medium="ink" /><emph style="strikethrough">slips</emph> <handShift medium="pencil" /><unclear resp="JL">and vellum</unclear> <handShift medium="ink"/>and perhaps a tape not much.
                     <lb/>sewed as only some of the experienced
-                    <lb/>hands could sew (<unclear reason="name" resp="JL">Livy</unclear> + <persName>Sarah Mills</persName>)
+                    <lb/>hands could sew (<unclear resp="JL">Livy</unclear> + <persName>Sarah Mills</persName>)
                     <lb/>in good book ever can be made unless
                     <lb/>the book is well and properly sewed
                 </ab>
@@ -125,7 +125,7 @@
                     <lb/>and the quality the best I can find
                     <lb/>anywhere to day for ordinary work
                     <lb/>I am paying 37/cnt for this gluing up
-                    <lb/>I pay 5 <unclear>quineas</unclear> cnt/105 and what I
+                    <lb/>I pay 5 <unclear resp="JL">quineas</unclear> cnt/105 and what I
                     <lb/>have said I repeat if possible
                     <lb/>with more vehemence in gluing
                     <lb/>and putting on the straps or
@@ -148,8 +148,8 @@
                     <lb/>penetrate
                 </ab>
                 <note>
-                    <lb/><date when="1894-12-10">Dec 10/94</date> thro bad <unclear>grin</unclear> in <unclear>VJL 2 med</unclear>
-                    <lb/>omit past both glue up and glue <unclear>phaps</unclear>
+                    <lb/><date when="1894-12-10">Dec 10/94</date> thro bad <unclear resp="JL">grin</unclear> in <unclear resp="JL">VJL 2 med</unclear>
+                    <lb/>omit past both glue up and glue <unclear resp="JL">phaps</unclear>
                     <lb/>with Costells 110/w cnt glue WT
                 </note>
                 <ab>
@@ -161,7 +161,7 @@
                     <lb/>to open quite flat
                 </ab>
                 <note>
-                    <lb/><unclear>Geo S'</unclear> Bank complain
+                    <lb/><unclear resp="JL">Geo S'</unclear> Bank complain
                     <lb/>of not open flat -- use
                     <lb/>'Thon steel inside backs
                 </note>

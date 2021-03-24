@@ -60,7 +60,7 @@
             <div type="advice">
                 <ab>
                     <lb/>idea for a Keen Estimate
-                    <lb/><unclear resp="burkhardt">Twice</unclear> price, say a ream <num type="fraction" value="8.61">310/36</num> yields usable <unclear resp="CB">sh...</unclear> <!-- [NOTE: Trails around the page's curvature] -->
+                    <lb/><unclear resp="CB">Twice</unclear> price, say a ream <num type="fraction" value="8.61">310/36</num> yields usable <unclear resp="CB">sh...</unclear> <!-- [NOTE: Trails around the page's curvature] -->
                     <lb/>cost per <unclear resp="CB">twice</unclear> cost is
                     <lb/><seg xml:id="ruling_0113">ruling</seg> at cost <seg xml:id="perhour_0113">per hour based on departmental return per hour</seg>
                     <lb/>printing comp <seg sameAs="#perhour_0113">ditto</seg>
