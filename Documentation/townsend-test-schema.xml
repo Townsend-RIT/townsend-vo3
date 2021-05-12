@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/tei_customization.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="schemas/tei_customization.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Townsend Test Schema</title>
+        <author><persName>Sarah Connell</persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished</p>        
+      </publicationStmt>
+      <sourceDesc>
+        <p>Created as a test for the Townsend manuscript project.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+
+    <body>
+  
+
+      <schemaSpec ident="townsend-test-schema" start="TEI"
+        source="tei:current">
+        <desc>A test schema for demonstration of ODD transformation and schema association.</desc>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="header"/>
+        <moduleRef key="textstructure" except="argument back byline closer dateline div1 div2
+          div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph
+          floatingText group imprimatur opener postscript salute signed titlePage titlePart"/> <!-- I removed <text> from this list. -->
+        
+        <moduleRef key="transcr" except="addSpan am damage damageSpan delSpan ex facsimile
+          handNotes line listTranspose metamark mod path redo restore retrace secl
+          sourceDoc space subst substJoin supplied surface surfaceGrp surplus transpose undo zone"/>
+        <moduleRef key="namesdates" except="addName affiliation age birth bloc climate
+          country death district education event faith floruit forename genName geo
+          geogFeat geogName langKnowledge langKnown listEvent listNym listObject listOrg
+          listPerson listPlace listRelation location nameLink nationality nym object
+          objectIdentifier objectName occupation offset org person personGrp persona place
+          population region relation residence roleName settlement sex socecStatus state
+          surname terrain trait"/>
+        <moduleRef key="msdescription"/>
+        <moduleRef key="figures" except="formula notatedMusic"/>
+        <moduleRef key="linking" except="alt altGrp join joinGrp linkGrp timeline when"/>
+        <elementSpec ident="measure" module="core" mode="change">
+          <attList>
+            <attDef ident="ana" mode="change" usage="req">
+              <valList type="closed" mode="replace"> <!-- There were spaces before some of the provided values, so I deleted those. -->
+                <valItem ident="business"/>
+                <valItem ident="wage"/>
+                <valItem ident="finance"/>
+                <valItem ident="commerce"/>
+                <valItem ident="money"/>
+                <valItem ident="pound"/>
+                <valItem ident="shilling"/>
+                <valItem ident="pence"/>
+                <valItem ident="bookbinding"/>
+                <valItem ident="materials"/>
+                <valItem ident="dimensions"/>
+                <valItem ident="paper"/>
+                <valItem ident="boards"/>
+                <valItem ident="glue"/>
+                <valItem ident="leather"/>
+                <valItem ident="ribbon"/>
+                <valItem ident="tape"/>
+                <valItem ident="staff"/>
+                <valItem ident="hours"/>
+                <valItem ident="days"/>
+                <valItem ident="other"/>
+              </valList>
+            </attDef>
+            <attDef ident="commodity" mode="delete"/>
+            <attDef ident="quantity" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="unit" mode="delete"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="div" module="textstructure" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="principle"/>
+                <valItem ident="ethic"/>
+                <valItem ident="log"/>
+                <valItem ident="advice"/>
+                <valItem ident="instruction"/>
+                <valItem ident="insert"/>
+                <valItem ident="other"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="handShift" module="transcr" mode="change">
+          <attList>
+            <attDef ident="medium" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="pencil"/>
+                <valItem ident="ink"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

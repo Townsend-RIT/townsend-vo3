@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<?xml-model href="Documentation/townsend-test-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
       <fileDesc>
@@ -343,7 +344,7 @@
                       <cell><choice>
                         <abbr>Ft</abbr>
                         <expan>Faint</expan>
-                      </choice> lined <num type="fraction" value=".5">1/2</num> <unclear>bc/stock</unclear> </cell>
+                      </choice> lined <num type="fraction" value=".5">1/2</num> <unclear resp="JP">bc/stock</unclear> </cell>
                         <cell><num>1411</num> - <lb/><num>1420</num></cell>
                     </row>
                     <row>
@@ -432,7 +433,7 @@
                       <cell><num>5</num> <seg sameAs="#bindings1_0056">ditto</seg> <num>50</num> 
                         <lb/> <num>2051</num> - <num>2100</num> <handShift medium="pencil"/> <num>2701</num>t 
                         <lb/> <num>2101</num> <num>2238</num> <num>2710</num> 
-                        <lb/> <num>2601</num> <num>2604</num> <unclear resp="Pochron" reason="illegible"><num>4105</num></unclear> <handShift medium="ink"/></cell>
+                        <lb/> <num>2601</num> <num>2604</num> <unclear resp="JP"><num>4105</num></unclear> <handShift medium="ink"/></cell>
                     </row>
                     <row>
                         <cell><num>101</num> - <num>130</num></cell>
@@ -581,7 +582,7 @@
             <fw type="page_number" place="top"></fw>
 
             <!--[start of DIV]-->
-            <div type="NULL"><!--[TODO]-->
+            <div type="log"><!--[TODO]-->
                 <head>Account Book price lists <q>Key</q></head>
                 
                 <ab type="typography" rend="horizontal-line">----------------</ab>
@@ -792,7 +793,7 @@
                             <item><seg sameAs="#bindings_0057">ditto</seg> Skiver flush</item>
 
                             <label>I</label>
-                            <item><seg sameAs="#bindings_0057">ditto</seg> <num type="fraction" value=".5">1/2</num> glazed <unclear resp="Pochron" reason="illegible">Capeas</unclear> best <lb/> stock</item>
+                            <item><seg sameAs="#bindings_0057">ditto</seg> <num type="fraction" value=".5">1/2</num> glazed <unclear resp="JP">Capeas</unclear> best <lb/> stock</item>
                         </list>
                     </trailer>
                     <!--[end of trailer]-->
@@ -896,7 +897,7 @@
                     <cell><num type="fraction" value="4.5">4 1/2</num></cell>
                     <cell><num>5</num></cell>
                   </row>
-                  <note><unclear resp="Pochron">num</unclear> <choice>
+                  <note><unclear resp="JP">num</unclear> <choice>
                     <abbr>4to</abbr>
                     <expan><measure>quarto</measure></expan>
                   </choice></note>
@@ -1046,7 +1047,7 @@
             <fw type="page_number" place="top"></fw>
 
             <!--[start of DIV]-->
-            <div type="NULL"><!--[TODO]-->
+            <div type="log"><!--[TODO]-->
               <!--[start of list]-->
               <list>
                 <head>Rulings</head>
@@ -1149,7 +1150,7 @@
             <pb n="060" facs="CC20181003_Townsend_0060.tif"/>
             <fw type="page_number" place="top"></fw>
 
-            <div type="NULL"><!--[TODO]-->
+            <div type="log"><!--[TODO]-->
               <!--[start of list]-->
               <list>
                 <head>Bindings</head>
@@ -1173,7 +1174,7 @@
             <pb n="061" facs="CC20181003_Townsend_0061.tif"/>
             <fw type="page_number" place="top"></fw>
 
-            <div type="NULL"><!--[TODO]-->
+            <div type="instruction"><!--[TODO]-->
               <note place="top">S.S. See also Page <num type="pageNum">19</num></note>
 
               <head>Aliens</head>
@@ -1503,7 +1504,7 @@
                     <expan><measure>ocatvo</measure></expan>
                   </choice> bank patt Roan de la rue</cell>
                 </row>
-                <note place="below"><unclear>0JM 21</unclear></note>
+                <note place="below"><unclear resp="JP">0JM 21</unclear></note>
                 <row>
                   <cell><num>9572</num></cell>
                   <cell>ditto <num>310</num> <num>20</num> paper ditto</cell>
@@ -1541,7 +1542,7 @@
             <pb n="063" facs="CC20181003_Townsend_0063.tif"/>
             <fw type="page_number" place="top">25</fw>
 
-            <div type="NULL">
+            <div type="log">
               <list>
                 <head>My Fathers price book means</head>
                 <label><seg xml:id="e_0063">E</seg> <seg xml:id="c_0063">C</seg> <num>1</num></label>
@@ -1603,7 +1604,7 @@
             <pb n="064" facs="CC20181003_Townsend_0064.tif"/>
             <fw type="page_number" place="top">26</fw>
 
-            <div type="NULL">
+            <div type="log">
               <table>
                 <head>Suitable distance of Faints for <lb/> Account Books</head>
                 <note place="below">distance <lb/> as long <choice>
@@ -1747,7 +1748,7 @@
             <pb n="065" facs="CC20181003_Townsend_0065.tif"/>
             <fw type="page_number" place="top">27</fw>
 
-            <div type="NULL">
+            <div type="log">
               <head>Colours for Account Books</head>
 
               <list>
@@ -1760,7 +1761,7 @@
               </list>
             </div>
 
-            <div type="NULL">
+            <div type="log">
               <head>Estimates</head>
               <ab>
                 Paper net money not Invoice Rheum list covers Car<add place="opposite">riage, strip off all discount</add>
@@ -1830,7 +1831,7 @@
             <pb n="066" facs="CC20181003_Townsend_0066.tif"/>
             <fw type="page_number" place="top">28</fw>
 
-            <div type="NULL">
+            <div type="other">
               <ab>
                 Unless a distinct advantage
                 <lb/>in the Quality I
@@ -1862,11 +1863,11 @@
               </note>
               <ab>
                 <seg style="text-decoration: underline; text-decoration-style: double;">No Overtime Allowed</seg>
-                <lb/>The Overtime <num>9</num> per hour type. <num>8</num>8 <unclear reason="illegible" resp="Pochron">d</unclear> Binders
+                <lb/>The Overtime <num>9</num> per hour type. <num>8</num>8 <unclear resp="JP">d</unclear> Binders
                 <lb/>and the heavy Union Wages I ascribe my
                 <lb/>bad balance this midsummer often the
                 <lb/>overtime is but a cause of lens being done in
-                <lb/>the regular hours - also Gas + <unclear reason="illegible" resp="Pochron">poney</unclear> <choice>
+                <lb/>the regular hours - also Gas + <unclear resp="JP">poney</unclear> <choice>
                   <abbr>WT</abbr>
                   <expan><persName>William Townsend</persName></expan>
                 </choice>
@@ -1877,7 +1878,7 @@
                 <cb/>
                 <table rows="6" cols="2">
                   <row>
-                    <cell><unclear reason="illegible" resp="JL">Sew</unclear> <seg xml:id="women_0066">Women</seg> <seg xml:id="depart_0066">Depart</seg></cell>
+                    <cell><unclear resp="JL">Sew</unclear> <seg xml:id="women_0066">Women</seg> <seg xml:id="depart_0066">Depart</seg></cell>
                     <cell><num type="fraction" value="3.5">3 1/2</num></cell>
                   </row>
                   <row>
