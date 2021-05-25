@@ -86,7 +86,7 @@
                         <lb/>by a talented Man strong, dura <!-- How are we handling words that break over lines? Not in IED -->
                         <lb/>ble fibrous good colour free from
                         <lb/>hairs as well as the repute of a
-                        <lb/>good Mill like <298 310 324 300 327 <!-- Are these page numbers? Addresses?  -->
+                        <lb/>good Mill like 298 310 324 300 327 <!-- Are these page numbers? Addresses?  -->
                         <lb/>use your judgement by how it rules
                         <lb/>scrapes smells give it a years sea-
                         <lb/>-soning <name>M Green</name> 310 advises old
@@ -198,36 +198,242 @@
             <fw type="page_number" place="top">34</fw>
             
             <!-- END PAGE 74 -->
-            <!-- START PAGE 75 -->
-            <pb n="0075" facs="0075.tif"/>
+            <!-- START CAEL'S ENCODING -->
+            <!-- [TODO: Resolve any unclears as best as possible] -->
+            
+            <!-- [CHANGED 6/1/2020: Filled out page 75, will move onto page 76] -->
+            <!-- [CHANGED 6/3/2020: Filled out page 76, 77, & 78, will move onto page 79] -->
+            <!-- [CHANGED 6/4/2020: Filled out page 79 & 80, will move onto second pass on filechunk] -->
+            <!-- [CHANGED 6/4/2020: Made edits in accordance with meeting discussions, will continue second pass] -->
+            <!-- [CHANGED 6/5/2020: Moved to oXygen, imported schema and fixed validation errors] -->
+            <!-- [CHANGED 6/9/2020: Completed second pass, including addition of abbreviations and dittos. Only a few unclears remain.] -->
+            <!-- [CHANGED 6/10/2020: Fixed TODO items that were forgot] -->
+            
+            <!--[
+       ENCODER SHORTHAND REFERENCES:
+       DITTO: <seg xml:id="#identifier_####"></seg><seg sameAs="#identifier_####">ditto</seg>
+       DITTO (cont): Encoders replacing dittos with respective word references rather than using system for testing purposes
+       UNDERLINED TEXT: "style="text-decoration: underline;"
+       DOUBLE UNDERLINE: style="text-decoration: underline; text-decoration-style: double;"
+       ROMAN NUMERALS: <num type="roman" value=""></num>
+       ]-->
+            
+            <!--[Start of PAGE 75]-->
+            <pb n="075" facs="CC20181029_Townsend_0075.tif"/>
             <fw type="page_number" place="top">35</fw>
             
-            <!-- END PAGE 75 -->
-            <!-- START PAGE 76 -->
-            <pb n="0076" facs="0076.tif"/>
+            <div type ="log">
+                <ab>
+                    <lb/>Try Big Room for all
+                    <lb/>Stationary complete (except the
+                    <lb/>Ruling and Printing which is
+                    <lb/>well as now) including paging
+                    <lb/>Finishing and Finishing off so that
+                    <lb/>the Manager of the Room will be
+                    <lb/>held responsible for successful results
+                    <lb/>both in profit, promises, + quality
+                </ab>
+                
+                <ab>
+                    <lb/>Try for Letterpress binding
+                    <lb/>the Old Shops
+                </ab>
+                
+                <figure>
+                    <figDesc>Hand drawn sketch of the Big Room for stationary</figDesc>
+                    <graphic url="CC20181029_Townsend_0075_inset.png"/>
+                    <trailer>Whichever of the most eligible
+                        <lb/>to act as a manager in this
+                        <lb/>smaller department
+                    </trailer>
+                </figure>
+            </div>
+            <!--[End of PAGE 75]-->
+            
+            <!--[Start of PAGE 76]-->
+            <pb n="076" facs="CC2018029_Townsend_0076.tif"/>
             <fw type="page_number" place="top">36</fw>
             
-            <!-- END PAGE 76 -->
-            <!-- START PAGE 77 -->
-            <pb n="0077" facs="0077.tif"/>
+            <div type="ethic">
+                <ab>
+                    <lb/>What is wanted is hard
+                    <lb/>industry, skill, + dispatch
+                </ab>
+            </div>
+            
+            <div type="instruction">
+                <ab>
+                    <lb/>another thought?
+                    <lb/>Leave Rolling machine as it is <choice><sic>chosing</sic><corr>choosing</corr></choice>
+                    <lb/>special times for rolling - less stock in
+                    <lb/>binding Hall and more Sewers paging <!-- [NOTE: Sewers, as in people who sew, not the underground utility] -->
+                    <lb/>with cards - close doors to front part as
+                    <lb/>formerly and Set if can Enter by a
+                    <lb/>good Staircase from present door on
+                    <lb/><placeName>Surrey Street</placeName> at a rental of ₤
+                </ab>
+                
+                <figure>
+                    <figDesc>Hand drawn sketch of the setup of the binding Hall entrance via stairs</figDesc>
+                    <graphic url ="CC20181029_Townsend_0076_inset.png"/>
+                </figure>
+                
+                <ab>
+                    <lb/>Erect closets to Lane just as mine
+                    <lb/>remove mine to <num>1</num> Landing and have
+                    <lb/><num>two</num> others <num>one</num> each landing
+                    <note place="below"><choice><sic>odrerly</sic><corr>orderly</corr></choice></note>
+                </ab>
+                
+                <ab>
+                    <lb/>To be Let Rooms suitable
+                    <lb/>for Offices apply to
+                    <lb/><orgName><persName>William Townsend</persName> Son</orgName>
+                    <lb/><placeName>Surrey Street</placeName>
+                </ab>
+            </div>
+            
+            <!--[End of PAGE 76]-->
+            
+            <!--[Start of PAGE 77]-->
+            <pb n="077" facs="CC20181029_Townsend_0077.tif"/>
             <fw type="page_number" place="top">37</fw>
             
-            <!-- END PAGE 77 -->
-            <!-- START PAGE 78 -->
-            <pb n="0078" facs="0078.tif"/>
+            <div type="insert">
+                <ab>
+                    <lb/>Linings taken off a book
+                    <lb/>Made by <persName>Parrson</persName> + <persName>Brailsford</persName>
+                    <lb/>shows the  material they use
+                </ab>
+                <gap extent="partial page" reason="fabric scraps">
+                    <desc>Three pieces of various book covering materials</desc>
+                </gap>
+            </div>
+            
+            <div type="log">
+                <ab>
+                    <lb/>Sewing
+                    <lb/>Minutebook bad in
+                    <lb/>the opening for <orgName>Geo <unclear resp="CB">Sr</unclear> Bank</orgName>
+                    <lb/>Pulled in at the sewing too
+                    <lb/>tightly and tugging
+                    <lb/>linings too strong won't tie
+                    <lb/>nice and flat
+                </ab>
+                
+                <ab>
+                    <lb/>lettering pieces complaint by <persName>Becketts</persName>
+                    <lb/>not sticking --<!-- [NOTE: These appear to be two separate complaints] --> <persName>M Wilkinsin</persName> put on yourself with where
+                    <lb/><q><persName>Cotsell's</persName> hot glue</q> but letter on <choice><abbr>col-d</abbr><expan>colored</expan></choice> <q>leather possible</q>
+                </ab>
+            </div>
+            
+            <!--[End of PAGE 77]-->
+            
+            <!--[Start of PAGE 78]-->
+            <pb n="078" facs="CC20181029_Townsend_0078.tif"/>
             <fw type="page_number" place="top">37 5/8</fw>
+            <div type="insert">
+                <ab>
+                    <lb/>Russia Band Complaint <!-- [NOTE: This appears to be a complaint made by townsend to the supplier of the "Russia Bands"] -->
+                    <lb/>A <unclear resp="CB">Brooksbank</unclear> complain of the russia bands
+                    <lb/>rolling up up to the lacing -- they certainly
+                    <lb/>work as if no paste had been on. tho I
+                    <lb/>am constantly <unclear resp="CB">divining</unclear> about specially good
+                    <lb/>paste and thoroughly <unclear resp="CB">well</unclear>
+                    <lb/>pasting -- Try anglo Russia bands
+                    <lb/>over backs, let in slit, not raised on sides.
+                    <note place="inspace">
+                        <date when="1893-08-25">aug 25 1893</date>
+                    </note>
+                </ab>
+            </div>
+            <!--[End of PAGE 78]-->
             
-            <!-- END PAGE 78 -->
-            <!-- START PAGE 79 -->
-            <pb n="0079" facs="0079.tif"/>
-            <fw type="page_number" place="top"></fw>
+            <!--[Start of PAGE 79]-->
+            <pb n="079" facs="CC20181029_Townsend_0079.tif"/>
+            <div type="instruction">
+                <ab>
+                    <lb/>Old books -- loose back,
+                    <lb/>should be strong - I
+                    <lb/>notice in writing a
+                    <lb/>Clerk pressed on it
+                    <lb/>very much by his weight
+                </ab>
+            </div>
             
-            <!-- END PAGE 79 -->
-            <!-- START PAGE 80 -->
-            <pb n="0080" facs="0080.tif"/>
+            <div type="log">
+                <ab>
+                    <lb/>observations -- pieces
+                    <lb/>come off even on <choice><abbr>R calf</abbr><expan>Rough calf</expan></choice>
+                    <lb/>Rough Calf soon <choice><orig>thro</orig><reg>through</reg></choice>
+                    <lb/><emph style="text-decoration: underline">too thin</emph>
+                    <lb/><emph style="text-decoration: underline">ends</emph>
+                    <note place="inline">
+                        <date when="1893-10">Oct/93</date>
+                    </note>
+                </ab>
+            </div>
+            
+            <div type="instruction">
+                <ab>
+                    <lb/>Put inside front
+                    <lb/>section, hand made
+                    <lb/>paper lining, it is very
+                    <lb/>durable as grandfather
+                    <lb/>did <num>40</num> years ago
+                    <note place="below">
+                        <date when="1894">1894</date>
+                    </note>
+                </ab>
+            </div>
+            
+            <!--[End of PAGE 79]-->
+            
+            <!--[Start of PAGE 80]-->
+            <pb n="080" facs="CC20181029_Townsend_0080.tif"/>
             <fw type="page_number" place="top">38</fw>
+            <div type="log">
+                <ab>
+                    <lb/>Warping of Parchment or Forril <!-- [NOTE: A forril is a parchment made from a split sheepskin] -->
+                    <lb/>Bank pass Books, cracking backs
+                </ab>
+            </div>
             
-            <!-- END PAGE 80 -->
+            <div type="instruction">
+                <ab>
+                    <lb/>Tape first and last sections of all
+                    <lb/>pull bound hard worn ledgers and
+                    <lb/>pattern books and very best binding
+                    <lb/>tape all thro
+                </ab>
+                
+                <ab>
+                    <lb/><num type="fraction" value=".5">1/2</num> glazed Cake dutch marble sides as best
+                    <lb/>stock my Fathers Old <q><emph style="text-decoration: underline">Sheaf Works Style</emph></q>
+                </ab>
+            </div>
+            
+            <div type="log">
+                <ab>
+                    <lb/><orgName><persName>Maximillian's</persName></orgName> <seg xml:id="copyright_0080">say <q>All Rights Reserved</q></seg>
+                    <lb/>I <orgName><persName>Rodgers</persName> Sons</orgName> <seg sameAs="#copyright_0080">ditto</seg>
+                    <lb/><orgName><persName>Sitter</persName> + <persName>Flemming</persName></orgName> <seg sameAs="#copyright_0080">ditto</seg> <q>Caution any person infringing
+                        <lb/>the copyright of this book will be prosecuted under the act</q>
+                    <lb/><orgName><persName>C Johnson</persName> <choice><abbr>Co</abbr><expan>Company</expan></choice></orgName> 
+                    <lb/><orgName><persName><unclear resp="CB">Phu</unclear> Turner</persName> <choice><abbr>Co</abbr><expan>Company</expan></choice></orgName>  entered at stationers Hall
+                    <lb/><orgName><persName>William Townsend</persName> Son</orgName>
+                </ab>
+                
+                <ab>
+                    <lb/>Russia Bands don't cut at the
+                    <lb/>shoulder but  must be all on one
+                    <lb/>piece as my father did in <date when="1837">1837</date> this
+                    <lb/>only applies to best work Not estimate work
+                </ab>
+            </div>
+            
+            <!--[End of PAGE 80]-->
         </body>
     </text>
 </TEI>
