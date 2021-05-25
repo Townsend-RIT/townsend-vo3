@@ -46,7 +46,7 @@
               <orig>Bookeeper</orig>
               <reg>Bookkeeper</reg>
             </choice>
-              <note place="underneath">
+              <note place="bottom">
                 <persName>Freeman</persName>
               </note>
             </cell>
@@ -54,7 +54,7 @@
               <orig>Bookeeper</orig>
               <reg>Bookkeeper</reg>
             </choice>
-              <note place="underneath">
+              <note place="bottom">
                 <persName>Thompson</persName>
               </note>
             </cell>
@@ -215,19 +215,19 @@
           <lb/>(another pay) fairly well
           <lb/>(another pay) uncertainty
           <!--[start of note]-->
-          </ab>
+        </ab>
         </div>
-      <div type="ethic">
-        <note place="right">
+        <div type="ethic">
+          <ab><add> 
             <handShift medium="pencil"/>
-              <unclear resp="JP">Jalleypond</unclear> here.
+              Talleyrand never
               <lb />do yourself what
               <lb />you can get others
               <lb />to do
             <!--[get this handShift attribute looked at again.]-->
             <!-- JL: TODO: is Jalleypoint/pond a name  -->
             <handShift medium="ink"/>
-        </note>
+          </add></ab>
         </div>
 
         <div type="log">
@@ -248,8 +248,8 @@
         <!--[End of list]-->
 
         <div type="other">
-        <note place="bottom"><num type="roman" value="1902">MDCCCCII</num> roman numerals
-          <lb/>year <date when="1902">1902</date> arabic figure</note>
+        <ab><num type="roman" value="1902">MDCCCCII</num> roman numerals
+          <lb/>year <date when="1902">1902</date> arabic figure</ab>
         </div>
       <!--[End of PAGE 36]-->
 
@@ -274,8 +274,8 @@
           <lb/>Understanding while Judgement 
           <lb/>sits at the Helm with
           <lb/>eyes fixed on the Compass
-          <lb/>of Religion and Reason</ab>
-        <note place="bottom"><date when="1890-12-07">Dec 7/90</date></note>
+          <lb/>of Religion and Reason
+          <note place="bottom"><date when="1890-12-07">Dec 7/90</date></note></ab>
         <!--[end of ab]-->
 
         <!--[start of ab]-->
@@ -300,8 +300,10 @@
           <lb/>Confirm them by Religion, and
           <lb/>reduce them to an equanimity not
           <lb/>easily disturbed by the Crosses and
-          <lb/>Accidents of Life.</ab>
-        <note place="bottom"><date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date></note>
+          <lb/>Accidents of Life.
+          
+          <note place="bottom"><date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date></note>
+        </ab>
         
         <!--[end of ab]-->
 
@@ -320,7 +322,7 @@
           </div>
       <div type="other">
         <!--[start of note]-->
-        <note place="bottom">
+        <note place="bottom"> <!-- jay stopped here 4/19 -->
           <q type="biblical">and he that is eight days old
             <lb/>shall be circumsised
             <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
