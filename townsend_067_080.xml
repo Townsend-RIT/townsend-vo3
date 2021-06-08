@@ -317,11 +317,25 @@
                     <lb/>must shew up and take <unclear>measing</unclear>
                     <lb/>for its avoidance
                 </ab>
-            </div>
-            <div type="insert">
-                <!-- JAY: I FORGOT HOW WE"RE DOING THIS LOL are we using  -->
-            </div>
-            <div type="other">
+                <figure>
+                    <figDesc>A diagram showing off suggested stitching for ten quarter royal.</figDesc>
+                    <graphic url="0074_inset.png"/> <!-- placeholder -->
+                    <head>
+                        way of Sewing 10qr
+                        <lb/>Royal
+                        <lb/><emph style="text-decoration: underline">Best way</emph>
+                    </head>
+                    <note place="right">
+                        Kettle stitch
+                        <lb/>Cord
+                        <lb/>Vellum slip lined with buckram
+                        <lb/>Tape
+                        <lb/>Tape
+                        <lb/>Vellum slip lined with buckram
+                        <lb/>cord
+                        <lb/>Kettle stitch
+                    </note>
+                </figure>
                 <ab>
                     Finally
                     <lb/>I examine + change myself
