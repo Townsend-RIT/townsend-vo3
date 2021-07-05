@@ -223,10 +223,10 @@
                     <label>Foundry Stereo</label><item><num type="pageNum">176</num></item>
                     <label>Fare of workmen when paid</label><item><num type="pageNum">173</num></item>
                     <label>Favourable remarks by customers</label><item><num type="pageNum">206</num></item>
-                    <label>Fox late <choice>
+                    <label><persName>Fox late <choice>
                         <abbr>Mr</abbr>
                         <expan>Mister</expan>
-                    </choice> <persName>Samuel</persName></label><item><num type="pageNum">85</num></item>
+                    </choice> Samuel</persName></label><item><num type="pageNum">85</num></item>
                     <label>Five Essentials</label><item><num type="pageNum">13</num></item>
                     <label>Forwarding at Home</label><item><num type="pageNum">188</num> <handShift medium="pencil" /><num type="pageNum">73</num></item> <!-- Is that 73 or 173? -->
                     <label><handShift medium="ink" />Free Labour</label><item><num type="pageNum">229</num></item>
