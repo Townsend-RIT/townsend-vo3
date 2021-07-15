@@ -818,8 +818,8 @@
         </ab>
       </div>
        <div type="other">
-        <note place="below bottom"><seg sameAs="#the_0045">ditto</seg> <name>Dixons Robert Belk</name>
-          <lb/>(<name>Johnson H Stationers</name>)
+        <note place="below bottom"><seg sameAs="#the_0045">ditto</seg> <name type="undetermined">Dixons Robert Belk</name>
+          <lb/>(<name type="undetermined">Johnson H Stationers</name>)
           <lb/>hardware elastic
         </note>
        </div>
@@ -1124,7 +1124,7 @@
             <abbr>depart</abbr> 
             <expan>derpartment</expan>
           </choice></orgName> <handShift medium="pencil"/>C</item>
-          <item><handShift medium="ink"/><name>Boro of Sheffield</name> <num>2</num> cases <handShift medium="pencil"/>C</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
+          <item><handShift medium="ink"/><name type="undetermined">Boro of Sheffield</name> <num>2</num> cases <handShift medium="pencil"/>C</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
           <item>☓<handShift medium="ink"/> Miscellaneous 2 <handShift medium="pencil"/>C</item> <!--[unicode X mark]-->
           <item>☓<handShift medium="ink"/>Accountants <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Files and Cost Books <handShift medium="pencil"/>Bad debt book c</item>
