@@ -125,7 +125,10 @@
                     <lb/>and the quality the best I can find
                     <lb/>anywhere to day for ordinary work
                     <lb/>I am paying <num>37</num>/cnt for this gluing up <!-- obvious measure? -->
-                    <lb/>I pay <num>5</num> guineas cnt/<num>105</num> and what I
+                    <lb/>I pay <num>5</num> guineas <choice>
+                        <abbr>cnt</abbr>
+                        <expan>count</expan>
+                    </choice>/<num>105</num> and what I
                     <lb/>have said I repeat if possible
                     <lb/>with more vehemence in gluing
                     <lb/>and putting on the straps or
@@ -150,7 +153,13 @@
                 <note>
                     <lb/><date when="1894-12-10">Dec 10/94</date> thro bad <unclear resp="JL">grin</unclear> in <unclear resp="JL">VJL 2 med</unclear>
                     <lb/>omit past both glue up and glue <unclear resp="JL">phaps</unclear>
-                    <lb/>with Costells <num>110</num>/w cnt glue WT
+                    <lb/>with Costells <num>110</num>/w <choice>
+                        <abbr>cnt</abbr>
+                        <expan>count</expan>
+                    </choice> glue <choice>
+                        <abbr>WT</abbr>
+                        <expan><persName>William Townsend</persName></expan>
+                    </choice>
                 </note>
                 <ab>
                     <lb/>Backs made from toughest + best
@@ -162,7 +171,7 @@
                 </ab>
                 <note>
                     <lb/><unclear resp="JL">Geo S'</unclear> Bank complain
-                    <lb/>of not open flat -- use
+                    <lb/>of not open flat – use
                     <lb/>'Thon steel inside backs
                 </note>
                 <ab>
@@ -191,7 +200,7 @@
                     <note place="bottom"><persName>Mr Hall</persName> <num>6</num> to <num>12</num> months old flour is better.</note>
                 </ab>
                 <ab>
-                    Lettering -- You will spoil all if you
+                    Lettering – You will spoil all if you
                     <lb/>have a bad letterer therelove get
                     <lb/>a good letterer and finisher off
                     <lb/>who can also crease well these
@@ -231,18 +240,18 @@
                     <lb/>Medium the same except sewed <num>2</num> cords <num>1</num> tape <num>2</num> slips
                 </ab>
                 <ab>
-                    Complaint by the Hallamshire Bank
+                    Complaint by the <orgName>Hallamshire Bank</orgName>
                     <lb/>of their Ledgers, slips come loose head and tail
                     <lb/>first + last sections planted
                     <note place="bottom"><date when="1893-05-29">May 29/95</date></note>
                 </ab>
                 <ab>
-                    Driver Wilkinson <unclear>arlie</unclear> and afterwards myself Manager
+                    <persName>Driver Wilkinson</persName> <unclear>arlie</unclear> and afterwards myself Manager
                     <lb/>asked one what I had sent I had sent ouch an army for ditto well
-                    <lb/>C Smith says wetting the leather he thinks it holds
+                    <lb/><persName>C Smith</persName> says wetting the leather he thinks it holds
                     <lb/>So much damp that it stinks damp to the straps
-                    <lb/>and sets them at liberty -- Well try it dry don't
-                    <lb/>wet any more -- did my Father wet any leather CS
+                    <lb/>and sets them at liberty – Well try it dry don't
+                    <lb/>wet any more – did my Father wet any leather CS
                     <lb/>thinks not
                 </ab>
                 <ab>
@@ -251,7 +260,7 @@
                     <lb/>millboard backs <emph style="text-decoration: underline">no</emph> tin sewed <num>2</num> cord, <num>2</num> slip vellum, <num>2</num> tape,
                 </ab>
                 <ab>
-                    Geo St Bank Directors Minute Book
+                    <orgName><placeName>Geo St</placeName> Bank</orgName> Directors Minute Book
                     <lb/>to open quite flat, Driver folded in <num>3</num> <num>5</num>/. sewed with
                     <lb/>fine silk on <num>5</num> narrow tapes lined with coarse holland
                     <lb/>and a narrow back just to catch on first and last section
@@ -270,7 +279,7 @@
                         <abbr>Fcap</abbr>
                         <expan>Foolscap</expan>
                     </choice> <num>3</num> tapes, lined coarse
-                    <lb/>M Stanforth JRJ ditto ditto holland
+                    <lb/><persName>M Stanforth</persName> JRJ ditto ditto holland <!-- JAY: I assume JRJ is a name, but is it a part of M Stanforth? There's a lot of these initial sets throughout the text. -->
                 </ab>
             </div>
             <!-- END PAGE 72 -->
@@ -283,24 +292,24 @@
                     <lb/><num>1/32</num> or thickness of lining for Imperial
                 </ab>
                 <ab>
-                    Pallets for Finns names lett at tail
+                    Pallets for <persName>Finns</persName> names lett at tail
                     <lb/>I like CJC's one as very graceful
                     <lb/>draw what you want from it and send
                     <lb/>a gold impression of it to tool cutter
                 </ab>
                 <ab>
-                    MCCarthy always extra books face
+                    <persName>MCCarthy</persName> always extra books face
                     <lb/>to face that is Blue to Blue. White to White
-                    <lb/>it is done in the best shops in London
+                    <lb/>it is done in the best shops in <placeName>London</placeName>
                     <lb/>in loose backs I notice Ocklestons stiffen
                     <lb/>wrinkles in gluing round loose backs
                 </ab>
                 <ab>
                     Double Under Bands is stronger
-                    <lb/>than Single -- takes less time than
+                    <lb/>than Single – takes less time than
                     <lb/>single and the pieces are usually
                     <lb/>necks of Morocco not big enough
-                    <lb/>to use for much else -- say use
+                    <lb/>to use for much else – say use
                     <lb/>Double in future and chanrge
                     <lb/>as single
                     <note place="bottom"><date when="1896-12-12">Dec 12/96</date></note>
@@ -333,7 +342,10 @@
                     <figDesc>A diagram showing off suggested stitching for ten quarter royal.</figDesc>
                     <graphic url="0074_inset.png"/> <!-- placeholder -->
                     <head>
-                        way of Sewing 10qr
+                        way of Sewing <num>10</num><choice>
+                            <abbr>qr</abbr>
+                            <expan>quarter</expan>
+                        </choice>
                         <lb/>Royal
                         <lb/><emph style="text-decoration: underline">Best way</emph>
                     </head>
@@ -488,7 +500,7 @@
                 
                 <ab>
                     <lb/>lettering pieces complaint by <persName>Becketts</persName>
-                    <lb/>not sticking --<!-- [NOTE: These appear to be two separate complaints] --> <persName>M Wilkinsin</persName> put on yourself with where
+                    <lb/>not sticking –<!-- [NOTE: These appear to be two separate complaints] --> <persName>M Wilkinsin</persName> put on yourself with where
                     <lb/><q><persName>Cotsell's</persName> hot glue</q> but letter on <choice><abbr>col-d</abbr><expan>colored</expan></choice> <q>leather possible</q>
                 </ab>
             </div>
@@ -502,11 +514,11 @@
                 <ab>
                     <lb/>Russia Band Complaint <!-- [NOTE: This appears to be a complaint made by townsend to the supplier of the "Russia Bands"] -->
                     <lb/>A <unclear resp="CB">Brooksbank</unclear> complain of the russia bands
-                    <lb/>rolling up up to the lacing -- they certainly
+                    <lb/>rolling up up to the lacing – they certainly
                     <lb/>work as if no paste had been on. tho I
                     <lb/>am constantly <unclear resp="CB">divining</unclear> about specially good
                     <lb/>paste and thoroughly <unclear resp="CB">well</unclear>
-                    <lb/>pasting -- Try anglo Russia bands
+                    <lb/>pasting – Try anglo Russia bands
                     <lb/>over backs, let in slit, not raised on sides.
                     <note place="inspace">
                         <date when="1893-08-25">aug 25 1893</date>
@@ -519,7 +531,7 @@
             <pb n="079" facs="CC20181029_Townsend_0079.tif"/>
             <div type="instruction">
                 <ab>
-                    <lb/>Old books -- loose back,
+                    <lb/>Old books – loose back,
                     <lb/>should be strong - I
                     <lb/>notice in writing a
                     <lb/>Clerk pressed on it
@@ -529,7 +541,7 @@
             
             <div type="log">
                 <ab>
-                    <lb/>observations -- pieces
+                    <lb/>observations – pieces
                     <lb/>come off even on <choice><abbr>R calf</abbr><expan>Rough calf</expan></choice>
                     <lb/>Rough Calf soon <choice><orig>thro</orig><reg>through</reg></choice>
                     <lb/><emph style="text-decoration: underline">too thin</emph>
