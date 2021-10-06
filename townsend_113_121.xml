@@ -246,8 +246,23 @@
             <pb n="121" facs="CC20181029_Townsend_0121.tif"/>
             <fw type="page_number" place="top">79</fw>
             
+            <div type="instruction">
+                <ab>
+                    <lb/>Offices continued
+                    <lb/>In connection with <unclear resp=CB reason="illegible">service</unclear> Clerk
+                    <lb/>should be Packer and Sender off
+                    <lb/>with young Woman assistant
+                    <lb/>sal <num>25</num>/ young woman <num>8/6</num>
+                </ab>
+            </div>
+
+            <div type="log">
+                <ab>
+                    <lb/>Delivery porter with delivery
+                    <lb/>Cart Man <num>15</num>/ boy <num>3/6</num>
+                </ab>
+            </div>
             <!-- [End of PAGE 121] -->
         </body>
     </text>
 </TEI>
-
