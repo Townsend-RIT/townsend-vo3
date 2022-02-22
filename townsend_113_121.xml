@@ -48,7 +48,7 @@
             </div>
             <div type="other">
                 <ab>
-                    <lb/>Harrison Bw Howson, a lad sent to repair
+                    <lb/><persName>Harrison Bw Howson</persName>, a lad sent to repair
                     <lb/>18 in. single leather <unclear reason="illegible" resp="#CB">by gift</unclear> head - it was a
                     <lb/>terrible sample of bad work I wonder if it
                     <lb/>is this kind of low work <unclear reason="illegible" resp="#CB">panes</unclear> in their own
@@ -85,7 +85,6 @@
                 </ab>
                 <ab>
                     <table rows="6" cols="4" rend="bracing"> <!-- [NOTE: This is to the right of the above lines of text] -->
-                        <!-- [TODO: figure out tables oh good grief, add nums to the tables] -->
                         <row>
                             <cell>Sale</cell>
                             <cell><num>1</num></cell>
@@ -93,7 +92,7 @@
                             <cell><num>0</num></cell>
                         </row>
                         <row>
-                            <cell><seg xml:id="secondrow_114">12'/2%</seg></cell>
+                            <cell><seg xml:id="secondrow_114"><num type="percentage" value="0.125">12 1/2%</num></seg></cell>
                             <cell> </cell>
                             <cell><num>2</num></cell>
                             <cell><num>6</num></cell>
@@ -111,30 +110,30 @@
                             <cell><num type="fraction" value="9.75">9 3/4</num></cell>
                         </row>
                         <row>
-                            <cell>12'/2% off</cell>
+                            <cell><num type="percentage" value="0.125">12 1/2%</num> off</cell>
                             <cell> </cell>
                             <cell><num>2</num></cell>
                             <cell><num type="fraction" value="9.75">9 3/4</num></cell>
                         </row>
                         <row>
                             <cell> </cell>
-                            <cell>1</cell>
-                            <cell>0</cell>
-                            <cell>0</cell>
+                            <cell><num>1</num></cell>
+                            <cell><num>0</num></cell>
+                            <cell><num>0</num></cell>
                         </row>
                     </table>
                 </ab>
                 <ab rend="bracing">
                     <lb/>to give
-                    <lb/>12'/2 clear
+                    <lb/><num type="fraction" value="12.5">12 1/2</num> clear
                     <lb/>you must
                     <lb/>add on
-                    <lb/>the 12'/2
+                    <lb/>the <num type="fraction" value="12.5">12 1/2</num>
                     <lb/>you put
                     <lb/>on it or
                     <lb/>it wont
                     <lb/>yield clear
-                    <lb/>12'/2%
+                    <lb/><num type="percentage" value="0.125">12 1/2%</num>
                 </ab>
                 <table rows="5" cols="3">
                     <row>
@@ -171,9 +170,40 @@
                 </table>
                 <ab>
                     <lb/><persName>Gotts</persName> Estimating see page <num>61</num>
+                    <lb/><unclear resp="#CB" reason="illegible">Comp</unclear>
+                    <table rows="3" cols="2" rend="braced">
+                        <row>
+                            <cell>Wage</cell>
+                            <cell><num type="fraction" value="8.25">8 1/4</num></cell>
+                        </row>
+                        <row>
+                            <cell><num type="percentage" value="0.45">45%</num></cell>
+                            <cell><num type="fraction" value="3.5">3 1/2</num></cell>
+                        </row>
+                        <row>
+                            <cell><persName>Gotts way</persName></cell>
+                            <cell><num type="fraction" value="11.75">11 3/4</num></cell>
+                        </row>
+                    </table>
+                    <lb rend="bracing"/>or
+                    <lb rend="bracing"/><num type="percentage" value="0.20">20%</num>
                 </ab>
-            </div>
-            
+                <ab>
+                    <lb/><persName>Cooper</persName> + <persName>Budd</persName> any sell <num type="fraction" value="0.167">1/6</num>
+                    <lb/>Letterpress Machine <num type="percentage" value="0.50">50%</num> on <num type="fraction" value="0.167">1/6</num> <choice><abbr>Wk</abbr><expan>Week</expan></choice>
+                    <lb/>Charge for
+                    <lb/>Paper <num type="percentage" value="0.15">15%</num> on cost
+                    <lb/>We find <choice><abbr><persName>WTJ</persName></abbr><expan><persName>William J. Townsend</persName></expan></choice> with wastage our Comp
+                    <lb/>cost say <num>9</num> plus near + tear type shop
+                    <lb/>worn +
+                    <list>
+                        <item><num type="fraction" value="1.75">1 3/4</num></item>
+                        <item><num type="fraction" value="10.75">10 3/4</num></item>
+                        <item><num type="fraction" value="2.091">2 1/11</num></item>
+                        <item><num type="fraction" value="1">1/1</num></item>
+                    </list>
+                </ab>
+            </div>    
             <!-- [End of PAGE 114] -->
             
             <!--[Start of PAGE 115]-->
@@ -211,7 +241,7 @@
                 <ab>
                     <lb/>Dinner hours arrange equally by
                     <lb/>manager so as to have always
-                    <note place="bottom">PJO</note>
+                    <note place="bottom"><persName>PJO</persName></note>
                 </ab>
             </div>
             
