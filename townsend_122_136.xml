@@ -24,100 +24,111 @@
             <fw type="page_number" place="top">80</fw>     
             <div type="log">
                 <head>arrangement of work</head>
-                <ab>
-                    <table rows="4" cols="2">
-                        <row>
-                            <cell>
-                                <seg xml:id="feb271894_0122"><date when="1894-02-27">
-                                /94 <choice><abbr>Feb</abbr><expan>February</expan></choice> 27.
-                                </date></seg>
-                            </cell>
-                            <cell>
-                                <persName>Robson</persName> to make up tray wages. Works + Office
-                            </cell>
-                        </row>
-                        <row>
-                            <cell><seg sameAs="#feb271894_0122">ditto</seg></cell>
-                            <cell>
-                                <persName>Freeman</persName>, Bookeeper, Collecting, Balanc 9
-                            </cell>
-                            <!--[ TODO 9 ]-->
-                        </row>
-                        <row>
-                            <cell><seg sameAs="#feb271894_0122">ditto</seg></cell>
-                            <cell>
-                                <persName>Goodlad</persName> + 
-                                <persName>alfred</persName> Entering + Invoic 9
-                                <!-- [TODO 9] -->
-                            </cell>
-                        </row>
-                        <row>
-                            <cell><seg sameAs="#feb271894_0122">ditto</seg></cell>
-                            <cell>
-                                <persName>
+                <table rows="4" cols="2">
+                    <row>
+                        <cell>
+                            <seg xml:id="feb271894_0122">
+                                <date when="1894-02-27"> /94 
                                     <choice>
-                                        <abbr>WAT</abbr>
-                                        <expan>William Arthur Townsend</expan>
-                                    </choice>
-                                </persName> Office + Work + Special
+                                        <abbr>Feb</abbr><expan>February</expan>
+                                    </choice> 27
+                                </date>
+                            </seg>
+                        </cell>
+                        <cell>
+                            <persName>Robson</persName> to make up tray wages. Works + Office
+                        </cell>
+                    </row>
+                    <row>
+                        <cell><seg sameAs="#feb271894_0122">ditto</seg></cell>
+                        <cell>
+                            <persName>Freeman</persName>, Bookeeper, Collecting, Balanc 9
+                        </cell>
+                        <!--[ TODO 9 ]-->
+                    </row>
+                    <row>
+                        <cell><seg sameAs="#feb271894_0122">ditto</seg></cell>
+                        <cell>
+                            <persName>Goodlad</persName> + 
+                            <persName>Alfred</persName> Entering + Invoic 9
+                            <!-- [TODO 9] -->
+                        </cell>
+                    </row>
+                    <row>
+                        <cell><seg sameAs="#feb271894_0122">ditto</seg></cell>
+                        <cell>
+                            <persName>
                                 <choice>
-                                    <abbr>Cust</abbr>
-                                    <expan>Customer</expan>
-                                </choice>.
-                            </cell>
-                        </row>
-                    </table>
-                </ab>
+                                    <abbr>WAT</abbr>
+                                    <expan>William Arthur Townsend</expan>
+                                </choice>
+                            </persName> Office + Work + Special
+                            <choice>
+                                <abbr>Cust</abbr>
+                                <expan>Customer</expan>
+                            </choice>.
+                        </cell>
+                    </row>
+                </table>
                 <ab>
-                    <lb/><date when="1896">1896</date> (<date when="1895-12-02">
-                        <choice><abbr>Dec</abbr><expan>December</expan></choice> 2 /95</date>),
-                    <persName>Thompson</persName> absent try thur <persName>Freeman</persName> ditto
-                    <!-- [TODO thur as Thursday? does WAT usually lowercase days?] -->
-                    <note place="above"><lb/><persName>Robson</persName>left a higher appoint</note>
+                    <note place="top"><lb/><persName>Robson</persName>left a higher appoint</note>
                     <!-- [TODO decide which line to encode the note on or if it is even a note] -->
-                    <table rows="5" cols="2">
-                        <row>
-                            <cell>Entering + Invoicing</cell>
-                            <cell><persName>J Goodlad</persName></cell>
-                            <!-- [TODO name expansion] -->
-                            <!-- I think we should practice encoding abbreviations in person names, because the abbreviations still reference and people, and in instances like that, a person name may include both an abbreviation and a name -->
-                        </row>
-                        <row>
-                            <cell>Cash Collect + bookeeping</cell>
-                            <cell><persName></persName></cell>
-                            <!-- [TODO name (what is it)] -->
-                        </row>
-                        <row>
-                            <cell>Works Changing + Shop</cell>
-                            <cell>
-                                <persName>
-                                    <choice>
-                                        <abbr>WAT</abbr>
-                                        <expan>William Arthur Townsend</expan>
-                                    </choice>
-                                </persName>
-                            </cell>
-                            <!-- [TODO changing or charging?] -->
-                        </row>
-                        <row>
-                            <cell>Traveller</cell>
-                            <cell>Mr <persName>Danson</persName></cell>
-                        </row>
-                        <row>
-                            <cell>Shop</cell>
-                            <cell>Mrs <persName>Smith</persName></cell>
-                            <!-- [TODO Mrs? Mons?] -->
-                        </row>
-                        <note place="inline">
-                            <lb/><persName>Alfred</persName> in office
-                        </note>
-                        <!-- [TODO brace] -->
-                        <trailer>
-                            <lb/>alternate weekly
-                            <!-- [TODO table? of related numbers] -->
-                        </trailer>
-                    </table>
+                    <lb/><date when="1896">1896</date> (
+                        <date when="1895-12-02">
+                            <choice><abbr>Dec</abbr><expan>December</expan></choice> 2 /95
+                        </date>), <persName>Thompson</persName> absent try 
+                        <unclear reason="illegible" resp="#KB">thur</unclear>
+                        <!-- [TODO thur as Thursday? does WAT usually lowercase days?] -->
+                        <persName>Freeman</persName> ditto
                 </ab>
+                <table rows="5" cols="2">
+                    <row>
+                        <cell>Entering + Invoicing</cell>
+                        <cell><persName>
+                                <unclear reason="illegible" resp="#KB">J</unclear> Goodlad
+                            </persName><!-- [TODO unclear and person name] -->
+                        </cell>
+                        <!-- I think we should practice encoding abbreviations in person names, because the abbreviations still reference and people, and in instances like that, a person name may include both an abbreviation and a name -->
+                    </row>
+                    <row>
+                        <cell>Cash Collect + bookeeping</cell>
+                        <cell><persName>
+                                <unclear reason="illegible" resp="#KB">Ernest H T</unclear>
+                            </persName><!-- [TODO unclear and person name] -->
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Works 
+                            <unclear reason="illegible" resp="#KB">Changing</unclear> + Shop
+                        </cell>
+                        <cell>
+                            <persName>
+                                <choice>
+                                    <abbr>WAT</abbr><expan>William Arthur Townsend</expan>
+                                </choice>
+                            </persName>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Traveller</cell>
+                        <cell>Mr <persName>Danson</persName></cell>
+                    </row>
+                    <row>
+                        <cell>Shop</cell>
+                        <cell><unclear reason="illegible" resp="#KB">Mons</unclear> 
+                            <!-- [TODO unclear] -->
+                            <persName>Smith</persName>
+                        </cell>
+                    </row>
+                    <note place="inline">
+                        <lb/><persName>Alfred</persName> in office
+                    </note> <!-- [TODO brace] -->
+                    <!-- can I have a note in a table? -->
+                    <trailer>
+                        <lb/>alternate weekly
+                        <!-- [TODO table? of related numbers] -->
+                    </trailer>
+                </table>
             </div>
             <div type="advice">
                 <ab>
@@ -125,10 +136,9 @@
                     <!-- [TODO name] -->
                     <lb/>Sales Shop should never be left the whole day
                     <lb/>me or both always in attendence I would prefer
-                    <lb/>both or at all events a 
-                        <unclear reason="illegible" resp="#KB">road,utor</unclear> during dinner
+                    <lb/>both or at all events a coadjutor during dinner
                     <lb/>the Shop Business does not increase and prosper
-                    <lb/>and I am all the more anxious To give the best attention to customers
+                    <lb/>and I am all the more anxious to give the best attention to customers
                 </ab>
             </div>
             <!-- [End of PAGE 122] -->
@@ -138,8 +148,10 @@
             <fw type="page_number" place="top">81</fw> 
             <div type="instruction">
                 <ab>
-                    <lb/>Constantly go <choice><abbr>thro</abbr><expan>through</expan></choice>
-                        the Stock examine
+                    <lb/>Constantly go 
+                        <choice>
+                            <abbr>thro</abbr><expan>through</expan>
+                        </choice> the Stock examine
                     <lb/>and make yourself aware of the stock you
                     <lb/>have and noting down any short
                 </ab>
@@ -155,7 +167,10 @@
             <div type="other">
                 <ab>
                     <lb/>Invoices of Goods bought passed
-                    <lb/>on the <num type="ordinal">1st</num> of following month
+                    <lb/>on the 
+                        <num type="ordinal">1
+                            <emph style="text-decoration:underline">st</emph>
+                        </num> of following month
                 </ab>
             </div>
             <!-- [End of PAGE 123] -->
@@ -167,25 +182,78 @@
                 <ab>
                     <lb/>Masters Weekly Meetings 12 
                         <emph style="text-decoration: underline;">am</emph><q>Wednesdays</q>
-                    <!-- [TODO encode 12 am as a time] -->
-                    <lb/>report of last weeks sales 
-                        <unclear reason="illegible" resp="#KB">NB</unclear> compare with former years
-                    <!-- [TODO unclear] -->
+                        <!-- [TODO encode 12 am as a time] -->
+                    <lb/>report of last weeks sales
+                    <note place="inline">
+                        <lb/>
+                            <unclear reason="illegible" resp="#KB">
+                                NB
+                            </unclear> compare with former years<!-- [TODO unclear] -->
+                    </note>  
                 </ab>
                 <ab>
                     <lb/>Masters Monthly Meetings 
-                        <num type="ordinal">20<emph style="text-decoration:underline">th</emph></num>
-                    <lb/>every account exam + paid
+                        <num type="ordinal">20
+                            <emph style="text-decoration:underline">th</emph>
+                        </num>
+                        <!-- [TODO does that mean the 20th of every month?] -->
+                    <lb/>every account 
+                        <choice><abbr>exam</abbr><expan>examined</expan></choice> + paid
                 </ab>
-                <ab>
-                    <lb/>Masters Quarterly Meetings
-                        <num type="ordinal">20<emph style="text-decoration:underline">th</emph></num>
+                <table rows="11" cols="1">
+                    <head>Masters Quarterly Meetings
+                        <num type="ordinal">20
+                            <emph style="text-decoration:underline">th</emph>
+                        </num>
                         <choice><abbr>Jan</abbr><expan>January</expan></choice>
                         <unclear reason="illegible" resp="#KB">ap</unclear> July
-                    <!-- [TODO unclear] -->
+                        <!-- [TODO unclear] -->
                         <choice><abbr>Oct</abbr><expan>October</expan></choice>
-                    <!-- [TODO paragraph, list, table?] -->
-                </ab>
+                    </head>
+                    <row>
+                        <cell>
+                            <seg xml:id="all_0124">All</seg> 
+                            estimates entered in Calculation books
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <seg sameAs="#all_0124">ditto</seg> 
+                            orders fixed in their places and put in safe
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Day <seg xml:id="books_0124">Books posted up and caller over</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Order <seg sameAs="#books_0124">ditto</seg></cell>
+                    </row>
+                    <row><cell>Accounts make and deliver</cell></row>
+                    <row><cell>Collecting begin enter in accounts due</cell></row>
+                    <row>
+                        <cell>Trade Ledger 
+                            <seg xml:id="whatOwing_0124">what owing</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Bank <seg sameAs="#whatOwing_0124">ditto</seg></cell>
+                    </row>
+                    <row>
+                        <cell>Sales Analysis and total 
+                            <seg xml:id="owingToUs_0124">owing to us</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Arrears of last quarter 
+                            <seg sameAs="#owingToUs_0124">ditto</seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>departmental working cost in Private Ledger</cell>
+                    </row>
+                </table>
             </div>
             <!-- [End of PAGE 124] -->
             
@@ -196,13 +264,12 @@
                 <!-- [TODO handshift across pages?] -->
                 <head>Electricity</head>
                 <ab>
-                    <lb/> Mr <unclear reason="illegible" resp="#KB">Shandlow</unclear>
-                    <!-- [TODO unclear] -->
-                        dont be in a hurry for power it is
-                    <lb/>coming <unclear reason="illegible" resp="#KB">Shandlow</unclear>
-                    <!-- [TODO unclear] -->
-                        I want it for 
-                        <unclear reason="illegible" resp="#KB">power Hight</unclear> it is clean
+                    <lb/>Mr 
+                        <persName>
+                            <unclear reason="illegible" resp="#KB">Shandlow</unclear>
+                        </persName> dont be in a hurry for power it is <!-- [TODO unclear and name] -->
+                    <lb/>coming! I want it for 
+                        <unclear reason="illegible" resp="#KB">power light it is clean</unclear>
                 </ab>
                 <ab>
                     <lb/>Electricity ― In Nature nothing is wasted
@@ -239,22 +306,24 @@
                 <ab>
                     <lb/>Railway Room for Stationery binding
                     <lb/>ruling type + <choice><abbr>litho</abbr><expan>lithograph</expan></choice>
-                        printing _ a complete
+                        printing ― a complete
                     <lb/>want for a Railway Company
-                    <!-- [TODO decide if that is the last line of a paragraph] -->
-                    <lb/>built a glass roofed 1 story heated + blinds
-                    <!-- [TODO encode 1 story] -->
+                </ab>
+                <ab>
+                    <lb/>built a glass roofed <measure>1 story</measure> heated + blinds
+                    <!-- [TODO measure] -->
                     <lb/>Electric Power + light inexpensive but efficient
                     <lb/>near or convenient to the Railway head office
                     <lb/>where the work is given out follow the idea
-                    <lb/>of the <orgName>Branch Banks</orgName> _ the right Man
+                    <lb/>of the <orgName>Branch Banks</orgName> ― the right Man
                     <lb/>or Partner at it
                     <note place="bottom">
-                        <lb/><date when="1898-09-16">
-                            <choice><abbr>Sep</abbr><expan>September</expan></choice> 16 1898
-                        </date>
+                        <lb/>
+                            <date when="1898-09-16">
+                                <choice><abbr>Sep</abbr><expan>September</expan></choice> 16 1898
+                            </date>
                     </note>
-                    <!-- [TODO decide how to represent the date / is it a note?] -->
+                    <!-- [TODO how can I attach the note to both abs] -->
                 </ab>
                 <ab>
                     <lb/>Head office ― for Ledger Keeping 
@@ -263,18 +332,23 @@
                     <lb/>account permittances Show room for
                     <lb/>all <unclear reason="illegible" resp="#KB">many actives</unclear>
                     <!-- [TODO unclear] -->
-                        strictly at Surrey St
-                    <!-- [TODO encode Surrey Street?] -->
-                    <lb/>treated like a <placeName>London</placeName> paper house
+                        strictly at <placeName>
+                            <address><addrLine>Surrey St</addrLine></address>
+                        </placeName>
+                    <lb/>treated like a <placeName>
+                        <address><addrLine>London</addrLine></address>
+                    </placeName> paper house
                     <lb/>with its Mills elsewhere
                 </ab>
                 <ab>
-                    <lb/>You may have a dozen such railway
-                    <!-- [TODO should I encode 'dozen' as a number?] -->
+                    <lb/>You may have a <measure>dozen such railway</measure>
+                    <!-- [TODO measure !!!!!!!should rooms be a part of It?] -->
                     <lb/>rooms but 
-                        <emph style="text-decoration-line: underline; text-decoration-style: double;">
-                            One
-                        </emph> office
+                        <measure>
+                            <emph style="text-decoration-line: underline; text-decoration-style: double;">
+                                One
+                            </emph> office 
+                        </measure> <!-- [TODO measure] -->
                     <lb/>To take the order for estimating
                     <note place="bottom">
                         <lb/><persName>Frank</persName> ruling
@@ -287,21 +361,20 @@
                             </persName> or
                             <persName>
                                 <choice>
-                                    <abbr>EHT</abbr>
+                                    <abbr>
+                                        <unclear reason="illegible" resp="#KB">EHT</unclear>
+                                    </abbr>
                                     <expan></expan>
-                                    <!-- [TODO EHT? EHJ? what's the full name?] -->
                                 </choice>
-                            </persName>
+                            </persName><!-- [TODO unclear, abbreviation, name -->
                         <lb/>bind lettering
                             <persName>
                                 <choice>
                                     <abbr>MW</abbr>
                                     <expan></expan>
-                                    <!-- [TODO what's the full name?] -->
                                 </choice>
-                            </persName>
-                        <!-- [TODO should the block of text that represents be encoded as a note?]  -->
-                    </note>
+                            </persName><!-- [TODO abbreviation and name -->
+                    </note><!-- [TODO should the block of text that represents be encoded as a note?] -->
                 </ab>
             </div>
             <!-- [End of PAGE 126] -->
@@ -309,69 +382,60 @@
             <!-- [Start of PAGE 127] -->
             <pb n="127" facs="CC20181029_Townsend_0127.tif"/>
             <fw type="page_number" place="top">85</fw>
-            <div type="other">
+            <div type="log">
                 <table rows="7" cols="4">
                     <head>Hows the Ship Sailing</head>
                     <row role="label">
                         <cell></cell>
-                        <cell></cell>
                         <cell>
-                            <lb/>Joined 
+                            <lb/>I owed
+                            <lb/>Creditor
+                            <lb/>£
+                        </cell>
+                        <cell>
+                            <lb/>I owed 
                             <lb/>Bank
+                            <lb/>£
                         </cell>
                         <cell>
                             <lb/>owing 
                             <lb/>to me
+                            <lb/>£
                         </cell>
                     </row>
                     <row>
                         <cell><date when="1897">1897</date></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell></cell><cell></cell><cell></cell>
                     </row>
                     <row>
                         <cell><date when="1898">1898</date></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell></cell><cell></cell><cell></cell>
                     </row>
                     <row>
                         <cell><date when="1899">1899</date></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell></cell><cell></cell><cell></cell>
                     </row>
                     <row>
                         <cell><date when="1900">1900</date></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell></cell><cell></cell><cell></cell>
                     </row>
                     <row>
                         <cell><date when="1901">1901</date></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell></cell><cell></cell><cell></cell>
                     </row>
                     <row>
                         <cell><date when="1902">1902</date></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell></cell><cell></cell><cell></cell>
                     </row>
-                </table>
-                <!-- [TODO table] -->
+                </table><!-- [TODO table] -->
+            </div>
+            <div type="other">                
                 <ab>
-                    <lb/>many a sore ay do I remember trampling down the
-                    <!-- [TODO sore?] -->
-                    <lb/><unclear reason="illegible" resp="#KB">lane</unclear>
-                    <!-- [TODO unclear] -->
-                        and at times the late Mr
+                    <lb/>many a sore day do I remember tramping down the
+                    <lb/>lane and at times the late Mr
                         <persName>
                             <unclear reason="illegible" resp="#KB">Fosol</unclear>
-                            <!-- [TODO unclear] -->
-                        </persName> whose soul
+                        </persName> whose soul <!-- [TODO unclear and name] -->
                     <lb/>may <name type="religious">God</name> bless would ask me to ride in the 
                         carriage
                     <lb/>as he went home one of the times he just put
@@ -387,7 +451,7 @@
             </div>
             <!-- [End of PAGE 127] -->
             
-            <!-- [Start of PAGE 128] -->
+            <!-- [Start of PAGE 128] --> <lefthere/>
             <pb n="128" facs="CC20181029_Townsend_0128.tif"/>
             <fw type="page_number" place="top">86</fw>
             <!-- [TODO refer to another fw] -->
@@ -403,13 +467,13 @@
                     <!-- [TODO is babman(?) lane an address? an place name?] -->
                     <!-- [TODO is Sales Shop a place name?] -->
                     <lb/>and took about 
-                        <measure ana="#material">
+                        <measure>
                             <num value="24">2 <choice><abbr>doz</abbr><expan>dozen</expan></choice></num>
                             <!-- [TODO what attribute describes that number?] -->
                             Aluminium pencils
                         </measure>
                         <!-- [TODO measure] -->
-                    <lb/><measure ana="#material"><num>1</num> Fountain Pen</measure>
+                    <lb/><measure><num>1</num> Fountain Pen</measure>
                         <num type="fraction" value=".833">5/6</num>
                         <!-- [TODO significant figures of number] -->
                         <!-- [TODO does 5/6 describe the Fountain Pens or the Cigar and Cigarette bases?] -->
@@ -420,12 +484,12 @@
                         </measure>
                         <!-- [TODO "and Cigarette bases" begins on the next line; how should multi line measures be handled?] -->
                     <lb/>
-                        <measure ana="#material">
+                        <measure>
                             <num value="1">one</num> or <num value="2">two</num> 
                             packs of playing cards
                         </measure>
                         <!-- [TODO multiline measure] -->
-                    <lb/><measure ana="#material"><num value="2">2</num> paper knives</measure>
+                    <lb/><measure><num value="2">2</num> paper knives</measure>
                         <num type="fraction" value="0.33">3/9</num> each
                 </ab>
                 <ab>
@@ -732,7 +796,8 @@
             </div>
             <div type="instruction">
                 <ab>
-                    <lb/>Every <date when="06-30">30th June</date> Auditor to enter
+                    <lb/>Every <date when="--06-30">30th June</date> Auditor to enter
+                    <!-- [TODO date conflict] -->
                     <lb/>the yearly amount of every customer together
                     <lb/>in the next column amount then 
                         <unclear reason="illegible" resp="#KB">During</unclear>
@@ -820,10 +885,20 @@
             </div>
             <!-- [End of PAGE 136] -->
             
+            
+            
+      
+            
+            
+            
+            
+            
+            
         </body>
     </text>
 </TEI>
-<!-- [TODO add # to ana values] -->
 <!-- [TODO encode streets as placeNames] -->
 <!-- [TODO create formating guidlines and apply them] -->
+<!-- [TODO separate all abs into individual divs?] -->
+<!-- [TODO change all note places to be of IED places] -->
 
