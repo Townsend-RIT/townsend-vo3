@@ -223,10 +223,10 @@
                     <label>Foundry Stereo</label><item><num type="pageNum">176</num></item>
                     <label>Fare of workmen when paid</label><item><num type="pageNum">173</num></item>
                     <label>Favourable remarks by customers</label><item><num type="pageNum">206</num></item>
-                    <label>Fox late <choice>
+                    <label><persName>Fox late <choice>
                         <abbr>Mr</abbr>
                         <expan>Mister</expan>
-                    </choice> <persName>Samuel</persName></label><item><num type="pageNum">85</num></item>
+                    </choice> Samuel</persName></label><item><num type="pageNum">85</num></item>
                     <label>Five Essentials</label><item><num type="pageNum">13</num></item>
                     <label>Forwarding at Home</label><item><num type="pageNum">188</num> <handShift medium="pencil" /><num type="pageNum">73</num></item> <!-- Is that 73 or 173? -->
                     <label><handShift medium="ink" />Free Labour</label><item><num type="pageNum">229</num></item>
@@ -245,10 +245,10 @@
                     <label>Gas Engine Ball</label><item><num type="pageNum">104</num> <num type="pageNum">344</num></item> <!-- Ball and 104 need to be associated -->
                     <label>Goods Delivery Books</label><item><num type="pageNum">10502</num></item>
                     <label>Guard Books</label><item><num type="pageNum">4701</num></item> <!-- See what the heck is going on with 10502 and 4701 -->
-                    <label>Green <choice>
+                    <label><persName>Green <choice>
                         <abbr>Mr</abbr>
                         <expan>Mister</expan>
-                    </choice> Hs visit</label><item><num type="pageNum">227</num></item>
+                    </choice> Hs</persName> visit</label><item><num type="pageNum">227</num></item>
                     <label>Guards for Skeleton books</label><item><num type="pageNum">64</num></item>
                     <label>Good Friday</label><item><num type="pageNum">100</num></item>
                     <label>Gas Ledgers what has given way</label><item><num type="pageNum">161</num></item>
@@ -272,13 +272,13 @@
                     <label>Honest Charging</label><item><num type="pageNum">265</num></item>
                     <label>Horse Keep</label><item><num type="pageNum">87</num></item>
                     <label>Home Forwarding</label><item><num type="pageNum">188</num></item>
-                    <label><handShift medium="pencil" /><unclear resp="JL">Hurnell</unclear> on Comping or <unclear resp="JL">Compontion</unclear></label><item><num type="pageNum">233</num></item>
+                    <label><handShift medium="pencil" /><name>Hurnell</name> on Comping or <unclear resp="JL">Compontion</unclear></label><item><num type="pageNum">233</num></item>
                 </list>
                 <!-- END PAGE 0020 -->
                 <!-- START PAGE 0021 -->
                 <pb facs="0021.tif" n="0021" />
                 <list type="index-ij">
-                    <label><handShift medium="ink" />Ink <unclear resp="JL">Morrel</unclear> end board end paper</label><item><num type="pageNum">360</num></item>
+                    <label><handShift medium="ink" />Ink <name><unclear resp="JL">Morrel</unclear></name> end board end paper</label><item><num type="pageNum">360</num></item>
                     <label>Index scale and stock</label><item><num type="pageNum">52</num></item>
                     <label>Index <choice>
                         <abbr>Nº</abbr>
@@ -381,7 +381,7 @@
                     </choice> books</label><item><num type="pageNum">273</num>E</item>
                     <label>Litho blunder</label><item><num type="pageNum">261</num></item>
                     <label>Lost Money on Endeavours for Trade</label><item><num type="pageNum">280</num></item>
-                    <label><seg xml:id="lowestoft_0023"><unclear resp="JL">Lowestoft</unclear></seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
+                    <label><seg xml:id="lowestoft_0023"><unclear resp="JL"><name>Lowestoft</name></unclear></seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Collector</label><item><num type="pageNum">92</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Manitola wheat excellence of</label><item><num type="pageNum">114</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> on Piece</label><item><num type="pageNum">204</num></item>
@@ -478,7 +478,7 @@
                     </choice> books destruction <unclear resp="JL">bof</unclear></label><item><num type="pageNum">51</num></item>
                     <label>Oath for <name><unclear resp="JL">Finns</unclear></name> secret printing</label><item><num type="pageNum">337</num></item>
                     <label>Overseer</label><item><num type="pageNum">201</num></item>
-                    <label><name>Osborne</name> <unclear resp="JL">FHo</unclear></label><item><num type="pageNum">163</num></item>
+                    <label><persName>Osborne</persName> <unclear resp="JL">FHo</unclear></label><item><num type="pageNum">163</num></item>
                     <label>Overwork</label><item><num type="pageNum">196</num></item>
                     <label>Orders writing out for Best Books</label><item><num type="pageNum">324</num></item>
                     <label>Over sheets ruling + printing</label><item><num type="pageNum">21</num></item>
