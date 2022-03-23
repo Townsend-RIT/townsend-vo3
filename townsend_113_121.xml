@@ -31,7 +31,7 @@
             <!-- [CHANGED 7/16/2020: Outlined page block. First pass of page 113.] -->
             <!-- [CHANGED 7/27/2020: After outlining the tables on paper, I decided to try and work them out in the document. Still haven't figured that out. First pass of 116 complete however.] -->
             <!-- [CHANGED 1/28/2021: Removed fullstops, completed transcription for files 117 and 118, will move onto the remaining files before attempting tables/diagrams, I have decided.] -->
-            <!-- [TODO: give <num> tags values -->
+            <!-- [NOTE: Tutorial!!!! Wahoo!!!!] -->
 
             <!--[Start of PAGE 113]-->
             <pb n="113" facs="CC20181029_Townsend_0113.tif"/>
@@ -39,8 +39,8 @@
             <div type="advice">
                 <ab>
                     <lb/>On Estimating
-                    <lb/>The same appearance and the same name of paper 10/. cheaper 
-                    <lb/>on £4.10.0, but this would
+                    <lb/>The same appearance and the same name of paper <num>10</num>/. cheaper 
+                    <lb/>on £<num>4.10.0</num>, but this would
                     <lb/>lessen the hours of labour and quality of material which
                     <lb/>me think necessary
                     <lb/><date when="1898-05-11">May 11/98</date>
@@ -48,7 +48,7 @@
             </div>
             <div type="other">
                 <ab>
-                    <lb/>Harrison Bw Howson, a lad sent to repair
+                    <lb/><persName>Harrison Bw Howson</persName>, a lad sent to repair
                     <lb/>18 in. single leather <unclear reason="illegible" resp="#CB">by gift</unclear> head - it was a
                     <lb/>terrible sample of bad work I wonder if it
                     <lb/>is this kind of low work <unclear reason="illegible" resp="#CB">panes</unclear> in their own
@@ -81,19 +81,170 @@
             <div type="log">
                 <ab>
                     <lb/>Profits
-                    <table rows="6" cols="2">
-                        <!-- [TODO: figure out tables oh good grief] -->
+                    <lb/>£
+                </ab>
+                <ab>
+                    <table rows="6" cols="4" rend="bracing, right"> <!-- [NOTE: This is to the right of the above lines of text] -->
+                        <row>
+                            <cell>Sale</cell>
+                            <cell><num>1</num></cell>
+                            <cell><num>0</num></cell>
+                            <cell><num>0</num></cell>
+                        </row>
+                        <row>
+                            <cell><seg xml:id="secondrow_114"><num type="percentage" value="0.125">12 1/2%</num></seg></cell>
+                            <cell> </cell>
+                            <cell><num>2</num></cell>
+                            <cell><num>6</num></cell>
+                        </row>
+                        <row>
+                            <cell><seg sameAs="#secondrow_114">ditto</seg></cell>
+                            <cell><num type="fraction" value="0.33">2/6</num></cell>
+                            <cell> </cell>
+                            <cell><num type="fraction" value="3.75">3 3/4</num></cell>
+                        </row>
+                        <row>
+                            <cell> </cell>
+                            <cell><num>1</num></cell>
+                            <cell><num>2</num></cell>
+                            <cell><num type="fraction" value="9.75">9 3/4</num></cell>
+                        </row>
+                        <row>
+                            <cell><num type="percentage" value="0.125">12 1/2%</num> off</cell>
+                            <cell> </cell>
+                            <cell><num>2</num></cell>
+                            <cell><num type="fraction" value="9.75">9 3/4</num></cell>
+                        </row>
+                        <row>
+                            <cell> </cell>
+                            <cell><num>1</num></cell>
+                            <cell><num>0</num></cell>
+                            <cell><num>0</num></cell>
+                        </row>
                     </table>
                 </ab>
-            </div>
-            
+                <ab rend="bracing">
+                    <lb/>to give
+                    <lb/><num type="fraction" value="12.5">12 1/2</num> clear
+                    <lb/>you must
+                    <lb/>add on
+                    <lb/>the <num type="fraction" value="12.5">12 1/2</num>
+                    <lb/>you put
+                    <lb/>on it or
+                    <lb/>it wont
+                    <lb/>yield clear
+                    <lb/><num type="percentage" value="0.125">12 1/2%</num>
+                </ab>
+                <table rows="5" cols="3">
+                    <row>
+                        <cell><num>1000</num></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><num>333</num></cell>
+                        <cell><num>6</num></cell>
+                        <cell><num>8</num></cell>
+                    </row>
+                    <row>
+                        <cell><num>1333</num></cell>
+                        <cell><num>6</num></cell>
+                        <cell><num>8</num></cell>
+                    </row>
+                    <row>
+                        <cell><num>333</num></cell>
+                        <cell><num>6</num></cell>
+                        <cell><num>8</num></cell>
+                    </row>
+                    <row>
+                        <cell><num>1000</num></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <note>
+                        <lb/>add <num type="fraction" value="0.33">1/3</num>
+                        <lb/><unclear resp="#CB" reason="illegible">phewn</unclear> by xxx
+                        <lb/>allow off
+                        <lb/><num type="fraction" value="0.25">1/4</num> or <num type="percentage" value="0.25">25%</num>
+                    </note>
+                </table>
+                <ab>
+                    <lb/><persName>Gotts</persName> Estimating see page <num>61</num>
+                    <lb/><unclear resp="#CB" reason="illegible">Comp</unclear>
+                    <table rows="3" cols="2" rend="braced">
+                        <row>
+                            <cell>Wage</cell>
+                            <cell><num type="fraction" value="8.25">8 1/4</num></cell>
+                        </row>
+                        <row>
+                            <cell><num type="percentage" value="0.45">45%</num></cell>
+                            <cell><num type="fraction" value="3.5">3 1/2</num></cell>
+                        </row>
+                        <row>
+                            <cell><persName>Gotts way</persName></cell>
+                            <cell><num type="fraction" value="11.75">11 3/4</num></cell>
+                        </row>
+                    </table>
+                    <lb rend="bracing"/>or
+                    <lb rend="bracing"/><num type="percentage" value="0.20">20%</num>
+                </ab>
+                <ab>
+                    <lb/><persName>Cooper</persName> + <persName>Budd</persName> any sell <num type="fraction" value="0.167">1/6</num>
+                    <lb/>Letterpress Machine <num type="percentage" value="0.50">50%</num> on <num type="fraction" value="0.167">1/6</num> <choice><abbr>Wk</abbr><expan>Week</expan></choice>
+                    <lb/>Charge for
+                    <lb/>Paper <num type="percentage" value="0.15">15%</num> on cost
+                    <lb/>We find <choice><abbr><persName>WTJ</persName></abbr><expan><persName>William J. Townsend</persName></expan></choice> with wastage our Comp
+                    <lb/>cost say <num>9</num> plus near + tear type shop
+                    <lb/>worn +
+                    <list rend="braced">
+                        <item><num type="fraction" value="1.75">1 3/4</num></item>
+                        <item><num type="fraction" value="10.75">10 3/4</num></item>
+                        <item><num type="fraction" value="2.091">2 1/11</num></item>
+                        <item><num type="fraction" value="1">1/1</num></item>
+                    </list>
+                <lb rend="bracing"/> we say <num type="fraction" value="0.33">1/3</num>
+                </ab>    
             <!-- [End of PAGE 114] -->
             
             <!--[Start of PAGE 115]-->
             <pb n="115" facs="CC20181029_Townsend_0115.tif"/>
             <fw type="page_number" place="top">73</fw>
-            <!-- [TODO: another page of tables. great] -->
-            
+                <ab>
+                    <lb/>from <num>6</num>
+                    <lb/>Customers private consults
+                    <lb/>Friends <unclear resp="#CB" reason="illegible">J 0/11</unclear>
+                    <lb/>A Day's Work  <date when="1891-08-06">aug 6/91</date><note place="below"><num>54</num></note>
+                    <list rend="left">
+                        <item>left The lodge</item>
+                        <item><num>8</num> - <num>5</num>am</item> <!-- [NOTE: this is how he records a time of day, similar to below's 8.40, or 10 30 -->
+                        <item><num>8</num> - <num>22</num> <seg xml:id="station_0115">station</seg> <unclear resp="#CB" reason="illegible">Ecctusally</unclear></item>
+                        <item><num>8</num> - <num>35</num> <seg sameAs="#station_0115">ditto</seg> <placeName>Sheffield</placeName></item>
+                    </list>
+                    <list>
+                        <item>at <placeName>Surrey St</placeName> <num>8</num> . <num>40</num><note place="below">to</note></item>
+                        <item>Letters <num>8</num> . <num>50</num><note place="below">to</note></item>
+                        <item>Workshops <num>10</num> <num>30</num><note place="below">to</note></item>
+                        <item>Exam Charge <num>12</num></item>
+                        <item>Dinner <num>2</num> <num>30</num></item>
+                        <item>Exam Charge <num>5</num></item>
+                        <item>Workshops <num>6</num></item>
+                        <item>Travellers <num>6</num> <num>30</num></item>
+                        <item>Letters <num>7</num></item>
+                        <item><unclear resp="#CB" reason="illegible">Home Brougham</unclear> <num>7</num> <num>30</num></item>
+                    </list>
+                    <note place="inline">a worker Lew</note>
+                    <lb/>By checking or posting your own Cash Book you
+                    <lb/>see that no credit has been posted surreptitiously
+                    <lb/>Saturday about <num>15</num>
+                    <list>
+                        <item><unclear resp="#CB" reason="illegible">usen <seg xml:id="al_0115">al</seg></unclear> <num>6</num> <num>30</num></item>
+                        <item>down <seg sameAs="#al_0115">ditto</seg> <num>7</num></item>
+                        <item>breakfast <num>7</num> <num>30</num></item>
+                        <item>closet <num>7</num> <num>45</num></item>
+                        <item><placeName>Surrey St</placeName> <num>8</num> am</item>
+                    </list>
+                </ab>
+            </div>
             <!-- [End of PAGE 115] -->
             
             <!--[Start of PAGE 116]-->
@@ -111,7 +262,7 @@
                     <lb/>them writing their own time in office
                     <lb/>time book and any absence from
                     <lb/>sickness or otherwise to be explained
-                    <lb/>in writing in the <unclear reason="illegible" resp="#CB">parre</unclear> book by them,
+                    <lb/>in writing in the same book by them,
                     <lb/>or if absent filled up by the manager
                     <lb/>The manager will see that everything
                     <lb/>be done with a good will to seeing
@@ -119,15 +270,22 @@
                     <lb/>attention to the mill supplying, and seeing
                     <lb/>of all customers who favor us by their
                     <lb/>patronage
-                    <!-- [TODO: there's a note/sort of a table(?) denoting the hours on mon-fri and the hours on saturday] -->
+                    <list rend="braced">
+                        <item>Mon</item>
+                        <item>Tues</item>
+                        <item>Wed</item>
+                        <item>Thur</item>
+                        <item>Fri</item>
+                    </list>
+                    <lb rend="bracing"/><num>8</num> . <num>30</num> to <num>1</num> <num>2</num> . <num>30</num> to <num>7</num>
+                    <lb/>Sat <num>8</num> . <num>30</num> to <num>2</num>
                 </ab>
                 <ab>
                     <lb/>Dinner hours arrange equally by
                     <lb/>manager so as to have always
-                    <note place="bottom">PJO</note>
+                    <note place="bottom"><persName>PJO</persName></note>
                 </ab>
             </div>
-            
             <!-- [End of PAGE 116] -->
             
             <!--[Start of PAGE 117]-->
@@ -150,7 +308,16 @@
             
             <div type="log">
                 <ab>
-                    <!-- [TODO: is this a list of jobs within the shop and their responsibilities? weird. a table might be in order. -->
+                    <list>
+                        <head>Show Room</head>
+                        <item>Chief</item>
+                        <item>apprentice</item>
+                        <item>young woman</item>
+                    </list>
+                    <lb/>Ledge Bookeeper + <unclear resp="#CB" reason="illegible">furmur</unclear>
+                    <lb/>Entering Clerk + <unclear resp="#CB" reason="illegible">fuming</unclear>
+                    <lb/><unclear resp="#CB" reason="illegible">Transller</unclear>
+                    <lb/><unclear resp="#CB" reason="illegible">Bookeepers</unclear>
                 </ab>
             </div>
             <!-- [End of PAGE 117] -->
@@ -174,7 +341,26 @@
                     <lb/>he will then enter them respectively
                     <lb/>in Working Order Book and lettered each
                 </ab>
-                <!-- [TODO: diagram of working order book -->
+                <figure>
+                    <figDesc>An illustration of how the Working Order Book should be organized</figDesc>
+                    <graphic url="CC20181029_Townsend_0118_inset.png"/>
+                    <trailer>
+                        <list>
+                            <head>Working Order Book</head>
+                            <item>do</item>
+                            <item>do</item>
+                            <item>do</item>
+                            <item>do</item>
+                            <item>do</item>
+                            <item>Pattern Cards</item>
+                            <item>Bookbinding</item>
+                            <item>account Books + invoices</item>
+                            <item>Letter Press Print</item>
+                            <item>Litho Print</item>
+                            <item>Bought goods</item>
+                        </list>
+                    </trailer>
+                </figure>
                 <ab>
                     <lb/>The same mill enter and service all - his
                     <lb/>prices proided in calculation books or by
@@ -182,7 +368,6 @@
                     <lb/>permanent estimates in proper books for
                     <note place="bottom">PJO</note>
                 </ab>
-
             <!-- [End of PAGE 118] -->
             
             <!--[Start of PAGE 119]-->
@@ -205,8 +390,8 @@
                     <lb/>Traveller Collector Collect Accounts and
                     <lb/>solicit orders try to bring cash + orders
                     <lb/>daily to help to keep the shop going
-                    <lb/>when asking for <unclear reason="illegible" resp="#CB">proverse</unclear> or account
-                    <lb/>a very good opportunity offers to <unclear reason="illegible" resp="#CB">tees</unclear>
+                    <lb/>when asking for <unclear reason="illegible" resp="#CB">promise</unclear> or account
+                    <lb/>a very good opportunity offers to <unclear reason="illegible" resp="#CB">press</unclear>
                     <lb/>for trade always hoping it is a
                     <lb/>Safe House
                 </ab>
@@ -214,10 +399,8 @@
                 <ab>
                     <lb/>Sales Shop Elderly Practical man
                     <lb/>to take change secure orders buy
-                    <lb/>stock converse and pleasantly <unclear reason="illegible" resp="CB">derclop</unclear>
-                </ab>
-            
-            
+                    <lb/>stock converse and pleasantly develop
+                </ab>            
             <!-- [End of PAGE 119] -->
             
             <!--[Start of PAGE 120]-->
@@ -250,17 +433,44 @@
             <div type="instruction">
                 <ab>
                     <lb/>Offices continued
-                    <lb/>In connection with <unclear resp=CB reason="illegible">service</unclear> Clerk
+                    <lb/>In connection with <unclear resp="CB" reason="illegible">service</unclear> Clerk
                     <lb/>should be Packer and Sender off
                     <lb/>with young Woman assistant
-                    <lb/>sal <num>25</num>/ young woman <num>8/6</num>
+                    <lb/>sal <num>25</num>/ young woman <num value="1.33" type="fraction">8/6</num>
                 </ab>
             </div>
 
             <div type="log">
                 <ab>
                     <lb/>Delivery porter with delivery
-                    <lb/>Cart Man <num>15</num>/ boy <num>3/6</num>
+                    <lb/>Cart Man <num>15</num>/ boy <num value="1.2" type="fraction">3/6</num>
+                </ab>
+            </div>
+            
+            <div type="advice">
+                <ab>
+                    <lb/>a flaw occurs in not noticing any job
+                    <lb/>being specially wanted on the finishing work
+                    <lb/>Table - thro having been sent down <unclear resp="#CB" reason="illegible">per</unclear> boy
+                    <lb/>without any note or message - Note use
+                    <lb/>your own juddgement specially for
+                    <lb/>important customer - which attend to directly <date when="1894-04-09">april 9/94</date>
+                </ab>
+            </div>
+            
+            <div type="log">
+                <ab>
+                    <lb/>Accounts Rates &amp; Taxes examined on
+                    <lb/>the <date when="---20">20th</date> apply to the Cashier who will have
+                    <lb/>same and promise or pay
+                </ab>
+                
+                <ab>
+                    <lb/>Travellers calling <unclear resp="#CB" reason="illegible">de</unclear> + Time if not
+                    <lb/>convenient to do business with him then
+                    <lb/>ask him if convenienent to call at <time>10:30 am</time>
+                    <lb/>following morning and be sure to have his
+                    <lb/>order if ready
                 </ab>
             </div>
             <!-- [End of PAGE 121] -->
