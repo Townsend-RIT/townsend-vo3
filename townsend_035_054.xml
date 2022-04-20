@@ -31,17 +31,19 @@
 
       <div type="log">
         <head>Latest on bookeeping</head>
-        <ab>Stores for all sent up to the departments by
+        <ab>
+          <lb/>Stores for all sent up to the departments by
           <lb/>Ticket and Store Keeper charge each department
           <lb/>in his Journal. then every year balance
-          <lb/>stores and shew balance</ab>
+          <lb/>stores and shew balance
+        </ab>
 
         <ab type="typography" rend="horizontal-line">----------------</ab>
 
         <table rows="9" cols="2">
           <head>Re-arrangement of Office Work <date when="1898-05-16">May 16/98</date></head>
 
-          <row role="label"><!--[start of row]-->
+          <row role="label">
             <cell><choice>
               <orig>Bookeeper</orig>
               <reg>Bookkeeper</reg>
@@ -58,11 +60,10 @@
                 <persName>Thompson</persName>
               </note>
             </cell>
-          </row><!--[End of row]-->
+          </row>
 
           <row>
             <cell></cell>
-            <!--[NOTE: XML reserved characters are &lt (<), &gt (>), &amp (&), $quot ("), and &apos (')]-->
             <cell>Cash + Cash book post</cell>
           </row>
 
@@ -87,7 +88,8 @@
           </row>
 
           <row>
-            <cell>Posting General Sales Ledgers
+            <cell>
+              <lb/>Posting General Sales Ledgers
               <lb/>Accounts monthly-quaterly-all 
               <lb/>Collecting vigilantly + well kept up 
               <lb/>Orders end in Calculation
@@ -96,25 +98,24 @@
                 <expan>books</expan>
               </choice>
               <lb/>and Safed
-              <lb/>Wed 10am list of doubtful <!-- JL: Time? I forgot what we're doing? Numbers? -->
-              <lb/><choice> <!-- JL: Added choice tag for abbrevation -->
+              <lb/>Wed 10am list of doubtful
+              <lb/><choice>
                 <abbr>a/c</abbr>
                 <expan>accounting</expan>
               </choice> complaints + remarks
-              <!--[+ mentally noted as 'and' yet preserved in the text]-->
-              <emph style="font-weight: bold;">
-                <lb/>Contents <choice> <!-- JL: Added choice tag for abbreviation -->
+                <lb/>Contents <choice>
                   <abbr>No</abbr>
                   <expan>Number</expan>
                 </choice> of Tin Cases <num>12</num> 
-              </emph>
+              
             </cell>
             <cell>Trade Ledger</cell>
-          </row><!--[End of row]-->
+          </row>
 
           <row>
             <cell></cell>
-            <cell>Accounts To pay 
+            <cell>
+              <lb/>Accounts To pay 
               <lb/> departmental returns</cell>
           </row>
 
@@ -128,12 +129,11 @@
             <cell>Time + Wages pay</cell>
           </row>
         </table>
-        <!--[End of table]-->
         </div>
       
       <div type="advice">
-        <ab>Master should keep his own Cash and fall over
-        <lb />his own Ledgers<choice>
+        <ab>Master should keep his own Cash and call over
+        <lb/>his own Ledgers<choice>
           <abbr>WT</abbr>
           <expan><persName>William Townsend</persName></expan>
         </choice><date when="1898-05-16">May 16/98</date></ab>
@@ -141,7 +141,16 @@
 
         <div type="other"> <!-- Add div type index -->
         <list style="list-style-type: none">
-          <label>C Cammell C Lt complaint of Pads</label> <!--JL: TODO: abbreviations name company -->
+          <label>C Cammell 
+            <choice>
+              <abbr>C</abbr>
+              <expan>Company</expan>
+            </choice> 
+            <choice>
+              <abbr>Li</abbr>
+              <expan>Library</expan>
+            </choice> 
+            complaint of Pads</label>
           <item><num type="pageNum">163</num></item>
 
           <label>Cash Book idea <q><date when="1898">1898</date></q></label>
@@ -173,63 +182,61 @@
 
           <label>Calculation books</label>
           <item><num type="pageNum">196</num></item>
-        </list><!--[End of list]-->
+        </list>
       </div>
       <!--[End of PAGE 35]-->
 
       <!--[Start of PAGE 36]-->
-        <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
-        <fw type="page_number" place="top">1/4</fw>
-        <fw type="tab">Y <lb /> Z</fw> <!-- JL: fixed this and moved to top -->
+      <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
+      <fw type="page_number" place="top">1/4</fw>
+      <fw type="tab">Y<lb/>Z</fw>
 
-        <div type="insert">
-          <gap reason="editorial">
-              <desc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</desc>
-          </gap>
-        </div> 
+      <div type="insert">
+        <gap reason="editorial">
+            <desc>A pasted in clipping from a newspaper giving notice of the illegal use of royal arms.</desc>
+        </gap>
+      </div> 
 
-        <!--[start of ab]-->
       <div type="other">
-        <ab>see Calculation book
+        <ab>
+          <lb/>see Calculation book
           <lb/><num>8348</num> written by<choice>
             <abbr>W.T.</abbr>
             <expan><persName>William Townsend</persName></expan>
-          </choice> <!-- JL: Added abbr/expan for WT initials -->
-          </ab>
+          </choice>
+        </ab>
       </div>
       <div type="principle">
         <ab>
-          <q>Where there is no conflict
+          <q>
+            <lb/>Where there is no conflict
             <lb/>There can be no conquest
             <lb/>Where there is no conquest
-            <lb/>There is no crown</q>
+            <lb/>There is no crown
+          </q>
         </ab>
         </div>
 
         <div type="instruction">
-        <ab>To Customers, we can make in cheaper made
+        <ab>
+          <lb/>To Customers, we can make in cheaper made
           <lb/>papers if desired, but the one we have estimated
           <lb/>for stands very eminent
           <lb/>(another pay) eminent
           <lb/>(another pay) very well
           <lb/>(another pay) fairly well
           <lb/>(another pay) uncertainty
-          <!--[start of note]-->
         </ab>
-        </div>
-        <div type="ethic">
-          <ab><add> 
+          <note place="right"> 
             <handShift medium="pencil"/>
-              Talleyrand never
-              <lb />do yourself what
-              <lb />you can get others
-              <lb />to do
-            <!--[get this handShift attribute looked at again.]-->
-            <!-- JL: TODO: is Jalleypoint/pond a name  -->
+            <lb/><persName>Talleyrand</persName> never
+            <lb/>do yourself what
+            <lb/>you can get others
+            <lb/>to do
             <handShift medium="ink"/>
-          </add></ab>
+          </note>
         </div>
-
+      
         <div type="log">
         <list style="list-style-type: none">
           <head>Cash book divisions</head>
@@ -238,14 +245,13 @@
           <item>Account book making</item>
           <item>binding</item>
           <item>pattern cards</item>
-          <item><handShift medium="pencil" /><unclear resp="JL">Zinc</unclear> backs 29</item>
-          <item><handShift medium="ink" />Type</item>
+          <note place="right"><handShift medium="pencil"/>Zinc backs 29</note>
+          <item><handShift medium="ink"/>Type</item>
           <item>Litho</item>
           <item>Sales Shop</item>
           <item>Boxs</item>
         </list>
         </div>
-        <!--[End of list]-->
 
         <div type="other">
         <ab><num type="roman" value="1902">MDCCCCII</num> roman numerals
@@ -257,15 +263,15 @@
       <pb n="037" facs="CC20180917_Townsend_0037.tif"/> 
       <fw type="page_number" place="top">1/2</fw>
 
-        <!--[start of ab]-->
       <div type="principle">
-        <ab>The Proudest view that can
+        <ab>
+          <lb/>The Proudest view that can
           <lb/>be taken of Man is to see him
           <lb/>like some Fair Vessel proceeding
           <lb/>steadily <choice>
             <abbr>thro</abbr>
             <expan>through</expan>
-          </choice>thro the Ocean 
+          </choice>the Ocean 
           <lb/>of Time His Sails impelled 
           <lb/>by the Feelings and Passions
           <lb/>of a well ordered Mind. His
@@ -275,22 +281,22 @@
           <lb/>sits at the Helm with
           <lb/>eyes fixed on the Compass
           <lb/>of Religion and Reason
-          <note place="bottom"><date when="1890-12-07">Dec 7/90</date></note></ab>
-        <!--[end of ab]-->
-
-        <!--[start of ab]-->
-        <ab>True quietness of Heart is got
+          <note place="bottom"><date when="1890-12-07">Dec 7/90</date></note>
+        </ab>
+        
+        <ab>
+          <lb/>True quietness of Heart is got
           <lb/>by resisting our passions not by 
-          <lb/>obeying them</ab> <!-- JL: Added <lb/>s -->
-        <!--[end of ab]-->
+          <lb/>obeying them
+        </ab>
       <!--[End of PAGE 37]-->
 
       <!--[Start of PAGE 38]-->
         <pb n="038" facs="CC20180917_Townsend_0038.tif"/>
         <fw type="page_number" place="top">3/4</fw>
 
-        <!--[start of ab]-->
-        <ab>Were Men indeed convinced
+        <ab>
+          <lb/>Were Men indeed convinced
           <lb/>that their health and comfort
           <lb/>were so materially dependent upon
           <lb/>the regulation of their own Minds,
@@ -304,88 +310,94 @@
           
           <note place="bottom"><date when="1890-12-07">Dec <num type="ordinal">7th</num>/90</date></note>
         </ab>
-        
-        <!--[end of ab]-->
 
-        <ab>Tomorrow leads to the Town of Never</ab>
+        <ab>
+          <lb/>Tomorrow leads to the Town of Never
+        </ab>
 
-        <ab>To deny self, to be meek, to be pure in heart
-          <lb/>to trust Gods Providence</ab>
+        <ab>
+          <lb/>To deny self, to be meek, to be pure in heart
+          <lb/>to trust Gods Providence
+        </ab>
 
-        <ab>Love. Joy. Peace long suffering Kindness goodness
-          <lb/>faithfulness meekness 	temperance - can we say
-          <lb/>there is not a strong line of <choice>
+        <ab>
+          <lb/>Love. Joy. Peace long suffering Kindness goodness
+          <lb/>faithfulness meekness temperance - can we say
+          <lb/>there is not a strong line of 
+          <choice>
             <orig>demarkation</orig>
             <reg>demarcation</reg>
-          </choice>demarkation between 
-          <lb/>those who bear such fruit and those who don't</ab>
-          </div>
-      <div type="other">
-        <!--[start of note]-->
-        <note place="bottom"> <!-- jay stopped here 4/19 -->
+          </choice> between 
+          <lb/>those who bear such fruit and those who don't
+        </ab>
+        <note place="bottom">
           <q type="biblical">and he that is eight days old
             <lb/>shall be circumsised
-            <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref>
-            <emph rend="flourish">Circumsised Cardinal Number 8</emph></q>
-        </note><!--[end of note]-->
-        <!-- JL: TODO: double triple check this whole ref stuff -->
-        </div>
+            <ref type="can" subtype="Bible" cRef="Gen.17.12">Gen XVII 12 Verse</ref> <!-- [Leave <refs> in for now, strip later if want to sort through - Cael & Lisa] -->
+            <lb/>Circumsised Cardinal Number 8</q>
+        </note>
+      </div>
       <!--[End of PAGE 38]-->
 
       <!--[Start of PAGE 39]-->
       <pb n="039" facs="CC20181003_Townsend_0039.tif"/>
       <fw type="page_number" place="top">1</fw>
         <div type="ethic">
-        <note place="left margin">One good head is <!-- TODO: talk about standardizing note locations -->
-        <lb/>better than a
-        <lb/>great many Hands</note>
+        <note place="left">
+          <lb/>One good head is
+          <lb/>better than a
+          <lb/>great many Hands
+        </note>
         </div>
       
         <div type="advice">
           <head>Routine of Work And duty</head>
-        
-
-        <!--[start of ab]-->
-        <ab>I advise rising at 6am Summer
+        <ab>
+          <lb/>I advise rising at 6am Summer
           <lb/>and Winter,
           <lb/>Prayers Bath and Shave up to 7
-          <lb/>Breakfast from 7.15 to 7.45 including <choice>
+          <lb/>Breakfast from 7.15 to 7.45 including 
+          <choice>
             <abbr>H.C.</abbr>
             <expan>Hot Cold</expan>
           </choice>
-          <lb/>Carriage 7.45 to 8 arrive Surrey <choice>
+          <lb/>Carriage 7.45 to 8 arrive Surrey 
+          <choice>
             <abbr>St</abbr>
             <expan>Street</expan>
           </choice>
           <lb/>In Workshops at 8 prompt seeing to
           <lb/>work until 1pm from 1 to 2 dinner 
           <lb/>in private room Hot one day Cold
-          <lb/>next leave Surrey <choice>
+          <lb/>next leave Surrey 
+          <choice>
             <abbr>St</abbr>
             <expan>Street</expan>
           </choice> at 7pm by
-          <lb/>Carriage this to apply to <choice> <!-- JL: Expanded all the dates. This is a pain -->
+          <lb/>Carriage this to apply to <choice>
             <abbr>Mon</abbr>
             <expan>Monday</expan>
-          </choice> <choice>
+          </choice> 
+          <choice>
             <abbr>Tues</abbr>
             <expan>Tuesday</expan>
           </choice>
-          <lb/><choice>
+          <lb/>
+          <choice>
             <abbr>Wed</abbr>
             <expan>Wednesday</expan>
           </choice> <choice>
             <abbr>Thur</abbr>
             <expan>Thursday</expan>
-          </choice> <choice>
+          </choice>
+          <choice>
             <abbr>Fri</abbr>
             <expan>Friday</expan>
           </choice> - Saturday each
           <lb/>alternately a holiday.
-        </ab> <!-- JL: How are we handling time? Just <num type="time"> ? <time> ? -->
-        <!--[end of ab]-->
+        </ab>
 
-        <table rows="6" cols="4"><!--[start of table]-->
+        <table rows="6" cols="4">
           <row>
             <cell>M</cell>
             <cell xml:id="t8to1_0039">8 to 1</cell>
@@ -427,26 +439,30 @@
               <lb/>Senior <seg sameAs="#holiday_0039">ditto</seg> each <seg sameAs="#saturday_0039">ditto</seg>
             </cell>
           </row>
-        </table><!--[end of table]-->
-          </div>
+        </table>
+        </div>
 
         <div type="instruction">
-        <note place="margin">Always open
+        <note place="right">
+          <lb/>Always open
           <lb/>your own letters
           <lb/>never depute
-          <lb/><choice>
+          <lb/>
+          <choice>
             <abbr>W.T.</abbr>
             <expan><persName>William Townsend</persName></expan>
-          </choice></note>
-          </div>
+          </choice>
+        </note>
+        </div>
       <!--[End of PAGE 39]-->
 
       <!--[Start of PAGE 40]-->
-        <pb n="040" facs="CC20181003_Townsend_0040.tif"/>
+      <pb n="040" facs="CC20181003_Townsend_0040.tif"/>
       <fw type="page_number" place="top">2</fw>
 
         <div type="advice">
-        <ab>In Business - I think if Health
+        <ab>
+          <lb/>In Business - I think if Health
           <lb/>will permit it is a very good thing
           <lb/>to be in the workshops at 2pm to
           <lb/>see all at their work doing it correctly
@@ -455,32 +471,38 @@
         <ab>Saturdays I think the time
           <lb/>for the one who takes duty might
           <lb/>be 8 to 3 short Cold Lunch making
-          <lb/><measure>57</measure> hours whish is more than the 
+          <lb/><measure>57</measure> hours whish is more than the <!-- [Measure will be returned to at a later date. -Cael & Lisa] -->
           <lb/>workmen make, to make up for this
           <lb/>the following week he has but <measure>50</measure> hours
           <lb/>to make and which with probable
           <lb/>over minutes will bring the working
           <lb/>Masters hours to an average of
-          <lb/><measure>54</measure> <!-- type ana for measure does not work -->
-            hours weekly as at present worked
-          <lb/>in Shops</ab>
-        <note place="bottom"><date when="1890-06-17">June 17th 1890</date></note>
+          <lb/><measure>54</measure>Hours weekly as at present worked
+          <lb/>in Shops
+          <note place="bottom">
+            <lb/><date when="1890-06-17">June 17th 1890</date>
+          </note>
+        </ab>
 
-        <figure><!--[start of figure]-->
+        <figure>
           <figDesc>A shop layout with annotations of objects in the room</figDesc>
           <graphic url="CC20181003_Townsend_0040_inset.png"/>
-          <trailer>Master in front room
+          <trailer>
+            <lb/>Master in front room
             <lb/>having eye on shop customers
             <lb/>Travellers offices and well
             <lb/>seeing to telephone customers
-            <lb/>with runs up and down stairs </trailer>
-          <note place="bottom"><date when="1891-06-08">June 8/91</date></note> <!-- Group discussion on notes needed -->
+            <lb/>with runs up and down stairs 
+          </trailer>
+          <note place="bottom">
+            <lb/><date when="1891-06-08">June 8/91</date>
+          </note>
         </figure>
-        </div>
-      <div type="instruction">
-          <note place="bottom">Never allow any one
+          <note place="bottom">
+            <lb/>Never allow any one
             <lb/>to be in and out -
-            <lb/>Shop neglected</note> <!-- JL: Combine notes? I don't think we should; how to indicate one is below another? is this enough? -->
+            <lb/>Shop neglected
+          </note>
       </div>
       <!--[End of Number 40]-->
 
@@ -490,33 +512,47 @@
       <fw type="page_number" place="top">3</fw>
 
         <div type="instruction">
-        <head place="top opposite">
+        <head>
           <choice>
             <orig>Bookeeping</orig>
             <reg>Bookkeeping</reg>
           </choice> <emph style="text-decoration-line: underline; text-decoration-style: double;">Double</emph>Entry</head>
 
-          <ab>Have <q>Day Book</q> very carefully
-          <lb/>added and analysed every Month</ab>
+          <ab>
+            <lb/>Have <q>Day Book</q> very carefully
+            <lb/>added and analysed every Month
+          </ab>
 
-        <ab>Every Quarter strike a Balance
-          <lb/>with the Quarters Sale showing</ab>
-          </div>
+        <ab>
+          <lb/>Every Quarter strike a Balance
+          <lb/>with the Quarters Sale showing
+        </ab>
+        </div>
+      
         <div type="log">
-        <!--[start of table]-->
         <table rows="1" cols="3">
           <row> 
-            <cell>Cash<lb/>as per<lb/><emph style="text-decoration: underline;">Bank</emph> Book</cell>
-            <cell>Abatements<lb/>as per<lb/><emph style="text-decoration: underline;">"Masters"</emph> initials</cell>
-            <cell>Not Paid<lb/>as per<lb/>Written list + <emph style="text-decoration: underline;">why</emph></cell>
+            <cell>
+              <lb/>Cash<lb/>as per
+              <lb/><emph style="text-decoration: underline;">Bank</emph> Book
+            </cell>
+            <cell>
+              <lb/>Abatements
+              <lb/>as per
+              <lb/><emph style="text-decoration: underline;">&quot;Masters&quot;</emph> initials
+            </cell>
+            <cell>
+              <lb/>Not Paid
+              <lb/>as per
+              <lb/>Written list + <emph style="text-decoration: underline;">why</emph>
+            </cell>
           </row>
         </table>
-        <!--[end of table]-->
 
-        <!--[start of table]-->
         <table rows="7" cols="2">
           <head place="below">
-            <date from="1897-01" to="1897-03">1897 <lb/> 
+            <date from="1897-01" to="1897-03"> 
+              <lb/>1897
               <choice>
                 <abbr>Jan</abbr>
                 <expan>January</expan>
@@ -524,7 +560,8 @@
               <choice>
                 <abbr>Mar</abbr>
                 <expan>March</expan>
-              </choice></date>
+              </choice>
+            </date>
           </head>
 
           <row role="label"> <!-- JAY: Let's talk about this table's format, because hoo, boy. -->
@@ -566,24 +603,21 @@
             <cell style="border-top-style: solid"><emph style="text-decoration-line: underline; text-decoration-style: double;">£ <num>2700 6 7</num></emph></cell>
           </row>
         </table><!--[end of table]-->
-        </div>
-      
-      <div type="other">
-        <note>
-          <q>Cash to be kept by principal</q>
-        </note>
-        
-        <ab><persName>William Townsend</persName></ab>
-        <!-- TODO: Flourish -->
+          <note place="inline">
+            <lb/><q>Cash to be kept by principal</q>
+          </note>
+          <ab>
+            <persName>William Townsend</persName>
+          </ab>
         </div>
       
       <div type="advice">   
         <ab><orgName><persName>Thomas Firth</persName> + Sons</orgName></ab>
-        <note place="below">310.26</note> <!-- TODO: Make sure this note is associated with TF+S -->
+        <note place="below"><lb/>310.26</note> <!-- TODO: Make sure this note is associated with TF+S -->
         
         <!--[start of note]-->
-        <note place="margin">
-          Day Book
+        <note place="left">
+          <lb/>Day Book
           <lb/>form of
           <lb/>Entry
           <lb/>I like
@@ -594,8 +628,8 @@
         <ab xml:id="bracket_0041"><num>1.6</num> 
           <choice>
             <abbr>qrs</abbr>
-            <expan>quarters</expan>
-          </choice> demy ruled &amp; <num>05</num> printed h
+            <expan>quires</expan>
+          </choice> demy ruled &amp; <num>05</num> printed h <!-- [This "h" could be halves, its definitely a symbol -Cael & Lisa] -->
         <lb/>rough Calf extra paged lett Day Book</ab>
           <note sameAs="#bracket_0041" place="inline">} <num>1.7</num></note>
         <!--[end of note]-->
