@@ -185,6 +185,13 @@
                     <label>Electricity</label><item><num type="pageNum">83</num></item>
                     <label>Ends</label><item><num type="pageNum">181</num> <num type="pageNum">154</num> <num type="pageNum">37</num> <num type="pageNum">168</num>* *making of</item> <!-- group 168 with its note -->
                     <label>Engine Ball</label><item><num type="pageNum">104</num></item>
+                   <!-- WIP what's wrong with this one...next one has no errors -->
+                    <person>
+                        <persname>
+                        <surName> Ball </surName>
+                        </persname>
+                        <relation type = "employee" /> 
+                    </person>
                     <label>Economies</label><item><num type="pageNum">179</num></item>
                     <label><placeName><name>Ecclesall</name> Workhouse</placeName></label><item></item>
                     <label>Estimate form leather binders</label><item><num type="pageNum">186</num></item>
@@ -223,10 +230,10 @@
                     <label>Foundry Stereo</label><item><num type="pageNum">176</num></item>
                     <label>Fare of workmen when paid</label><item><num type="pageNum">173</num></item>
                     <label>Favourable remarks by customers</label><item><num type="pageNum">206</num></item>
-                    <label><persName>Fox late <choice>
+                    <label><person><persName><surName>Fox </surName>late <choice>
                         <abbr>Mr</abbr>
                         <expan>Mister</expan>
-                    </choice> Samuel</persName></label><item><num type="pageNum">85</num></item>
+                    </choice> <forename>Samuel</forename></persName> <relation type = "employee" /></person> </label><item><num type="pageNum">85</num></item>
                     <label>Five Essentials</label><item><num type="pageNum">13</num></item>
                     <label>Forwarding at Home</label><item><num type="pageNum">188</num> <handShift medium="pencil" /><num type="pageNum">73</num></item> <!-- Is that 73 or 173? -->
                     <label><handShift medium="ink" />Free Labour</label><item><num type="pageNum">229</num></item>
@@ -245,10 +252,10 @@
                     <label>Gas Engine Ball</label><item><num type="pageNum">104</num> <num type="pageNum">344</num></item> <!-- Ball and 104 need to be associated -->
                     <label>Goods Delivery Books</label><item><num type="pageNum">10502</num></item>
                     <label>Guard Books</label><item><num type="pageNum">4701</num></item> <!-- See what the heck is going on with 10502 and 4701 -->
-                    <label><persName>Green <choice>
+                    <label> <person><persName><surName> Green  </surName> <choice>
                         <abbr>Mr</abbr>
                         <expan>Mister</expan>
-                    </choice> Hs</persName> visit</label><item><num type="pageNum">227</num></item>
+                    </choice> <foreName> Hs </foreName> <relation type = "person_organization" /> </persName> </person> visit</label><item><num type="pageNum">227</num></item>
                     <label>Guards for Skeleton books</label><item><num type="pageNum">64</num></item>
                     <label>Good Friday</label><item><num type="pageNum">100</num></item>
                     <label>Gas Ledgers what has given way</label><item><num type="pageNum">161</num></item>
@@ -272,12 +279,13 @@
                     <label>Honest Charging</label><item><num type="pageNum">265</num></item>
                     <label>Horse Keep</label><item><num type="pageNum">87</num></item>
                     <label>Home Forwarding</label><item><num type="pageNum">188</num></item>
-                    <label><handShift medium="pencil" /><name>Hurnell</name> on Comping or <unclear resp="JL">Compontion</unclear></label><item><num type="pageNum">233</num></item>
+                    <label><handShift medium="pencil" /> <person> <persName> <surName>Hurnell</surName> <relation type = "employee"/> <</persName></person> on Comping or Comportion</label><item><num type="pageNum">233</num></item>
                 </list>
                 <!-- END PAGE 0020 -->
                 <!-- START PAGE 0021 -->
                 <pb facs="0021.tif" n="0021" />
                 <list type="index-ij">
+                    <!-- Org name JL Morrel-->
                     <label><handShift medium="ink" />Ink <name><unclear resp="JL">Morrel</unclear></name> end board end paper</label><item><num type="pageNum">360</num></item>
                     <label>Index scale and stock</label><item><num type="pageNum">52</num></item>
                     <label>Index <choice>
@@ -306,12 +314,13 @@
                     <label>Journey 
                     <choice>
                         <abbr>WTs</abbr>
-                        <expan><persName>William Townsends</persName></expan>
+                        <expan><person> </person><persName><forename>William </forename> <surName>Townsend</surName> <relation type = "social" /></persName></expan>
                     </choice></label><item><num type="pageNum">323</num></item>
                     <label><choice>
                         <orig>Indexs</orig>
                         <reg>Indexes</reg>
                     </choice> cost of</label><item><num type="pageNum">52</num></item>
+                    <!--orgname-->
                     <label>Ink <name>Staffords</name></label><item><num type="pageNum">273</num>C</item>
                     <label>Ink <name>Stephens</name></label><item><num type="pageNum">273</num>C</item>
                     <label>Invoice marking</label><item></item>
@@ -363,9 +372,10 @@
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
                     </choice> books</label><item><num type="pageNum">51</num></item>
-                    <label>Locks Book</label><item><num type="pageNum">212</num></item> <!-- is Locks a name? -->
+                    <label>Locks Book</label><item><num type="pageNum">212</num></item> <!-- q: is Locks a name? a: when looking it up locks may be a role or technique-->
                     <label><placeName>London</placeName> printing charges</label><item><num type="pageNum">252</num></item>
                     <label><unclear resp="JL">Limited</unclear> Companies</label><item><num type="pageNum">353</num></item>
+                    <!--place-->
                     <label>Lettering Tree Library piece</label><item><num type="pageNum">269</num></item>
                     <label>Litho machine</label><item><num type="pageNum">69</num></item>
                     <label>Lining 
@@ -373,7 +383,8 @@
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
                     </choice> books</label><item><num type="pageNum">182</num></item>
-                    <label>Lettering Tree Library</label><item><num type="pageNum">269</num></item>
+                    <!--place-->
+                        <label>Lettering Tree Library</label><item><num type="pageNum">269</num></item>
                     <label>Lettering 
                     <choice>
                         <abbr>A/c</abbr>
@@ -381,7 +392,7 @@
                     </choice> books</label><item><num type="pageNum">273</num>E</item>
                     <label>Litho blunder</label><item><num type="pageNum">261</num></item>
                     <label>Lost Money on Endeavours for Trade</label><item><num type="pageNum">280</num></item>
-                    <label><seg xml:id="lowestoft_0023"><unclear resp="JL"><name>Lowestoft</name></unclear></seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
+                    <label><seg xml:id="lowestoft_0023"><unclear resp="JL"><person> </person><persname><surName>Lowestoft</surName> <relation type = "employee"/></persname>></seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Collector</label><item><num type="pageNum">92</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Manitola wheat excellence of</label><item><num type="pageNum">114</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> on Piece</label><item><num type="pageNum">204</num></item>
@@ -402,7 +413,7 @@
                     <label>Millboard Order</label><item><num type="pageNum">121</num></item>
                     <label>Man</label><item><num type="pageNum"><num type="fraction" value="0.5">1/2</num></num></item>
                     <label>Mind</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
-                    <label><persName>Marshalls</persName> letter on 
+                    <label><person><persName><surname>Marshalls</surname></persName> <relation type = "employee"/></person> letter on 
                     <choice>
                         <abbr>a/c</abbr>
                         <expan>accounting</expan>
@@ -498,7 +509,7 @@
                     <label>Price Book New</label><item><num type="pageNum">15</num></item>
                     <label>Paper Mills prices</label><item><num type="pageNum">227</num></item>
                     <label>Paste making of</label><item><num type="pageNum">113</num></item>
-                    <label>Pencils &amp; <persName>Wolff Jon</persName></label><item><num type="pageNum">353</num></item>
+                    <!--Orgname not persname--><label>Pencils &amp; Wolff Son</label><item><num type="pageNum">353</num></item>
                     <label>Proof Reading</label><item><num type="pageNum">251</num></item>
                     <label>Price Books ABCDEF</label><item><num type="pageNum">14</num></item>
                     <label>Packing room</label><item><num type="pageNum">88</num> <num type="pageNum">220</num> <num type="pageNum">87</num></item>
@@ -514,7 +525,7 @@
                     <label>Pensions</label><item><num type="pageNum">341</num> <num type="pageNum">350</num></item>
                     <label>Piece</label><item><num type="pageNum">154</num></item>
                     <label>Per hour</label><item><num type="pageNum">241</num></item>
-                    <label>Paper testiomny and Mills</label><item><num type="pageNum">108</num> <num type="pageNum">217</num></item>
+                    <label>Paper testiony and Mills</label><item><num type="pageNum">108</num> <num type="pageNum">217</num></item>
                 </list>
                 <!-- END PAGE 0027 -->
                 <!-- START PAGE 0028 -->
@@ -555,7 +566,7 @@
                     <label>Plant</label><item><num type="pageNum">273</num>J</item>
                     <label>Perqusites to workmen never allow</label><item><num type="pageNum">105</num></item>
                     <label>Parcels of Vellum binding how to get on</label><item><num type="pageNum">161</num></item>
-                    <label><orgName><persName>Pawson Brailsford</persName> Estimating</orgName></label><item><num type="pageNum">355</num></item>
+                    <label><orgName> Pawson Brailsford Estimating</orgName></label><item><num type="pageNum">355</num></item>
                 </list>
                 <!-- END PAGE 0028 -->
                 <!-- START PAGE 0029 -->
@@ -578,7 +589,7 @@
                     <label>Record Fifty years <placeName>Sheffield</placeName></label><item><num type="pageNum">157</num></item>
                     <label>Retirement</label><item><num type="pageNum">256</num></item>
                     <label>Russia Bands</label><item><num type="pageNum">38</num></item>
-                    <label>Ruling my Fathers <unclear resp="JL">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
+                    <label>Ruling <person> <persname> my Fathers <relation type = "social" /> </persname> </person> resp="JL">EC</> meaning</label><item><num type="pageNum">25</num></item>
                     <label>Rates and Taxes</label><item><num type="pageNum">211</num></item>
                     <label>Roof idea for Works</label><item><num type="pageNum">338</num></item>
                     <label>Ruling meanings of</label><item><num type="pageNum">21</num></item>
@@ -711,7 +722,8 @@
                     <label>Travelling written <date when="1901-11">Nov 1901</date></label><item><num type="pageNum">267</num></item>
                     <label>Type per hour Machine &amp; Comp</label><item><num type="pageNum">250</num></item>
                     <label>Terms</label><item><num type="pageNum">273</num>A</item>
-                    <label>Travelling notes Green on Dawson leading</label><item><num type="pageNum">164</num> <num type="pageNum">282</num></item> <!-- Group 164 and "on Dawson leaning" -->
+                    <!--look up Dawson-->
+                    <label>Travelling notes <person> <persName> <surname> Green</surname> <relation type = "person_organization"/></persName></person>on <person> <persname> <surname> Dawson <relation type = "employee"/> </surname></persname></person> leading</label><item><num type="pageNum">164</num> <num type="pageNum">282</num></item> <!-- Group 164 and "on Dawson leaning" -->
                     <label>Theft in Sales Shop</label><item><num type="pageNum">86</num></item>
                 </list>
                 <!-- END PAGE 0032 -->
@@ -754,11 +766,11 @@
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
                     </choice> books</label><item><num type="pageNum">169</num> <num type="pageNum">181</num></item> <!-- Is this 169 and 181 or 169-181 -->
-                    <label>Walker + Hall law case darkening building</label><item><num type="pageNum">209</num></item>
+                    <label><!--org--> Walker + Hall law case darkening building</label><item><num type="pageNum">209</num></item>
                     <label>Webbing</label><item><num type="pageNum">91</num> <num type="pageNum">61</num></item>
                     <label>Writing paper ordered New Years Day</label><item><num type="pageNum">189</num></item> <!-- Should things like NYD and Christmas be marked as days? -->
                     <label>Wages Historical</label><item><num type="pageNum">191</num></item>
-                    <label>Wortly Joshua pattern of money column</label><item><num type="pageNum">254</num></item>
+                    <label><person> <persname> <surname>Wortly </surname> <forename> Joshua </forename> </persname></person> pattern of money column</label><item><num type="pageNum">254</num></item>
                     <label>Writing Paper per 
                     <choice>
                         <abbr>ft</abbr>
@@ -783,6 +795,7 @@
                     <label>Sinking fund</label><item><num type="pageNum">339</num></item>
                     <label>Stock taking</label><item><num type="pageNum">273</num>J</item>
                     <label>Stock required</label><item><num type="pageNum">189</num></item>
+                    <!--org-->
                     <label><name>Stephens</name> ink</label><item><num type="pageNum">273</num>C</item>
                     <label>Skeleton Guard books Sewing</label><item><num type="pageNum">185</num></item>
                 </list>
