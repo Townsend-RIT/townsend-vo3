@@ -31,7 +31,7 @@
       <pb n="035" facs="CC20180917_Townsend_0035.tif"/>
       <fw type="page_number" place="top">Y</fw>
 
-      <div type="page">
+      <div type= "page">
         <head>Latest on bookeeping</head>
         <ab>Stores for all sent up to the departments by
           <lb/>Ticket and Store Keeper charge each department
@@ -49,7 +49,8 @@
             </cell>
             <cell>Assistant Bookeeper
               <note place="below">
-                <persName>Thompson</persName>
+                <person> 
+                  <persName> <surname> Thompson <relation type = "employee" />.</surname></persName></person>
               </note>
             </cell>
           </row><!--[End of row]-->
@@ -122,6 +123,7 @@
         <!--[how to handle WT initials]-->
 
         <list style="list-style-type: none">
+          <!--org-->
           <label>C Cammell C Lt complaint of Pads</label>
           <item>
             <num>163</num>
@@ -161,7 +163,7 @@
         </list><!--[End of list]-->
       <!--[End of PAGE 35]-->
 
-      <!--[Start of PAGE 36]-->
+      <!--[Start of PAGE 35]-->
         <pb n="036" facs="CC20180917_Townsend_0036.tif"/>
         <fw type="page_number" place="top">1/4</fw>
 
@@ -471,14 +473,14 @@
 
         <!--[start of ab]-->
         <ab>Have Monthly Balancings to<lb/>see prospectively how things are<lb/>every <num type="ordinal">20th</num> of the Month I like<lb/>
-          <note place="below">I took it from <emph style="text-decoration-line: underline;">M Fox</unclear></emph></note>
+          <note place="below">I took it from <emph style="text-decoration-line: underline;"> M Fox</unclear></emph></note>
           <lb/>and Quaterly Balancings<lb/>of every Book Debit and Credit<lb/>that is what you owe and is owning<lb/>to you. say<date when="--01-20">Jan 20</date><date when="--04-20">April 20</date><date when="--07-20">July 20</date><date when="--10-20">Oct 20</date>
           <lb/>Check every item with Day Book from<lb/>the Order Book to be sure all is entered<persName>WJ</persName>
           <lb/>Orders in Safe - Cross every<lb/>order in Day Book with Red<lb/>tick before putting in Safe - the<lb/>Red tick signifies there is an<lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
         </ab>
         <!--[end of ab]-->
 
-        <note place="bottom"><date when="1894-04">April/94</date>Mr Kingsford Wilson I advise Double Entry</note>
+        <note place="bottom"><date when="1894-04">April/94</date>Mr <person> <persName> <surname>  Wilson </surname> <forename> Kingsford </forename> <relation type = "person_organization"/></persName></person> advise Double Entry</note>
       </div><!--[end of page div]-->
       <!--[End of PAGE 42]-->
 
@@ -613,7 +615,7 @@
           <lb/>"Sheffield Journal"
         </ab>
 
-        <note place="below bottom">Dixons Robert Belk
+        <note place="below bottom"><!--org most likely --> Dixons <person>  <persname> <forename> <surname> Belk </surname> <relation type = "person_organization"/></relation> </forename>Robert </persname></person>
           <lb/>C Johnson + Station W
           <lb/>hardware elastic
         </note>
@@ -850,6 +852,7 @@
             <note place="inline"><handShift medium="pencil"/>Crypt <emph style="text-decoration: underline;">Crypt</emph><handShift medium="ink"/></note>
           <item>Collieries</item>
             <note place="inline"><handShift medium="pencil"/>C Crypt<handShift medium="ink"/></note>
+          <!--org-->
           <item>Cammell <!--[ TODO ]--></item>
           <item>Lost Contracts</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
@@ -911,7 +914,7 @@
       <div type="page">
         <head>Notes on Account book binding</head>
 
-        <ab><persName>M Wilkinson</persName> they always considered at
+        <ab><persName>M  <person> <persname> <surname> Wilkinson <relation type = "employee"/> </surname></persname></person></persName> they always considered at
           <lb/>Birmingham <num type="fraction" value=".33">1/3</num> off full binding price
           <lb/>for half binding <date when="1906-02-28">Feb 28/1906</date>
         </ab>

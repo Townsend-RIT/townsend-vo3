@@ -185,7 +185,7 @@
                     <label>Electricity</label><item><num type="pageNum">83</num></item>
                     <label>Ends</label><item><num type="pageNum">181</num> <num type="pageNum">154</num> <num type="pageNum">37</num> <num type="pageNum">168</num>* *making of</item> <!-- group 168 with its note -->
                     <label>Engine Ball</label><item><num type="pageNum">104</num></item>
-                   <!-- WIP what's wrong with this one...next one has no errors -->
+                  
                     <person>
                         <persname>
                         <surName> Ball </surName>
@@ -230,10 +230,8 @@
                     <label>Foundry Stereo</label><item><num type="pageNum">176</num></item>
                     <label>Fare of workmen when paid</label><item><num type="pageNum">173</num></item>
                     <label>Favourable remarks by customers</label><item><num type="pageNum">206</num></item>
-                    <label><person><persName><surName>Fox </surName>late <choice>
-                        <abbr>Mr</abbr>
-                        <expan>Mister</expan>
-                    </choice> <forename>Samuel</forename></persName> <relation type = "employee" /></person> </label><item><num type="pageNum">85</num></item>
+                    <label>late Mr <person><persName><surName>Fox </surName>
+                  </persName> <relation type = "employee" /></person> </label><item><num type="pageNum">85</num></item>
                     <label>Five Essentials</label><item><num type="pageNum">13</num></item>
                     <label>Forwarding at Home</label><item><num type="pageNum">188</num> <handShift medium="pencil" /><num type="pageNum">73</num></item> <!-- Is that 73 or 173? -->
                     <label><handShift medium="ink" />Free Labour</label><item><num type="pageNum">229</num></item>
@@ -252,10 +250,7 @@
                     <label>Gas Engine Ball</label><item><num type="pageNum">104</num> <num type="pageNum">344</num></item> <!-- Ball and 104 need to be associated -->
                     <label>Goods Delivery Books</label><item><num type="pageNum">10502</num></item>
                     <label>Guard Books</label><item><num type="pageNum">4701</num></item> <!-- See what the heck is going on with 10502 and 4701 -->
-                    <label> <person><persName><surName> Green  </surName> <choice>
-                        <abbr>Mr</abbr>
-                        <expan>Mister</expan>
-                    </choice> <foreName> Hs </foreName> <relation type = "person_organization" /> </persName> </person> visit</label><item><num type="pageNum">227</num></item>
+                    <label> <person><persName><foreName> Hs </foreName> <surName> Green  </surName>  <relation type = "person_organization" /> </persName> </person> visit</label><item><num type="pageNum">227</num></item>
                     <label>Guards for Skeleton books</label><item><num type="pageNum">64</num></item>
                     <label>Good Friday</label><item><num type="pageNum">100</num></item>
                     <label>Gas Ledgers what has given way</label><item><num type="pageNum">161</num></item>
