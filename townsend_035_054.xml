@@ -49,8 +49,8 @@
             </cell>
             <cell>Assistant Bookeeper
               <note place="below">
-                <person> 
-                  <persName> <surname> Thompson <relation type = "employee" />.</surname></persName></person>
+                <person role = "employee"> 
+                  <persName> <surname> Thompson  </surname></persName></person>
               </note>
             </cell>
           </row><!--[End of row]-->
@@ -124,7 +124,7 @@
 
         <list style="list-style-type: none">
           <!--org-->
-          <label>C Cammell C Lt complaint of Pads</label>
+          <label><orgname> C Cammell C Lt </orgname> complaint of Pads</label>
           <item>
             <num>163</num>
           </item>
@@ -356,7 +356,7 @@
           </row>
         </table><!--[end of table]-->
 
-        <note place="margin">Always open<lb/>your own letters<lb/>never depute<lb/><persName>W.J.</persName></note>
+        <note place="margin">Always open<lb/>your own letters<lb/>never depute<lb/><persName> <forename full = "init" reg ="william"> W </forename>.<surname full = "init" reg = "Townsend"></surname>T.</persName></note>
       <!--[End of PAGE 39]-->
 
       <!--[Start of PAGE 40]-->
@@ -452,7 +452,7 @@
 
         <!--[start of note]-->
         <note place="bottom">
-          <orgName>Thomas Firth + Sons</orgName>
+          <orgName type = "proprietorname"> <persname> <forename>Thomas </forename> <surname> Firth </surname> </persname> &amp; Sons</orgName>
           <note place="below">310.2b</note>
           <ab xml:id="bracket_0041"><num>1.6</num> qrs demy ruled &amp; <num>05</num> printed h<lb/>rough Calf extra paged lett Day Book</ab>
           <note sameAs="#bracket_0041" place="inline">} 1.7</note>
@@ -473,14 +473,14 @@
 
         <!--[start of ab]-->
         <ab>Have Monthly Balancings to<lb/>see prospectively how things are<lb/>every <num type="ordinal">20th</num> of the Month I like<lb/>
-          <note place="below">I took it from <emph style="text-decoration-line: underline;"> M Fox</unclear></emph></note>
+          <note place="below">I took it from <emph style="text-decoration-line: underline;"> M <person role = "employee"> <persname> <surname>Fox </surname> </person> </emph></note>
           <lb/>and Quaterly Balancings<lb/>of every Book Debit and Credit<lb/>that is what you owe and is owning<lb/>to you. say<date when="--01-20">Jan 20</date><date when="--04-20">April 20</date><date when="--07-20">July 20</date><date when="--10-20">Oct 20</date>
           <lb/>Check every item with Day Book from<lb/>the Order Book to be sure all is entered<persName>WJ</persName>
           <lb/>Orders in Safe - Cross every<lb/>order in Day Book with Red<lb/>tick before putting in Safe - the<lb/>Red tick signifies there is an<lb/>order in the Safe<date when="1891-04-24">April 24/91</date>
         </ab>
         <!--[end of ab]-->
 
-        <note place="bottom"><date when="1894-04">April/94</date>Mr <person> <persName> <surname>  Wilson </surname> <forename> Kingsford </forename> <relation type = "person_organization"/></persName></person> advise Double Entry</note>
+        <note place="bottom"><date when="1894-04">April/94</date>Mr <person role = "associate"> <persName> <forename> Kingsford </forename> <surname> Wilson </surname> </persName></person> advise Double Entry</note>
       </div><!--[end of page div]-->
       <!--[End of PAGE 42]-->
 
@@ -512,7 +512,7 @@
 
         <note place="bottom">Never were such books!
           <lb/>No, now never will be such books as the books
-          <lb/>of Cheeryble Brothers Vide Nicholas Nickleby þ35b
+          <lb/>of <name type = fictional> Cheeryble </name> Brothers Vide <name type = fictional> Nicholas Nickleby </name> þ35b
         </note>
       <!--[End of PAGE 43]-->
 
@@ -559,7 +559,7 @@
 
         <!--[start of figure]-->
         <figure>
-          <head><!--[ TODO: name ]-->William Townsend Son <abbr>Manufact</abbr> States</head>
+          <head> <orgname> <persname> <forename>William </forename> <surname> Townsend </surname>  </persname> Son</orgname> <abbr>Manufact</abbr> States</head>
           <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
           <graphic url="CC20181003_Townsend_0045_inset.png"/>
           <trailer>set up<lb/>magnanimous<lb/>get an<lb/>electro <!--[ TODO: abbr ]--></trailer>
@@ -615,9 +615,9 @@
           <lb/>"Sheffield Journal"
         </ab>
 
-        <note place="below bottom"><!--org most likely --> Dixons <person>  <persname> <forename> <surname> Belk </surname> <relation type = "person_organization"/></relation> </forename>Robert </persname></person>
-          <lb/>C Johnson + Station W
-          <lb/>hardware elastic
+        <note place="below bottom"><!--org most likely --> Dixons <person role = "associate">  <persname> <forename>Robert</forename> <surname> Belk </surname> </relation>  </persname>
+          <lb/><orgname type = "proprietorname"> <persname> </persname><forename full = "init" reg = "Christopher"> C </forename> <surname> Johnson  </surname> hardware </orgname>  + <orgname> Station W
+            <lb/> elastic </orgname>
         </note>
       <!--[End of PAGE 45]-->
 
@@ -800,7 +800,7 @@
         <list style="list-style-type:none;">
           <head>Tin Cases</head>
           <item>Workmens forms Invoices Letter heads cards Medical a/c</item>
-          <item>Vickers Sons &amp; Limited</item>
+          <item> <orgName type = "proprietorname"> <persname> <surname> Vickers </surname> </persname>  Sons &amp; Limited </orgName> </item>
           <item><seg xml:id="vol1_0049">Vol</seg> <num>1</num> <seg xml:id="balance_0049">Balance Receipt Bill Carnage</seg></item>
           <item><seg sameAs="#vol_0049">ditto</seg> <num>2</num> <seg sameAs="#balance_0049">ditto</seg></item>
           <item><seg xml:id="vol2_0049">Vol</seg> <num>1</num> <seg xml:id="limited_0049">Limited Companies</seg></item>
@@ -853,13 +853,13 @@
           <item>Collieries</item>
             <note place="inline"><handShift medium="pencil"/>C Crypt<handShift medium="ink"/></note>
           <!--org-->
-          <item>Cammell <!--[ TODO ]--></item>
+          <item> <orgname type = "proprietorname"> Cammell  </orgname></item>
           <item>Lost Contracts</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
           <item>Bankers</item>
-          <item>Sheffield Cooperation Water depart</item>
+          <item> <orgname type = "city"> Sheffield Cooperation Water depart </orgname></item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
-          <item>Boro of Sheffield <num>2</num> cases</item>
+          <item> <orgname type = "city"> Boro of Sheffield </orgname> <num>2</num> cases</item>
             <note place="inline"><handShift medium="pencil"/>C<handShift medium="ink"/></note>
 
           <note place="inline"><handShift medium="pencil"/>&#2573;<handShift medium="ink"/></note><!--[unicode X mark]-->
@@ -890,7 +890,7 @@
 
           <item>Abstracts</item>
           <item>Journals</item>
-          <item>Townsends Stock patterns</item>
+          <item> <orgname = "proprietorname"> <persname>  <surname> Townsends</surname> </persname> </orgname> Stock patterns</item>
           <item>Banks</item>
           <item>Mercantile</item>
           <item>Lost Contracts</item>
@@ -900,7 +900,7 @@
           <item>pattern Cards</item>
           <item>Brewers Bottled Beer patterns</item>
           <item>Lawyers</item>
-          <item>Water Works Sheffield</item>
+          <item> <orgname = "city"> Water Works Sheffield </orgname></item>
             <note place="inline"><handShift medium="pencil"/>C <name xml:id="PJO">P.J.O</name><handShift medium="ink"/></note>
         </list><!--[end of list]-->
       </div><!--[end of page div]-->
@@ -914,8 +914,8 @@
       <div type="page">
         <head>Notes on Account book binding</head>
 
-        <ab><persName>M  <person> <persname> <surname> Wilkinson <relation type = "employee"/> </surname></persname></person></persName> they always considered at
-          <lb/>Birmingham <num type="fraction" value=".33">1/3</num> off full binding price
+        <ab><persName>M  <person role = "employee"> <persname> <surname> Wilkinson </surname></persName></person> they always considered at
+          <lb/> <placename> Birmingham  </placename><num type="fraction" value=".33">1/3</num> off full binding price
           <lb/>for half binding <date when="1906-02-28">Feb 28/1906</date>
         </ab>
 
