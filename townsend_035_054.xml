@@ -1361,8 +1361,7 @@
               <expan>Foolscap</expan>
             </choice></cell>
             <cell><num>1</num> to <num>1200</num></cell><!--[TODO: reference numbers?]-->
-            <cell rows="13">Ⅰ to ⅩⅤ</cell> <!-- JAY: Fuckin' what. I need to ask Jacob about this
-            Also are they numbers?????? -->
+            <cell rows="13">Ⅰ to ⅩⅤ</cell> <!-- Double check this cell against facsimile -->
             <cell rows="13">A to I</cell>
           </row>
 
