@@ -41,8 +41,6 @@
         <!--[CHANGED 05/03/20: Use of @rend to denote a horizontal line break]-->
 
         <!--[CHANGED 26/03/20: First instance of a percentage num type]-->
-      
-      <!-- Lisa stuff is working :) -->
 
         <!--[Start of PAGE 55]-->
             <pb n="055" facs="CC20180917_Townsend_0055.tif"/>
@@ -108,9 +106,7 @@
                         <cell><num type="fraction" value=".5">1/2</num> glazed cape best stock</cell>
                     </row>
                 </table>
-                <!--[end of reference table]-->
 
-                <!--[start of table 1]-->
                 <table rows="7" cols="5">
                     <row>
                         <cell><num type="roman" value="1">I</num></cell>
@@ -162,9 +158,7 @@
                         <cell>ABCDE</cell>
                     </row>
                 </table>
-                <!--[end of table 1]-->
 
-                <!--[start of table 2]-->
                 <table rows="4" cols="5">
                     <head><hi style="text-decoration: underline;"><choice>
                       <abbr>Thro</abbr>
@@ -202,9 +196,7 @@
                         <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                 </table>
-                <!--[end of table 2]-->
 
-                <!--[start of table 3]-->
                 <table rows="4" cols="5">
                   <head><hi style="text-decoration: underline;"><choice>
                     <abbr>Thro</abbr>
@@ -239,9 +231,7 @@
                         <cell><seg sameAs="#CDI_0055">ditto</seg></cell>
                     </row>
                 </table>
-                <!--[end of table 3]-->
 
-                <!--[start of table 4]-->
                 <table rows="22" cols="2">
                     <head><hi style="text-decoration: underline;">Flush <num>1</num> to <num>3</num> <choice>
                       <abbr>qrs</abbr>
@@ -283,7 +273,7 @@
                         <cell>Order <seg sameAs="#book_0055">ditto</seg></cell>
                         <cell><num>609</num> - <num>611</num></cell>
                     </row>
-                    <cb/><!--[column break]-->
+                    <cb/>
                     <row>
                         <cell><seg xml:id="faint1_0055">Faint</seg></cell>
                         <cell><num>612</num> - <num>614</num></cell>
@@ -299,7 +289,6 @@
                         </choice></cell>
                         <cell><num>618</num> - <num>620</num></cell>
                     </row>
-                    <!--[start of row 11]-->
                     <row>
                       <cell><seg sameAs="#faint1_0055">ditto</seg> <choice>
                         <abbr>dble</abbr>
@@ -315,7 +304,7 @@
                         <cell><seg sameAs="#longfoliofaint_0055">ditto</seg> &amp; date</cell>
                         <cell><num>627</num> - <num>629</num></cell>
                     </row>
-                    <cb/><!--[column break]-->
+                    <cb/>
                     <row>
                       <cell><seg xml:id="faint2_0055">Faint</seg> + <choice>
                         <abbr>Com</abbr>
@@ -368,7 +357,6 @@
                         </choice></seg></cell>
                         <cell><num>1481</num></cell>
                     </row>
-                    <!--[start of row 21]-->
                     <row>
                       <cell><seg sameAs="#ft_0555">ditto</seg> &amp; <abbr><choice>
                         <abbr>dble</abbr>
@@ -381,14 +369,12 @@
                         <cell><num>1487</num></cell>
                     </row>
                 </table>
-                <!--[end of table 4]-->
         <!--[End of PAGE 55]-->
 
         <!--[Start of PAGE 56]-->
                 <pb n="056" facs="CC20180917_Townsend_0056.tif"/>
                 <fw type="page_number" place="top">18</fw>
 
-                <!--[note at the top of the page]-->
                 <note place="top">also at Page 60</note>
 
                 <!--[reference table tucked into the corner of the page]-->
@@ -408,7 +394,6 @@
                         <cell>E</cell>
                     </row>
                 </table>
-                <!--[end of reference table]-->
 
                 <!--[start of Demy table]-->
                 <table rows="8" cols="3">
@@ -532,7 +517,6 @@
                       <cell><num>3601</num></cell>
                     </row>
                 </table>
-                <!--[end of Medium table]-->
 
                 <!--[start of Royal table]-->
               <table rows="6" cols="3">
@@ -572,9 +556,7 @@
                         <cell>ABCDE</cell>
                     </row>
                 </table>
-                <!--[end of Royal table]-->
             </div>
-            <!--[end of DIV]-->
         <!--[End of PAGE 56]-->
 
         <!--[Start of PAGE 57]-->
@@ -590,7 +572,6 @@
                 <ab>Foolscap Sheet and Third Foolscap <lb/> <num>7001</num> - <num>7500</num></ab>
                 <ab>Sheet + Half Foolscap <num>8001</num> - <num>8500</num></ab>
 
-                <!--[start of TABLE]-->
                 <table rows="10" cols="4">
                     <!--[start of table content]-->
                     <row>
@@ -680,9 +661,7 @@
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
-                    <!--[end of table content]-->
 
-                    <!--[start of trailer]-->
                     <trailer>
                         <list>
                             <head>Key to Roman Numerals Ruling.</head>
@@ -796,16 +775,13 @@
                             <item><seg sameAs="#bindings_0057">ditto</seg> <num type="fraction" value=".5">1/2</num> glazed <unclear resp="JP">Capeas</unclear> best <lb/> stock</item>
                         </list>
                     </trailer>
-                    <!--[end of trailer]-->
                 </table>
-                <!--[end of TABLE]-->
         <!--[End of PAGE 57]-->
 
         <!--[Start of PAGE 58]-->
             <pb n="058" facs="CC20180917_Townsend_0058.tif"/>
             <fw type="page_number" place="top">20</fw>
 
-            <!--[start of vertical table]-->
             <table>
               <row style="writing-mode: sideways-rl"><!--[vertically written cells]-->
                   <cell>Ruling Patterns</cell>
@@ -907,9 +883,7 @@
                 </table>
               </trailer>
             </table>
-            <!--[end of vertical table]-->
 
-            <!--[start of table]-->
             <table>
               <row>
                 <cell><num>3</num> <seg xml:id="thicknesses_0058">thicknesses</seg></cell>
@@ -930,11 +904,9 @@
                 <cell><num>847</num> to <num>1098</num></cell>
               </row>
             </table>
-            <!--[end of table]-->
 
             <ab type="typography" rend="horizontal-line">----------------</ab><!--[Horizontal line break]-->
 
-            <!--[start of table]-->
             <table>
               <row>
                 <cell><num>3</num> <seg sameAs="#thicknesses_0058">ditto</seg></cell>
@@ -958,7 +930,6 @@
                 <cell><num>9211</num> to <num>9546</num></cell>
               </row>
             </table>
-            <!--[end of table]-->
 
             <ab type="typography" rend="horizontal-line">----------------</ab>
 
@@ -972,8 +943,6 @@
             </table>
 
             <ab type="typography" rend="horizontal-line">----------------</ab>
-
-            <!--[start of table]-->
             <table>
               <row>
                 <cell><num>3</num> <figure>
@@ -1008,11 +977,9 @@
                 <cell style="border-top-style: solid"><num>1512</num></cell>
               </row>
             </table>
-            <!--[end of table]-->
 
             <ab type="typography" rend="horizontal-line">----------------</ab>
 
-            <!--[start of table]-->
             <table>
               <row>
                 <cell>Bills Receivable + Payable</cell>
@@ -1027,7 +994,6 @@
                 <cell><num>10502</num>, <num>10521</num></cell>
               </row>
             </table>
-            <!--[end of table]-->
 
             <ab>La post 12<choice>
               <abbr>s</abbr>
@@ -1037,18 +1003,14 @@
               <expan>Company</expan>
             </choice></orgName> <num>10937</num></ab>
             <ab>To <num type="pageNum">59</num></ab>
-
             </div>
-            <!--[end of DIV]-->
         <!--[End of PAGE 58]-->
 
         <!--[Start of PAGE 59]-->
             <pb n="059" facs="CC20181003_Townsend_0059.tif"/>
             <fw type="page_number" place="top"></fw>
 
-            <!--[start of DIV]-->
             <div type="log"><!--[TODO]-->
-              <!--[start of list]-->
               <list>
                 <head>Rulings</head>
                 <label><num type="roman" value="1">I</num></label>
@@ -1097,9 +1059,7 @@
                 <label><num type="roman" value="15">XV</num></label>
                 <item>Faint and double money - <seg sameAs="#longfolio_0059">ditto</seg> <seg sameAs="#thru_0059">ditto</seg></item>
               </list>
-              <!--[end of list]-->
 
-              <!--[start of table]-->
               <table>
                 <row>
                   <cell></cell>
@@ -1125,7 +1085,7 @@
                   </choice></cell>
                   <cell>intricate</cell>
                   <cell>Very<lb/>intri<lb/>cate</cell>
-                  <cell>Very<lb/>Very<lb/><unclear resp="JL">intraca</unclear></cell>
+                  <cell>Very<lb/>Very<lb/><unclear resp="#JL">intraca</unclear></cell>
                   <cell></cell>
                 </row>
                 <row>
@@ -1142,7 +1102,6 @@
                 </row>
                 <note target="#bracketStart_0059" targetEnd="#bracketEnd_0059" rend="braced">printed</note>
               </table>
-              <!--[end of table]-->
             </div>
         <!--[End of PAGE 59]-->
 
@@ -1151,7 +1110,6 @@
             <fw type="page_number" place="top"></fw>
 
             <div type="log"><!--[TODO]-->
-              <!--[start of list]-->
               <list>
                 <head>Bindings</head>
                 <label>A</label><item><seg xml:id="full1_0060">Full</seg> Rough Calf extra</item>
@@ -1166,7 +1124,6 @@
                 <label>J</label><item></item>
                 <label>K</label><item></item>
               </list>
-              <!--[end of list]-->
             </div>
         <!--[End of PAGE 60]-->
 
@@ -1179,7 +1136,6 @@
 
               <head>Aliens</head>
 
-              <!--[start of table]-->
               <table>
                 <row>
                   <cell><num>1401</num> to <num>1410</num></cell>
@@ -1564,7 +1520,7 @@
                 <item><num>2</num> accounts</item>
               </list>
 
-              <!--[large break in the page with nothing]-->
+              <!--[large break in the page with nothing] COMMENT FROM CAEL: this is what the <gap> or <span> or whatever is for-->
 
               <table>
                 <row>
@@ -1839,7 +1795,7 @@
                 <lb/>keep up
               </ab>
               <note place="inline">
-                Vide Grandfathers 800, 1847 <!-- TODO: Find out what book he is referencing? Is 800 a page number? 1847 a year? -->
+                <lb/>Vide Grandfathers 800, 1847 <!-- TODO: Find out what book he is referencing? Is 800 a page number? 1847 a year? -->
               </note>
               <note place="below">
                 <date when="1891-06-25">June 25/91</date>
@@ -1867,7 +1823,7 @@
                 <lb/>and the heavy Union Wages I ascribe my
                 <lb/>bad balance this midsummer often the
                 <lb/>overtime is but a cause of lens being done in
-                <lb/>the regular hours - also Gas + <unclear resp="JP">poney</unclear> <choice>
+                <lb/>the regular hours - also Gas + <unclear resp="#JP">poney</unclear> <choice>
                   <abbr>WT</abbr>
                   <expan><persName>William Townsend</persName></expan>
                 </choice>
@@ -1878,7 +1834,7 @@
                 <cb/>
                 <table rows="6" cols="2">
                   <row>
-                    <cell><unclear resp="JL">Sew</unclear> <seg xml:id="women_0066">Women</seg> <seg xml:id="depart_0066">Depart</seg></cell>
+                    <cell><unclear resp="#JL">Sew</unclear> <seg xml:id="women_0066">Women</seg> <seg xml:id="depart_0066">Depart</seg></cell>
                     <cell><num type="fraction" value="3.5">3 1/2</num></cell>
                   </row>
                   <row>
