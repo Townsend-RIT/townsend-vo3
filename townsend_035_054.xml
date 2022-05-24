@@ -53,8 +53,12 @@
             </cell>
             <cell>Assistant Bookeeper
               <note place="below">
-                <lb/><person role = "employee"> 
-                  <persName><surname>Thompson</surname></persName></person>
+                <lb/>
+                <person role = "employee"> 
+                  <persName>
+                    <surName>Thompson</surName>
+                  </persName>
+                </person>
               </note>
             </cell>
           </row>
@@ -131,13 +135,21 @@
       <div type="advice">
         <ab>
           <lb/>Master should keep his own Cash and call over
-          <lb/>own Ledgers<persName>WT</persName><date when="1898-05-16">May 16/98</date></ab> <!-- For Jamie: Check this line -->
+          <lb/>own Ledgers
+          <persName>
+            <foreName full ="init" reg = "William"> W</foreName>
+            <surName full = "init" reg = "Townsend"> T </surName></persName><date when="1898-05-16">May 16/98</date></ab> <!-- For Jamie: Check this line -->
         </div>
 
         <div type="index"> <!-- Add div type index -->
           <!--org-->
           <list>
-          <label><orgName>C Cammell 
+            <label>
+              <orgName type = "proprietorname"> <persName>
+              <foreName full = "init"> C</foreName>
+              <surName> Cammell  </surName>
+            </persName> 
+            </orgName>
             <choice>
               <abbr>C</abbr>
               <expan>Company</expan>
@@ -145,7 +157,7 @@
             <choice>
               <abbr>Li</abbr>
               <expan>Library</expan>
-            </choice></orgName> complaint of Pads</label>
+            </choice> complaint of Pads</label>
           <item><num type="pageNum">163</num></item>
 
           <label>Cash Book idea <q><date when="1898">1898</date></q></label>
@@ -169,7 +181,13 @@
           <label>Carriage Sutton</label>
           <item><num type="pageNum">12</num> <num type="pageNum">353</num></item>
 
-          <label>Clerks payment <persName>M Fox</persName></label> <!-- For Jamie: Check this line -->
+          <label>Clerks payment 
+            <person role = "employee"> M
+            <persName>
+              <surName>Fox </surName>
+            </persName>
+          </person>
+          </label> 
           <item><num type="pageNum">111</num></item>
 
           <label>Confidential</label>
@@ -196,10 +214,13 @@
         <ab>
           <lb/>see Calculation book
           <lb/><num>8348</num> written by
-          <choice> <!-- For Jamie: Check this line to 202 -->
-            <abbr>W.T.</abbr>
-            <expan><persName>William Townsend</persName></expan>
-          </choice>
+         <!-- For Jamie: Check this line to 202 -->
+            <persName>
+              <foreName full= "init" reg = "William"> W.</foreName>
+              <surName full = "init" reg = "Townsend"> T.</surName>
+            </persName>
+            
+          
         </ab>
       </div>
       
@@ -226,7 +247,11 @@
           
           <note place="right"> 
             <handShift medium="pencil"/>
-            <lb/><persName>Talleyrand</persName> never <!-- For Jamie: Check this line -->
+            <lb/>
+            <persName>
+              <surName> Talleyrand </surName>
+            </persName> 
+            never 
             <lb/>do yourself what
             <lb/>you can get others
             <lb/>to do
@@ -444,7 +469,11 @@
           <lb/>Always open
           <lb/>your own letters
           <lb/>never depute
-          <lb/><persName><forename full = "init" reg ="william">W</forename>.<surname full = "init" reg = "Townsend"></surname>T.</persName>
+          <lb/>
+          <persName>
+            <foreName full = "init" reg ="william">W</foreName>.
+            <surName full = "init" reg = "Townsend"></surName>T.
+          </persName>
         </note>
         </div>
       <!--[End of PAGE 39]-->
@@ -600,13 +629,24 @@
             <lb/><q>&quot;Cash to be kept by principal&quot;</q>
           </note>
           <ab>
-            <lb/><persName style="text-decoration-line: underline;">William Townsend</persName> <!-- For Jamie: Check this line -->
+            <lb/>
+            <persName style="text-decoration-line: underline;"> 
+              <foreName> William </foreName> 
+              <surName>Townsend </surName>
+            </persName> 
           </ab>
         </div>
       
       <div type="advice">   
         <ab> 
-          <lb/><orgName type = "proprietorname"> <persName> <forename>Thomas </forename> <surname> Firth </surname> </persName> &amp; Sons</orgName></ab>
+          <lb/>
+          <orgName type = "proprietorname">
+            <persName> 
+              <foreName>Thomas </foreName> 
+              <surName> Firth </surName>
+            </persName> &amp; Sons
+          </orgName>
+       </ab>
         <note place="below">  <!-- TODO: Make sure this note is associated with TF+S -->
           <lb/>310.26
         </note>
@@ -658,10 +698,10 @@
         <ab>
           <lb/>Check every item with Day Book from
           <lb/>the Order Book to be sure all is entered
-          <choice> <!-- For Jamie: Check this line to 664 -->
-            <abbr>WT</abbr>
-            <expan><persName>William Townsend</persName></expan>
-          </choice>
+            <persName>
+              <foreName full= "init" reg = "William"> W </foreName>
+              <surName full = "init" reg = "Townsend"> T </surName>
+            </persName>
         </ab>
         <ab>
           <lb/>Orders in Safe - Cross every
@@ -674,7 +714,13 @@
       
       <div type="advice">
         <note place="bottom">
-          <lb/><date when="1894-04">April/94</date>Mr <person role = "employee"><persName><forename>Kingsford </forename><surname>Wilson </surname></persName></person>
+          <lb/><date when="1894-04">April/94</date>Mr 
+          <person role = "employee">
+            <persName>
+              <foreName>Kingsford </foreName>
+              <surName>Wilson </surName>
+            </persName>
+          </person>
           <note place="right">
             <lb/>I advise Double Entry
           </note>
@@ -717,7 +763,7 @@
         <note place="bottom">
           <lb/>Never were such books!
           <lb/>No, now never will be such books as the books
-          <lb/>of <name type = "fictional">Cheeryble </name>Brothers Vide <name type = "fictional">Nicholas Nickleby</name> p356 <!-- TODO: How are fictional names counted? Or the names of books? -->
+          <lb/>of <name type = "fictional">Cheeryble </name>Brothers Vide <name type = "fictional">Nicholas Nickleby</name> p356 <!-- TODO: How are fictional names counted? Or the names of books? Jamie- The book names themselves aren't mentioned here but there is documentation for fictional names in the IED. -->
         </note> <!-- TO-DO: Link to page 356 -->
       <!--[End of PAGE 43]-->
         </div>
@@ -777,7 +823,13 @@
         
         <ab>
         <figure>
-          <head><orgName><persName><forename>William </forename><surname>Townsend </surname> &amp; </persName>Son</orgName>  Manufacturer Stationer</head>
+          <head>
+            <orgName>
+              <persName>
+                <forename>William </forename>
+                <surname>Townsend </surname>
+              </persName>  &amp; Son
+            </orgName>  Manufacturer Stationer</head>
           <figDesc>Box surrounding the "Book" part of the head with the address of the shop</figDesc>
           <graphic url="CC20181003_Townsend_0045_inset.png"/>
           <trailer>
@@ -866,8 +918,20 @@
           <lb/>a really good work earning <seg xml:id="the_0045">the</seg> repute a
           <lb/><q>&quot;Sheffield Art Journal&quot;</q>
           <note place="bottom">
-            <lb/><seg sameAs="#the_0045">ditto</seg><!--org most likely --> Dixons <person role = "associate"><persName> <forename>Robert</forename> <surname>Belk</surname></persName></person>
-            <lb/><orgName type = "proprietorname"><persName><forename full = "init">C</forename> <surname>Johnson</surname> </persName>hardware</orgName> + <orgName>Station W
+            <lb/><seg sameAs="#the_0045">ditto</seg>
+            <!--org most likely --> Dixons 
+            <person role = "associate">
+              <persName>
+                <foreName>Robert</foreName>
+                <surName>Belk</surName>
+              </persName>
+            </person>
+            <lb/>
+            <orgName type = "proprietorname">
+              <persName><foreName full = "init"> C </foreName>
+                <surname>Johnson</surname> 
+              </persName>hardware
+            </orgName> + <orgName>Station W
               <lb/> elastic</orgName>
           </note>
         </ab>
@@ -1121,7 +1185,12 @@
               <abbr>a/c</abbr>
               <expan>account</expan>
             </choice></item>
-          <item><orgName type = "proprietorname"> <persName> <surname> Vickers </surname> </persName></item>
+          <item>
+            <orgName type = "proprietorname">
+              <persName>
+                <surname> Vickers </surname>
+              </persName>
+          </item>
           <item><seg xml:id="vol1_0049">Vol</seg> <num>1</num> <seg xml:id="balance_0049">Balance Receipt</seg><seg xml:id="bill_0049">Bill Carnage</seg></item>
           <item><seg sameAs="#vol_0049">ditto</seg> <num>2</num> <seg sameAs="#balance_0049">ditto</seg> <seg sameAs="#bill_0049">ditto</seg></item>
           <item><seg xml:id="vol2_0049">Vol</seg> <num>1</num> <seg xml:id="limited_0049">Limited Companies</seg></item>
@@ -1183,17 +1252,21 @@
           <item>Cutlery <handShift medium="pencil"/>Crypt <emph style="text-decoration: underline;">Crypt</emph></item>
           <item><handShift medium="ink"/>Collieries <handShift medium="pencil"/>C Crypt</item>
           <!--org-->
-          <item> <orgname type = "proprietorname"> Cammell  </orgName> <choice>
+          <item> 
+            <orgName type = "proprietorname"> 
+              <surname> Cammell </surname>
+             <choice>
             <abbr>Co</abbr>
             <expan>Company</expan>
-          </choice></orgName></item>
+          </choice>
+            </orgName></item>
           <item>Lost Contracts<handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Bankers</item>
           <item><orgName>Sheffield Cooperation Water <choice>
             <abbr>depart</abbr> 
             <expan>derpartment</expan>
           </choice></orgName> <handShift medium="pencil"/>C</item>
-          <item><handShift medium="ink"/><name type="undetermined">Boro of Sheffield</name> <num>2</num> cases <handShift medium="pencil"/>C</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
+          <item><handShift medium="ink"/><orgName type = "city"> Boro of Sheffield </orgName> <num>2</num> cases <handShift medium="pencil"/>C</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
           <item>☓<handShift medium="ink"/> Miscellaneous 2 <handShift medium="pencil"/>C</item> <!--[unicode X mark]-->
           <item>☓<handShift medium="ink"/>Accountants <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Files and Cost Books <handShift medium="pencil"/>Bad debt book c</item>
@@ -1206,7 +1279,13 @@
           <item><handShift medium="pencil"/>☓ <handShift medium="ink"/>Stock orders</item>
           <item>Abstracts</item>
           <item>Journals</item>
-          <item><orgname = "proprietorname"> <persName>  <surname> Townsends</surname> </persName> </orgName> Stock patterns</item>
+          <item>
+            <orgname type = "proprietorname"> 
+              <persName>  
+                <surname> Townsends</surname> 
+              </persName>
+            </orgName>
+            Stock patterns</item>
           <item>Banks</item>
           <item>Mercantile</item>
           <item>Lost Contracts <handShift medium="pencil"/>C</item>
@@ -1215,7 +1294,8 @@
           <item>pattern Cards</item>
           <item><orgName>Brewers Bottled Beer</orgName> patterns</item> 
           <item>Lawyers</item>
-          <item><orgname = "city"> Water Works Sheffield </orgName> <handShift medium="pencil"/>C <unclear resp="JL"><persName>PTO</persName></unclear><handShift medium="ink"/></item>
+          <item>
+            <orgName type= "city"> Water Works Sheffield </orgName> <handShift medium="pencil"/>C <unclear resp="JL"><persName>PTO</persName></unclear><handShift medium="ink"/></item>
         </list>
         </div>
       <!--[End of PAGE 50]-->
@@ -1228,7 +1308,13 @@
          <head>Notes on Account book binding</head>
 
         <ab>
-          <lb/>persName>M  <person role = "employee"> <persName> <surname> Wilkinson </surname></persName></person> they always considered at
+          <lb/>M
+          <person role = "employee">
+            <persName>
+              <surName> Wilkinson </surName>
+            </persName>
+          </person>
+          they always considered at
           <lb/><placeName>Birmingham</placeName> <num type="fraction" value=".33">1/3</num> off full binding price
           <lb/>for half binding <date when="1906-02-28">Feb 28/1906</date>
         </ab>
