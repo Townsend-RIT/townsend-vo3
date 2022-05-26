@@ -998,10 +998,13 @@
             <ab>La post 12<choice>
               <abbr>s</abbr>
               <expan>shillings</expan>
-            </choice> 80 leaf surface paper as <orgName>CJ <choice>
+            </choice> 80 leaf surface paper as 
+              <orgName>CJ <choice>
               <abbr>Co</abbr>
               <expan>Company</expan>
-            </choice></orgName> <num>10937</num></ab>
+            </choice>
+              </orgName>
+              <num>10937</num></ab>
             <ab>To <num type="pageNum">59</num></ab>
             </div>
         <!--[End of PAGE 58]-->
@@ -1098,7 +1101,13 @@
                   <cell xml:id="bracketStart_0059">4</cell>
                   <cell>5</cell>
                   <cell xml:id="bracketEnd_0059">6</cell>
-                  <cell>sheets per <persName>Frank J.</persName> <lb/> per ream</cell>
+                  <cell>sheets per 
+                    <person role = "associate"> 
+                      <persName>
+                        <foreName> Frank </foreName>
+                        <surName> J. </surName>
+                      </persName> 
+                  </person><lb/> per ream</cell>
                 </row>
                 <note target="#bracketStart_0059" targetEnd="#bracketEnd_0059" rend="braced">printed</note>
               </table>
@@ -1346,7 +1355,12 @@
               	  </choice> <choice>
               	    <abbr>8vo</abbr>
               	    <expan><measure>octavo</measure></expan>
-              	  </choice> Bank pattern Roan de la rue</cell>
+              	  </choice> Bank pattern 
+              	    <orgName type = "proprietorName">
+              	    Roan <persName> 
+              	      <surName> de la rue </surName>
+              	      </persName>
+              	  </orgName> </cell>
               	</row>
               	<row>
               		<cell><num>1657</num></cell>
@@ -1458,7 +1472,12 @@
                   </choice> post <choice>
                     <abbr>8vo</abbr>
                     <expan><measure>ocatvo</measure></expan>
-                  </choice> bank patt Roan de la rue</cell>
+                  </choice> bank patt Roan 
+                    <orgName type = "proprietorName">
+                      <persName>
+                        <surName> de la rue </surName> 
+                      </persName>
+                  </orgName></cell>
                 </row>
                 <note place="below"><unclear resp="JP">0JM 21</unclear></note>
                 <row>
@@ -1500,7 +1519,7 @@
 
             <div type="log">
               <list>
-                <head>My Fathers price book means</head>
+                <head>My <person role = "father"> Fathers </person>price book means</head>
                 <label><seg xml:id="e_0063">E</seg> <seg xml:id="c_0063">C</seg> <num>1</num></label>
                 <item>faint only</item>
                 <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>2</num></label>
@@ -1721,7 +1740,7 @@
               <head>Estimates</head>
               <ab>
                 Paper net money not Invoice Rheum list covers Car<add place="opposite">riage, strip off all discount</add>
-                <lb/>Cheap <num type="fraction" value="12.5">12 1/2</num> dis on SL as my Father <!--[TODO: What is SL initials(?)]-->
+                <lb/>Cheap <num type="fraction" value="12.5">12 1/2</num> dis on SL as my <person role = "father"> Father </person>  <!--[TODO: What is SL initials(?)]-->
                 <lb/>letter XX on SL sell at
                 <lb/>best old price sell at
               </ab>
@@ -1729,15 +1748,25 @@
 
               <note place="above"><date when="1893-11-03">Nov 3/93</date></note>
               <ab>
-                Central Notice Offices Sheffield
+                <orgName type = "city"> Central Notice Offices Sheffield </orgName> 
                 <lb/>of
                 <lb/><num type="ordinal">1st</num> contract perfect paper. Rheum list
               </ab>
-              <note place="margin">} I <lb/> lost <lb/> Pawson <lb/> + <lb/> Braile <lb/> won</note>
+              <note place="margin">}
+                I <lb/> lost <lb/>  
+                <orgName type = "proprietorName">
+                  <persName>
+                    <surName> Pawson </surName> 
+                  </persName><lb/> + 
+                  <lb/> <persName> 
+                    <surName> Brails </surName>
+                  </persName> 
+                </orgName>
+                  <lb/> won</note>
               <ab>
                 <num type="ordinal">2nd</num> Contract XX paper Rheum list
                 <lb/><seg xml:id="twelvehalfdis_0065"><num type="fraction" value="12.5">12 1/2</num> dis or</seg> <seg xml:id="onehalfun_0065"><num type="fraction" value="1.5">1 1/2</num> on 1/</seg> time Rul Prun
-                <seg sameAs="#twelvehalfdis_0065">ditto</seg> <seg sameAs="#onehalfun_0065">ditto</seg> Fathers old list
+                <seg sameAs="#twelvehalfdis_0065">ditto</seg> <seg sameAs="#onehalfun_0065">ditto</seg> <person role = "father"> Fathers </person> old list
               </ab>
               <note place="margin">I <lb/> won
                 <cb/>
@@ -1749,13 +1778,13 @@
                 <lb/>Print <num type="fraction" value="12.5">12 1/2</num> dis
                 <lb/>on time
                 <lb/>bind <num type="fraction" value="12.5">12 1/2</num> dis
-                <lb/>on Fathers SL
+                <lb/>on <person role = "father"> Fathers </person>SL
                 <lb/>his old way
               </note> <!-- JAY: What is "dis?" An abbreviation? -->
 
               <note place="above"><date when="1893-11">Nov/93</date><lb/>List</note>
               <ab>
-                XX or <num type="percentage" value="25">25%</num> on my Fathers SL and say 310 lett <!-- JAY: Letter? -->
+                XX or <num type="percentage" value="25">25%</num> on my <person role = "father"> Fathers </person>  SL and say 310 lett <!-- JAY: Letter? -->
                 <lb/><num type="percentage" value="12.5">12 1/2%</num> dis or <num type="fraction" value="1.5">1 1/2</num> on 1/ on time Ruling + print <!-- JAY: Unsure of what to do with these 1/s. Appears on this page only thankfully -->
                 <lb/>paging <choice>
                   <abbr>fcap</abbr>
@@ -1795,7 +1824,7 @@
                 <lb/>keep up
               </ab>
               <note place="inline">
-                <lb/>Vide Grandfathers 800, 1847 <!-- TODO: Find out what book he is referencing? Is 800 a page number? 1847 a year? -->
+                <lb/>Vide <person role = "grandfather"> Grandfathers </person> 800, 1847 <!-- TODO: Find out what book he is referencing? Is 800 a page number? 1847 a year? -->
               </note>
               <note place="below">
                 <date when="1891-06-25">June 25/91</date>
@@ -1823,11 +1852,13 @@
                 <lb/>and the heavy Union Wages I ascribe my
                 <lb/>bad balance this midsummer often the
                 <lb/>overtime is but a cause of lens being done in
-                <lb/>the regular hours - also Gas + <unclear resp="#JP">poney</unclear> <choice>
-                  <abbr>WT</abbr>
-                  <expan><persName>William Townsend</persName></expan>
-                </choice>
-              </ab>
+                <lb/>the regular hours - also Gas + <unclear resp="#JP">poney</unclear> 
+                
+                <persName> 
+                  <foreName full = "init" reg = "William"> W </foreName>
+                  <surName full = "init" reg = "Townsend"> T </surName>
+                </persName>
+                </ab>
 
               <ab>
                 Sample of a Week <date when="1893-08-26">Aug 26/93</date>

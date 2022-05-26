@@ -214,7 +214,7 @@
                     <label>Free Library Notes <handShift medium="pencil" /><unclear resp="#JL">Culeary</unclear></label><item><handShift medium="ink" /><num type="pageNum">269</num></item>
                     <label>Furnishing Library books</label><item><num type="pageNum">269</num></item>
                     <label>Fifty years Record</label><item><num type="pageNum">157</num></item>
-                    <label><personrole = "father"> Father</label><item><num type="pageNum">167</num></item>
+                    <label><person role = "father"> Father </person></label><item><num type="pageNum">167</num></item>
                     <label>Faints Suitable dis for <!-- Is dis short for something? -->
                     <choice>
                         <abbr>a/c</abbr>
@@ -655,7 +655,7 @@
                     <label>Record Fifty years <placeName>Sheffield</placeName></label><item><num type="pageNum">157</num></item>
                     <label>Retirement</label><item><num type="pageNum">256</num></item>
                     <label>Russia Bands</label><item><num type="pageNum">38</num></item>
-                    <label><!--specific documentation for my father?--> Ruling  my <person role = "father">Fathers </person> <unclear resp="#JL">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
+                    <label>Ruling  my <person role = "father">Fathers </person> <unclear resp="#JL">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
                     <label>Rates and Taxes</label><item><num type="pageNum">211</num></item>
                     <label>Roof idea for Works</label><item><num type="pageNum">338</num></item>
                     <label>Ruling meanings of</label><item><num type="pageNum">21</num></item>
