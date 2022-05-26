@@ -145,7 +145,7 @@
           <!--org-->
           <list>
             <label>
-              <orgName type = "proprietorname"> <persName>
+              <orgName type = "proprietorName"> <persName>
               <foreName full = "init"> C</foreName>
               <surName> Cammell  </surName>
             </persName> 
@@ -471,7 +471,7 @@
           <lb/>never depute
           <lb/>
           <persName>
-            <foreName full = "init" reg ="william">W</foreName>.
+            <foreName full = "init" reg ="William">W</foreName>.
             <surName full = "init" reg = "Townsend"></surName>T.
           </persName>
         </note>
@@ -927,7 +927,7 @@
               </persName>
             </person>
             <lb/>
-            <orgName type = "proprietorname">
+            <orgName type = "proprietorName">
               <persName><foreName full = "init"> C </foreName>
                 <surname>Johnson</surname> 
               </persName>hardware
@@ -1186,10 +1186,11 @@
               <expan>account</expan>
             </choice></item>
           <item>
-            <orgName type = "proprietorname">
+            <orgName type = "proprietorName">
               <persName>
                 <surname> Vickers </surname>
               </persName>
+            </orgName>
           </item>
           <item><seg xml:id="vol1_0049">Vol</seg> <num>1</num> <seg xml:id="balance_0049">Balance Receipt</seg><seg xml:id="bill_0049">Bill Carnage</seg></item>
           <item><seg sameAs="#vol_0049">ditto</seg> <num>2</num> <seg sameAs="#balance_0049">ditto</seg> <seg sameAs="#bill_0049">ditto</seg></item>
@@ -1253,13 +1254,14 @@
           <item><handShift medium="ink"/>Collieries <handShift medium="pencil"/>C Crypt</item>
           <!--org-->
           <item> 
-            <orgName type = "proprietorname"> 
-              <surname> Cammell </surname>
+            <orgName type = "proprietorName"> 
+              <surName> Cammell </surName>
              <choice>
             <abbr>Co</abbr>
             <expan>Company</expan>
           </choice>
-            </orgName></item>
+            </orgName>
+          </item>
           <item>Lost Contracts<handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Bankers</item>
           <item><orgName>Sheffield Cooperation Water <choice>
@@ -1280,9 +1282,9 @@
           <item>Abstracts</item>
           <item>Journals</item>
           <item>
-            <orgname type = "proprietorname"> 
+            <orgName type = "proprietorName"> 
               <persName>  
-                <surname> Townsends</surname> 
+                <surName> Townsends</surName> 
               </persName>
             </orgName>
             Stock patterns</item>

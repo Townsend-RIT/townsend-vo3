@@ -1393,7 +1393,7 @@
               	  <cell><choice>
               	    <abbr>Fcap</abbr>
               	    <expan>Foolscap</expan>
-              	  </choice> do Franklins Cash patt <seg sameAs="#morocco1_0062">ditto</seg> 24 <seg sameAs="#sheet_0062">ditto</seg> <seg sameAs="#roanhalfbound_0062">ditto</seg></cell>
+              	  </choice> do <!--really vague but a proper name, could be an org.--> Franklins Cash patt <seg sameAs="#morocco1_0062">ditto</seg> 24 <seg sameAs="#sheet_0062">ditto</seg> <seg sameAs="#roanhalfbound_0062">ditto</seg></cell>
               	</row>
               	<row>
               		<cell><num>1677</num></cell>
