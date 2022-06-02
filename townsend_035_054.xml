@@ -1178,17 +1178,19 @@
         <fw type="page_number" place="top">11</fw>
 
         <div type="log">
-        <list style="list-style-type:none;">
+        <list>
           <head>Tin Cases</head>
           <item>Workmens forms Invoices Letter heads 
-            <lb/>cards Medical <choice>
+            <lb/>cards Medical 
+            <choice>
               <abbr>a/c</abbr>
               <expan>account</expan>
-            </choice></item>
+            </choice>
+          </item>
           <item>
-            <orgName type = "proprietorName">
+            <orgName type="proprietorName">
               <persName>
-                <surname> Vickers </surname>
+                <surname>Vickers</surname>
               </persName>
             </orgName>
           </item>
@@ -1200,7 +1202,7 @@
           <item><seg sameAs="#vol3_0049">ditto</seg> <num>2</num> <seg sameAs="#pattern_0049">ditto</seg></item>
           <item>Accountants Building Societies Brewery</item>
           <item>Tennants</item>
-          <note place="margin"><handShift medium="pencil"/><emph style="text-decoration: underline;">Cryph</emph></note>
+          <note place="margin"><handShift medium="pencil"/><emph style="text-decoration: underline;"><unclear reason="illegible" resp="#CB">Cryph</unclear></emph></note>
           <item><handShift medium="ink"/>Order Books</item>
           <item>Ledgers</item>
           <item>Day Book</item>
@@ -1208,7 +1210,7 @@
         </list>
         </div>
 
-        <div type="ethic"> <!-- TODO: CHECK -->
+        <div type="advice">
         <ab>Why I thought a tin Case for each large buyer <!--[TODO: tin cases linking]-->
           <lb/>was? at any time you thought it declining, you
           <lb/>could run <choice>
@@ -1220,20 +1222,17 @@
           <date when="1902-12-29">Dec 29/1902</date>
         </ab>
 
-        <ab><date when="1909">1909</date></ab>
+        <ab></ab>
         
         <ab>
-          <!-- <ab> --><lb/>I pruned by taking away
+          <lb/>I pruned by taking away
           <lb/>all useless orders; orders that
           <lb/>had become no use?
           <date when="1909-07-16">July 16 1909</date>
-        </ab>
-        </div>
-      <div type="advice">
-        <ab>
-          <!-- <ab> --><lb/>don't keep orders more than
+          <lb/>don't keep orders more than
           <lb/><num type="year" value="20">2 decades</num> or <num type="year" value="20">20 years</num>
           <date when="1909-11-03">Nov 03 1909</date>
+          <note place="top"><date when="1909">1909</date></note>
         </ab>
       </div>
       <!--[End of PAGE 49]-->
@@ -1243,38 +1242,32 @@
       <fw type="page_number" place="top">12</fw>
 
         <div type="log">
-        <!--[start of list]-->
-        <list style="list-style-type:none;">
-          <head>Tin Cases -- Contents <choice>
+        <list>
+          <head>Tin Cases -- Contents 
+            <choice>
             <abbr>№s</abbr>
             <expan>Numbers</expan>
-          </choice></head>
+            </choice>
+          </head>
           
-          <item>Cutlery <handShift medium="pencil"/>Crypt <emph style="text-decoration: underline;">Crypt</emph></item>
-          <item><handShift medium="ink"/>Collieries <handShift medium="pencil"/>C Crypt</item>
+          <!-- Crypt? Cryph? Figure out what those pencil marks are - Cael & Lisa -->
+          <item>Cutlery <handShift medium="pencil"/><unclear reason="illegible" resp="#CB">Crypt</unclear> <emph style="text-decoration: underline;"><unclear reason="illegible" resp="#CB">Crypt</unclear></emph></item>
+          <item><handShift medium="ink"/>Collieries <handShift medium="pencil"/>C <unclear reason="illegible" resp="#CB">Crypt</unclear></item>
           <!--org-->
           <item> 
-            <orgName type = "proprietorName"> 
-              <surName> Cammell </surName>
-             <choice>
-            <abbr>Co</abbr>
-            <expan>Company</expan>
-          </choice>
+            <orgName type="proprietorName"> 
+              <surName>Cammell</surName> Company
             </orgName>
           </item>
-          <item>Lost Contracts<handShift medium="pencil"/>C</item>
+          <item>Lost Contracts <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Bankers</item>
-          <item><orgName>Sheffield Cooperation Water <choice>
-            <abbr>depart</abbr> 
-            <expan>derpartment</expan>
-          </choice></orgName> <handShift medium="pencil"/>C</item>
-          <item><handShift medium="ink"/><orgName type = "city"> Boro of Sheffield </orgName> <num>2</num> cases <handShift medium="pencil"/>C</item> <!-- JAY: Is boro an abbreviation? Will determine name type -->
-          <item>☓<handShift medium="ink"/> Miscellaneous 2 <handShift medium="pencil"/>C</item> <!--[unicode X mark]-->
+          <item><orgName>Sheffield Cooperation Water department</orgName> <handShift medium="pencil"/>C</item>
+          <item><handShift medium="ink"/><orgName type = "city">Boro of Sheffield</orgName> <num>2</num> cases <handShift medium="pencil"/>C</item>
           <item>☓<handShift medium="ink"/>Accountants <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Files and Cost Books <handShift medium="pencil"/>Bad debt book c</item>
           <item><handShift medium="ink"/>Gas Company <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Iron + Steel <num>3</num> cases <handShift medium="pencil"/>C</item>
-          <item>☓ <handShift medium="ink"/><unclear resp="JP">G C L 4</unclear> <handShift medium="pencil"/>C</item>
+          <item>☓ <handShift medium="ink"/><orgName>G C L</orgName> 4 <handShift medium="pencil"/>C</item>
           <item><handShift medium="ink"/>Breweries</item>
           <item>Limited Companies</item>
           <item>Contracts</item>
@@ -1282,12 +1275,12 @@
           <item>Abstracts</item>
           <item>Journals</item>
           <item>
-            <orgName type = "proprietorName"> 
+            <orgName type="proprietorName"> 
               <persName>  
-                <surName> Townsends</surName> 
+                <surName>Townsends</surName> 
               </persName>
-            </orgName>
-            Stock patterns</item>
+            </orgName> Stock patterns
+          </item>
           <item>Banks</item>
           <item>Mercantile</item>
           <item>Lost Contracts <handShift medium="pencil"/>C</item>
@@ -1296,8 +1289,7 @@
           <item>pattern Cards</item>
           <item><orgName>Brewers Bottled Beer</orgName> patterns</item> 
           <item>Lawyers</item>
-          <item>
-            <orgName type= "city"> Water Works Sheffield </orgName> <handShift medium="pencil"/>C <unclear resp="JL"><persName>PTO</persName></unclear><handShift medium="ink"/></item>
+          <item>Water Works Sheffield <handShift medium="pencil"/>C <unclear resp="#JL"><persName>PJO</persName></unclear><handShift medium="ink"/></item>
         </list>
         </div>
       <!--[End of PAGE 50]-->
@@ -1306,29 +1298,35 @@
       <pb n="051" facs="CC20181003_Townsend_0051.tif"/>
       <fw type="page_number" place="top">13</fw>
         
-       <div type="advice"> <!-- TODO: CHECK TYPE -->
+       <div type="other">
          <head>Notes on Account book binding</head>
 
         <ab>
           <lb/>M
-          <person role = "employee">
+          <person role="employee">
             <persName>
-              <surName> Wilkinson </surName>
+              <surName>Wilkinson</surName>
             </persName>
-          </person>
-          they always considered at
+          </person> they always considered at
           <lb/><placeName>Birmingham</placeName> <num type="fraction" value=".33">1/3</num> off full binding price
           <lb/>for half binding <date when="1906-02-28">Feb 28/1906</date>
         </ab>
        </div>
+        
       <div type="log">
-        <list style="list-style-type:upper-roman;">
+        <list>
           <head>Five Essentials - Old well</head>
+          <label><num type="roman">I</num></label>
           <item>Seasoned paper as <num>298.310.300</num> <lb/><num>327.3009</num></item> <!-- JAY: Separate page numbers? -->
+          <label><num type="roman">II</num></label>
           <item>Scientific <seg xml:id="ruling_0051">ruling pattern</seg></item>
+          <label><num type="roman">III</num></label>
           <item>Superb <seg sameAs="#ruling_0051">ditto</seg></item>
+          <label><num type="roman">IV</num></label>
           <item>Sound binding</item>
+          <label><num type="roman">V</num></label>
           <item><seg xml:id="good_0051">good</seg> lettering</item>
+          <label><num type="roman">VI</num></label>
           <item><seg sameAs="#good_0051">ditto</seg> opener + finisher off</item>
         </list>
       <!--[End of PAGE 51]-->
@@ -1341,32 +1339,37 @@
           <head>Departmental price <choice>
             <abbr>Bks</abbr>
             <expan>Books</expan>
-          </choice> <lb/> except <choice>
+          </choice> 
+            <lb/>except 
+            <choice>
             <abbr>a/c</abbr>
             <expan>account</expan>
           </choice> book &amp; binding</head>
-          <headItem>Traveller <lb/>Bag</headItem>
+          <headItem>
+            <lb/>Traveller 
+            <lb/>Bag
+          </headItem>
 
-          <label>pattern Cards</label> <!-- JAY: Ask Sarah about best practices for CSS and lists and etc. -->
-          <item><num type="roman" value="1">I</num></item>
+          <label>A</label> <!-- JAY: Ask Sarah about best practices for CSS and lists and etc. -->
+          <item>pattern Cards <num type="roman" value="1">I</num></item>
 
-          <label>Binding</label>
-          <item><num type="roman" value="2">II</num></item>
+          <label>B</label>
+          <item>Binding <num type="roman" value="2">II</num></item>
 
-          <label>Writings</label>
-          <item><num type="roman" value="3">III</num></item>
+          <label>C</label>
+          <item>Writings <num type="roman" value="3">III</num></item>
 
-          <label>Printing</label>
-          <item><num type="roman" value="4">IV</num></item>
+          <label>D</label>
+          <item>Printing <num type="roman" value="4">IV</num></item>
 
-          <label>Litho</label>
-          <item><num type="roman" value="5">V</num></item>
+          <label>E</label>
+          <item>Litho <num type="roman" value="5">V</num></item>
 
-          <label>Factored</label>
-          <item><num type="roman" value="6">VI</num></item>
+          <label>F</label>
+          <item>Factored <num type="roman" value="6">VI</num></item>
 
-          <label>Heavy</label>
-          <item><num type="roman" value="7">VII</num></item>
+          <label>G</label>
+          <item>Heavy <num type="roman" value="7">VII</num></item>
         </list>
       <!--[End of PAGE 52]-->
 
@@ -1374,9 +1377,10 @@
       <pb n="053" facs="CC20181003_Townsend_0053.tif"/>
       <fw type="page_number" place="top">15</fw>
 
-        <table rows="11" cols="3"><!--[start of table]-->
+        <table rows="11" cols="3">
           <head style="text-decoration: underline">Makers
-            <lb/>New Price Book</head> <!-- TODO: Underline only under "New Price Book" -->
+            <lb/><emph style="text-decoration: underline">New Price Book</emph>
+          </head>
           <row role="label">
             <cell><choice>
               <abbr>№</abbr>
@@ -1429,12 +1433,15 @@
           </row>
           
           <row>
-            <cell><handShift medium="ink"/><num>1</num></cell>
-            <cell><seg xml:id="sheet_0053">Sheet</seg> + Third <seg xml:id="fcap_0053"><choice>
+            <cell  rend="bracing"><handShift medium="ink"/><num>1</num></cell>
+            <cell  rend="braced"><seg xml:id="sheet_0053">Sheet</seg> &amp; Third 
+              <seg xml:id="fcap_0053">
+              <choice>
               <abbr>Fcap</abbr>
               <expan>Foolscap</expan>
-            </choice></seg> 
-              <lb/> <seg sameAs="#sheet_0053">ditto</seg> + Half <seg sameAs="#fcap_0053">ditto</seg></cell>
+            </choice>
+            </seg> 
+              <lb/> <seg sameAs="#sheet_0053">ditto</seg> &amp; Half <seg sameAs="#fcap_0053">ditto</seg></cell>
             <cell><num>7001</num> to <del><num>7500</num></del> <add><handShift medium="pencil"/><num>8000</num></add> 
               <lb/><handShift medium="ink"/> <num>8001</num> to <del><num>8500</num></del> <add><handShift medium="pencil"/><num>9000</num></add></cell>
           </row>
@@ -1465,24 +1472,29 @@
         
         <table rows="14" cols="4">
           <head>Sellers
-            <lb/>New Price Book</head>
+            <lb/>New Price Book
+          </head>
 
           <row role="label">
             <cell>Size</cell>
-            <cell><choice>
+            <cell>
+              <choice>
               <abbr>№</abbr>
               <expan>Number</expan>
-            </choice></cell>
+            </choice>
+            </cell>
             <cell cols="2">Ruling and Binding</cell>
           </row>
 
           <row>
-            <cell><choice>
+            <cell>
+              <choice>
               <abbr>Fcap</abbr>
               <expan>Foolscap</expan>
-            </choice></cell>
-            <cell><num>1</num> to <num>1200</num></cell><!--[TODO: reference numbers?]-->
-            <cell rows="13">Ⅰ to ⅩⅤ</cell> <!-- Double check this cell against facsimile -->
+            </choice>
+            </cell>
+            <cell><num>1</num> to <num>1200</num></cell><!-- Cael & Lisa: The Roman numerals and the letters reference Townsend p. 17, file _0055 -->
+            <cell rows="13">Ⅰ to ⅩⅤ</cell>
             <cell rows="13">A to I</cell>
           </row>
 
@@ -1552,8 +1564,8 @@
           <trailer>
             <date when="1891-06">June 1891</date>
           </trailer>
-        </table><!--[end of table]-->
-      </div><!--[end of page div]-->
+        </table>
+      </div>
       <!--[End of PAGE 54]-->
     </body>
   </text>
