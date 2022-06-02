@@ -391,11 +391,16 @@
             <abbr>H.C.</abbr>
             <expan>Hot Cold</expan>
           </choice>
-          <lb/>Carriage 7.45 to 8 arrive Surrey Street
+          <lb/>Carriage 7.45 to 8 arrive
+          
           <lb/>In Workshops at 8 prompt seeing to
           <lb/>work until 1pm from 1 to 2 dinner 
           <lb/>in private room Hot one day Cold
-          <lb/>next leave Surrey Street
+          <lb/>next leave <placename>
+            <address>
+              <street> Surrey Street </street> 
+            </address> 
+          </placename>
           <lb/>Carriage this to apply to <choice>
             <abbr>Mon</abbr>
             <expan>Monday</expan>
