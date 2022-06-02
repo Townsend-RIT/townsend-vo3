@@ -47,7 +47,7 @@
                     <lb />Date, <date when="1892-09-10">Sep 10 1892</date></note> </div> <!--What's the error here? -Jamie--> 
             </div> <!-- how to distinguish between handwriting and printed text in inserts? --> <!-- JAY: Will talk about this in meeting -->
             <div type="other"><ab style="writing mode: sideways-lr">
-                <lb/>
+                </lb>
                 <orgName type = "proprietorName"> 
                     <persName>
                         <surName full = "init"> J</surName> 
@@ -114,7 +114,7 @@
                                 </surName>
                             </persName>
                         </person>
-                        310 advises old
+                        <!--pagenumber?--> 310 advises old
                         <lb/>before using and whatman also
                     </ab>
                     <ab>
@@ -148,8 +148,7 @@
                     <lb/>hands could sew 
                      <person role = "employee"> 
                          <persName> 
-                         <unclear resp="JL"> <foreName> Livy </foreName>
-                          <!-- Livy seems pretty clear there but it could be Levy. Is this a good notation for unclear + persName? -Jamie --> 
+                         <unclear resp="JL"> <foreName> Livy </foreName></unclear>
                          </persName>
                         </person> + 
                     <person role = "employee"> 
@@ -200,11 +199,12 @@
                 <note>
                     <lb/><date when="1894-12-10">Dec 10/94</date> thro bad <unclear resp="JL">grin</unclear> in <unclear resp="JL">VJL 2 med</unclear>
                     <lb/>omit past both glue up and glue <unclear resp="JL">phaps</unclear>
-                    <lb/>with <orgname type = "proprietorName"> 
+                    <lb/>with 
+                    <orgName type = "proprietorName"> 
                         <persName> 
                             <surName>Cotsells </surName>
                         </persName>
-                    </orgname> 110/w cnt glue 
+                    </orgName> 110/w cnt glue 
                     <persName> 
                         <foreName full = "init" reg = "William">  W </foreName>
                         <surName full = "init" reg = "Townsend"> T </surName>
@@ -345,7 +345,7 @@
                     <lb/>millboard backs <emph style="text-decoration: underline">no</emph> tin sewed 2 cord, 2 slip vellum, 2 tape,
                 </ab>
                 <ab>
-                    Geo St Bank Directors Minute Book
+                    <orgName type = "institution">Geo St Bank </orgName> Directors Minute Book
                     <lb/>to open quite flat, Driver folded in 3 5/. sewed with
                     <lb/>fine silk on 5 narrow tapes lined with coarse holland
                     <lb/>and a narrow back just to catch on first and last section
@@ -376,7 +376,18 @@
                 </ab>
                 <ab>
                     Pallets for Finns names lett at tail
-                    <lb/>I like <orgName> CJC's </orgName> one as very graceful
+                    <lb/>I like 
+                    <orgName type = "proprietorName"> 
+                        <foreName full = "init"> C</foreName>
+                        <surName full = "init"> J </surName>
+                        C
+                        <choice>
+                            <abbr>Co</abbr>
+                            <expan>
+                              Company
+                            </expan>
+                   </orgName>
+                    one as very graceful
                     <lb/>draw what you want from it and send
                     <lb/>a gold impression of it to tool cutter
                 </ab>
