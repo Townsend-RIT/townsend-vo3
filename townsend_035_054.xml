@@ -757,7 +757,7 @@
                 <abbr>a/c</abbr>
                 <expan>account</expan>
               </choice> book patterns <list>
-                <item><!--[ TODO : future linking page]--><unclear resp="#JL"><num>6</num></unclear>
+                <item><!-- JP: [ TODO : future linking page]--><unclear resp="#JL"><num>6</num></unclear>
                   <seg xml:id="ofthem_0045">of them </seg>
                   <num>3</num>
                   <seg xml:id="onapage_0045">on a page</seg>
@@ -784,18 +784,22 @@
 
       <div type="advice">
         <ab>
-          <lb/>Proposed New pattern book <choice>
+          <lb/>Proposed New pattern book 
+          <choice>
             <abbr>Imp</abbr>
             <expan>Imperial</expan>
           </choice>
           <choice>
             <abbr>8vo</abbr>
             <expan>octavo</expan>
-          </choice> to contain <lb/>our Trade and where they will such a size of <lb/>pattern book
-          as we have printed also truly <lb/>marked Numbered and priced we can <lb/>supply all such
-          after style of Army Navy Stores <lb/>whatever is in the enormous book in Europe <lb/>a
-          really good work earning <seg xml:id="the_0045">the</seg> repute a <lb/><q>&quot;Sheffield
-            Art Journal&quot;</q>
+          </choice> to contain 
+          <lb/>our Trade and where they will such a size of 
+          <lb/>pattern book as we have printed also truly 
+          <lb/>marked Numbered and priced we can 
+          <lb/>supply all such after style of Army Navy Stores 
+          <lb/>whatever is in the enormous book in Europe 
+          <lb/>a really good work earning <seg xml:id="the_0045">the</seg> repute a 
+          <lb/><q>&quot;Sheffield Art Journal&quot;</q>
           <note place="bottom">
             <lb/><seg sameAs="#the_0045">ditto</seg>
             <!--org most likely --> Dixons <person role="associate">
@@ -808,7 +812,10 @@
             <orgName type="proprietorName">
               <persName><foreName full="init"> C </foreName>
                 <surname>Johnson</surname>
-              </persName>hardware </orgName> + <orgName>Station W <lb/> elastic</orgName>
+              </persName>hardware
+            </orgName> + <orgName>Station W 
+                <lb/>elastic
+              </orgName>
           </note>
         </ab>
       </div>
@@ -838,12 +845,16 @@
 
       <div type="advice">
         <ab>
-          <lb/>as to size of Proposed pattern book <lb/>look how <orgName>Chambers</orgName>
-          decreased their <!-- For Jamie: Check this line and next -->
-          <lb/>post folio <orgName>Chambers</orgName> Journal to Small <lb/>Imperial <choice>
+          <lb/>as to size of Proposed pattern book 
+          <lb/>look how <orgName>Chambers</orgName> decreased their <!-- CB: For Jamie: Check this line and next, delete coment when done -->
+          <lb/>post folio <orgName>Chambers</orgName> Journal to Small 
+          <lb/>Imperial 
+          <choice>
             <abbr>8vo</abbr>
             <expan>octavo</expan>
-          </choice> a good precedent for <lb/>Sizes of books </ab>
+          </choice> a good precedent for 
+          <lb/>Sizes of books 
+        </ab>
       </div>
 
       <div type="log">
@@ -952,13 +963,16 @@
 
       <div type="ethic">
         <ab>
-          <lb/>send binding invoices with discretion it <lb/>leads to them being paid if delayed
-          perhaps <emph style="text-decoration: underline;">Never</emph>
-          <lb/>send Monthly <choice>
+          <lb/>send binding invoices with discretion it 
+          <lb/>leads to them being paid if delayed perhaps <emph style="text-decoration: underline;">Never</emph>
+          <lb/>send Monthly 
+          <choice>
             <abbr>a/c</abbr>
             <expan>account</expan>
-          </choice> to all with discretion that <lb/>we can, very helpful to pay our monthly bills
-          <lb/>and less risk </ab>
+          </choice> to all with discretion that 
+          <lb/>we can, very helpful to pay our monthly bills
+          <lb/>and less risk 
+        </ab>
       </div>
       <!--[End of PAGE 47]-->
 
@@ -968,31 +982,44 @@
 
       <div type="advice">
         <ab>
-          <lb/>Could we have some way <lb/>of Keeping old orders for travellers <lb/>to run at to
-          see if any re-ordering <lb/>could be got or suggestions to any <lb/>in that line supposing
-          the original <lb/>were out of that trade - yes <lb/>see the Tin Case <note place="below">
-            <lb/>Travellers <lb/>Call <lb/>Du<emph style="text-decoration: underline;">e and
-              Past</emph> Due </note>
+          <lb/>Could we have some way 
+          <lb/>of Keeping old orders for travellers 
+          <lb/>to run at to see if any re-ordering 
+          <lb/>could be got or suggestions to any 
+          <lb/>in that line supposing the original 
+          <lb/>were out of that trade - yes 
+          <lb/>see the Tin Case 
+          <note place="below">
+            <lb/>Travellers 
+            <lb/>Call 
+            <lb/>Du<emph style="text-decoration: underline;">e and Past</emph> Due 
+          </note>
         </ab>
 
         <ab>
           <list>
             <label>Orders in hand</label>
             <item>
-              <lb/>Practical binder who can all information by shorthand <lb/>from employer
-              travellers or customer - <lb/>write out with clear instructions <lb/>for the works and
-              every received <lb/>from all sources that day <lb/>delivered that night - any New
-              <lb/>books give <choice>
+              <lb/>Practical binder who can all information by shorthand 
+              <lb/>from employer travellers or customer - 
+              <lb/>write out with clear instructions 
+              <lb/>for the works and every received 
+              <lb/>from all sources that day 
+              <lb/>delivered that night - any New
+              <lb/>books give 
+              <choice>
                 <abbr>№</abbr>
                 <expan>Number</expan>
-              </choice> in <lb/>order book Name Size <choice>
+              </choice> in 
+              <lb/>order book Name Size <choice>
                 <abbr>№</abbr>
                 <expan>Number</expan>
               </choice>
             </item>
 
             <label>All Posting</label>
-            <item><choice>
+            <item>
+              <choice>
                 <abbr>Db</abbr>
                 <expan>debit</expan>
               </choice> &amp; <choice>
@@ -1002,17 +1029,25 @@
 
             <label>Travelers</label>
             <item>
-              <lb/>Collect <lb/>and <lb/>Orders </item>
+              <lb/>Collect 
+              <lb/>and 
+              <lb/>Orders 
+            </item>
 
             <label>Charger &amp; Enterer</label>
             <item>
-              <lb/>Practical <lb/>Ruler + Binder </item>
+              <lb/>Practical 
+              <lb/>Ruler + Binder 
+            </item>
             <label>Partners</label>
             <item>
-              <lb/>Special Traveling Cash Telephone Customers <lb/>general oversight and all buying
-              in <lb/>from travellers or giving orders out </item>
+              <lb/>Special Traveling Cash Telephone Customers 
+              <lb/>general oversight and all buying in 
+              <lb/>from travellers or giving orders out 
+            </item>
 
-            <label>Sales <choice>
+            <label>Sales 
+              <choice>
                 <abbr>S</abbr>
                 <expan>Shop</expan>
               </choice>
@@ -1074,20 +1109,20 @@
       </div>
 
       <div type="advice">
-        <ab>Why I thought a tin Case for each large buyer <!--[TODO: tin cases linking]-->
-          <lb/>was? at any time you thought it declining, you <lb/>could run <choice>
+        <ab>Why I thought a tin Case for each large buyer <!-- JP: [TODO: tin cases linking]-->
+          <lb/>was? at any time you thought it declining, you 
+          <lb/>could run <choice>
             <abbr>thru</abbr>
             <expan>through</expan>
-          </choice> and see at once what was about <lb/>due for re-ordering, and try to get it
-          renewed <lb/>yourself personally, or some one likely <date when="1902-12-29">Dec
-            29/1902</date>
+          </choice> and see at once what was about 
+          <lb/>due for re-ordering, and try to get it renewed 
+          <lb/>yourself personally, or some one likely <date when="1902-12-29">Dec 29/1902</date>
         </ab>
 
         <ab>
-          <lb/>I pruned by taking away <lb/>all useless orders; orders that <lb/>had become no use?
-            <date when="1909-07-16">July 16 1909</date>
-          <lb/>don't keep orders more than <lb/><num type="year" value="20">2 decades</num> or <num
-            type="year" value="20">20 years</num>
+          <lb/>I pruned by taking away <lb/>all useless orders; orders that 
+          <lb/>had become no use? <date when="1909-07-16">July 16 1909</date>
+          <lb/>don't keep orders more than <lb/><num type="year" value="20">2 decades</num> or <num type="year" value="20">20 years</num>
           <date when="1909-11-03">Nov 03 1909</date>
           <note place="top"><date when="1909">1909</date></note>
         </ab>
@@ -1106,7 +1141,7 @@
             </choice>
           </head>
 
-          <!-- Crypt? Cryph? Figure out what those pencil marks are - Cael & Lisa -->
+          <!-- CB&LH: Crypt? Cryph? Figure out what those pencil marks are -->
           <item>Cutlery <handShift medium="pencil"/><unclear reason="illegible" resp="#CB"
               >Crypt</unclear>
             <emph style="text-decoration: underline;"><unclear reason="illegible" resp="#CB"
