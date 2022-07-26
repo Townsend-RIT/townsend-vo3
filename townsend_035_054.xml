@@ -137,17 +137,17 @@
           <lb/>Master should keep his own Cash and call over
           <lb/>own Ledgers
           <persName>
-            <foreName full ="init" reg = "William"> W</foreName>
-            <surName full = "init" reg = "Townsend"> T </surName></persName><date when="1898-05-16">May 16/98</date></ab> <!-- For Jamie: Check this line -->
+            <foreName full ="init" reg = "William">W</foreName>
+            <surName full = "init" reg = "Townsend">T</surName></persName><date when="1898-05-16">May 16/98</date></ab> <!-- For Jamie: Check this line -->
         </div>
 
         <div type="index"> <!-- Add div type index -->
           <!--org-->
           <list>
             <label>
-              <orgName type = "proprietorName"> <persName>
-              <foreName full = "init"> C</foreName>
-              <surName> Cammell  </surName>
+              <orgName type="proprietorName"><persName>
+              <foreName full="init">C</foreName>
+              <surName>Cammell</surName>
             </persName> 
             </orgName>
             <choice>
@@ -182,9 +182,9 @@
           <item><num type="pageNum">12</num> <num type="pageNum">353</num></item>
 
           <label>Clerks payment 
-            <person role = "employee"> M
+            <person role="employee"> M
             <persName>
-              <surName>Fox </surName>
+              <surName>Fox</surName>
             </persName>
           </person>
           </label> 
@@ -216,11 +216,9 @@
           <lb/><num>8348</num> written by
          <!-- For Jamie: Check this line to 202 -->
             <persName>
-              <foreName full= "init" reg = "William"> W.</foreName>
-              <surName full = "init" reg = "Townsend"> T.</surName>
-            </persName>
-            
-          
+              <foreName full= "init" reg = "William">W.</foreName>
+              <surName full = "init" reg = "Townsend">T.</surName>
+            </persName>     
         </ab>
       </div>
       
@@ -249,7 +247,7 @@
             <handShift medium="pencil"/>
             <lb/>
             <persName>
-              <surName> Talleyrand </surName>
+              <surName>Talleyrand</surName>
             </persName> 
             never 
             <lb/>do yourself what
@@ -279,7 +277,8 @@
 
         <div type="other">
         <ab><num type="roman" value="1902">MDCCCCII</num> roman numerals
-          <lb/>year <date when="1902">1902</date> arabic figure</ab>
+          <lb/>year <date when="1902">1902</date> arabic figure
+        </ab>
         </div>
       <!--[End of PAGE 36]-->
 
@@ -496,7 +495,8 @@
           <lb/>and properly
         </ab>
 
-        <ab>Saturdays I think the time
+        <ab>
+          <lb/>Saturdays I think the time
           <lb/>for the one who takes duty might
           <lb/>be 8 to 3 short Cold Lunch making
           <lb/><measure>57</measure> hours whish is more than the <!-- [Measure will be returned to at a later date. -Cael & Lisa] -->
@@ -505,7 +505,7 @@
           <lb/>to make and which with probable
           <lb/>over minutes will bring the working
           <lb/>Masters hours to an average of
-          <lb/><measure>54</measure>Hours weekly as at present worked
+          <lb/><measure>54</measure> Hours weekly as at present worked
           <lb/>in Shops
           <note place="bottom">
             <lb/><date when="1890-06-17">June 17th 1890</date>
@@ -538,141 +538,149 @@
       <pb n="041" facs="CC20181003_Townsend_0041.tif"/>
       <fw type="page_number" place="top">3</fw>
 
-        <div type="instruction">
+      <div type="instruction">
         <head>
           <choice>
             <orig>Bookeeping</orig>
             <reg>Bookkeeping</reg>
-          </choice> <emph style="text-decoration-line: underline; text-decoration-style: double;">Double</emph>Entry</head>
+          </choice> <emph style="text-decoration-line: underline; text-decoration-style: double;">Double</emph>Entry
+        </head>
 
-          <ab>
-            <lb/>Have <q>&quot;Day Book&quot;</q> very carefully
-            <lb/>added and analysed every Month
-          </ab>
+        <ab>
+          <lb/>Have <q>&quot;Day Book&quot;</q> very carefully
+          <lb/>added and analysed every Month
+        </ab>
 
         <ab>
           <lb/>Every Quarter strike a Balance
           <lb/>with the Quarters Sale showing
         </ab>
-        </div>
+      </div>
       
-        <div type="log">
-        <table rows="1" cols="3"> <!-- Cael: look at this and figure out what it is if not a table -->
-          <row> 
-            <cell>
-              <lb/>Cash<lb/>as per
-              <lb/><emph style="text-decoration: underline;">Bank</emph> Book
-            </cell>
-            <cell>
-              <lb/>Abatements
-              <lb/>as per
-              <lb/><q><emph style="text-decoration: underline;">&quot;Masters&quot;</emph></q> initials
-            </cell>
-            <cell>
-              <lb/>Not Paid
-              <lb/>as per
-              <lb/>Written list + <emph style="text-decoration: underline;">why</emph>
-            </cell>
-          </row>
-        </table>
+      <div type="log">
+        <ab>
+          <table rows="1" cols="3">
+            <row> 
+              <cell>
+                <lb/>Cash
+                <lb/>as per
+                <lb/><emph style="text-decoration: underline;">Bank</emph> Book
+              </cell>
+              <cell>
+                <lb/>Abatements
+                <lb/>as per
+                <lb/><q><emph style="text-decoration: underline;">&quot;Masters&quot;</emph></q> initials
+              </cell>
+              <cell>
+                <lb/>Not Paid
+                <lb/>as per
+                <lb/>Written list + <emph style="text-decoration: underline;">why</emph>
+              </cell>
+            </row>
+           </table>
+        </ab>
 
-        <table rows="7" cols="2">
-          <head place="below">
-            <date from="1897-01" to="1897-03"> 
-              <lb/>1897
-              <choice>
-                <abbr>Jan</abbr>
-                <expan>January</expan>
-              </choice> - 
-              <choice>
-                <abbr>Mar</abbr>
-                <expan>March</expan>
-              </choice>
-            </date>
-          </head>
+        <ab>
+          <table rows="7" cols="2">
+            <head place="below">
+              <date from="1897-01" to="1897-03"> 
+                <lb/>1897
+                <choice>
+                  <abbr>Jan</abbr>
+                  <expan>January</expan>
+                </choice> - 
+                <choice>
+                  <abbr>Mar</abbr>
+                  <expan>March</expan>
+                </choice>
+              </date>
+            </head>
 
-          <row role="label">
-            <cell>
-              <emph style="text-decoration: underline;">Thus</emph>
-            </cell>
-            <cell>
-              <emph style="text-decoration: underline;">Sales £<num>2700.6.7</num></emph>
-            </cell>
-          </row>
+            <row role="label">
+              <cell>
+                <emph style="text-decoration: underline;">Thus</emph>
+              </cell>
+              <cell>
+                <emph style="text-decoration: underline;">Sales £<num>2700.6.7</num></emph>
+              </cell>
+            </row>
 
-          <row>
-            <cell>Received Cash</cell>
-            <cell><num>2339.4.10</num></cell>
-          </row>
+            <row>
+              <cell>Received Cash</cell>
+              <cell><num>2339.4.10</num></cell>
+            </row>
 
-          <row>
-            <cell>Discount</cell>
-            <cell><num>70.6.7</num></cell>
-          </row>
+            <row>
+              <cell>Discount</cell>
+              <cell><num>70.6.7</num></cell>
+            </row>
 
-          <row>
-            <cell>Allowance</cell>
-            <cell><num>17.10.6</num></cell>
-          </row>
+            <row>
+              <cell>Allowance</cell>
+              <cell><num>17.10.6</num></cell>
+            </row>
 
-          <row>
-            <cell>Lost</cell>
-            <cell><num>21.7.2</num></cell>
-          </row>
+            <row>
+              <cell>Lost</cell>
+              <cell><num>21.7.2</num></cell>
+            </row>
 
-          <row>
-            <cell>Arrears</cell>
-            <cell><emph style="text-decoration:underline;"><num>251.17.6</num></emph></cell>
-          </row>
+            <row>
+              <cell>Arrears</cell>
+              <cell><emph style="text-decoration:underline;"><num>251.17.6</num></emph></cell>
+            </row>
 
-          <row>
-            <cell></cell>
-            <cell style="border-top-style: solid"><emph style="text-decoration-line: underline; text-decoration-style: double;">£ <num>2700.6.7</num></emph></cell>
-          </row>
-        </table>
+            <row>
+              <cell></cell>
+              <cell style="border-top-style: solid"><emph style="text-decoration-line: underline; text-decoration-style: double;">£<num>2700.6.7</num></emph></cell>
+            </row>
+          </table>      
           <note place="inline">
             <lb/><q>&quot;Cash to be kept by principal&quot;</q>
           </note>
-          <ab>
-            <lb/>
-            <persName style="text-decoration-line: underline;"> 
-              <foreName> William </foreName> 
-              <surName>Townsend </surName>
-            </persName> 
-          </ab>
-        </div>
+        </ab>
+          
+        <ab>
+          <lb/>
+          <persName style="text-decoration-line: underline;"> 
+            <foreName>William</foreName> 
+            <surName>Townsend</surName>
+          </persName> 
+        </ab>
+      </div>
       
       <div type="advice">   
         <ab> 
           <lb/>
-          <orgName type = "proprietorname">
+          <orgName type="proprietorname">
             <persName> 
-              <foreName>Thomas </foreName> 
-              <surName> Firth </surName>
+              <foreName>Thomas</foreName> 
+              <surName>Firth</surName>
             </persName> &amp; Sons
           </orgName>
-       </ab>
-        <note place="below">  <!-- TODO: Make sure this note is associated with TF+S -->
-          <lb/>310.26
-        </note>
-        
-        <note place="left">
-          <lb/>Day Book
-          <lb/>form of
-          <lb/>Entry
-          <lb/>I like
-        </note>
-        
-        <ab xml:id="bracket_0041"><num>1.6</num> 
-          <choice>
-            <abbr>qrs</abbr>
-            <expan>quires</expan>
-          </choice> demy ruled &amp; <num>05</num> printed h <!-- [This "h" could be halves, its definitely a symbol -Cael & Lisa] -->
-        <lb/>rough Calf extra paged lett Day Book</ab>
-          <note sameAs="#bracket_0041" place="inline">
-            <lb/>} <num>1.7</num>
+          <note place="below">  <!-- TODO: Make sure this note is associated with TF+S -->
+            <lb/>310.26
           </note>
-        </div>
+          <note place="left">
+            <lb/>Day Book
+            <lb/>form of
+            <lb/>Entry
+            <lb/>I like
+          </note>
+       </ab>
+        
+       <ab xml:id="bracket_0041">
+         <lb/><num>1.6</num> 
+         <choice>
+           <abbr>qrs</abbr>
+           <expan>quires</expan>
+         </choice> demy ruled &amp; <num>05</num> printed h <!-- CB&LH: This "h" could be halves, its definitely a symbol -->
+         <lb/>rough Calf extra paged lett Day Book
+         <note sameAs="#bracket_0041" place="inline">
+           <lb/>} <num>1.7</num>
+         </note>
+       </ab>
+      </div>
       <!--[End of PAGE 41]-->
 
       <!--[Start of PAGE 42]-->
@@ -754,6 +762,7 @@
           </choice> I had had someone
         <lb/>to fill my place well
         </ab>
+        </div>
         
       <div type="instruction">
         <ab>
@@ -1390,7 +1399,8 @@
             <cell><choice>
               <abbr>№</abbr>
               <expan>Number</expan>
-            </choice> of Vols</cell>
+            </choice> of Vols
+            </cell>
             <cell></cell>
             <cell></cell>
           </row>
