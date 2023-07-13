@@ -44,7 +44,7 @@
                     <foreName> WILLIAM  </foreName>
                     <surName> TOWNSEND </surName> 
                 </persName>
-                    <lb />Date, <date when="1892-09-10">Sep 10 1892</date></note> </div> <!--What's the error here? -Jamie--> 
+                    <lb />Date, <date when="1892-09-10">Sep 10 1892</date></note> </div> <!-- CAEL: Note closes, does not open, check page for format -->
             </div> <!-- how to distinguish between handwriting and printed text in inserts? --> <!-- JAY: Will talk about this in meeting -->
             <div type="other"><ab style="writing mode: sideways-lr">
                 </lb>
@@ -555,7 +555,7 @@
                     <lb/>another thought?
                     <lb/>Leave Rolling machine as it is <choice><sic>chosing</sic><corr>choosing</corr></choice> <!-- are we correcting these? Jamie--> 
                     <lb/>special times for rolling - less stock in
-                    <lb/>binding Hall <!-- 'binding hall' location? -Jamie--> and more Sewers paging <!-- [NOTE: Sewers, as in people who sew, not the underground utility] -->
+                    <lb/>binding Hall and more Sewers paging <!-- [NOTE: Sewers, as in people who sew, not the underground utility] -->
                     <lb/>with cards - close doors to front part as
                     <lb/>formerly and Set if can Enter by a
                     <lb/>good Staircase from present door on
@@ -783,7 +783,7 @@
                             <expan>Company</expan>
                         </choice>
                     </orgName> 
-                    entered at <placeName> stationers Hall</placeName>
+                    entered at stationers Hall
                     <lb/>
                     <orgName type = "proprietorName"> 
                         <persName>

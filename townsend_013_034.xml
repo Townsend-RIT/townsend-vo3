@@ -92,7 +92,7 @@
                     <label>Bad Collecting</label><item><num type="pageNum">220</num></item>
                     <label>Blocks laying out</label><item><num type="pageNum">50</num></item>
                     <label>Bad Sewing</label><item><num type="pageNum">91</num></item>
-                    <label><placename>Bingham</placename> Fund</label><item><num type="pageNum">209</num></item>
+                    <label>Bingham Fund</label><item><num type="pageNum">209</num></item>
                     <label>
                         <orgName type = "city"> Brighton Free Library</orgName></label><item><num type="pageNum">269</num>B</item>
                     <label><unclear resp="#JL">Bustbudge</unclear> paper mell</label><item><num type="pageNum">315</num> <num type="pageNum">229</num></item>
@@ -176,7 +176,7 @@
                         </choice> book Making</label><item><num type="pageNum">120</num> <num type="pageNum">119</num></item>
                     <label>Club Our</label><item><num type="pageNum">350</num></item>
                     <label>Charging Notes on</label><item><num type="pageNum">252</num> <num type="pageNum">143</num></item>
-                    <label><handShift medium="pencil" /><placeName>Sheffield City</placeName></label><item><num type="pageNum">120</num></item>
+                    <label><handShift medium="pencil" />Sheffield City</label><item><num type="pageNum">120</num></item>
                     <label><handShift medium="ink" />Code <date when="1897">1897</date></label><item><num type="pageNum">177</num></item>
                     <label>Cases</label><item><num type="pageNum">12</num></item>
                     <label>Competition</label><item><num type="pageNum">213</num></item>
@@ -205,7 +205,7 @@
                         </persName>
                     </person>
                     <label>Economies</label><item><num type="pageNum">179</num></item>
-                    <label><placeName>EcclesallWorkhouse</placeName> 
+                    <label><placeName>Ecclesall Workhouse</placeName> 
                    </label><item></item>
                     <label>Estimate form leather binders</label><item><num type="pageNum">186</num></item>
                     <label>Ends making by Women objected
@@ -441,16 +441,16 @@
                         <expan>Accounting</expan>
                     </choice> books</label><item><num type="pageNum">51</num></item>
                     <label>Locks Book</label><item><num type="pageNum">212</num></item> <!-- JL: q: is Locks a name? a: when looking it up locks may be a role or technique-->
-                    <label><placeName>London</placeName> printing charges</label><item><num type="pageNum">252</num></item>
+                    <label>London printing charges</label><item><num type="pageNum">252</num></item>
                     <label> Limited Companies</label><item><num type="pageNum">353</num></item>
-                    <label><placeName>Lettering Tree Library</placeName>piece</label><item><num type="pageNum">269</num></item>
+                    <label>Lettering Tree Library piece</label><item><num type="pageNum">269</num></item>
                     <label>Litho machine</label><item><num type="pageNum">69</num></item>
                     <label>Lining 
                     <choice>
                         <abbr>A/c</abbr>
                         <expan>Accounting</expan>
                     </choice> books</label><item><num type="pageNum">182</num></item>
-                    <label> <placeName>Lettering Tree Library </placeName></label><item><num type="pageNum">269</num></item>
+                    <label>Lettering Tree Library</label><item><num type="pageNum">269</num></item>
                     <label>Lettering 
                     <choice>
                         <abbr>A/c</abbr>
@@ -695,7 +695,7 @@
                     <label>Rules for Workpeople</label><item><num type="pageNum">103</num></item>
                     <label>Ruling Ink</label><item><num type="pageNum">253</num></item>
                     <label>Relief Stamping</label><item><num type="pageNum">112</num></item>
-                    <label>Record Fifty years <placeName>Sheffield</placeName></label><item><num type="pageNum">157</num></item>
+                    <label>Record Fifty years Sheffield</label><item><num type="pageNum">157</num></item>
                     <label>Retirement</label><item><num type="pageNum">256</num></item>
                     <label>Russia Bands</label><item><num type="pageNum">38</num></item>
                     <label>Ruling  my <person role = "father">Fathers </person> <unclear resp="#JL">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
@@ -812,7 +812,7 @@
                     <label>Time</label><item><num type="pageNum">284</num></item>
                     <label><seg xml:id="trade_0031">Trade</seg> as it was and is</label><item><num type="pageNum">225</num></item>
                     <label><seg sameAs="#trade_0031">ditto</seg> changes</label><item><num type="pageNum">120</num></item>
-                    <label><handShift medium="pencil" /><orgName><placeName>London</placeName> Men Printing</orgName></label><item><num type="pageNum">252</num></item>
+                    <label><handShift medium="pencil" /><orgName>London Men Printing</orgName></label><item><num type="pageNum">252</num></item>
                     <label><handShift medium="ink" />Tin Cases and <q>their revision</q> <date when="1909-07-16">July 16 1909</date></label><item><num type="pageNum">12</num> <num type="pageNum">11</num></item>
                     <label>Tomorrow</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
                     <label>Telephone <q>mis-use of</q></label><item><num type="pageNum">212</num></item>
@@ -956,7 +956,7 @@
                     <label>Sutton Contract</label><item>12<unclear resp="#JL">ft</unclear></item>
                     <label>Stereo Foundry</label><item><num type="pageNum">176</num></item>
                     <label>Sizes how arranged</label><item><num type="pageNum">17</num> to <num type="pageNum">24</num> <num type="pageNum">120</num></item>
-                    <label><placeName>Sheffield city</placeName> estimates <q><date when="1902-09"><choice>
+                    <label>Sheffield city estimates <q><date when="1902-09"><choice>
                         <abbr>Sep.</abbr>
                         <expan>September</expan>
                     </choice> 1902</date></q></label><item><num type="pageNum">107</num></item>

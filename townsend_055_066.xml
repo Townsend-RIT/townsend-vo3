@@ -582,7 +582,7 @@
                         <cell><seg xml:id="foolscap_0057">Foolscap</seg></cell>
                         <cell><choice>
                           <abbr>4to</abbr> 
-                          <expan><measure>quarto</measure></expan> <!-- JAY: Measure needs a type. God help us all. -->
+                          <expan>quarto</expan>
                         </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
@@ -590,7 +590,7 @@
                         <cell><seg sameAs="#foolscap_0057">ditto</seg></cell>
                         <cell><choice>
                           <abbr>6s</abbr>
-                          <expan><measure>sextus</measure></expan>
+                          <expan>sextus</expan>
                         </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
@@ -598,7 +598,7 @@
                       <cell><seg sameAs="#foolscap_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>8vo</abbr>
-                        <expan><measure>octavo</measure></expan>
+                        <expan>octavo</expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
@@ -607,7 +607,7 @@
                         <cell><seg xml:id="post_0057">Post</seg></cell>
                       <cell><choice>
                         <abbr>4to</abbr>
-                        <expan><measure>quarto</measure></expan>
+                        <expan>quarto</expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num> <num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> 9001 - 9700</hi></cell>
                     </row>
@@ -615,7 +615,7 @@
                         <cell><seg sameAs="#post_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
-                        <expan><measure>sextus</measure></expan>
+                        <expan>sextus</expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num></hi></cell>
                     </row>
@@ -623,7 +623,7 @@
                       <cell><seg sameAs="#post_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>8vo</abbr>
-                        <expan><measure>octavo</measure></expan>
+                        <expan>octavo</expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH <lb/> <hi style="text-decoration: underline;"> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> <num type="roman" value="8">VIII</num> <num type="roman" value="10">X</num></hi></cell>
                     </row>
@@ -632,7 +632,7 @@
                         <cell>Demy</cell>
                       <cell><choice>
                         <abbr>4to</abbr>
-                        <expan><measure>quarto</measure></expan>
+                        <expan>quarto</expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num></hi></cell>
                     </row>
@@ -641,7 +641,7 @@
                         <cell><seg xml:id="lapost_0057">La Post</seg></cell>
                       <cell><choice>
                         <abbr>4to</abbr>
-                        <expan><measure>quarto</measure></expan>
+                        <expan>quarto</expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEF bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
@@ -649,7 +649,7 @@
                         <cell><seg sameAs="#lapost_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
-                        <expan><measure>sextus</measure></expan>
+                        <expan>sextus</expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
@@ -657,7 +657,7 @@
                       <cell><seg sameAs="#lapost_0057">ditto</seg></cell>
                       <cell><choice>
                         <abbr>6s</abbr>
-                        <expan><measure>sextus</measure></expan>
+                        <expan>sextus</expan>
                       </choice></cell>
                         <cell><num>7</num> rulings BDEFGH bind <lb/> <hi style="text-decoration: underline;"><num type="roman" value="1">I</num> <num type="roman" value="2">II</num> <num type="roman" value="3">III</num> <num type="roman" value="4">IV</num> <num type="roman" value="5">V</num> <num type="roman" value="6">VI</num> <num type="roman" value="7">VII</num> 10001 - 10700</hi></cell>
                     </row>
@@ -875,7 +875,7 @@
                   </row>
                   <note><unclear resp="JP">num</unclear> <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></note>
                   <trailer>
                     <num>10</num> thickness <lb/> <num>5</num> bindings <lb/> B ∙ D ∙ E ∙ F ∙ I ∙
@@ -1073,7 +1073,7 @@
                   </choice></cell>
                   <cell>long<lb/><choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></cell>
                   <cell>Single<lb/><choice>
                     <abbr>Led</abbr>
@@ -1200,7 +1200,7 @@
                     <expan>Foolscap</expan>
                   </choice> <num>4</num> <choice>
                     <abbr>qrs</abbr>
-                    <expan><measure>quarters</measure></expan>
+                    <expan>quarters</expan>
                   </choice> <choice>
                     <abbr>ft</abbr>
                     <expan>faint</expan>
@@ -1223,7 +1223,7 @@
                     <expan>Foolscap</expan>
                   </choice> long <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice> faint + Common <lb/>then follows indexs as below</cell>
                 </row>
                 <row>
@@ -1265,7 +1265,7 @@
                   <cell><num>1546</num>-<num>1557</num></cell>
                   <cell>La post <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice> <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
@@ -1280,14 +1280,14 @@
                   <cell><num>1582</num>-<num>1593</num></cell>
                   <cell>Demy <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice> <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <row>
                   <cell><num>1594</num>-<num>1605</num></cell>
                   <cell>Foolscap <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice> <seg sameAs="#indexs_0060">ditto</seg></cell>
                 </row>
                 <trailer>
@@ -1354,7 +1354,7 @@
               	    <expan>Foolscap</expan>
               	  </choice> <choice>
               	    <abbr>8vo</abbr>
-              	    <expan><measure>octavo</measure></expan>
+              	    <expan>octavo</expan>
               	  </choice> Bank pattern 
               	    <orgName type = "proprietorName">
               	    Roan <persName> 
@@ -1412,7 +1412,7 @@
               	    <expan>Foolscap</expan>
               	  </choice> <choice>
               	    <abbr>4to</abbr>
-              	    <expan><measure>quarto</measure></expan>
+              	    <expan>quarto</expan>
               	  </choice> margin no White Vellum</cell>
               	</row>
               	<row>
@@ -1471,7 +1471,7 @@
                     <expan>sheet</expan>
                   </choice> post <choice>
                     <abbr>8vo</abbr>
-                    <expan><measure>ocatvo</measure></expan>
+                    <expan>ocatvo</expan>
                   </choice> bank patt Roan 
                     <orgName type = "proprietorName">
                       <persName>
@@ -1491,7 +1491,7 @@
                     <expan>sheet</expan>
                   </choice> post in <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice> hd <choice>
                     <abbr>dble</abbr>
                     <expan>double</expan>
@@ -1527,7 +1527,7 @@
                 <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>3</num></label>
                 <item>faint + common in long <choice>
                   <abbr>4to</abbr>
-                  <expan><measure>quarto</measure></expan>
+                  <expan>quarto</expan>
                 </choice></item>
                 <label><seg sameAs="#e_0063">ditto</seg> <seg sameAs="#c_0063">ditto</seg> <num>4</num></label>
                 <item>Single Ledger</item>
@@ -1549,7 +1549,7 @@
                   </choice><num>10</num></cell>
                   <cell>Medium <seg xml:id="octavo_0063"><choice>
                     <abbr>8vos</abbr>
-                    <expan><measure>octavos</measure></expan>
+                    <expan>octavos</expan>
                   </choice></seg></cell>
                 </row>
                 <row>
@@ -1593,7 +1593,7 @@
                   </choice><num>6</num></cell>
                   <cell>Imperial folio <seg xml:id="and1_0064">and</seg> <seg xml:id="long4to1_0064">long <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></seg></cell>
                 </row>
                 <row>
@@ -1611,7 +1611,7 @@
                   </choice><num>7</num></cell>
                   <cell>Medium folio <seg xml:id="and2_0064">and</seg> <seg xml:id="long4to2_0064">long <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></seg></cell>
                 </row>
                 <row>
@@ -1626,14 +1626,14 @@
                   <cell></cell>
                   <cell>broad <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Imperial <seg xml:id="broad4to1_0064">broad <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></seg></cell>
                 </row>
                 <row>
@@ -1651,7 +1651,7 @@
                   </choice><num>8</num></cell>
                   <cell>Foolscap folio <seg xml:id="and3_0064">and</seg> <seg xml:id="long4to3_0064">long <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></seg></cell>
                 </row>
                 <row>
@@ -1666,14 +1666,14 @@
                   <cell></cell>
                   <cell>broad <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Medium <seg xml:id="broad4to2_0064">broad <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></seg></cell>
                 </row>
                 <row>
@@ -1691,28 +1691,28 @@
                   </choice><num>9</num></cell>
                   <cell>Foolscap broad <choice>
                     <abbr>4to</abbr>
-                    <expan><measure>quarto</measure></expan>
+                    <expan>quarto</expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Imperial <choice>
                     <abbr>8vos</abbr>
-                    <expan><measure>octavos</measure></expan>
+                    <expan>octavos</expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Super Royal <choice>
                     <abbr>8vos</abbr>
-                    <expan><measure>octavos</measure></expan>
+                    <expan>octavos</expan>
                   </choice></cell>
                 </row>
                 <row>
                   <cell></cell>
                   <cell>Royal <choice>
                     <abbr>8vos</abbr>
-                    <expan><measure>octavos</measure></expan>
+                    <expan>octavos</expan>
                   </choice></cell>
                 </row>
               </table>
@@ -1806,7 +1806,7 @@
                   <expan>Imperial</expan>
                 </choice> <num>4</num> <choice>
                   <abbr>qr</abbr>
-                  <expan><measure>quarter</measure></expan> <!-- JAY: Check to see that this says quarter -->
+                  <expan>quarter</expan> <!-- JAY: Check to see that this says quarter -->
                 </choice>
               </ab>
             </div>

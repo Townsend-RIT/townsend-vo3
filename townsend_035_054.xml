@@ -335,7 +335,8 @@
             <expan>Hot Cold</expan>
           </choice>
           <lb/>Carriage 7.45 to 8 arrive <lb/>In Workshops at 8 prompt seeing to <lb/>work until 1pm
-          from 1 to 2 dinner <lb/>in private room Hot one day Cold <lb/>next leave <placename>
+          from 1 to 2 dinner <lb/>in private room Hot one day Cold <lb/>next leave 
+          <placename>
             <address>
               <street> Surrey Street </street>
             </address>
@@ -1206,9 +1207,9 @@
             <persName>
               <surName>Wilkinson</surName>
             </persName>
-          </person> they always considered at <lb/><placeName>Birmingham</placeName>
-          <num type="fraction" value=".33">1/3</num> off full binding price <lb/>for half binding
-            <date when="1906-02-28">Feb 28/1906</date>
+          </person> they always considered at 
+          <lb/>Birmingham <num type="fraction" value=".33">1/3</num> off full binding price 
+          <lb/>for half binding <date when="1906-02-28">Feb 28/1906</date>
         </ab>
       </div>
 
