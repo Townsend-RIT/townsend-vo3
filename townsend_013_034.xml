@@ -67,7 +67,9 @@
                 
                 <!-- START PAGE 0014 -->
                 <pb facs="0014.tif" n="0014"/>
-                <fw type="tab">A <lb/> B</fw>
+                <fw type="tab">A 
+                    <lb/>B
+                </fw>
                 <ab>
                 <list type="index-b">
                     <label><handShift medium="ink" />Binders good <date when="1909-12">Dec 1909</date></label><item><num type="pageNum">193</num></item>
@@ -94,7 +96,7 @@
                     <label>Bad Sewing</label><item><num type="pageNum">91</num></item>
                     <label>Bingham Fund</label><item><num type="pageNum">209</num></item>
                     <label>
-                        <orgName type = "city"> Brighton Free Library</orgName></label><item><num type="pageNum">269</num>B</item>
+                        <orgName type="city">Brighton Free Library</orgName></label><item><num type="pageNum">269</num>B</item>
                     <label><unclear resp="#JL">Bustbudge</unclear> paper mell</label><item><num type="pageNum">315</num> <num type="pageNum">229</num></item>
                     <label>Broken slip</label><item><num type="pageNum">63</num> <num type="pageNum">64</num> <num type="pageNum">182</num> <num type="pageNum">185</num></item>
                 </list>
@@ -129,7 +131,7 @@
                     </choice> books</label><item><num type="pageNum">161</num> <num type="pageNum">27</num></item>
                     <label>Collector</label><item><num type="pageNum">92</num> <num type="pageNum">219</num> <num type="pageNum">337</num> <num type="pageNum">326</num></item>
                     <label>Composition</label><item><num type="pageNum">252</num></item>
-                    <label><orgName type="city"> Corporation Sheffield</orgName></label><item><num type="pageNum">337</num></item>
+                    <label><orgName type="city">Corporation Sheffield</orgName></label><item><num type="pageNum">337</num></item>
                     <label>Country idea</label><item><num type="pageNum">220</num></item>
                     <label>Children</label><item><num type="pageNum">258</num></item>
                     <label>Charity</label><item><num type="pageNum">235</num></item>
@@ -147,7 +149,9 @@
                 
                 <!-- START PAGE 0016 -->
                 <pb facs="0016.tif" n="0016"/>
-                <fw type="tab">C <lb/> D</fw>
+                <fw type="tab">C 
+                    <lb/>D
+                </fw>
                 <ab>
                 <list type="index-d">
                     <label>Days A working <date when="1905-11-16">Nov 16/1905</date></label><item><num type="pageNum">284</num></item>
@@ -199,24 +203,21 @@
                     <label>Electricity</label><item><num type="pageNum">83</num></item>
                     <label>Ends</label><item><num type="pageNum">181</num> <num type="pageNum">154</num> <num type="pageNum">37</num> <num type="pageNum">168</num>* *making of</item> <!-- JL: group 168 with its note -->
                     <label>Engine Ball</label><item><num type="pageNum">104</num></item>
-                    <person role = "employee">
-                        <persName>
-                        <surName> Ball </surName>
-                        </persName>
-                    </person>
+                        <persName type="employee">Ball</persName>      
                     <label>Economies</label><item><num type="pageNum">179</num></item>
                     <label><placeName>Ecclesall Workhouse</placeName> 
                    </label><item></item>
                     <label>Estimate form leather binders</label><item><num type="pageNum">186</num></item>
-                    <label>Ends making by Women objected
-                    to by <orgName>The Union</orgName></label><item><num type="pageNum">167</num></item>
+                    <label>Ends making by Women objected to by <orgName>The Union</orgName></label><item><num type="pageNum">167</num></item>
                 </list>
                 </ab>
                 <!-- END PAGE 0017 -->
                 
                 <!-- START PAGE 0018 -->
                 <pb facs="0018.tif" n="0018"/>
-                <fw type="tab">E <lb/> F</fw>
+                <fw type="tab">E 
+                    <lb/>F
+                </fw>
                 <ab>
                 <list type="index-f">
                     <label><handShift medium="pencil"/>Feeding at ruling machine</label><item><num type="pageNum">234</num></item>
@@ -246,12 +247,7 @@
                     <label>Foundry Stereo</label><item><num type="pageNum">176</num></item>
                     <label>Fare of workmen when paid</label><item><num type="pageNum">173</num></item>
                     <label>Favourable remarks by customers</label><item><num type="pageNum">206</num></item>
-                    <label>late Mr
-                        <person role = "associate">
-                        <persName>
-                            <surName>Fox </surName>
-                           </persName>
-                        </person></label><item><num type="pageNum">85</num></item>
+                    <label>late Mr<persName type="associate"> Fox</persName></label> <item><num type="pageNum">85</num></item>
                     <label>Five Essentials</label><item><num type="pageNum">13</num></item>
                     <label>Forwarding at Home</label><item><num type="pageNum">188</num> <handShift medium="pencil" /><num type="pageNum">73</num></item> <!-- JL: Is that 73 or 173? -->
                     <label><handShift medium="ink"/>Free Labour</label><item><num type="pageNum">229</num></item>
@@ -270,30 +266,16 @@
                         <label>Gas</label><item><num>200</num>, <num>344</num></item>
                     <label>Guardians application</label><item><num>274</num></item>
                     <label>GCL</label><item></item>
-                    <label>Gas Engine
-                        <person role="employee"> 
-                        <persName>  
-                            <surName>Ball</surName>
-                        </persName>
-                        </person>
+                    <label>Gas Engine <persName type="employee">Ball</persName>       
                     </label><item><num type="pageNum">104</num> <num type="pageNum">344</num></item> 
                     <label>Goods Delivery Books</label><item><num type="pageNum">10502</num></item>
-                    <label>Guard Books</label><item><num type="pageNum">4701</num></item> <!-- JL: See what the heck is going on with 10502 and 4701 -->
-                    <label> 
-                        <person role="associate">
-                        <persName>
-                            <foreName>Hs</foreName>
-                            <surName>Green</surName> 
-                        </persName> 
-                        </person> visit</label><item><num type="pageNum">227</num></item>
+                    <label>Guard Books</label><item><num type="pageNum">4701</num></item> <!-- JL: See what's going on with 10502 and 4701 -->
+                    <label><persName type="associate">Hs Green</persName> visit</label><item><num type="pageNum">227</num></item>
                     <label>Guards for Skeleton books</label><item><num type="pageNum">64</num></item>
                     <label>Good Friday</label><item><num type="pageNum">100</num></item>
                     <label>Gas Ledgers what has given way</label><item><num type="pageNum">161</num></item>
-                    <label><person role = "associate"> 
-                        <persName> 
-                            <surName>Greens</surName>
-                        </persName> 
-                    </person> visits travelling</label><item><num type="pageNum">282</num></item>
+                    <label> 
+                        <persName type="associate">Greens</persName> visits travelling</label><item><num type="pageNum">282</num></item>
                     <label>Green Vellum Price Books</label><item><num type="pageNum">15</num> <num type="pageNum">16</num></item>
                     <label>Good binders</label><item><num type="pageNum">193</num></item>
                     <label><handShift medium="pencil"/>Green</label><item><num type="pageNum">282</num></item>
@@ -303,7 +285,9 @@
                 
                 <!-- START PAGE 0020 -->
                 <pb facs="0020.tif" n="0020"/>
-                <fw type="tab">G <lb/> H</fw>
+                <fw type="tab">G 
+                    <lb/>H
+                </fw>
                 <ab>
                 <list type="index-h">
                     <label><handShift medium="ink"/><seg xml:id="holiday_0020">Holidays</seg> and <seg xml:id="absence_0020">Absence</seg></label><item><num type="pageNum">98</num></item>
@@ -316,11 +300,7 @@
                     <label>Honest Charging</label><item><num type="pageNum">265</num></item>
                     <label>Horse Keep</label><item><num type="pageNum">87</num></item>
                     <label>Home Forwarding</label><item><num type="pageNum">188</num></item>
-                    <label><handShift medium="pencil"/> <person role="employee" > 
-                        <persName> 
-                            <surName>Hurnell</surName>  
-                        </persName>
-                    </person> on Comping or Comportion</label><item><num type="pageNum">233</num></item>
+                    <label><handShift medium="pencil"/><persName type="employee">Hurnell</persName> on Comping or Comportion</label><item><num type="pageNum">233</num></item>
                 </list>
                 </ab>
                 <!-- END PAGE 0020 -->
@@ -330,10 +310,8 @@
                 <ab>
                 <list type="index-ij"> 
                     <label><handShift medium="ink" />
-                        <orgName type = "proprietorName" >Ink 
-                            <persName> 
-                                <surName>Morrel</surName>
-                            </persName>
+                        <orgName type="proprietorName">Ink 
+                            <persName>Morrel</persName>
                         </orgName> end board end paper</label><item><num type="pageNum">360</num></item>
                     <label>Index scale and stock</label><item><num type="pageNum">52</num></item>
                     <label>Index 
@@ -364,8 +342,8 @@
                     <label>Journey</label><item><num type="pageNum">67</num></item>
                     <label>Journey
                        <persName>
-                           <foreName full = "init" reg = "William" > W</foreName> 
-                           <surName full =  "init" reg = "Townsend"> T </surName> 
+                           <foreName full="init" reg="William">W</foreName> 
+                           <surName full="init" reg="Townsend">T</surName> 
                        </persName>
                     </label><item><num type="pageNum">323</num></item>
                     <label>
@@ -376,16 +354,12 @@
                    
                     <label>
                         <orgName type = "proprietorName"> 
-                            Ink <persName>
-                                <surName>Staffords</surName>
-                            </persName>
+                            Ink <persName>Staffords</persName>
                         </orgName>
                     </label><item><num type="pageNum">273</num>C</item>
                     <label>
                         <orgName type = "proprietorName">Ink
-                            <persName>
-                                <surName>Stephens</surName>
-                            </persName>
+                            <persName>Stephens</persName>
                         </orgName>
                     </label><item><num type="pageNum">273</num>C</item>
                     <label>Invoice marking</label><item></item>
@@ -404,7 +378,9 @@
                 
                 <!-- START PAGE 0022 -->
                 <pb facs="0022.tif" n="0022"/>
-                <fw type="tab">J <lb/> K</fw>
+                <fw type="tab">J 
+                    <lb/>K
+                </fw>
                 <list type="index-k">
                     <label><handShift medium="ink"/><seg xml:id="key_to_0022">Key to 
                         <choice>
@@ -458,13 +434,7 @@
                     </choice> books</label><item><num type="pageNum">273</num>E</item>
                     <label>Litho blunder</label><item><num type="pageNum">261</num></item>
                     <label>Lost Money on Endeavours for Trade</label><item><num type="pageNum">280</num></item>
-                    <label><seg xml:id="lowestoft_0023">
-                        <person role="employee"> 
-                        <persName>
-                            <surName>Lowestoft</surName> 
-                        </persName>
-                         </person>
-                    </seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
+                    <label><seg xml:id="lowestoft_0023"><persName type="employee">Lowestoft </persName></seg> <seg xml:id="thoughts_0023">thoughts</seg> packing room</label><item><num type="pageNum">88</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Collector</label><item><num type="pageNum">92</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> Manitola wheat excellence of</label><item><num type="pageNum">114</num></item>
                     <label><seg sameAs="#lowestoft_0023">ditto</seg> <seg sameAs="#thoughts_0023">ditto</seg> on Piece</label><item><num type="pageNum">204</num></item>
@@ -479,19 +449,16 @@
                 
                 <!-- START PAGE 0024 -->
                 <pb facs="0024.tif" n="0024"/>
-                <fw type="tab">L <lb/>M</fw>
+                <fw type="tab">L 
+                    <lb/>M
+                </fw>
                 <list type="index-m">
                     <label>Morning and Afternood Workshop visits</label><item><num type="pageNum">205</num></item>
                     <label>Minutes Estimate &amp; loss of</label><item><num type="pageNum">248</num></item>
                     <label>Millboard Order</label><item><num type="pageNum">121</num></item>
                     <label>Man</label><item><num type="pageNum"><num type="fraction" value="0.5">1/2</num></num></item>
                     <label>Mind</label><item><num type="pageNum"><num type="fraction" value="0.75">3/4</num></num></item>
-                    <label>
-                        <person role = "employee"> 
-                        <persName>
-                            <surName>Marshalls</surName>
-                        </persName>
-                    </person> letter on 
+                    <label><persName type="employee">Marshalls</persName> letter on 
                     <choice>
                         <abbr>a/c</abbr>
                         <expan>accounting</expan>
@@ -545,7 +512,9 @@
                 
                 <!-- START PAGE 0026 -->
                 <pb facs="0026.tif" n="0026"/>
-                <fw type="tab">N <lb/>O</fw>
+                <fw type="tab">N 
+                    <lb/>O
+                </fw>
                 <list type="index-o">
                     <label>Orders treatment of</label><item><num type="pageNum">297</num></item>
                     <label><seg xml:id="office_0026">Office</seg> Salaries</label><item><num type="pageNum">300</num></item>
@@ -574,11 +543,8 @@
                     </choice> books destruction <unclear resp="#JL">bof</unclear></label><item><num type="pageNum">51</num></item>
                     <label>Oath for <unclear resp="#JL">Finns</unclear> secret printing</label><item><num type="pageNum">337</num></item>
                     <label>Overseer</label><item><num type="pageNum">201</num></item>
-                    <label><orgName type = "proprietorName">
-                        <persName>
-                            <surName>Osborne</surName>
-                            <foreName > JH </foreName>
-                        </persName> 
+                    <label><orgName type="proprietorName">
+                        <persName>Osborne JH </persName> 
                     </orgName>
                     </label><item><num type="pageNum">163</num></item>
                     <label>Overwork</label><item><num type="pageNum">196</num></item>
@@ -604,10 +570,8 @@
                     <label>Paste making of</label><item><num type="pageNum">113</num></item>
                     <label>Pencils
                         <orgName type="proprietorName">
-                            <persName>
-                                <foreName full="init">E</foreName>
-                                <surName>Wolff</surName>  
-                            </persName>Son
+                            <persName>E Wolff  
+                            </persName> Son
                         </orgName>
                     </label><item><num type="pageNum">353</num></item>
                     <label>Proof Reading</label><item><num type="pageNum">251</num></item>
@@ -631,7 +595,9 @@
                 
                 <!-- START PAGE 0028 -->
                 <pb facs="0028.tif" n="0028"/>
-                <fw type="tab">P <lb/>Q</fw>
+                <fw type="tab">P 
+                    <lb/>Q
+                </fw>
                 <list type="index-q">
                     <label>Quality of Work</label><item><num type="pageNum">28</num></item>
                     <label>Quoted prices not to be exceeded</label><item><num type="pageNum">356</num></item>
@@ -668,13 +634,9 @@
                     <label>Perqusites to workmen never allow</label><item><num type="pageNum">105</num></item>
                     <label>Parcels of Vellum binding how to get on</label><item><num type="pageNum">161</num></item>
                     <label>
-                        <orgName type="proprietor name"> 
-                            <persName>
-                                <surName>Pawson</surName> 
-                            </persName>
-                            <persName> 
-                                <surName>Brailsford</surName> 
-                            </persName>
+                        <orgName type="proprietorName"> 
+                            <persName>Pawson</persName>
+                            <persName>Brailsford</persName>
                         </orgName> Estimating </label><item><num type="pageNum">355</num></item> </list>
                 <!-- END PAGE 0028 -->
                 
@@ -698,7 +660,7 @@
                     <label>Record Fifty years Sheffield</label><item><num type="pageNum">157</num></item>
                     <label>Retirement</label><item><num type="pageNum">256</num></item>
                     <label>Russia Bands</label><item><num type="pageNum">38</num></item>
-                    <label>Ruling  my <person role = "father">Fathers </person> <unclear resp="#JL">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
+                    <label>Ruling my Fathers <unclear resp="#JL">EC</unclear> meaning</label><item><num type="pageNum">25</num></item>
                     <label>Rates and Taxes</label><item><num type="pageNum">211</num></item>
                     <label>Roof idea for Works</label><item><num type="pageNum">338</num></item>
                     <label>Ruling meanings of</label><item><num type="pageNum">21</num></item>
@@ -711,7 +673,9 @@
                 
                 <!-- START PAGE 0030 -->
                 <pb facs="0030.tif" n="0030"/>
-                <fw type="tab">R <lb/>S</fw>
+                <fw type="tab">R 
+                    <lb/>S
+                </fw>
                 <list type="index-s">
                     <label>Sewing 
                     <choice>
@@ -735,7 +699,7 @@
                     <label>Stationery binding</label><item><num type="pageNum">152</num></item>
                     <label>Sick time, short time</label><item><num type="pageNum">97</num> <num type="pageNum">98</num></item>
                     <label>Sewing bulgy uneven + tugging</label><item><num type="pageNum">152</num> <num type="pageNum">91</num></item>
-                    <label><orgName type = "city"> Sheffield Banking 
+                    <label><orgName type="city"> Sheffield Banking 
                     <choice>
                         <abbr>Co</abbr>
                         <expan>Company</expan> 
@@ -773,11 +737,8 @@
                     <label>Traveller Wages for</label><item><num type="pageNum">299</num></item>
                     <label>Travellers Diary</label><item><num type="pageNum">333</num></item>
                     <label>
-                        <orgName type = "proprietorname"> 
-                        <persName>
-                            <foreName full = "init" reg = "Thomas"> T </foreName> 
-                            <surName> Turner  </surName> 
-                        </persName>
+                        <orgName type="proprietorName"> 
+                        <persName>T Turner</persName>
                     <choice>
                         <abbr>Co</abbr>
                         <expan>Company</expan>
@@ -798,17 +759,10 @@
                         <expan>books</expan>
                     </choice></label><item><num type="pageNum">29</num></item>
                     <label>Time office attendance</label><item><num type="pageNum">74</num></item>
-                    <label>
-                        <persName>
-                            <surname> Townsend </surname>
-                        </persName>
-                        <unclear resp="#JL">M instruc</unclear> from home</label><item><num type="pageNum">257</num></item>
+                    <label><persName>Townsend</persName> <unclear resp="#JL">M instruc</unclear> from home</label><item><num type="pageNum">257</num></item>
                     <label>Travellers Calls</label><item><num type="pageNum">285</num></item>
                     <label>Terms</label><item><num type="pageNum">225</num></item>
-                    <label>
-                        <persName>
-                            <surname>Townsend </surname>
-                        </persName> colour</label><item><num type="pageNum">221</num></item>
+                    <label><persName>Townsend</persName> colour</label><item><num type="pageNum">221</num></item>
                     <label>Time</label><item><num type="pageNum">284</num></item>
                     <label><seg xml:id="trade_0031">Trade</seg> as it was and is</label><item><num type="pageNum">225</num></item>
                     <label><seg sameAs="#trade_0031">ditto</seg> changes</label><item><num type="pageNum">120</num></item>
@@ -825,16 +779,16 @@
                 
                 <!-- START PAGE 0032 -->
                 <pb facs="0032.tif" n="0032"/>
-                <fw type="tab">T <lb/>V</fw>
+                <fw type="tab">T 
+                    <lb/>V
+                </fw>
                 <list type="index-uv">
                     <label>Union of Prices idea</label><item><num type="pageNum">271</num></item>
                     <label>Union jottings complaints of</label><item><num type="pageNum">180</num> <num type="pageNum">341</num></item>
                     <label>Visitors Calls</label><item><num type="pageNum">285</num></item>
                     <label>
                         <orgName type="proprietorname"> 
-                            <persName>
-                                <surName>Vickers</surName>
-                            </persName>
+                            <persName>Vickers</persName>
                         </orgName> Imperial giving way</label><item><num type="pageNum">197</num></item>
                     <label>Union Non (ideas upon) print + office</label><item><num type="pageNum">240</num></item>
                     <label>Vigilance</label><item><num type="pageNum">224</num></item>
@@ -856,17 +810,7 @@
                     <label>Type per hour Machine &amp; Comp</label><item><num type="pageNum">250</num></item>
                     <label>Terms</label><item><num type="pageNum">273</num>A</item>
                     <!-- JC: look up Dawson-->
-                    <label>Travelling notes 
-                        <person role = "associate"> 
-                        <persName>
-                            <surName> Green</surName>
-                        </persName> 
-                    </person> on  
-                        <person role = "associate"> 
-                          <persName> 
-                            <surName> Dawson </surName>
-                          </persName>
-                        </person> leading</label><item><num type="pageNum">164</num> <num type="pageNum">282</num></item> <!-- JL: Group 164 and "on Dawson leaning" -->
+                    <label>Travelling notes <persName type="associate">Green</persName> on <persName type="associate">Dawson</persName> leading</label><item><num type="pageNum">164</num> <num type="pageNum">282</num></item> <!-- JL: Group 164 and "on Dawson leaning" -->
                     <label>Theft in Sales Shop</label><item><num type="pageNum">86</num></item>
                 </list>
                 <!-- END PAGE 0032 -->
@@ -884,10 +828,8 @@
                         <expan>books</expan>
                     </choice></label><item><num type="pageNum">270</num></item>
                     <label>Wood Engraving by
-                        <orgName type="proprietorname">
-                            <persName>
-                                <surName> Cassell </surName>
-                            </persName>
+                        <orgName type="proprietorName">
+                            <persName>Cassell</persName>
                         </orgName> 
                     </label><item><num type="pageNum">149</num></item>
                     <label>Workmen Inquiry</label><item><num type="pageNum">357</num></item>
@@ -910,7 +852,9 @@
                 
                 <!-- START PAGE 0034 -->
                 <pb facs="0034.tif" n="0034" />
-                <fw type="tab">W <lb/>X</fw>
+                <fw type="tab">W 
+                    <lb/>X
+                </fw>
                 <list type="index-w">
                     <label>Work Progress of 
                     <choice>
@@ -918,28 +862,16 @@
                         <expan>Accounting</expan>
                     </choice> books</label><item><num type="pageNum">169</num> <num type="pageNum">181</num></item> <!-- JL: Is this 169 and 181 or 169-181 -->
                     <label>
-                        <orgName type="proprietorname">
-                            <persName>
-                                <surName>Walker</surName>
-                            </persName> + 
-                            <persName> 
-                                <surName>Hall </surName>
-                            </persName> 
+                        <orgName type="proprietorName">
+                            <persName>Walker</persName> + <persName>Hall</persName> 
                         </orgName>
                         <address> 
                         <street>Howard Street</street> 
-                        </address>
-                        law case darkening building</label><item><num type="pageNum">209</num></item>
+                        </address> law case darkening building</label><item><num type="pageNum">209</num></item>
                     <label>Webbing</label><item><num type="pageNum">91</num> <num type="pageNum">61</num></item>
                     <label>Writing paper ordered New Years Day</label><item><num type="pageNum">189</num></item> <!-- JL: Should things like NYD and Christmas be marked as days? -->
                     <label>Wages Historical</label><item><num type="pageNum">191</num></item>
-                    <label>
-                        <person role="associate">
-                            <persName> 
-                                <surName>Wortly </surName> 
-                                <foreName> Joshua </foreName> 
-                            </persName> 
-                        </person> pattern of money column</label><item><num type="pageNum">254</num></item>
+                    <label><persName type="associate">Wortly Joshua</persName> pattern of money column</label><item><num type="pageNum">254</num></item>
                     <label>Writing Paper per 
                     <choice>
                         <abbr>ft</abbr>
@@ -966,10 +898,8 @@
                     <label>Stock required</label><item><num type="pageNum">189</num></item>
                     <!--org-->
                     <label>
-                        <orgName type="proprietorname">
-                            <persName> 
-                                <surName> Stephens</surName>
-                            </persName> ink
+                        <orgName type="proprietorName">
+                            <persName>Stephens</persName> ink
                         </orgName>
                     </label><item><num type="pageNum">273</num>C</item>
                     <label>Skeleton Guard books Sewing</label><item><num type="pageNum">185</num></item>
